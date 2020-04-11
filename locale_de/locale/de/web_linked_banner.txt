@@ -1,0 +1,15 @@
+Group Info
+{
+
+	on_off	0
+}
+
+Group Banner
+{
+	
+	Group Link_Metin2_Account_With_Steam
+	{
+		text		"Verlinke jetzt Steam mit deinem Metin2-Account!"
+		url			"https://qa-de-website.metin2.gfsrv.net/user/moveingame"
+	}
+}

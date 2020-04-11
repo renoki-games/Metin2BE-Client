@@ -1,0 +1,33 @@
+Group info
+{
+	on_off	0
+	get_address	https://webzen:3ewpp3uFzhLbDTjR@ext-dev-uso-backend.metin2.gfsrv.net/api/getcampaigns/
+}
+
+Group link_address
+{
+	1	http://[FRONTEND_DOMAIN]
+	2	http://[FRONTEND_DOMAIN]
+	3	http://[FRONTEND_DOMAIN]
+	4	http://[FRONTEND_DOMAIN]
+	5	http://[FRONTEND_DOMAIN]
+	6	http://[FRONTEND_DOMAIN]
+	7	http://[FRONTEND_DOMAIN]
+	8	http://[FRONTEND_DOMAIN]
+	9	http://[FRONTEND_DOMAIN]
+	10	http://[FRONTEND_DOMAIN]
+}
+
+Group minimization_loca
+{
+	1	"Payment"
+	2	"Promotion"
+	3	"Event item"
+	4	"Sales item"
+	5	"test22"
+	6	"test333"
+	7	"test444"
+	8	"test5555"
+	9	"test66666"
+	10	"test7777777"
+}

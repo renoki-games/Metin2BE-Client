@@ -1,0 +1,14 @@
+1	Standard	30000
+1	Tausendundeine Nacht	30002
+1	Grillmeister	30003
+1	Schatzjäger	30004
+1	Sparflamme	30005
+1	Waffenhändler	30006
+1	Rüstungsgeschäft	30007
+1	Alchemist	30008
+2	Inferno	d:/ymir work/ui/pattern/myshop/fire/p_fire	0xFF976D
+2	Eiszeit	d:/ymir work/ui/pattern/myshop/ice/p_ice	0xF9F4FF
+2	Pergament	d:/ymir work/ui/pattern/myshop/paper/p_paper	0xFFBF8B
+2	Kriegsbanner	d:/ymir work/ui/pattern/myshop/ribon/p_ribon	0xFFECD1
+2	Schwingen	d:/ymir work/ui/pattern/myshop/wing/p_wing	0xF1ECE1
+

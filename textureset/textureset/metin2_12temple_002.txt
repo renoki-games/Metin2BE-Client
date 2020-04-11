@@ -1,0 +1,34 @@
+TextureSet
+
+TextureCount 3
+
+Start Texture001
+    "d:\ymir work\terrainmaps\capedragonhead\CapeDragon_grass003.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001
+Start Texture002
+    "d:\ymir work\terrainmaps\capedragonhead\CapeDragon_stone001.dds"
+    2.000000
+    1.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture002
+Start Texture003
+    "d:\ymir work\terrainmaps\capedragonhead\capedragon_field001.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture003
