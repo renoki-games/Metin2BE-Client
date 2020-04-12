@@ -1366,3 +1366,33 @@ class LoginWindow(ui.ScriptWindow):
 			return
 
 		self.Connect(id, pwd)
+
+	#@Test
+	def SetServerIP(self, ip):
+		regionID = self.__GetRegionID()
+		serverID = self.__GetServerID() or 1
+		channelID = self.__GetChannelID() or 1
+
+		account_port = serverInfo.REGION_AUTH_SERVER_DICT[regionID][serverID]["port"]
+		tcp_port = serverInfo.REGION_DICT[regionID][serverID]["channel"][channelID]["tcp_port"]
+
+		self.stream.SetConnectInfo(ip, tcp_port, ip, account_port)
+
+	#@Test
+	def OnKeyDown(self, key):
+		test_data = {
+			app.DIK_F1 : {'id': 'lead', 'pwd': 'lead'},
+			app.DIK_F2 : {'id': 'test', 'pwd': 'lead'},
+			app.DIK_F3 : {'id': 'test1', 'pwd': 'lead'},
+			app.DIK_F4 : {'id': 'test3', 'pwd': 'lead'},
+			app.DIK_F5 : {'id': 'test5', 'pwd': 'lead'},
+		}
+
+		if not test_data.has_key(key):
+			return None
+
+		self.idEditLine.SetText(test_data[key]['id'])
+		self.pwdEditLine.SetText(test_data[key]['pwd'])
+
+		self.SetServerIP(serverInfo.SRV1["host"])
+		self.Connect(self.idEditLine.GetText(), self.pwdEditLine.GetText())
