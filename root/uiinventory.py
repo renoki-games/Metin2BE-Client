@@ -312,7 +312,6 @@ class InventoryWindow(ui.ScriptWindow):
 			self.wndMoney = self.GetChild("Money")
 			self.wndMoneySlot = self.GetChild("Money_Slot")
 			self.mallButton = self.GetChild2("MallButton")
-			self.DSSButton = self.GetChild2("DSSButton")
 			self.costumeButton = self.GetChild2("CostumeButton")
 
 			self.inventoryTab = []
@@ -388,9 +387,6 @@ class InventoryWindow(ui.ScriptWindow):
 		if self.mallButton:
 			self.mallButton.SetEvent(ui.__mem_func__(self.ClickMallButton))
 
-		if self.DSSButton:
-			self.DSSButton.SetEvent(ui.__mem_func__(self.ClickDSSButton))
-
 		# Costume Button
 		if self.costumeButton:
 			self.costumeButton.SetEvent(ui.__mem_func__(self.ClickCostumeButton))
@@ -425,7 +421,6 @@ class InventoryWindow(ui.ScriptWindow):
 		self.wndMoneySlot = 0
 		self.questionDialog = None
 		self.mallButton = None
-		self.DSSButton = None
 		self.interface = None
 
 		if self.wndCostume:
@@ -479,11 +474,6 @@ class InventoryWindow(ui.ScriptWindow):
 	def ClickMallButton(self):
 		print "click_mall_button"
 		net.SendChatPacket("/click_mall")
-
-	# DSSButton
-	def ClickDSSButton(self):
-		print "click_dss_button"
-		self.interface.ToggleDragonSoulWindow()
 
 	def ClickCostumeButton(self):
 		print "Click Costume Button"
@@ -1188,11 +1178,6 @@ class InventoryWindow(ui.ScriptWindow):
 
 		slotIndex = self.__InventoryLocalSlotPosToGlobalSlotPos(slotIndex)
 
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			if self.wndDragonSoulRefine.IsShow():
-				self.wndDragonSoulRefine.AutoSetItem((player.INVENTORY, slotIndex), 1)
-				return
-
 		self.__UseItem(slotIndex)
 		mouseModule.mouseController.DeattachObject()
 		self.OverOutItem()
@@ -1244,10 +1229,6 @@ class InventoryWindow(ui.ScriptWindow):
 			return
 
 		net.SendItemMovePacket(srcSlotPos, dstSlotPos, srcItemCount)
-
-	def SetDragonSoulRefineWindow(self, wndDragonSoulRefine):
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			self.wndDragonSoulRefine = wndDragonSoulRefine
 
 	def OnMoveWindow(self, x, y):
 #		print "Inventory Global Pos : ", self.GetGlobalPosition()

@@ -2769,7 +2769,6 @@ class PythonScriptLoader(object):
 		import player
 		import app
 		self.ScriptDictionary["PLAYER_NAME_MAX_LEN"] = chr.PLAYER_NAME_MAX_LEN
-		self.ScriptDictionary["DRAGON_SOUL_EQUIPMENT_SLOT_START"] = player.DRAGON_SOUL_EQUIPMENT_SLOT_START
 		self.ScriptDictionary["LOCALE_PATH"] = app.GetLocalePath()
 
 		if __USE_EXTRA_CYTHON__:
@@ -2788,7 +2787,7 @@ class PythonScriptLoader(object):
 			# copy scriptdictionary stuff to builtin scope (otherwise, import will fail)
 			tpl2Main = (
 				"SCREEN_WIDTH","SCREEN_HEIGHT",
-				"PLAYER_NAME_MAX_LEN", "DRAGON_SOUL_EQUIPMENT_SLOT_START","LOCALE_PATH"
+				"PLAYER_NAME_MAX_LEN", "LOCALE_PATH"
 			)
 			import __builtin__ as bt
 			for idx in tpl2Main:

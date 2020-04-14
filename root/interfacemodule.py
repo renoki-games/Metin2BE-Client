@@ -10,7 +10,6 @@ import player
 import uiTaskBar
 import uiCharacter
 import uiInventory
-import uiDragonSoul
 import uiChat
 import uiMessenger
 import guild
@@ -66,9 +65,6 @@ class Interface(object):
 		self.wndTaskBar = None
 		self.wndCharacter = None
 		self.wndInventory = None
-		self.wndExpandedTaskBar = None
-		self.wndDragonSoul = None
-		self.wndDragonSoulRefine = None
 		self.wndChat = None
 		self.wndMessenger = None
 		self.wndMiniMap = None
@@ -129,14 +125,7 @@ class Interface(object):
 		self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_INVENTORY, ui.__mem_func__(self.ToggleInventoryWindow))
 		self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_MESSENGER, ui.__mem_func__(self.ToggleMessenger))
 		self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_SYSTEM, ui.__mem_func__(self.ToggleSystemDialog))
-		if uiTaskBar.TaskBar.IS_EXPANDED:
-			self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_EXPAND, ui.__mem_func__(self.ToggleExpandedButton))
-			self.wndExpandedTaskBar = uiTaskBar.ExpandedTaskBar()
-			self.wndExpandedTaskBar.LoadWindow()
-			self.wndExpandedTaskBar.SetToggleButtonEvent(uiTaskBar.ExpandedTaskBar.BUTTON_DRAGON_SOUL, ui.__mem_func__(self.ToggleDragonSoulWindow))
-
-		else:
-			self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_CHAT, ui.__mem_func__(self.ToggleChat))
+		self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_CHAT, ui.__mem_func__(self.ToggleChat))
 
 		self.wndEnergyBar = None
 		import app
@@ -169,12 +158,6 @@ class Interface(object):
 		wndCharacter = uiCharacter.CharacterWindow()
 		wndInventory = uiInventory.InventoryWindow()
 		wndInventory.BindInterfaceClass(self)
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			wndDragonSoul = uiDragonSoul.DragonSoulWindow()
-			wndDragonSoulRefine = uiDragonSoul.DragonSoulRefineWindow()
-		else:
-			wndDragonSoul = None
-			wndDragonSoulRefine = None
 
 		wndMiniMap = uiMiniMap.MiniMap()
 		wndSafebox = uiSafebox.SafeboxWindow()
@@ -189,16 +172,9 @@ class Interface(object):
 
 		self.wndCharacter = wndCharacter
 		self.wndInventory = wndInventory
-		self.wndDragonSoul = wndDragonSoul
-		self.wndDragonSoulRefine = wndDragonSoulRefine
 		self.wndMiniMap = wndMiniMap
 		self.wndSafebox = wndSafebox
 		self.wndChatLog = wndChatLog
-
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			self.wndDragonSoul.SetDragonSoulRefineWindow(self.wndDragonSoulRefine)
-			self.wndDragonSoulRefine.SetInventoryWindows(self.wndInventory, self.wndDragonSoul)
-			self.wndInventory.SetDragonSoulRefineWindow(self.wndDragonSoulRefine)
 
 	def __MakeDialogs(self):
 		self.dlgExchange = uiExchange.ExchangeDialog()
@@ -306,9 +282,6 @@ class Interface(object):
 		self.privateShopAdvertisementBoardDict = {}
 
 		self.wndInventory.SetItemToolTip(self.tooltipItem)
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			self.wndDragonSoul.SetItemToolTip(self.tooltipItem)
-			self.wndDragonSoulRefine.SetItemToolTip(self.tooltipItem)
 		self.wndSafebox.SetItemToolTip(self.tooltipItem)
 		self.wndCube.SetItemToolTip(self.tooltipItem)
 		self.wndCubeResult.SetItemToolTip(self.tooltipItem)
@@ -331,7 +304,6 @@ class Interface(object):
 		self.privateShopBuilder.SetItemToolTip(self.tooltipItem)
 
 		self.__InitWhisper()
-		self.DRAGON_SOUL_IS_QUALIFIED = False
 
 	def MakeHyperlinkTooltip(self, hyperlink):
 		tokens = hyperlink.split(":")
@@ -364,9 +336,6 @@ class Interface(object):
 		if self.wndTaskBar:
 			self.wndTaskBar.Destroy()
 
-		if self.wndExpandedTaskBar:
-			self.wndExpandedTaskBar.Destroy()
-
 		if self.wndEnergyBar:
 			self.wndEnergyBar.Destroy()
 
@@ -375,12 +344,6 @@ class Interface(object):
 
 		if self.wndInventory:
 			self.wndInventory.Destroy()
-
-		if self.wndDragonSoul:
-			self.wndDragonSoul.Destroy()
-
-		if self.wndDragonSoulRefine:
-			self.wndDragonSoulRefine.Destroy()
 
 		if self.dlgExchange:
 			self.dlgExchange.Destroy()
@@ -474,15 +437,9 @@ class Interface(object):
 		del self.wndUICurtain
 		del self.wndChat
 		del self.wndTaskBar
-		if self.wndExpandedTaskBar:
-			del self.wndExpandedTaskBar
 		del self.wndEnergyBar
 		del self.wndCharacter
 		del self.wndInventory
-		if self.wndDragonSoul:
-			del self.wndDragonSoul
-		if self.wndDragonSoulRefine:
-			del self.wndDragonSoulRefine
 		del self.dlgExchange
 		del self.dlgPointReset
 		del self.dlgShop
@@ -548,8 +505,6 @@ class Interface(object):
 		self.wndInventory.RefreshStatus()
 		if self.wndEnergyBar:
 			self.wndEnergyBar.RefreshStatus()
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			self.wndDragonSoul.RefreshStatus()
 
 	def RefreshStamina(self):
 		self.wndTaskBar.RefreshStamina()
@@ -561,8 +516,6 @@ class Interface(object):
 	def RefreshInventory(self):
 		self.wndTaskBar.RefreshQuickSlot()
 		self.wndInventory.RefreshItemSlot()
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			self.wndDragonSoul.RefreshItemSlot()
 
 	def RefreshCharacter(self): ## Character 페이지의 얼굴, Inventory 페이지의 전신 그림 등의 Refresh
 		self.wndCharacter.RefreshCharacter()
@@ -820,16 +773,10 @@ class Interface(object):
 		self.wndTaskBar.Show()
 		self.wndCharacter.Show()
 		self.wndInventory.Show()
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			self.wndDragonSoul.Show()
-			self.wndDragonSoulRefine.Show()
 		self.wndChat.Show()
 		self.wndMiniMap.Show()
 		if self.wndEnergyBar:
 			self.wndEnergyBar.Show()
-		if self.wndExpandedTaskBar:
-			self.wndExpandedTaskBar.Show()
-			self.wndExpandedTaskBar.SetTop()
 
 	def HideAllWindows(self):
 		if self.wndTaskBar:
@@ -844,10 +791,6 @@ class Interface(object):
 		if self.wndInventory:
 			self.wndInventory.Hide()
 
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			self.wndDragonSoul.Hide()
-			self.wndDragonSoulRefine.Hide()
-
 		if self.wndChat:
 			self.wndChat.Hide()
 
@@ -859,9 +802,6 @@ class Interface(object):
 
 		if self.wndGuild:
 			self.wndGuild.Hide()
-
-		if self.wndExpandedTaskBar:
-			self.wndExpandedTaskBar.Hide()
 
 
 	def ShowMouseImage(self):
@@ -967,87 +907,6 @@ class Interface(object):
 				self.wndInventory.OverOutItem()
 				self.wndInventory.Close()
 
-	def ToggleExpandedButton(self):
-		if False == player.IsObserverMode():
-			if False == self.wndExpandedTaskBar.IsShow():
-				self.wndExpandedTaskBar.Show()
-				self.wndExpandedTaskBar.SetTop()
-			else:
-				self.wndExpandedTaskBar.Close()
-
-	# 용혼석
-	def DragonSoulActivate(self, deck):
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			self.wndDragonSoul.ActivateDragonSoulByExtern(deck)
-
-	def DragonSoulDeactivate(self):
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			self.wndDragonSoul.DeactivateDragonSoul()
-
-	def Highligt_Item(self, inven_type, inven_pos):
-		if player.DRAGON_SOUL_INVENTORY == inven_type:
-			if app.ENABLE_DRAGON_SOUL_SYSTEM:
-				self.wndDragonSoul.HighlightSlot(inven_pos)
-
-	def DragonSoulGiveQuilification(self):
-		self.DRAGON_SOUL_IS_QUALIFIED = True
-		self.wndExpandedTaskBar.SetToolTipText(uiTaskBar.ExpandedTaskBar.BUTTON_DRAGON_SOUL, uiScriptLocale.TASKBAR_DRAGON_SOUL)
-
-	def ToggleDragonSoulWindow(self):
-		if False == player.IsObserverMode():
-			if app.ENABLE_DRAGON_SOUL_SYSTEM:
-				if False == self.wndDragonSoul.IsShow():
-					if self.DRAGON_SOUL_IS_QUALIFIED:
-						self.wndDragonSoul.Show()
-					else:
-						try:
-							self.wndPopupDialog.SetText(localeInfo.DRAGON_SOUL_UNQUALIFIED)
-							self.wndPopupDialog.Open()
-						except:
-							self.wndPopupDialog = uiCommon.PopupDialog()
-							self.wndPopupDialog.SetText(localeInfo.DRAGON_SOUL_UNQUALIFIED)
-							self.wndPopupDialog.Open()
-				else:
-					self.wndDragonSoul.Close()
-
-	def ToggleDragonSoulWindowWithNoInfo(self):
-		if False == player.IsObserverMode():
-			if app.ENABLE_DRAGON_SOUL_SYSTEM:
-				if False == self.wndDragonSoul.IsShow():
-					if self.DRAGON_SOUL_IS_QUALIFIED:
-						self.wndDragonSoul.Show()
-				else:
-					self.wndDragonSoul.Close()
-
-	def FailDragonSoulRefine(self, reason, inven_type, inven_pos):
-		if False == player.IsObserverMode():
-			if app.ENABLE_DRAGON_SOUL_SYSTEM:
-				if True == self.wndDragonSoulRefine.IsShow():
-					self.wndDragonSoulRefine.RefineFail(reason, inven_type, inven_pos)
-
-	def SucceedDragonSoulRefine(self, inven_type, inven_pos):
-		if False == player.IsObserverMode():
-			if app.ENABLE_DRAGON_SOUL_SYSTEM:
-				if True == self.wndDragonSoulRefine.IsShow():
-					self.wndDragonSoulRefine.RefineSucceed(inven_type, inven_pos)
-
-	def OpenDragonSoulRefineWindow(self):
-		if False == player.IsObserverMode():
-			if app.ENABLE_DRAGON_SOUL_SYSTEM:
-				if False == self.wndDragonSoulRefine.IsShow():
-					self.wndDragonSoulRefine.Show()
-					if None != self.wndDragonSoul:
-						if False == self.wndDragonSoul.IsShow():
-							self.wndDragonSoul.Show()
-
-	def CloseDragonSoulRefineWindow(self):
-		if False == player.IsObserverMode():
-			if app.ENABLE_DRAGON_SOUL_SYSTEM:
-				if True == self.wndDragonSoulRefine.IsShow():
-					self.wndDragonSoulRefine.Close()
-
-	# 용혼석 끝
-
 	def ToggleGuildWindow(self):
 		if not self.wndGuild.IsShow():
 			if self.wndGuild.CanOpen():
@@ -1145,13 +1004,6 @@ class Interface(object):
 
 		if self.wndEnergyBar:
 			hideWindows += self.wndEnergyBar,
-
-		if self.wndExpandedTaskBar:
-			hideWindows += self.wndExpandedTaskBar,
-
-		if app.ENABLE_DRAGON_SOUL_SYSTEM:
-			hideWindows += self.wndDragonSoul,\
-						self.wndDragonSoulRefine,
 
 		hideWindows = filter(lambda x:x.IsShow(), hideWindows)
 		map(lambda x:x.Hide(), hideWindows)

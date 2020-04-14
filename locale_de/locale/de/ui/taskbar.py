@@ -373,7 +373,7 @@ window = {
 			"children" :
 			(
 				{
-					"name" : "ExpandButton",
+					"name" : "ChatButton",
 					"type" : "button",
 
 					"x" : 128,

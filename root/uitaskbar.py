@@ -179,47 +179,6 @@ class EnergyBar(ui.ScriptWindow):
 		else:
 			self.tooltipEnergy.Hide()
 
-class ExpandedTaskBar(ui.ScriptWindow):
-	BUTTON_DRAGON_SOUL = 0
-	def __init__(self):
-		ui.Window.__init__(self)
-		self.SetWindowName("ExpandedTaskBar")
-
-	def LoadWindow(self):
-		try:
-			pyScrLoader = ui.PythonScriptLoader()
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "ExpandedTaskBar.py")
-		except:
-			import exception
-			exception.Abort("ExpandedTaskBar.LoadWindow.LoadObject")
-
-		self.expandedTaskBarBoard = self.GetChild("ExpanedTaskBar_Board")
-
-		self.toggleButtonDict = {}
-		self.toggleButtonDict[ExpandedTaskBar.BUTTON_DRAGON_SOUL] = self.GetChild("DragonSoulButton")
-		self.toggleButtonDict[ExpandedTaskBar.BUTTON_DRAGON_SOUL].SetParent(self)
-
-	def SetTop(self):
-		super(ExpandedTaskBar, self).SetTop()
-		for button in self.toggleButtonDict.values():
-			button.SetTop()
-
-	def Show(self):
-		ui.ScriptWindow.Show(self)
-
-	def Close(self):
-		self.Hide()
-
-	def SetToolTipText(self, eButton, text):
-		self.toggleButtonDict[eButton].SetToolTipText(text)
-
-	def SetToggleButtonEvent(self, eButton, kEventFunc):
-		self.toggleButtonDict[eButton].SetEvent(kEventFunc)
-
-	def OnPressEscapeKey(self):
-		self.Close()
-		return True
-
 class TaskBar(ui.ScriptWindow):
 
 	BUTTON_CHARACTER = 0
@@ -227,8 +186,6 @@ class TaskBar(ui.ScriptWindow):
 	BUTTON_MESSENGER = 2
 	BUTTON_SYSTEM = 3
 	BUTTON_CHAT = 4
-	BUTTON_EXPAND = 4
-	IS_EXPANDED = False
 
 	MOUSE_BUTTON_LEFT = 0
 	MOUSE_BUTTON_RIGHT = 1
@@ -437,14 +394,7 @@ class TaskBar(ui.ScriptWindow):
 		toggleButtonDict[TaskBar.BUTTON_INVENTORY]=self.GetChild("InventoryButton")
 		toggleButtonDict[TaskBar.BUTTON_MESSENGER]=self.GetChild("MessengerButton")
 		toggleButtonDict[TaskBar.BUTTON_SYSTEM]=self.GetChild("SystemButton")
-
-		# ChatButton, ExpandButton 둘 중 하나는 반드시 존재한다.
-		try:
-			toggleButtonDict[TaskBar.BUTTON_CHAT]=self.GetChild("ChatButton")
-		except:
-			toggleButtonDict[TaskBar.BUTTON_EXPAND]=self.GetChild("ExpandButton")
-			TaskBar.IS_EXPANDED = True
-
+		toggleButtonDict[TaskBar.BUTTON_CHAT]=self.GetChild("ChatButton")
 
 		if localeInfo.IsARABIC():
 			systemButton = toggleButtonDict[TaskBar.BUTTON_SYSTEM]

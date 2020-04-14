@@ -128,9 +128,8 @@ class ExchangeDialog(ui.ScriptWindow):
 			net.SendExchangeElkAddPacket(mouseModule.mouseController.GetAttachedMoneyAmount())
 		else:
 			attachedSlotType = mouseModule.mouseController.GetAttachedType()
-			if (player.SLOT_TYPE_INVENTORY == attachedSlotType
-				or player.SLOT_TYPE_DRAGON_SOUL_INVENTORY == attachedSlotType):
 
+			if player.SLOT_TYPE_INVENTORY == attachedSlotType:
 				attachedInvenType = player.SlotTypeToInvenType(attachedSlotType)
 				SrcSlotNumber = mouseModule.mouseController.GetAttachedSlotNumber()
 				DstSlotNumber = SlotIndex

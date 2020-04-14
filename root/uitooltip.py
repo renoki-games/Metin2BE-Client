@@ -1211,9 +1211,6 @@ class ItemToolTip(ToolTip):
 
 				if item.LIMIT_REAL_TIME == limitType:
 					self.AppendMallItemLastTime(metinSlot[0])
-		elif item.ITEM_TYPE_DS == itemType:
-			self.AppendTextLine(self.__DragonSoulInfoString(itemVnum))
-			self.__AppendAttributeInformation(attrSlot)
 		else:
 			self.__AppendLimitInformation()
 
@@ -1232,22 +1229,6 @@ class ItemToolTip(ToolTip):
 		self.__AppendSealInformation(window_type, slotIndex) ## cyh itemseal 2013 11 11
 
 		self.ShowToolTip()
-
-	def __DragonSoulInfoString (self, dwVnum):
-		step = (dwVnum / 100) % 10
-		refine = (dwVnum / 10) % 10
-		if 0 == step:
-			return localeInfo.DRAGON_SOUL_STEP_LEVEL1 + " " + localeInfo.DRAGON_SOUL_STRENGTH(refine)
-		elif 1 == step:
-			return localeInfo.DRAGON_SOUL_STEP_LEVEL2 + " " + localeInfo.DRAGON_SOUL_STRENGTH(refine)
-		elif 2 == step:
-			return localeInfo.DRAGON_SOUL_STEP_LEVEL3 + " " + localeInfo.DRAGON_SOUL_STRENGTH(refine)
-		elif 3 == step:
-			return localeInfo.DRAGON_SOUL_STEP_LEVEL4 + " " + localeInfo.DRAGON_SOUL_STRENGTH(refine)
-		elif 4 == step:
-			return localeInfo.DRAGON_SOUL_STEP_LEVEL5 + " " + localeInfo.DRAGON_SOUL_STRENGTH(refine)
-		else:
-			return ""
 
 
 	## 헤어인가?

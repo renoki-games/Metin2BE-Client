@@ -229,8 +229,9 @@ class PrivateShopBuilder(ui.ScriptWindow):
 			attachedSlotPos = mouseModule.mouseController.GetAttachedSlotNumber()
 			mouseModule.mouseController.DeattachObject()
 
-			if player.SLOT_TYPE_INVENTORY != attachedSlotType and player.SLOT_TYPE_DRAGON_SOUL_INVENTORY != attachedSlotType:
+			if player.SLOT_TYPE_INVENTORY != attachedSlotType:
 				return
+
 			attachedInvenType = player.SlotTypeToInvenType(attachedSlotType)
 
 			itemVNum = player.GetItemIndex(attachedInvenType, attachedSlotPos)

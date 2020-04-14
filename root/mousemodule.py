@@ -188,8 +188,7 @@ class CMouseController(object):
 				Type == player.SLOT_TYPE_PRIVATE_SHOP or\
 				Type == player.SLOT_TYPE_SHOP or\
 				Type == player.SLOT_TYPE_SAFEBOX or\
-				Type == player.SLOT_TYPE_MALL or\
-				Type == player.SLOT_TYPE_DRAGON_SOUL_INVENTORY:
+				Type == player.SLOT_TYPE_MALL:
 
 				item.SelectItem(self.AttachedItemIndex)
 				self.AttachedIconHandle = item.GetIconInstance()

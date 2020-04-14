@@ -284,7 +284,7 @@ class ShopDialog(ui.ScriptWindow):
 		attachedCount = mouseModule.mouseController.GetAttachedItemCount()
 		attachedItemIndex = mouseModule.mouseController.GetAttachedItemIndex()
 
-		if player.SLOT_TYPE_INVENTORY == attachedSlotType or player.SLOT_TYPE_DRAGON_SOUL_INVENTORY == attachedSlotType:
+		if player.SLOT_TYPE_INVENTORY == attachedSlotType:
 
 			item.SelectItem(attachedItemIndex)
 
@@ -297,9 +297,6 @@ class ShopDialog(ui.ScriptWindow):
 				return
 
 			itemtype = player.INVENTORY
-
-			if player.SLOT_TYPE_DRAGON_SOUL_INVENTORY == attachedSlotType:
-				itemtype = player.DRAGON_SOUL_INVENTORY
 
 			if player.IsValuableItem(itemtype, attachedSlotPos):
 

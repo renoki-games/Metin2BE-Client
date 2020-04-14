@@ -366,7 +366,6 @@ class GameWindow(ui.ScriptWindow):
 		#onPressKeyDict[app.DIK_B]			= lambda state = "EMOTICON": self.interface.ToggleCharacterWindow(state)
 		onPressKeyDict[app.DIK_N]			= lambda state = "QUEST": self.interface.ToggleCharacterWindow(state)
 		onPressKeyDict[app.DIK_I]			= lambda : self.interface.ToggleInventoryWindow()
-		onPressKeyDict[app.DIK_O]			= lambda : self.interface.ToggleDragonSoulWindowWithNoInfo()
 		onPressKeyDict[app.DIK_M]			= lambda : self.interface.PressMKey()
 		#onPressKeyDict[app.DIK_H]			= lambda : self.interface.OpenHelpWindow()
 		onPressKeyDict[app.DIK_ADD]			= lambda : self.interface.MiniMapScaleUp()
@@ -749,18 +748,9 @@ class GameWindow(ui.ScriptWindow):
 	# UNKNOWN_UPDATE
 	def BINARY_NEW_AddAffect(self, type, pointIdx, value, duration):
 		self.affectShower.BINARY_NEW_AddAffect(type, pointIdx, value, duration)
-		if chr.NEW_AFFECT_DRAGON_SOUL_DECK1 == type or chr.NEW_AFFECT_DRAGON_SOUL_DECK2 == type:
-			self.interface.DragonSoulActivate(type - chr.NEW_AFFECT_DRAGON_SOUL_DECK1)
-		elif chr.NEW_AFFECT_DRAGON_SOUL_QUALIFIED == type:
-			self.BINARY_DragonSoulGiveQuilification()
 
 	def BINARY_NEW_RemoveAffect(self, type, pointIdx):
 		self.affectShower.BINARY_NEW_RemoveAffect(type, pointIdx)
-		if chr.NEW_AFFECT_DRAGON_SOUL_DECK1 == type or chr.NEW_AFFECT_DRAGON_SOUL_DECK2 == type:
-			self.interface.DragonSoulDeactivate()
-
-
-
 	# END_OF_UNKNOWN_UPDATE
 
 	def ActivateSkillSlot(self, slotIndex):
@@ -1262,10 +1252,6 @@ class GameWindow(ui.ScriptWindow):
 				else:
 					self.__PutItem(attachedType, attachedItemIndex, attachedItemSlotPos, attachedItemCount, self.PickingCharacterIndex)
 
-			## DragonSoul
-			elif player.SLOT_TYPE_DRAGON_SOUL_INVENTORY == attachedType:
-				self.__PutItem(attachedType, attachedItemIndex, attachedItemSlotPos, attachedItemCount, self.PickingCharacterIndex)
-
 			mouseModule.mouseController.DeattachObject()
 
 		else:
@@ -1284,10 +1270,10 @@ class GameWindow(ui.ScriptWindow):
 		return True
 
 	def __PutItem(self, attachedType, attachedItemIndex, attachedItemSlotPos, attachedItemCount, dstChrID):
-		if player.SLOT_TYPE_INVENTORY == attachedType or player.SLOT_TYPE_DRAGON_SOUL_INVENTORY == attachedType:
+		if player.SLOT_TYPE_INVENTORY == attachedType:
 			attachedInvenType = player.SlotTypeToInvenType(attachedType)
 			if True == chr.HasInstance(self.PickingCharacterIndex) and player.GetMainCharacterIndex() != dstChrID:
-				if player.IsEquipmentSlot(attachedItemSlotPos) and player.SLOT_TYPE_DRAGON_SOUL_INVENTORY != attachedType:
+				if player.IsEquipmentSlot(attachedItemSlotPos):
 					self.stream.popupWindow.Close()
 					self.stream.popupWindow.Open(localeInfo.EXCHANGE_FAILURE_EQUIP_ITEM, 0, localeInfo.UI_OK)
 				else:
@@ -1361,27 +1347,6 @@ class GameWindow(ui.ScriptWindow):
 				self.itemDropQuestionDialog = itemDropQuestionDialog
 
 				constInfo.SET_ITEM_QUESTION_DIALOG_STATUS(1)
-			elif player.SLOT_TYPE_DRAGON_SOUL_INVENTORY == attachedType:
-				dropItemIndex = player.GetItemIndex(player.DRAGON_SOUL_INVENTORY, attachedItemSlotPos)
-
-				item.SelectItem(dropItemIndex)
-				dropItemName = item.GetItemName()
-
-				## Question Text
-				questionText = localeInfo.HOW_MANY_ITEM_DO_YOU_DROP(dropItemName, attachedItemCount)
-
-				## Dialog
-				itemDropQuestionDialog = uiCommon.QuestionDialog()
-				itemDropQuestionDialog.SetText(questionText)
-				itemDropQuestionDialog.SetAcceptEvent(lambda arg=True: self.RequestDropItem(arg))
-				itemDropQuestionDialog.SetCancelEvent(lambda arg=False: self.RequestDropItem(arg))
-				itemDropQuestionDialog.Open()
-				itemDropQuestionDialog.dropType = attachedType
-				itemDropQuestionDialog.dropNumber = attachedItemSlotPos
-				itemDropQuestionDialog.dropCount = attachedItemCount
-				self.itemDropQuestionDialog = itemDropQuestionDialog
-
-				constInfo.SET_ITEM_QUESTION_DIALOG_STATUS(1)
 
 	def RequestDropItem(self, answer):
 		if not self.itemDropQuestionDialog:
@@ -1399,10 +1364,6 @@ class GameWindow(ui.ScriptWindow):
 				else:
 					# PRIVATESHOP_DISABLE_ITEM_DROP
 					self.__SendDropItemPacket(dropNumber, dropCount)
-					# END_OF_PRIVATESHOP_DISABLE_ITEM_DROP
-			elif player.SLOT_TYPE_DRAGON_SOUL_INVENTORY == dropType:
-					# PRIVATESHOP_DISABLE_ITEM_DROP
-					self.__SendDropItemPacket(dropNumber, dropCount, player.DRAGON_SOUL_INVENTORY)
 					# END_OF_PRIVATESHOP_DISABLE_ITEM_DROP
 
 		self.itemDropQuestionDialog.Close()
@@ -1739,26 +1700,6 @@ class GameWindow(ui.ScriptWindow):
 		pass
 
 	# END_OF_CUBE
-
-	# ¿ëÈ¥¼®
-	def BINARY_Highlight_Item(self, inven_type, inven_pos):
-		# @fixme003 (+if self.interface:)
-		if self.interface:
-			self.interface.Highligt_Item(inven_type, inven_pos)
-
-	def BINARY_DragonSoulGiveQuilification(self):
-		self.interface.DragonSoulGiveQuilification()
-
-	def BINARY_DragonSoulRefineWindow_Open(self):
-		self.interface.OpenDragonSoulRefineWindow()
-
-	def BINARY_DragonSoulRefineWindow_RefineFail(self, reason, inven_type, inven_pos):
-		self.interface.FailDragonSoulRefine(reason, inven_type, inven_pos)
-
-	def BINARY_DragonSoulRefineWindow_RefineSucceed(self, inven_type, inven_pos):
-		self.interface.SucceedDragonSoulRefine(inven_type, inven_pos)
-
-	# END of DRAGON SOUL REFINE WINDOW
 
 	def BINARY_SetBigMessage(self, message):
 		self.interface.bigBoard.SetTip(message)

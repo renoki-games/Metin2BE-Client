@@ -65,14 +65,6 @@ CATEGORY_COSTUMES_COSTUME_HAIR	Frisuren
 CATEGORY_COSTUMES_COSTUME_WEAPON	Waffenskins
 CATEGORY_COSTUMES_ETC	Sonstiges
 CATEGORY_COSTUMES_SASH	Schulterbänder
-CATEGORY_DRAGON_STONE	Drachensteinalchemie
-CATEGORY_DRAGON_STONE_DRAGON_DIAMOND	Diamant
-CATEGORY_DRAGON_STONE_DRAGON_GARNET	Granat
-CATEGORY_DRAGON_STONE_DRAGON_JADE	Jade
-CATEGORY_DRAGON_STONE_DRAGON_ONYX	Onyx
-CATEGORY_DRAGON_STONE_DRAGON_RUBY	Rubin
-CATEGORY_DRAGON_STONE_DRAGON_SAPPHIRE	Saphir
-CATEGORY_DRAGON_STONE_ETC	Sonstiges
 CATEGORY_EQUIPMENT_ARMOR	Ausrüstungen
 CATEGORY_EQUIPMENT_JEWELRY	Schmuck
 CATEGORY_EQUIPMENT_WEAPON	Waffen
@@ -215,26 +207,6 @@ DO_YOU_BUY_ITEM4	Möchtest du %s (%s Stück) für %s Won und %s Yang kaufen?
 DO_YOU_DROP_MONEY	Möchtest du %d Yang fallen lassen?
 DO_YOU_SELL_ITEM1	Möchtest du %s für %s Yang verkaufen?
 DO_YOU_SELL_ITEM2	Möchtest du %s (%s Stück) für %s Yang verkaufen?
-DRAGON_SOUL_CANNOT_REFINE	Diesen Drachenstein kannst du nicht veredeln.
-DRAGON_SOUL_CANNOT_REFINE_MORE	Dieser Drachenstein hat die höchste Stufe bereits erreicht.
-DRAGON_SOUL_EQUIP_WARNING1	Es ist schwierig, einen Drachenstein wieder zu entfernen.
-DRAGON_SOUL_EQUIP_WARNING2	Möchtest du dennoch fortfahren?
-DRAGON_SOUL_EXPIRED	Abgelaufener Drachenstein
-DRAGON_SOUL_INVALID_DRAGON_SOUL	Das ist der falsche Drachenstein.
-DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Das ist kein Drachenstein.
-DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Das ist nicht der richtige Drachenstein.
-DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Du hast nicht genug Material zum Veredeln.
-DRAGON_SOUL_NOT_MATCHED_SLOT	Der Drachenstein passt nicht in diesen Slot.
-DRAGON_SOUL_STEP_LEVEL1	Reinheit: matt,
-DRAGON_SOUL_STEP_LEVEL2	Reinheit: klar,
-DRAGON_SOUL_STEP_LEVEL3	Reinheit: lupenrein,
-DRAGON_SOUL_STEP_LEVEL4	Reinheit: brillant,
-DRAGON_SOUL_STEP_LEVEL5	Reinheit: exzellent,
-DRAGON_SOUL_STRENGTH	Stufe: +%d	SA
-DRAGON_SOUL_UNEQUIP_WARNING1	Der Drachenstein könnte dabei zerstört werden.
-DRAGON_SOUL_UNEQUIP_WARNING2	Möchtest du dennoch fortfahren?
-DRAGON_SOUL_UNMATCHED_SLOT	Das ist der falsche Slot.
-DRAGON_SOUL_UNQUALIFIED	Du kannst die Drachensteinalchemie noch nicht anwenden.
 DROP_ITEM_FAILURE_EQUIP_ITEM	Du kannst keine ausgerüsteten Gegenstände fallen lassen.
 DROP_ITEM_FAILURE_PRIVATE_SHOP	Du kannst keine Gegenstände fallen lassen, solange du einen privaten Laden geöffnet hast.
 DROP_MONEY_FAILURE_1000_OVER	Du kannst nur maximal 999 Yang fallen lassen.
@@ -1146,13 +1118,6 @@ PRIVATESHOPSEARCH_DAGGER	Dolche
 PRIVATESHOPSEARCH_DEAD	tot
 PRIVATESHOPSEARCH_DETACHMENT	Stein-Handbuch
 PRIVATESHOPSEARCH_DIAMOND	Diamant
-PRIVATESHOPSEARCH_DS	Drachensteinalchemie
-PRIVATESHOPSEARCH_DS_BLACK	Onyx
-PRIVATESHOPSEARCH_DS_BLUE	Saphir
-PRIVATESHOPSEARCH_DS_GREEN	Jade
-PRIVATESHOPSEARCH_DS_RED	Rubin
-PRIVATESHOPSEARCH_DS_WHITE	Diamant
-PRIVATESHOPSEARCH_DS_YELLOW	Granat
 PRIVATESHOPSEARCH_EAR	Ohrringe
 PRIVATESHOPSEARCH_FAN	Fächer
 PRIVATESHOPSEARCH_FISH	Fische
@@ -1475,8 +1440,6 @@ TOOLTIP_CON	Vitalität +%d	SA
 TOOLTIP_COSTUME_ATTR_BONUS	Kostümbonus %d%%	SA
 TOOLTIP_DEF_GRADE	Verteidigung +%d	SA
 TOOLTIP_DEX	Beweglichkeit +%d	SA
-TOOLTIP_DRAGON_SOUL_DECK1	Erde	SNA
-TOOLTIP_DRAGON_SOUL_DECK2	Himmel	SNA
 TOOLTIP_EAR	Ohrring
 TOOLTIP_ENERGY	Energie %d	SA
 TOOLTIP_ETC	Usw.
