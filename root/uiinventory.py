@@ -100,167 +100,21 @@ class CostumeWindow(ui.ScriptWindow):
 
 		self.wndEquip.RefreshSlot()
 
-class BeltInventoryWindow(ui.ScriptWindow):
-
-	def __init__(self, wndInventory):
-		import exception
-
-		if not app.ENABLE_NEW_EQUIPMENT_SYSTEM:
-			exception.Abort("What do you do?")
-			return
-
-		if not wndInventory:
-			exception.Abort("wndInventory parameter must be set to InventoryWindow")
-			return
-
-		ui.ScriptWindow.__init__(self)
-
-		self.isLoaded = 0
-		self.wndInventory = wndInventory;
-
-		self.wndBeltInventoryLayer = None
-		self.wndBeltInventorySlot = None
-		self.expandBtn = None
-		self.minBtn = None
-
-		self.__LoadWindow()
-
-	def __del__(self):
-		ui.ScriptWindow.__del__(self)
-
-	def Show(self, openBeltSlot = False):
-		self.__LoadWindow()
-		self.RefreshSlot()
-
-		ui.ScriptWindow.Show(self)
-
-		if openBeltSlot:
-			self.OpenInventory()
-		else:
-			self.CloseInventory()
-
-	def Close(self):
-		self.Hide()
-
-	def IsOpeningInventory(self):
-		return self.wndBeltInventoryLayer.IsShow()
-
-	def OpenInventory(self):
-		self.wndBeltInventoryLayer.Show()
-		self.expandBtn.Hide()
-
-		if localeInfo.IsARABIC() == 0:
-			self.AdjustPositionAndSize()
-
-	def CloseInventory(self):
-		self.wndBeltInventoryLayer.Hide()
-		self.expandBtn.Show()
-
-		if localeInfo.IsARABIC() == 0:
-			self.AdjustPositionAndSize()
-
-	## 현재 인벤토리 위치를 기준으로 BASE 위치를 계산, 리턴.. 숫자 하드코딩하기 정말 싫지만 방법이 없다..
-	def GetBasePosition(self):
-		x, y = self.wndInventory.GetGlobalPosition()
-		return x - 148, y + 241
-
-	def AdjustPositionAndSize(self):
-		bx, by = self.GetBasePosition()
-
-		if self.IsOpeningInventory():
-			self.SetPosition(bx, by)
-			self.SetSize(self.ORIGINAL_WIDTH, self.GetHeight())
-
-		else:
-			self.SetPosition(bx + 138, by);
-			self.SetSize(10, self.GetHeight())
-
-	def __LoadWindow(self):
-		if self.isLoaded == 1:
-			return
-
-		self.isLoaded = 1
-
-		try:
-			pyScrLoader = ui.PythonScriptLoader()
-			pyScrLoader.LoadScriptFile(self, "UIScript/BeltInventoryWindow.py")
-		except:
-			import exception
-			exception.Abort("CostumeWindow.LoadWindow.LoadObject")
-
-		try:
-			self.ORIGINAL_WIDTH = self.GetWidth()
-			wndBeltInventorySlot = self.GetChild("BeltInventorySlot")
-			self.wndBeltInventoryLayer = self.GetChild("BeltInventoryLayer")
-			self.expandBtn = self.GetChild("ExpandBtn")
-			self.minBtn = self.GetChild("MinimizeBtn")
-
-			self.expandBtn.SetEvent(ui.__mem_func__(self.OpenInventory))
-			self.minBtn.SetEvent(ui.__mem_func__(self.CloseInventory))
-
-			if localeInfo.IsARABIC() :
-				self.expandBtn.SetPosition(self.expandBtn.GetWidth() - 2, 15)
-				self.wndBeltInventoryLayer.SetPosition(self.wndBeltInventoryLayer.GetWidth() - 5, 0)
-				self.minBtn.SetPosition(self.minBtn.GetWidth() + 3, 15)
-
-			for i in xrange(item.BELT_INVENTORY_SLOT_COUNT):
-				slotNumber = item.BELT_INVENTORY_SLOT_START + i
-				wndBeltInventorySlot.SetCoverButton(slotNumber,	"d:/ymir work/ui/game/quest/slot_button_01.sub",\
-												"d:/ymir work/ui/game/quest/slot_button_01.sub",\
-												"d:/ymir work/ui/game/quest/slot_button_01.sub",\
-												"d:/ymir work/ui/game/belt_inventory/slot_disabled.tga", False, False)
-
-		except:
-			import exception
-			exception.Abort("CostumeWindow.LoadWindow.BindObject")
-
-		## Equipment
-		wndBeltInventorySlot.SetOverInItemEvent(ui.__mem_func__(self.wndInventory.OverInItem))
-		wndBeltInventorySlot.SetOverOutItemEvent(ui.__mem_func__(self.wndInventory.OverOutItem))
-		wndBeltInventorySlot.SetUnselectItemSlotEvent(ui.__mem_func__(self.wndInventory.UseItemSlot))
-		wndBeltInventorySlot.SetUseSlotEvent(ui.__mem_func__(self.wndInventory.UseItemSlot))
-		wndBeltInventorySlot.SetSelectEmptySlotEvent(ui.__mem_func__(self.wndInventory.SelectEmptySlot))
-		wndBeltInventorySlot.SetSelectItemSlotEvent(ui.__mem_func__(self.wndInventory.SelectItemSlot))
-
-		self.wndBeltInventorySlot = wndBeltInventorySlot
-
-	def RefreshSlot(self):
-		getItemVNum=player.GetItemIndex
-
-		for i in xrange(item.BELT_INVENTORY_SLOT_COUNT):
-			slotNumber = item.BELT_INVENTORY_SLOT_START + i
-			self.wndBeltInventorySlot.SetItemSlot(slotNumber, getItemVNum(slotNumber), player.GetItemCount(slotNumber))
-			self.wndBeltInventorySlot.SetAlwaysRenderCoverButton(slotNumber, True)
-
-			avail = "0"
-
-			if player.IsAvailableBeltInventoryCell(slotNumber):
-				self.wndBeltInventorySlot.EnableCoverButton(slotNumber)
-			else:
-				self.wndBeltInventorySlot.DisableCoverButton(slotNumber)
-
-		self.wndBeltInventorySlot.RefreshSlot()
-
-
 class InventoryWindow(ui.ScriptWindow):
 
-	USE_TYPE_TUPLE = ("USE_CLEAN_SOCKET", "USE_CHANGE_ATTRIBUTE", "USE_ADD_ATTRIBUTE", "USE_ADD_ATTRIBUTE2", "USE_ADD_ACCESSORY_SOCKET", "USE_PUT_INTO_ACCESSORY_SOCKET", "USE_PUT_INTO_BELT_SOCKET", "USE_PUT_INTO_RING_SOCKET", "USE_CHANGE_COSTUME_ATTR", "USE_RESET_COSTUME_ATTR")
+	USE_TYPE_TUPLE = ("USE_CLEAN_SOCKET", "USE_CHANGE_ATTRIBUTE", "USE_ADD_ATTRIBUTE", "USE_ADD_ATTRIBUTE2", "USE_ADD_ACCESSORY_SOCKET", "USE_PUT_INTO_ACCESSORY_SOCKET", "USE_PUT_INTO_RING_SOCKET", "USE_CHANGE_COSTUME_ATTR", "USE_RESET_COSTUME_ATTR")
 
 	questionDialog = None
 	tooltipItem = None
 	wndCostume = None
-	wndBelt = None
 	dlgPickMoney = None
 
 	sellingSlotNumber = -1
 	isLoaded = 0
 	isOpenedCostumeWindowWhenClosingInventory = 0		# 인벤토리 닫을 때 코스츔이 열려있었는지 여부-_-; 네이밍 ㅈㅅ
-	isOpenedBeltWindowWhenClosingInventory = 0		# 인벤토리 닫을 때 벨트 인벤토리가 열려있었는지 여부-_-; 네이밍 ㅈㅅ
 
 	def __init__(self):
 		ui.ScriptWindow.__init__(self)
-
-		self.isOpenedBeltWindowWhenClosingInventory = 0		# 인벤토리 닫을 때 벨트 인벤토리가 열려있었는지 여부-_-; 네이밍 ㅈㅅ
 
 		self.inventoryPageIndex = 0
 
@@ -277,10 +131,6 @@ class InventoryWindow(ui.ScriptWindow):
 		# 인벤토리를 닫을 때 코스츔이 열려있었다면 인벤토리를 열 때 코스츔도 같이 열도록 함.
 		if self.isOpenedCostumeWindowWhenClosingInventory and self.wndCostume:
 			self.wndCostume.Show()
-
-		# 인벤토리를 닫을 때 벨트 인벤토리가 열려있었다면 같이 열도록 함.
-		if self.wndBelt:
-			self.wndBelt.Show(self.isOpenedBeltWindowWhenClosingInventory)
 
 	def BindInterfaceClass(self, interface):
 		self.interface = interface
@@ -326,12 +176,6 @@ class InventoryWindow(ui.ScriptWindow):
 				self.costumeButton.Hide()
 				self.costumeButton.Destroy()
 				self.costumeButton = 0
-
-			# Belt Inventory Window
-			self.wndBelt = None
-
-			if app.ENABLE_NEW_EQUIPMENT_SYSTEM:
-				self.wndBelt = BeltInventoryWindow(self)
 
 		except:
 			import exception
@@ -427,10 +271,6 @@ class InventoryWindow(ui.ScriptWindow):
 			self.wndCostume.Destroy()
 			self.wndCostume = 0
 
-		if self.wndBelt:
-			self.wndBelt.Destroy()
-			self.wndBelt = None
-
 		self.inventoryTab = []
 		self.equipmentTab = []
 
@@ -444,11 +284,6 @@ class InventoryWindow(ui.ScriptWindow):
 		if self.wndCostume:
 			self.isOpenedCostumeWindowWhenClosingInventory = self.wndCostume.IsShow()			# 인벤토리 창이 닫힐 때 코스츔이 열려 있었는가?
 			self.wndCostume.Close()
-
-		if self.wndBelt:
-			self.isOpenedBeltWindowWhenClosingInventory = self.wndBelt.IsOpeningInventory()		# 인벤토리 창이 닫힐 때 벨트 인벤토리도 열려 있었는가?
-			print "Is Opening Belt Inven?? ", self.isOpenedBeltWindowWhenClosingInventory
-			self.wndBelt.Close()
 
 		if self.dlgPickMoney:
 			self.dlgPickMoney.Close()
@@ -519,7 +354,7 @@ class InventoryWindow(ui.ScriptWindow):
 		mouseModule.mouseController.AttachObject(self, player.SLOT_TYPE_INVENTORY, itemSlotIndex, selectedItemVNum, count)
 
 	def __InventoryLocalSlotPosToGlobalSlotPos(self, local):
-		if player.IsEquipmentSlot(local) or player.IsCostumeSlot(local) or (app.ENABLE_NEW_EQUIPMENT_SYSTEM and player.IsBeltInventorySlot(local)):
+		if player.IsEquipmentSlot(local) or player.IsCostumeSlot(local):
 			return local
 
 		return self.inventoryPageIndex*player.INVENTORY_PAGE_SIZE + local
@@ -567,9 +402,6 @@ class InventoryWindow(ui.ScriptWindow):
 
 		self.wndItem.RefreshSlot()
 
-		if self.wndBelt:
-			self.wndBelt.RefreshSlot()
-
 	def RefreshEquipSlotWindow(self):
 		getItemVNum=player.GetItemIndex
 		getItemCount=player.GetItemCount
@@ -580,17 +412,6 @@ class InventoryWindow(ui.ScriptWindow):
 			if itemCount <= 1:
 				itemCount = 0
 			setItemVNum(slotNumber, getItemVNum(slotNumber), itemCount)
-
-		if app.ENABLE_NEW_EQUIPMENT_SYSTEM:
-			for i in xrange(player.NEW_EQUIPMENT_SLOT_COUNT):
-				slotNumber = player.NEW_EQUIPMENT_SLOT_START + i
-				itemCount = getItemCount(slotNumber)
-				if itemCount <= 1:
-					itemCount = 0
-				setItemVNum(slotNumber, getItemVNum(slotNumber), itemCount)
-				print "ENABLE_NEW_EQUIPMENT_SYSTEM", slotNumber, itemCount, getItemVNum(slotNumber)
-
-
 
 		self.wndEquip.RefreshSlot()
 
@@ -1009,14 +830,6 @@ class InventoryWindow(ui.ScriptWindow):
 			elif "USE_PUT_INTO_ACCESSORY_SOCKET" == useType:
 				if self.__CanPutAccessorySocket(dstSlotPos, srcItemVNum):
 					return True;
-			elif "USE_PUT_INTO_BELT_SOCKET" == useType:
-				dstItemVNum = player.GetItemIndex(dstSlotPos)
-				print "USE_PUT_INTO_BELT_SOCKET", srcItemVNum, dstItemVNum
-
-				item.SelectItem(dstItemVNum)
-
-				if item.ITEM_TYPE_BELT == item.GetItemType():
-					return True
 			elif "USE_CHANGE_COSTUME_ATTR" == useType:
 				if self.__CanChangeCostumeAttrList(dstSlotPos):
 					return True
@@ -1229,10 +1042,4 @@ class InventoryWindow(ui.ScriptWindow):
 			return
 
 		net.SendItemMovePacket(srcSlotPos, dstSlotPos, srcItemCount)
-
-	def OnMoveWindow(self, x, y):
-#		print "Inventory Global Pos : ", self.GetGlobalPosition()
-		if self.wndBelt:
-#			print "Belt Global Pos : ", self.wndBelt.GetGlobalPosition()
-			self.wndBelt.AdjustPositionAndSize()
 

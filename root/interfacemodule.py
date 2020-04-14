@@ -127,13 +127,6 @@ class Interface(object):
 		self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_SYSTEM, ui.__mem_func__(self.ToggleSystemDialog))
 		self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_CHAT, ui.__mem_func__(self.ToggleChat))
 
-		self.wndEnergyBar = None
-		import app
-		if app.ENABLE_ENERGY_SYSTEM:
-			wndEnergyBar = uiTaskBar.EnergyBar()
-			wndEnergyBar.LoadWindow()
-			self.wndEnergyBar = wndEnergyBar
-
 	def __MakeParty(self):
 		wndParty = uiParty.PartyWindow()
 		wndParty.Hide()
@@ -336,9 +329,6 @@ class Interface(object):
 		if self.wndTaskBar:
 			self.wndTaskBar.Destroy()
 
-		if self.wndEnergyBar:
-			self.wndEnergyBar.Destroy()
-
 		if self.wndCharacter:
 			self.wndCharacter.Destroy()
 
@@ -437,7 +427,6 @@ class Interface(object):
 		del self.wndUICurtain
 		del self.wndChat
 		del self.wndTaskBar
-		del self.wndEnergyBar
 		del self.wndCharacter
 		del self.wndInventory
 		del self.dlgExchange
@@ -503,8 +492,6 @@ class Interface(object):
 		self.wndTaskBar.RefreshStatus()
 		self.wndCharacter.RefreshStatus()
 		self.wndInventory.RefreshStatus()
-		if self.wndEnergyBar:
-			self.wndEnergyBar.RefreshStatus()
 
 	def RefreshStamina(self):
 		self.wndTaskBar.RefreshStamina()
@@ -766,8 +753,6 @@ class Interface(object):
 		self.wndTaskBar.Show()
 		self.wndMiniMap.Show()
 		self.wndMiniMap.ShowMiniMap()
-		if self.wndEnergyBar:
-			self.wndEnergyBar.Show()
 
 	def ShowAllWindows(self):
 		self.wndTaskBar.Show()
@@ -775,15 +760,10 @@ class Interface(object):
 		self.wndInventory.Show()
 		self.wndChat.Show()
 		self.wndMiniMap.Show()
-		if self.wndEnergyBar:
-			self.wndEnergyBar.Show()
 
 	def HideAllWindows(self):
 		if self.wndTaskBar:
 			self.wndTaskBar.Hide()
-
-		if self.wndEnergyBar:
-			self.wndEnergyBar.Hide()
 
 		if self.wndCharacter:
 			self.wndCharacter.Hide()
@@ -1001,9 +981,6 @@ class Interface(object):
 						self.wndChat,\
 						self.wndParty,\
 						self.wndGameButton,
-
-		if self.wndEnergyBar:
-			hideWindows += self.wndEnergyBar,
 
 		hideWindows = filter(lambda x:x.IsShow(), hideWindows)
 		map(lambda x:x.Hide(), hideWindows)

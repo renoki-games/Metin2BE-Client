@@ -420,7 +420,6 @@ class ItemToolTip(ToolTip):
 		item.APPLY_RESIST_SHAMAN : localeInfo.TOOLTIP_APPLY_RESIST_SHAMAN,
 		item.APPLY_MAX_HP_PCT : localeInfo.TOOLTIP_APPLY_MAX_HP_PCT,
 		item.APPLY_MAX_SP_PCT : localeInfo.TOOLTIP_APPLY_MAX_SP_PCT,
-		item.APPLY_ENERGY : localeInfo.TOOLTIP_ENERGY,
 		item.APPLY_COSTUME_ATTR_BONUS : localeInfo.TOOLTIP_COSTUME_ATTR_BONUS,
 
 		item.APPLY_MAGIC_ATTBONUS_PER : localeInfo.TOOLTIP_MAGIC_ATTBONUS_PER,
@@ -961,18 +960,6 @@ class ItemToolTip(ToolTip):
 			self.__AppendLimitInformation()
 			self.__AppendAffectInformation()
 			self.__AppendAttributeInformation(attrSlot)
-
-			#반지 소켓 시스템 관련해선 아직 기획 미정
-			#self.__AppendAccessoryMetinSlotInfo(metinSlot, 99001)
-
-
-		### Belt Item ###
-		elif item.ITEM_TYPE_BELT == itemType:
-			self.__AppendLimitInformation()
-			self.__AppendAffectInformation()
-			self.__AppendAttributeInformation(attrSlot)
-
-			self.__AppendAccessoryMetinSlotInfo(metinSlot, constInfo.GET_BELT_MATERIAL_VNUM(itemVnum))
 
 		## 코스츔 아이템 ##
 		elif 0 != isCostumeItem:
@@ -1586,8 +1573,6 @@ class ItemToolTip(ToolTip):
 			elif "USE_PUT_INTO_ACCESSORY_SOCKET" == item.GetUseType(number):
 				return player.METIN_SOCKET_TYPE_SILVER
 			elif "USE_PUT_INTO_RING_SOCKET" == item.GetUseType(number):
-				return player.METIN_SOCKET_TYPE_SILVER
-			elif "USE_PUT_INTO_BELT_SOCKET" == item.GetUseType(number):
 				return player.METIN_SOCKET_TYPE_SILVER
 
 		return player.METIN_SOCKET_TYPE_NONE
