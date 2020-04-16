@@ -283,6 +283,7 @@ class PrivateShopBuilder(ui.ScriptWindow):
 			return True
 
 		text = self.priceInputBoard.GetText()
+		text = text.replace("k", "000")
 
 		if not text:
 			return True
@@ -302,7 +303,7 @@ class PrivateShopBuilder(ui.ScriptWindow):
 				shop.DelPrivateShopItemStock(itemWindowType, itemSlotIndex)
 				del self.itemStock[privatePos]
 
-		price = int(self.priceInputBoard.GetText())
+		price = int(text)
 
 		if IsPrivateShopItemPriceList():
 			SetPrivateShopItemPrice(self.priceInputBoard.itemVNum, price)

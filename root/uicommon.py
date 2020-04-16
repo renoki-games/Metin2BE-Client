@@ -352,7 +352,6 @@ class MoneyInputDialog(ui.ScriptWindow):
 		self.acceptButton = getObject("AcceptButton")
 		self.cancelButton = getObject("CancelButton")
 		self.inputValue = getObject("InputValue")
-		self.inputValue.SetNumberMode()
 		self.inputValue.OnIMEUpdate = ui.__mem_func__(self.__OnValueUpdate)
 		self.moneyText = getObject("MoneyValue")
 
@@ -408,6 +407,7 @@ class MoneyInputDialog(ui.ScriptWindow):
 		ui.EditLine.OnIMEUpdate(self.inputValue)
 
 		text = self.inputValue.GetText()
+		text = text.replace("k", "000")
 
 		money = 0
 		if text and text.isdigit():

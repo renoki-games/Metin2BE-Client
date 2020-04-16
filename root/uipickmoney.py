@@ -95,6 +95,7 @@ class PickMoneyDialog(ui.ScriptWindow):
 	def OnAccept(self):
 
 		text = self.pickValueEditLine.GetText()
+		text = text.replace("k", "000")
 
 		if len(text) > 0 and text.isdigit():
 

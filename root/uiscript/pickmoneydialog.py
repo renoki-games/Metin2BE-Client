@@ -50,7 +50,6 @@ window = {
 							"height" : 18,
 
 							"input_limit" : 6,
-							"only_number" : 1,
 
 							"text" : "1",
 						},
