@@ -2920,8 +2920,8 @@
 71148	Ring der Willenskraft	Verleiht dir 7 Tage lang +30% EXP, +20% Abwehrchance gegen Krieger, +20% Abwehrchance gegen Ninja, +20% Abwehrchance gegen Lykaner, +30% Stärke gegen Monster, +10% Maximum-TP und +10% Maximum-MP.
 71149	Ring der tödlichen Macht	Verleiht dir 7 Tage lang +30% EXP, +20% Abwehrchance gegen Sura, +20% Abwehrchance gegen Schamanen, +20% Abwehrchance gegen Lykaner, +30% Stärke gegen Monster, +10% Maximum-TP und +10% Maximum-MP.
 71150	Zauber-Ei	Die kunstvoll verzierte ovale Truhe enthält mehr als nur eine Osterüberraschung und gibt ihre Schätze erst nach und nach preis.
-71151	Grüner Zauber	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Kann nur bei Waffen und Rüstungen bis Level 40 angewendet werden. Nicht handelbar.
-71152	Grüne Stärke	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni). Kann nur bei Waffen und Rüstungen bis Level 40 angewendet werden. Nicht handelbar.
+71151	Grüner Zauber	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Kann nur bei Waffen und Rüstungen bis Level 24 angewendet werden. Nicht handelbar.
+71152	Grüne Stärke	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni). Kann nur bei Waffen und Rüstungen bis Level 24 angewendet werden. Nicht handelbar.
 71153	Trank der Weisheit	Mit diesem Trank sammelst du in einer Stunde Spielzeit 100 % mehr Erfahrung. Nicht handelbar.
 71154	Trank des Aufstiegs (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 80% mehr Erfahrung. Nicht handelbar.
 71155	Trank der Weisheit (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 100% mehr Erfahrung. Nicht handelbar.
