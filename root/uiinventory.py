@@ -95,9 +95,6 @@ class CostumeWindow(ui.ScriptWindow):
 			slotNumber = item.COSTUME_SLOT_START + i
 			self.wndEquip.SetItemSlot(slotNumber, getItemVNum(slotNumber), 0)
 
-		if app.ENABLE_WEAPON_COSTUME_SYSTEM:
-			self.wndEquip.SetItemSlot(item.COSTUME_SLOT_WEAPON, getItemVNum(item.COSTUME_SLOT_WEAPON), 0)
-
 		self.wndEquip.RefreshSlot()
 
 class InventoryWindow(ui.ScriptWindow):
@@ -468,13 +465,6 @@ class InventoryWindow(ui.ScriptWindow):
 			attachedItemIndex = mouseModule.mouseController.GetAttachedItemIndex()
 
 			if player.SLOT_TYPE_INVENTORY == attachedSlotType:
-				#@fixme011 BEGIN (block ds equip)
-				attachedInvenType = player.SlotTypeToInvenType(attachedSlotType)
-				if player.IsDSEquipmentSlot(attachedInvenType, attachedSlotPos):
-					mouseModule.mouseController.DeattachObject()
-					return
-				#@fixme011 END
-
 				itemCount = player.GetItemCount(attachedSlotPos)
 				attachedCount = mouseModule.mouseController.GetAttachedItemCount()
 				self.__SendMoveItemPacket(attachedSlotPos, selectedSlotPos, attachedCount)
@@ -514,12 +504,6 @@ class InventoryWindow(ui.ScriptWindow):
 			attachedItemVID = mouseModule.mouseController.GetAttachedItemIndex()
 
 			if player.SLOT_TYPE_INVENTORY == attachedSlotType:
-				#@fixme011 BEGIN (block ds equip)
-				attachedInvenType = player.SlotTypeToInvenType(attachedSlotType)
-				if player.IsDSEquipmentSlot(attachedInvenType, attachedSlotPos):
-					mouseModule.mouseController.DeattachObject()
-					return
-				#@fixme011 END
 				self.__DropSrcItemToDestItemInInventory(attachedItemVID, attachedSlotPos, itemSlotIndex)
 
 			mouseModule.mouseController.DeattachObject()
