@@ -501,8 +501,8 @@ class CharacterWindow(ui.ScriptWindow):
 
 		try:
 			self.GetChild("Level_Value").SetText(str(player.GetStatus(player.LEVEL)))
-			self.GetChild("Exp_Value").SetText(str(unsigned32(player.GetEXP())))
-			self.GetChild("RestExp_Value").SetText(str(unsigned32(player.GetStatus(player.NEXT_EXP)) - unsigned32(player.GetStatus(player.EXP))))
+			self.GetChild("Exp_Value").SetText(localeInfo.NumberWithDots(unsigned32(player.GetEXP())))
+			self.GetChild("RestExp_Value").SetText(localeInfo.NumberWithDots(unsigned32(player.GetStatus(player.NEXT_EXP)) - unsigned32(player.GetStatus(player.EXP))))
 			self.GetChild("HP_Value").SetText(str(player.GetStatus(player.HP)) + '/' + str(player.GetStatus(player.MAX_HP)))
 			self.GetChild("SP_Value").SetText(str(player.GetStatus(player.SP)) + '/' + str(player.GetStatus(player.MAX_SP)))
 
