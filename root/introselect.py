@@ -644,10 +644,10 @@ class SelectCharacterWindow(ui.Window):
 			statesSummary = float(valueHTH + valueINT + valueSTR + valueDEX)
 			if statesSummary > 0.0:
 				self.destGauge =	[
-										float(valueHTH) / statesSummary,
-										float(valueINT) / statesSummary,
-										float(valueSTR) / statesSummary,
-										float(valueDEX) / statesSummary
+										float(valueHTH) / 90,
+										float(valueINT) / 90,
+										float(valueSTR) / 90,
+										float(valueDEX) / 90
 									]
 
 		else:
