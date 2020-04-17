@@ -422,6 +422,8 @@ class AffectShower(ui.Window):
 
 			MALL_DESC_IDX_START+player.POINT_PC_BANG_EXP_BONUS : (localeInfo.TOOLTIP_MALL_EXPBONUS_P_STATIC, "d:/ymir work/ui/skill/common/affect/EXP_Bonus_p_on.sub",),
 			MALL_DESC_IDX_START+player.POINT_PC_BANG_DROP_BONUS: (localeInfo.TOOLTIP_MALL_ITEMBONUS_P_STATIC, "d:/ymir work/ui/skill/common/affect/Item_Bonus_p_on.sub",),
+
+			chr.AFFECT_ANTI_EXP : (localeInfo.TOOLTIP_ANTI_EXP, "icon/item/72501.tga"),
 	}
 
 	if app.ENABLE_WOLFMAN_CHARACTER:
@@ -462,7 +464,7 @@ class AffectShower(ui.Window):
 
 		print "BINARY_NEW_AddAffect", type, pointIdx, value, duration
 
-		if type < 500:
+		if type < 500 and type not in [chr.AFFECT_ANTI_EXP]:
 			return
 
 		if type == chr.NEW_AFFECT_MALL:

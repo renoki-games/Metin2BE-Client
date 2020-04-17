@@ -3058,7 +3058,7 @@
 72322	Karte des Neuanfangs	Diese Karte erlaubt es dir, die Missionsstufe zurückzusetzen.
 72323	Karte der Neuordnung	Diese Karte erlaubt es dir, deine Mission neu zu würfeln.
 72325	Projektions-Zurücknahme	Macht die Projektion auf Gegenstände rückgängig.
-72501	Erfahrungsring (iCafe)	Erhöht das Sammeln von Erfahrung um 20 % im Mitglieder-iCafe.
+72501	Erfahrungsring (iCafe)	Dieser merkwürdige Erfahrungsring verhindert, dass du EXP erhalten kannst. Deine aktuelle EXP wird nicht auf 0% gesetzt!
 72502	Diebeshandschuh (iCafe)	Die Erfolgsrate für das Erbeuten von Gegenständen erhöht sich um das Anderthalbfache im Mitglieder-iCafe.
 72701	Windschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 30, solange sie ausgerüstet sind.
 72703	Tigerknochenohrring	Dein Angriffswert wird für 2 Stunden um 200 Punkte erhöht (Zeit läuft nur ab, wenn das Item angelegt ist). Das Item ist nicht handelbar.
