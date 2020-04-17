@@ -442,10 +442,10 @@ class CreateCharacterWindow(ui.Window):
 	def RefreshStat(self):
 		statSummary = self.stat[0] + self.stat[1] + self.stat[2] + self.stat[3]
 		self.destGauge =	(
-								float(self.stat[0]) / 90,
-								float(self.stat[1]) / 90,
-								float(self.stat[2]) / 90,
-								float(self.stat[3]) / 90,
+								float(self.stat[0]) / 100,
+								float(self.stat[1]) / 100,
+								float(self.stat[2]) / 100,
+								float(self.stat[3]) / 100,
 							)
 
 		for i in xrange(4):
