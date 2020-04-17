@@ -3,7 +3,7 @@ import localeInfo
 app.ServerName = None
 
 SRV1 = {
-	"name":"ServerName",
+	"name":"Alpha",
 	"host":"45.85.216.15",
 	"auth1":30001,
 	"ch1":30003,
@@ -20,8 +20,8 @@ STATE_DICT = {
 }
 
 SERVER1_CHANNEL_DICT = {
-	1:{"key":11,"name":"Channel 1","ip":SRV1["host"],"tcp_port":SRV1["ch1"],"udp_port":SRV1["ch1"],"state":STATE_NONE,},
-	2:{"key":12,"name":"Channel 2","ip":SRV1["host"],"tcp_port":SRV1["ch2"],"udp_port":SRV1["ch2"],"state":STATE_NONE,},
+	1:{"key":11,"name":"CH1","ip":SRV1["host"],"tcp_port":SRV1["ch1"],"udp_port":SRV1["ch1"],"state":STATE_NONE,},
+	2:{"key":12,"name":"CH2","ip":SRV1["host"],"tcp_port":SRV1["ch2"],"udp_port":SRV1["ch2"],"state":STATE_NONE,},
 }
 
 REGION_NAME_DICT = {
