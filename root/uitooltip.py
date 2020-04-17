@@ -1054,6 +1054,11 @@ class ItemToolTip(ToolTip):
 				self.AppendTextLine("BLEND_POTION_NO_INFO")
 
 		elif item.ITEM_TYPE_UNIQUE == itemType:
+			self.__AppendLimitInformation()
+
+			self.__AppendAffectInformation()
+			self.__AppendAttributeInformation(attrSlot)
+
 			if 0 != metinSlot:
 				bHasRealtimeFlag = 0
 

@@ -1423,7 +1423,7 @@ TOOLTIP_ARMOR	Rüstung
 TOOLTIP_ARROW	Pfeil
 TOOLTIP_ASSASSIN	Ninja
 TOOLTIP_ATT_GRADE	Angriffswert +%d	SA
-TOOLTIP_ATT_SPEED	Angriffsgeschwindigkeit +%d%%	SA
+TOOLTIP_ATT_SPEED	Angriffsgeschwindigkeit %d%%	SA
 TOOLTIP_ATT_SPEED_SLOW	Angriffsgeschwindigkeit reduziert	SNA
 TOOLTIP_AUTO_POTION_HP	Elixier der Sonne
 TOOLTIP_AUTO_POTION_REST	Restmenge: %.2f%%
