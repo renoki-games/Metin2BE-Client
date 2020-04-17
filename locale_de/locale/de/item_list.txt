@@ -9564,4 +9564,5 @@
 21975	WEAPON	icon/item/21905.tga	d:/ymir work/item/weapon/21905.gr2
 21976	WEAPON	icon/item/21906.tga	d:/ymir work/item/weapon/21906.gr2
 72750	ETC	icon/item/72750.tga
-
+39090	ETC	icon/item/39090.tga
+39091	ETC	icon/item/39091.tga
