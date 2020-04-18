@@ -2147,7 +2147,8 @@ class SkillToolTip(ToolTip):
 					self.AppendTextLine(localeInfo.TOOLTIP_SKILL_LEVEL_MASTER % (skillLevel), self.NORMAL_COLOR)
 				else:
 					self.AppendTextLine(localeInfo.TOOLTIP_SKILL_LEVEL % (skillLevel), self.NORMAL_COLOR)
-				self.AppendSkillLevelDescriptionNew(skillIndex, skillCurrentPercentage, self.ENABLE_COLOR)
+
+				self.AppendSkillLevelDescriptionNew(skillIndex, skillGrade, skillCurrentPercentage, self.ENABLE_COLOR)
 
 		## Next Level
 		if skillGrade != skill.SKILL_GRADE_COUNT:
@@ -2159,9 +2160,10 @@ class SkillToolTip(ToolTip):
 						self.AppendTextLine(localeInfo.TOOLTIP_NEXT_SKILL_LEVEL_3 % (skillLevel+1), self.DISABLE_COLOR)
 					else:
 						self.AppendTextLine(localeInfo.TOOLTIP_NEXT_SKILL_LEVEL_1 % (skillLevel+1, skillMaxLevelEnd), self.DISABLE_COLOR)
-					self.AppendSkillLevelDescriptionNew(skillIndex, skillNextPercentage, self.DISABLE_COLOR)
 
-	def AppendSkillLevelDescriptionNew(self, skillIndex, skillPercentage, color):
+					self.AppendSkillLevelDescriptionNew(skillIndex, skillGrade, skillNextPercentage, self.DISABLE_COLOR)
+
+	def AppendSkillLevelDescriptionNew(self, skillIndex, skillGrade, skillPercentage, color):
 
 		affectDataCount = skill.GetNewAffectDataCount(skillIndex)
 		if affectDataCount > 0:
@@ -2202,6 +2204,9 @@ class SkillToolTip(ToolTip):
 		## Duration
 		duration = skill.GetDuration(skillIndex, skillPercentage)
 		if duration > 0:
+			if skill.IsToggleSkill(skillIndex) and skillGrade == skill.SKILL_GRADE_COUNT:
+				duration = skill.TOGGLE_SKILL_P_DURATION
+
 			self.AppendTextLine(localeInfo.TOOLTIP_SKILL_DURATION % (duration), color)
 
 		## Cooltime
