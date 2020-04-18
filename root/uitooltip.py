@@ -2204,7 +2204,7 @@ class SkillToolTip(ToolTip):
 		## Duration
 		duration = skill.GetDuration(skillIndex, skillPercentage)
 		if duration > 0:
-			if skill.IsToggleSkill(skillIndex) and skillGrade == skill.SKILL_GRADE_COUNT:
+			if skill.IsToggleSkill(skillIndex) and skillGrade == player.SKILL_GRADE_PERFECT_MASTER:
 				duration = skill.TOGGLE_SKILL_P_DURATION
 
 			self.AppendTextLine(localeInfo.TOOLTIP_SKILL_DURATION % (duration), color)
