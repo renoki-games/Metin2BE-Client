@@ -659,10 +659,10 @@ class CharacterWindow(ui.ScriptWindow):
 
 	## Quest
 	def __SelectQuest(self, slotIndex):
-		questIndex = quest.GetQuestIndex(self.questShowingStartIndex+slotIndex)
+		questName = quest.GetQuestName(self.questShowingStartIndex+slotIndex)
 
 		import event
-		event.QuestButtonClick(-2147483648 + questIndex)
+		event.QuestButtonClickByName(questName)
 
 	def RefreshQuest(self):
 

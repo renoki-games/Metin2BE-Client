@@ -9566,3 +9566,4 @@
 72750	ETC	icon/item/72750.tga
 39090	ETC	icon/item/39090.tga
 39091	ETC	icon/item/39091.tga
+25043	ETC	icon/item/25043.tga

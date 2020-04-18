@@ -1109,12 +1109,10 @@ class Interface(object):
 		if 0 != btn:
 			self.__DestroyQuestButton(btn)
 
-	def RecvQuest(self, index, name):
-		# QUEST_LETTER_IMAGE
-		self.BINARY_RecvQuest(index, name, "file", localeInfo.GetLetterImageName())
-		# END_OF_QUEST_LETTER_IMAGE
+	def RecvQuest(self, index, name, quest_name):
+		self.BINARY_RecvQuest(index, name, "file", localeInfo.GetLetterImageName(), quest_name)
 
-	def BINARY_RecvQuest(self, index, name, iconType, iconName):
+	def BINARY_RecvQuest(self, index, name, iconType, iconName, quest_name):
 
 		btn = self.__FindQuestButton(index)
 		if 0 != btn:
@@ -1176,6 +1174,7 @@ class Interface(object):
 
 		btn.index = index
 		btn.name = name
+		btn.quest_name = quest_name
 
 		self.questButtonList.insert(0, btn)
 		self.__ArrangeQuestButton()
@@ -1209,7 +1208,7 @@ class Interface(object):
 				btn.Show()
 
 	def __StartQuest(self, btn):
-		event.QuestButtonClick(btn.index)
+		event.QuestButtonClickByName(btn.quest_name)
 		self.__DestroyQuestButton(btn)
 
 	def __FindQuestButton(self, index):
