@@ -5869,6 +5869,7 @@
 28043	ETC	icon/item/28013.tga
 28044	ETC	icon/item/28044.tga
 28045	ETC	icon/item/28045.tga	
+28046	ETC	icon/item/28046.tga
 28100	ETC	icon/item/28004.tga
 28101	ETC	icon/item/28001.tga
 28102	ETC	icon/item/28002.tga
@@ -5899,6 +5900,7 @@
 28143	ETC	icon/item/28013.tga
 28144	ETC	icon/item/28044.tga
 28145	ETC	icon/item/28045.tga
+28146	ETC	icon/item/28046.tga
 28200	ETC	icon/item/28004.tga
 28201	ETC	icon/item/28001.tga
 28202	ETC	icon/item/28002.tga
@@ -5929,6 +5931,7 @@
 28243	ETC	icon/item/28013.tga
 28244	ETC	icon/item/28044.tga
 28245	ETC	icon/item/28045.tga
+28246	ETC	icon/item/28046.tga
 28300	ETC	icon/item/28004.tga
 28301	ETC	icon/item/28001.tga
 28302	ETC	icon/item/28002.tga
@@ -5959,6 +5962,7 @@
 28343	ETC	icon/item/28013.tga
 28344	ETC	icon/item/28044.tga
 28345	ETC	icon/item/28045.tga	
+28346	ETC	icon/item/28046.tga
 28400	ETC	icon/item/28004.tga
 28401	ETC	icon/item/28001.tga
 28402	ETC	icon/item/28002.tga
@@ -5989,6 +5993,7 @@
 28443	ETC	icon/item/28013.tga
 28444	ETC	icon/item/28044.tga
 28445	ETC	icon/item/28045.tga		
+28446	ETC	icon/item/28046.tga
 28500	ETC	icon/item/28000.tga
 28501	ETC	icon/item/28001.tga
 28502	ETC	icon/item/28002.tga
