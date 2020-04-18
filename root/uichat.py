@@ -9,6 +9,7 @@ import localeInfo
 import colorInfo
 import constInfo
 import systemSetting
+import player
 
 ENABLE_CHAT_COMMAND = True
 ENABLE_LAST_SENTENCE_STACK = True
@@ -345,7 +346,7 @@ class ChatLine(ui.EditLine):
 
 		textSpaceCount=text.count(' ')
 
-		if (textLen > 0) and (textLen != textSpaceCount):
+		if (textLen > 0) and (textLen != textSpaceCount) and text not in ["#", "%", "$", "!"]:
 			if '#' == text[0]:
 				self.__SendPartyChatPacket(text)
 			elif '%' == text[0]:

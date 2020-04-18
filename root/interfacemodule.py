@@ -300,10 +300,15 @@ class Interface(object):
 
 	def MakeHyperlinkTooltip(self, hyperlink):
 		tokens = hyperlink.split(":")
+
 		if tokens and len(tokens):
 			type = tokens[0]
+
 			if "item" == type:
 				self.hyperlinkItemTooltip.SetHyperlinkItem(tokens)
+			elif "pn" == type[:2]:
+				t = type.split("_")
+				self.OpenWhisperDialog(t[1])
 
 	## Make Windows & Dialogs
 	################################
