@@ -1,8 +1,8 @@
 import uiScriptLocale
+import app
 
 ROOT = "d:/ymir work/ui/game/"
 
-#Y_ADD_POSITION = -2
 Y_ADD_POSITION = 0
 
 window = {
@@ -54,22 +54,22 @@ window = {
 
 					"images" :
 					(
-						ROOT + "TaskBar/Rampage_01/00.sub",
-						ROOT + "TaskBar/Rampage_01/01.sub",
-						ROOT + "TaskBar/Rampage_01/02.sub",
-						ROOT + "TaskBar/Rampage_01/03.sub",
-						ROOT + "TaskBar/Rampage_01/04.sub",
-						ROOT + "TaskBar/Rampage_01/05.sub",
-						ROOT + "TaskBar/Rampage_01/06.sub",
-						ROOT + "TaskBar/Rampage_01/07.sub",
-						ROOT + "TaskBar/Rampage_01/08.sub",
-						ROOT + "TaskBar/Rampage_01/09.sub",
-						ROOT + "TaskBar/Rampage_01/11.sub",
-						ROOT + "TaskBar/Rampage_01/12.sub",
-						ROOT + "TaskBar/Rampage_01/13.sub",
-						ROOT + "TaskBar/Rampage_01/14.sub",
-						ROOT + "TaskBar/Rampage_01/15.sub",
-						ROOT + "TaskBar/Rampage_01/16.sub",
+						"locale/de/ui/Mall/coin_0000.sub",
+						"locale/de/ui/Mall/coin_0001.sub",
+						"locale/de/ui/Mall/coin_0002.sub",
+						"locale/de/ui/Mall/coin_0003.sub",
+						"locale/de/ui/Mall/coin_0004.sub",
+						"locale/de/ui/Mall/coin_0005.sub",
+						"locale/de/ui/Mall/coin_0006.sub",
+						"locale/de/ui/Mall/coin_0007.sub",
+						"locale/de/ui/Mall/coin_0008.sub",
+						"locale/de/ui/Mall/coin_0009.sub",
+						"locale/de/ui/Mall/coin_0011.sub",
+						"locale/de/ui/Mall/coin_0012.sub",
+						"locale/de/ui/Mall/coin_0013.sub",
+						"locale/de/ui/Mall/coin_0014.sub",
+						"locale/de/ui/Mall/coin_0015.sub",
+						"locale/de/ui/Mall/coin_0016.sub",
 					)
 				},
 				{
@@ -85,26 +85,26 @@ window = {
 
 					"images" :
 					(
-						"locale/ymir_ui/mall/00.sub",
-						"locale/ymir_ui/mall/01.sub",
-						"locale/ymir_ui/mall/02.sub",
-						"locale/ymir_ui/mall/03.sub",
-						"locale/ymir_ui/mall/04.sub",
-						"locale/ymir_ui/mall/05.sub",
-						"locale/ymir_ui/mall/06.sub",
-						"locale/ymir_ui/mall/07.sub",
-						"locale/ymir_ui/mall/08.sub",
-						"locale/ymir_ui/mall/09.sub",
-						"locale/ymir_ui/mall/11.sub",
-						"locale/ymir_ui/mall/12.sub",
-						"locale/ymir_ui/mall/13.sub",
-						"locale/ymir_ui/mall/14.sub",
-						"locale/ymir_ui/mall/15.sub",
-						"locale/ymir_ui/mall/16.sub",
+						"locale/de/ui/Mall/coin_0000.sub",
+						"locale/de/ui/Mall/coin_0001.sub",
+						"locale/de/ui/Mall/coin_0002.sub",
+						"locale/de/ui/Mall/coin_0003.sub",
+						"locale/de/ui/Mall/coin_0004.sub",
+						"locale/de/ui/Mall/coin_0005.sub",
+						"locale/de/ui/Mall/coin_0006.sub",
+						"locale/de/ui/Mall/coin_0007.sub",
+						"locale/de/ui/Mall/coin_0008.sub",
+						"locale/de/ui/Mall/coin_0009.sub",
+						"locale/de/ui/Mall/coin_0011.sub",
+						"locale/de/ui/Mall/coin_0012.sub",
+						"locale/de/ui/Mall/coin_0013.sub",
+						"locale/de/ui/Mall/coin_0014.sub",
+						"locale/de/ui/Mall/coin_0015.sub",
+						"locale/de/ui/Mall/coin_0016.sub",
 					)
 				},
 				{
-					## 툴팁을 띄우기 위한 윈도우
+					## Tooltip popup for
 					"name" : "HPGauge_Board",
 					"type" : "window",
 
@@ -149,7 +149,7 @@ window = {
 					),
 				},
 				{
-					## 툴팁을 띄우기 위한 윈도우
+					## Tooltip popup for
 					"name" : "SPGauge_Board",
 					"type" : "window",
 
@@ -194,7 +194,7 @@ window = {
 					),
 				},
 				{
-					## 툴팁을 띄우기 위한 윈도우
+					## Tooltip popup for
 					"name" : "STGauge_Board",
 					"type" : "window",
 
@@ -307,6 +307,19 @@ window = {
 
 		## Button
 		{
+			"name" : "TeleportButton",
+			"type" : "button",
+
+			"x" : SCREEN_WIDTH - 178,
+			"y" : 3 + Y_ADD_POSITION,
+
+			"tooltip_text" : uiScriptLocale.TASKBAR_TELEPORT,
+
+			"default_image" : "D:/ymir work/ui/teleport_normal.tga",
+			"over_image" : "D:/ymir work/ui/teleport_hover.tga",
+			"down_image" : "D:/ymir work/ui/teleport_down.tga",
+		},
+		{
 			"name" : "CharacterButton",
 			"type" : "button",
 
@@ -373,16 +386,13 @@ window = {
 			"children" :
 			(
 				{
-					# ExpandButton은 기존에 ChatButton이었으나, ChatButton의 효용성이 적다 판단하여
-					# ExpandButton으로 바뀐 것이다.
-					"name" : "ExpandButton",
+					"name" : "ChatButton",
 					"type" : "button",
 
 					"x" : 128,
 					"y" : 1,
 					"tooltip_text" : uiScriptLocale.TASKBAR_EXPAND,
-					
-					
+
 					"default_image" : ROOT + "TaskBar/Chat_Button_01.sub",
 					"over_image" : ROOT + "TaskBar/Chat_Button_02.sub",
 					"down_image" : ROOT + "TaskBar/Chat_Button_03.sub",
@@ -455,7 +465,7 @@ window = {
 					(
 						{
 							"name" : "QuickSlotNumberBox",
-							"type" : "image",							
+							"type" : "image",
 							"x" : 1,
 							"y" : 15,
 							"image" : ROOT + "taskbar/QuickSlot_Button_Board.sub",
@@ -471,10 +481,10 @@ window = {
 							"down_image" : ROOT + "TaskBar/QuickSlot_UpButton_03.sub",
 						},
 
-						{ 
-							"name" : "QuickPageNumber", 
-							"type" : "image", 							
-							"x" : 3, "y" : 15, "image" : "d:/ymir work/ui/game/taskbar/1.sub", 
+						{
+							"name" : "QuickPageNumber",
+							"type" : "image",
+							"x" : 3, "y" : 15, "image" : "d:/ymir work/ui/game/taskbar/1.sub",
 						},
 						{
 							"name" : "QuickPageDownButton",
@@ -488,7 +498,7 @@ window = {
 							"over_image" : ROOT + "TaskBar/QuickSlot_DownButton_02.sub",
 							"down_image" : ROOT + "TaskBar/QuickSlot_DownButton_03.sub",
 						},
-	
+
 					),
 				},
 			),

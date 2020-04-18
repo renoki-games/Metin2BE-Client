@@ -99,6 +99,7 @@ class TaskBar(ui.ScriptWindow):
 	BUTTON_MESSENGER = 2
 	BUTTON_SYSTEM = 3
 	BUTTON_CHAT = 4
+	BUTTON_TELEPORT = 5
 
 	MOUSE_BUTTON_LEFT = 0
 	MOUSE_BUTTON_RIGHT = 1
@@ -280,11 +281,8 @@ class TaskBar(ui.ScriptWindow):
 	def LoadWindow(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
+			pyScrLoader.LoadScriptFile(self, "UIScript/TaskBar.py")
 
-			if constInfo.IN_GAME_SHOP_ENABLE:
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "TaskBar.py")
-			else:
-				pyScrLoader.LoadScriptFile(self, "UIScript/TaskBar.py")
 			pyScrLoader.LoadScriptFile(self.mouseModeButtonList[self.MOUSE_BUTTON_LEFT], "UIScript/MouseButtonWindow.py")
 			pyScrLoader.LoadScriptFile(self.mouseModeButtonList[self.MOUSE_BUTTON_RIGHT], "UIScript/RightMouseButtonWindow.py")
 		except:
@@ -308,6 +306,7 @@ class TaskBar(ui.ScriptWindow):
 		toggleButtonDict[TaskBar.BUTTON_MESSENGER]=self.GetChild("MessengerButton")
 		toggleButtonDict[TaskBar.BUTTON_SYSTEM]=self.GetChild("SystemButton")
 		toggleButtonDict[TaskBar.BUTTON_CHAT]=self.GetChild("ChatButton")
+		toggleButtonDict[TaskBar.BUTTON_TELEPORT]=self.GetChild("TeleportButton")
 
 		if localeInfo.IsARABIC():
 			systemButton = toggleButtonDict[TaskBar.BUTTON_SYSTEM]

@@ -593,6 +593,7 @@ SYSTEM_LOGOUT	Ausloggen
 SYSTEM_MALL	Item-Shop
 SYSTEM_MOVE_CHANNEL	Channel wechseln
 SYSTEM_OPTION	Systemoptionen
+TASKBAR_TELEPORT	Teleport
 TASKBAR_CHARACTER	Charakter [C/V/B/N]
 TASKBAR_CHAT	Chat-Fenster [Enter]
 TASKBAR_DISABLE	Deaktiviert

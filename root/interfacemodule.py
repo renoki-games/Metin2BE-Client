@@ -126,6 +126,7 @@ class Interface(object):
 		self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_MESSENGER, ui.__mem_func__(self.ToggleMessenger))
 		self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_SYSTEM, ui.__mem_func__(self.ToggleSystemDialog))
 		self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_CHAT, ui.__mem_func__(self.ToggleChat))
+		self.wndTaskBar.SetToggleButtonEvent(uiTaskBar.TaskBar.BUTTON_TELEPORT, ui.__mem_func__(self.ToggleTeleport))
 
 	def __MakeParty(self):
 		wndParty = uiParty.PartyWindow()
@@ -804,6 +805,9 @@ class Interface(object):
 				pass
 			else:
 				self.wndChat.OpenChat()
+
+	def ToggleTeleport(self):
+		event.QuestButtonClickByName("warpring")
 
 	def IsOpenChat(self):
 		return self.wndChat.IsEditMode()
