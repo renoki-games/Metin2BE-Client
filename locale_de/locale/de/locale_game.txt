@@ -1160,15 +1160,15 @@ PRIVATE_SHOP_CANNOT_SELL_ITEM	Du kannst diesen Gegenstand nicht in einem private
 PRIVATE_SHOP_CLOSE_QUESTION	Möchtest du den privaten Laden schließen?
 PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	Name des privaten Ladens
 PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	Preis
-PVP_LEVEL0	Ritterlich
-PVP_LEVEL1	Edel
-PVP_LEVEL2	Gut
-PVP_LEVEL3	Freundlich
+PVP_LEVEL0	Elite
+PVP_LEVEL1	Großmeister
+PVP_LEVEL2	Meister
+PVP_LEVEL3	Schüler
 PVP_LEVEL4	Neutral
-PVP_LEVEL5	Aggressiv
-PVP_LEVEL6	Arglistig
-PVP_LEVEL7	Bösartig
-PVP_LEVEL8	Grausam
+PVP_LEVEL5	Schurke
+PVP_LEVEL6	Bandit
+PVP_LEVEL7	Söldner
+PVP_LEVEL8	Berserker
 PVP_MODE_GUILD	PvP - Gilde aktiviert
 PVP_MODE_KILL	PvP - Frei aktiviert
 PVP_MODE_NORMAL	PvP - Frieden aktiviert
