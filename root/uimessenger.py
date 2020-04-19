@@ -12,10 +12,18 @@ import uiGameOption
 import uiCommon
 from _weakref import proxy
 
+def IS_SET(flag, bit):
+	return ((flag & bit))
+
 FRIEND = 0
 GUILD = 1
+TEAM = 2
 
 class MessengerItem(ui.Window):
+	langs = {
+		"de" : (1 << 0),
+		"en" : (1 << 1)
+	}
 
 	def __init__(self, getParentEvent):
 		ui.Window.__init__(self)
@@ -24,6 +32,9 @@ class MessengerItem(ui.Window):
 		self.AddFlag("float")
 
 		self.name = ""
+		self.languages = 0
+		self.languageImages = {}
+
 		self.image = ui.ImageBox()
 		self.image.AddFlag("not_pick")
 		self.image.SetParent(self)
@@ -49,6 +60,20 @@ class MessengerItem(ui.Window):
 			if localeInfo.IsARABIC():
 				self.text.SetPosition(20 + 6*len(name) + 4, 2)
 
+	def SetLanguages(self, languages):
+		self.languages = languages
+
+		if languages:
+			tmp = 0
+			for lang_name, key in self.langs.items():
+				if IS_SET(languages, key):
+					self.languageImages[lang_name] = ui.ImageBox()
+					self.languageImages[lang_name].SetParent(self)
+					self.languageImages[lang_name].SetPosition(-(19 * tmp) - 23, 5)
+					self.languageImages[lang_name].LoadImage("locale/de/ui/flags/%s_small_down.png" % (lang_name))
+					self.languageImages[lang_name].Show()
+					tmp += 1
+
 	def SetLovePoint(self, lovePoint):
 		self.lovePoint = lovePoint
 
@@ -60,6 +85,9 @@ class MessengerItem(ui.Window):
 
 	def GetName(self):
 		return self.name
+
+	def GetLanguages(self):
+		return self.languages
 
 	def GetStepWidth(self):
 		return 0
@@ -301,6 +329,17 @@ class MessengerGuildItem(MessengerMemberItem):
 		net.SendGuildRemoveMemberPacket(self.key)
 		return True
 
+class MessengerTeamItem(MessengerMemberItem):
+
+	def __init__(self, getParentEvent):
+		MessengerMemberItem.__init__(self, getParentEvent)
+
+	def CanRemove(self):
+		return False
+
+	def OnRemove(self):
+		return False
+
 class MessengerFriendGroup(MessengerGroupItem):
 
 	def __init__(self, getParentEvent):
@@ -338,6 +377,16 @@ class MessengerFamilyGroup(MessengerGroupItem):
 
 	def GetLover(self):
 		return self.lover
+
+class MessengerTeamGroup(MessengerGroupItem):
+
+	def __init__(self, getParentEvent):
+		MessengerGroupItem.__init__(self, getParentEvent)
+		self.SetName(localeInfo.MESSENGER_TEAM_GROUP_NAME)
+
+	def AppendMember(self, key, name):
+		item = MessengerTeamItem(self.getParentEvent)
+		return MessengerGroupItem.AppendMember(self, item, key, name)
 
 ###################################################################################################
 ###################################################################################################
@@ -508,7 +557,7 @@ class MessengerWindow(ui.ScriptWindow):
 		map(ui.Window.Hide, self.showingItemList)
 
 		for item in self.showingItemList[self.startLine:]:
-			item.SetPosition(20 + item.GetStepWidth(), yPos)
+			item.SetPosition(50 + item.GetStepWidth(), yPos)
 			item.SetTop()
 			item.Show()
 
@@ -523,6 +572,11 @@ class MessengerWindow(ui.ScriptWindow):
 		self.groupList.append(member)
 
 		member = MessengerGuildGroup(ui.__mem_func__(self.GetSelf))
+		member.Open()
+		member.Show()
+		self.groupList.append(member)
+
+		member = MessengerTeamGroup(ui.__mem_func__(self.GetSelf))
 		member.Open()
 		member.Show()
 		self.groupList.append(member)
@@ -778,21 +832,23 @@ class MessengerWindow(ui.ScriptWindow):
 		group.ClearMember()
 		self.OnRefreshList()
 
-	def OnLogin(self, groupIndex, key, name=None):
+	def OnLogin(self, groupIndex, key, name=None, languages=0):
 		if not name:
 			name = key
 		group = self.groupList[groupIndex]
 		member = self.__AddList(groupIndex, key, name)
 		member.SetName(name)
+		member.SetLanguages(languages)
 		member.Online()
 		self.OnRefreshList()
 
-	def OnLogout(self, groupIndex, key, name=None):
+	def OnLogout(self, groupIndex, key, name=None, languages=0):
 		group = self.groupList[groupIndex]
 		member = self.__AddList(groupIndex, key, name)
 		if not name:
 			name = key
 		member.SetName(name)
+		member.SetLanguages(languages)
 		member.Offline()
 		self.OnRefreshList()
 

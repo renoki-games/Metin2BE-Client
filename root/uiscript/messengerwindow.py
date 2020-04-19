@@ -6,12 +6,12 @@ BUTTON_X_STEP = 30
 window = {
 	"name" : "MessengerWindow",
 
-	"x" : SCREEN_WIDTH - 200,
+	"x" : SCREEN_WIDTH - 210,
 	"y" : SCREEN_HEIGHT - 400 - 50,
 
 	"style" : ("movable", "float",),
 
-	"width" : 170,
+	"width" : 180,
 	"height" : 300,
 
 	"children" :
@@ -24,7 +24,7 @@ window = {
 			"x" : 0,
 			"y" : 0,
 
-			"width" : 170,
+			"width" : 180,
 			"height" : 300,
 			"title" : uiScriptLocale.MESSENGER_TITLE,
 		},

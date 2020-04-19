@@ -33,6 +33,7 @@ import uiAffectShower
 import uiPlayerGauge
 import uiCharacter
 import uiTarget
+import uiMessenger
 
 # PRIVATE_SHOP_PRICE_LIST
 import uiPrivateShopBuilder
@@ -2121,4 +2122,22 @@ class GameWindow(ui.ScriptWindow):
 
 	# END_OF_WEDDING
 
+	def BINARY_UpdateTeamlist(self, gmList, clear):
+		if not self.interface.wndMessenger:
+			return
 
+		if clear:
+			self.interface.wndMessenger.OnRemoveAllList(uiMessenger.TEAM)
+
+		for gmDict in gmList:
+			name = gmDict["name"]
+			state = gmDict["state"]
+			languages = gmDict["languages"]
+
+			import chat
+			chat.AppendChat("%d" % (languages))
+
+			if state:
+				self.interface.wndMessenger.OnLogin(uiMessenger.TEAM, name, None, languages)
+			else:
+				self.interface.wndMessenger.OnLogout(uiMessenger.TEAM, name, None, languages)
