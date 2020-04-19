@@ -18,6 +18,8 @@ g_itemPriceDict={}
 
 g_privateShopAdvertisementBoardDict={}
 
+shopAdvertismentBoardSeen = []
+
 def Clear():
 	global g_itemPriceDict
 	global g_isBuildingPrivateShop
@@ -67,6 +69,7 @@ def DeleteADBoard(vid):
 class PrivateShopAdvertisementBoard(ui.ThinBoard):
 	def __init__(self):
 		ui.ThinBoard.__init__(self, "UI_BOTTOM")
+
 		self.vid = None
 		self.__MakeTextLine()
 
@@ -85,6 +88,9 @@ class PrivateShopAdvertisementBoard(ui.ThinBoard):
 	def Open(self, vid, text):
 		self.vid = vid
 
+		if vid in shopAdvertismentBoardSeen:
+			self.textLine.SetFontColor(1.0, 0.5, 0.1)
+
 		self.textLine.SetText(text)
 		self.textLine.UpdateRect()
 		self.SetSize(len(text)*6 + 10*2, 20)
@@ -95,7 +101,12 @@ class PrivateShopAdvertisementBoard(ui.ThinBoard):
 	def OnMouseLeftButtonUp(self):
 		if not self.vid:
 			return
+
 		net.SendOnClickPacket(self.vid)
+
+		if self.vid != player.GetMainCharacterIndex():
+			self.textLine.SetFontColor(1.0, 0.5, 0.1)
+			shopAdvertismentBoardSeen.append(self.vid)
 
 		return True
 
