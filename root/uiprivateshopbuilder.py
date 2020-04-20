@@ -89,6 +89,8 @@ class PrivateShopAdvertisementBoard(ui.ThinBoard):
 		self.vid = vid
 
 		if vid in shopAdvertismentBoardSeen:
+			self.textLine.SetFontColor(0.78, 0.78, 0.78)
+		else:
 			self.textLine.SetFontColor(1.0, 0.5, 0.1)
 
 		self.textLine.SetText(text)
@@ -105,7 +107,7 @@ class PrivateShopAdvertisementBoard(ui.ThinBoard):
 		net.SendOnClickPacket(self.vid)
 
 		if self.vid != player.GetMainCharacterIndex():
-			self.textLine.SetFontColor(1.0, 0.5, 0.1)
+			self.textLine.SetFontColor(0.78, 0.78, 0.78)
 			shopAdvertismentBoardSeen.append(self.vid)
 
 		return True
