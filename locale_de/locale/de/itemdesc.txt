@@ -465,6 +465,7 @@
 22000	Schriftrolle Stadt	Die Schriftrolle ermöglicht es dir, dich zurück in die Stadt zu teleportieren.
 22010	Schriftrolle des Ortes	Die Schriftrolle ermöglicht dir den Rücktransport zu dem Ort, den du dir zuletzt gemerkt hast.
 25040	Segensschriftrolle	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. In diesem Fall wird lediglich seine Qualität um 1 verringert.
+25043	Pechsschriftrolle	Beseitigt das Risiko, einen Gegenstand zu zerstören, jedoch wird die Qualität um 1 verringert. Mit 100% Chance auf Fehlschlag.
 25041	Magischer Stein	Ein Klumpen des legendären Metalls, das die besten Chancen beim Verbessern eines Gegenstandes gewährt. Der verbesserte Gegenstand kann außerdem weder zerstört noch verschlechtert werden.
 25042	Ritualstein	Ein mystisch schmimmernder Stein, der die besten Chancen beim Verbessern eines Gegenstandes gewährt. Der verbesserte Gegenstand kann außerdem weder zerstört noch verschlechtert werden. Dieser Stein funktioniert nur bei Gegenständen über Level 80.
 25100	Geiststein-Schriftrolle	Die Schriftrolle ermöglicht es dir, den Geiststein aus einer Waffe oder Rüstung zu entfernen. Ein Splitter bleibt dabei zurück.
@@ -1065,7 +1066,10 @@
 39033	Rolle der Korrektur	Mit dieser Rolle kann der zuletzt erfolgreich hinzugefügte Geiststein aus einem Gegenstand entfernt werden. Dieses Item ist handelbar.
 39034	Pferdezucker	Dieses Zuckerstück ermöglicht es, deinem Reittier einen Namen zu geben. Gleichzeitig erhöht es dessen Verteidigungswert um 20. Dieses Item ist handelbar.
 39035	Glas der Einsicht	Ermöglicht dir, einem anderen Spieler Gegenstände aus deinem Inventar zu zeigen. Das Glas zerbricht während des Vorgangs. Dieses Item ist handelbar.
-39036	Windschuhe	Solange die Schuhe ausgerüstet sind, erhöht sich die Bewegungsgeschwindigkeit 30 Spielstunden lang um 30. Dieses Item ist handelbar.
+39036	Windschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 30, solange sie ausgerüstet sind.
+39090	Sturmschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 60, solange sie ausgerüstet sind.
+39091	Orkanschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 100, solange sie ausgerüstet sind.
+72750	Bleischuhe	Sie verringern deine Bewegungsgeschwindigkeit und Angriffsgeschwindigkeit um 50, solange sie ausgerüstet sind.
 39037	Elixier der Sonne (K)	Füllt deine TP automatisch auf. Enthält 1.000.000 TP. Dieses Item ist handelbar.
 39038	Elixier der Sonne (M)	Füllt deine TP automatisch auf. Enthält 3.000.000 TP. Dieses Item ist handelbar.
 39039	Elixier der Sonne (G)	Füllt deine TP automatisch auf. Enthält 7.000.000 TP. Dieses Item ist handelbar.
