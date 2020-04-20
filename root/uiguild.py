@@ -1465,8 +1465,8 @@ class GuildWindow(ui.ScriptWindow):
 		curExp, lastExp = guild.GetGuildExperience()
 		curExp *= 100
 		lastExp *= 100
-		page.curExpSlot.SetText(str(curExp))
-		page.lastExpSlot.SetText(str(lastExp))
+		page.curExpSlot.SetText(localeInfo.NumberWithDots(curExp))
+		page.lastExpSlot.SetText(localeInfo.NumberWithDots(lastExp))
 
 		curMemberCount, maxMemberCount = guild.GetGuildMemberCount()
 		if maxMemberCount== 0xffff:
@@ -2004,37 +2004,11 @@ class GuildWindow(ui.ScriptWindow):
 
 class BuildGuildBuildingWindow(ui.ScriptWindow):
 
-	if localeInfo.IsJAPAN():
-		GUILD_CATEGORY_LIST = (
-				("HEADQUARTER", "딈멳뙕뭱븿"),
-				("FACILITY", "둮뮗뙕뭱븿"),
-				("OBJECT", "궩궻뫜"),
-			)
-	elif localeInfo.IsYMIR() or localeInfo.IsWE_KOREA():
-		GUILD_CATEGORY_LIST = (
-				("HEADQUARTER", "본건물"),
-				("FACILITY", "기능건물"),
-				("OBJECT", "조경물"),
-			)
-	elif localeInfo.IsEUROPE() or localeInfo.IsHONGKONG():
-		GUILD_CATEGORY_LIST = (
-				("HEADQUARTER", localeInfo.GUILD_HEADQUARTER),
-				("FACILITY", 	localeInfo.GUILD_FACILITY),
-				("OBJECT", 	localeInfo.GUILD_OBJECT),
-			)
-	else:
-		try :
-			GUILD_CATEGORY_LIST = (
-					("HEADQUARTER", localeInfo.GUILD_HEADQUARTER),
-					("FACILITY", 	localeInfo.GUILD_FACILITY),
-					("OBJECT", 	localeInfo.GUILD_OBJECT),
-				)
-		except:
-			GUILD_CATEGORY_LIST = (
-					("HEADQUARTER", "Main Building"),
-					("FACILITY", "Facility"),
-					("OBJECT", "Object"),
-				)
+	GUILD_CATEGORY_LIST = (
+		("HEADQUARTER", localeInfo.GUILD_HEADQUARTER),
+		("FACILITY", 	localeInfo.GUILD_FACILITY),
+		("OBJECT", 	localeInfo.GUILD_OBJECT),
+	)
 
 	MODE_VIEW = 0
 	MODE_POSITIONING = 1
