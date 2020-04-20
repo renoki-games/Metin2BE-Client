@@ -1625,4 +1625,4 @@ UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Der Upload muss neu gestartet werden.
 USE_ITEM_FAILURE_PRIVATE_SHOP	Du kannst keine Gegenstände verwenden, solange du einen privaten Laden geöffnet hast.
 USE_SKILL_ERROR_UNKNOWN	Unbekannter Fertigkeitsfehler: %s
 TOOLTIP_ANTI_EXP	Exp erhalten deaktiviert	SNA
-MESSENGER_TEAM_GROUP_NAME	Teamler
+MESSENGER_TEAM_GROUP_NAME	Team
