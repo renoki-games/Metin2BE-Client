@@ -476,9 +476,9 @@ class CharacterWindow(ui.ScriptWindow):
 		attackerBonus=player.GetStatus(player.ATTACKER_BONUS)
 
 		if minAtk==maxAtk:
-			return "%d" % (minAtk+atkBonus+attackerBonus)
+			return "%s" % (localeInfo.NumberWithDots(minAtk+atkBonus+attackerBonus))
 		else:
-			return "%d-%d" % (minAtk+atkBonus+attackerBonus, maxAtk+atkBonus+attackerBonus)
+			return "%s-%s" % (localeInfo.NumberWithDots(minAtk+atkBonus+attackerBonus), localeInfo.NumberWithDots(maxAtk+atkBonus+attackerBonus))
 
 	def __GetTotalMagAtkText(self):
 		minMagAtk=player.GetStatus(player.MAG_ATT)+player.GetStatus(player.MIN_MAGIC_WEP)
@@ -493,7 +493,7 @@ class CharacterWindow(ui.ScriptWindow):
 		defValue=player.GetStatus(player.DEF_GRADE)
 		if constInfo.ADD_DEF_BONUS_ENABLE:
 			defValue+=player.GetStatus(player.DEF_BONUS)
-		return "%d" % (defValue)
+		return "%s" % (localeInfo.NumberWithDots(defValue))
 
 	def RefreshStatus(self):
 		if self.isLoaded==0:
@@ -503,8 +503,8 @@ class CharacterWindow(ui.ScriptWindow):
 			self.GetChild("Level_Value").SetText(str(player.GetStatus(player.LEVEL)))
 			self.GetChild("Exp_Value").SetText(localeInfo.NumberWithDots(unsigned32(player.GetEXP())))
 			self.GetChild("RestExp_Value").SetText(localeInfo.NumberWithDots(unsigned32(player.GetStatus(player.NEXT_EXP)) - unsigned32(player.GetStatus(player.EXP))))
-			self.GetChild("HP_Value").SetText(str(player.GetStatus(player.HP)) + '/' + str(player.GetStatus(player.MAX_HP)))
-			self.GetChild("SP_Value").SetText(str(player.GetStatus(player.SP)) + '/' + str(player.GetStatus(player.MAX_SP)))
+			self.GetChild("HP_Value").SetText(localeInfo.NumberWithDots(player.GetStatus(player.HP)) + '/' + localeInfo.NumberWithDots(player.GetStatus(player.MAX_HP)))
+			self.GetChild("SP_Value").SetText(localeInfo.NumberWithDots(player.GetStatus(player.SP)) + '/' + localeInfo.NumberWithDots(player.GetStatus(player.MAX_SP)))
 
 			self.GetChild("STR_Value").SetText(str(player.GetStatus(player.ST)))
 			self.GetChild("DEX_Value").SetText(str(player.GetStatus(player.DX)))
