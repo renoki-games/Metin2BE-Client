@@ -550,6 +550,8 @@ class EditLine(TextLine):
 		self.readingWnd = ReadingWnd()
 		self.readingWnd.Hide()
 
+		ime.EnablePaste(1)
+
 	def __del__(self):
 		TextLine.__del__(self)
 

@@ -307,6 +307,8 @@ class Interface(object):
 
 			if "item" == type:
 				self.hyperlinkItemTooltip.SetHyperlinkItem(tokens)
+			elif "web" == type:
+				app.ExecuteShell(tokens[1].replace("w<?", "://"))
 			elif "pn" == type[:2]:
 				t = type.split("_")
 				self.OpenWhisperDialog(t[1])

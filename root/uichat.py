@@ -10,6 +10,7 @@ import colorInfo
 import constInfo
 import systemSetting
 import player
+import re
 
 ENABLE_CHAT_COMMAND = True
 ENABLE_LAST_SENTENCE_STACK = True
@@ -219,7 +220,22 @@ class ChatLine(ui.EditLine):
 		if net.IsChatInsultIn(text):
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.CHAT_INSULT_STRING)
 		else:
+			links={}
+			if self.GetLinks(text, links):
+				for k, v in links.iteritems():
+					text = text.replace(k, v)
+
 			net.SendChatPacket(text, type)
+
+	def GetLinks(self, string, ret):
+		links = re.findall("(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#/%=~_|$?!:,.]*\)|[A-Z0-9+&@#/%=~_|$])", string, re.I)
+
+		if not (hasattr(ret, "clear") and hasattr(ret, "update")):
+			return False
+
+		ret.clear()
+		map(lambda link: (ret.update({link:"|cFF00C0FC|Hweb:%s|h[%s]|h|r"%(re.sub("://", "w<?", link), link)})) if link else None, links)
+		return len(links) > 0
 
 	def __SendPartyChatPacket(self, text):
 
