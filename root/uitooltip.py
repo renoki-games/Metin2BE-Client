@@ -1203,6 +1203,14 @@ class ItemToolTip(ToolTip):
 
 				if item.LIMIT_REAL_TIME == limitType:
 					self.AppendMallItemLastTime(metinSlot[0])
+
+		elif item.ITEM_TYPE_SPECIAL == itemType:
+			for i in xrange(item.LIMIT_MAX_NUM):
+				(limitType, limitValue) = item.GetLimit(i)
+
+				if item.LIMIT_REAL_TIME == limitType:
+					self.AppendMallItemLastTime(metinSlot[0])
+
 		else:
 			self.__AppendLimitInformation()
 
