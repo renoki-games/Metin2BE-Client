@@ -159,6 +159,7 @@ class InventoryWindow(ui.ScriptWindow):
 			self.wndMoney = self.GetChild("Money")
 			self.wndMoneySlot = self.GetChild("Money_Slot")
 			self.mallButton = self.GetChild2("MallButton")
+			self.safeboxButton = self.GetChild2("SafeboxButton")
 			self.costumeButton = self.GetChild2("CostumeButton")
 
 			self.inventoryTab = []
@@ -228,6 +229,10 @@ class InventoryWindow(ui.ScriptWindow):
 		if self.mallButton:
 			self.mallButton.SetEvent(ui.__mem_func__(self.ClickMallButton))
 
+		# SafeboxButton
+		if self.safeboxButton:
+			self.safeboxButton.SetEvent(ui.__mem_func__(self.ClickSafeboxButton))
+
 		# Costume Button
 		if self.costumeButton:
 			self.costumeButton.SetEvent(ui.__mem_func__(self.ClickCostumeButton))
@@ -262,6 +267,7 @@ class InventoryWindow(ui.ScriptWindow):
 		self.wndMoneySlot = 0
 		self.questionDialog = None
 		self.mallButton = None
+		self.safeboxButton = None
 		self.interface = None
 
 		if self.wndCostume:
@@ -306,6 +312,10 @@ class InventoryWindow(ui.ScriptWindow):
 	def ClickMallButton(self):
 		print "click_mall_button"
 		net.SendChatPacket("/click_mall")
+
+	def ClickSafeboxButton(self):
+		print "click_storage_button"
+		net.SendChatPacket("/click_safebox")
 
 	def ClickCostumeButton(self):
 		print "Click Costume Button"

@@ -90,6 +90,20 @@ window = {
 						},
 						## MallButton
 						{
+							"name" : "SafeboxButton",
+							"type" : "button",
+
+							"x" : 118,
+							"y" : 110,
+
+							"tooltip_text" : uiScriptLocale.SAFEBOX_TITLE,
+
+							"default_image" : "d:/ymir work/ui/safebox_normal.tga",
+							"over_image" : "d:/ymir work/ui/safebox_hover.tga",
+							"down_image" : "d:/ymir work/ui/safebox_down.tga",
+						},
+						## MallButton
+						{
 							"name" : "MallButton",
 							"type" : "button",
 
