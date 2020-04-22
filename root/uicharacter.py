@@ -478,7 +478,7 @@ class CharacterWindow(ui.ScriptWindow):
 		if minAtk==maxAtk:
 			return "%s" % (localeInfo.NumberWithDots(minAtk+atkBonus+attackerBonus))
 		else:
-			return "%s-%s" % (localeInfo.NumberWithDots(minAtk+atkBonus+attackerBonus), localeInfo.NumberWithDots(maxAtk+atkBonus+attackerBonus))
+			return "%s - %s" % (localeInfo.NumberWithDots(minAtk+atkBonus+attackerBonus), localeInfo.NumberWithDots(maxAtk+atkBonus+attackerBonus))
 
 	def __GetTotalMagAtkText(self):
 		minMagAtk=player.GetStatus(player.MAG_ATT)+player.GetStatus(player.MIN_MAGIC_WEP)
@@ -487,7 +487,7 @@ class CharacterWindow(ui.ScriptWindow):
 		if minMagAtk==maxMagAtk:
 			return "%d" % (minMagAtk)
 		else:
-			return "%d-%d" % (minMagAtk, maxMagAtk)
+			return "%d - %d" % (minMagAtk, maxMagAtk)
 
 	def __GetTotalDefText(self):
 		defValue=player.GetStatus(player.DEF_GRADE)
@@ -503,8 +503,8 @@ class CharacterWindow(ui.ScriptWindow):
 			self.GetChild("Level_Value").SetText(str(player.GetStatus(player.LEVEL)))
 			self.GetChild("Exp_Value").SetText(localeInfo.NumberWithDots(unsigned32(player.GetEXP())))
 			self.GetChild("RestExp_Value").SetText(localeInfo.NumberWithDots(unsigned32(player.GetStatus(player.NEXT_EXP)) - unsigned32(player.GetStatus(player.EXP))))
-			self.GetChild("HP_Value").SetText(localeInfo.NumberWithDots(player.GetStatus(player.HP)) + '/' + localeInfo.NumberWithDots(player.GetStatus(player.MAX_HP)))
-			self.GetChild("SP_Value").SetText(localeInfo.NumberWithDots(player.GetStatus(player.SP)) + '/' + localeInfo.NumberWithDots(player.GetStatus(player.MAX_SP)))
+			self.GetChild("HP_Value").SetText(localeInfo.NumberWithDots(player.GetStatus(player.HP)) + ' / ' + localeInfo.NumberWithDots(player.GetStatus(player.MAX_HP)))
+			self.GetChild("SP_Value").SetText(localeInfo.NumberWithDots(player.GetStatus(player.SP)) + ' / ' + localeInfo.NumberWithDots(player.GetStatus(player.MAX_SP)))
 
 			self.GetChild("STR_Value").SetText(str(player.GetStatus(player.ST)))
 			self.GetChild("DEX_Value").SetText(str(player.GetStatus(player.DX)))
