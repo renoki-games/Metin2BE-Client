@@ -903,6 +903,9 @@ class ItemToolTip(ToolTip):
 		self.__AdjustMaxWidth(attrSlot, itemDesc)
 		self.__SetItemTitle(itemVnum, metinSlot, attrSlot)
 
+		if chr.IsGameMaster(player.GetMainCharacterIndex()):
+			self.AppendTextLine("(%s)" % (itemVnum), self.SPECIAL_TITLE_COLOR)
+
 		### Hair Preview Image ###
 		if self.__IsHair(itemVnum):
 			self.__AppendHairIcon(itemVnum)
