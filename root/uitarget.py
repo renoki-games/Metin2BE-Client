@@ -247,12 +247,17 @@ class TargetBoard(ui.ThinBoard):
 		name = chr.GetNameByVID(vid)
 		level = nonplayer.GetLevelByVID(vid)
 		grade = nonplayer.GetGradeByVID(vid)
+		vnum = nonplayer.GetRaceNumByVID(vid)
 
 		nameFront = ""
 		if -1 != level:
 			nameFront += "Lv." + str(level) + " "
+
 		if self.GRADE_NAME.has_key(grade):
 			nameFront += "(" + self.GRADE_NAME[grade] + ") "
+
+		if chr.IsGameMaster(player.GetMainCharacterIndex()):
+			nameFront += "[" + str(vnum) + "] "
 
 		self.SetTargetName(nameFront + name)
 
