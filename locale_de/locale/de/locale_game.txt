@@ -199,13 +199,13 @@ CREATE_INPUT_NAME	Gib den Namen ein.
 CREATE_PLUS_STAT	Es sind noch Statuspunkte verfügbar.
 DAY	T
 DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Du kannst während einer Abfrage keine Gegenstände bewegen.
-DO_YOU_BUY_ITEM1	Möchtest du %s für %s Yang kaufen?
-DO_YOU_BUY_ITEM2	Möchtest du %s (%s Stück) für %s Yang kaufen?
-DO_YOU_BUY_ITEM3	Möchtest du %s für %s Won und %s Yang kaufen?
-DO_YOU_BUY_ITEM4	Möchtest du %s (%s Stück) für %s Won und %s Yang kaufen?
+DO_YOU_BUY_ITEM1	Möchtest du %s für %s kaufen?
+DO_YOU_BUY_ITEM2	Möchtest du %s (%s Stück) für %s kaufen?
+DO_YOU_BUY_ITEM3	Möchtest du %s für %s Won und %s kaufen?
+DO_YOU_BUY_ITEM4	Möchtest du %s (%s Stück) für %s Won und %s kaufen?
 DO_YOU_DROP_MONEY	Möchtest du %d Yang fallen lassen?
-DO_YOU_SELL_ITEM1	Möchtest du %s für %s Yang verkaufen?
-DO_YOU_SELL_ITEM2	Möchtest du %s (%s Stück) für %s Yang verkaufen?
+DO_YOU_SELL_ITEM1	Möchtest du %s für %s verkaufen?
+DO_YOU_SELL_ITEM2	Möchtest du %s (%s Stück) für %s verkaufen?
 DROP_ITEM_FAILURE_EQUIP_ITEM	Du kannst keine ausgerüsteten Gegenstände fallen lassen.
 DROP_ITEM_FAILURE_PRIVATE_SHOP	Du kannst keine Gegenstände fallen lassen, solange du einen privaten Laden geöffnet hast.
 DROP_MONEY_FAILURE_1000_OVER	Du kannst nur maximal 999 Yang fallen lassen.
