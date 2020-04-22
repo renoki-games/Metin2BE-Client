@@ -1794,6 +1794,11 @@ class GameWindow(ui.ScriptWindow):
 	## BINARY CALLBACK
 	######################################################################################
 
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def BINARY_AddItemToExchange(self, inven_type, inven_pos, display_pos):
+			if inven_type == player.INVENTORY:
+				self.interface.CantTradableItemExchange(display_pos, inven_pos)
+
 	def __ServerCommand_Build(self):
 		serverCommandList={
 			"ConsoleEnable"			: self.__Console_Enable,

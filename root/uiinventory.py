@@ -106,6 +106,10 @@ class InventoryWindow(ui.ScriptWindow):
 	wndCostume = None
 	dlgPickMoney = None
 
+	interface = None
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		bindWnds = []
+
 	sellingSlotNumber = -1
 	isLoaded = 0
 	isOpenedCostumeWindowWhenClosingInventory = 0		# 인벤토리 닫을 때 코스츔이 열려있었는지 여부-_-; 네이밍 ㅈㅅ
@@ -131,6 +135,10 @@ class InventoryWindow(ui.ScriptWindow):
 
 	def BindInterfaceClass(self, interface):
 		self.interface = interface
+
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def BindWindow(self, wnd):
+			self.bindWnds.append(wnd)
 
 	def __LoadWindow(self):
 		if self.isLoaded == 1:
@@ -205,7 +213,11 @@ class InventoryWindow(ui.ScriptWindow):
 		self.refineDialog.Hide()
 
 		## AttachMetinDialog
-		self.attachMetinDialog = uiAttachMetin.AttachMetinDialog()
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):  
+			self.attachMetinDialog = uiAttachMetin.AttachMetinDialog(self)
+			self.BindWindow(self.attachMetinDialog)
+		else:
+			self.attachMetinDialog = uiAttachMetin.AttachMetinDialog()
 		self.attachMetinDialog.Hide()
 
 		## MoneySlot
@@ -269,6 +281,9 @@ class InventoryWindow(ui.ScriptWindow):
 		self.mallButton = None
 		self.safeboxButton = None
 		self.interface = None
+
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.bindWnds = []
 
 		if self.wndCostume:
 			self.wndCostume.Destroy()
@@ -366,6 +381,76 @@ class InventoryWindow(ui.ScriptWindow):
 
 		return self.inventoryPageIndex*player.INVENTORY_PAGE_SIZE + local
 
+	def GetInventoryPageIndex(self):
+		return self.inventoryPageIndex
+
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def RefreshMarkSlots(self, localIndex=None):
+			if not self.interface:
+				return
+
+			onTopWnd = self.interface.GetOnTopWindow()
+			if localIndex:
+				slotNumber = self.__InventoryLocalSlotPosToGlobalSlotPos(localIndex)
+				if onTopWnd == player.ON_TOP_WND_NONE:
+					self.wndItem.SetUsableSlotOnTopWnd(localIndex)
+
+				elif onTopWnd == player.ON_TOP_WND_SHOP:
+					if player.IsAntiFlagBySlot(slotNumber, item.ANTIFLAG_SELL):
+						self.wndItem.SetUnusableSlotOnTopWnd(localIndex)
+					else:
+						self.wndItem.SetUsableSlotOnTopWnd(localIndex)
+
+				elif onTopWnd == player.ON_TOP_WND_EXCHANGE:
+					if player.IsAntiFlagBySlot(slotNumber, item.ANTIFLAG_GIVE):
+						self.wndItem.SetUnusableSlotOnTopWnd(localIndex)
+					else:
+						self.wndItem.SetUsableSlotOnTopWnd(localIndex)
+
+				elif onTopWnd == player.ON_TOP_WND_PRIVATE_SHOP:
+					if player.IsAntiFlagBySlot(slotNumber, item.ITEM_ANTIFLAG_MYSHOP):
+						self.wndItem.SetUnusableSlotOnTopWnd(localIndex)
+					else:
+						self.wndItem.SetUsableSlotOnTopWnd(localIndex)
+
+				elif onTopWnd == player.ON_TOP_WND_SAFEBOX:
+					if player.IsAntiFlagBySlot(slotNumber, item.ANTIFLAG_SAFEBOX):
+						self.wndItem.SetUnusableSlotOnTopWnd(localIndex)
+					else:
+						self.wndItem.SetUsableSlotOnTopWnd(localIndex)
+
+				return
+
+			for i in xrange(player.INVENTORY_PAGE_SIZE):
+				slotNumber = self.__InventoryLocalSlotPosToGlobalSlotPos(i)
+
+				if onTopWnd == player.ON_TOP_WND_NONE:
+					self.wndItem.SetUsableSlotOnTopWnd(i)
+
+				elif onTopWnd == player.ON_TOP_WND_SHOP:
+					if player.IsAntiFlagBySlot(slotNumber, item.ANTIFLAG_SELL):
+						self.wndItem.SetUnusableSlotOnTopWnd(i)
+					else:
+						self.wndItem.SetUsableSlotOnTopWnd(i)
+
+				elif onTopWnd == player.ON_TOP_WND_EXCHANGE:
+					if player.IsAntiFlagBySlot(slotNumber, item.ANTIFLAG_GIVE):
+						self.wndItem.SetUnusableSlotOnTopWnd(i)
+					else:
+						self.wndItem.SetUsableSlotOnTopWnd(i)
+
+				elif onTopWnd == player.ON_TOP_WND_PRIVATE_SHOP:
+					if player.IsAntiFlagBySlot(slotNumber, item.ITEM_ANTIFLAG_MYSHOP):
+						self.wndItem.SetUnusableSlotOnTopWnd(i)
+					else:
+						self.wndItem.SetUsableSlotOnTopWnd(i)
+
+				elif onTopWnd == player.ON_TOP_WND_SAFEBOX:
+					if player.IsAntiFlagBySlot(slotNumber, item.ANTIFLAG_SAFEBOX):
+						self.wndItem.SetUnusableSlotOnTopWnd(i)
+					else:
+						self.wndItem.SetUsableSlotOnTopWnd(i)
+
 	def RefreshBagSlotWindow(self):
 		getItemVNum=player.GetItemIndex
 		getItemCount=player.GetItemCount
@@ -407,7 +492,13 @@ class InventoryWindow(ui.ScriptWindow):
 				else:
 					self.wndItem.DeactivateSlot(i)
 
+			if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+				self.RefreshMarkSlots(i)
+
 		self.wndItem.RefreshSlot()
+
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			map(lambda wnd:wnd.RefreshLockedSlot(), self.bindWnds)
 
 	def RefreshEquipSlotWindow(self):
 		getItemVNum=player.GetItemIndex
@@ -970,6 +1061,10 @@ class InventoryWindow(ui.ScriptWindow):
 	def OnTop(self):
 		if None != self.tooltipItem:
 			self.tooltipItem.SetTop()
+
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			map(lambda wnd:wnd.RefreshLockedSlot(), self.bindWnds)
+			self.RefreshMarkSlots()
 
 	def OnPressEscapeKey(self):
 		self.Close()

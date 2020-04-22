@@ -52,6 +52,8 @@ class Interface(object):
 	def __init__(self):
 		systemSetting.SetInterfaceHandler(self)
 		self.windowOpenPosition = 0
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.onTopWindow = player.ON_TOP_WND_NONE
 		self.dlgWhisperWithoutTarget = None
 		self.inputDialog = None
 		self.tipBoard = None
@@ -155,6 +157,8 @@ class Interface(object):
 
 		wndMiniMap = uiMiniMap.MiniMap()
 		wndSafebox = uiSafebox.SafeboxWindow()
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			wndSafebox.BindInterface(self)
 
 		# ITEM_MALL
 		wndMall = uiSafebox.MallWindow()
@@ -172,6 +176,10 @@ class Interface(object):
 
 	def __MakeDialogs(self):
 		self.dlgExchange = uiExchange.ExchangeDialog()
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.dlgExchange.BindInterface(self)
+			self.dlgExchange.SetInven(self.wndInventory)
+			self.wndInventory.BindWindow(self.dlgExchange)
 		self.dlgExchange.LoadDialog()
 		self.dlgExchange.SetCenterPosition()
 		self.dlgExchange.Hide()
@@ -181,6 +189,8 @@ class Interface(object):
 		self.dlgPointReset.Hide()
 
 		self.dlgShop = uiShop.ShopDialog()
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.dlgShop.BindInterface(self)
 		self.dlgShop.LoadDialog()
 		self.dlgShop.Hide()
 
@@ -207,9 +217,16 @@ class Interface(object):
 		self.tooltipSkill.Hide()
 
 		self.privateShopBuilder = uiPrivateShopBuilder.PrivateShopBuilder()
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.privateShopBuilder.BindInterface(self)
+			self.privateShopBuilder.SetInven(self.wndInventory)
+			self.wndInventory.BindWindow(self.privateShopBuilder)
 		self.privateShopBuilder.Hide()
 
 		self.dlgRefineNew = uiRefine.RefineDialogNew()
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.dlgRefineNew.SetInven(self.wndInventory)
+			self.wndInventory.BindWindow(self.dlgRefineNew)
 		self.dlgRefineNew.Hide()
 
 	def __MakeHelpWindow(self):
@@ -631,6 +648,10 @@ class Interface(object):
 
 	def RefreshExchange(self):
 		self.dlgExchange.Refresh()
+
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def CantTradableItemExchange(self, dstSlotIndex, srcSlotIndex):
+			self.dlgExchange.CantTradableItem(dstSlotIndex, srcSlotIndex)
 
 	## Party
 	def AddPartyMember(self, pid, name):
@@ -1525,6 +1546,22 @@ class Interface(object):
 
 	def EmptyFunction(self):
 		pass
+
+	def GetInventoryPageIndex(self):
+		if self.wndInventory:
+			return self.wndInventory.GetInventoryPageIndex()
+		else:
+			return -1
+
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def SetOnTopWindow(self, onTopWnd):
+			self.onTopWindow = onTopWnd
+
+		def GetOnTopWindow(self):
+			return self.onTopWindow
+
+		def RefreshMarkInventoryBag(self):
+			self.wndInventory.RefreshMarkSlots()
 
 if __name__ == "__main__":
 

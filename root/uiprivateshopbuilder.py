@@ -11,6 +11,7 @@ import chat
 import item
 import systemSetting #±Ë¡ÿ»£
 import player #±Ë¡ÿ»£
+import app
 
 g_isBuildingPrivateShop = False
 
@@ -142,6 +143,11 @@ class PrivateShopBuilder(ui.ScriptWindow):
 		self.priceInputBoard = None
 		self.title = ""
 
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface = None
+			self.wndInventory = None
+			self.lockedItems = {i:(-1,-1) for i in range(shop.SHOP_SLOT_COUNT)}
+
 	def __del__(self):
 		#print "------------------------------------------------------------- DELETE MAKE_PRIVATE_SHOP_WINDOW"
 		ui.ScriptWindow.__del__(self)
@@ -183,6 +189,10 @@ class PrivateShopBuilder(ui.ScriptWindow):
 		self.btnClose = None
 		self.titleBar = None
 		self.priceInputBoard = None
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface = None
+			self.wndInventory = None
+			self.lockedItems = {i:(-1,-1) for i in range(shop.SHOP_SLOT_COUNT)}
 
 	def Open(self, title):
 
@@ -198,6 +208,11 @@ class PrivateShopBuilder(ui.ScriptWindow):
 		self.Refresh()
 		self.Show()
 
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.lockedItems = {i:(-1,-1) for i in range(shop.SHOP_SLOT_COUNT)}
+			self.interface.SetOnTopWindow(player.ON_TOP_WND_PRIVATE_SHOP)
+			self.interface.RefreshMarkInventoryBag()
+
 		global g_isBuildingPrivateShop
 		g_isBuildingPrivateShop = True
 
@@ -209,6 +224,19 @@ class PrivateShopBuilder(ui.ScriptWindow):
 		self.itemStock = {}
 		shop.ClearPrivateShopStock()
 		self.Hide()
+
+		if self.priceInputBoard:
+			self.priceInputBoard.Close()
+			self.priceInputBoard = None
+
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			for privatePos, (itemInvenPage, itemSlotPos) in self.lockedItems.items():
+				if itemInvenPage == self.wndInventory.GetInventoryPageIndex():
+					self.wndInventory.wndItem.SetCanMouseEventSlot(itemSlotPos)
+
+			self.lockedItems = {i:(-1,-1) for i in range(shop.SHOP_SLOT_COUNT)}
+			self.interface.SetOnTopWindow(player.ON_TOP_WND_NONE)
+			self.interface.RefreshMarkInventoryBag()
 
 	def SetItemToolTip(self, tooltipItem):
 		self.tooltipItem = tooltipItem
@@ -234,6 +262,9 @@ class PrivateShopBuilder(ui.ScriptWindow):
 
 		self.itemSlot.RefreshSlot()
 
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.RefreshLockedSlot()
+
 	def OnSelectEmptySlot(self, selectedSlotPos):
 
 		isAttached = mouseModule.mouseController.isAttached()
@@ -253,6 +284,9 @@ class PrivateShopBuilder(ui.ScriptWindow):
 			if item.IsAntiFlag(item.ANTIFLAG_GIVE) or item.IsAntiFlag(item.ANTIFLAG_MYSHOP):
 				chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.PRIVATE_SHOP_CANNOT_SELL_ITEM)
 				return
+
+			if app.WJ_ENABLE_TRADABLE_ICON and player.SLOT_TYPE_INVENTORY == attachedSlotType:
+				self.CantTradableItem(selectedSlotPos, attachedSlotPos)
 
 			priceInputBoard = uiCommon.MoneyInputDialog()
 			priceInputBoard.SetTitle(localeInfo.PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE)
@@ -285,6 +319,13 @@ class PrivateShopBuilder(ui.ScriptWindow):
 			invenType, invenPos = self.itemStock[selectedSlotPos]
 			shop.DelPrivateShopItemStock(invenType, invenPos)
 			snd.PlaySound("sound/ui/drop.wav")
+
+			if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+				(itemInvenPage, itemSlotPos) = self.lockedItems[selectedSlotPos]
+				if itemInvenPage == self.wndInventory.GetInventoryPageIndex():
+					self.wndInventory.wndItem.SetCanMouseEventSlot(itemSlotPos)
+
+				self.lockedItems[selectedSlotPos] = (-1, -1)
 
 			del self.itemStock[selectedSlotPos]
 
@@ -333,8 +374,18 @@ class PrivateShopBuilder(ui.ScriptWindow):
 		return True
 
 	def CancelInputPrice(self):
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			itemInvenPage = self.priceInputBoard.sourceSlotPos / player.INVENTORY_PAGE_SIZE
+			itemSlotPos = self.priceInputBoard.sourceSlotPos - (itemInvenPage * player.INVENTORY_PAGE_SIZE)
+			if self.wndInventory.GetInventoryPageIndex() == itemInvenPage:
+				self.wndInventory.wndItem.SetCanMouseEventSlot(itemSlotPos)
+
+			self.lockedItems[self.priceInputBoard.targetSlotPos] = (-1, -1)
+
+		if self.priceInputBoard:
+			self.priceInputBoard.Close()
 		self.priceInputBoard = None
-		return True
+		return 1
 
 	def OnOk(self):
 
@@ -355,12 +406,38 @@ class PrivateShopBuilder(ui.ScriptWindow):
 		return True
 
 	def OnOverInItem(self, slotIndex):
-
 		if self.tooltipItem:
 			if self.itemStock.has_key(slotIndex):
 				self.tooltipItem.SetPrivateShopBuilderItem(*self.itemStock[slotIndex] + (slotIndex,))
 
 	def OnOverOutItem(self):
-
 		if self.tooltipItem:
 			self.tooltipItem.HideToolTip()
+
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def CantTradableItem(self, destSlotIndex, srcSlotIndex):
+			itemInvenPage = srcSlotIndex / player.INVENTORY_PAGE_SIZE
+			localSlotPos = srcSlotIndex - (itemInvenPage * player.INVENTORY_PAGE_SIZE)
+			self.lockedItems[destSlotIndex] = (itemInvenPage, localSlotPos)
+			if self.wndInventory.GetInventoryPageIndex() == itemInvenPage:
+				self.wndInventory.wndItem.SetCantMouseEventSlot(localSlotPos)
+
+		def RefreshLockedSlot(self):
+			if self.wndInventory:
+				for privatePos, (itemInvenPage, itemSlotPos) in self.lockedItems.items():
+					if self.wndInventory.GetInventoryPageIndex() == itemInvenPage:
+						self.wndInventory.wndItem.SetCantMouseEventSlot(itemSlotPos)
+
+				self.wndInventory.wndItem.RefreshSlot()
+
+		def BindInterface(self, interface):
+			self.interface = interface
+
+		def OnTop(self):
+			if self.interface:
+				self.interface.SetOnTopWindow(player.ON_TOP_WND_PRIVATE_SHOP)
+				self.interface.RefreshMarkInventoryBag()
+
+		def SetInven(self, wndInventory):
+			from _weakref import proxy
+			self.wndInventory = proxy(wndInventory)

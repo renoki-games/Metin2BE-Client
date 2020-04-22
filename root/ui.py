@@ -1375,6 +1375,19 @@ class SlotWindow(Window):
 		"True면 현재 가리킨 아이템이 ItemToItem 적용 가능하다"
 		wndMgr.SetUsableItem(self.hWnd, flag)
 
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def SetCanMouseEventSlot(self, slotIndex):
+			wndMgr.SetCanMouseEventSlot(self.hWnd, slotIndex)
+
+		def SetCantMouseEventSlot(self, slotIndex):
+			wndMgr.SetCantMouseEventSlot(self.hWnd, slotIndex)
+
+		def SetUsableSlotOnTopWnd(self, slotIndex):
+			wndMgr.SetUsableSlotOnTopWnd(self.hWnd, slotIndex)
+
+		def SetUnusableSlotOnTopWnd(self, slotIndex):
+			wndMgr.SetUnusableSlotOnTopWnd(self.hWnd, slotIndex)
+
 	## Slot
 	def SetSlotCoolTime(self, slotIndex, coolTime, elapsedTime = 0.0):
 		wndMgr.SetSlotCoolTime(self.hWnd, slotIndex, coolTime, elapsedTime)

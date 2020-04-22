@@ -26,6 +26,8 @@ class ShopDialog(ui.ScriptWindow):
 		self.questionDialog = None
 		self.popup = None
 		self.itemBuyQuestionDialog = None
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface = None
 
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
@@ -138,7 +140,11 @@ class ShopDialog(ui.ScriptWindow):
 			self.smallRadioButtonGroup.SetText(2, shop.GetTabName(2))
 
 	def Destroy(self):
-		self.Close()
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.Close(True)
+			self.interface = None
+		else:
+			self.Close()
 		self.ClearDictionary()
 
 		self.tooltipItem = 0
@@ -208,18 +214,41 @@ class ShopDialog(ui.ScriptWindow):
 
 		(self.xShopStart, self.yShopStart, z) = player.GetMainCharacterPosition()
 
-	def Close(self):
-		if self.itemBuyQuestionDialog:
-			self.itemBuyQuestionDialog.Close()
-			self.itemBuyQuestionDialog = None
-			constInfo.SET_ITEM_QUESTION_DIALOG_STATUS(0)
-		if self.questionDialog:
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			if not isPrivateShop:
+				self.interface.SetOnTopWindow(player.ON_TOP_WND_SHOP)
+				self.interface.RefreshMarkInventoryBag()
+
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def Close(self, isDestroy=False):
+			self.interface.SetOnTopWindow(player.ON_TOP_WND_NONE)
+			if not isDestroy:
+				self.interface.RefreshMarkInventoryBag()
+
+			if self.itemBuyQuestionDialog:
+				self.itemBuyQuestionDialog.Close()
+				self.itemBuyQuestionDialog = None
+				constInfo.SET_ITEM_QUESTION_DIALOG_STATUS(0)
+
 			self.OnCloseQuestionDialog()
-		shop.Close()
-		net.SendShopEndPacket()
-		self.CancelShopping()
-		self.tooltipItem.HideToolTip()
-		self.Hide()
+			shop.Close()
+			net.SendShopEndPacket()
+			self.CancelShopping()
+			self.tooltipItem.HideToolTip()
+			self.Hide()
+	else:
+		def Close(self):
+			if self.itemBuyQuestionDialog:
+				self.itemBuyQuestionDialog.Close()
+				self.itemBuyQuestionDialog = None
+				constInfo.SET_ITEM_QUESTION_DIALOG_STATUS(0)
+
+			self.OnCloseQuestionDialog()
+			shop.Close()
+			net.SendShopEndPacket()
+			self.CancelShopping()
+			self.tooltipItem.HideToolTip()
+			self.Hide()
 
 	def GetIndexFromSlotPos(self, slotPos):
 		return self.tabIdx * shop.SHOP_SLOT_COUNT + slotPos
@@ -447,6 +476,14 @@ class ShopDialog(ui.ScriptWindow):
 		if abs(x - self.xShopStart) > USE_SHOP_LIMIT_RANGE or abs(y - self.yShopStart) > USE_SHOP_LIMIT_RANGE:
 			self.Close()
 
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def BindInterface(self, interface):
+			self.interface = interface
+
+		def OnTop(self):
+			if not shop.IsPrivateShop():
+				self.interface.SetOnTopWindow(player.ON_TOP_WND_SHOP)
+				self.interface.RefreshMarkInventoryBag()
 
 class MallPageDialog(ui.ScriptWindow):
 	def __init__(self):

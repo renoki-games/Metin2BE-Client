@@ -196,6 +196,8 @@ class SafeboxWindow(ui.ScriptWindow):
 	def __init__(self):
 		ui.ScriptWindow.__init__(self)
 		self.tooltipItem = None
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface = None
 		self.sellingSlotNumber = -1
 		self.pageButtonList = []
 		self.curPageIndex = 0
@@ -226,6 +228,8 @@ class SafeboxWindow(ui.ScriptWindow):
 		self.wndMoney = None
 		self.wndBoard = None
 		self.wndItem = None
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface = None
 
 		self.pageButtonList = []
 
@@ -282,7 +286,6 @@ class SafeboxWindow(ui.ScriptWindow):
 		self.RefreshSafeboxMoney()
 
 	def OpenPickMoneyDialog(self):
-
 		if mouseModule.mouseController.isAttached():
 
 			attachedSlotPos = mouseModule.mouseController.GetAttachedSlotNumber()
@@ -303,6 +306,9 @@ class SafeboxWindow(ui.ScriptWindow):
 			self.dlgPickMoney.Open(curMoney)
 
 	def ShowWindow(self, size):
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface.SetOnTopWindow(player.ON_TOP_WND_SAFEBOX)
+			self.interface.RefreshMarkInventoryBag()
 
 		(self.xSafeBoxStart, self.ySafeBoxStart, z) = player.GetMainCharacterPosition()
 
@@ -387,6 +393,9 @@ class SafeboxWindow(ui.ScriptWindow):
 		self.tooltipItem = tooltip
 
 	def Close(self):
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface.SetOnTopWindow(player.ON_TOP_WND_NONE)
+
 		net.SendChatPacket("/safebox_close")
 		self.Hide() # @fixme009
 
@@ -397,6 +406,9 @@ class SafeboxWindow(ui.ScriptWindow):
 		self.dlgPickMoney.Close()
 		self.dlgChangePassword.Close()
 		self.Hide()
+
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface.RefreshMarkInventoryBag()
 
 	## Slot Event
 	def SelectEmptySlot(self, selectedSlotPos):
@@ -496,6 +508,14 @@ class SafeboxWindow(ui.ScriptWindow):
 		(x, y, z) = player.GetMainCharacterPosition()
 		if abs(x - self.xSafeBoxStart) > USE_SAFEBOX_LIMIT_RANGE or abs(y - self.ySafeBoxStart) > USE_SAFEBOX_LIMIT_RANGE:
 			self.Close()
+
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def BindInterface(self, interface):
+			self.interface = interface
+
+		def OnTop(self):
+			self.interface.SetOnTopWindow(player.ON_TOP_WND_SAFEBOX)
+			self.interface.RefreshMarkInventoryBag()
 
 class MallWindow(ui.ScriptWindow):
 

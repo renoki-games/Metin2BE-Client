@@ -22,6 +22,11 @@ class ExchangeDialog(ui.ScriptWindow):
 		self.xStart = 0
 		self.yStart = 0
 
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface = 0
+			self.wndInventory = 0
+			self.lockedItems = {i:(-1,-1) for i in range(exchange.EXCHANGE_ITEM_MAX_NUM)}
+
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
 
@@ -81,6 +86,11 @@ class ExchangeDialog(ui.ScriptWindow):
 		self.AcceptButton = 0
 		self.tooltipItem = 0
 
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface = 0
+			self.wndInventory = 0
+			self.lockedItems = {i:(-1,-1) for i in range(exchange.EXCHANGE_ITEM_MAX_NUM)}
+
 	def OpenDialog(self):
 		if app.ENABLE_LEVEL_IN_TRADE:
 			self.TitleName.SetText(localeInfo.EXCHANGE_TITLE % (exchange.GetNameFromTarget(), exchange.GetLevelFromTarget()))
@@ -89,6 +99,10 @@ class ExchangeDialog(ui.ScriptWindow):
 		self.AcceptButton.Enable()
 		self.AcceptButton.SetUp()
 		self.Show()
+
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.interface.SetOnTopWindow(player.ON_TOP_WND_EXCHANGE)
+			self.interface.RefreshMarkInventoryBag()
 
 		(self.xStart, self.yStart, z) = player.GetMainCharacterPosition()
 
@@ -100,6 +114,15 @@ class ExchangeDialog(ui.ScriptWindow):
 
 		self.dlgPickMoney.Close()
 		self.Hide()
+
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			for exchangePos, (itemInvenPage, itemSlotPos) in self.lockedItems.items():
+				if itemInvenPage == self.wndInventory.GetInventoryPageIndex():
+					self.wndInventory.wndItem.SetCanMouseEventSlot(itemSlotPos)
+
+			self.lockedItems = {i:(-1,-1) for i in range(exchange.EXCHANGE_ITEM_MAX_NUM)}
+			self.interface.SetOnTopWindow(player.ON_TOP_WND_NONE)
+			self.interface.RefreshMarkInventoryBag()
 
 	def SetItemToolTip(self, tooltipItem):
 		self.tooltipItem = tooltipItem
@@ -176,6 +199,9 @@ class ExchangeDialog(ui.ScriptWindow):
 		self.RefreshOwnerSlot()
 		self.RefreshTargetSlot()
 
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			self.RefreshLockedSlot()
+
 		self.OwnerMoney.SetText(str(exchange.GetElkFromSelf()))
 		self.TargetMoney.SetText(str(exchange.GetElkFromTarget()))
 
@@ -209,6 +235,11 @@ class ExchangeDialog(ui.ScriptWindow):
 	def OnTop(self):
 		self.tooltipItem.SetTop()
 
+		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+			if self.interface:
+				self.interface.SetOnTopWindow(player.ON_TOP_WND_EXCHANGE)
+				self.interface.RefreshMarkInventoryBag()
+
 	def OnUpdate(self):
 
 		USE_EXCHANGE_LIMIT_RANGE = 1000
@@ -217,3 +248,30 @@ class ExchangeDialog(ui.ScriptWindow):
 		if abs(x - self.xStart) > USE_EXCHANGE_LIMIT_RANGE or abs(y - self.yStart) > USE_EXCHANGE_LIMIT_RANGE:
 			(self.xStart, self.yStart, z) = player.GetMainCharacterPosition()
 			net.SendExchangeExitPacket()
+
+	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
+		def CantTradableItem(self, destSlotIndex, srcSlotIndex):
+			if True == exchange.GetAcceptFromTarget():
+				return
+
+			itemInvenPage = srcSlotIndex / player.INVENTORY_PAGE_SIZE
+			localSlotPos = srcSlotIndex - (itemInvenPage * player.INVENTORY_PAGE_SIZE)
+			self.lockedItems[destSlotIndex] = (itemInvenPage, localSlotPos)
+
+			if self.wndInventory.GetInventoryPageIndex() == itemInvenPage and self.IsShow():
+				self.wndInventory.wndItem.SetCantMouseEventSlot(localSlotPos)
+
+		def RefreshLockedSlot(self):
+			if self.wndInventory:
+				for exchangePos, (itemInvenPage, itemSlotPos) in self.lockedItems.items():
+					if self.wndInventory.GetInventoryPageIndex() == itemInvenPage:
+						self.wndInventory.wndItem.SetCantMouseEventSlot(itemSlotPos)
+
+				self.wndInventory.wndItem.RefreshSlot()
+
+		def BindInterface(self, interface):
+			self.interface = interface
+
+		def SetInven(self, wndInventory):
+			from _weakref import proxy
+			self.wndInventory = proxy(wndInventory)
