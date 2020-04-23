@@ -99,7 +99,7 @@ class PickMoneyDialog(ui.ScriptWindow):
 
 		if len(text) > 0 and text.isdigit():
 
-			money = int(text)
+			money = long(text)
 			money = min(money, self.maxValue)
 
 			if money > 0:

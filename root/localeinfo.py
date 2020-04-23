@@ -280,10 +280,10 @@ def CutMoneyString(sourceText, startIndex, endIndex, insertingText, backText):
 	if not text:
 		return backText
 
-	if int(text) <= 0:
+	if long(text) <= 0:
 		return backText
 
-	text = str(int(text))
+	text = str(long(text))
 
 	if backText:
 		backText = " " + backText

@@ -345,7 +345,7 @@ class PrivateShopBuilder(ui.ScriptWindow):
 		if not text.isdigit():
 			return True
 
-		if int(text) <= 0:
+		if long(text) <= 0:
 			return True
 
 		attachedInvenType = self.priceInputBoard.sourceWindowType
@@ -357,7 +357,7 @@ class PrivateShopBuilder(ui.ScriptWindow):
 				shop.DelPrivateShopItemStock(itemWindowType, itemSlotIndex)
 				del self.itemStock[privatePos]
 
-		price = int(text)
+		price = long(text)
 
 		if IsPrivateShopItemPriceList():
 			SetPrivateShopItemPrice(self.priceInputBoard.itemVNum, price)
