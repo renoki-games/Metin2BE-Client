@@ -1622,3 +1622,9 @@
 60001	old_master_M
 60002	old_master_M
 60003	scholar_beige_M
+50500	chuhen
+50501	stray_dog
+50502	orc_black
+50503	milgyo_executor
+50504	skeleton_bigboss
+50505	ch_footman
