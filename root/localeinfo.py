@@ -341,6 +341,12 @@ def SecondToHM(time):
 
 	return text
 
+def SecondToH(time):
+	if time < 3600:
+		return "0 " + HOUR
+
+	hour = int((time / 60) / 60)
+	return str(hour) + " " + HOUR
 
 def GetAlignmentTitleName(alignment):
 	if alignment >= 12000:
