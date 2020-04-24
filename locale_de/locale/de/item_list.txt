@@ -7605,10 +7605,10 @@
 50100	ETC	icon/item/50100.tga
 50101	ETC	icon/item/50101.tga
 50102	ETC	icon/item/50102.tga
-50103	ETC	icon/item/50100.tga
-50104	ETC	icon/item/50101.tga
-50105	ETC	icon/item/50102.tga
-50106	ETC	icon/item/50102.tga
+50103	ETC	icon/item/50103.tga
+50104	ETC	icon/item/50104.tga
+50105	ETC	icon/item/50105.tga
+50106	ETC	icon/item/50106.tga
 50107	ETC	icon/item/50107.tga
 50108	ETC	icon/item/50108.tga
 50109	ETC	season1/icon/item/50109.tga
