@@ -630,7 +630,7 @@ class SelectCharacterWindow(ui.Window):
 			self.CharacterName.SetText(name)
 			self.CharacterLevel.SetText(str(level))
 
-			self.PlayTime.SetText(str(playTime))
+			self.PlayTime.SetText(localeInfo.SecondToH(playTime))
 			self.CharacterHTH.SetText(str(valueHTH))
 			self.CharacterINT.SetText(str(valueINT))
 			self.CharacterSTR.SetText(str(valueSTR))
