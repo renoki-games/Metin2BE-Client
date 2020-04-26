@@ -477,12 +477,12 @@
 25108	Bronzene Decimustruhe	Bronzene Belohnung für deine Heldentaten bei der Bossjagd
 25109	Silberne Decimustruhe	Silberne Belohnung für deine Heldentaten bei der Bossjagd
 25110	Goldene Decimustruhe	Goldene Belohnung für deine Heldentaten bei der Bossjagd
-27051	Roter Trank (K)	Füllt 300 Trefferpunkte auf. Nicht handelbar.
-27052	Blauer Trank (K)	Füllt 100 Manapunkte auf. Nicht handelbar.
-27053	Grüner Trank (K)	Erhöht deine Angriffsgeschwindigkeit für 10 Minuten um +10. Nicht handelbar.
-27054	Violetter Trank (K)	Erhöht deine Bewegungsgeschwindigkeit für 10 Minuten um +10. Nicht handelbar.
-27122	Roter Trank (K)	Füllt 300 Trefferpunkte auf. Nicht handelbar.
-27123	Grüner Trank (K)	Erhöht deine Angriffsgeschwindigkeit für 10 Minuten um +10. Nicht handelbar.
+27051	Roter Trank (K)	Füllt 300 Trefferpunkte auf.
+27052	Blauer Trank (K)	Füllt 100 Manapunkte auf.
+27053	Grüner Trank (K)	Erhöht deine Angriffsgeschwindigkeit für 10 Minuten um +10.
+27054	Violetter Trank (K)	Erhöht deine Bewegungsgeschwindigkeit für 10 Minuten um +10.
+27122	Roter Trank (K)	Füllt 300 Trefferpunkte auf.
+27123	Grüner Trank (K)	Erhöht deine Angriffsgeschwindigkeit für 10 Minuten um +10.
 27124	Verband	Stoppt sofort die Blutung.
 27125	Gefechtstrank	Ein mächtiger Trank, der deine Angriffs- und Verteidigungspunkte erhöht und dir +50000 Trefferpunkte beschert (nur in der Kampfzone).
 27600	Lagerfeuer	Holzstücke, die für ein Lagerfeuer zusammengetragen wurden.
@@ -774,7 +774,7 @@
 30316	Spendenteller	Ein Teller mit einer reichen Verzierung.
 30317	Essensspende	Eine Essensspende für das Fastenbrechen.
 30318	Frucht des Segens	Eine außergewöhnliche Frucht, sammle genügend und du erhältst eine Belohnung.
-30319	Schrumpfkopf	Dieser Dämonenschrumpfkopf öffnet das Siegel zur 3. Ebene der Devil's Catacomb. Dieses Item ist handelbar.
+30319	Schrumpfkopf	Dieser Dämonenschrumpfkopf öffnet das Siegel zur 3. Ebene der Devil's Catacomb.
 30320	Schrumpfkopf	Dieser Dämonenschrumpfkopf öffnet das Siegel zur 3. Ebene der Devil's Catacomb.
 30321	Halloween-Kürbis	Der Kürbis füllt TP oder MP auf. Berührt man ihn mit einem Zauberstab, verwandelt er sich in die Halloween-Truhe.
 30322	Zauberstab	Ein kunstvoll geschnitzter Zauberstab aus Erlenholz mit einer Sternenspitze aus magischem Feuer, der jeden Halloween-Kürbis in die Halloween-Truhe verwandeln kann.
@@ -1016,11 +1016,11 @@
 35000	Medizinische Kräuter+	Eine Sammlung getrockneter Heilkräuter. Leider etwas staubig.
 35001	Leber eines Tigers+	Die rotbraune, handgroße Leber einer ausgewachsenen Raubkatze.
 35002	Gelbe Rose	Eine Blume, mit der oftmals in romantischer Stimmung Zuneigung gezeigt wird. Männliche und weibliche Charaktere können sie verwenden.
-38010	Yang-Paket	Löse das Paket ein, um deine Kriegskassen mit Yang aufzufüllen. Nicht handelbar.
-38011	Yang-Paket	Löse das Paket ein, um deine Kriegskassen mit Yang aufzufüllen. Nicht handelbar.
+38010	Yang-Paket	Löse das Paket ein, um deine Kriegskassen mit Yang aufzufüllen.
+38011	Yang-Paket	Löse das Paket ein, um deine Kriegskassen mit Yang aufzufüllen.
 38050	Truhe der Macht	Die Truhe ist erstaunlich leicht, als wäre sie leer ...
 38051	Königstiger-Kristall	Es bedarf erheblicher magischer Künste, böse Tiergeister zu bändigen. Dieser Kristall enthält eines von fünf möglichen Königstiger-Siegeln.
-38052	Truhe der Könige	Diese prunkvolle Truhe verbirgt einen wahrhaft königlichen Schatz in ihrem Inneren. Dieses Item ist handelbar.
+38052	Truhe der Könige	Diese prunkvolle Truhe verbirgt einen wahrhaft königlichen Schatz in ihrem Inneren.
 38053	Truhe des ewigen Winters	Die Truhe ist aus reinem Eis gehauen. Mit leisem Klirren öffnet sich der Deckel und frostige Kälte steigt aus ihrem Inneren empor.
 38054	Wüstensturm-Truhe	Die geheimnisvolle Truhe enthält einen zufälligen Gegenstand.
 38055	Welpen-Box	In dieser Kiste kann sich ein niedliches Tierjunges verstecken. Öffne sie und finde einen zufälligen Gegenstand.
@@ -1031,52 +1031,52 @@
 38102	Powersnack (30 Tage)	Verlängert das Leben deines Power Mounts um 30 Tage.
 38200	Rufus-Siegel	Mit diesem Siegel rufst du deinen Wolfswelpen, Rufus, herbei.
 38201	Rufus-Siegel	Mit diesem Siegel rufst du deinen Wolfswelpen, Rufus, herbei.
-39001	Magischer Stein	Dieser Stein gewährt die größte Erfolgschance bei der Itemverbesserung. Der Gegenstand kann außerdem weder zerstört noch verschlechtert werden. Dieses Item ist handelbar.
-39002	Erfahrungsring	Erhöht das Sammeln von Erfahrung 60 Minuten lang um 50%. Dieses Item ist handelbar.
-39003	Pfirsichblütenwein	Getränk, das deine TP augenblicklich um 500 Punkte regeneriert. Dieses Item ist handelbar.
-39004	Segenskugel	Die legendäre Kugel fügt Gegenständen, die bereits mit vier Attributen ausgestattet sind, ein fünftes hinzu. Das Hinzufügen kann allerdings fehlschlagen. Dieses Item ist handelbar.
-39005	Magisches Kupfererz	Mit diesem Erz sowie einer Segensschriftrolle kann beim Schmied eine Schriftrolle des Krieges hergestellt werden. Dieses Item ist handelbar.
-39006	Tapferkeitsumhang	Ein farbiger Umhang, der sämtliche Monster anlockte. Mit diesem bewiesen Krieger einst ihre Tapferkeit. Dieses Item ist handelbar.
-39007	Schmiede-Handbuch	Das Buch ist mit der Seele eines alten Schmieds verbunden. Es erhöht es die Chance auf eine Gegenstandsverbesserung. Dieses Item ist handelbar.
-39008	Exorzismus-Schriftrolle	Befreit dich vom Fluch des bösen Geistes, wenn das Lernen fehlschlägt. Mithilfe dieser Rolle kannst du ein weiteres Fertigkeitsdokument an einem Tag lesen. Dieses Item ist handelbar.
-39009	Fertigkeit-Neuverteilung	Dieser Gegenstand ermöglicht es dir, die Punkte einer deiner Fertigkeiten neu zu verteilen. Dieses Item ist handelbar.
-39010	Trank des Angriffs +10	Erhöht deine Angriffsgeschwindigkeit für 30 Minuten um 10%. Dieses Item ist handelbar.
-39011	Segen des Lebens	Ein Segen, der deine TP augenblicklich vollständig regeneriert. Dieses Item ist handelbar.
-39012	Segen der Magie	Ein Segen, der deine MP augenblicklich vollständig regeneriert. Dieses Item ist handelbar.
-39013	Segen des Drachen	Ein Segen, der deine TP und MP augenblicklich vollständig regeneriert. Dieses Item ist handelbar.
-39014	Schriftrolle des Krieges	Die Verbesserung von Gegenständen gelingt vollständig. Nur anwendbar bei Gegenständen +0 bis +3. Dieses Item ist handelbar.
-39015	Stein des Schmieds	Mit diesem Stein und einer Segensschriftrolle kann beim Schmied ein Schmiede-Handbuch hergestellt werden. Dieses Item ist handelbar.
-39016	Magisches Eisenerz	Mit diesem Erz und einer Segensschriftrolle kann beim Schmied eine Schriftrolle des Drachen hergestellt werden. Dieses Item ist handelbar.
-39017	Drachengott-Leben	Erhöht deine maximalen TP 30 Minuten lang um 20%. Dieses Item ist handelbar.
-39018	Drachengott-Angriff	Erhöht deinen Angriffswert 30 Minuten lang um 20%. Dieses Item ist handelbar.
-39019	Drachengott-Intelligenz	Erhöht deine maximalen MP 30 Minuten lang um 20%. Dieses Item ist handelbar.
-39020	Drachengott-Verteidigung	Verringert den Schaden, den du im Kampf erleidest, 30 Minuten lang um 20%. Dieses Item ist handelbar.
-39021	Drachengottunterstützung	Vitalität, Stärke, Intelligenz und Beweglichkeit deines Charakters erhöhen sich vorübergehend auf das Fünffache. Dieses Item ist handelbar.
-39022	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Lediglich die Qualität wird um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10 %. Dieses Item ist handelbar.
-39023	Elixier des Forschers	Dieses Elixier steigert die Qualität gesammelter Forschungsobjekte und damit die Wahrscheinlichkeit ihrer Annahme von dem Auftraggeber. Dieses Item ist handelbar.
-39024	Kritischer Kampf	Erhöht deine Chance, im Kampf einen kritischen Treffer zu landen, 10 Minuten lang um 20%. Dieses Item ist handelbar.
-39025	Durchbohrender Kampf	Erhöht deine Chance, im Kampf einen durchbohrenden Treffer zu landen, 10 Minuten lang um 20%. Dieses Item ist handelbar.
-39026	Geschwindigkeitstrank	Erhöht 30 Minuten lang deine Bewegungsgeschwindigkeit um 60. Dieses Item ist handelbar.
-39027	Stein-Handbuch	Entfernt alle zerbrochenen Steine aus einem Gegenstand. Somit erhältst du einen weiteren Versuch, eine Waffe oder Rüstung zu verbessern. Dieses Item ist handelbar.
-39028	Gegenstand verzaubern	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Dieses Item ist handelbar.
-39029	Gegenstand verstärken	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni). Dieses Item ist handelbar.
-39030	Konzentriertes Lesen	Erhöht die Chance auf eine Verbesserung deines Talents beim Lesen des nächsten Buches (oder Seelensteins) um den Faktor 2,5. Dieses Item ist handelbar.
-39031	Trank der Hast	Dieser Trank verringert die Abklingzeit deiner Fähigkeiten 30 Minuten lang um 20%. Dieses Item ist handelbar.
-39032	Frucht des Lebens	Erhöht die Rangpunkte um 2000 (Abklingzeit: 8 Stunden). Dieses Item ist handelbar.
-39033	Rolle der Korrektur	Mit dieser Rolle kann der zuletzt erfolgreich hinzugefügte Geiststein aus einem Gegenstand entfernt werden. Dieses Item ist handelbar.
-39034	Pferdezucker	Dieses Zuckerstück ermöglicht es, deinem Reittier einen Namen zu geben. Gleichzeitig erhöht es dessen Verteidigungswert um 20. Dieses Item ist handelbar.
-39035	Glas der Einsicht	Ermöglicht dir, einem anderen Spieler Gegenstände aus deinem Inventar zu zeigen. Das Glas zerbricht während des Vorgangs. Dieses Item ist handelbar.
+39001	Magischer Stein	Dieser Stein gewährt die größte Erfolgschance bei der Itemverbesserung. Der Gegenstand kann außerdem weder zerstört noch verschlechtert werden.
+39002	Erfahrungsring	Erhöht das Sammeln von Erfahrung 60 Minuten lang um 50%.
+39003	Pfirsichblütenwein	Getränk, das deine TP augenblicklich um 500 Punkte regeneriert.
+39004	Segenskugel	Die legendäre Kugel fügt Gegenständen, die bereits mit vier Attributen ausgestattet sind, ein fünftes hinzu. Das Hinzufügen kann allerdings fehlschlagen.
+39005	Magisches Kupfererz	Mit diesem Erz sowie einer Segensschriftrolle kann beim Schmied eine Schriftrolle des Krieges hergestellt werden.
+39006	Tapferkeitsumhang	Ein farbiger Umhang, der sämtliche Monster anlockte. Mit diesem bewiesen Krieger einst ihre Tapferkeit.
+39007	Schmiede-Handbuch	Das Buch ist mit der Seele eines alten Schmieds verbunden. Es erhöht es die Chance auf eine Gegenstandsverbesserung.
+39008	Exorzismus-Schriftrolle	Befreit dich vom Fluch des bösen Geistes, wenn das Lernen fehlschlägt. Mithilfe dieser Rolle kannst du ein weiteres Fertigkeitsdokument an einem Tag lesen.
+39009	Fertigkeit-Neuverteilung	Dieser Gegenstand ermöglicht es dir, die Punkte einer deiner Fertigkeiten neu zu verteilen.
+39010	Trank des Angriffs +10	Erhöht deine Angriffsgeschwindigkeit für 30 Minuten um 10%.
+39011	Segen des Lebens	Ein Segen, der deine TP augenblicklich vollständig regeneriert.
+39012	Segen der Magie	Ein Segen, der deine MP augenblicklich vollständig regeneriert.
+39013	Segen des Drachen	Ein Segen, der deine TP und MP augenblicklich vollständig regeneriert.
+39014	Schriftrolle des Krieges	Die Verbesserung von Gegenständen gelingt vollständig. Nur anwendbar bei Gegenständen +0 bis +4.
+39015	Stein des Schmieds	Mit diesem Stein und einer Segensschriftrolle kann beim Schmied ein Schmiede-Handbuch hergestellt werden.
+39016	Magisches Eisenerz	Mit diesem Erz und einer Segensschriftrolle kann beim Schmied eine Schriftrolle des Drachen hergestellt werden.
+39017	Drachengott-Leben	Erhöht deine maximalen TP 30 Minuten lang um 20%.
+39018	Drachengott-Angriff	Erhöht deinen Angriffswert 30 Minuten lang um 20%.
+39019	Drachengott-Intelligenz	Erhöht deine maximalen MP 30 Minuten lang um 20%.
+39020	Drachengott-Verteidigung	Verringert den Schaden, den du im Kampf erleidest, 30 Minuten lang um 20%.
+39021	Drachengottunterstützung	Vitalität, Stärke, Intelligenz und Beweglichkeit deines Charakters erhöhen sich vorübergehend auf das Fünffache.
+39022	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Lediglich die Qualität wird um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10 %.
+39023	Elixier des Forschers	Dieses Elixier steigert die Qualität gesammelter Forschungsobjekte und damit die Wahrscheinlichkeit ihrer Annahme von dem Auftraggeber.
+39024	Kritischer Kampf	Erhöht deine Chance, im Kampf einen kritischen Treffer zu landen, 10 Minuten lang um 20%.
+39025	Durchbohrender Kampf	Erhöht deine Chance, im Kampf einen durchbohrenden Treffer zu landen, 10 Minuten lang um 20%.
+39026	Geschwindigkeitstrank	Erhöht 30 Minuten lang deine Bewegungsgeschwindigkeit um 60.
+39027	Stein-Handbuch	Entfernt alle zerbrochenen Steine aus einem Gegenstand. Somit erhältst du einen weiteren Versuch, eine Waffe oder Rüstung zu verbessern.
+39028	Gegenstand verzaubern	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu.
+39029	Gegenstand verstärken	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni).
+39030	Konzentriertes Lesen	Erhöht die Chance auf eine Verbesserung deines Talents beim Lesen des nächsten Buches (oder Seelensteins) um den Faktor 2,5.
+39031	Trank der Hast	Dieser Trank verringert die Abklingzeit deiner Fähigkeiten 30 Minuten lang um 20%.
+39032	Frucht des Lebens	Erhöht die Rangpunkte um 2000 (Abklingzeit: 8 Stunden).
+39033	Rolle der Korrektur	Mit dieser Rolle kann der zuletzt erfolgreich hinzugefügte Geiststein aus einem Gegenstand entfernt werden.
+39034	Pferdezucker	Dieses Zuckerstück ermöglicht es, deinem Reittier einen Namen zu geben. Gleichzeitig erhöht es dessen Verteidigungswert um 20.
+39035	Glas der Einsicht	Ermöglicht dir, einem anderen Spieler Gegenstände aus deinem Inventar zu zeigen. Das Glas zerbricht während des Vorgangs.
 39036	Windschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 30, solange sie ausgerüstet sind.
 39090	Sturmschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 60, solange sie ausgerüstet sind.
 39091	Orkanschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 100, solange sie ausgerüstet sind.
 72750	Bleischuhe	Sie verringern deine Bewegungsgeschwindigkeit und Angriffsgeschwindigkeit um 50, solange sie ausgerüstet sind.
-39037	Elixier der Sonne (K)	Füllt deine TP automatisch auf. Enthält 1.000.000 TP. Dieses Item ist handelbar.
-39038	Elixier der Sonne (M)	Füllt deine TP automatisch auf. Enthält 3.000.000 TP. Dieses Item ist handelbar.
-39039	Elixier der Sonne (G)	Füllt deine TP automatisch auf. Enthält 7.000.000 TP. Dieses Item ist handelbar.
-39040	Elixier des Mondes (K)	Füllt deine MP automatisch auf. Enthält 100.000 MP. Dieses Item ist handelbar.
-39041	Elixier des Mondes (M)	Füllt deine MP automatisch auf. Enthält 300.000 MP. Dieses Item ist handelbar.
-39042	Elixier des Mondes (G)	Füllt deine MP automatisch auf. Enthält 700.000 MP. Dieses Item ist handelbar.
-39043	Schriftrolle des Ortes	Die Schriftrolle ermöglicht dir den Rücktransport zu dem Ort, den du dir zuletzt gemerkt hast. Dieses Item ist handelbar.
+39037	Elixier der Sonne (K)	Füllt deine TP automatisch auf. Enthält 1.000.000 TP.
+39038	Elixier der Sonne (M)	Füllt deine TP automatisch auf. Enthält 3.000.000 TP.
+39039	Elixier der Sonne (G)	Füllt deine TP automatisch auf. Enthält 7.000.000 TP.
+39040	Elixier des Mondes (K)	Füllt deine MP automatisch auf. Enthält 100.000 MP.
+39041	Elixier des Mondes (M)	Füllt deine MP automatisch auf. Enthält 300.000 MP.
+39042	Elixier des Mondes (G)	Füllt deine MP automatisch auf. Enthält 700.000 MP.
+39043	Schriftrolle des Ortes	Die Schriftrolle ermöglicht dir den Rücktransport zu dem Ort, den du dir zuletzt gemerkt hast.
 39044	Truhe der Lykaner (K)	Ausstattungspaket mit nützlichen Gegenständen für Lykaner
 39045	Truhe der Lykaner (G)	Großes Ausstattungspaket mit nützlichen Gegenständen für Lykaner
 39046	Urkunde der Umkehr+	Benutze die Urkunde der Umkehr, um Boni wieder vom Schulterband zu entfernen.
@@ -1153,32 +1153,32 @@
 41026	Box-Outfit TUR (w)	Kämpferisches Outfit in türkischen Nationalfarben für Boxerinnen.
 41027	Box-Outfit BRA (m)	Kämpferisches Outfit in brasilianischen Nationalfarben für Boxer.
 41028	Box-Outfit BRA (w)	Kämpferisches Outfit in brasilianischen Nationalfarben für Boxerinnen.
-41029	Wüstenkämpfer (Bonus)	Kriegsgewand für Männer, um der menschenfeindlichen Wüste zu trotzen. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41030	Wüstenkämpferin (Bonus)	Kriegsgewand für Frauen, um der menschenfeindlichen Wüste zu trotzen. Item ist handelbar.
-41031	Fechtanzug (m)	Sportlicher Schutzanzug für Fechter. Item ist handelbar.
-41032	Fechtanzug (w)	Sportlicher Schutzanzug für Fechterinnen. Item ist handelbar.
-41033	Fechtanzug GER (m)	Sportlicher Schutzanzug in deutschen Nationalfarben für Fechter. Item ist handelbar.
-41034	Fechtanzug GER (w)	Sportlicher Schutzanzug in deutschen Nationalfarben für Fechterinnen. Item ist handelbar.
-41035	Fechtanzug TUR (m)	Sportlicher Schutzanzug in türkischen Nationalfarben für Fechter. Item ist handelbar.
-41036	Fechtanzug TUR (w)	Sportlicher Schutzanzug in türkischen Nationalfarben für Fechterinnen. Item ist handelbar.
-41037	Fechtanzug BRA (m)	Sportlicher Schutzanzug in brasilianischen Nationalfarben für Fechter. Item ist handelbar.
-41038	Fechtanzug BRA (w)	Sportlicher Schutzanzug in brasilianischen Nationalfarben für Fechterinnen. Item ist handelbar.
-41039	Fußballtrikot (m)	Neutrales Trikot für Fußballer. Item ist handelbar.
-41040	Fußballtrikot (w)	Neutrales Trikot für Fußballerinnen. Item ist handelbar.
-41041	Fußballtrikot GER (m)	Trikot in deutschen Nationalfarben für Fußballer. Item ist handelbar.
-41042	Fußballtrikot GER (w)	Trikot in deutschen Nationalfarben für Fußballerinnen. Item ist handelbar.
-41043	Fußballtrikot TUR (m)	Trikot in türkischen Nationalfarben für Fußballer. Item ist handelbar.
-41044	Fußballtrikot TUR (w)	Trikot in türkischen Nationalfarben für Fußballerinnen. Item ist handelbar.
-41045	Fußballtrikot BRA (m)	Trikot in brasilianischen Nationalfarben für Fußballer. Item ist handelbar.
-41046	Fußballtrikot BRA (w)	Trikot in brasilianischen Nationalfarben für Fußballerinnen. Item ist handelbar.
-41047	Box-Outfit (m)	Kämpferisches Outfit für Boxer. Item ist handelbar.
-41048	Box-Outfit (w)	Kämpferisches Outfit für Boxerinnen. Item ist handelbar.
-41049	Box-Outfit GER (m)	Kämpferisches Outfit in deutschen Nationalfarben für Boxer. Item ist handelbar.
-41050	Box-Outfit GER (w)	Kämpferisches Outfit in deutschen Nationalfarben für Boxerinnen. Item ist handelbar.
-41051	Box-Outfit TUR (m)	Kämpferisches Outfit in türkischen Nationalfarben für Boxer. Item ist handelbar.
-41052	Box-Outfit TUR (w)	Kämpferisches Outfit in türkischen Nationalfarben für Boxerinnen. Item ist handelbar.
-41053	Box-Outfit BRA (m)	Kämpferisches Outfit in brasilianischen Nationalfarben für Boxer. Item ist handelbar.
-41054	Box-Outfit BRA (w)	Kämpferisches Outfit in brasilianischen Nationalfarben für Boxerinnen. Item ist handelbar.
+41029	Wüstenkämpfer (Bonus)	Kriegsgewand für Männer, um der menschenfeindlichen Wüste zu trotzen. Verleiht dir mind. einen zufälligen Bonus.
+41030	Wüstenkämpferin (Bonus)	Kriegsgewand für Frauen, um der menschenfeindlichen Wüste zu trotzen.
+41031	Fechtanzug (m)	Sportlicher Schutzanzug für Fechter.
+41032	Fechtanzug (w)	Sportlicher Schutzanzug für Fechterinnen.
+41033	Fechtanzug GER (m)	Sportlicher Schutzanzug in deutschen Nationalfarben für Fechter.
+41034	Fechtanzug GER (w)	Sportlicher Schutzanzug in deutschen Nationalfarben für Fechterinnen.
+41035	Fechtanzug TUR (m)	Sportlicher Schutzanzug in türkischen Nationalfarben für Fechter.
+41036	Fechtanzug TUR (w)	Sportlicher Schutzanzug in türkischen Nationalfarben für Fechterinnen.
+41037	Fechtanzug BRA (m)	Sportlicher Schutzanzug in brasilianischen Nationalfarben für Fechter.
+41038	Fechtanzug BRA (w)	Sportlicher Schutzanzug in brasilianischen Nationalfarben für Fechterinnen.
+41039	Fußballtrikot (m)	Neutrales Trikot für Fußballer.
+41040	Fußballtrikot (w)	Neutrales Trikot für Fußballerinnen.
+41041	Fußballtrikot GER (m)	Trikot in deutschen Nationalfarben für Fußballer.
+41042	Fußballtrikot GER (w)	Trikot in deutschen Nationalfarben für Fußballerinnen.
+41043	Fußballtrikot TUR (m)	Trikot in türkischen Nationalfarben für Fußballer.
+41044	Fußballtrikot TUR (w)	Trikot in türkischen Nationalfarben für Fußballerinnen.
+41045	Fußballtrikot BRA (m)	Trikot in brasilianischen Nationalfarben für Fußballer.
+41046	Fußballtrikot BRA (w)	Trikot in brasilianischen Nationalfarben für Fußballerinnen.
+41047	Box-Outfit (m)	Kämpferisches Outfit für Boxer.
+41048	Box-Outfit (w)	Kämpferisches Outfit für Boxerinnen.
+41049	Box-Outfit GER (m)	Kämpferisches Outfit in deutschen Nationalfarben für Boxer.
+41050	Box-Outfit GER (w)	Kämpferisches Outfit in deutschen Nationalfarben für Boxerinnen.
+41051	Box-Outfit TUR (m)	Kämpferisches Outfit in türkischen Nationalfarben für Boxer.
+41052	Box-Outfit TUR (w)	Kämpferisches Outfit in türkischen Nationalfarben für Boxerinnen.
+41053	Box-Outfit BRA (m)	Kämpferisches Outfit in brasilianischen Nationalfarben für Boxer.
+41054	Box-Outfit BRA (w)	Kämpferisches Outfit in brasilianischen Nationalfarben für Boxerinnen.
 41055	Fechtanzug FRA (m)	Sportlicher Schutzanzug in französischen Nationalfarben für Fechter.
 41056	Fechtanzug FRA (w)	Sportlicher Schutzanzug in französischen Nationalfarben für Fechterinnen.
 41057	Fechtanzug ITA (m)	Sportlicher Schutzanzug in italienischen Nationalfarben für Fechter.
@@ -1209,36 +1209,36 @@
 41082	Box-Outfit ROU (w)	Kämpferisches Outfit in rumänischen Nationalfarben für Boxerinnen.
 41083	Box-Outfit ESP (m)	Kämpferisches Outfit in spanischen Nationalfarben für Boxer.
 41084	Box-Outfit ESP (w)	Kämpferisches Outfit in spanischen Nationalfarben für Boxerinnen.
-41085	Fechtanzug FRA (m)	Sportlicher Schutzanzug in französischen Nationalfarben für Fechter. Item ist handelbar.
-41086	Fechtanzug FRA (w)	Sportlicher Schutzanzug in französischen Nationalfarben für Fechterinnen. Item ist handelbar.
-41087	Fechtanzug ITA (m)	Sportlicher Schutzanzug in italienischen Nationalfarben für Fechter. Item ist handelbar.
-41088	Fechtanzug ITA (w)	Sportlicher Schutzanzug in italienischen Nationalfarben für Fechterinnen. Item ist handelbar.
-41089	Fechtanzug POL (m)	Sportlicher Schutzanzug in polnischen Nationalfarben für Fechter. Item ist handelbar.
-41090	Fechtanzug POL (w)	Sportlicher Schutzanzug in polnischen Nationalfarben für Fechterinnen. Item ist handelbar.
-41091	Fechtanzug ROU (m)	Sportlicher Schutzanzug in rumänischen Nationalfarben für Fechter. Item ist handelbar.
-41092	Fechtanzug ROU (w)	Sportlicher Schutzanzug in rumänischen Nationalfarben für Fechterinnen. Item ist handelbar.
-41093	Fechtanzug ESP (m)	Sportlicher Schutzanzug in spanischen Nationalfarben für Fechter. Item ist handelbar.
-41094	Fechtanzug ESP (w)	Sportlicher Schutzanzug in spanischen Nationalfarben für Fechterinnen. Item ist handelbar.
-41095	Fußballtrikot FRA (m)	Trikot in französischen Nationalfarben für Fußballer. Item ist handelbar.
-41096	Fußballtrikot FRA (w)	Trikot in französischen Nationalfarben für Fußballerinnen. Item ist handelbar.
-41097	Fußballtrikot ITA (m)	Trikot in italienischen Nationalfarben für Fußballer. Item ist handelbar.
-41098	Fußballtrikot ITA (w)	Trikot in italienischen Nationalfarben für Fußballerinnen. Item ist handelbar.
-41099	Fußballtrikot POL (m)	Trikot in polnischen Nationalfarben für Fußballer. Item ist handelbar.
-41100	Fußballtrikot POL (w)	Trikot in polnischen Nationalfarben für Fußballerinnen. Item ist handelbar.
-41101	Fußballtrikot ROU (m)	Trikot in rumänischen Nationalfarben für Fußballer. Item ist handelbar.
-41102	Fußballtrikot ROU (w)	Trikot in rumänischen Nationalfarben für Fußballerinnen. Item ist handelbar.
-41103	Fußballtrikot ESP (m)	Trikot in spanischen Nationalfarben für Fußballer. Item ist handelbar.
-41104	Fußballtrikot ESP (w)	Trikot in spanischen Nationalfarben für Fußballerinnen. Item ist handelbar.
-41105	Box-Outfit FRA (m)	Kämpferisches Outfit in französischen Nationalfarben für Boxer. Item ist handelbar.
-41106	Box-Outfit FRA (w)	Kämpferisches Outfit in französischen Nationalfarben für Boxerinnen. Item ist handelbar.
-41107	Box-Outfit ITA (m)	Kämpferisches Outfit in italienischen Nationalfarben für Boxer. Item ist handelbar.
-41108	Box-Outfit ITA (w)	Kämpferisches Outfit in italienischen Nationalfarben für Boxerinnen. Item ist handelbar.
-41109	Box-Outfit POL (m)	Kämpferisches Outfit in polnischen Nationalfarben für Boxer. Item ist handelbar.
-41110	Box-Outfit POL (w)	Kämpferisches Outfit in polnischen Nationalfarben für Boxerinnen. Item ist handelbar.
-41111	Box-Outfit ROU (m)	Kämpferisches Outfit in rumänischen Nationalfarben für Boxer. Item ist handelbar.
-41112	Box-Outfit ROU (w)	Kämpferisches Outfit in rumänischen Nationalfarben für Boxerinnen. Item ist handelbar.
-41113	Box-Outfit ESP (m)	Kämpferisches Outfit in spanischen Nationalfarben für Boxer. Item ist handelbar.
-41114	Box-Outfit ESP (w)	Kämpferisches Outfit in spanischen Nationalfarben für Boxerinnen. Item ist handelbar.
+41085	Fechtanzug FRA (m)	Sportlicher Schutzanzug in französischen Nationalfarben für Fechter.
+41086	Fechtanzug FRA (w)	Sportlicher Schutzanzug in französischen Nationalfarben für Fechterinnen.
+41087	Fechtanzug ITA (m)	Sportlicher Schutzanzug in italienischen Nationalfarben für Fechter.
+41088	Fechtanzug ITA (w)	Sportlicher Schutzanzug in italienischen Nationalfarben für Fechterinnen.
+41089	Fechtanzug POL (m)	Sportlicher Schutzanzug in polnischen Nationalfarben für Fechter.
+41090	Fechtanzug POL (w)	Sportlicher Schutzanzug in polnischen Nationalfarben für Fechterinnen.
+41091	Fechtanzug ROU (m)	Sportlicher Schutzanzug in rumänischen Nationalfarben für Fechter.
+41092	Fechtanzug ROU (w)	Sportlicher Schutzanzug in rumänischen Nationalfarben für Fechterinnen.
+41093	Fechtanzug ESP (m)	Sportlicher Schutzanzug in spanischen Nationalfarben für Fechter.
+41094	Fechtanzug ESP (w)	Sportlicher Schutzanzug in spanischen Nationalfarben für Fechterinnen.
+41095	Fußballtrikot FRA (m)	Trikot in französischen Nationalfarben für Fußballer.
+41096	Fußballtrikot FRA (w)	Trikot in französischen Nationalfarben für Fußballerinnen.
+41097	Fußballtrikot ITA (m)	Trikot in italienischen Nationalfarben für Fußballer.
+41098	Fußballtrikot ITA (w)	Trikot in italienischen Nationalfarben für Fußballerinnen.
+41099	Fußballtrikot POL (m)	Trikot in polnischen Nationalfarben für Fußballer.
+41100	Fußballtrikot POL (w)	Trikot in polnischen Nationalfarben für Fußballerinnen.
+41101	Fußballtrikot ROU (m)	Trikot in rumänischen Nationalfarben für Fußballer.
+41102	Fußballtrikot ROU (w)	Trikot in rumänischen Nationalfarben für Fußballerinnen.
+41103	Fußballtrikot ESP (m)	Trikot in spanischen Nationalfarben für Fußballer.
+41104	Fußballtrikot ESP (w)	Trikot in spanischen Nationalfarben für Fußballerinnen.
+41105	Box-Outfit FRA (m)	Kämpferisches Outfit in französischen Nationalfarben für Boxer.
+41106	Box-Outfit FRA (w)	Kämpferisches Outfit in französischen Nationalfarben für Boxerinnen.
+41107	Box-Outfit ITA (m)	Kämpferisches Outfit in italienischen Nationalfarben für Boxer.
+41108	Box-Outfit ITA (w)	Kämpferisches Outfit in italienischen Nationalfarben für Boxerinnen.
+41109	Box-Outfit POL (m)	Kämpferisches Outfit in polnischen Nationalfarben für Boxer.
+41110	Box-Outfit POL (w)	Kämpferisches Outfit in polnischen Nationalfarben für Boxerinnen.
+41111	Box-Outfit ROU (m)	Kämpferisches Outfit in rumänischen Nationalfarben für Boxer.
+41112	Box-Outfit ROU (w)	Kämpferisches Outfit in rumänischen Nationalfarben für Boxerinnen.
+41113	Box-Outfit ESP (m)	Kämpferisches Outfit in spanischen Nationalfarben für Boxer.
+41114	Box-Outfit ESP (w)	Kämpferisches Outfit in spanischen Nationalfarben für Boxerinnen.
 41117	Musketier-Kostüm	Extravaganter Anzug im Stil der Musketiere
 41118	Dienstmädchenuniform	Schwarzes Kleid mit weißer Schürze im Stil eines französischen Dienstmädchens.
 41119	Salsa-Anzug	Hautenger, orange-schwarzer Anzug für lateinamerikanischen Tänzer
@@ -1247,12 +1247,12 @@
 41122	Cocktailkleid	Himmelblaues Kleid mit Schleife und passenden Riemchensandalen
 41125	Kürbis-Smoking	Ein klassischer Hingucker - zu gegebenem Anlass neu interpretiert.
 41126	Kürbis-Kleid	Ein klassischer Hingucker - zu gegebenem Anlass neu interpretiert.
-41129	Musketier-Kostüm+	Extravaganter Anzug im Stil der Musketiere. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41130	Dienstmädchenuniform+	Schwarzes Kleid mit weißer Schürze im Stil einer französischen Dienstmädchenuniform. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41131	Salsa-Anzug+	Hautenger, orange-schwarzer Anzug für lateinamerikanischen Tänzer. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41132	Salsa-Kleid+	Hautenges, rotes Tanzkleid mit schwarzen Handschuhen. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41133	Gentleman-Anzug+	Eleganter Anzug für Herren mit gutem Benehmen. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41134	Cocktailkleid+	Himmelblaues Kleid mit Schleife und  passenden Riemchensandalen. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41129	Musketier-Kostüm+	Extravaganter Anzug im Stil der Musketiere. Verleiht dir mind. einen zufälligen Bonus.
+41130	Dienstmädchenuniform+	Schwarzes Kleid mit weißer Schürze im Stil einer französischen Dienstmädchenuniform. Verleiht dir mind. einen zufälligen Bonus.
+41131	Salsa-Anzug+	Hautenger, orange-schwarzer Anzug für lateinamerikanischen Tänzer. Verleiht dir mind. einen zufälligen Bonus.
+41132	Salsa-Kleid+	Hautenges, rotes Tanzkleid mit schwarzen Handschuhen. Verleiht dir mind. einen zufälligen Bonus.
+41133	Gentleman-Anzug+	Eleganter Anzug für Herren mit gutem Benehmen. Verleiht dir mind. einen zufälligen Bonus.
+41134	Cocktailkleid+	Himmelblaues Kleid mit Schleife und  passenden Riemchensandalen. Verleiht dir mind. einen zufälligen Bonus.
 41135	Kürbis-Smoking (Bonus)	Ein klassischer Hingucker - zu gegebenem Anlass neu interpretiert. Dieses Kostüm verleiht dir einen zufälligen Bonus.
 41136	Kürbis-Kleid (Bonus)	Ein klassischer Hingucker - zu gegebenem Anlass neu interpretiert. Dieses Kostüm verleiht dir einen zufälligen Bonus.
 41137	Weihnachtskostüm (rot)	Weihnachtlicher Anzug aus rotem Samt und weißem Plüsch
@@ -1263,14 +1263,14 @@
 41142	Weihnachtskleid (schw.)	Weihnachtliches Minikleid aus schwarzem Samt und weißem Plüsch
 41143	Rentierkostüm (m)	Kostüm für ihn aus weichem Plüsch mit Puschelschwanz und Glocke
 41144	Rentierkostüm (w)	Kostüm für sie aus weichem Plüsch mit Puschelschwanz und Glocke
-41145	Weihnachtskostüm+ (rot)	Weihnachtlicher Anzug aus rotem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41146	Weihnachtskleid+ (rot)	Weihnachtliches Minikleid aus rotem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41147	Weihnachtskostüm+ (grün)	Weihnachtlicher Anzug aus grünem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41148	Weihnachtskleid+ (grün)	Weihnachtliches Minikleid aus grünem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41149	Weihnachtskostüm+ (schw)	Weihnachtlicher Anzug aus schwarzem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41150	Weihnachtskleid+ (schw.)	Weihnachtliches Minikleid aus schwarzem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41151	Rentierkostüm+ (m)	Kostüm für ihn aus weichem Plüsch mit Puschelschwanz und Glocke. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41152	Rentierkostüm+ (w)	Kostüm für sie aus weichem Plüsch mit Puschelschwanz und Glocke. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41145	Weihnachtskostüm+ (rot)	Weihnachtlicher Anzug aus rotem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus.
+41146	Weihnachtskleid+ (rot)	Weihnachtliches Minikleid aus rotem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus.
+41147	Weihnachtskostüm+ (grün)	Weihnachtlicher Anzug aus grünem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus.
+41148	Weihnachtskleid+ (grün)	Weihnachtliches Minikleid aus grünem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus.
+41149	Weihnachtskostüm+ (schw)	Weihnachtlicher Anzug aus schwarzem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus.
+41150	Weihnachtskleid+ (schw.)	Weihnachtliches Minikleid aus schwarzem Samt und weißem Plüsch. Verleiht dir mind. einen zufälligen Bonus.
+41151	Rentierkostüm+ (m)	Kostüm für ihn aus weichem Plüsch mit Puschelschwanz und Glocke. Verleiht dir mind. einen zufälligen Bonus.
+41152	Rentierkostüm+ (w)	Kostüm für sie aus weichem Plüsch mit Puschelschwanz und Glocke. Verleiht dir mind. einen zufälligen Bonus.
 41153	AC Miryang (m)	Fußballtrikotsatz in Schwarz-Rot für ihn
 41154	AC Miryang (w)	Fußballtrikotsatz in Schwarz-Rot für sie
 41155	AFC Jayang (m)	Fußballtrikotsatz in Weiß-Rot für ihn
@@ -1407,8 +1407,8 @@
 41296	Häschenkostüm (blau)	Hasenkostüm aus blauem Plüsch für sie
 41297	Häschenkostüm (grün)	Hasenkostüm aus grünem Plüsch für sie
 41298	Häschenkostüm (pink)	Hasenkostüm aus pinkfarbenem Plüsch für sie
-41299	Hasenkostüm+ (schwarz)	Hasenkostüm aus schwarzem Plüsch für ihn. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41300	Hasenkostüm+ (blau)	Hasenkostüm aus blauem Plüsch für ihn. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41299	Hasenkostüm+ (schwarz)	Hasenkostüm aus schwarzem Plüsch für ihn. Verleiht dir mind. einen zufälligen Bonus.
+41300	Hasenkostüm+ (blau)	Hasenkostüm aus blauem Plüsch für ihn. Verleiht dir mind. einen zufälligen Bonus.
 41301	Hasenkostüm+ (grün)	Hasenkostüm aus grünem Plüsch für ihn. Verleiht dir mind. einen zufälligen Bonus.
 41302	Hasenkostüm+ (pink)	Hasenkostüm aus pinkfarbenem Plüsch für ihn. Verleiht dir mind. einen zufälligen Bonus.
 41303	Häschenkostüm+ (schwarz)	Hasenkostüm aus schwarzem Plüsch für sie. Verleiht dir mind. einen zufälligen Bonus.
@@ -1421,7 +1421,7 @@
 41310	Kobragewand+ (w)	Schwarzschimmerndes Gewand mit Schlangensymbolen. Verleiht dir mindestens einen zufälligen Bonus.
 41311	Wüstenkämpfer (schwarz)	Schwarzes Kriegsgewand für Männer.
 41312	Wüstenkämpferin (schw.)	Schwarzes Kriegsgewand für Frauen.
-41313	Wüstenkämpfer+ (schwarz)	Schwarzes Kriegsgewand für Männer. Verleiht dir mindestens einen zufälligen Bonus. Item ist handelbar.
+41313	Wüstenkämpfer+ (schwarz)	Schwarzes Kriegsgewand für Männer. Verleiht dir mindestens einen zufälligen Bonus.
 41314	Wüstenkämpferin+ (schw.)	Schwarzes Kriegsgewand für Frauen. Verleiht dir mindestens einen zufälligen Bonus.
 41315	Azraels Rüstung (m)	Stählerne Rüstung des berüchtigten Dämonenfürsten
 41316	Azraels Rüstung (w)	Stählerne Rüstung des berüchtigten Dämonenfürsten
@@ -1429,8 +1429,8 @@
 41318	Azraels Rüstung+ (w)	Stählerne Rüstung des berüchtigten Dämonenfürsten. Verleiht dir mindestens einen zufälligen Bonus.
 41320	Jack-Pumpkin-Anzug (m)	Schaurig-schönes Halloweenkostüm
 41321	Jack-Pumpkin-Kleid (w)	Schaurig-schönes Halloweenkostüm
-41322	Jack-Pumpkin-Anzug+ (m)	Schaurig-schönes Halloweenkostüm. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41323	Jack-Pumpkin-Kleid+ (w)	Schaurig-schönes Halloweenkostüm. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41322	Jack-Pumpkin-Anzug+ (m)	Schaurig-schönes Halloweenkostüm. Verleiht dir mind. einen zufälligen Bonus.
+41323	Jack-Pumpkin-Kleid+ (w)	Schaurig-schönes Halloweenkostüm. Verleiht dir mind. einen zufälligen Bonus.
 41324	Mondsternkämpfer	Kriegsgewand mit Mondstern-Emblem für Männer
 41325	Mondsternkämpferin	Kriegsgewand mit Mondstern-Emblem für Frauen
 41326	Mondsternkämpfer+	Kriegsgewand mit Mondstern-Emblem für Männer. Verleiht dir mindestens einen zufälligen Bonus.
@@ -1525,43 +1525,43 @@
 41415	WM-Trikot CRO (w/Bonus)	WM-Trikotsatz im Stil der kroatischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41416	WM-Trikot ECU (m/Bonus)	WM-Trikotsatz im Stil der ecuadorianischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41417	WM-Trikot ECU (w/Bonus)	WM-Trikotsatz im Stil der ecuadorianischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41418	WM-Trikot ENG (m/Bonus)	WM-Trikotsatz im Stil der englischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41418	WM-Trikot ENG (m/Bonus)	WM-Trikotsatz im Stil der englischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41419	WM-Trikot ENG (w/Bonus)	WM-Trikotsatz im Stil der englischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41420	WM-Trikot FRA (m/Bonus)	WM-Trikotsatz im Stil der französischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41420	WM-Trikot FRA (m/Bonus)	WM-Trikotsatz im Stil der französischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41421	WM-Trikot FRA (w/Bonus)	WM-Trikotsatz im Stil der französischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41422	WM-Trikot GER (m/Bonus)	WM-Trikotsatz im Stil der deutschen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41423	WM-Trikot GER (w/Bonus)	WM-Trikotsatz im Stil der deutschen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41424	WM-Trikot GHA (m/Bonus)	WM-Trikotsatz im Stil der ghanaischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41425	WM-Trikot GHA (w/Bonus)	WM-Trikotsatz im Stil der ghanaischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41426	WM-Trikot GRE (m/Bonus)	WM-Trikotsatz im Stil der griechischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41426	WM-Trikot GRE (m/Bonus)	WM-Trikotsatz im Stil der griechischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41427	WM-Trikot GRE (w/Bonus)	WM-Trikotsatz im Stil der griechischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41428	WM-Trikot HON (m/Bonus)	WM-Trikotsatz im Stil der honduranischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41429	WM-Trikot HON (w/Bonus)	WM-Trikotsatz im Stil der honduranischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41430	WM-Trikot IRN (m/Bonus)	WM-Trikotsatz im Stil der iranischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41431	WM-Trikot IRN (w/Bonus)	WM-Trikotsatz im Stil der iranischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41432	WM-Trikot ITA (m/Bonus)	WM-Trikotsatz im Stil der italienischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41432	WM-Trikot ITA (m/Bonus)	WM-Trikotsatz im Stil der italienischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41433	WM-Trikot ITA (w/Bonus)	WM-Trikotsatz im Stil der italienischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41434	WM-Trikot JPN (m/Bonus)	WM-Trikotsatz im Stil der japanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41435	WM-Trikot JPN (w/Bonus)	WM-Trikotsatz im Stil der japanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41436	WM-Trikot KOR (m/Bonus)	WM-Trikotsatz im Stil der koreanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41436	WM-Trikot KOR (m/Bonus)	WM-Trikotsatz im Stil der koreanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41437	WM-Trikot KOR (w/Bonus)	WM-Trikotsatz im Stil der koreanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41438	WM-Trikot MEX (m/Bonus)	WM-Trikotsatz im Stil der mexikanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41438	WM-Trikot MEX (m/Bonus)	WM-Trikotsatz im Stil der mexikanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41439	WM-Trikot MEX (w/Bonus)	WM-Trikotsatz im Stil der mexikanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41440	WM-Trikot NED (m/Bonus)	WM-Trikotsatz im Stil der niederländischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41440	WM-Trikot NED (m/Bonus)	WM-Trikotsatz im Stil der niederländischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41441	WM-Trikot NED (w/Bonus)	WM-Trikotsatz im Stil der niederländischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41442	WM-Trikot NGA (m/Bonus)	WM-Trikotsatz im Stil der nigerianischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41443	WM-Trikot NGA (w/Bonus)	WM-Trikotsatz im Stil der nigerianischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41444	WM-Trikot POR (m/Bonus)	WM-Trikotsatz im Stil der portugiesischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41444	WM-Trikot POR (m/Bonus)	WM-Trikotsatz im Stil der portugiesischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41445	WM-Trikot POR (w/Bonus)	WM-Trikotsatz im Stil der portugiesischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41446	WM-Trikot RUS (m/Bonus)	WM-Trikotsatz im Stil der russischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41446	WM-Trikot RUS (m/Bonus)	WM-Trikotsatz im Stil der russischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41447	WM-Trikot RUS (w/Bonus)	WM-Trikotsatz im Stil der russischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41448	WM-Trikot ESP (m/Bonus)	WM-Trikotsatz im Stil der spanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41448	WM-Trikot ESP (m/Bonus)	WM-Trikotsatz im Stil der spanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41449	WM-Trikot ESP (w/Bonus)	WM-Trikotsatz im Stil der spanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41450	WM-Trikot SUI (m/Bonus)	WM-Trikotsatz im Stil der schweizerischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41451	WM-Trikot SUI (w/Bonus)	WM-Trikotsatz im Stil der schweizerischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41452	WM-Trikot URU (m/Bonus)	WM-Trikotsatz im Stil der uruguayischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41453	WM-Trikot URU (w/Bonus)	WM-Trikotsatz im Stil der uruguayischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
-41454	WM-Trikot USA (m/Bonus)	WM-Trikotsatz im Stil der amerikanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41454	WM-Trikot USA (m/Bonus)	WM-Trikotsatz im Stil der amerikanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41455	WM-Trikot USA (w/Bonus)	WM-Trikotsatz im Stil der amerikanischen Fußballnationalmannschaft. Verleiht dir mind. einen zufälligen Bonus.
 41472	Zombieanzug	Blutverschmierte Kleidung, verfaulte Haut und offenliegende Knochen machen dich zum Zombie.
 41473	Zombiekleid	Blutverschmiertes Kleid, verfaulte Haut und offenliegende Knochen machen dich zur Zombiebraut.
@@ -1571,14 +1571,14 @@
 41477	Hexenkleid	Das schwarze, mystische Kleid eignet sich perfekt als Hexenkostüm.
 41478	Zaubereranzug+	Schwarzer, mystischer Anzug, perfekt für einen Zauberer geeignet. Verleiht dir mindestens einen zufälligen Bonus.
 41479	Hexenkleid+	Das schwarze, mystische Kleid eignet sich perfekt als Hexenkostüm. Verleiht dir mindestens einen zufälligen Bonus.
-41480	Santa Frostie-Kostüm	Schneemannkostüm mit Weihnachtsmann-Anzug aus rotem Samt. Nicht handelbar.
-41481	Schneemannkostüm	Schneemannkostüm aus weißem Samt. Nicht handelbar.
-41482	Weihnachtl. Kleid (weiß)	Weißes Minikleid mit Strümpfen und Zubehör. Nicht handelbar.
-41483	Weihnachtl. Kleid (rot)	Rotes Minikleid mit Strümpfen und Zubehör. Nicht handelbar.
-41484	Santa Frostie-Kostüm+	Schneemannkostüm mit Weihnachtsmann-Anzug aus rotem Samt. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41485	Schneemannkostüm+	Schneemannkostüm aus weißem Samt. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41486	Weihnachtl. Kleid+(weiß)	Weißes Minikleid mit Strümpfen und Zubehör. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41487	Weihnachtl. Kleid+ (rot)	Rotes Minikleid mit Strümpfen und Zubehör. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41480	Santa Frostie-Kostüm	Schneemannkostüm mit Weihnachtsmann-Anzug aus rotem Samt.
+41481	Schneemannkostüm	Schneemannkostüm aus weißem Samt.
+41482	Weihnachtl. Kleid (weiß)	Weißes Minikleid mit Strümpfen und Zubehör.
+41483	Weihnachtl. Kleid (rot)	Rotes Minikleid mit Strümpfen und Zubehör.
+41484	Santa Frostie-Kostüm+	Schneemannkostüm mit Weihnachtsmann-Anzug aus rotem Samt. Verleiht dir mind. einen zufälligen Bonus.
+41485	Schneemannkostüm+	Schneemannkostüm aus weißem Samt. Verleiht dir mind. einen zufälligen Bonus.
+41486	Weihnachtl. Kleid+(weiß)	Weißes Minikleid mit Strümpfen und Zubehör. Verleiht dir mind. einen zufälligen Bonus.
+41487	Weihnachtl. Kleid+ (rot)	Rotes Minikleid mit Strümpfen und Zubehör. Verleiht dir mind. einen zufälligen Bonus.
 41496	Wüstenprinz (braun)	Ein Kriegergewand aus braunem Stoff, für Anführer gemacht.
 41497	Wüstenprinz (weiß)	Ein Kriegergewand aus weißem Stoff, für Anführer gemacht.
 41498	Wüstenprinzessin (braun)	Ein Kriegergewand aus braunem Stoff, für Anführerinnen gemacht.
@@ -1587,14 +1587,14 @@
 41501	Wüstenprinz+ (weiß)	Ein Kriegergewand aus weißem Stoff, für Anführer gemacht. Verleiht dir mindestens einen zufälligen Bonus.
 41502	Wüstenprinzessin+(braun)	Ein Kriegergewand aus braunem Stoff, für Anführerinnen gemacht. Verleiht dir mindestens einen zufälligen Bonus.
 41503	Wüstenprinzessin+(weiß)	Ein Kriegergewand aus weißem Stoff, für Anführerinnen gemacht. Verleiht dir mindestens einen zufälligen Bonus.
-41504	Hasenkostüm (grau)	Kostüm aus kuschelig weichem grauem Fell, Ausführung: Hase. Nicht handelbar.
-41505	Hasenkostüm (braun)	Kostüm aus kuschelig weichem braunem Fell, Ausführung: Hase. Nicht handelbar.
-41506	Osterkleid (bunt)	Fröhlich buntes Osterkleid mit liebevoller Bemalung. Nicht handelbar.
-41507	Osterkleid (hellblau)	Hellblaues Osterkleid mit detailreicher Bemalung. Nicht handelbar.
-41508	Hasenkostüm+ (grau)	Kostüm aus kuschelig weichem grauem Fell, Ausführung: Hase. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-41509	Hasenkostüm+ (braun)	Kostüm aus kuschelig weichem braunem Fell, Ausführung: Hase. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-41510	Osterkleid+ (bunt)	Fröhlich buntes Osterkleid mit liebevoller Bemalung. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-41511	Osterkleid+ (hellblau)	Hellblaues Osterkleid mit detailreicher Bemalung. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
+41504	Hasenkostüm (grau)	Kostüm aus kuschelig weichem grauem Fell, Ausführung: Hase.
+41505	Hasenkostüm (braun)	Kostüm aus kuschelig weichem braunem Fell, Ausführung: Hase.
+41506	Osterkleid (bunt)	Fröhlich buntes Osterkleid mit liebevoller Bemalung.
+41507	Osterkleid (hellblau)	Hellblaues Osterkleid mit detailreicher Bemalung.
+41508	Hasenkostüm+ (grau)	Kostüm aus kuschelig weichem grauem Fell, Ausführung: Hase. Verleiht dir mindestens einen zufälligen Bonus.
+41509	Hasenkostüm+ (braun)	Kostüm aus kuschelig weichem braunem Fell, Ausführung: Hase. Verleiht dir mindestens einen zufälligen Bonus.
+41510	Osterkleid+ (bunt)	Fröhlich buntes Osterkleid mit liebevoller Bemalung. Verleiht dir mindestens einen zufälligen Bonus.
+41511	Osterkleid+ (hellblau)	Hellblaues Osterkleid mit detailreicher Bemalung. Verleiht dir mindestens einen zufälligen Bonus.
 41512	Fangzahn-Kostüm	Ein dämonisch anmutendes Halloweenkostüm, das deine Gegner in Angst und Schrecken versetzt.
 41513	Fangzahn-Kostüm	Ein dämonisch anmutendes Halloweenkostüm, das deine Gegner in Angst und Schrecken versetzt.
 41514	Fangzahn-Kostüm	Ein dämonisch anmutendes Halloweenkostüm, das deine Gegner in Angst und Schrecken versetzt.
@@ -1603,14 +1603,14 @@
 41517	Fangzahn-Kostüm+	Ein dämonisch anmutendes Halloweenkostüm, das deine Gegner in Angst und Schrecken versetzt. Verleiht dir mind. einen zufälligen Bonus.
 41518	Fangzahn-Kostüm+	Ein dämonisch anmutendes Halloweenkostüm, das deine Gegner in Angst und Schrecken versetzt. Verleiht dir mind. einen zufälligen Bonus.
 41519	Fangzahn-Kostüm+	Ein dämonisch anmutendes Halloweenkostüm, das deine Gegner in Angst und Schrecken versetzt. Verleiht dir mind. einen zufälligen Bonus.
-41520	Rotes Wintergewand	Wintergewand aus rotem Filz. Nicht handelbar.
-41521	Blaues Wintergewand	Wintergewand aus blauem Filz. Nicht handelbar.
-41522	Rotes Wintergewand+	Wintergewand aus rotem Filz. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41523	Blaues Wintergewand+	Wintergewand aus blauem Filz. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41524	Rotes Winterkleid	Winterkleid aus rotem Filz. Nicht handelbar.
-41525	Blaues Winterkleid	Winterkleid aus blauem Filz. Nicht handelbar.
-41526	Rotes Winterkleid+	Winterkleid aus rotem Filz. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41527	Blaues Winterkleid+	Winterkleid aus blauem Filz. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41520	Rotes Wintergewand	Wintergewand aus rotem Filz.
+41521	Blaues Wintergewand	Wintergewand aus blauem Filz.
+41522	Rotes Wintergewand+	Wintergewand aus rotem Filz. Verleiht dir mind. einen zufälligen Bonus.
+41523	Blaues Wintergewand+	Wintergewand aus blauem Filz. Verleiht dir mind. einen zufälligen Bonus.
+41524	Rotes Winterkleid	Winterkleid aus rotem Filz.
+41525	Blaues Winterkleid	Winterkleid aus blauem Filz.
+41526	Rotes Winterkleid+	Winterkleid aus rotem Filz. Verleiht dir mind. einen zufälligen Bonus.
+41527	Blaues Winterkleid+	Winterkleid aus blauem Filz. Verleiht dir mind. einen zufälligen Bonus.
 41528	Wüstenprinz (rot)	Ein Kriegergewand aus rotem Stoff, für Anführer gemacht.
 41529	Wüstenprinz (blau)	Ein Kriegergewand aus blauem Stoff, für Anführer gemacht.
 41530	Wüstenprinzessin (rot)	Ein Kriegergewand aus rotem Stoff, für Anführerinnen gemacht.
@@ -1619,46 +1619,46 @@
 41533	Wüstenprinz+ (blau)	Ein Kriegergewand aus blauem Stoff, für Anführer gemacht. Verleiht dir mindestens einen zufälligen Bonus.
 41534	Wüstenprinzessin+ (rot)	Ein Kriegergewand aus rotem Stoff, für Anführerinnen gemacht. Verleiht dir mindestens einen zufälligen Bonus.
 41535	Wüstenprinzessin+ (blau)	Ein Kriegergewand aus blauem Stoff, für Anführerinnen gemacht. Verleiht dir mindestens einen zufälligen Bonus.
-41540	Hasenkostüm (weiß)	Hasenkostüm aus weißem Plüsch für ihn. Nicht handelbar.
-41541	Hasenkostüm (rosa)	Hasenkostüm aus rosa Plüsch für ihn. Nicht handelbar.
-41542	Häschenkostüm (marine)	Hasenkostüm aus marinefarbenem Plüsch für sie. Nicht handelbar.
-41543	Häschenkostüm (magenta)	Hasenkostüm aus magentafarbenem Plüsch für sie. Nicht handelbar.
-41544	Hasenkostüm+ (weiß)	Hasenkostüm aus weißem Plüsch für ihn. Verleiht dir mind. einen zufälligen Bonus. Dieses Item ist handelbar.
-41545	Hasenkostüm+ (rosa)	Hasenkostüm aus rosa Plüsch für ihn. Verleiht dir mind. einen zufälligen Bonus. Dieses Item ist handelbar.
-41546	Häschenkostüm+ (marine)	Hasenkostüm aus marinefarbenem Plüsch für sie. Verleiht dir mind. einen zufälligen Bonus. Dieses Item ist handelbar.
-41547	Häschenkostüm+ (magenta)	Hasenkostüm aus magentafarbenem Plüsch für sie. Verleiht dir mind. einen zufälligen Bonus. Dieses Item ist handelbar.
-41560	Vampirkrieger (grau)	Die Rüstung eines wahren Vampirkriegers lässt dich unbezwingbar aussehen. Item ist nicht handelbar.
-41561	Vampirkrieger (rot)	Die Rüstung eines wahren Vampirkriegers lässt dich unbezwingbar aussehen. Item ist nicht handelbar.
-41562	Vamp (grau)	Die Rüstung eines kriegerischen Vamps lässt dich unbezwingbar aussehen. Item ist nicht handelbar.
-41563	Vamp (rot)	Die Rüstung eines kriegerischen Vamps lässt dich unbezwingbar aussehen. Item ist nicht handelbar.
-41564	Vampirkrieger+ (grau)	Die Rüstung eines wahren Vampirkriegers verschafft dir unmenschliche Kraft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41565	Vampirkrieger+ (rot)	Die Rüstung eines wahren Vampirkriegers verschafft dir unmenschliche Kraft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41566	Vamp+ (grau)	Die Rüstung eines kriegerischen Vamps verschafft dir unmenschliche Kraft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-41567	Vamp+ (rot)	Die Rüstung eines kriegerischen Vamps verschafft dir unmenschliche Kraft. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+41540	Hasenkostüm (weiß)	Hasenkostüm aus weißem Plüsch für ihn.
+41541	Hasenkostüm (rosa)	Hasenkostüm aus rosa Plüsch für ihn.
+41542	Häschenkostüm (marine)	Hasenkostüm aus marinefarbenem Plüsch für sie.
+41543	Häschenkostüm (magenta)	Hasenkostüm aus magentafarbenem Plüsch für sie.
+41544	Hasenkostüm+ (weiß)	Hasenkostüm aus weißem Plüsch für ihn. Verleiht dir mind. einen zufälligen Bonus.
+41545	Hasenkostüm+ (rosa)	Hasenkostüm aus rosa Plüsch für ihn. Verleiht dir mind. einen zufälligen Bonus.
+41546	Häschenkostüm+ (marine)	Hasenkostüm aus marinefarbenem Plüsch für sie. Verleiht dir mind. einen zufälligen Bonus.
+41547	Häschenkostüm+ (magenta)	Hasenkostüm aus magentafarbenem Plüsch für sie. Verleiht dir mind. einen zufälligen Bonus.
+41560	Vampirkrieger (grau)	Die Rüstung eines wahren Vampirkriegers lässt dich unbezwingbar aussehen.
+41561	Vampirkrieger (rot)	Die Rüstung eines wahren Vampirkriegers lässt dich unbezwingbar aussehen.
+41562	Vamp (grau)	Die Rüstung eines kriegerischen Vamps lässt dich unbezwingbar aussehen.
+41563	Vamp (rot)	Die Rüstung eines kriegerischen Vamps lässt dich unbezwingbar aussehen.
+41564	Vampirkrieger+ (grau)	Die Rüstung eines wahren Vampirkriegers verschafft dir unmenschliche Kraft. Verleiht dir mind. einen zufälligen Bonus.
+41565	Vampirkrieger+ (rot)	Die Rüstung eines wahren Vampirkriegers verschafft dir unmenschliche Kraft. Verleiht dir mind. einen zufälligen Bonus.
+41566	Vamp+ (grau)	Die Rüstung eines kriegerischen Vamps verschafft dir unmenschliche Kraft. Verleiht dir mind. einen zufälligen Bonus.
+41567	Vamp+ (rot)	Die Rüstung eines kriegerischen Vamps verschafft dir unmenschliche Kraft. Verleiht dir mind. einen zufälligen Bonus.
 41568	Rotes Festgewand (m)	Ein rotes Festgewand mit weißem Saum.
 41569	Grünes Festgewand (m)	Ein grünes Festgewand mit weißem Saum.
 41570	Rotes Festgewand (w)	Ein rotes Festgewand mit weißem Saum.
 41571	Grünes Festgewand (w)	Ein grünes Festgewand mit weißem Saum.
-41572	Rotes Festgewand+ (m)	Ein rotes Festgewand mit weißem Saum. Der Gegenstand verleiht dir mindestens einen zufälligen Bonus und ist handelbar.
-41573	Grünes Festgewand+ (m)	Ein grünes Festgewand mit weißem Saum. Der Gegenstand verleiht dir mindestens einen zufälligen Bonus und ist handelbar.
-41574	Rotes Festgewand+ (w)	Ein rotes Festgewand mit weißem Saum. Der Gegenstand verleiht dir mindestens einen zufälligen Bonus und ist handelbar.
-41575	Grünes Festgewand+ (w)	Ein grünes Festgewand mit weißem Saum. Der Gegenstand verleiht dir mindestens einen zufälligen Bonus und ist handelbar.
+41572	Rotes Festgewand+ (m)	Ein rotes Festgewand mit weißem Saum.
+41573	Grünes Festgewand+ (m)	Ein grünes Festgewand mit weißem Saum.
+41574	Rotes Festgewand+ (w)	Ein rotes Festgewand mit weißem Saum.
+41575	Grünes Festgewand+ (w)	Ein grünes Festgewand mit weißem Saum.
 41584	Samurai-Rüstung (blau)	Blaue Rüstung im Stil eines erfahrenen Shogun
 41585	Samurai-Rüstung (rot)	Rote Rüstung im Stil eines erfahrenen Shogun
 41586	Samurai-Rüstung (blau)	Blaue Rüstung im Stil einer weiblichen Shogun
 41587	Samurai-Rüstung (rot)	Rote Rüstung einer weiblichen Shogun
-41588	Samurai-Rüstung+ (blau)	Blaue Rüstung im Stil eines erfahrenen Shogun. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-41589	Samurai-Rüstung+ (rot)	Rote Rüstung im Stil eines erfahrenen Shogun. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-41590	Samurai-Rüstung+ (blau)	Blaue Rüstung im Stil einer weiblichen Shogun. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-41591	Samurai-Rüstung+ (rot)	Rote Rüstung im Stil einer weiblichen Shogun. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
+41588	Samurai-Rüstung+ (blau)	Blaue Rüstung im Stil eines erfahrenen Shogun. Verleiht dir mindestens einen zufälligen Bonus.
+41589	Samurai-Rüstung+ (rot)	Rote Rüstung im Stil eines erfahrenen Shogun. Verleiht dir mindestens einen zufälligen Bonus.
+41590	Samurai-Rüstung+ (blau)	Blaue Rüstung im Stil einer weiblichen Shogun. Verleiht dir mindestens einen zufälligen Bonus.
+41591	Samurai-Rüstung+ (rot)	Rote Rüstung im Stil einer weiblichen Shogun. Verleiht dir mindestens einen zufälligen Bonus.
 41600	Steampunk-Uniform (sw)	Futuristisches Outfit für den Kämpfer im Hier und Jetzt
 41601	Steampunk-Uniform (rot)	Futuristisches Outfit für den Kämpfer im Hier und Jetzt
 41602	Steampunk-Dress (sw)	Futuristisches Outfit für die Kämpferin im Hier und Jetzt
 41603	Steampunk-Dress (rot)	Futuristisches Outfit für die Kämpferin im Hier und Jetzt
-41604	Steampunk-Uniform+ (sw)	Futuristisches Outfit für den Kämpfer im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-41605	Steampunk-Uniform+ (rot)	Futuristisches Outfit für den Kämpfer im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-41606	Steampunk-Dress+ (sw)	Futuristisches Outfit für die Kämpferin im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-41607	Steampunk-Dress+ (rot)	Futuristisches Outfit für die Kämpferin im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
+41604	Steampunk-Uniform+ (sw)	Futuristisches Outfit für den Kämpfer im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus.
+41605	Steampunk-Uniform+ (rot)	Futuristisches Outfit für den Kämpfer im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus.
+41606	Steampunk-Dress+ (sw)	Futuristisches Outfit für die Kämpferin im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus.
+41607	Steampunk-Dress+ (rot)	Futuristisches Outfit für die Kämpferin im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus.
 45001	Häschenohren (braun)	Braune Hasenohren für sie
 45002	Hasenohren (braun)	Braune Mütze mit Hasenohren für ihn
 45003	Kopftuch (m)	Eine Kopfbedeckung aus feinstem Stoff für Männer.
@@ -1669,14 +1669,14 @@
 45008	Fußballfrisur GER (w)	Eine sportliche Frisur mit Haarband in den deutschen Nationalfarben für Fußballerinnen.
 45009	Rastalocken (m)	Die langen Haare sind zu Rastalocken gedreht und am Hinterkopf zusammengebunden.
 45010	Boxfrisur GER (w)	Eine sportliche Frisur mit Haarband in den deutschen Nationalfarben für Boxerinnen.
-45011	Kopftuch+ (m)	Eine Kopfbedeckung aus feinstem Stoff für Männer. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45012	Kopftuch+ (w)	Eine Kopfbedeckung aus feinstem Stoff für Frauen. Item ist handelbar.
-45013	OlaSeku (m)	Oben lang, Seite kurz - extravaganter Sidecut für Männer. Item ist handelbar.
-45014	Fechtfrisur (w)	Eine sportliche Frisur für Fechterinnen. Item ist handelbar.
-45015	Irokesenschnitt (m)	Frisur in Stil der Irokesen. Haare stehen in der Mitte senkrecht nach oben, Seiten sind kurz rasiert. Item ist handelbar.
-45016	Fußballfrisur GER (w)	Eine sportliche Frisur mit Haarband in den deutschen Nationalfarben für Fußballerinnen. Item ist handelbar.
-45017	Rastalocken (m)	Die langen Haare sind zu Rastalocken gedreht und am Hinterkopf zusammengebunden. Item ist handelbar.
-45018	Boxfrisur GER (w)	Eine sportliche Frisur mit Haarband in den deutschen Nationalfarben für Boxerinnen. Item ist handelbar.
+45011	Kopftuch+ (m)	Eine Kopfbedeckung aus feinstem Stoff für Männer. Verleiht dir mind. einen zufälligen Bonus.
+45012	Kopftuch+ (w)	Eine Kopfbedeckung aus feinstem Stoff für Frauen.
+45013	OlaSeku (m)	Oben lang, Seite kurz - extravaganter Sidecut für Männer.
+45014	Fechtfrisur (w)	Eine sportliche Frisur für Fechterinnen.
+45015	Irokesenschnitt (m)	Frisur in Stil der Irokesen. Haare stehen in der Mitte senkrecht nach oben, Seiten sind kurz rasiert.
+45016	Fußballfrisur GER (w)	Eine sportliche Frisur mit Haarband in den deutschen Nationalfarben für Fußballerinnen.
+45017	Rastalocken (m)	Die langen Haare sind zu Rastalocken gedreht und am Hinterkopf zusammengebunden.
+45018	Boxfrisur GER (w)	Eine sportliche Frisur mit Haarband in den deutschen Nationalfarben für Boxerinnen.
 45019	Boxfrisur TUR (w)	Eine sportliche Frisur mit Haarband in den türkischen Nationalfarben für Boxerinnen.
 45020	Boxfrisur BRA (w)	Eine sportliche Frisur mit Haarband in den brasilianischen Nationalfarben für Boxerinnen.
 45021	Boxfrisur (w)	Eine sportliche Frisur mit buntem Haarband für Boxerinnen.
@@ -1717,12 +1717,12 @@
 45058	Blumenfrisur	Süße Flechtfrisur mit buntem Blumenschmuck.
 45061	Kürbis-Maske	Ein ausgehöhlter Kürbis. Geräumig, gut belüftet und ordentlich gruselig.
 45062	Kürbis-Maske	Ein ausgehöhlter Kürbis. Geräumig, gut belüftet und ordentlich gruselig.
-45065	Musketier-Frisur+	Gepflegte blonde Kurzhaarfrisur für den perfekten Musketier-Look. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45066	Dienstmädchenhaube+	Blonder Pagenschnitt mit Dienstmädchenhaube. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45067	Mini-Iro+	Auffallender Kurzhaarschnitt im Irokesen-Stil. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45068	Salsa-Knoten+	Elegante Hochsteckfrisur mit roter Blume. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45069	Bogarthut+	Klassischer Filzhut im Humphrey-Bogart-Stil. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45070	Blumenfrisur+	Süße Flechtfrisur mit buntem Blumenschmuck. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+45065	Musketier-Frisur+	Gepflegte blonde Kurzhaarfrisur für den perfekten Musketier-Look. Verleiht dir mind. einen zufälligen Bonus.
+45066	Dienstmädchenhaube+	Blonder Pagenschnitt mit Dienstmädchenhaube. Verleiht dir mind. einen zufälligen Bonus.
+45067	Mini-Iro+	Auffallender Kurzhaarschnitt im Irokesen-Stil. Verleiht dir mind. einen zufälligen Bonus.
+45068	Salsa-Knoten+	Elegante Hochsteckfrisur mit roter Blume. Verleiht dir mind. einen zufälligen Bonus.
+45069	Bogarthut+	Klassischer Filzhut im Humphrey-Bogart-Stil. Verleiht dir mind. einen zufälligen Bonus.
+45070	Blumenfrisur+	Süße Flechtfrisur mit buntem Blumenschmuck. Verleiht dir mind. einen zufälligen Bonus.
 45073	Kürbis-Maske (Bonus)	Ein ausgehöhlter Kürbis. Geräumig, gut belüftet und ordentlich gruselig. Verleiht dir einen zufälligen Bonus.
 45074	Kürbis-Maske (Bonus)	Ein ausgehöhlter Kürbis. Geräumig, gut belüftet und ordentlich gruselig. Verleiht dir einen zufälligen Bonus.
 45075	Weihnachtsmütze (rot)	Rote Samtmütze mit Geweih und weißem Bommel
@@ -1731,12 +1731,12 @@
 45078	Elfenhut	Schneeweiße Kopfbedeckung mit filigranen Flügeln
 45079	Rentierkopf (m)	Rentiermaske zum Überziehen mit roter Nase und Geweih für ihn
 45080	Rentierkopf (w)	Rentiermaske zum Überziehen mit roter Nase und Geweih für sie
-45081	Weihnachtsmütze+ (rot)	Rote Samtmütze mit Geweih und weißem Bommel. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45082	Weihnachtsmütze+ (grün)	Grüne Samtmütze mit Geweih und weißem Bommel. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45083	Weihnachtsmütze+ (schw.)	Schwarze Samtmütze mit Geweih und weißem Bommel. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45084	Elfenhut+	Schneeweiße Kopfbedeckung mit filigranen Flügeln. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45085	Rentierkopf+ (m)	Rentiermaske zum Überziehen mit roter Nase und Geweih für ihn. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45086	Rentierkopf+ (w)	Rentiermaske zum Überziehen mit roter Nase und Geweih für sie. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+45081	Weihnachtsmütze+ (rot)	Rote Samtmütze mit Geweih und weißem Bommel. Verleiht dir mind. einen zufälligen Bonus.
+45082	Weihnachtsmütze+ (grün)	Grüne Samtmütze mit Geweih und weißem Bommel. Verleiht dir mind. einen zufälligen Bonus.
+45083	Weihnachtsmütze+ (schw.)	Schwarze Samtmütze mit Geweih und weißem Bommel. Verleiht dir mind. einen zufälligen Bonus.
+45084	Elfenhut+	Schneeweiße Kopfbedeckung mit filigranen Flügeln. Verleiht dir mind. einen zufälligen Bonus.
+45085	Rentierkopf+ (m)	Rentiermaske zum Überziehen mit roter Nase und Geweih für ihn. Verleiht dir mind. einen zufälligen Bonus.
+45086	Rentierkopf+ (w)	Rentiermaske zum Überziehen mit roter Nase und Geweih für sie. Verleiht dir mind. einen zufälligen Bonus.
 45087	Bandana (weiß)	Weißes Dreieckstuch für Männer, das um den Kopf gebunden wird. Beliebt bei Sportfans.
 45088	Bandana (weiß)	Weißes Dreieckstuch für Frauen, das um den Kopf gebunden wird. Beliebt bei Sportfans.
 45089	Bandana (schwarz)	Schwarzes Dreieckstuch für Männer, das um den Kopf gebunden wird. Beliebt bei Sportfans.
@@ -1765,8 +1765,8 @@
 45124	Häschenohren (blau)	Blaue Hasenohren für sie
 45125	Häschenohren (grün)	Grüne Hasenohren für sie
 45126	Häschenohren (pink)	Pinkfarbene Hasenohren für sie
-45127	Hasenohren+ (schwarz)	Schwarze Mütze mit Hasenohren für ihn. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45128	Hasenohren+ (blau)	Blaue Mütze mit Hasenohren für ihn. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+45127	Hasenohren+ (schwarz)	Schwarze Mütze mit Hasenohren für ihn. Verleiht dir mind. einen zufälligen Bonus.
+45128	Hasenohren+ (blau)	Blaue Mütze mit Hasenohren für ihn. Verleiht dir mind. einen zufälligen Bonus.
 45129	Hasenohren+ (grün)	Grüne Mütze mit Hasenohren für ihn. Verleiht dir mind. einen zufälligen Bonus.
 45130	Hasenohren+ (pink)	Pinkfarbene Mütze mit Hasenohren für ihn. Verleiht dir mind. einen zufälligen Bonus.
 45131	Häschenohren+ (schwarz)	Schwarze Hasenohren für sie. Verleiht dir mind. einen zufälligen Bonus.
@@ -1787,7 +1787,7 @@
 45146	Maya-Maske+	Furchterregende Maske der Mayakrieger. Verleiht dir mindestens zwei Boni.
 45147	Schwarzer Turban (m)	Eine Kopfbedeckung aus schwarzem Stoff für Männer.
 45148	Schwarzer Turban (w)	Eine Kopfbedeckung aus schwarzem Stoff für Frauen.
-45149	Schwarzer Turban+ (m)	Eine Kopfbedeckung aus schwarzem Stoff für Männer. Verleiht dir mindestens einen zufälligen Bonus. Item ist handelbar.
+45149	Schwarzer Turban+ (m)	Eine Kopfbedeckung aus schwarzem Stoff für Männer. Verleiht dir mindestens einen zufälligen Bonus.
 45150	Schwarzer Turban+ (w)	Eine Kopfbedeckung aus schwarzem Stoff für Frauen. Verleiht dir mindestens einen zufälligen Bonus.
 45151	Azraels Helm (m)	Kopfbedeckung mit der Fratze des berüchtigten Dämonenfürsten.
 45152	Azraels Helm (w)	Kopfbedeckung mit der Fratze des berüchtigten Dämonenfürsten.
@@ -1795,8 +1795,8 @@
 45154	Azraels Helm+ (w)	Kopfbedeckung mit der Fratze des berüchtigten Dämonenfürsten. Verleiht dir mindestens einen zufälligen Bonus.
 45156	Jack-Pumpkin-Kopf (m)	Schaurig-schöne Halloweenmaske
 45157	Jack-Pumpkin-Kopf (w)	Schaurig-schöne Halloweenmaske
-45158	Jack-Pumpkin-Kopf+ (m)	Schaurig-schöne Halloweenmaske. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45159	Jack-Pumpkin-Kopf+ (w)	Schaurig-schöne Halloweenmaske. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+45158	Jack-Pumpkin-Kopf+ (m)	Schaurig-schöne Halloweenmaske. Verleiht dir mind. einen zufälligen Bonus.
+45159	Jack-Pumpkin-Kopf+ (w)	Schaurig-schöne Halloweenmaske. Verleiht dir mind. einen zufälligen Bonus.
 45160	Mondsternfrisur (m)	Hochgebundene Rastazöpfe, rot-weiß eingefärbt.
 45161	Mondsternfrisur (w)	Hochgebundene Rastazöpfe, rot-weiß eingefärbt, mit Stirnband.
 45162	Mondsternfrisur+ (m)	Hochgebundene Rastazöpfe, rot-weiß eingefärbt. Verleihen dir mindestens einen zufälligen Bonus.
@@ -1811,22 +1811,22 @@
 45171	Hexenhut	Spitzhut mit breiter Krempe, der von Hexen oder Zauberern getragen wird.
 45172	Zombiekürbismaske+	Monsterhafte Kürbismaske als Halloweenverkleidung. Verleiht dir mindestens einen zufälligen Bonus.
 45173	Hexenhut+	Spitzhut mit breiter Krempe, der von Hexen oder Zauberern getragen wird. Verleiht dir mindestens einen zufälligen Bonus.
-45174	Schneemannmaske	Schneemannmaske mit schönem Zylinder aus mattschwarzem Satin. Nicht handelbar.
-45175	Santa Frostie-Maske	Schneemannmaske mit Weihnachtsmütze aus rotem Samt mit weißem Plüsch. Nicht handelbar.
-45176	Bommelmütze (weiß)	Weihnachtsmütze aus weißem Samt mit weißem Plüsch und rotem Bommel. Nicht handelbar.
-45177	Bommelmütze (rot)	Weihnachtsmütze aus rotem Samt mit weißem Plüsch und weißem Bommel. Nicht handelbar.
-45178	Schneemannmaske+	Schneemannmaske mit schönem Zylinder aus mattschwarzem Satin. Verleiht dir mind. einen zusätzlichen Bonus. Item ist handelbar.
-45179	Santa Frostie-Maske+	Schneemannmaske mit Weihnachtsmütze aus rotem Samt mit weißem Plüsch. Verleiht dir mind. einen zusätzlichen Bonus. Item ist handelbar.
-45180	Bommelmütze+ (weiß)	Weihnachtsmütze aus weißem Samt mit weißem Plüsch und rotem Bommel. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45181	Bommelmütze+ (rot)	Weihnachtsmütze aus rotem Samt mit weißem Plüsch und weißem Bommel. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45190	Hasenohren (grau)	Mütze mit Hasenohren aus weichem, grauem Fell. Nicht handelbar.
-45191	Hasenohren (braun)	Mütze mit Hasenohren aus weichem, braunem Fell. Nicht handelbar.
-45192	Osterkopfschmuck (bunt)	Bunt schillernder Osterkopfschmuck für die modebewusste Kämpferin. Nicht handelbar.
-45193	Osterkopfschmuck (blau)	Fröhlicher hellblauer Osterkopfschmuck für die modebewusste Kämpferin. Nicht handelbar.
-45194	Hasenohren+ (grau)	Mütze mit Hasenohren aus weichem, grauem Fell. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-45195	Hasenohren+ (braun)	Mütze mit Hasenohren aus weichem, braunem Fell. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-45196	Osterkopfschmuck+ (bunt)	Bunt schillernder Osterkopfschmuck für die modebewusste Kämpferin. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-45197	Osterkopfschmuck+ (blau)	Fröhlicher hellblauer Osterkopfschmuck für die modebewusste Kämpferin. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
+45174	Schneemannmaske	Schneemannmaske mit schönem Zylinder aus mattschwarzem Satin.
+45175	Santa Frostie-Maske	Schneemannmaske mit Weihnachtsmütze aus rotem Samt mit weißem Plüsch.
+45176	Bommelmütze (weiß)	Weihnachtsmütze aus weißem Samt mit weißem Plüsch und rotem Bommel.
+45177	Bommelmütze (rot)	Weihnachtsmütze aus rotem Samt mit weißem Plüsch und weißem Bommel.
+45178	Schneemannmaske+	Schneemannmaske mit schönem Zylinder aus mattschwarzem Satin. Verleiht dir mind. einen zusätzlichen Bonus.
+45179	Santa Frostie-Maske+	Schneemannmaske mit Weihnachtsmütze aus rotem Samt mit weißem Plüsch. Verleiht dir mind. einen zusätzlichen Bonus.
+45180	Bommelmütze+ (weiß)	Weihnachtsmütze aus weißem Samt mit weißem Plüsch und rotem Bommel. Verleiht dir mind. einen zufälligen Bonus.
+45181	Bommelmütze+ (rot)	Weihnachtsmütze aus rotem Samt mit weißem Plüsch und weißem Bommel. Verleiht dir mind. einen zufälligen Bonus.
+45190	Hasenohren (grau)	Mütze mit Hasenohren aus weichem, grauem Fell.
+45191	Hasenohren (braun)	Mütze mit Hasenohren aus weichem, braunem Fell.
+45192	Osterkopfschmuck (bunt)	Bunt schillernder Osterkopfschmuck für die modebewusste Kämpferin.
+45193	Osterkopfschmuck (blau)	Fröhlicher hellblauer Osterkopfschmuck für die modebewusste Kämpferin.
+45194	Hasenohren+ (grau)	Mütze mit Hasenohren aus weichem, grauem Fell. Verleiht dir mindestens einen zufälligen Bonus.
+45195	Hasenohren+ (braun)	Mütze mit Hasenohren aus weichem, braunem Fell. Verleiht dir mindestens einen zufälligen Bonus.
+45196	Osterkopfschmuck+ (bunt)	Bunt schillernder Osterkopfschmuck für die modebewusste Kämpferin. Verleiht dir mindestens einen zufälligen Bonus.
+45197	Osterkopfschmuck+ (blau)	Fröhlicher hellblauer Osterkopfschmuck für die modebewusste Kämpferin. Verleiht dir mindestens einen zufälligen Bonus.
 45198	Brauner Turban	Ein edler, brauner Turban aus widerstandsfähigem Stoff für den Kämpfer.
 45199	Weißer Turban	Ein edler, weißer Turban aus widerstandsfähigem Stoff für den Kämpfer.
 45200	Braunes Kopftuch	Ein braunes Kopftuch aus leichtem Stoff für die Kämpferin.
@@ -1843,22 +1843,22 @@
 45211	Fangzahn-Helm+	Ein grauenerregender Helm zu Halloween, bei dem deinen Gegnern Angst und Bange wird. Verleiht dir mind. einen zufälligen Bonus.
 45212	Fangzahn-Helm+	Ein grauenerregender Helm zu Halloween, bei dem deinen Gegnern Angst und Bange wird. Verleiht dir mind. einen zufälligen Bonus.
 45213	Fangzahn-Helm+	Ein grauenerregender Helm zu Halloween, bei dem deinen Gegnern Angst und Bange wird. Verleiht dir mind. einen zufälligen Bonus.
-45214	Rote Bommelmütze	Rote Filzmütze mit weißem Bommel. Nicht handelbar.
-45215	Blaue Bommelmütze	Blaue Filzmütze mit weißem Bommel. Nicht handelbar.
-45216	Rote Bommelkapuze	Rote Filzkapuze mit weißem Bommel. Nicht handelbar.
-45217	Blaue Bommelkapuze	Blaue Filzkapuze mit weißem Bommel. Nicht handelbar.
-45218	Rote Bommelmütze+	Rote Filzmütze mit weißem Bommel. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45219	Blaue Bommelmütze+	Blaue Filzmütze mit weißem Bommel. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45220	Rote Bommelkapuze+	Rote Filzkapuze mit weißem Bommel. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45221	Blaue Bommelkapuze+	Blaue Filzkapuze mit weißem Bommel. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45222	Hasenohren (weiß)	Weiße Mütze mit Hasenohren für ihn. Nicht handelbar.
-45223	Hasenohren (rosa)	Rosa Mütze mit Hasenohren für ihn. Nicht handelbar.
-45224	Häschenohren (marine)	Marinefarbene Hasenohren für sie. Nicht handelbar.
-45225	Häschenohren (magenta)	Magentafarbene Hasenohren für sie. Nicht handelbar.
-45226	Hasenohren+ (weiß)	Weiße Mütze mit Hasenohren für ihn. Verleiht dir mind. einen zufälligen Bonus. Dieses Item ist handelbar.
-45227	Hasenohren+ (rosa)	Rosa Mütze mit Hasenohren für ihn. Verleiht dir mind. einen zufälligen Bonus. Dieses Item ist handelbar.
-45228	Häschenohren+ (marine)	Marinefarbene Hasenohren für sie. Verleiht dir mind. einen zufälligen Bonus. Dieses Item ist handelbar.
-45229	Häschenohren+ (magenta)	Magentafarbene Hasenohren für sie. Verleiht dir mind. einen zufälligen Bonus. Dieses Item ist handelbar.
+45214	Rote Bommelmütze	Rote Filzmütze mit weißem Bommel.
+45215	Blaue Bommelmütze	Blaue Filzmütze mit weißem Bommel.
+45216	Rote Bommelkapuze	Rote Filzkapuze mit weißem Bommel.
+45217	Blaue Bommelkapuze	Blaue Filzkapuze mit weißem Bommel.
+45218	Rote Bommelmütze+	Rote Filzmütze mit weißem Bommel. Verleiht dir mind. einen zufälligen Bonus.
+45219	Blaue Bommelmütze+	Blaue Filzmütze mit weißem Bommel. Verleiht dir mind. einen zufälligen Bonus.
+45220	Rote Bommelkapuze+	Rote Filzkapuze mit weißem Bommel. Verleiht dir mind. einen zufälligen Bonus.
+45221	Blaue Bommelkapuze+	Blaue Filzkapuze mit weißem Bommel. Verleiht dir mind. einen zufälligen Bonus.
+45222	Hasenohren (weiß)	Weiße Mütze mit Hasenohren für ihn.
+45223	Hasenohren (rosa)	Rosa Mütze mit Hasenohren für ihn.
+45224	Häschenohren (marine)	Marinefarbene Hasenohren für sie.
+45225	Häschenohren (magenta)	Magentafarbene Hasenohren für sie.
+45226	Hasenohren+ (weiß)	Weiße Mütze mit Hasenohren für ihn. Verleiht dir mind. einen zufälligen Bonus.
+45227	Hasenohren+ (rosa)	Rosa Mütze mit Hasenohren für ihn. Verleiht dir mind. einen zufälligen Bonus.
+45228	Häschenohren+ (marine)	Marinefarbene Hasenohren für sie. Verleiht dir mind. einen zufälligen Bonus.
+45229	Häschenohren+ (magenta)	Magentafarbene Hasenohren für sie. Verleiht dir mind. einen zufälligen Bonus.
 45234	Blauer Turban	Ein edler, blauer Turban aus widerstandsfähigem Stoff für den Kämpfer.
 45235	Roter Turban	Ein edler, roter Turban aus widerstandsfähigem Stoff für den Kämpfer.
 45236	Braunes Kopftuch	Ein braunes Kopftuch aus leichtem Stoff für die Kämpferin.
@@ -1867,38 +1867,38 @@
 45239	Roter Turban+	Ein edler, roter Turban aus widerstandsfähigem Stoff für den Kämpfer. Verleiht dir mindestens einen zufälligen Bonus.
 45240	Braunes Kopftuch+	Ein braunes Kopftuch aus leichtem Stoff für die Kämpferin. Verleiht dir mindestens einen zufälligen Bonus.
 45241	Grünes Kopftuch+	Ein grünes Kopftuch aus leichtem Stoff für die Kämpferin. Verleiht dir mindestens einen zufälligen Bonus.
-45250	Vampirkriegerhelm (gr.)	Helm eines wahren Vampirkriegers. Item ist nicht handelbar.
-45251	Vampirkriegerhelm (rot)	Helm eines wahren Vampirkriegers. Item ist nicht handelbar.
-45252	Vamphelm (grau)	Helm eines kriegerischen Vamps. Item ist nicht handelbar.
-45253	Vamphelm (rot)	Helm eines kriegerischen Vamps. Item ist nicht handelbar.
-45254	Vampirkriegerhelm+ (gr.)	Helm eines wahren Vampirkriegers. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45255	Vampirkriegerhelm+ (rot)	Helm eines wahren Vampirkriegers. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45256	Vamphelm+ (grau)	Helm eines kriegerischen Vamps. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
-45257	Vamphelm+ (rot)	Helm eines kriegerischen Vamps. Verleiht dir mind. einen zufälligen Bonus. Item ist handelbar.
+45250	Vampirkriegerhelm (gr.)	Helm eines wahren Vampirkriegers.
+45251	Vampirkriegerhelm (rot)	Helm eines wahren Vampirkriegers.
+45252	Vamphelm (grau)	Helm eines kriegerischen Vamps.
+45253	Vamphelm (rot)	Helm eines kriegerischen Vamps.
+45254	Vampirkriegerhelm+ (gr.)	Helm eines wahren Vampirkriegers. Verleiht dir mind. einen zufälligen Bonus.
+45255	Vampirkriegerhelm+ (rot)	Helm eines wahren Vampirkriegers. Verleiht dir mind. einen zufälligen Bonus.
+45256	Vamphelm+ (grau)	Helm eines kriegerischen Vamps. Verleiht dir mind. einen zufälligen Bonus.
+45257	Vamphelm+ (rot)	Helm eines kriegerischen Vamps. Verleiht dir mind. einen zufälligen Bonus.
 45258	Weihnachtskapuze (rot)	Rote Weihnachtskapuze mit weißem Saum.
 45259	Weihnachtskapuze (grün)	Grüne Weihnachtskapuze mit weißem Saum.
 45260	Weihnachtsbarett (rot)	Rotes Weihnachtsbarett mit weißem Bommel.
 45261	Weihnachtsbarett (grün)	Grünes Weihnachtsbarett mit weißem Bommel.
-45262	Weihnachtskapuze+ (rot)	Rote Weihnachtskapuze mit weißem Saum. Der Gegenstand verleiht dir mindestens einen zufälligen Bonus und ist handelbar.
-45263	Weihnachtskapuze+ (grün)	Grüne Weihnachtskapuze mit weißem Saum. Der Gegenstand verleiht dir mindestens einen zufälligen Bonus und ist handelbar.
-45264	Weihnachtsbarett+ (rot)	Rotes Weihnachtsbarett mit weißem Bommel. Der Gegenstand verleiht dir mindestens einen zufälligen Bonus und ist handelbar.
-45265	Weihnachtsbarett+ (grün)	Grünes Weihnachtsbarett mit weißem Bommel. Der Gegenstand verleiht dir mindestens einen zufälligen Bonus und ist handelbar.
+45262	Weihnachtskapuze+ (rot)	Rote Weihnachtskapuze mit weißem Saum.
+45263	Weihnachtskapuze+ (grün)	Grüne Weihnachtskapuze mit weißem Saum.
+45264	Weihnachtsbarett+ (rot)	Rotes Weihnachtsbarett mit weißem Bommel.
+45265	Weihnachtsbarett+ (grün)	Grünes Weihnachtsbarett mit weißem Bommel.
 45274	Samurai-Knoten (gold)	Haarknoten mit goldener Spange im Stil der Samurai für ihn
 45275	Samurai-Knoten (silber)	Haarknoten mit silberner Spange im Stil der Samurai für ihn
 45276	Samurai-Knoten (gold)	Haarknoten mit goldener Spange im Stil der Samurai für sie
 45277	Samurai-Knoten (silber)	Haarknoten mit silberner Spange im Stil der Samurai für sie
-45278	Samurai-Knoten+ (gold)	Haarknoten mit goldener Spange im Stil der Samurai für ihn. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-45279	Samurai-Knoten+ (silber)	Haarknoten mit silberner Spange im Stil der Samurai für ihn. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-45280	Samurai-Knoten+ (gold)	Haarknoten mit goldener Spange im Stil der Samurai für sie. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-45281	Samurai-Knoten+ (silber)	Haarknoten mit silberner Spange im Stil der Samurai für sie. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
+45278	Samurai-Knoten+ (gold)	Haarknoten mit goldener Spange im Stil der Samurai für ihn. Verleiht dir mindestens einen zufälligen Bonus.
+45279	Samurai-Knoten+ (silber)	Haarknoten mit silberner Spange im Stil der Samurai für ihn. Verleiht dir mindestens einen zufälligen Bonus.
+45280	Samurai-Knoten+ (gold)	Haarknoten mit goldener Spange im Stil der Samurai für sie. Verleiht dir mindestens einen zufälligen Bonus.
+45281	Samurai-Knoten+ (silber)	Haarknoten mit silberner Spange im Stil der Samurai für sie. Verleiht dir mindestens einen zufälligen Bonus.
 45290	Steampunk-Zylinder (sw)	Futuristische Kopfbedeckung für den Kämpfer im Hier und Jetzt
 45291	Steampunk-Zylinder (rot)	Futuristische Kopfbedeckung für den Kämpfer im Hier und Jetzt
 45292	Steampunk-Zylinder (sw)	Futuristische Kopfbedeckung für die Kämpferin im Hier und Jetzt
 45293	Steampunk-Zylinder (rot)	Futuristische Kopfbedeckung für die Kämpferin im Hier und Jetzt
-45294	Steampunk-Zylinder+ (sw)	Futuristische Kopfbedeckung für den Kämpfer im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-45295	Steampunk-Zylinder+(rot)	Futuristische Kopfbedeckung für den Kämpfer im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-45296	Steampunk-Zylinder+ (sw)	Futuristische Kopfbedeckung für die Kämpferin im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
-45297	Steampunk-Zylinder+(rot)	Futuristische Kopfbedeckung für die Kämpferin im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus. Dieses Item ist handelbar.
+45294	Steampunk-Zylinder+ (sw)	Futuristische Kopfbedeckung für den Kämpfer im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus.
+45295	Steampunk-Zylinder+(rot)	Futuristische Kopfbedeckung für den Kämpfer im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus.
+45296	Steampunk-Zylinder+ (sw)	Futuristische Kopfbedeckung für die Kämpferin im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus.
+45297	Steampunk-Zylinder+(rot)	Futuristische Kopfbedeckung für die Kämpferin im Hier und Jetzt. Verleiht dir mindestens einen zufälligen Bonus.
 50001	Glücksbuch	Ein Buch mit Glückszahlen. Die Lotterie wird von der Regierung durchgeführt.
 50002	Goldring	Ein einfacher Goldring, der im Verkauf einen hohen Preis erzielen kann.
 50003	Fertigkeitszurücksetzung	Ermöglicht es, die aktuellen Fertigkeiten zugunsten neuer zurück zu setzen.
@@ -1943,6 +1943,7 @@
 50060	Buch der Reitkunst	Das erfolgreiche Lesen dieses Buches ermöglicht die Steigerung deiner Reitfähigkeiten. Nach dem Lesen verschwindet das Buch.
 50067	Rolle der Evolution	Machtvolle, uralte Schriftolle aus Pergament. Dient der Verbesserung eines Jungtiers zum Wilden Reittier.
 50068	Rolle der Mutation	Machtvolle, uralte Schriftolle aus Pergament. Dient der Verbesserung des Wilden Reittiers zum Tapferen Reittier.
+50069	Schlachtross-Pferdebuch	Sobald du die Qualifikationsprüfung der Elite beim Stallburschen bestanden hast, ermöglicht dir diese Lizenz, dein Pferd zu rufen.
 50070	Oberork-Truhe	Die Truhe des Orkhäuptlings. Das schwere Schloss weist darauf hin, dass sie etwas Wertvolles enthalten muss.
 50071	Truhe dunkler Anführer	Die Truhe des dunklen Anführers. Das schwere Schloss weist darauf hin, dass sie etwas Wertvolles enthalten muss.
 50072	Truhe Geist-Anführer	Die Truhe des Geist-Anführers. Das schwere Schloss weist darauf hin, dass sie etwas Wertvolles enthalten muss.
@@ -1956,7 +1957,7 @@
 50080	Truhe des roten Drachen	Die Truhe des roten Drachen. Das schwere Schloss weist darauf hin, dass sie etwas Wertvolles enthalten muss.
 50081	Dämonenkönigtruhe	Die Truhe des Dämonenkönigs. Das schwere Schloss weist darauf hin, dass sie etwas Wertvolles enthalten muss.
 50082	Sensenmanntruhe	Die Truhe des Sensenmanns. Das schwere Schloss weist darauf hin, dass sie etwas Wertvolles enthalten muss.
-50083	Reitkarte	Du kannst für einige Zeit ein Pony reiten, wenn du die Karte einem Stallburschen zeigst.
+50083	Reitkarte	Du kannst für einige Zeit ein Pony reiten, bis du erfolgreich eine PM dem Stallburschen abgibst.
 50084	Schlüsselstein	Diesen Stein umgibt eine energiegeladene Aura. Er wirkt gegen Siegel-Magie.
 50091	Goldfisch-Sushi	Eine beliebte Spezialität aus rohem Goldfisch und erkaltetem Reis, die in kleinen Stücken angeboten wird.
 50092	Karpfen-Sushi	Eine beliebte Spezialität aus rohem Karpfen und erkaltetem Reis, die in kleinen Stücken angeboten wird.
@@ -2060,8 +2061,8 @@
 50267	Goldene Okey-Truhe	Erreiche 400 oder mehr Punkte in einer Okey-Runde, um diesen Preis zu erhalten.
 50268	Silberne Okey-Truhe	Erreiche zwischen 300 und 399 Punkten in einer Okey-Runde, um diesen Preis zu erhalten.
 50269	Bronzene Okey-Truhe	Erreiche 299 oder weniger Punkte in einer Okey-Runde, um diesen Preis zu erhalten.
-50270	Truhe der Königin Meley	Diese Truhe wurde aus dem Hort der Drachenkönigin Meley geborgen. Sie birgt einen wahrhaft königlichen Schatz. Dieses Item ist handelbar.
-50271	Truhe der Drachenwächter	Diese Truhe enthält einige seltene, seit Jahrhunderten verschollen geglaubte Schätze der unzähligen Drachenwächter. Dieses Item ist handelbar.
+50270	Truhe der Königin Meley	Diese Truhe wurde aus dem Hort der Drachenkönigin Meley geborgen. Sie birgt einen wahrhaft königlichen Schatz.
+50271	Truhe der Drachenwächter	Diese Truhe enthält einige seltene, seit Jahrhunderten verschollen geglaubte Schätze der unzähligen Drachenwächter.
 50272	Goldene Bossjäger-Truhe	Goldene Belohnung für deine Heldentaten bei der Bossjagd
 50273	Silberne Bossjäger-Truhe	Silberne Belohnung für deine Heldentaten bei der Bossjagd
 50274	Bronzene Bossjäger-Truhe	Bronzene Belohnung für deine Heldentaten bei der Bossjagd
@@ -2733,7 +2734,7 @@
 70031	Traktat zur Fechtkunst	Diese grundlegende Abhandlung zum Waffenhandwerk beschäftigt sich unter anderem mit den Möglichkeiten und Schwachstellen der menschlichen Anatomie.
 70035	Magisches Kupfererz	Mit diesem Erz und einer Segensschriftrolle kann beim Schmied eine Schriftrolle des Krieges hergestellt werden.
 70037	Buch des Vergessens	Das legendäre Buch, das die Erinnerung an eine erlernte Fertigkeit komplett löscht. Ein Fertigkeitspunkt kann daher bewegt werden.
-70038	Tapferkeitsumhang	Ein farbiger Umhang, der sämtliche Monster anlockte. Mit diesem bewiesen Krieger einst ihre Tapferkeit.
+70038	Super Tapferkeitsumhang	Ein farbiger Umhang, der sämtliche Monster anlockte. Mit diesem bewiesen Krieger einst ihre Tapferkeit.
 70039	Schmiede-Handbuch	Das Buch ist mit der Seele eines alten Schmieds verbunden. Bei Nutzung vermag es die Chance der Gegenstandsverbesserung zu erhöhen.
 70040	Orkhartnäckigkeit	Reduziert den Verbrauch der Ausdauer um die Hälfte.
 70043	Diebeshandschuh	Verdoppelt deine Chance, Gegenstände zu erbeuten.
@@ -2746,8 +2747,8 @@
 70053	Karma-Zauber 2	Ein Zauber, der von vielen Gläubigen als Schutz vor Unglück verwendet wird.
 70054	Karma-Zauber 3	Ein Zauber, der von vielen Gläubigen als Schutz vor Unglück verwendet wird.
 70056	Granatapfelsaft+	Getränk, das deine TP augenblicklich um 1000 Punkte regeneriert.
-70057	Tapferkeitsumhang	Ein farbiger Umhang, mit dem Krieger einst ihre Tapferkeit bewiesen, da er sämtliche Monster anlockte. Dieses Item ist handelbar.
-70058	Teleportationsring	Dieser Ring teleportiert dich 50-mal an einen gewünschten Ort innerhalb deines Reiches. Nicht handelbar.
+70057	Tapferkeitsumhang	Ein farbiger Umhang, mit dem Krieger einst ihre Tapferkeit bewiesen, da er sämtliche Monster anlockte.
+70058	Teleportationsring	Dieser Ring teleportiert dich 50-mal an einen gewünschten Ort innerhalb deines Reiches.
 70063	Kostüm verwandeln	Entfernt die Boni von einem deiner Kostüme und fügt neue hinzu. Mit etwas Glück verändert sich dabei die Anzahl der Boni. (Bis max. 3)
 70064	Kostüm verzaubern	Entfernt die Boni von einem deiner Kostüme und fügt neue hinzu.
 70065	Kostümbonitransfer	Überträgt die Boni von einem Kostüm auf ein anderes. Dabei wird eines der Kostüme zerstört.
@@ -2786,7 +2787,7 @@
 71018	Segen des Lebens	Ein Segen, der deine TP augenblicklich vollständig regeneriert.
 71019	Segen der Magie	Ein Segen, der deine MP augenblicklich vollständig regeneriert.
 71020	Segen des Drachen	Ein Segen, der deine TP und MP augenblicklich vollständig regeneriert.
-71021	Schriftrolle des Krieges	Die Verbesserung von Gegenständen gelingt vollständig. Nur anwendbar bei Gegenständen +0 bis +3.
+71021	Schriftrolle des Krieges	Die Verbesserung von Gegenständen gelingt vollständig. Nur anwendbar bei Gegenständen +0 bis +4.
 71022	Rückkehr der Intelligenz	Setzt deine Statuspunkte der Intelligenz auf den Grundwert zurück. Anschließend kannst du die Punkte neu verteilen.
 71023	Rückkehr der Vitalität	Setzt deine Statuspunkte der Vitalität auf den Grundwert zurück. Anschließend kannst du die Punkte neu verteilen.
 71024	Rückkehr der Stärke	Setzt deine Statuspunkte der Stärke auf den Grundwert zurück. Anschließend kannst du die Punkte neu verteilen.
@@ -2818,7 +2819,7 @@
 71051	Gegenstand verhexen	Entfernt den Spezial-Bonus eines deiner Gegenstände und fügt einen neuen hinzu.
 71052	Gegenstand segnen	Fügt einem deiner Gegenstände einen neuen Spezial-Bonus hinzu, falls noch keiner vorhanden war.
 71054	Tinktur der Reiche	Bietet die Möglichkeit, in einem anderen Reich ins Exil zu gehen.
-71055	Tinktur des Namens	Gibt dir die Möglichkeit, einen neuen Namen für deinen Charakter zu wählen.
+71055	Namensschriftrolle	Gibt dir die einzigartige Möglichkeit, einen neuen Namen für deinen Charakter zu wählen. Zum Ändern mit Umlauten (ä/ö/ü) bitte [SA]Goku geben.
 71056	Tinktur des Himmels	Erhöht die Wahrscheinlichkeit, einen Geiststein erfolgreich zu verbessern.
 71057	Stein der Fossilholzader	Lässt eine Fossilholzader neben deinem Charakter erscheinen.
 71058	Stein der Kupferader	Lässt eine Kupferader neben deinem Charakter erscheinen.
@@ -2867,7 +2868,7 @@
 71105	Neuverteilung (STR)	Setzt deine Stärke auf 1 zurück und erlaubt dir, deine Punkte neu zu verteilen.
 71106	Neuverteilung (DEX)	Setzt deine Beweglichkeit auf 1 zurück und erlaubt dir, deine Punkte neu zu verteilen.
 71107	Frucht des Lebens	Erhöht die Rangpunkte um 2000 (Abklingzeit: 8 Stunden).
-71108	Granatapfelsaft	Getränk, das deine TP augenblicklich um 800 Punkte regeneriert. Dieses Item ist handelbar.
+71108	Granatapfelsaft	Getränk, das deine TP augenblicklich um 800 Punkte regeneriert.
 71109	Rolle der Korrektur	Mit dieser Rolle kann der zuletzt erfolgreich hinzugefügte Geiststein aus einem Gegenstand entfernt werden.
 71110	Pferdezucker	Dieses Zuckerstück ermöglicht es, dem Reittier einen Namen zu geben. Gleichzeitig erhöht es dessen Verteidigungswert um 20.
 71113	Glas der Einsicht	Ermöglicht dir, einem anderen Spieler Gegenstände aus deinem Inventar zu zeigen. Das Glas zerbricht während des Vorgangs.
@@ -2903,7 +2904,7 @@
 71127	Sturmtiger-Siegel	Böse Tiergeister zu bändigen, bedarf erheblicher magischer Künste. Entsprechend beeindruckend ist das Ergebnis. Er erhöht deine Chance auf kritische Treffer um 10%.
 71128	Schlachtenlöwen-Siegel	Böse Tiergeister zu bändigen, bedarf erheblicher magischer Künste. Entsprechend beeindruckend ist das Ergebnis. Er verringert den Schaden, den du bei der Verteidigung erleidest, um 10%.
 71129	Drachenkralle	Der Anblick dieser furchterregenden Kralle weckt Erinnerungen...
-71130	Passierschein	Du darfst eine weitere Ebene des Spinnendungeons sowie die Rotdrachen-Festung betreten, wenn du diesen Passierschein dem zuständigen Wächter vorlegst. Dieses Item ist handelbar.
+71130	Passierschein	Du darfst eine weitere Ebene des Spinnendungeons sowie die Rotdrachen-Festung betreten, wenn du diesen Passierschein dem zuständigen Wächter vorlegst.
 71131	Rappen-Siegel	Pferdesiegel für einen edlen Rappen. Er erhöht deine Bewegungsgeschwindigkeit um 60.
 71132	Rappen-Siegel	Pferdesiegel für einen edlen Rappen. Er erhöht deine Bewegungsgeschwindigkeit um 60.
 71133	Rappen-Siegel	Pferdesiegel für einen edlen Rappen. Er erhöht deine Bewegungsgeschwindigkeit um 60.
@@ -2924,12 +2925,12 @@
 71148	Ring der Willenskraft	Verleiht dir 7 Tage lang +30% EXP, +20% Abwehrchance gegen Krieger, +20% Abwehrchance gegen Ninja, +20% Abwehrchance gegen Lykaner, +30% Stärke gegen Monster, +10% Maximum-TP und +10% Maximum-MP.
 71149	Ring der tödlichen Macht	Verleiht dir 7 Tage lang +30% EXP, +20% Abwehrchance gegen Sura, +20% Abwehrchance gegen Schamanen, +20% Abwehrchance gegen Lykaner, +30% Stärke gegen Monster, +10% Maximum-TP und +10% Maximum-MP.
 71150	Zauber-Ei	Die kunstvoll verzierte ovale Truhe enthält mehr als nur eine Osterüberraschung und gibt ihre Schätze erst nach und nach preis.
-71151	Grüner Zauber	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Kann nur bei Waffen und Rüstungen bis Level 24 angewendet werden. Nicht handelbar.
-71152	Grüne Stärke	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni). Kann nur bei Waffen und Rüstungen bis Level 24 angewendet werden. Nicht handelbar.
-71153	Trank der Weisheit	Mit diesem Trank sammelst du in einer Stunde Spielzeit 100 % mehr Erfahrung. Nicht handelbar.
-71154	Trank des Aufstiegs (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 80% mehr Erfahrung. Nicht handelbar.
-71155	Trank der Weisheit (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 100% mehr Erfahrung. Nicht handelbar.
-71156	Trank des Geistes (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 150% mehr Erfahrung. Nicht handelbar.
+71151	Grüner Zauber	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Kann nur bei Waffen und Rüstungen bis Level 24 angewendet werden.
+71152	Grüne Stärke	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni). Kann nur bei Waffen und Rüstungen bis Level 24 angewendet werden.
+71153	Trank der Weisheit	Mit diesem Trank sammelst du in einer Stunde Spielzeit 100 % mehr Erfahrung.
+71154	Trank des Aufstiegs (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 80% mehr Erfahrung.
+71155	Trank der Weisheit (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 100% mehr Erfahrung.
+71156	Trank des Geistes (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 150% mehr Erfahrung.
 71157	Erfahrungstrank	
 71158	Heldenmedaille	Verleiht +50 % EXP, +30 physischen Schaden, +20 % Angriffsgeschwindigkeit, +20 % Zaubergeschwindigkeit, +10 % TP und +10 % MP.
 71159	Truhe des Milon	Truhe für wahre Helden. Enthält ein zufälliges Item als Lohn für deinen Triumph.
@@ -2947,8 +2948,8 @@
 71177	Leoparden-Siegel	Dieses Siegel ruft deinen mutigen Leoparden herbei. Er erhöht deine Bewegungsgeschwindigkeit um 30.
 71178	Enzyklopädie d. Mondes/K	Paket mit 10 zufällig ausgewählten Fertigkeitsbüchern für Lykaner
 71179	Enzyklopädie d. Mondes/G	Paket mit 25 zufällig ausgewählten Fertigkeitsbüchern für Lykaner
-71180	Trank des Aufstiegs (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 80% mehr Erfahrung. Nicht handelbar.
-71181	Trank der Weisheit (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 100% mehr Erfahrung. Nicht handelbar.
+71180	Trank des Aufstiegs (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 80% mehr Erfahrung.
+71181	Trank der Weisheit (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 100% mehr Erfahrung.
 71182	Muffin-Siegel (braun)	Mit diesem Siegel rufst du Muffin, das gefürchtete Kampfhühnchen, herbei. Es erhöht deine Bewegungsgeschwindigkeit um 20.
 71183	Nugget-Siegel (braun)	Mit diesem Siegel rufst du Nugget, das schreckliche Kampfhähnchen, herbei. Es erhöht deine Bewegungsgeschwindigkeit um 20.
 71184	Muffin-Siegel (blau)	Mit diesem Siegel rufst du Muffin, das gefürchtete Kampfhühnchen, herbei. Es erhöht deine Bewegungsgeschwindigkeit um 20.
@@ -3065,18 +3066,18 @@
 72501	Erfahrungsring (iCafe)	Dieser merkwürdige Erfahrungsring verhindert, dass du EXP erhalten kannst. Deine aktuelle EXP wird nicht auf 0% gesetzt!
 72502	Diebeshandschuh (iCafe)	Die Erfolgsrate für das Erbeuten von Gegenständen erhöht sich um das Anderthalbfache im Mitglieder-iCafe.
 72701	Windschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 30, solange sie ausgerüstet sind.
-72703	Tigerknochenohrring	Dein Angriffswert wird für 2 Stunden um 200 Punkte erhöht (Zeit läuft nur ab, wenn das Item angelegt ist). Das Item ist nicht handelbar.
-72704	Drachenknochenohrring	Dein Verteidigungswert wird für 2 Stunden um 200 Punkte erhöht (Zeit läuft nur ab, wenn das Item angelegt ist). Das Item ist nicht handelbar.
-72705	Tigerknochenarmband	Der Schaden deiner Fertigkeiten wird für 2 Stunden um 15% erhöht (Zeit läuft nur ab, wenn das Item angelegt ist). Das Item ist nicht handelbar.
-72706	Drachenknochenarmband	Deine Abwehr gegen Fertigkeiten wird für 2 Stunden um 15% erhöht (Zeit läuft nur ab, wenn das Item angelegt ist). Das Item ist nicht handelbar.
+72703	Tigerknochenohrring	Dein Angriffswert wird für 2 Stunden um 200 Punkte erhöht (Zeit läuft nur ab, wenn das Item angelegt ist).
+72704	Drachenknochenohrring	Dein Verteidigungswert wird für 2 Stunden um 200 Punkte erhöht (Zeit läuft nur ab, wenn das Item angelegt ist).
+72705	Tigerknochenarmband	Der Schaden deiner Fertigkeiten wird für 2 Stunden um 15% erhöht (Zeit läuft nur ab, wenn das Item angelegt ist).
+72706	Drachenknochenarmband	Deine Abwehr gegen Fertigkeiten wird für 2 Stunden um 15% erhöht (Zeit läuft nur ab, wenn das Item angelegt ist).
 72723	Elixier der Sonne (K)	Füllt deine TP automatisch auf. Enthält 1.000.000 TP.
 72724	Elixier der Sonne (M)	Füllt deine TP automatisch auf. Enthält 3.000.000 TP.
 72725	Elixier der Sonne (G)	Füllt deine TP automatisch auf. Enthält 7.000.000 TP.
-72726	Elixier der Sonne (S)	Füllt deine TP automatisch auf. Enthält 10.000.000 TP. Dieses Item ist handelbar.
+72726	Elixier der Sonne (IS)	Füllt deine TP automatisch auf. Enthält 70.000.000 TP.
 72727	Elixier des Mondes (K)	Füllt deine MP automatisch auf. Enthält 100.000 MP.
 72728	Elixier des Mondes (M)	Füllt deine MP automatisch auf. Enthält 300.000 MP.
 72729	Elixier des Mondes (G)	Füllt deine MP automatisch auf. Enthält 700.000 MP.
-72730	Elixier des Mondes (S)	Füllt deine MP automatisch auf. Enthält 1.000.000 MP. Dieses Item ist handelbar.
+72730	Elixier des Mondes (IS)	Füllt deine MP automatisch auf. Enthält 7.000.000 MP.
 73001	Modische Frisur (rot)	Eine modische Frisur, die ein charakteristisches Äußeres schafft.
 73002	Modische Frisur (hell)	Eine modische Frisur, die ein charakteristisches Äußeres schafft.
 73003	Modische Frisur (blau)	Eine modische Frisur, die ein charakteristisches Äußeres schafft.
@@ -3324,31 +3325,31 @@
 75618	Keffiyeh für Schamanen	Ein Kopftuch für männliche Schamanen. Schützt gegen Wüstenstürme. (Dauer 7 Tage)
 75619	Turban für Schamanen	Eine Kopfbedeckung aus feinstem Stoff für männliche Schamanen. (Dauer 7 Tage)
 75620	Kürbismaske-Schamane (m)	Eine Maske für den Schamanen in Form eines Kürbisses. Attribute und Dauer werden durch Zufall bestimmt. Sie ersetzt bereits vorhandene Frisuren.
-76000	Pfirsichblütenwein	Getränk, das deine TP augenblicklich um 500 Punkte regeneriert. Nicht handelbar.
-76001	Status-Neuverteilung	Die Anwendung dieses Gegenstandes ermöglicht es dir, deine Statuspunkte neu zu verteilen. So kannst du die Entwicklung deines Charakters in eine andere Richtung lenken. Nicht handelbar.
-76002	Schrumpfkopf	Dieser Dämonenschrumpfkopf öffnet das Siegel zur 3. Ebene der Devil's Catacomb. Nicht handelbar.
-76003	Trank der Hast	Dieser Trank verringert die Abklingzeit 30 Minuten lang um 20 Prozent. Nicht handelbar.
-76004	Elixier des Mondes (K)	Füllt deine MP automatisch auf. Enthält 10.000 MP. Nicht handelbar.
-76005	Elixier des Mondes (M)	Füllt deine MP automatisch auf. Enthält 300.000 MP. Nicht handelbar.
-76006	Kompass des Metinsteins	Der Kompass zeigt dir Richtung und Entfernung des nächsten Metin-Steins an. Je heller er leuchtet, desto näher bist du. Er kann 6 Mal aktiviert werden. Nicht handelbar.
-76007	Tapferkeitsumhang	Ein farbiger Umhang, der sämtliche Monster anlockte. Mit diesem bewiesen Krieger einst ihre Tapferkeit. Nicht handelbar.
-76008	Medaille des Drachen	Bewahrt dich bei deiner nächsten Wiederbelebung davor, Erfahrungspunkte zu verlieren. Nicht handelbar.
-76009	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Es wird nur die Qualität um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10 %. Nicht handelbar.
-76010	Blutstein	Dieser Stein aus dem Blut Bahar-Tarajis wird den Eintritt in die Grotte der Verbannung gewährleisten. Nicht handelbar.
-76011	Buch des Anführers	Solange der Anführer einer Gruppe mit diesem Buch ausgerüstet ist, sammeln alle Gruppenmitglieder 30% mehr Erfahrungspunkte. Nicht handelbar.
-76012	Geschwindigkeitstrank	Erhöht 30 Minuten lang deine Bewegungsgeschwindigkeit um 60. Nicht handelbar.
-76013	Gegenstand verstärken(b)	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu. (bis max. 4 Boni). Item aus Leveltruhe, nicht handelbar.
-76014	Gegenstand verzaubern(b)	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Item aus Leveltruhe, nicht handelbar.
-76015	Segenskugel	Eine legendäre, gesegnete Kugel. Gegenständen, die bereits mit vier Attributen ausgestattet sind, vermag sie ein weiteres Attribut hinzuzufügen. Nicht handelbar.
-76016	Segensschriftrolle	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. In diesem Fall wird lediglich seine Qualität um 1 verringert. Nicht handelbar.
-76017	Trank des Angriffs +10	Erhöht deine Angriffsgeschwindigkeit für 30 Minuten um 10%. Nicht handelbar.
-76018	Trank des Angriffs +20	Erhöht deine Angriffsgeschwindigkeit 30 Minuten lang um +20. Nicht handelbar.
-76019	Passierschein	Du darfst eine weitere Ebene des Spinnendungeons sowie die Rotdrachen-Festung betreten, wenn du diesen Passierschein dem zuständigen Wächter vorlegst. Nicht handelbar.
-76020	Elixier des Forschers	Steigert die Qualität gesammelter Forschungsobjekte und damit auch ihre Annahmewahrscheinlichkeit. Nicht handelbar.
-76021	Elixier der Sonne (K)	Füllt deine TP automatisch auf. Enthält 100.000 TP. Nicht handelbar.
-76022	Elixier der Sonne (M)	Füllt deine TP automatisch auf. Enthält 3.000.000 TP. Nicht handelbar.
-76023	Grüner Zauber	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Kann nur bei Waffen und Rüstungen bis Level 40 angewendet werden. Item aus Leveltruhe, nicht handelbar.
-76024	Grüne Stärke	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni). Kann nur bei Waffen und Rüstungen bis Level 40 angewendet werden. Item aus Leveltruhe, nicht handelbar.
+76000	Pfirsichblütenwein	Getränk, das deine TP augenblicklich um 500 Punkte regeneriert.
+76001	Status-Neuverteilung	Die Anwendung dieses Gegenstandes ermöglicht es dir, deine Statuspunkte neu zu verteilen. So kannst du die Entwicklung deines Charakters in eine andere Richtung lenken.
+76002	Schrumpfkopf	Dieser Dämonenschrumpfkopf öffnet das Siegel zur 3. Ebene der Devil's Catacomb.
+76003	Trank der Hast	Dieser Trank verringert die Abklingzeit 30 Minuten lang um 20 Prozent.
+76004	Elixier des Mondes (K)	Füllt deine MP automatisch auf. Enthält 10.000 MP.
+76005	Elixier des Mondes (M)	Füllt deine MP automatisch auf. Enthält 300.000 MP.
+76006	Kompass des Metinsteins	Der Kompass zeigt dir Richtung und Entfernung des nächsten Metin-Steins an. Je heller er leuchtet, desto näher bist du. Er kann 6 Mal aktiviert werden.
+76007	Tapferkeitsumhang	Ein farbiger Umhang, der sämtliche Monster anlockte. Mit diesem bewiesen Krieger einst ihre Tapferkeit.
+76008	Medaille des Drachen	Bewahrt dich bei deiner nächsten Wiederbelebung davor, Erfahrungspunkte zu verlieren.
+76009	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Es wird nur die Qualität um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10 %.
+76010	Blutstein	Dieser Stein aus dem Blut Bahar-Tarajis wird den Eintritt in die Grotte der Verbannung gewährleisten.
+76011	Buch des Anführers	Solange der Anführer einer Gruppe mit diesem Buch ausgerüstet ist, sammeln alle Gruppenmitglieder 30% mehr Erfahrungspunkte.
+76012	Geschwindigkeitstrank	Erhöht 30 Minuten lang deine Bewegungsgeschwindigkeit um 60.
+76013	Gegenstand verstärken(b)	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu. (bis max. 4 Boni).
+76014	Gegenstand verzaubern(b)	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu.
+76015	Segenskugel	Eine legendäre, gesegnete Kugel. Gegenständen, die bereits mit vier Attributen ausgestattet sind, vermag sie ein weiteres Attribut hinzuzufügen.
+76016	Segensschriftrolle	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. In diesem Fall wird lediglich seine Qualität um 1 verringert.
+76017	Trank des Angriffs +10	Erhöht deine Angriffsgeschwindigkeit für 30 Minuten um 10%.
+76018	Trank des Angriffs +20	Erhöht deine Angriffsgeschwindigkeit 30 Minuten lang um +20.
+76019	Passierschein	Du darfst eine weitere Ebene des Spinnendungeons sowie die Rotdrachen-Festung betreten, wenn du diesen Passierschein dem zuständigen Wächter vorlegst.
+76020	Elixier des Forschers	Steigert die Qualität gesammelter Forschungsobjekte und damit auch ihre Annahmewahrscheinlichkeit.
+76021	Elixier der Sonne (K)	Füllt deine TP automatisch auf. Enthält 100.000 TP.
+76022	Elixier der Sonne (M)	Füllt deine TP automatisch auf. Enthält 3.000.000 TP.
+76023	Grüner Zauber	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Kann nur bei Waffen und Rüstungen bis Level 40 angewendet werden.
+76024	Grüne Stärke	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni). Kann nur bei Waffen und Rüstungen bis Level 40 angewendet werden.
 76025	Windschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 30, solange sie ausgerüstet sind.
 79501	Pfeilköcher	Ein Köcher, der dich 24 Stunden lang mit unendlich vielen Pfeilen versorgt. Schaden nimmt auch bei Distanzschüssen nicht ab.
 79502	Pfeilköcher	Ein Köcher, der dich 7 Tage lang mit unendlich vielen Pfeilen versorgt. Schaden nimmt auch bei Distanzschüssen nicht ab.
@@ -3359,10 +3360,10 @@
 80001	Geldtasche	Eine aus Leder genähte, dunkle und bereits leicht abgetragene Börse.
 80002	Leeres Papier	Ein noch ungenutztes Stück Pergament von guter Qualität.
 80008	Goldklumpen	Ein bisher unbehandelter Klumpen Rohgold, der zu hohen Preisen gehandelt wird.
-80014	DR-Gutschein (100)	Gutschein im Wert von 100 Drachenmünzen. Item ist handelbar.
-80015	DR-Gutschein (500)	Gutschein im Wert von 500 Drachenmünzen. Item ist handelbar.
-80016	DR-Gutschein (1000)	Gutschein im Wert von 1000 Drachenmünzen. Item ist handelbar.
-80017	DR-Gutschein (50)	Gutschein im Wert von 50 Drachenmünzen. Item ist handelbar.
+80014	DR-Gutschein (100)	Gutschein im Wert von 100 Drachenmünzen.
+80015	DR-Gutschein (500)	Gutschein im Wert von 500 Drachenmünzen.
+80016	DR-Gutschein (1000)	Gutschein im Wert von 1000 Drachenmünzen.
+80017	DR-Gutschein (50)	Gutschein im Wert von 50 Drachenmünzen.
 80019	Feines Tuch	Aus diesem Material wird dein Schulterband hergestellt.
 80021	Ymir CashPack	Only for Ymir (may only be distributed by QA).
 85001	Herrscherband (einfach)	Dieses Band nimmt 1% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.

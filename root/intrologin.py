@@ -1383,9 +1383,9 @@ class LoginWindow(ui.ScriptWindow):
 		test_data = {
 			app.DIK_F1 : {'id': 'lead', 'pwd': 'lead'},
 			app.DIK_F2 : {'id': 'test1', 'pwd': 'lead'},
-			app.DIK_F3 : {'id': 'test3', 'pwd': 'lead'},
+			app.DIK_F3 : {'id': 'artF1', 'pwd': 'lead'},
 			app.DIK_F4 : {'id': 'artG1', 'pwd': 'lead'},
-			app.DIK_F5 : {'id': 'artF1', 'pwd': 'lead'},
+			app.DIK_F5 : {'id': 'test3', 'pwd': 'lead'},
 		}
 
 		if not test_data.has_key(key):
