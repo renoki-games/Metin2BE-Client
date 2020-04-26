@@ -36,6 +36,8 @@ def DestroyChatInputSetWindow():
 	global chatInputSetList
 	chatInputSetList = []
 
+EMPIRE_FLAG_OFFSET = 36
+
 ## ChatModeButton
 class ChatModeButton(ui.Window):
 
@@ -677,9 +679,9 @@ class ChatWindow(ui.Window):
 		(btnX, btnY) = self.btnChatSizing.GetGlobalPosition()
 
 		if localeInfo.IsARABIC():
-			chat.SetPosition(self.chatID, x + width - 10, y)
+			chat.SetPosition(self.chatID, x + width - 10 - EMPIRE_FLAG_OFFSET, y)
 		else:
-			chat.SetPosition(self.chatID, x + 10, y)
+			chat.SetPosition(self.chatID, x + 10 + EMPIRE_FLAG_OFFSET, y)
 
 		chat.SetHeight(self.chatID, y - btnY - self.EDIT_LINE_HEIGHT + 100)
 
@@ -705,9 +707,9 @@ class ChatWindow(ui.Window):
 		(x, y, width, height) = self.GetRect()
 
 		if localeInfo.IsARABIC():
-			chat.SetPosition(self.chatID, x + width - 10, y + self.EDIT_LINE_HEIGHT)
+			chat.SetPosition(self.chatID, x + width - 10 - EMPIRE_FLAG_OFFSET, y + self.EDIT_LINE_HEIGHT)
 		else:
-			chat.SetPosition(self.chatID, x + 10, y + self.EDIT_LINE_HEIGHT)
+			chat.SetPosition(self.chatID, x + 10 + EMPIRE_FLAG_OFFSET, y + self.EDIT_LINE_HEIGHT)
 
 		self.SetSize(self.CHAT_WINDOW_WIDTH, 0)
 
@@ -772,9 +774,9 @@ class ChatWindow(ui.Window):
 		self.curHeightBar = self.heightBar
 
 		if localeInfo.IsARABIC():
-			chat.SetPosition(self.chatID, x + width - 10, y)
+			chat.SetPosition(self.chatID, x + width - 10 - EMPIRE_FLAG_OFFSET, y)
 		else:
-			chat.SetPosition(self.chatID, x + 10, y)
+			chat.SetPosition(self.chatID, x + 10 + EMPIRE_FLAG_OFFSET, y)
 
 		chat.SetHeight(self.chatID, y - btnY - self.EDIT_LINE_HEIGHT)
 		chat.ArrangeShowingChat(self.chatID)
@@ -789,9 +791,9 @@ class ChatWindow(ui.Window):
 		textAreaHeight = self.visibleLineCount * chat.GetLineStep(self.chatID)
 
 		if localeInfo.IsARABIC():
-			chat.SetPosition(self.chatID, x + width - 10, y + self.EDIT_LINE_HEIGHT)
+			chat.SetPosition(self.chatID, x + width - 10 - EMPIRE_FLAG_OFFSET, y + self.EDIT_LINE_HEIGHT)
 		else:
-			chat.SetPosition(self.chatID, x + 10, y + self.EDIT_LINE_HEIGHT)
+			chat.SetPosition(self.chatID, x + 10 + EMPIRE_FLAG_OFFSET, y + self.EDIT_LINE_HEIGHT)
 
 		chat.SetHeight(self.chatID, y - btnY - self.EDIT_LINE_HEIGHT + 100)
 
@@ -1166,9 +1168,9 @@ class ChatLogWindow(ui.Window):
 		chat.ArrangeShowingChat(self.chatID)
 
 		if localeInfo.IsARABIC():
-			chat.SetPosition(self.chatID, x + width - 10, y + height - 25)
+			chat.SetPosition(self.chatID, x + width - 10 - EMPIRE_FLAG_OFFSET, y + height - 25)
 		else:
-			chat.SetPosition(self.chatID, x + 10, y + height - 25)
+			chat.SetPosition(self.chatID, x + 10 + EMPIRE_FLAG_OFFSET, y + height - 25)
 
 		chat.SetHeight(self.chatID, height - 45 - 25)
 		chat.Update(self.chatID)
