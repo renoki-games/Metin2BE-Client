@@ -2156,7 +2156,7 @@
 50509	Buch des Heilens	Die Lektüre dieses Buches ermöglicht es, die Fähigkeiten der Heilung zu meistern. Das Buch verschwindet nach dem Lesen.
 50510	Buch der Schnelligkeit	Die Lektüre dieses Buches ermöglicht es, die Fähigkeit der Geschwindigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
 50511	Buch des Angriffs	Die Lektüre dieses Buches ermöglicht es, den Angriff zu meistern. Das Buch verschwindet nach dem Lesen.
-50512	Regenbogenstein	Ein Stein, der die spirituelle Wahrnehmung öffnet und alle Fertigkeiten enthüllt.
+50512	Regenbogenstein	Ein Stein, der die spirituelle Wahrnehmung öffnet und eine Fertigkeit enthüllt. Steigert eine Fertigkeit ab G1 direkt auf P. Mit 100% Chance auf Erfolg.
 50513	Seelenstein	Der legendäre Stein, der verwendet wird, um die Großmeisterfertigkeiten zu erhöhen. Der Stein verschwindet nach dem Benutzen.
 50514	Lehrbuch Boost	Dieses Lehrbuch ermöglicht dir die Lehre von einer der neun Boostfertigkeiten. Die für dich passende Fertigkeit wird ausgewählt.
 50515	Lehrbuch Konter	Dieses Lehrbuch ermöglicht dir die Auswahl zwischen neun Konterfertigkeiten. Wähle mit Bedacht!
