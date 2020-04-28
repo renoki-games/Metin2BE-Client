@@ -36,7 +36,7 @@ def DestroyChatInputSetWindow():
 	global chatInputSetList
 	chatInputSetList = []
 
-EMPIRE_FLAG_OFFSET = 36
+EMPIRE_FLAG_OFFSET = 20
 
 ## ChatModeButton
 class ChatModeButton(ui.Window):
