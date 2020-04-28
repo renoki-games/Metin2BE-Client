@@ -466,7 +466,7 @@
 22010	Schriftrolle des Ortes	Die Schriftrolle ermöglicht dir den Rücktransport zu dem Ort, den du dir zuletzt gemerkt hast.
 25040	Segensschriftrolle	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. In diesem Fall wird lediglich seine Qualität um 1 verringert.
 25043	Pechsschriftrolle	Beseitigt das Risiko, einen Gegenstand zu zerstören, jedoch wird die Qualität um 1 verringert. Mit 100% Chance auf Fehlschlag.
-25041	Magischer Stein	Ein Klumpen des legendären Metalls, das die besten Chancen beim Verbessern eines Gegenstandes gewährt. Der verbesserte Gegenstand kann außerdem weder zerstört noch verschlechtert werden.
+25041	Magisches Metall	Ein Klumpen des legendären Metalls, das die besten Chancen beim Verbessern eines Gegenstandes gewährt. Der verbesserte Gegenstand kann außerdem weder zerstört noch verschlechtert werden.
 25042	Ritualstein	Ein mystisch schmimmernder Stein, der die besten Chancen beim Verbessern eines Gegenstandes gewährt. Der verbesserte Gegenstand kann außerdem weder zerstört noch verschlechtert werden. Dieser Stein funktioniert nur bei Gegenständen über Level 80.
 25100	Geiststein-Schriftrolle	Die Schriftrolle ermöglicht es dir, den Geiststein aus einer Waffe oder Rüstung zu entfernen. Ein Splitter bleibt dabei zurück.
 25101	Kuchenstück	Die Sahneschnitte gibt dir 30 Minuten lang einen EXP-Bonus von 100%.

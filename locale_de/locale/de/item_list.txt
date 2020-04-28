@@ -3966,7 +3966,7 @@
 22010	ETC	icon/item/22000.tga
 22011	ETC	icon/item/22000.tga
 25040	ETC	icon/item/25040.tga
-25041	ETC	icon/item/30064.tga
+25041	ETC	icon/item/25041.tga
 25042	ETC	icon/item/25042.tga
 25100	ETC	icon/item/25000.tga
 25101	ETC	icon/item/25101.tga
