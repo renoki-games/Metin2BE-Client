@@ -1052,7 +1052,7 @@
 39019	Drachengott-Intelligenz	Erhöht deine maximalen MP 30 Minuten lang um 20%.
 39020	Drachengott-Verteidigung	Verringert den Schaden, den du im Kampf erleidest, 30 Minuten lang um 20%.
 39021	Drachengottunterstützung	Vitalität, Stärke, Intelligenz und Beweglichkeit deines Charakters erhöhen sich vorübergehend auf das Fünffache.
-39022	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Lediglich die Qualität wird um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10 %.
+39022	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Lediglich die Qualität wird um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10%.
 39023	Elixier des Forschers	Dieses Elixier steigert die Qualität gesammelter Forschungsobjekte und damit die Wahrscheinlichkeit ihrer Annahme von dem Auftraggeber.
 39024	Kritischer Kampf	Erhöht deine Chance, im Kampf einen kritischen Treffer zu landen, 10 Minuten lang um 20%.
 39025	Durchbohrender Kampf	Erhöht deine Chance, im Kampf einen durchbohrenden Treffer zu landen, 10 Minuten lang um 20%.
@@ -2798,7 +2798,7 @@
 71029	Drachengott-Intelligenz	Erhöht deine maximalen MP 30 Minuten lang um 20%.
 71030	Drachengott-Verteidigung	Verringert den Schaden, den du im Kampf erleidest, 30 Minuten lang um 20%.
 71031	Drachengottunterstützung	Vitalität, Stärke, Intelligenz und Beweglichkeit deines Charakters erhöhen sich vorübergehend auf das Fünffache.
-71032	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Es wird nur die Qualität um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10 %.
+71032	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Es wird nur die Qualität um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10%.
 71033	Emotionsmaske	Mit dieser Maske kannst du deinen Gefühlen freien Lauf lassen.
 71034	Trank des Angriffs +15	Erhöht deine Angriffsgeschwindigkeit 30 Minuten lang um +15.
 71035	Elixier des Forschers	Steigert die Qualität gesammelter Forschungsobjekte und damit auch ihre Annahmewahrscheinlichkeit.
@@ -3056,7 +3056,7 @@
 72311	Segen des Drachen	Ein Segen, der deine TP und MP augenblicklich vollständig regeneriert.
 72312	Drachengott-Angriff	Erhöht deinen Angriffswert 30 Minuten lang um 20%.
 72313	Drachengott-Verteidigung	Verringert den Schaden, den du im Kampf erleidest, 30 Minuten um 20%.
-72314	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn dessen Verbesserung fehlschlägt. Lediglich die Qualität wird um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10 %.
+72314	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn dessen Verbesserung fehlschlägt. Lediglich die Qualität wird um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10%.
 72319	Inventarerweiterung	Verwende diesen Gegenstand, um dein Inventar zu erweitern.
 72320	Inventarerweiterung	Verwende diesen Gegenstand, um dein Inventar zu erweitern.
 72321	Ring der Geheimnisse	Verhindert das Sammeln von Erfahrungspunkten auf der Jagd nach Monstern
@@ -3334,7 +3334,7 @@
 76006	Kompass des Metinsteins	Der Kompass zeigt dir Richtung und Entfernung des nächsten Metin-Steins an. Je heller er leuchtet, desto näher bist du. Er kann 6 Mal aktiviert werden.
 76007	Tapferkeitsumhang	Ein farbiger Umhang, der sämtliche Monster anlockte. Mit diesem bewiesen Krieger einst ihre Tapferkeit.
 76008	Medaille des Drachen	Bewahrt dich bei deiner nächsten Wiederbelebung davor, Erfahrungspunkte zu verlieren.
-76009	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Es wird nur die Qualität um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10 %.
+76009	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Es wird nur die Qualität um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10%.
 76010	Blutstein	Dieser Stein aus dem Blut Bahar-Tarajis wird den Eintritt in die Grotte der Verbannung gewährleisten.
 76011	Buch des Anführers	Solange der Anführer einer Gruppe mit diesem Buch ausgerüstet ist, sammeln alle Gruppenmitglieder 30% mehr Erfahrungspunkte.
 76012	Geschwindigkeitstrank	Erhöht 30 Minuten lang deine Bewegungsgeschwindigkeit um 60.
