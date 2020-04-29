@@ -8,7 +8,7 @@ window = {
 
 	"style" : ("movable", "float",),
 
-	"width" : 176,
+	"width" : 276,
 	"height" : 250,
 
 	"children" :
@@ -20,7 +20,7 @@ window = {
 			"x" : 0,
 			"y" : 0,
 
-			"width" : 176,
+			"width" : 276,
 			"height" : 250,
 
 			"children" :
@@ -34,12 +34,12 @@ window = {
 					"x" : 8,
 					"y" : 7,
 
-					"width" : 161,
+					"width" : 261,
 					"color" : "yellow",
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":77, "y":3, "text":uiScriptLocale.SAFE_TITLE, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":132, "y":3, "text":uiScriptLocale.SAFE_TITLE, "text_horizontal_align":"center" },
 					),
 				},
 

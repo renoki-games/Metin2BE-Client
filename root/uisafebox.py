@@ -191,7 +191,7 @@ class ChangePasswordDialog(ui.ScriptWindow):
 
 class SafeboxWindow(ui.ScriptWindow):
 
-	BOX_WIDTH = 176
+	BOX_WIDTH = 276
 
 	def __init__(self):
 		ui.ScriptWindow.__init__(self)
@@ -254,6 +254,7 @@ class SafeboxWindow(ui.ScriptWindow):
 		wndItem.SetUseSlotEvent(ui.__mem_func__(self.UseItemSlot))
 		wndItem.SetOverInItemEvent(ui.__mem_func__(self.OverInItem))
 		wndItem.SetOverOutItemEvent(ui.__mem_func__(self.OverOutItem))
+		wndItem.SetWindowHorizontalAlignCenter()
 		wndItem.Show()
 
 		## PickMoneyDialog
@@ -282,7 +283,7 @@ class SafeboxWindow(ui.ScriptWindow):
 		#self.wndMoneySlot.SetEvent(ui.__mem_func__(self.OpenPickMoneyDialog))
 
 		## Initialize
-		self.SetTableSize(3)
+		self.SetTableSize(5)
 		self.RefreshSafeboxMoney()
 
 	def OpenPickMoneyDialog(self):
@@ -357,7 +358,7 @@ class SafeboxWindow(ui.ScriptWindow):
 	def SetTableSize(self, size):
 
 		pageCount = max(1, size / safebox.SAFEBOX_SLOT_Y_COUNT)
-		pageCount = min(3, pageCount)
+		pageCount = min(5, pageCount)
 		size = safebox.SAFEBOX_SLOT_Y_COUNT
 
 		self.__MakePageButton(pageCount)
