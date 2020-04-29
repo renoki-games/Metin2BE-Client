@@ -191,7 +191,7 @@ class ChangePasswordDialog(ui.ScriptWindow):
 
 class SafeboxWindow(ui.ScriptWindow):
 
-	BOX_WIDTH = 276
+	BOX_WIDTH = 176
 
 	def __init__(self):
 		ui.ScriptWindow.__init__(self)
@@ -247,7 +247,7 @@ class SafeboxWindow(ui.ScriptWindow):
 		## Item
 		wndItem = ui.GridSlotWindow()
 		wndItem.SetParent(self)
-		wndItem.SetPosition(8, 35)
+		wndItem.SetPosition(0, 35)
 		wndItem.SetSelectEmptySlotEvent(ui.__mem_func__(self.SelectEmptySlot))
 		wndItem.SetSelectItemSlotEvent(ui.__mem_func__(self.SelectItemSlot))
 		wndItem.SetUnselectItemSlotEvent(ui.__mem_func__(self.UseItemSlot))
@@ -322,13 +322,13 @@ class SafeboxWindow(ui.ScriptWindow):
 		self.pageButtonList = []
 
 		text = "I"
-		pos = -int(float(pageCount-1)/2 * 52)
+		pos = -int(float(pageCount-1)/2 * 32)
 		for i in xrange(pageCount):
 			button = ui.RadioButton()
 			button.SetParent(self)
-			button.SetUpVisual("d:/ymir work/ui/game/windows/tab_button_middle_01.sub")
-			button.SetOverVisual("d:/ymir work/ui/game/windows/tab_button_middle_02.sub")
-			button.SetDownVisual("d:/ymir work/ui/game/windows/tab_button_middle_03.sub")
+			button.SetUpVisual("d:/ymir work/ui/game/windows/tab_button_small_01.sub")
+			button.SetOverVisual("d:/ymir work/ui/game/windows/tab_button_small_02.sub")
+			button.SetDownVisual("d:/ymir work/ui/game/windows/tab_button_small_03.sub")
 			button.SetWindowHorizontalAlignCenter()
 			button.SetWindowVerticalAlignBottom()
 			button.SetPosition(pos, 85)
@@ -337,7 +337,7 @@ class SafeboxWindow(ui.ScriptWindow):
 			button.Show()
 			self.pageButtonList.append(button)
 
-			pos += 52
+			pos += 32
 			text += "I"
 
 		self.pageButtonList[0].Down()
