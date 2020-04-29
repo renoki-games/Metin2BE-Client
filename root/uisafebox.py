@@ -321,7 +321,6 @@ class SafeboxWindow(ui.ScriptWindow):
 		self.curPageIndex = 0
 		self.pageButtonList = []
 
-		text = "I"
 		pos = -int(float(pageCount-1)/2 * 32)
 		for i in xrange(pageCount):
 			button = ui.RadioButton()
@@ -332,13 +331,12 @@ class SafeboxWindow(ui.ScriptWindow):
 			button.SetWindowHorizontalAlignCenter()
 			button.SetWindowVerticalAlignBottom()
 			button.SetPosition(pos, 85)
-			button.SetText(text)
+			button.SetText(localeInfo.int_to_roman(i+1))
 			button.SetEvent(lambda arg=i: self.SelectPage(arg))
 			button.Show()
 			self.pageButtonList.append(button)
 
 			pos += 32
-			text += "I"
 
 		self.pageButtonList[0].Down()
 

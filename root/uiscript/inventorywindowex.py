@@ -8,14 +8,13 @@ EQUIPMENT_START_INDEX = player.EQUIPMENT_SLOT_START
 window = {
 	"name" : "InventoryWindow",
 
-	## 600 - (width + 오른쪽으로 부터 띄우기 24 px)
 	"x" : SCREEN_WIDTH - 176,
-	"y" : SCREEN_HEIGHT - 37 - 565,
+	"y" : SCREEN_HEIGHT - 37 - 585,
 
 	"style" : ("movable", "float",),
 
 	"width" : 176,
-	"height" : 565,
+	"height" : 585,
 
 	"children" :
 	(
@@ -29,7 +28,7 @@ window = {
 			"y" : 0,
 
 			"width" : 176,
-			"height" : 565,
+			"height" : 585,
 
 			"children" :
 			(
@@ -190,12 +189,12 @@ window = {
 					"name" : "Inventory_Tab_01",
 					"type" : "radio_button",
 
-					"x" : 10,
+					"x" : 6 + 33*0,
 					"y" : 33 + 191,
 
-					"default_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_01.sub",
-					"over_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_02.sub",
-					"down_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_03.sub",
+					"default_image" : "d:/ymir work/ui/game/windows/tab_button_small_01.sub",
+					"over_image" : "d:/ymir work/ui/game/windows/tab_button_small_02.sub",
+					"down_image" : "d:/ymir work/ui/game/windows/tab_button_small_03.sub",
 					"tooltip_text" : uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_1,
 
 					"children" :
@@ -217,13 +216,12 @@ window = {
 					"name" : "Inventory_Tab_02",
 					"type" : "radio_button",
 
-					#"x" : 10 + 78,
-					"x" : 10 + 39,
+					"x" : 6 + 33*1,
 					"y" : 33 + 191,
 
-					"default_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_01.sub",
-					"over_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_02.sub",
-					"down_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_03.sub",
+					"default_image" : "d:/ymir work/ui/game/windows/tab_button_small_01.sub",
+					"over_image" : "d:/ymir work/ui/game/windows/tab_button_small_02.sub",
+					"down_image" : "d:/ymir work/ui/game/windows/tab_button_small_03.sub",
 					"tooltip_text" : uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_2,
 
 					"children" :
@@ -246,12 +244,12 @@ window = {
 					"name" : "Inventory_Tab_03",
 					"type" : "radio_button",
 
-					"x" : 10 + 39 + 39,
+					"x" : 6 + 33*2,
 					"y" : 33 + 191,
 
-					"default_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_01.sub",
-					"over_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_02.sub",
-					"down_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_03.sub",
+					"default_image" : "d:/ymir work/ui/game/windows/tab_button_small_01.sub",
+					"over_image" : "d:/ymir work/ui/game/windows/tab_button_small_02.sub",
+					"down_image" : "d:/ymir work/ui/game/windows/tab_button_small_03.sub",
 					"tooltip_text" : uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_3,
 
 					"children" :
@@ -274,12 +272,12 @@ window = {
 					"name" : "Inventory_Tab_04",
 					"type" : "radio_button",
 
-					"x" : 10 + 39 + 39 + 39,
+					"x" : 6 + 33*3,
 					"y" : 33 + 191,
 
-					"default_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_01.sub",
-					"over_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_02.sub",
-					"down_image" : "d:/ymir work/ui/game/windows/tab_button_large_half_03.sub",
+					"default_image" : "d:/ymir work/ui/game/windows/tab_button_small_01.sub",
+					"over_image" : "d:/ymir work/ui/game/windows/tab_button_small_02.sub",
+					"down_image" : "d:/ymir work/ui/game/windows/tab_button_small_03.sub",
 					"tooltip_text" : uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_4,
 
 					"children" :
@@ -294,6 +292,34 @@ window = {
 							"all_align" : "center",
 
 							"text" : "IV",
+						},
+					),
+				},
+				
+				{
+					"name" : "Inventory_Tab_05",
+					"type" : "radio_button",
+
+					"x" : 6 + 33*4,
+					"y" : 33 + 191,
+
+					"default_image" : "d:/ymir work/ui/game/windows/tab_button_small_01.sub",
+					"over_image" : "d:/ymir work/ui/game/windows/tab_button_small_02.sub",
+					"down_image" : "d:/ymir work/ui/game/windows/tab_button_small_03.sub",
+					"tooltip_text" : uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_5,
+
+					"children" :
+					(
+						{
+							"name" : "Inventory_Tab_05_Print",
+							"type" : "text",
+
+							"x" : 0,
+							"y" : 0,
+
+							"all_align" : "center",
+
+							"text" : "V",
 						},
 					),
 				},
@@ -315,7 +341,49 @@ window = {
 					"image" : "d:/ymir work/ui/public/Slot_Base.sub"
 				},
 
-				## Print
+				## Print DR
+				{
+					"name":"DR_Slot",
+					"type":"button",
+
+					"x":8,
+					"y":48,
+
+					"horizontal_align":"center",
+					"vertical_align":"bottom",
+
+					"default_image" : "d:/ymir work/ui/public/parameter_slot_05.sub",
+					"over_image" : "d:/ymir work/ui/public/parameter_slot_05.sub",
+					"down_image" : "d:/ymir work/ui/public/parameter_slot_05.sub",
+
+					"children" :
+					(
+						{
+							"name":"DR_Icon",
+							"type":"image",
+
+							"x":-18,
+							"y":2,
+
+							"image":"d:/ymir work/ui/game/windows/money_icon.sub",
+						},
+
+						{
+							"name" : "DR",
+							"type" : "text",
+
+							"x" : 3,
+							"y" : 3,
+
+							"horizontal_align" : "right",
+							"text_horizontal_align" : "right",
+
+							"text" : "123456789",
+						},
+					),
+				},
+
+				## Print Money
 				{
 					"name":"Money_Slot",
 					"type":"button",
