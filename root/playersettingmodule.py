@@ -456,9 +456,10 @@ def __LoadGameEffect():
 
 	chrmgr.RegisterEffect(chrmgr.EFFECT_REFINED+19, "Bip01", "D:/ymir work/pc/common/effect/armor/armor-4-2-1.mse")
 	chrmgr.RegisterEffect(chrmgr.EFFECT_REFINED+20, "Bip01", "D:/ymir work/pc/common/effect/armor/armor-4-2-2.mse")
+	chrmgr.RegisterEffect(chrmgr.EFFECT_REFINED+21, "Bip01", "D:/ymir work/pc/common/effect/armor/armor-70er.mse")
 
 	if app.ENABLE_LVL115_ARMOR_EFFECT:
-		chrmgr.RegisterEffect(chrmgr.EFFECT_REFINED+21, "Bip01", "D:/ymir work/pc/common/effect/armor/armor-5-1.mse")
+		chrmgr.RegisterEffect(chrmgr.EFFECT_REFINED+22, "Bip01", "D:/ymir work/pc/common/effect/armor/armor-5-1.mse")
 
 	## FlyData
 	effect.RegisterIndexedFlyData(effect.FLY_EXP, effect.INDEX_FLY_TYPE_NORMAL, "d:/ymir work/effect/etc/gathering/ga_piece_yellow_small2.msf")				## ³ë¶õ»ö (EXP)
