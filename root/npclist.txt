@@ -1,6 +1,7 @@
 0	pony_normal 	pony
 0	pony_member 	pony
 0	pony_master 	pony
+0	horse_normal02 	pony
 0	horse_normal 	horse
 0	horse_member 	horse
 0	horse_master 	horse
@@ -1628,3 +1629,4 @@
 50503	milgyo_executor
 50504	skeleton_bigboss
 50505	ch_footman
+50506	horse_normal02
