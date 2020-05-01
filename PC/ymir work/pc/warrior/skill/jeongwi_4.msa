@@ -6,7 +6,7 @@ Accumulation           0.00	-245.93	0.00
 
 Group MotionEventData
 {
-    MotionEventDataCount     1
+    MotionEventDataCount     2
     Group Event00
     {
         MotionEventType      1
@@ -18,5 +18,14 @@ Group MotionEventData
         FollowingEnable      0
         EffectFileName       "d:/ymir work/pc/warrior/effect/jeongwi_4.mse"
         EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      2
+        StartingTime         1.418005
+        
+        DuringTime           0.300000
+        Power                300
+        AffectingRange       200
     }
 }
