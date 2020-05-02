@@ -1979,8 +1979,8 @@
 50122	Eisentruhe	Das stabile Behältnis stammt aus der Grotte der Verbannung.
 50123	Eiscreme	Energieschub! Diese Eiscreme erhöht deine Bewegungsgeschwindigkeit für 30 Minuten um 60. Achtung: Erneutes Aktivieren, während der Energieschub noch anhält, überschreibt die Laufzeit.
 50124	Morsche Holzkiste	Aus dem Inneren scheinen leise Tierlaute zu dringen.
-50125	Mysteriöse Truhe	Die Truhe ist erstaunlich leicht - als wäre sie leer...
-50126	Mysteriöse Truhe	Die Truhe ist erstaunlich leicht - als wäre sie leer...
+50125	Fertigkeitsbuch-Truhe	Diese rote Truhe beinhaltet ein wertvolles Fertigkeitsbuch. Der Inhalt kann beim Händler für viel Yang verkauft werden.
+50126	Geisstein-Truhe	Diese blaue Truhe beinhaltet einen wertvollen Geiststein. Der Inhalt kann beim Händler für viel Yang verkauft werden.
 50127	Mysteriöse Smaragdtruhe	Offene Smaragdtruhe
 50128	Mysteriöse Saphirtruhe	Eine Saphirtruhe ohne Schloss. Kann direkt geöffnet werden. Das Innere birgt ein wertvolles Geheimnis...
 50129	Mysteriöse Amethysttruhe	Offene Amethysttruhe

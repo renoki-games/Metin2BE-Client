@@ -5992,7 +5992,7 @@
 28442	ETC	icon/item/28012.tga
 28443	ETC	icon/item/28013.tga
 28444	ETC	icon/item/28044.tga
-28445	ETC	icon/item/28045.tga		
+28445	ETC	icon/item/28045.tga
 28446	ETC	icon/item/28046.tga
 28500	ETC	icon/item/28000.tga
 28501	ETC	icon/item/28001.tga
@@ -7626,7 +7626,7 @@
 50123	ETC	icon/item/50123.tga
 50124	ETC	icon/item/50124.tga
 50125	ETC	icon/item/50125.tga
-50126	ETC	icon/item/50125.tga
+50126	ETC	icon/item/50126.tga
 50127	ETC	icon/item/50127.tga
 50128	ETC	icon/item/50128.tga
 50129	ETC	icon/item/50129.tga
