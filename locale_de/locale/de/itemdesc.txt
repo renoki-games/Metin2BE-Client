@@ -2036,7 +2036,7 @@
 50194	Meistertruhe II	Diese Truhe lässt sich erst öffnen, wenn du Level 70 erreicht hast.
 50195	Meistertruhe III	Diese Truhe lässt sich erst öffnen, wenn du Level 80 erreicht hast.
 50196	Großmeistertruhe	Diese Truhe lässt sich erst öffnen, wenn du Level 90 erreicht hast.
-50197	Unbekannter Beutel	
+50197	Perfekte Meistertruhe	Diese Truhe lässt sich erst öffnen, wenn du Level 100 erreicht hast.
 50198	Unbekannter Beutel	
 50199	Unbekannter Beutel	
 50200	Bündel	Dieses Bündel ermöglicht es, einen privaten Laden zu eröffnen.
@@ -2814,7 +2814,7 @@
 71045	Durchbohrender Kampf	Erhöht deine Chance, im Kampf einen durchbohrenden Treffer zu landen, 10 Minuten lang um 20%.
 71047	Tinktur des Geiststeins	Entfernt einen eingefassten Geiststein aus einem deiner Gegenstände.
 71048	Wandelzauber	Dieser Zauber kann das Geschlecht deines Spielercharakters ändern.
-71049	Seidenbündel	Mit diesem Bündel kannst du 10 Tage lang kostenlos private Läden eröffnen.
+71049	Seidenbündel	Mit diesem Bündel kannst du 30 Tage lang kostenlos private Läden eröffnen.
 71050	Geschwindigkeitstrank	Erhöht 30 Minuten lang deine Bewegungsgeschwindigkeit um 60.
 71051	Gegenstand verhexen	Entfernt den Spezial-Bonus eines deiner Gegenstände und fügt einen neuen hinzu.
 71052	Gegenstand segnen	Fügt einem deiner Gegenstände einen neuen Spezial-Bonus hinzu, falls noch keiner vorhanden war.
@@ -2927,7 +2927,7 @@
 71150	Zauber-Ei	Die kunstvoll verzierte ovale Truhe enthält mehr als nur eine Osterüberraschung und gibt ihre Schätze erst nach und nach preis.
 71151	Grüner Zauber	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Kann nur bis Level 24 angewendet werden.
 71152	Grüne Stärke	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni). Kann nur bis Level 24 angewendet werden.
-71153	Trank der Weisheit	Mit diesem Trank sammelst du in einer Stunde Spielzeit 100 % mehr Erfahrung.
+71153	Trank der Weisheit	Mit diesem Trank sammelst du in einer Stunde Spielzeit 100% mehr Erfahrung.
 71154	Trank des Aufstiegs (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 80% mehr Erfahrung.
 71155	Trank der Weisheit (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 100% mehr Erfahrung.
 71156	Trank des Geistes (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 150% mehr Erfahrung.
