@@ -468,7 +468,7 @@
 25043	Pechsschriftrolle	Beseitigt das Risiko, einen Gegenstand zu zerstören, jedoch wird die Qualität um 1 verringert. Mit 100% Chance auf Fehlschlag.
 25041	Magisches Metall	Ein Klumpen des legendären Metalls, das die besten Chancen beim Verbessern eines Gegenstandes gewährt. Der verbesserte Gegenstand kann außerdem weder zerstört noch verschlechtert werden.
 25042	Ritualstein	Ein mystisch schmimmernder Stein, der die besten Chancen beim Verbessern eines Gegenstandes gewährt. Der verbesserte Gegenstand kann außerdem weder zerstört noch verschlechtert werden. Dieser Stein funktioniert nur bei Gegenständen über Level 80.
-25100	Geiststein-Schriftrolle	Die Schriftrolle ermöglicht es dir, den Geiststein aus einer Waffe oder Rüstung zu entfernen. Ein Splitter bleibt dabei zurück.
+25100	Geiststein-Schriftrolle	Die Schriftrolle ermöglicht es dir, alle Geiststeine aus einer Waffe oder Rüstung zu entfernen. Die Splitter bleiben dabei zurück.
 25101	Kuchenstück	Die Sahneschnitte gibt dir 30 Minuten lang einen EXP-Bonus von 100%.
 25102	Jubiläumstruhe	Prall gefüllte Truhe zum zehnjährigen Metin2-Jubiläum
 25103	Fähnchen	Ein buntes Partyfähnchen zum Sammeln und Tauschen
@@ -731,7 +731,7 @@
 30187	Blutstropfen	Ein Tropfen Blut der ermordeten Göttin Bahar-Taraji, Schöpferin der Welt.
 30188	Vulkanglas	Ehemals flüssiges, schlagartig abgekühltes Vulkangestein.
 30189	Tränen Baljit-Elvedins	Das kunstvoll geformte Gefäß enthält die Tränen des Gottes Baljit-Elvedin.
-30190	Blutstein	Dieser Stein aus dem Blut Bahar-Tarajis wird den Eintritt in die Grotte der Verbannung gewährleisten.
+30190	Blutstein	Dieser Stein aus dem Blut Bahar-Tarajis wird den Eintritt in die Grotte der Verbannung gewährleisten. Eintritt ab Lv 75.
 30191	Blutstein	Blutsteine ermöglichen den Eintritt in die Grotte der Verbannung.
 30192	Milchsaft	Hochwertiges Pflanzensekret
 30193	Fingerknochen	Das letzte Überbleibsel eines gefallenen Helden.
@@ -1066,10 +1066,10 @@
 39033	Rolle der Korrektur	Mit dieser Rolle kann der zuletzt erfolgreich hinzugefügte Geiststein aus einem Gegenstand entfernt werden.
 39034	Pferdezucker	Dieses Zuckerstück ermöglicht es, deinem Reittier einen Namen zu geben. Gleichzeitig erhöht es dessen Verteidigungswert um 20.
 39035	Glas der Einsicht	Ermöglicht dir, einem anderen Spieler Gegenstände aus deinem Inventar zu zeigen. Das Glas zerbricht während des Vorgangs.
-39036	Windschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 30, solange sie ausgerüstet sind.
-39090	Sturmschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 60, solange sie ausgerüstet sind.
-39091	Orkanschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 100, solange sie ausgerüstet sind.
-72750	Bleischuhe	Sie verringern deine Bewegungsgeschwindigkeit und Angriffsgeschwindigkeit um 50, solange sie ausgerüstet sind.
+39036	Windschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 30, solange sie ausgerüstet sind. Dauer 30 Tage.
+39090	Sturmschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 60, solange sie ausgerüstet sind. Dauer 30 Tage.
+39091	Orkanschuhe	Sie erhöhen deine Bewegungsgeschwindigkeit um 100, solange sie ausgerüstet sind. Dauer 30 Tage.
+72750	Bleischuhe	Sie verringern deine Bewegungsgeschwindigkeit und Angriffsgeschwindigkeit um 50, solange sie ausgerüstet sind. Dauer 30 Tage.
 39037	Elixier der Sonne (K)	Füllt deine TP automatisch auf. Enthält 1.000.000 TP.
 39038	Elixier der Sonne (M)	Füllt deine TP automatisch auf. Enthält 3.000.000 TP.
 39039	Elixier der Sonne (G)	Füllt deine TP automatisch auf. Enthält 7.000.000 TP.
@@ -2777,7 +2777,7 @@
 71008	Fischereibuch	Verdoppelt deine Chance, einen seltenen Fisch zu fangen
 71009	Lagertruhe	Dein Lager erhält zwei zusätzliche Lagerräume.
 71010	Dritte Hand	Eine Hand, die Yang automatisch aufnimmt.
-71011	Emotionsmaske	Mit dieser Maske kannst du deinen Gefühlen freien Lauf lassen.
+71011	Emotionsmaske	Mit dieser Maske kannst du deinen Gefühlen freien Lauf lassen. Dauer 30 Tage.
 71012	Buch des Anführers	Solange der Anführer einer Gruppe mit diesem Buch ausgerüstet ist, sammeln alle Gruppenmitglieder drei Stunden lang 30% mehr Erfahrungspunkte.
 71013	Feuerwerk	Rakete, die für alle sichtbar den Himmel erleuchtet.
 71014	Trank des Angriffs +10	Erhöht deine Angriffsgeschwindigkeit für 30 Minuten um 10%.
@@ -2867,7 +2867,7 @@
 71104	Neuverteilung (INT)	Setzt deine Intelligenz auf 1 zurück und erlaubt dir, deine Punkte neu zu verteilen.
 71105	Neuverteilung (STR)	Setzt deine Stärke auf 1 zurück und erlaubt dir, deine Punkte neu zu verteilen.
 71106	Neuverteilung (DEX)	Setzt deine Beweglichkeit auf 1 zurück und erlaubt dir, deine Punkte neu zu verteilen.
-71107	Frucht des Lebens	Erhöht die Rangpunkte um 2000 (Abklingzeit: 8 Stunden).
+71107	Frucht des Lebens	Erhöht den Rang um 2000 Punkte.
 71108	Granatapfelsaft	Getränk, das deine TP augenblicklich um 800 Punkte regeneriert.
 71109	Rolle der Korrektur	Mit dieser Rolle kann der zuletzt erfolgreich hinzugefügte Geiststein aus einem Gegenstand entfernt werden.
 71110	Pferdezucker	Dieses Zuckerstück ermöglicht es, dem Reittier einen Namen zu geben. Gleichzeitig erhöht es dessen Verteidigungswert um 20.
@@ -2925,8 +2925,8 @@
 71148	Ring der Willenskraft	Verleiht dir 7 Tage lang +30% EXP, +20% Abwehrchance gegen Krieger, +20% Abwehrchance gegen Ninja, +20% Abwehrchance gegen Lykaner, +30% Stärke gegen Monster, +10% Maximum-TP und +10% Maximum-MP.
 71149	Ring der tödlichen Macht	Verleiht dir 7 Tage lang +30% EXP, +20% Abwehrchance gegen Sura, +20% Abwehrchance gegen Schamanen, +20% Abwehrchance gegen Lykaner, +30% Stärke gegen Monster, +10% Maximum-TP und +10% Maximum-MP.
 71150	Zauber-Ei	Die kunstvoll verzierte ovale Truhe enthält mehr als nur eine Osterüberraschung und gibt ihre Schätze erst nach und nach preis.
-71151	Grüner Zauber	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Kann nur bei Waffen und Rüstungen bis Level 24 angewendet werden.
-71152	Grüne Stärke	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni). Kann nur bei Waffen und Rüstungen bis Level 24 angewendet werden.
+71151	Grüner Zauber	Entfernt die Boni eines deiner Gegenstände und fügt neue hinzu. Kann nur bis Level 24 angewendet werden.
+71152	Grüne Stärke	Fügt mit etwas Glück einem deiner Gegenstände einen neuen Bonus hinzu (bis max. 4 Boni). Kann nur bis Level 24 angewendet werden.
 71153	Trank der Weisheit	Mit diesem Trank sammelst du in einer Stunde Spielzeit 100 % mehr Erfahrung.
 71154	Trank des Aufstiegs (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 80% mehr Erfahrung.
 71155	Trank der Weisheit (3h)	Mit diesem Trank sammelst du in drei Stunden Spielzeit 100% mehr Erfahrung.
