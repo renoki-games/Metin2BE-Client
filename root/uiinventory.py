@@ -167,7 +167,7 @@ class InventoryWindow(ui.ScriptWindow):
 			self.wndMoney = self.GetChild("Money")
 			self.wndMoneySlot = self.GetChild("Money_Slot")
 			self.wndDR = self.GetChild("DR")
-			self.wndDRSlot = self.GetChild("DR_Slot")
+			self.wndDM = self.GetChild("DM")
 			self.mallButton = self.GetChild2("MallButton")
 			self.safeboxButton = self.GetChild2("SafeboxButton")
 			self.costumeButton = self.GetChild2("CostumeButton")
@@ -280,7 +280,7 @@ class InventoryWindow(ui.ScriptWindow):
 		self.wndMoney = 0
 		self.wndMoneySlot = 0
 		self.wndDR = 0
-		self.wndDRSlot = 0
+		self.wndDM = 0
 		self.questionDialog = None
 		self.mallButton = None
 		self.safeboxButton = None
@@ -528,8 +528,11 @@ class InventoryWindow(ui.ScriptWindow):
 		money = player.GetElk()
 		self.wndMoney.SetText(localeInfo.NumberToMoneyString(money))
 
-		# dr = player.
-		# self.wndDR.SetText(localeInfo.NumberToMoneyString(money))
+		dr = player.GetDR()
+		self.wndDR.SetText(localeInfo.NumberWithDots(dr) + " DR")
+
+		dm = player.GetDM()
+		self.wndDM.SetText(localeInfo.NumberWithDots(dm) + " DM")
 
 	def SetItemToolTip(self, tooltipItem):
 		self.tooltipItem = tooltipItem

@@ -344,17 +344,14 @@ window = {
 				## Print DR
 				{
 					"name":"DR_Slot",
-					"type":"button",
+					"type":"image",
 
-					"x":8,
+					"x":31,
 					"y":48,
 
-					"horizontal_align":"center",
 					"vertical_align":"bottom",
 
-					"default_image" : "d:/ymir work/ui/public/parameter_slot_05.sub",
-					"over_image" : "d:/ymir work/ui/public/parameter_slot_05.sub",
-					"down_image" : "d:/ymir work/ui/public/parameter_slot_05.sub",
+					"image" : "d:/ymir work/ui/public/parameter_slot_02.sub",
 
 					"children" :
 					(
@@ -370,6 +367,34 @@ window = {
 
 						{
 							"name" : "DR",
+							"type" : "text",
+
+							"x" : 3,
+							"y" : 3,
+
+							"horizontal_align" : "right",
+							"text_horizontal_align" : "right",
+
+							"text" : "123456789",
+						},
+					),
+				},
+
+				## Print DM
+				{
+					"name":"DM_Slot",
+					"type":"image",
+
+					"x":100,
+					"y":48,
+
+					"vertical_align":"bottom",
+					"image" : "d:/ymir work/ui/public/parameter_slot_02.sub",
+
+					"children" :
+					(
+						{
+							"name" : "DM",
 							"type" : "text",
 
 							"x" : 3,
