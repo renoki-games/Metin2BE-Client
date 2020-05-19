@@ -1026,7 +1026,7 @@
 38055	Welpen-Box	In dieser Kiste kann sich ein niedliches Tierjunges verstecken. Öffne sie und finde einen zufälligen Gegenstand.
 38056	Festtagstruhe	Diese Truhe in festlichem Tannengrün enthält eine weihnachtliche Überraschung.
 38057	Truhe des Nordens	Die Truhe erstrahlt in frostigem Blau und enthält ein zufälliges Item.
-38100	Powersnack (7 Tage)	Verlängert das Leben deines Power Mounts um 7 Tage.
+38100	Kraftfutter	Eine seltene Pflanze, die den stärksten Pferden große Ausdauer und Kraft verleiht.
 38101	Powersnack (15 Tage)	Verlängert das Leben deines Power Mounts um 15 Tage.
 38102	Powersnack (30 Tage)	Verlängert das Leben deines Power Mounts um 30 Tage.
 38200	Rufus-Siegel	Mit diesem Siegel rufst du deinen Wolfswelpen, Rufus, herbei.
