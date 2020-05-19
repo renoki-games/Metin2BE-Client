@@ -758,10 +758,10 @@
 30224	Gyimoks Seelenstein	Ein legendärer Stein, der die Seele eines Gyimoks Adeligen birgt.
 30225	Tugyis Seelenstein	Ein legendärer Stein, der die Seele eines Tugyis Adeligen birgt.
 30228	Beran-Setaou Seelenstein	Die finstere Aura des gefallenen Gottes berührt dich tief im Inneren und sucht Zugang zu deinem Herzen.
-30251	Juwel der Missgunst	Ein von Bosheit durchtränkter Diamant.
-30252	Juwel der Weisheit	Die Aura dieses Diamanten ist friedvoll und edelmütig.
-30253	Juwel der Treue	Diesen Diamanten umgibt eine Aura von Kampfgeist und Aufrichtigkeit.
-30254	Himmel und Hölle	
+30251	Juwel der Magie	Dieses Juwel wird von einer blauen Aura umgeben.
+30252	Juwel der Lebenskraft	Dieses Juwel wird von einer roten Aura umgeben.
+30253	Juwel des Angriffs	Dieses Juwel wird von einer grünen Aura umgeben.
+30254	Juwel der Verteidigung	Dieses Juwel wird von einer gelben Aura umgeben.
 30265	Medaillenstück (1)	Erstes Bruchstück der Heldenmedaille
 30266	Medaillenstück (2)	Zweites Bruchstück der Heldenmedaille
 30267	Medaillenstück (3)	Drittes Bruchstück der Heldenmedaille
