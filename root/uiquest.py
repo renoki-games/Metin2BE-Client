@@ -301,8 +301,6 @@ class QuestDialog(ui.ScriptWindow):
 		self.titleState = self.TITLE_STATE_NONE
 		self.titleShowTime = 0
 		self.images = []
-		self.prevbutton = None
-		self.nextbutton = None
 
 		# QUEST_INPUT
 		self.needInputString = False
@@ -470,17 +468,6 @@ class QuestDialog(ui.ScriptWindow):
 
 		self.btnAnswer = [self.MakeEachButton(i) for i in xrange (n)]
 
-		import localeInfo
-		self.prevbutton = self.MakeNextPrevPageButton()
-		self.prevbutton.SetPosition(self.sx+self.board.GetWidth()/2-164, self.board.GetHeight()/2-16)
-		self.prevbutton.SetText(localeInfo.UI_PREVPAGE)
-		self.prevbutton.SetEvent(self.PrevQuestPageEvent, 1, n)
-
-		self.nextbutton = self.MakeNextPrevPageButton()
-		self.nextbutton.SetPosition(self.sx+self.board.GetWidth()/2+112, self.board.GetHeight()/2-16)
-		self.nextbutton.SetText(localeInfo.UI_NEXTPAGE)
-		self.nextbutton.SetEvent(self.NextQuestPageEvent, 1, n)
-
 		if cur_questpage_number != 1:
 			cur_questpage_number = 1
 
@@ -523,16 +510,6 @@ class QuestDialog(ui.ScriptWindow):
 				self.btnAnswer[num].Hide()
 			num = num + 1
 
-		if cur_questpage_number == 1:
-			self.prevbutton.Hide()
-			self.nextbutton.Show()
-		elif cur_questpage_number == entire_questpage_number:
-			self.prevbutton.Show()
-			self.nextbutton.Hide()
-		else:
-			self.prevbutton.Show()
-			self.nextbutton.Show()
-
 	def NextQuestPageEvent(self, one, n):
 		global cur_questpage_number
 		cur_questpage_number = cur_questpage_number + one
@@ -545,8 +522,6 @@ class QuestDialog(ui.ScriptWindow):
 
 	def ClickAnswerEvent(self, ai):
 		event.SelectAnswer(self.descIndex, ai)
-		self.nextbutton = None
-		self.prevbutton = None
 		self.CloseSelf()
 
 	def AppendQuestion(self, name, idx):  # idx는 0부터 시작함. PythonEventManager.cpp line 881 참고. by 김준호
@@ -566,8 +541,6 @@ class QuestDialog(ui.ScriptWindow):
 			self.btnAnswer[idx].Show()
 		else:
 			self.btnAnswer[idx].Hide()
-		if entire_questbutton_number >= self.QUEST_BUTTON_MAX_NUM:
-			self.nextbutton.Show()
 
 	def FadeOut(self, speed):
 		self.eventCurtain.FadeOut(speed)
@@ -653,8 +626,6 @@ class QuestDialog(ui.ScriptWindow):
 				self.CloseSelf()
 		else:
 			event.SelectAnswer(self.descIndex, entire_questbutton_number - 1)
-			self.nextbutton = None
-			self.prevbutton = None
 			self.CloseSelf()
 		return True
 
