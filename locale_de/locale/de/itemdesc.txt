@@ -719,6 +719,10 @@
 30155	Mirines Anhänger	Ein Anhänger für eine Halskette. Auf seiner Rückseite ist der Name "Mirine" eingraviert.
 30156	Geheimes Tempelbuch	Das wertvolle Buch enthält die Analyse der Lehre und der Geschichte des geheimen Tempels.
 30157	Pfeilspitze	Diese vergifteten Pfeilspitzen werden helfen, das Reich zu verteidigen.
+30165	Zelkova Holzast	Wird von Biologe Chaegirab für die Biologenquest gebraucht.
+30166	Tugyis Tafel	Wird von Biologe Chaegirab für die Biologenquest gebraucht.
+30167	Roter Geisterbaum-Ast	Wird von Biologe Chaegirab für die Biologenquest gebraucht.
+30168	Notizen der Anführer	Wird von Biologe Chaegirab für die Biologenquest gebraucht.
 30177	Moschusöl	Das Moschusöl wird vom Waffenhändler in einer Quest verwendet. Das Item hat keine weitere Funktion.
 30179	Gewundener Schlüssel	Dieser magische Schlüssel aktiviert das Portal zum Tempel des Drachen.
 30180	Drachengottamulett	Das golden glänzende Schmuckstück kann den Weg zur Grotte der Verbannung verkürzen.
@@ -757,6 +761,8 @@
 30223	Aurtumryus Seelenstein	Ein legendärer Stein, der die Seele eines Aurtumryus Adeligen birgt.
 30224	Gyimoks Seelenstein	Ein legendärer Stein, der die Seele eines Gyimoks Adeligen birgt.
 30225	Tugyis Seelenstein	Ein legendärer Stein, der die Seele eines Tugyis Adeligen birgt.
+30226	Waldgeist-Seelenstein	Ein legendärer Stein, der die Seele eines Waldgeistanhängers birgt.
+30227	Seelenstein der Anführer	Ein legendärer Stein, der die Seele eines adeligen Anführers birgt.
 30228	Beran-Setaou Seelenstein	Die finstere Aura des gefallenen Gottes berührt dich tief im Inneren und sucht Zugang zu deinem Herzen.
 30251	Juwel der Magie	Dieses Juwel wird von einer blauen Aura umgeben.
 30252	Juwel der Lebenskraft	Dieses Juwel wird von einer roten Aura umgeben.
