@@ -3132,90 +3132,78 @@
 73760	Alte Haartracht (hell)	Langes Haar, auf traditionelle Art getragen.
 73761	Alte Haartracht(violett)	Langes Haar, auf traditionelle Art getragen.
 73762	Alte Haartracht (rot)	Langes Haar, auf traditionelle Art getragen.
-74001	Modische Frisur (rot)	Eine Frisur, die dir ein unverwechselbares Äußeres verleiht
-74002	Modische Frisur (hell)	Eine Frisur, die dir ein markantes Äußeres verleiht
-74003	Modische Frisur (blau)	Eine Frisur, die dir ein markantes Äußeres verleiht
-74004	Modische Frisur (braun)	Eine Frisur, die dir ein markantes Äußeres verleiht
-74005	Stirntuch (rot)	Kurze braune Haare mit einem roten Stirnband.
-74006	Stirntuch(braun kariert)	Kurze blonde Haare mit einem hellen Stirnband.
-74007	Stirntuch (blau)	Kurze blaue Haare mit einem braunen Stirnband
-74008	Stirntuch (grün kariert)	Kurze grüne Haare mit einem grünen Stirnband
-74009	Lange Haare (schwarz)	Eine Frisur, die ein beeindruckendes Äußeres verleiht
-74010	Lange Haare (rot)	Eine Frisur, die ein beeindruckendes Äußeres verleiht
-74011	Lange Haare (braun)	Eine Frisur, die ein beeindruckendes Äußeres verleiht
-74012	Lange Haare (grün)	Eine Frisur, die ein beeindruckendes Äußeres verleiht
-74013	Afro für Krieger	Verleiht einem Krieger einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74014	Afro für Krieger	Verleiht einem Krieger einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74015	Samurai-Helm für Krieger	Verleiht einem Krieger einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74016	Samurai-Helm für Krieger	Verleiht einem Krieger einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74017	Fez für Krieger	Eine rote Kopfbedeckung für männliche Krieger. (Dauer 7 Tage)
-74018	Keffiyeh für Krieger	Ein Kopftuch für männliche Krieger. (Dauer 7 Tage)
-74019	Turban für Krieger	Eine Kopfbedeckung aus feinstem Stoff für männliche Krieger. (Dauer 7 Tage)
-74020	Kürbismaske-Krieger (m)	Eine Maske für den Krieger in Form eines Kürbisses. Attribute und Dauer werden durch Zufall bestimmt. Sie ersetzt bereits vorhandene Frisuren.
-74251	Pferdeschwanz (braun)	Langes braunes, zu einem Zopf gebundenes Haar - eine unter Frauen sehr beliebte Frisur
-74252	Pferdeschwanz (grün)	Langes grünes, zu einem Zopf gebundenes Haar - eine unter Frauen sehr beliebte Frisur
-74253	Pferdeschwanz (blau)	Langes blaues, zu einem Zopf gebundenes Haar - eine unter Frauen sehr beliebte Frisur
-74254	Pferdeschwanz (hell)	Langes helles, zu einem Zopf gebundenes Haar - eine unter Frauen sehr beliebte Frisur
-74255	Schulterlanges Haar(rot)	Eine freche, ausgefallene Frisur
-74256	Schulterlanges Haar(br.)	Eine freche, ausgefallene Frisur
-74257	Schulterlanges Haar/hell	Eine freche, ausgefallene Frisur
-74258	Schulterlanges Haar/lila	Eine freche, ausgefallene Frisur
-74259	Kurzhaarfrisur (rot)	Rotes, fransiges Haar im Ninja-Look
-74260	Kurzhaarfrisur (blau)	Blaues, fransiges Haar im Ninja-Look
-74261	Kurzhaarfrisur (schwarz)	Schwarzes, fransiges Haar im Ninja-Look
-74262	Kurzhaarfrisur (blond)	Blondes, fransiges Haar im Ninja-Look
-74263	Afro für Ninja (w)	Verleiht einem weiblichen Ninja einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74264	Afro für Ninja (w)	Verleiht einem weiblichen Ninja einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74265	Blumenhut für Ninja (w)	Verleiht einem weiblichen Ninja einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74266	Blumenhut für Ninja (w)	Verleiht einem weiblichen Ninja einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74267	Sandmaske für Ninja (w)	Ein Gesichtsschleier aus einem sehr wertvollen Stoff für weibliche Ninja. (Dauer 7 Tage)
-74268	Wüstenschal f. Ninja (w)	Ein Wüstenschal für weibliche Ninja aus einem edlen Stoff. (Dauer 7 Tage)
-74269	Turban für Ninja (w)	Eine Kopfbedeckung aus feinstem Stoff für weibliche Ninja. (Dauer 7 Tage)
-74270	Kürbismaske-Ninja (w)	Eine Maske für den weiblichen Ninja in Form eines Kürbisses. Attribute und Dauer werden durch Zufall bestimmt. Sie ersetzt bereits vorhandene Frisuren.
-74501	Sportliche Frisur (hell)	Eine militärisch wirkende Kurzhaarfrisur
-74502	Sportliche Frisur(braun)	Eine militärisch wirkende Kurzhaarfrisur
-74503	Sportliche Frisur(blond)	Eine militärisch wirkende Kurzhaarfrisur
-74504	Sportliche Frisur (grün)	Eine militärisch wirkende Kurzhaarfrisur
-74505	Charisma-Frisur (weiß)	Eine Frisur, die deinen individuellen Charakter unterstreicht
-74506	Charisma-Frisur (rot)	Eine Frisur, die deinen individuellen Charakter unterstreicht
-74507	Charisma-Frisur(schwarz)	Eine Frisur, die deinen individuellen Charakter unterstreicht
-74508	Charisma-Frisur(violett)	Eine Frisur, die deinen individuellen Charakter unterstreicht
-74509	Langer Zopf (weiß)	Zopf im alten Stil, der einst ein Symbol der Reichen war
-74510	Langer Zopf (blau)	Zopf im alten Stil, der einst ein Symbol der Reichen war
-74511	Langer Zopf (schwarz)	Zopf im alten Stil, der einst ein Symbol der Reichen war
-74512	Langer Zopf (braun)	Zopf im alten Stil, der einst ein Symbol der Reichen war
-74513	Afro für Sura (m)	Verleiht einem männlichen Sura einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74514	Afro für Sura (m)	Verleiht einem männlichen Sura einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74515	Samurai-Helm f. Sura (m)	Verleiht einem männlichen Sura einen TP-Bonus von 1%. Ersetzt vorhandene Frisur  (Dauer 7 Tage).
-74516	Samurai-Helm f. Sura (m)	Verleiht einem männlichen Sura einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74517	Fez für Sura (m)	Eine rote Kopfbedeckung für männliche Sura. (Dauer 7 Tage)
-74518	Keffiyeh für Sura (m)	Ein Kopftuch für männliche Sura. (Dauer 7 Tage)
-74519	Turban für Sura (m)	Eine Kopfbedeckung aus feinstem Stoff für männliche Sura. (Dauer 7 Tage)
-74520	Kürbismaske-Sura (m)	Eine Maske für den Sura in Form eines Kürbisses. Attribute und Dauer werden durch Zufall bestimmt. Sie ersetzt bereits vorhandene Frisuren.
-74521	Modische Frisur (grau)	Eine Frisur, die dir ein markantes Äußeres verleiht
-74522	Stirntuch	Kurzes Haar, das von einem Stirntuch gebändigt wird.
+74001	Modische Frisur (rot)	Eine Frisur, die dir ein markantes Äußeres verleiht.
+74002	Modische Frisur (blond)	Eine Frisur, die dir ein markantes Äußeres verleiht.
+74003	Modische Frisur (blau)	Eine Frisur, die dir ein markantes Äußeres verleiht.
+74004	Modische Frisur (braun)	Eine Frisur, die dir ein markantes Äußeres verleiht.
+74005	Stirntuch (rot)	Kurze schwarze Haare mit einem roten Stirnband.
+74006	Stirntuch (violett)	Kurze schwarze Haare mit einem violetten Stirnband.
+74007	Stirntuch (blau)	Kurze schwarze Haare mit einem blauen Stirnband.
+74008	Stirntuch (grünrot)	Kurze schwarze Haare mit einem grünroten Stirnband.
+74009	Lange Haare (schwarz)	Eine Frisur, die ein beeindruckendes Äußeres verleiht.
+74010	Lange Haare (rot)	Eine Frisur, die ein beeindruckendes Äußeres verleiht.
+74011	Lange Haare (braun)	Eine Frisur, die ein beeindruckendes Äußeres verleiht.
+74012	Lange Haare (grün)	Eine Frisur, die ein beeindruckendes Äußeres verleiht.
+74015	Samurai-Helm	Ein Samurai-Helm für männliche Krieger.
+74017	Fez	Eine rote Kopfbedeckung für männliche Krieger.
+74018	Keffiyeh	Ein Kopftuch für männliche Krieger.
+74019	Turban	Eine Kopfbedeckung aus feinstem Stoff für männliche Krieger.
+74251	Pferdeschwanz (braun)	Langes braunes, zu einem Zopf gebundenes Haar.
+74252	Pferdeschwanz (grün)	Langes grünes, zu einem Zopf gebundenes Haar.
+74253	Pferdeschwanz (blau)	Langes blaues, zu einem Zopf gebundenes Haar.
+74254	Pferdeschwanz (blond)	Langes blondes, zu einem Zopf gebundenes Haar.
+74255	Schulterlanges Haar (r.)	Eine freche, ausgefallene Frisur.
+74256	Schulterlanges Haar (b.)	Eine freche, ausgefallene Frisur.
+74257	Schulterlanges Haar (b.)	Eine freche, ausgefallene Frisur.
+74258	Schulterlanges Haar (l.)	Eine freche, ausgefallene Frisur.
+74259	Kurzhaarfrisur (rot)	Rotes, fransiges Haar im Ninja-Look.
+74260	Kurzhaarfrisur (blau)	Blaues, fransiges Haar im Ninja-Look.
+74261	Kurzhaarfrisur (schwarz)	Schwarzes, fransiges Haar im Ninja-Look.
+74262	Kurzhaarfrisur (blond)	Blondes, fransiges Haar im Ninja-Look.
+74265	Blumenhut	Ein Blumenhut für weibliche Ninja.
+74267	Sandmaske	Ein Gesichtsschleier aus einem sehr wertvollen Stoff für weibliche Ninja.
+74268	Wüstenschal	Ein Wüstenschal für weibliche Ninja aus einem edlen Stoff.
+74269	Turban	Eine Kopfbedeckung aus feinstem Stoff für weibliche Ninja.
+74501	Sportliche Frisur (weiß)	Eine militärisch wirkende Kurzhaarfrisur.
+74502	Sportliche Frisur (bra.)	Eine militärisch wirkende Kurzhaarfrisur.
+74503	Sportliche Frisur (blo.)	Eine militärisch wirkende Kurzhaarfrisur.
+74504	Sportliche Frisur (grün)	Eine militärisch wirkende Kurzhaarfrisur.
+74505	Charisma-Frisur (weiß)	Eine Frisur, die deinen individuellen Charakter unterstreicht.
+74506	Charisma-Frisur (rot)	Eine Frisur, die deinen individuellen Charakter unterstreicht.
+74507	Charisma-Frisur (schwa.)	Eine Frisur, die deinen individuellen Charakter unterstreicht.
+74508	Charisma-Frisur (viole.)	Eine Frisur, die deinen individuellen Charakter unterstreicht.
+74509	Langer Zopf (weiß)	Zopf im alten Stil, der einst ein Symbol der Reichen war.
+74510	Langer Zopf (blau)	Zopf im alten Stil, der einst ein Symbol der Reichen war.
+74511	Langer Zopf (schwarz)	Zopf im alten Stil, der einst ein Symbol der Reichen war.
+74512	Langer Zopf (braun)	Zopf im alten Stil, der einst ein Symbol der Reichen war.
+74515	Samurai-Helm	Ein Samurai-Helm für männliche Sura.
+74517	Fez	Eine rote Kopfbedeckung für männliche Sura.
+74518	Keffiyeh	Ein Kopftuch für männliche Sura.
+74519	Turban	Eine Kopfbedeckung aus feinstem Stoff für männliche Sura.
+74521	Modische Frisur (grau)	Eine Frisur, die dir ein markantes Äußeres verleiht.
+74522	Stirntuch (gelb)	Kurze schwarze Haare mit einem gelben Stirnband.
 74523	Lange Haare (blond)	Eine beeindruckende Frisur mit prachtvollem, blondem Haar.
-74524	Modische Frisur (gold)	Modisches goldbraunes, von einem Band geziertes Haar.
-74525	Stirntuch (schwarz)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten
-74526	Lange Haare (rubinrot)	Prachtvolles, rubinrotes Haar
-74527	Pferdeschwanz (rot)	Langes Haar, das zu einem Zopf gebunden ist.
-74528	Schulterlanges Haar/aqua	Eine dezente Frisur mit einem blauen Stirntuch
-74529	Kurzhaarfrisur (braun)	Eine praktische Kurzhaarfrisur, die ein düsteres Äußeres verleiht.
-74530	Pferdeschwanz (rot)	Langes rotes, zu einem Zopf gebundenes Haar - eine unter Frauen sehr beliebte Frisur
-74531	Schulterlanges Haar/schw	Eine freche, ausgefallene Frisur
-74532	Kurzhaarfrisur (grau)	Eine praktische Kurzhaarfrisur, die etwas Bedrohliches vermittelt.
-74533	Sportliche Frisur (schw)	Eine militärisch wirkende Kurzhaarfrisur
+74524	Modische Frisur (blond)	Modisches blondes, von einem Band geziertes Haar.
+74525	Stirntuch (schwarz)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten.
+74526	Lange Haare (rot)	Prachtvolles, rotes Haar.
+74527	Pferdeschwanz (rot)	Eine Frisur, bei der die Haare am Hinterkopf zusammengebunden sind.
+74528	Schulterlanges (b.)	Eine dezente Frisur mit einem blauen Stirntuch.
+74529	Kurzhaarfrisur (braun)	Eine Frisur, die ein düsteres Äußeres verleiht.
+74530	Pferdeschwanz (rot)	Langes rotes, zu einem Zopf gebundenes Haar.
+74531	Schulterlanges Haar (s.)	Eine freche, ausgefallene Frisur.
+74532	Kurzhaarfrisur (weiß)	Weißes, fransiges Haar im Ninja-Look.
+74533	Sportliche Frisur (sch.)	Eine militärisch wirkende Kurzhaarfrisur.
 74534	Charisma-Frisur (blond)	Eine Frisur, die deinen individuellen Charakter unterstreicht.
-74535	Langer Zopf (pink)	Zopf im alten Stil, der einst ein Symbol der Reichen war.
-74536	Sportliche Frisur (lila)	Eine extravagante Kurzhaarfrisur
-74537	Charisma-Frisur (blond)	Eine charismatische Frisur mit langem Haar
-74538	Langer Zopf (royal)	Zopf im alten Stil, der einst ein Symbol der Reichen war.
-74539	Edle Frisur (violett)	Eine edel wirkende Frisur mit zurückgehaltenem Haar
-74540	Halblanges Haar (dunkel)	Eine elegante Schamanenfrisur
-74541	Alte Haartracht (weiß)	Langes Haar, auf traditionelle Art getragen.
-74542	Edle Frisur (rot)	Eine mit einer Schmetterlings-Haarnadel elegant geschmückte Hochsteckfrisur
-74543	Halblanges Haar (weiß)	Elegant getragenes, glattes Haar
-74544	Alte Haartracht(schwarz)	Eine feminine Frisur mit langem, stufig geschnittenem Haar
+74535	Langer Zopf (rot)	Zopf im alten Stil, der einst ein Symbol der Reichen war.
+74536	Sportliche Frisur (lila)	Eine extravagante Frisur, die typisch für weibliche Sura ist.
+74537	Charisma-Frisur (blond)	Blondes, langes Haar im eigensinnigen Stil.
+74538	Langer Zopf (blau)	Eine Zopffrisur.
+74539	Edle Frisur (violett)	Ein modischer Schnitt, der dem Schamanen einen edlen Ausdruck verleiht.
+74540	Halblanges Haar (schwa.)	Glattes, schwarzes Haar.
+74541	Alte Haartracht (weiß)	Alte Haartracht der Krieger.
+74542	Edle Frisur (rot)	Eine mit einer Schmetterlings-Haarnadel elegant geschmückte Hochsteckfrisur.
+74543	Halblanges Haar (weiß)	Eine elegante Schamanenfrisur.
+74544	Alte Haartracht(schwa.)	Eine feminine Frisur mit langem, stufig geschnittenem Haar.
 74545	Stammeszöpfe (rot)	Mit roten Holzperlen verzierte Zöpfe, die die Stammeszugehörigkeit markieren.
 74546	Stammeszöpfe (gelb)	Mit gelben Holzperlen verzierte Zöpfe, die die Stammeszugehörigkeit markieren.
 74547	Stammeszöpfe (blau)	Mit blauen Holzperlen verzierte Zöpfe, die die Stammeszugehörigkeit markieren.
@@ -3231,106 +3219,86 @@
 74557	Kopfschutz (rot)	Aufwändig gearbeiteter Kopf- und Schläfenschutz mit traditionellem Haarschmuck.
 74558	Kopfschutz (blau)	Aufwändig gearbeiteter Kopf- und Schläfenschutz mit traditionellem Haarschmuck.
 74559	Kopfschutz (grün)	Aufwändig gearbeiteter Kopf- und Schläfenschutz mit traditionellem Haarschmuck.
-74751	Edle Frisur (braun)	Eine mit einer Schmetterlings-Haarnadel elegant geschmückte Hochsteckfrisur
-74752	Edle Frisur (schwarz)	Eine mit einer Schmetterlings-Haarnadel elegant geschmückte Hochsteckfrisur
-74753	Edle Frisur (blau)	Eine mit einer Schmetterlings-Haarnadel elegant geschmückte Hochsteckfrisur
-74754	Edle Frisur (hell)	Eine mit einer Schmetterlings-Haarnadel elegant geschmückte Hochsteckfrisur
-74755	Halblanges Haar (braun)	Eine elegante Schamanenfrisur
-74756	Halblanges Haar(schwarz)	Eine elegante Schamanenfrisur
-74757	Halblanges Haar (blond)	Eine elegante Schamanenfrisur
-74758	Halblanges Haar(violett)	Eine elegante Schamanenfrisur
-74759	Alte Haartracht (braun)	Eine feminine Frisur mit langem, stufig geschnittenem Haar
-74760	Alte Haartracht (hell)	Eine feminine Frisur mit langem, stufig geschnittenem Haar
-74761	Alte Haartracht(violett)	Eine feminine Frisur mit langem, stufig geschnittenem Haar
-74762	Alte Haartracht (rot)	Eine feminine Frisur mit langem, stufig geschnittenem Haar
-74763	Afro für Schamanin	Verleiht einer Schamanin einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74764	Afro für Schamanin	Verleiht einer Schamanin einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74765	Blumenhut für Schamanin	Verleiht einer Schamanin einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74766	Blumenhut für Schamanin	Verleiht einer Schamanin einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-74767	Sandmaske für Schamanin	Ein Gesichtsschleier aus einem sehr wertvollen Stoff für weibliche Schamanen. (Dauer 7 Tage)
-74768	Wüstenschal f. Schamanin	Ein Wüstenschal aus einem edlen Stoff für weibliche Schamanen. (Dauer 7 Tage)
-74769	Turban für Schamanin	Eine Kopfbedeckung aus feinstem Stoff für weibliche Schamanen. (Dauer 7 Tage)
-74770	Kürbismaske-Schamane (w)	Eine Maske für den weiblichen Schamanen in Form eines Kürbisses. Attribute und Dauer werden durch Zufall bestimmt. Sie ersetzt bereits vorhandene Frisuren.
+74751	Edle Frisur (braun)	Eine mit einer Schmetterlings-Haarnadel elegant geschmückte Hochsteckfrisur.
+74752	Edle Frisur (schwarz)	Eine mit einer Schmetterlings-Haarnadel elegant geschmückte Hochsteckfrisur.
+74753	Edle Frisur (blau)	Eine mit einer Schmetterlings-Haarnadel elegant geschmückte Hochsteckfrisur.
+74754	Edle Frisur (weiß)	Eine mit einer Schmetterlings-Haarnadel elegant geschmückte Hochsteckfrisur.
+74755	Halblanges Haar (braun)	Eine elegante Schamanenfrisur.
+74756	Halblanges Haar (schwa.)	Eine elegante Schamanenfrisur.
+74757	Halblanges Haar (blond)	Eine elegante Schamanenfrisur.
+74758	Halblanges Haar (viole.)	Eine elegante Schamanenfrisur.
+74759	Alte Haartracht (braun)	Eine feminine Frisur mit langem, stufig geschnittenem Haar.
+74760	Alte Haartracht (blond)	Eine feminine Frisur mit langem, stufig geschnittenem Haar.
+74761	Alte Haartracht (viole.)	Eine feminine Frisur mit langem, stufig geschnittenem Haar.
+74762	Alte Haartracht (rot)	Eine feminine Frisur mit langem, stufig geschnittenem Haar.
+74765	Blumenhut	Ein Blumenhut für weibliche Schamanen.
+74767	Sandmaske	Ein Gesichtsschleier aus einem sehr wertvollen Stoff für weibliche Schamanen.
+74768	Wüstenschal	Ein Wüstenschal aus einem edlen Stoff für weibliche Schamanen.
+74769	Turban	Eine Kopfbedeckung aus feinstem Stoff für weibliche Schamanen.
 75001	Modische Frisur (rot)	Modisches rotes, von einem Band geziertes Haar.
-75002	Modische Frisur (hell)	Modisches helles, von einem Band geziertes Haar.
+75002	Modische Frisur (vio)	Modisches violettes, von einem Band geziertes Haar.
 75003	Modische Frisur (blau)	Modisches blaues, von einem Band geziertes Haar.
 75004	Modische Frisur (braun)	Modisches braunes, von einem Band geziertes Haar.
-75005	Stirntuch (braun)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten
-75006	Stirntuch (blond)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten
-75007	Stirntuch (blau)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten
-75008	Stirntuch (grün)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten
-75009	Lange Haare (schwarz)	Prachtvolles, schwarzes Haar
-75010	Lange Haare (rot)	Prachtvolles, rotes Haar
-75011	Lange Haare (braun)	Prachtvolles, braunes Haar
-75012	Lange Haare (grün)	Prachtvolles, grünes Haar
-75013	Afro für Kriegerin	Verleiht einer Kriegerin einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75014	Afro für Kriegerin	Verleiht einer Kriegerin einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75015	Blumenhut für Kriegerin	Verleiht einer Kriegerin einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75016	Blumenhut für Kriegerin	Verleiht einer Kriegerin einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75017	Sandmaske für Kriegerin	Ein Gesichtsschleier aus einem sehr wertvollen Stoff für Kriegerinnen. (Dauer 7 Tage)
-75018	Wüstenschal f. Kriegerin	Ein Wüstenschal für weibliche Krieger aus einem edlen Stoff. (Dauer 7 Tage)
-75019	Turban für Kriegerin	Eine Kopfbedeckung aus feinstem Stoff für weibliche Krieger. (Dauer 7 Tage)
-75020	Kürbismaske-Krieger (w)	Eine Maske für den weiblichen Krieger in Form eines Kürbisses. Attribute und Dauer werden durch Zufall bestimmt. Sie ersetzt bereits vorhandene Frisuren.
-75201	Pferdeschwanz (braun)	Eine Frisur, bei der die Haare am Hinterkopf zusammengebunden sind
-75202	Pferdeschwanz (grün)	Eine Frisur, bei der die Haare am Hinterkopf zusammengebunden sind
-75203	Pferdeschwanz (blau)	Eine Frisur, bei der die Haare am Hinterkopf zusammengebunden sind
-75204	Pferdeschwanz (hell)	Eine Frisur, bei der die Haare am Hinterkopf zusammengebunden sind
-75205	Schulterlanges Haar(rot)	Eine dezente Frisur mit einem weißen Stirntuch
-75206	Schulterlanges Haar(br.)	Eine dezente Frisur mit einem grünen Stirntuch
-75207	Schulterlanges Haar/hell	Eine dezente Frisur mit einem hellen Stirntuch
-75208	Schulterlanges Haar/lila	Eine dezente Frisur mit einem rotem Stirntuch
-75209	Kurzhaarfrisur (rot)	Eine Frisur, die ein düsteres Äußeres verleiht
-75210	Kurzhaarfrisur (blau)	Eine Frisur, die ein düsteres Äußeres verleiht
-75211	Kurzhaarfrisur (schwarz)	Eine Frisur, die ein düsteres Äußeres verleiht
-75212	Kurzhaarfrisur (blond)	Eine Frisur, die ein düsteres Äußeres verleiht
-75213	Afro für Ninja (m)	Verleiht einem männlichen Ninja einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75214	Afro für Ninja (m)	Verleiht einem männlichen Ninja einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75215	Samurai-Helm Ninja (m)	Verleiht einem männlichen Ninja einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75216	Samurai-Helm Ninja (m)	Verleiht einem männlichen Ninja einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75217	Fez für Ninja (m)	Eine rote Kopfbedeckung für männliche Ninja. (Dauer 7 Tage)
-75218	Keffiyeh für Ninja (m)	Ein Kopftuch für männliche Ninja. Schützt gegen Wüstenstürme. (Dauer 7 Tage)
-75219	Turban für Ninja (m)	Eine Kopfbedeckung aus feinstem Stoff für männliche Ninja. (Dauer 7 Tage)
-75220	Kürbismaske-Ninja (m)	Eine Maske für den Ninja in Form eines Kürbisses. Attribute und Dauer werden durch Zufall bestimmt. Sie ersetzt bereits vorhandene Frisuren.
-75401	Sportliche Frisur (hell)	Eine extravagante Frisur, die typisch für weibliche Sura ist
-75402	Sportliche Frisur(braun)	Eine extravagante Frisur, die typisch für weibliche Sura ist
-75403	Sportliche Frisur(blond)	Eine extravagante Frisur, die typisch für weibliche Sura ist
-75404	Sportliche Frisur (grün)	Eine extravagante Frisur, die typisch für weibliche Sura ist
-75405	Charisma-Frisur (weiß)	Schlohweißes, langes Haar im eigensinnigen Stil
-75406	Charisma-Frisur (rot)	Rotes, langes Haar im eigensinnigen Stil
-75407	Charisma-Frisur(schwarz)	Rabenschwarzes, langes Haar im eigensinnigen Stil
-75408	Charisma-Frisur(violett)	Violettes, langes Haar im eigensinnigen Stil
-75409	Langer Zopf (weiß)	Eine Zopffrisur
-75410	Langer Zopf (blau)	Eine Zopffrisur
-75411	Langer Zopf (schwarz)	Eine Zopffrisur
-75412	Langer Zopf (braun)	Eine Zopffrisur
-75413	Afro für Sura (w)	Verleiht einem weiblichen Sura einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75414	Afro für Sura (w)	Verleiht einem weiblichen Sura einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75415	Blumenhut für Sura (w)	Verleiht einem weiblichen Sura einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75416	Blumenhut für Sura (w)	Verleiht einem weiblichen Sura einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75417	Sandmaske für Sura (w)	Ein Gesichtsschleier aus einem sehr wertvollen Stoff für weibliche Sura. (Dauer 7 Tage)
-75418	Wüstenschal für Sura (w)	Ein Wüstenschal aus einem edlen Stoff für weibliche Suras. (Dauer 7 Tage)
-75419	Turban für Sura (w)	Eine Kopfbedeckung aus feinstem Stoff für weibliche Sura. (Dauer 7 Tage)
-75420	Kürbismaske-Sura (w)	Eine Maske für den weiblichen Sura in Form eines Kürbisses. Attribute und Dauer werden durch Zufall bestimmt. Sie ersetzt bereits vorhandene Frisuren.
-75601	Edle Frisur (braun)	Ein modischer Schnitt, der dem Schamanen einen edlen Ausdruck verleiht
-75602	Edle Frisur (schwarz)	Ein modischer Schnitt, der dem Schamanen einen edlen Ausdruck verleiht
-75603	Edle Frisur (blau)	Ein modischer Schnitt, der dem Schamanen einen edlen Ausdruck verleiht
-75604	Edle Frisur (hell)	Ein modischer Schnitt, der dem Schamanen einen edlen Ausdruck verleiht
-75605	Halblanges Haar (braun)	Glattes, braunes Haar
-75606	Halblanges Haar(schwarz)	Glattes, schwarzes Haar
-75607	Halblanges Haar (blond)	Glattes, blondes Haar
-75608	Halblanges Haar(violett)	Glattes, violettes Haar
-75609	Alte Haartracht (braun)	Alte Haartracht der Krieger - die braunen Haare sind zu einem Zopf gebunden
-75610	Alte Haartracht (hell)	Alte Haartracht der Krieger - die hellen Haare sind zu einem Zopf gebunden
-75611	Alte Haartracht(violett)	Alte Haartracht der Krieger - die violetten Haare sind zu einem Zopf gebunden
-75612	Alte Haartracht (rot)	Alte Haartracht der Krieger - die roten Haare sind zu einem Zopf gebunden
-75613	Afro für Schamanen	Verleiht einem Schamanen einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75614	Afro für Schamanen	Verleiht einem Schamanen einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75615	Samurai-Helm Schamanen	Verleiht einem Schamanen einen TP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75616	Samurai-Helm Schamanen	Verleiht einem Schamanen einen MP-Bonus von 1%. Ersetzt vorhandene Frisur (Dauer 7 Tage).
-75617	Fez für Schamanen	Eine rote Kopfbedeckung für männliche Schamanen. (Dauer 7 Tage)
-75618	Keffiyeh für Schamanen	Ein Kopftuch für männliche Schamanen. Schützt gegen Wüstenstürme. (Dauer 7 Tage)
-75619	Turban für Schamanen	Eine Kopfbedeckung aus feinstem Stoff für männliche Schamanen. (Dauer 7 Tage)
-75620	Kürbismaske-Schamane (m)	Eine Maske für den Schamanen in Form eines Kürbisses. Attribute und Dauer werden durch Zufall bestimmt. Sie ersetzt bereits vorhandene Frisuren.
+75005	Stirntuch (braun)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten.
+75006	Stirntuch (blond)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten.
+75007	Stirntuch (blau)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten.
+75008	Stirntuch (grün)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten.
+75009	Lange Haare (schwarz)	Prachtvolles, schwarzes Haar.
+75010	Lange Haare (rot)	Prachtvolles, rotes Haar.
+75011	Lange Haare (braun)	Prachtvolles, braunes Haar.
+75012	Lange Haare (grün)	Prachtvolles, grünes Haar.
+75015	Blumenhut	Ein Blumenhut für weibliche Krieger.
+75017	Sandmaske	Ein Gesichtsschleier aus einem sehr wertvollen Stoff für Kriegerinnen.
+75018	Wüstenschal	Ein Wüstenschal für weibliche Krieger aus einem edlen Stoff.
+75019	Turban	Eine Kopfbedeckung aus feinstem Stoff für weibliche Krieger.
+75201	Pferdeschwanz (braun)	Eine Frisur, bei der die Haare am Hinterkopf zusammengebunden sind.
+75202	Pferdeschwanz (grün)	Eine Frisur, bei der die Haare am Hinterkopf zusammengebunden sind.
+75203	Pferdeschwanz (blau)	Eine Frisur, bei der die Haare am Hinterkopf zusammengebunden sind.
+75204	Pferdeschwanz (blond)	Eine Frisur, bei der die Haare am Hinterkopf zusammengebunden sind.
+75205	Schulterlanges Haar (r.)	Eine dezente Frisur mit einem weißen Stirntuch.
+75206	Schulterlanges Haar (b.)	Eine dezente Frisur mit einem grünen Stirntuch.
+75207	Schulterlanges Haar (b.)	Eine dezente Frisur mit einem braunen Stirntuch.
+75208	Schulterlanges Haar (l.)	Eine dezente Frisur mit einem orangenen Stirntuch.
+75209	Kurzhaarfrisur (rot)	Eine Frisur, die ein düsteres Äußeres verleiht.
+75210	Kurzhaarfrisur (blau)	Eine Frisur, die ein düsteres Äußeres verleiht.
+75211	Kurzhaarfrisur (schwarz)	Eine Frisur, die ein düsteres Äußeres verleiht.
+75212	Kurzhaarfrisur (blond)	Eine Frisur, die ein düsteres Äußeres verleiht.
+75215	Samurai-Helm	Ein Samurai-Helm für männliche Ninja.
+75217	Fez	Eine rote Kopfbedeckung für männliche Ninja.
+75218	Keffiyeh	Ein Kopftuch für männliche Ninja. Schützt gegen Wüstenstürme.
+75219	Turban	Eine Kopfbedeckung aus feinstem Stoff für männliche Ninja.
+75401	Sportliche Frisur (grau)	Eine extravagante Frisur, die typisch für weibliche Sura ist.
+75402	Sportliche Frisur (bra.)	Eine extravagante Frisur, die typisch für weibliche Sura ist.
+75403	Sportliche Frisur (blo.)	Eine extravagante Frisur, die typisch für weibliche Sura ist.
+75404	Sportliche Frisur (grün)	Eine extravagante Frisur, die typisch für weibliche Sura ist.
+75405	Charisma-Frisur (weiß)	Weißes, langes Haar im eigensinnigen Stil.
+75406	Charisma-Frisur (rot)	Rotes, langes Haar im eigensinnigen Stil.
+75407	Charisma-Frisur (schwa.)	Schwarzes, langes Haar im eigensinnigen Stil.
+75408	Charisma-Frisur (viole.)	Violettes, langes Haar im eigensinnigen Stil.
+75409	Langer Zopf (weiß)	Eine Zopffrisur.
+75410	Langer Zopf (blau)	Eine Zopffrisur.
+75411	Langer Zopf (schwarz)	Eine Zopffrisur.
+75412	Langer Zopf (braun)	Eine Zopffrisur.
+75415	Blumenhut	Ein Blumenhut für weibliche Sura.
+75417	Sandmaske	Ein Gesichtsschleier aus einem sehr wertvollen Stoff für weibliche Sura.
+75418	Wüstenschal	Ein Wüstenschal aus einem edlen Stoff für weibliche Suras.
+75419	Turban	Eine Kopfbedeckung aus feinstem Stoff für weibliche Sura.
+75601	Edle Frisur (braun)	Ein modischer Schnitt, der dem Schamanen einen edlen Ausdruck verleiht.
+75602	Edle Frisur (schwarz)	Ein modischer Schnitt, der dem Schamanen einen edlen Ausdruck verleiht.
+75603	Edle Frisur (blau)	Ein modischer Schnitt, der dem Schamanen einen edlen Ausdruck verleiht.
+75604	Edle Frisur (grau)	Ein modischer Schnitt, der dem Schamanen einen edlen Ausdruck verleiht.
+75605	Halblanges Haar (braun)	Glattes, braunes Haar.
+75606	Halblanges Haar (schwa.)	Glattes, schwarzes Haar.
+75607	Halblanges Haar (blond)	Glattes, blondes Haar.
+75608	Halblanges Haar (viole.)	Glattes, violettes Haar.
+75609	Alte Haartracht (braun)	Alte Haartracht der Krieger.
+75610	Alte Haartracht (braun)	Alte Haartracht der Krieger.
+75611	Alte Haartracht (viole.)	Alte Haartracht der Krieger.
+75612	Alte Haartracht (rot)	Alte Haartracht der Krieger.
+75615	Samurai-Helm	Ein Samurai-Helm für männliche Schamanen.
+75617	Fez	Eine rote Kopfbedeckung für männliche Schamanen.
+75618	Keffiyeh	Ein Kopftuch für männliche Schamanen. Schützt gegen Wüstenstürme.
+75619	Turban	Eine Kopfbedeckung aus feinstem Stoff für männliche Schamanen.
 76000	Pfirsichblütenwein	Getränk, das deine TP augenblicklich um 500 Punkte regeneriert.
 76001	Status-Neuverteilung	Die Anwendung dieses Gegenstandes ermöglicht es dir, deine Statuspunkte neu zu verteilen. So kannst du die Entwicklung deines Charakters in eine andere Richtung lenken.
 76002	Schrumpfkopf	Dieser Dämonenschrumpfkopf öffnet das Siegel zur 3. Ebene der Devil's Catacomb.
