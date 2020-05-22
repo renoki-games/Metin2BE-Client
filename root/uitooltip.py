@@ -1252,12 +1252,13 @@ class ItemToolTip(ToolTip):
 		return itemVnum > 75000 and itemVnum < 76000
 
 	def __IsNewHair3(self, itemVnum):
-		return ((74012 < itemVnum and itemVnum < 74022) or
-			(74262 < itemVnum and itemVnum < 74272) or
-			(74512 < itemVnum and itemVnum < 74522) or
-			(74544 < itemVnum and itemVnum < 74560) or
-			(74762 < itemVnum and itemVnum < 74772) or
-			(45000 < itemVnum and itemVnum < 47000))
+		return (
+            (74013 <= itemVnum and itemVnum <= 74026) or        # Kostümfrisuren
+			(74263 <= itemVnum and itemVnum <= 74272) or        # Kostümfrisuren
+			(74513 <= itemVnum and itemVnum <= 74544) or        # 4 Rassen
+			#(74545 <= itemVnum and itemVnum <= 74560) or       # Lycaner
+			(74763 <= itemVnum and itemVnum <= 74772) or
+			(45001 <= itemVnum and itemVnum <= 47000))          # Kostümfrisuren
 
 	def __AppendHairIcon(self, itemVnum):
 		itemImage = ui.ImageBox()
