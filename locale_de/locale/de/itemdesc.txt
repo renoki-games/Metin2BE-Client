@@ -1978,8 +1978,16 @@
 50105	Feuerwerk	Erleuchtet den Himmel während eines Festivals weiß.
 50106	Weihnachtsfeuerwerk	Dieses Festfeuerwerk ist nicht nur farbenprächtiger, sondern brennt auch länger als ein normales.
 50108	Feuerwerkskreisel	Ein Bodenfeuerwerk, das goldene und silberne Funken versprüht.
-50118	Drachen-Schatztruhe	
-50119	Metinstein-Beutel	
+50109	Roter Ebenholzkasten	Enthält eine wertvolle Belohnung.
+50110	Prunk Ebenholzkasten	Enthält eine wertvolle Belohnung.
+50111	Gelber Ebenholzkasten	Enthält eine wertvolle Belohnung.
+50112	Hellgrüner Ebenholzkasten	Enthält eine wertvolle Belohnung.
+50113	Grüner Ebenholzkasten	Enthält eine wertvolle Belohnung.
+50114	Blauer Ebenholzkasten	Enthält eine wertvolle Belohnung.
+50115	Purpur Ebenholzkasten	Enthält eine wertvolle Belohnung.
+50116	Schwarzer Ebenholzkasten	Enthält eine wertvolle Belohnung.
+50118	Drachen-Schatztruhe	Enthält eine wertvolle Belohnung.
+50119	Metinstein-Beutel	Enthält eine wertvolle Belohnung.
 50120	Eisenkassette	Das stabile Behältnis stammt aus der Grotte der Verbannung.
 50121	Eisenkiste	Das stabile Behältnis stammt aus der Grotte der Verbannung.
 50122	Eisentruhe	Das stabile Behältnis stammt aus der Grotte der Verbannung.
