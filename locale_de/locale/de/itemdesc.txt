@@ -10,46 +10,46 @@
 11902	Smoking	Ein eleganter Anzug, den man bei der Hochzeit trägt.
 11903	Brautkleid	Ein besonderes Kleid, das eine Frau bei ihrer Hochzeit trägt.
 11904	Brautkleid	Ein besonderes Kleid, das eine Frau bei ihrer Hochzeit trägt.
-12690	Drachenstahlhelm +0	
-12691	Drachenstahlhelm +1	
-12692	Drachenstahlhelm +2	
-12693	Drachenstahlhelm +3	
-12694	Drachenstahlhelm +4	
-12695	Drachenstahlhelm +5	
-12696	Drachenstahlhelm +6	
-12697	Drachenstahlhelm +7	
-12698	Drachenstahlhelm +8	
-12699	Drachenstahlhelm +9	
-12700	Drachenkapuze +0	
-12701	Drachenkapuze +1	
-12702	Drachenkapuze +2	
-12703	Drachenkapuze +3	
-12704	Drachenkapuze +4	
-12705	Drachenkapuze +5	
-12706	Drachenkapuze +6	
-12707	Drachenkapuze +7	
-12708	Drachenkapuze +8	
-12709	Drachenkapuze +9	
-12710	Drachenpanzerhelm +0	
-12711	Drachenpanzerhelm +1	
-12712	Drachenpanzerhelm +2	
-12713	Drachenpanzerhelm +3	
-12714	Drachenpanzerhelm +4	
-12715	Drachenpanzerhelm +5	
-12716	Drachenpanzerhelm +6	
-12717	Drachenpanzerhelm +7	
-12718	Drachenpanzerhelm +8	
-12719	Drachenpanzerhelm +9	
-12720	Drachenhut +0	
-12721	Drachenhut +1	
-12722	Drachenhut +2	
-12723	Drachenhut +3	
-12724	Drachenhut +4	
-12725	Drachenhut +5	
-12726	Drachenhut +6	
-12727	Drachenhut +7	
-12728	Drachenhut +8	
-12729	Drachenhut +9	
+12690	Drachenstahlhelm+0	
+12691	Drachenstahlhelm+1	
+12692	Drachenstahlhelm+2	
+12693	Drachenstahlhelm+3	
+12694	Drachenstahlhelm+4	
+12695	Drachenstahlhelm+5	
+12696	Drachenstahlhelm+6	
+12697	Drachenstahlhelm+7	
+12698	Drachenstahlhelm+8	
+12699	Drachenstahlhelm+9	
+12700	Drachenkapuze+0	
+12701	Drachenkapuze+1	
+12702	Drachenkapuze+2	
+12703	Drachenkapuze+3	
+12704	Drachenkapuze+4	
+12705	Drachenkapuze+5	
+12706	Drachenkapuze+6	
+12707	Drachenkapuze+7	
+12708	Drachenkapuze+8	
+12709	Drachenkapuze+9	
+12710	Drachenpanzerhelm+0	
+12711	Drachenpanzerhelm+1	
+12712	Drachenpanzerhelm+2	
+12713	Drachenpanzerhelm+3	
+12714	Drachenpanzerhelm+4	
+12715	Drachenpanzerhelm+5	
+12716	Drachenpanzerhelm+6	
+12717	Drachenpanzerhelm+7	
+12718	Drachenpanzerhelm+8	
+12719	Drachenpanzerhelm+9	
+12720	Drachenhut+0	
+12721	Drachenhut+1	
+12722	Drachenhut+2	
+12723	Drachenhut+3	
+12724	Drachenhut+4	
+12725	Drachenhut+5	
+12726	Drachenhut+6	
+12727	Drachenhut+7	
+12728	Drachenhut+8	
+12729	Drachenhut+9	
 15440	Feuerschuhe+0	
 15441	Feuerschuhe+1	
 15442	Feuerschuhe+2	
@@ -383,16 +383,16 @@
 21127	Ersatzrüstung Wolfman	Ersatzrüstung Wolfman
 21128	Ersatzrüstung Wolfman	Ersatzrüstung Wolfman
 21129	Ersatzrüstung Wolfman	Ersatzrüstung Wolfman
-21550	Drachenhornhelm +0	
-21551	Drachenhornhelm +1	
-21552	Drachenhornhelm +2	
-21553	Drachenhornhelm +3	
-21554	Drachenhornhelm +4	
-21555	Drachenhornhelm +5	
-21556	Drachenhornhelm +6	
-21557	Drachenhornhelm +7	
-21558	Drachenhornhelm +8	
-21559	Drachenhornhelm +9	
+21550	Drachenhornhelm+0	
+21551	Drachenhornhelm+1	
+21552	Drachenhornhelm+2	
+21553	Drachenhornhelm+3	
+21554	Drachenhornhelm+4	
+21555	Drachenhornhelm+5	
+21556	Drachenhornhelm+6	
+21557	Drachenhornhelm+7	
+21558	Drachenhornhelm+8	
+21559	Drachenhornhelm+9	
 21560	NoNAme	
 21561	NoNAme	
 21562	NoNAme	
@@ -1669,11 +1669,11 @@
 45002	Hasenohren (braun)	Braune Mütze mit Hasenohren für ihn
 45003	Kopftuch (m)	Eine Kopfbedeckung aus feinstem Stoff für Männer.
 45004	Kopftuch (w)	Eine Kopfbedeckung aus feinstem Stoff für Frauen.
-45005	OlaSeku (m)	Oben lang, Seite kurz - extravaganter Sidecut für Männer.
-45006	Fechtfrisur (w)	Eine sportliche Frisur für Fechterinnen.
-45007	Irokesenschnitt (m)	Frisur in Stil der Irokesen. Haare stehen in der Mitte senkrecht nach oben, Seiten sind kurz rasiert.
+45005	Sidecut	Oben lang, Seite kurz. Extravaganter Sidecut für Männer.
+45006	Frisur (rot)	Eine wunderschöne rote Frisur.
+45007	Irokesenschnitt	Frisur im Stil der Irokesen. Haare stehen in der Mitte senkrecht nach oben, Seiten sind kurz rasiert.
 45008	Fußballfrisur GER (w)	Eine sportliche Frisur mit Haarband in den deutschen Nationalfarben für Fußballerinnen.
-45009	Rastalocken (m)	Die langen Haare sind zu Rastalocken gedreht und am Hinterkopf zusammengebunden.
+45009	Rastalocken	Die langen Haare sind zu Rastalocken gedreht und am Hinterkopf zusammengebunden.
 45010	Boxfrisur GER (w)	Eine sportliche Frisur mit Haarband in den deutschen Nationalfarben für Boxerinnen.
 45011	Kopftuch+ (m)	Eine Kopfbedeckung aus feinstem Stoff für Männer. Verleiht dir mind. einen zufälligen Bonus.
 45012	Kopftuch+ (w)	Eine Kopfbedeckung aus feinstem Stoff für Frauen.
@@ -1685,7 +1685,7 @@
 45018	Boxfrisur GER (w)	Eine sportliche Frisur mit Haarband in den deutschen Nationalfarben für Boxerinnen.
 45019	Boxfrisur TUR (w)	Eine sportliche Frisur mit Haarband in den türkischen Nationalfarben für Boxerinnen.
 45020	Boxfrisur BRA (w)	Eine sportliche Frisur mit Haarband in den brasilianischen Nationalfarben für Boxerinnen.
-45021	Boxfrisur (w)	Eine sportliche Frisur mit buntem Haarband für Boxerinnen.
+45021	Haarbandfrisur	Eine sportliche Frisur mit buntem Haarband.
 45022	Boxfrisur FRA (w)	Eine sportliche Frisur mit Haarband in den französischen Nationalfarben für Boxerinnen.
 45023	Boxfrisur ITA (w)	Eine sportliche Frisur mit Haarband in den italienischen Nationalfarben für Boxerinnen.
 45024	Boxfrisur POL (w)	Eine sportliche Frisur mit Haarband in den polnischen Nationalfarben für Boxerinnen.
@@ -1693,7 +1693,7 @@
 45026	Boxfrisur ESP (w)	Eine sportliche Frisur mit Haarband in den spanischen Nationalfarben für Boxerinnen.
 45027	Fußballfrisur TUR (w)	Eine sportliche Frisur mit Haarband in den türkischen Nationalfarben für Fußballerinnen.
 45028	Fußballfrisur BRA (w)	Eine sportliche Frisur mit Haarband in den brasilianischen Nationalfarben für Fußballerinnen.
-45029	Fußballfrisur (w)	Eine sportliche Frisur mit buntem Haarband für Fußballerinnen.
+45029	Haarbandfrisur	Eine sportliche Frisur mit buntem Haarband.
 45030	Fußballfrisur FRA (w)	Eine sportliche Frisur mit Haarband in den französischen Nationalfarben für Fußballerinnen.
 45031	Fußballfrisur ITA (w)	Eine sportliche Frisur mit Haarband in den italienischen Nationalfarben für Fußballerinnen.
 45032	Fußballfrisur POL (w)	Eine sportliche Frisur mit Haarband in den polnischen Nationalfarben für Fußballerinnen.
@@ -1715,10 +1715,10 @@
 45048	Fußballfrisur POL (w)	Eine sportliche Frisur mit Haarband in den polnischen Nationalfarben für Fußballerinnen.
 45049	Fußballfrisur ROU (w)	Eine sportliche Frisur mit Haarband in den rumänischen Nationalfarben für Fußballerinnen.
 45050	Fußballfrisur ESP (w)	Eine sportliche Frisur mit Haarband in den spanischen Nationalfarben für Fußballerinnen.
-45053	Musketier-Frisur	Gepflegte blonde Kurzhaarfrisur für den perfekten Musketier-Look.
-45054	Dienstmädchenhaube	Blonder Pagenschnitt mit Dienstmädchenhaube.
-45055	Mini-Iro	Auffallender Kurzhaarschnitt im Irokesen-Stil.
-45056	Salsa-Knoten	Elegante Hochsteckfrisur mit roter Blume.
+45053	Kurzhaarfrisur	Gepflegte blonde Kurzhaarfrisur.
+45054	Haube	Blonder Pagenschnitt mit einer Haube.
+45055	Irokesenfrisur	Auffallende Irokesenfrisur.
+45056	Hochsteckfrisur	Elegante Hochsteckfrisur mit roter Blume.
 45057	Bogarthut	Klassischer Filzhut im Humphrey-Bogart-Stil.
 45058	Blumenfrisur	Süße Flechtfrisur mit buntem Blumenschmuck.
 45061	Kürbis-Maske	Ein ausgehöhlter Kürbis. Geräumig, gut belüftet und ordentlich gruselig.
@@ -1743,16 +1743,16 @@
 45084	Elfenhut+	Schneeweiße Kopfbedeckung mit filigranen Flügeln. Verleiht dir mind. einen zufälligen Bonus.
 45085	Rentierkopf+ (m)	Rentiermaske zum Überziehen mit roter Nase und Geweih für ihn. Verleiht dir mind. einen zufälligen Bonus.
 45086	Rentierkopf+ (w)	Rentiermaske zum Überziehen mit roter Nase und Geweih für sie. Verleiht dir mind. einen zufälligen Bonus.
-45087	Bandana (weiß)	Weißes Dreieckstuch für Männer, das um den Kopf gebunden wird. Beliebt bei Sportfans.
-45088	Bandana (weiß)	Weißes Dreieckstuch für Frauen, das um den Kopf gebunden wird. Beliebt bei Sportfans.
-45089	Bandana (schwarz)	Schwarzes Dreieckstuch für Männer, das um den Kopf gebunden wird. Beliebt bei Sportfans.
-45090	Bandana (schwarz)	Schwarzes Dreieckstuch für Frauen, das um den Kopf gebunden wird. Beliebt bei Sportfans.
-45091	Bandana (gelb)	Gelbes Dreieckstuch für Männer, das um den Kopf gebunden wird. Beliebt bei Sportfans.
-45092	Bandana (gelb)	Gelbes Dreieckstuch für Frauen, das um den Kopf gebunden wird. Beliebt bei Sportfans.
-45093	Bandana (orange)	Orangefarbenes Dreieckstuch für Männer, das um den Kopf gebunden wird. Beliebt bei Sportfans.
-45094	Bandana (orange)	Orangefarbenes Dreieckstuch für Frauen, das um den Kopf gebunden wird. Beliebt bei Sportfans.
-45095	Bandana (blau)	Blaues Dreieckstuch für Männer, das um den Kopf gebunden wird. Beliebt bei Sportfans.
-45096	Bandana (blau)	Blaues Dreieckstuch für Frauen, das um den Kopf gebunden wird. Beliebt bei Sportfans.
+45087	Bandana (weiß)	Weißes Dreieckstuch für Männer, das um den Kopf gebunden wird.
+45088	Bandana (weiß)	Weißes Dreieckstuch für Frauen, das um den Kopf gebunden wird.
+45089	Bandana (schwarz)	Schwarzes Dreieckstuch für Männer, das um den Kopf gebunden wird.
+45090	Bandana (schwarz)	Schwarzes Dreieckstuch für Frauen, das um den Kopf gebunden wird.
+45091	Bandana (gelb)	Gelbes Dreieckstuch für Männer, das um den Kopf gebunden wird.
+45092	Bandana (gelb)	Gelbes Dreieckstuch für Frauen, das um den Kopf gebunden wird.
+45093	Bandana (orange)	Orangefarbenes Dreieckstuch für Männer, das um den Kopf gebunden wird.
+45094	Bandana (orange)	Orangefarbenes Dreieckstuch für Frauen, das um den Kopf gebunden wird.
+45095	Bandana (blau)	Blaues Dreieckstuch für Männer, das um den Kopf gebunden wird.
+45096	Bandana (blau)	Blaues Dreieckstuch für Frauen, das um den Kopf gebunden wird.
 45097	Bandana+ (weiß)	Weißes Dreieckstuch für Männer, das um den Kopf gebunden wird. Beliebt bei Sportfans. Verleiht dir mindestens einen zufälligen Bonus.
 45098	Bandana+ (weiß)	Weißes Dreieckstuch für Frauen, das um den Kopf gebunden wird. Beliebt bei Sportfans. Verleiht dir mindestens einen zufälligen Bonus.
 45099	Bandana+ (schwarz)	Schwarzes Dreieckstuch für Männer, das um den Kopf gebunden wird. Beliebt bei Sportfans. Verleiht dir mindestens einen zufälligen Bonus.
@@ -1779,8 +1779,8 @@
 45132	Häschenohren+ (blau)	Blaue Hasenohren für sie. Verleiht dir mind. einen zufälligen Bonus.
 45133	Häschenohren+ (grün)	Grüne Hasenohren für sie. Verleiht dir mind. einen zufälligen Bonus.
 45134	Häschenohren+ (pink)	Pinkfarbene Hasenohren für sie. Verleiht dir mind. einen zufälligen Bonus.
-45135	Kobrafrisur (m)	Zum Kobragewand passende Kopfbedeckung
-45136	Kobrafrisur (w)	Zum Kobragewand passende Kopfbedeckung
+45135	Kobrafrisur	Eine gefährlich aussehende Kopfbedeckung.
+45136	Kobrafrisur	Eine gefährlich aussehende Kopfbedeckung.
 45137	Kobrafrisur+ (m)	Zum Kobragewand passende Kopfbedeckung. Verleiht dir mindestens einen zufälligen Bonus.
 45138	Kobrafrisur+ (w)	Zum Kobragewand passende Kopfbedeckung. Verleiht dir mindestens einen zufälligen Bonus.
 45139	Tengu-Maske	Kunstvoll geschnitzte Maske einer japanischen Gottheit
@@ -1803,8 +1803,8 @@
 45157	Jack-Pumpkin-Kopf (w)	Schaurig-schöne Halloweenmaske
 45158	Jack-Pumpkin-Kopf+ (m)	Schaurig-schöne Halloweenmaske. Verleiht dir mind. einen zufälligen Bonus.
 45159	Jack-Pumpkin-Kopf+ (w)	Schaurig-schöne Halloweenmaske. Verleiht dir mind. einen zufälligen Bonus.
-45160	Mondsternfrisur (m)	Hochgebundene Rastazöpfe, rot-weiß eingefärbt.
-45161	Mondsternfrisur (w)	Hochgebundene Rastazöpfe, rot-weiß eingefärbt, mit Stirnband.
+45160	Mondsternfrisur	Hochgebundene Rastazöpfe, rotweiß eingefärbt.
+45161	Mondsternfrisur	Hochgebundene Rastazöpfe, rotweiß eingefärbt, mit Stirnband.
 45162	Mondsternfrisur+ (m)	Hochgebundene Rastazöpfe, rot-weiß eingefärbt. Verleihen dir mindestens einen zufälligen Bonus.
 45163	Mondsternfrisur+ (w)	Hochgebundene Rastazöpfe, rot-weiß eingefärbt, mit Stirnband. Verleihen dir mindestens einen zufälligen Bonus.
 45164	Schneehasenmütze	Kopfbedeckung in Form eines Schneehasen
@@ -1833,10 +1833,10 @@
 45195	Hasenohren+ (braun)	Mütze mit Hasenohren aus weichem, braunem Fell. Verleiht dir mindestens einen zufälligen Bonus.
 45196	Osterkopfschmuck+ (bunt)	Bunt schillernder Osterkopfschmuck für die modebewusste Kämpferin. Verleiht dir mindestens einen zufälligen Bonus.
 45197	Osterkopfschmuck+ (blau)	Fröhlicher hellblauer Osterkopfschmuck für die modebewusste Kämpferin. Verleiht dir mindestens einen zufälligen Bonus.
-45198	Brauner Turban	Ein edler, brauner Turban aus widerstandsfähigem Stoff für den Kämpfer.
-45199	Weißer Turban	Ein edler, weißer Turban aus widerstandsfähigem Stoff für den Kämpfer.
-45200	Braunes Kopftuch	Ein braunes Kopftuch aus leichtem Stoff für die Kämpferin.
-45201	Weißes Kopftuch	Ein weißes Kopftuch aus leichtem Stoff für die Kämpferin.
+45198	Turban (braun)	Ein edler, brauner Turban aus widerstandsfähigem Stoff für den Kämpfer.
+45199	Turban (weiß)	Ein edler, weißer Turban aus widerstandsfähigem Stoff für den Kämpfer.
+45200	Kopftuch (braun)	Ein braunes Kopftuch aus leichtem Stoff für die Kämpferin.
+45201	Kopftuch (weiß)	Ein weißes Kopftuch aus leichtem Stoff für die Kämpferin.
 45202	Brauner Turban+	Ein edler, brauner Turban aus widerstandsfähigem Stoff für den Kämpfer. Verleiht dir mindestens einen zufälligen Bonus.
 45203	Weißer Turban+	Ein edler, weißer Turban aus widerstandsfähigem Stoff für den Kämpfer. Verleiht dir mindestens einen zufälligen Bonus.
 45204	Braunes Kopftuch+	Ein braunes Kopftuch aus leichtem Stoff für die Kämpferin. Verleiht dir mindestens einen zufälligen Bonus.
