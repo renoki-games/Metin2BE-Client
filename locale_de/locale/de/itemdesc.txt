@@ -3190,7 +3190,7 @@
 74519	Turban	Eine Kopfbedeckung aus feinstem Stoff für männliche Sura.
 74521	Modische Frisur (grau)	Eine Frisur, die dir ein markantes Äußeres verleiht.
 74522	Stirntuch (gelb)	Kurze schwarze Haare mit einem gelben Stirnband.
-74523	Lange Haare (blond)	Eine beeindruckende Frisur mit prachtvollem, blondem Haar.
+74523	Lange Haare (blond)	Eine Frisur, die ein beeindruckendes Äußeres verleiht.
 74524	Modische Frisur (blond)	Modisches blondes, von einem Band geziertes Haar.
 74525	Stirntuch (schwarz)	Eine zerzaust wirkende Frisur, durch ein Stirntuch im Zaum gehalten.
 74526	Lange Haare (rot)	Prachtvolles, rotes Haar.
