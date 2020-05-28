@@ -1,7 +1,7 @@
 1	Noname	1	1	1	0	HP	-( 1.1*atk + (0.5*atk +  1.5 * str)*k)	40+100*k			12	-( 1.1*atk + (0.5*atk +  1.5 * str)*k)		ATTACK,USE_MELEE_DAMAGE		NONE				0	0	MELEE	5	1	0	0
 2	Noname	1	1	1	0	HP	-(3*atk + (0.8*atk + str*5 + dex*3 +con)*k)	50+130*k			15	-(3*atk + (0.8*atk + str*5 + dex*3 +con)*k)		ATTACK,USE_MELEE_DAMAGE		NONE				0	0	MELEE	12	1	0	200
 3	Noname	1	1	1	0	ATT_SPEED	50*k	50+140*k	60+90*k			50*k		SELFONLY,TOGGLE	JEONGWIHON	MOV_SPEED	20*k	60+90*k		0	0	NORMAL	1	1	0	0
-4	Noname	1	1	1	0	ATT_GRADE	(100 + str + lv * 3)*k	100+200*k	30+50*k			(100 + str + lv * 3)*k		SELFONLY,TOGGLE	GEOMGYEONG	NONE				0	0	NORMAL	1	1	0	0
+4	Noname	1	1	1	0	ATT_GRADE	(100 + str + lv * 3)*k	100+200*k	60+90*k			(100 + str + lv * 3)*k		SELFONLY,TOGGLE	GEOMGYEONG	NONE				0	0	NORMAL	1	1	0	0
 5	Noname	1	1	1	0	HP	-(2*atk + (atk + dex*3 + str*7 + con)*k)	60+120*k			12	-(2*atk + (atk + dex*3 + str*7 + con)*k)		ATTACK,SPLASH,USE_MELEE_DAMAGE,CRUSH		MOV_SPEED	150	3		0	0	MELEE	4	1	0	200
 6	Noname	1	1	1	0	HP	-(3*atk+(atk+1.5*str)*k)*1.07	300+150*k			60	-(3*atk+(atk+1.5*str)*k)*1.07		ATTACK,USE_MELEE_DAMAGE		NONE				0	0	MELEE	5	1	0	0
 16	Noname	1	1	1	0	HP	-(2.3*atk + (4*atk  + str*4 + con)*k)	60+120*k			15	-(2.3*atk + (4*atk  + str*4 + con)*k)		ATTACK,USE_MELEE_DAMAGE		NONE				0	0	MELEE	4	1	0	100
@@ -24,13 +24,13 @@
 51	Noname	2	1	1	0	HP	-((atk+(1.2*atk+number(100,200)+dex*6+str*2)*k)*1.1)	200+200*k			60	-((atk+(1.2*atk+number(100,200)+dex*6+str*2)*k)*1.1)		SPLASH,ATTACK_POISON,CRUSH,ATTACK,USE_ARROW_DAMAGE		NONE	80*k	15+30*k		0	0	NORMAL	5	1	0	0
 61	Noname	3	1	1	0	HP	-(atk + 2*lv + iq*2 + ( 2*atk + str*4 + iq*14) * k)	30+140*k			10	-(atk + 2*lv + iq*2 + ( 2*atk + str*4 + iq*14) * k)		ATTACK,PENETRATE,USE_MELEE_DAMAGE		NONE	1+k*9			0	0	MELEE	4	1	0	0
 62	Noname	3	1	1	0	HP	-(1.1 * atk + 2*lv + iq*2+(1.5*atk + str + iq*12) * k)	50+150*k			15	-(1.1 * atk + 2*lv + iq*2+(1.5*atk + str + iq*12) * k)		SPLASH,USE_MELEE_DAMAGE,ATTACK,IGNORE_TARGET_RATING,SELFONLY		NONE	1+k*9			0	0	MELEE	12	1	0	500
-63	Noname	3	1	1	0	ATT_GRADE	(3 * iq + 2 * lv)*k	20+240*k	50+100*k	2+23*k		(3 * iq + 2 * lv)*k		SELFONLY,TOGGLE	GWIGUM	HIT_HP_RECOVER	10*k	50+80*k		0	0	NORMAL	1	1	0	0
+63	Noname	3	1	1	0	ATT_GRADE	(3 * iq + 2 * lv)*k	20+240*k	60+100*k	2+23*k		(3 * iq + 2 * lv)*k		SELFONLY,TOGGLE	GWIGUM	HIT_HP_RECOVER	10*k	50+80*k		0	0	NORMAL	1	1	0	0
 64	Noname	3	1	1	0	DODGE	1 + 29 * k	60+120*k	60+100*k			1 + 29 * k		SELFONLY,TOGGLE	TERROR	NONE				0	0	NORMAL	1	1	0	0
-65	Noname	3	1	1	0	DEF_GRADE	(iq+30)*k	70+170*k	30+120*k			(iq+30)*k		SELFONLY,TOGGLE	JUMAGAP	REFLECT_MELEE	(iq/4+10)*k	30+120*k		0	0	NORMAL	1	1	0	0
+65	Noname	3	1	1	0	DEF_GRADE	(iq+30)*k	70+170*k	60+100*k			(iq+30)*k		SELFONLY,TOGGLE	JUMAGAP	REFLECT_MELEE	(iq/4+10)*k	30+120*k		0	0	NORMAL	1	1	0	0
 66	Noname	3	1	1	0	HP	-(40 +5*lv + 2*iq+(10*iq + 7*mwep + number(50,100) )*ar*k)	30+120*k			12	-(40 +5*lv + 2*iq+(10*iq + 7*mwep + number(50,100) )*ar*k)		ATTACK,REMOVE_GOOD_AFFECT,SPLASH,COMPUTE_MAGIC_DAMAGE		NONE	10+40*k	7+23*k		0	0	NORMAL	5	0.6	1800	200
 76	Noname	3	1	1	0	HP	-(40 +5*lv + 2*iq +(13*iq + 6*mwep + number(50,100) )*ar*k)	30+140*k			7	-(40 +5*lv + 2*iq +(13*iq + 6*mwep + number(50,100) )*ar*k)		ATTACK,SPLASH,COMPUTE_MAGIC_DAMAGE		NONE				0	0	MAGIC	5	0.6	1500	200
 77	Noname	3	1	1	0	HP	-(5*lv + 2*iq+(10*iq + 6*mwep + str*4 + con*2 + number(180,200) )*k)	60+140*k			12	-(5*lv + 2*iq+(10*iq + 6*mwep + str*4 + con*2 + number(180,200) )*k)		ATTACK,SELFONLY,SPLASH,COMPUTE_MAGIC_DAMAGE		NONE				0	0	MAGIC	15	0.8	0	500
-78	Noname	3	1	1	0	HP	-(30+ 2*lv + 2*iq+(7*iq + 6*mwep + number(200,500))*ar*k)	20+30*k	40+30*k	5+40*k		-(30+ 2*lv + 2*iq+(7*iq + 6*mwep + number(200,500))*ar*k)		ATTACK,TOGGLE,SPLASH,COMPUTE_MAGIC_DAMAGE		NONE				0	0	MAGIC	1	1	800	0
+78	Noname	3	1	1	0	HP	-(30+ 2*lv + 2*iq+(7*iq + 6*mwep + number(200,500))*ar*k)	20+30*k	60+120*k	5+40*k		-(30+ 2*lv + 2*iq+(7*iq + 6*mwep + number(200,500))*ar*k)		ATTACK,TOGGLE,SPLASH,COMPUTE_MAGIC_DAMAGE		NONE				0	0	MAGIC	1	1	800	0
 79	Noname	3	1	1	0	DEF_GRADE	(0.5*iq+15)*k	20+30*k	60+120*k	5+10*k		(0.5*iq+15)*k		SELFONLY,TOGGLE	MANASHIELD	MANASHIELD	100-((iq*0.84)*k)	60+10*k		0	0	MAGIC	1	0.8	0	0
 80	Noname	3	1	1	0	HP	-(40 + 2* lv + 2*iq +(2 * con + 2 * dex + 13*iq + 6*mwep + number(180, 200))*ar*k)	40+120*k			12	-(40 + 2* lv + 2*iq +(2 * con + 2 * dex + 13*iq + 6*mwep + number(180, 200))*ar*k)		ATTACK,ATTACK_SLOW,SPLASH,COMPUTE_MAGIC_DAMAGE		NONE	333+300*k	10+10*k		0	0	MAGIC	9	0.8	1200	400
 81	Noname	3	1	1	0	HP	-(120 + 6*lv + (5 * con + 5 * dex + 29*iq + 9*mwep)*ar*k)	80+220*k			24	-(120 + 6*lv + (5 * con + 5 * dex + 29*iq + 9*mwep)*ar*k)		ATTACK,SPLASH,COMPUTE_MAGIC_DAMAGE		NONE				0	0	MAGIC	9	0.4	1500	200
@@ -39,7 +39,7 @@
 93	Noname	4	1	1	0	HP	-(80 + 6*lv + (20*iq+14*mwep+120)*ar*k)	50+160*k			20	-(80 + 6*lv + (20*iq+14*mwep+120)*ar*k)		ATTACK,SELFONLY,ATTACK_FIRE_CONT,SPLASH		NONE	lv+5*iq *k	iq*0.2*k		0	0	MAGIC	15	0.8	0	500
 94	Noname	4	1	1	0	RESIST_NORMAL	(iq*0.3+5)*(2*k+0.5)/(k+1.5)	40+160*k	60+200*k			(iq*0.3+5)*(2*k+0.5)/(k+1.5)		TOGGLE	HOSIN	NONE				0	0	NORMAL	1	1	800	0
 95	Noname	4	1	1	0	REFLECT_MELEE	5+(iq*0.3 + 5)*k	40+160*k	60+200*k			5+(iq*0.3 + 5)*k		TOGGLE	BOHO	NONE				0	0	NORMAL	1	1	1000	0
-96	Noname	4	1	1	0	CRITICAL	(iq*0.3+5)*(2*k+0.5)/(k+1.5)	40+160*k	60+100*k			(iq*0.3+5)*(2*k+0.5)/(k+1.5)		TOGGLE	GICHEON	NONE				0	0	NORMAL	1	1	1000	0
+96	Noname	4	1	1	0	CRITICAL	(iq*0.3+5)*(2*k+0.5)/(k+1.5)	40+160*k	60+200*k			(iq*0.3+5)*(2*k+0.5)/(k+1.5)		TOGGLE	GICHEON	NONE				0	0	NORMAL	1	1	1000	0
 106	Noname	4	1	1	0	HP	-(60 + 4*lv + (7*iq+8*mwep+number(iq*5,iq*15))*ar*k)	30+150*k			7	-(60 + 4*lv + (7*iq+8*mwep+number(iq*5,iq*15))*ar*k)		ATTACK,SPLASH		NONE				0	0	MAGIC	5	0.6	1800	200
 107	Noname	4	1	1	0	HP	-(40 + 4*lv + (13*iq+7*mwep+number(iq*5,iq*16))*ar*k)	50+150*k			15	-(40 + 4*lv + (13*iq+7*mwep+number(iq*5,iq*16))*ar*k)		ATTACK,ATTACK_STUN,SPLASH		NONE	50+1000*k/6	5		0	0	MAGIC	15	0.8	1500	400
 108	Noname	4	1	1	0	HP	-(50 + 5*lv + (6*iq+6*mwep+number(1,800))*ar*k) * (1-chain*0.13)	40+180*k			10	-(50 + 5*lv + (6*iq+6*mwep+number(1,800))*ar*k) * (1-chain*0.13)		ATTACK		NONE				0	0	MAGIC	7	0.8	2500	0

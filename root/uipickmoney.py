@@ -73,10 +73,7 @@ class PickMoneyDialog(ui.ScriptWindow):
 
 		self.SetPosition(xPos, mouseY - self.GetHeight() - 20)
 
-		if localeInfo.IsARABIC():
-			self.maxValueTextLine.SetText("/" + str(maxValue))
-		else:
-			self.maxValueTextLine.SetText(" / " + str(maxValue))
+		self.maxValueTextLine.SetText(" / " + localeInfo.NumberToMoneyString(maxValue))
 
 		self.pickValueEditLine.SetText(str(unitValue))
 		self.pickValueEditLine.SetFocus()
