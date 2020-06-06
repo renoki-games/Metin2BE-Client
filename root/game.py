@@ -1706,6 +1706,9 @@ class GameWindow(ui.ScriptWindow):
 		self.interface.bigBoard.SetTip(message)
 
 	def BINARY_SetTipMessage(self, message):
+		if constInfo.tipBoardDisabled:
+			return
+
 		self.interface.tipBoard.SetTip(message)
 
 	def BINARY_AppendNotifyMessage(self, type):
