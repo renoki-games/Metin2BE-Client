@@ -1,3 +1,4 @@
+import localeInfo
 import uiScriptLocale
 
 ROOT = "d:/ymir work/ui/game/"
@@ -10,8 +11,8 @@ window = {
 
 	"style" : ("movable", "float",),
 
-	"width" : 282,
-	"height" : 190,
+	"width" : 430,
+	"height" : 197,
 
 	"children" :
 	(
@@ -23,8 +24,8 @@ window = {
 			"x" : 0,
 			"y" : 0,
 
-			"width" : 282,
-			"height" : 190,
+			"width" : 430,
+			"height" : 197,
 
 			"children" :
 			(
@@ -34,15 +35,15 @@ window = {
 					"type" : "titlebar",
 					"style" : ("attach",),
 
-					"x" : 8,
+					"x" : 3,
 					"y" : 8,
  
-					"width" : 266,
+					"width" : 421,
 					"color" : "gray",
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":133, "y":3, "text":uiScriptLocale.EXCHANGE_TITLE, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":215, "y":3, "text":localeInfo.EXCHANGE_TITLE, "text_horizontal_align":"center" },
 					),
 				},
 
@@ -51,17 +52,8 @@ window = {
 					"name" : "Middle_Bar",
 					"type" : "image",
 
-					"x" : 139,
-					"y" : 31,
-
-					"image" : ROOT + "windows/middlebar.sub",
-				},
-                {
-					"name" : "Middle_Bar",
-					"type" : "image",
-
-					"x" : 139,
-					"y" : 54,
+					"x" : 213,
+					"y" : 46,
 
 					"image" : ROOT + "windows/middlebar.sub",
 				},
@@ -71,11 +63,11 @@ window = {
 					"name" : "Owner",
 					"type" : "window",
 
-					"x" : 144,
+					"x" : 228,
 					"y" : 33,
 
-					"width" : 130,
-					"height" : 150,
+					"width" : 194,
+					"height" : 160,
 
 					"children" :
 					(
@@ -88,8 +80,8 @@ window = {
 							"x" : 0,
 							"y" : 0,
 
-							"x_count" : 4,
-							"y_count" : 3,
+							"x_count" : 6,
+							"y_count" : 4,
 							"x_step" : 32,
 							"y_step" : 32,
 							"x_blank" : 0,
@@ -101,14 +93,12 @@ window = {
 							"name" : "Owner_Money",
 							"type" : "button",
 
-							"x" : 5,
-							"y" : 102,
+							"x" : 0,
+							"y" : 135,
 
-							#"image" : "d:/ymir work/ui/public/parameter_slot_02.sub",
-
-							"default_image" : "d:/ymir work/ui/public/parameter_slot_03.sub",
-							"over_image" : "d:/ymir work/ui/public/parameter_slot_03.sub",
-							"down_image" : "d:/ymir work/ui/public/parameter_slot_03.sub",
+							"default_image" : "d:/ymir work/ui/public/parameter_slot_05.sub",
+							"over_image" : "d:/ymir work/ui/public/parameter_slot_05.sub",
+							"down_image" : "d:/ymir work/ui/public/parameter_slot_05.sub",
 
 							"children" :
 							(
@@ -116,11 +106,12 @@ window = {
 									"name" : "Owner_Money_Value",
 									"type" : "text",
 
-									"x" : 88,
+									"x" : 2,
 									"y" : 2,
 
 									"text" : "1234567",
 
+									"horizontal_align" : "right",
 									"text_horizontal_align" : "right",
 								},
 							),
@@ -129,8 +120,8 @@ window = {
 							"name" : "Owner_Accept_Light",
 							"type" : "button",
 
-							"x" : 96,
-							"y" : 101,
+							"x" : 131,
+							"y" : 134,
 
 							"default_image" : "d:/ymir work/ui/game/windows/accept_button_off.sub",
 							"over_image" : "d:/ymir work/ui/game/windows/accept_button_off.sub",
@@ -139,16 +130,15 @@ window = {
 						{
 							"name" : "Owner_Accept_Button",
 							"type" : "toggle_button",
-                            ##"horizontal_align" : "center",
-                            
-							"x" : 20,
-							"y" : 125,
+
+							"x" : 152,
+							"y" : 134,
 
 							"text" : uiScriptLocale.EXCHANGE_ACCEPT,
 
-							"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
-							"over_image" : "d:/ymir work/ui/public/large_button_02.sub",
-							"down_image" : "d:/ymir work/ui/public/large_button_03.sub",
+							"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
+							"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
+							"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
 						},
 					),
 				},
@@ -161,8 +151,8 @@ window = {
 					"x" : 10,
 					"y" : 33,
 
-					"width" : 130,
-					"height" : 130,
+					"width" : 194,
+					"height" : 160,
 
 					"children" :
 					(
@@ -175,8 +165,8 @@ window = {
 							"x" : 0,
 							"y" : 0,
 
-							"x_count" : 4,
-							"y_count" : 3,
+							"x_count" : 6,
+							"y_count" : 4,
 							"x_step" : 32,
 							"y_step" : 32,
 							"x_blank" : 0,
@@ -189,9 +179,9 @@ window = {
 							"type" : "image",
 
 							"x" : 0,
-							"y" : 102,
+							"y" : 134,
 
-							"image" : "d:/ymir work/ui/public/parameter_slot_03.sub",
+							"image" : "d:/ymir work/ui/public/parameter_slot_05.sub",
 
 							"children" :
 							(
@@ -199,11 +189,12 @@ window = {
 									"name" : "Target_Money_Value",
 									"type" : "text",
 
-									"x" : 88,
+									"x" : 2,
 									"y" : 2,
 
 									"text" : "1234567",
 
+									"horizontal_align" : "right",
 									"text_horizontal_align" : "right",
 								},
 							),
@@ -212,8 +203,8 @@ window = {
 							"name" : "Target_Accept_Light",
 							"type" : "button",
 
-							"x" : 93,
-							"y" : 101,
+							"x" : 131,
+							"y" : 134,
 
 							"default_image" : "d:/ymir work/ui/game/windows/accept_button_off.sub",
 							"over_image" : "d:/ymir work/ui/game/windows/accept_button_off.sub",

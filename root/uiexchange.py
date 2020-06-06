@@ -202,8 +202,8 @@ class ExchangeDialog(ui.ScriptWindow):
 		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
 			self.RefreshLockedSlot()
 
-		self.OwnerMoney.SetText(localeInfo.NumberToMoneyString(str(exchange.GetElkFromSelf())))
-		self.TargetMoney.SetText(localeInfo.NumberToMoneyString(str(exchange.GetElkFromTarget())))
+		self.OwnerMoney.SetText(localeInfo.NumberToMoneyString(exchange.GetElkFromSelf()))
+		self.TargetMoney.SetText(localeInfo.NumberToMoneyString(exchange.GetElkFromTarget()))
 
 		if True == exchange.GetAcceptFromSelf():
 			self.OwnerAcceptLight.Down()
@@ -239,6 +239,10 @@ class ExchangeDialog(ui.ScriptWindow):
 			if self.interface:
 				self.interface.SetOnTopWindow(player.ON_TOP_WND_EXCHANGE)
 				self.interface.RefreshMarkInventoryBag()
+
+	def OnPressEscapeKey(self):
+		net.SendExchangeExitPacket()
+		return True
 
 	def OnUpdate(self):
 
