@@ -14,7 +14,7 @@ Group MotionEventData
         
         IndependentFlag      0
         AttachingEnable      0
-        AttachingBoneName    "Bip01 HeadNub"
+        AttachingBoneName    "Bip01 Head"
         FollowingEnable      0
         EffectFileName       "d:/ymir work/pc/warrior/effect/samyeon_d.mse"
         EffectPosition       -100.000000 -80.000000 80.000000
@@ -26,7 +26,7 @@ Group MotionEventData
         
         IndependentFlag      0
         AttachingEnable      0
-        AttachingBoneName    "Bip01 HeadNub"
+        AttachingBoneName    "Bip01 Head"
         FollowingEnable      0
         EffectFileName       "d:/ymir work/pc/warrior/effect/samyeon_d.mse"
         EffectPosition       80.000000 -120.000000 70.000000
@@ -38,7 +38,7 @@ Group MotionEventData
         
         IndependentFlag      0
         AttachingEnable      0
-        AttachingBoneName    "Bip01 HeadNub"
+        AttachingBoneName    "Bip01 Head"
         FollowingEnable      0
         EffectFileName       "d:/ymir work/pc/warrior/effect/samyeon_d.mse"
         EffectPosition       0.000000 -100.000000 80.000000

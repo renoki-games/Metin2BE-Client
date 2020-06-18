@@ -35,7 +35,7 @@ Group MotionEventData
         
         IndependentFlag      1
         AttachingEnable      0
-        AttachingBoneName    "Bip01 HeadNub"
+        AttachingBoneName    "Bip01 Head"
         FollowingEnable      0
         EffectFileName       "d:/ymir work/pc/common/effect/horse_charge.mse"
         EffectPosition       0.000000 0.000000 0.000000

@@ -53,7 +53,16 @@ window = {
 					"type" : "image",
 
 					"x" : 213,
-					"y" : 46,
+					"y" : 30,
+
+					"image" : ROOT + "windows/middlebar.sub",
+				},
+				{
+					"name" : "Middle_Bar",
+					"type" : "image",
+
+					"x" : 213,
+					"y" : 60,
 
 					"image" : ROOT + "windows/middlebar.sub",
 				},

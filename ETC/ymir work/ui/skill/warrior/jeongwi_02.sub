@@ -1,7 +1,7 @@
 title subImage
 version 1.0
 image "SkillWarrior.dds"
-left 96
+left 192
 top 64
-right 128
+right 224
 bottom 96

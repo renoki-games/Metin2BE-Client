@@ -13,7 +13,7 @@ Group MotionEventData
         
         IndependentFlag      0
         AttachingEnable      0
-        AttachingBoneName    "Bip01 HeadNub"
+        AttachingBoneName    "Bip01 Head"
         FollowingEnable      0
         EffectFileName       "d:/ymir work/effect/etc/dig/dig.mse"
         EffectPosition       0.000000 -120.000000 70.000000

@@ -154,9 +154,9 @@ class BigBoard(ui.Bar):
 	LINE_CHANGE_LIMIT_WIDTH = 350
 
 	FRAME_IMAGE_FILE_NAME_LIST = [
-		"season1/interface/oxevent/frame_0.sub",
-		"season1/interface/oxevent/frame_1.sub",
-		"season1/interface/oxevent/frame_2.sub",
+		"d:/ymir work/ui/game/oxevent/frame_0.sub",
+		"d:/ymir work/ui/game/oxevent/frame_1.sub",
+		"d:/ymir work/ui/game/oxevent/frame_2.sub",
 	]
 
 	FRAME_IMAGE_STEP = 256

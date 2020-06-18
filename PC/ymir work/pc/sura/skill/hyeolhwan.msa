@@ -12,7 +12,7 @@ Group MotionEventData
         StartingTime         0.107692
 
         AttachingEnable      0
-        AttachingBoneName    "Bip01 HeadNub"
+        AttachingBoneName    "Bip01 Head"
         FollowingEnable      0
         EffectFileName       "d:/ymir work/pc/sura/effect/hyeolhwan.mse"
         EffectPosition       0.000000 0.000000 0.000000

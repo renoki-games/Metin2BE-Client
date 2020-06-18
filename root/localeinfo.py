@@ -644,11 +644,11 @@ MODE_NAME_LIST = ( PVP_OPTION_NORMAL, PVP_OPTION_REVENGE, PVP_OPTION_KILL, PVP_O
 TITLE_NAME_LIST = ( PVP_LEVEL0, PVP_LEVEL1, PVP_LEVEL2, PVP_LEVEL3, PVP_LEVEL4, PVP_LEVEL5, PVP_LEVEL6, PVP_LEVEL7, PVP_LEVEL8, )
 
 def GetLetterImageName():
-	return "season1/icon/scroll_close.tga"
+	return "icon/scroll_close.tga"
 def GetLetterOpenImageName():
-	return "season1/icon/scroll_open.tga"
+	return "icon/scroll_open.tga"
 def GetLetterCloseImageName():
-	return "season1/icon/scroll_close.tga"
+	return "icon/scroll_close.tga"
 
 if 949 == app.GetDefaultCodePage():
 	def EUL(name):

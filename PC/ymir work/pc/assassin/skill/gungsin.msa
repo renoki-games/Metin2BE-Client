@@ -26,7 +26,7 @@ Group MotionEventData
         
         IndependentFlag      0
         AttachingEnable      0
-        AttachingBoneName    "Bip01 HeadNub"
+        AttachingBoneName    "Bip01 Head"
         FollowingEnable      0
         EffectFileName       "d:/ymir work/pc/assassin/effect/gungsintanyeong_end.mse"
         EffectPosition       0.000000 0.000000 0.000000

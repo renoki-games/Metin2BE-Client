@@ -4,7 +4,7 @@ app.ServerName = None
 
 SRV1 = {
 	"name":"Alpha",
-	"host":"45.85.216.15",
+	"host":"45.85.218.22",
 	"auth1":30001,
 	"ch1":30003,
 	"ch2":30007,

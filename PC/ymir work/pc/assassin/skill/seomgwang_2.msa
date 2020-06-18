@@ -6,7 +6,7 @@ Accumulation           0.00	-219.45	0.00
 
 Group MotionEventData
 {
-    MotionEventDataCount     3
+    MotionEventDataCount     4
     Group Event00
     {
         MotionEventType      1
@@ -22,11 +22,11 @@ Group MotionEventData
     Group Event01
     {
         MotionEventType      1
-        StartingTime         0.523114
+        StartingTime         0.520681
         
         IndependentFlag      0
         AttachingEnable      0
-        AttachingBoneName    "Bip01 HeadNub"
+        AttachingBoneName    "Bip01 Head"
         FollowingEnable      0
         EffectFileName       "d:/ymir work/pc/assassin/effect/taeyang_blow_2.mse"
         EffectPosition       0.000000 0.000000 0.000000
@@ -39,5 +39,27 @@ Group MotionEventData
         DuringTime           0.100000
         Power                50
         AffectingRange       100
+    }
+    Group Event03
+    {
+        MotionEventType      4
+        StartingTime         0.547445
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.200000
+        ExternalForce        0.000000
+        HitLimitCount        5
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           300.000000
+            Position         0.000000 0.000000 0.000000
+        }
     }
 }

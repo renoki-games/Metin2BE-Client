@@ -14,7 +14,7 @@ Group MotionEventData
         
         IndependentFlag      0
         AttachingEnable      1
-        AttachingBoneName    "Bip01 L Finger1Nub"
+        AttachingBoneName    "Bip01 L Finger1"
         FollowingEnable      1
         EffectFileName       "d:/ymir work/pc/sura/effect/muyeong_4_making.mse"
         EffectPosition       0.000000 0.000000 0.000000

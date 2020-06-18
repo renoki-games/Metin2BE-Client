@@ -1,7 +1,7 @@
 ScriptType               MotionData
 
 MotionFileName           "D:\YMIR WORK\pc\sura\horse_onehand_sword\skill_wildattack.GR2"
-MotionDuration           2.333333
+MotionDuration           2.000000
 
 Group AttackingData
 {

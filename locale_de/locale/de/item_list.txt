@@ -299,26 +299,6 @@
 307	WEAPON	icon/item/00300.tga	d:/ymir work/item/weapon/00300.gr2
 308	WEAPON	icon/item/00300.tga	d:/ymir work/item/weapon/00300.gr2
 309	WEAPON	icon/item/00300.tga	d:/ymir work/item/weapon/00300.gr2
-460	WEAPON	icon/item/00460.tga	d:/ymir work/item/weapon/00460.gr2
-461	WEAPON	icon/item/00460.tga	d:/ymir work/item/weapon/00460.gr2
-462	WEAPON	icon/item/00460.tga	d:/ymir work/item/weapon/00460.gr2
-463	WEAPON	icon/item/00460.tga	d:/ymir work/item/weapon/00460.gr2
-464	WEAPON	icon/item/00460.tga	d:/ymir work/item/weapon/00460.gr2
-465	WEAPON	icon/item/00460.tga	d:/ymir work/item/weapon/00460.gr2
-466	WEAPON	icon/item/00460.tga	d:/ymir work/item/weapon/00460.gr2
-467	WEAPON	icon/item/00460.tga	d:/ymir work/item/weapon/00460.gr2
-468	WEAPON	icon/item/00460.tga	d:/ymir work/item/weapon/00460.gr2
-469	WEAPON	icon/item/00460.tga	d:/ymir work/item/weapon/00460.gr2
-470	WEAPON	icon/item/00470.tga	d:/ymir work/item/weapon/00470.gr2
-471	WEAPON	icon/item/00470.tga	d:/ymir work/item/weapon/00470.gr2
-472	WEAPON	icon/item/00470.tga	d:/ymir work/item/weapon/00470.gr2
-473	WEAPON	icon/item/00470.tga	d:/ymir work/item/weapon/00470.gr2
-474	WEAPON	icon/item/00470.tga	d:/ymir work/item/weapon/00470.gr2
-475	WEAPON	icon/item/00470.tga	d:/ymir work/item/weapon/00470.gr2
-476	WEAPON	icon/item/00470.tga	d:/ymir work/item/weapon/00470.gr2
-477	WEAPON	icon/item/00470.tga	d:/ymir work/item/weapon/00470.gr2
-478	WEAPON	icon/item/00470.tga	d:/ymir work/item/weapon/00470.gr2
-479	WEAPON	icon/item/00470.tga	d:/ymir work/item/weapon/00470.gr2
 1000	WEAPON	icon/item/01000.tga	d:/ymir work/item/weapon/01000.gr2
 1001	WEAPON	icon/item/01000.tga	d:/ymir work/item/weapon/01000.gr2
 1002	WEAPON	icon/item/01000.tga	d:/ymir work/item/weapon/01000.gr2
@@ -509,16 +489,6 @@
 1187	WEAPON	icon/item/01180.tga	d:/ymir work/item/weapon/01180.gr2
 1188	WEAPON	icon/item/01180.tga	d:/ymir work/item/weapon/01180.gr2
 1189	WEAPON	icon/item/01180.tga	d:/ymir work/item/weapon/01180.gr2
-1340	WEAPON	icon/item/01340.tga	d:/ymir work/item/weapon/01340.gr2
-1341	WEAPON	icon/item/01340.tga	d:/ymir work/item/weapon/01340.gr2
-1342	WEAPON	icon/item/01340.tga	d:/ymir work/item/weapon/01340.gr2
-1343	WEAPON	icon/item/01340.tga	d:/ymir work/item/weapon/01340.gr2
-1344	WEAPON	icon/item/01340.tga	d:/ymir work/item/weapon/01340.gr2
-1345	WEAPON	icon/item/01340.tga	d:/ymir work/item/weapon/01340.gr2
-1346	WEAPON	icon/item/01340.tga	d:/ymir work/item/weapon/01340.gr2
-1347	WEAPON	icon/item/01340.tga	d:/ymir work/item/weapon/01340.gr2
-1348	WEAPON	icon/item/01340.tga	d:/ymir work/item/weapon/01340.gr2
-1349	WEAPON	icon/item/01340.tga	d:/ymir work/item/weapon/01340.gr2
 2000	WEAPON	icon/item/02000.tga	d:/ymir work/item/weapon/02000.gr2
 2001	WEAPON	icon/item/02000.tga	d:/ymir work/item/weapon/02000.gr2
 2002	WEAPON	icon/item/02000.tga	d:/ymir work/item/weapon/02000.gr2
@@ -719,16 +689,6 @@
 2197	WEAPON	icon/item/02190.tga	d:/ymir work/item/weapon/02190.gr2
 2198	WEAPON	icon/item/02190.tga	d:/ymir work/item/weapon/02190.gr2
 2199	WEAPON	icon/item/02190.tga	d:/ymir work/item/weapon/02190.gr2
-2370	WEAPON	icon/item/02370.tga	d:/ymir work/item/weapon/02370.gr2
-2371	WEAPON	icon/item/02370.tga	d:/ymir work/item/weapon/02370.gr2
-2372	WEAPON	icon/item/02370.tga	d:/ymir work/item/weapon/02370.gr2
-2373	WEAPON	icon/item/02370.tga	d:/ymir work/item/weapon/02370.gr2
-2374	WEAPON	icon/item/02370.tga	d:/ymir work/item/weapon/02370.gr2
-2375	WEAPON	icon/item/02370.tga	d:/ymir work/item/weapon/02370.gr2
-2376	WEAPON	icon/item/02370.tga	d:/ymir work/item/weapon/02370.gr2
-2377	WEAPON	icon/item/02370.tga	d:/ymir work/item/weapon/02370.gr2
-2378	WEAPON	icon/item/02370.tga	d:/ymir work/item/weapon/02370.gr2
-2379	WEAPON	icon/item/02370.tga	d:/ymir work/item/weapon/02370.gr2
 3000	WEAPON	icon/item/03000.tga	d:/ymir work/item/weapon/03000.gr2
 3001	WEAPON	icon/item/03000.tga	d:/ymir work/item/weapon/03000.gr2
 3002	WEAPON	icon/item/03000.tga	d:/ymir work/item/weapon/03000.gr2
@@ -1179,116 +1139,6 @@
 5337	WEAPON	icon/item/05330.tga	d:/ymir work/item/weapon/05330.gr2
 5338	WEAPON	icon/item/05330.tga	d:/ymir work/item/weapon/05330.gr2
 5339	WEAPON	icon/item/05330.tga	d:/ymir work/item/weapon/05330.gr2
-5340	WEAPON	icon/item/05340.tga	d:/ymir work/item/weapon/05340.gr2
-5341	WEAPON	icon/item/05340.tga	d:/ymir work/item/weapon/05340.gr2
-5342	WEAPON	icon/item/05340.tga	d:/ymir work/item/weapon/05340.gr2
-5343	WEAPON	icon/item/05340.tga	d:/ymir work/item/weapon/05340.gr2
-5344	WEAPON	icon/item/05340.tga	d:/ymir work/item/weapon/05340.gr2
-5345	WEAPON	icon/item/05340.tga	d:/ymir work/item/weapon/05340.gr2
-5346	WEAPON	icon/item/05340.tga	d:/ymir work/item/weapon/05340.gr2
-5347	WEAPON	icon/item/05340.tga	d:/ymir work/item/weapon/05340.gr2
-5348	WEAPON	icon/item/05340.tga	d:/ymir work/item/weapon/05340.gr2
-5349	WEAPON	icon/item/05340.tga	d:/ymir work/item/weapon/05340.gr2
-6000	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2
-6001	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2
-6002	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2
-6003	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2
-6004	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2
-6005	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2
-6006	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2
-6007	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2
-6008	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2
-6009	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2
-6010	WEAPON	icon/item/06010.tga	d:/ymir work/item/weapon/06010.gr2
-6011	WEAPON	icon/item/06010.tga	d:/ymir work/item/weapon/06010.gr2
-6012	WEAPON	icon/item/06010.tga	d:/ymir work/item/weapon/06010.gr2
-6013	WEAPON	icon/item/06010.tga	d:/ymir work/item/weapon/06010.gr2
-6014	WEAPON	icon/item/06010.tga	d:/ymir work/item/weapon/06010.gr2
-6015	WEAPON	icon/item/06010.tga	d:/ymir work/item/weapon/06010.gr2
-6016	WEAPON	icon/item/06010.tga	d:/ymir work/item/weapon/06010.gr2
-6017	WEAPON	icon/item/06010.tga	d:/ymir work/item/weapon/06010.gr2
-6018	WEAPON	icon/item/06010.tga	d:/ymir work/item/weapon/06010.gr2
-6019	WEAPON	icon/item/06010.tga	d:/ymir work/item/weapon/06010.gr2
-6020	WEAPON	icon/item/06020.tga	d:/ymir work/item/weapon/06020.gr2
-6021	WEAPON	icon/item/06020.tga	d:/ymir work/item/weapon/06020.gr2
-6022	WEAPON	icon/item/06020.tga	d:/ymir work/item/weapon/06020.gr2
-6023	WEAPON	icon/item/06020.tga	d:/ymir work/item/weapon/06020.gr2
-6024	WEAPON	icon/item/06020.tga	d:/ymir work/item/weapon/06020.gr2
-6025	WEAPON	icon/item/06020.tga	d:/ymir work/item/weapon/06020.gr2
-6026	WEAPON	icon/item/06020.tga	d:/ymir work/item/weapon/06020.gr2
-6027	WEAPON	icon/item/06020.tga	d:/ymir work/item/weapon/06020.gr2
-6028	WEAPON	icon/item/06020.tga	d:/ymir work/item/weapon/06020.gr2
-6029	WEAPON	icon/item/06020.tga	d:/ymir work/item/weapon/06020.gr2
-6030	WEAPON	icon/item/06030.tga	d:/ymir work/item/weapon/06030.gr2
-6031	WEAPON	icon/item/06030.tga	d:/ymir work/item/weapon/06030.gr2
-6032	WEAPON	icon/item/06030.tga	d:/ymir work/item/weapon/06030.gr2
-6033	WEAPON	icon/item/06030.tga	d:/ymir work/item/weapon/06030.gr2
-6034	WEAPON	icon/item/06030.tga	d:/ymir work/item/weapon/06030.gr2
-6035	WEAPON	icon/item/06030.tga	d:/ymir work/item/weapon/06030.gr2
-6036	WEAPON	icon/item/06030.tga	d:/ymir work/item/weapon/06030.gr2
-6037	WEAPON	icon/item/06030.tga	d:/ymir work/item/weapon/06030.gr2
-6038	WEAPON	icon/item/06030.tga	d:/ymir work/item/weapon/06030.gr2
-6039	WEAPON	icon/item/06030.tga	d:/ymir work/item/weapon/06030.gr2
-6040	WEAPON	icon/item/06040.tga	d:/ymir work/item/weapon/06040.gr2
-6041	WEAPON	icon/item/06040.tga	d:/ymir work/item/weapon/06040.gr2
-6042	WEAPON	icon/item/06040.tga	d:/ymir work/item/weapon/06040.gr2
-6043	WEAPON	icon/item/06040.tga	d:/ymir work/item/weapon/06040.gr2
-6044	WEAPON	icon/item/06040.tga	d:/ymir work/item/weapon/06040.gr2
-6045	WEAPON	icon/item/06040.tga	d:/ymir work/item/weapon/06040.gr2
-6046	WEAPON	icon/item/06040.tga	d:/ymir work/item/weapon/06040.gr2
-6047	WEAPON	icon/item/06040.tga	d:/ymir work/item/weapon/06040.gr2
-6048	WEAPON	icon/item/06040.tga	d:/ymir work/item/weapon/06040.gr2
-6049	WEAPON	icon/item/06040.tga	d:/ymir work/item/weapon/06040.gr2
-6050	WEAPON	icon/item/06050.tga	d:/ymir work/item/weapon/06050.gr2
-6051	WEAPON	icon/item/06050.tga	d:/ymir work/item/weapon/06050.gr2
-6052	WEAPON	icon/item/06050.tga	d:/ymir work/item/weapon/06050.gr2
-6053	WEAPON	icon/item/06050.tga	d:/ymir work/item/weapon/06050.gr2
-6054	WEAPON	icon/item/06050.tga	d:/ymir work/item/weapon/06050.gr2
-6055	WEAPON	icon/item/06050.tga	d:/ymir work/item/weapon/06050.gr2
-6056	WEAPON	icon/item/06050.tga	d:/ymir work/item/weapon/06050.gr2
-6057	WEAPON	icon/item/06050.tga	d:/ymir work/item/weapon/06050.gr2
-6058	WEAPON	icon/item/06050.tga	d:/ymir work/item/weapon/06050.gr2
-6059	WEAPON	icon/item/06050.tga	d:/ymir work/item/weapon/06050.gr2
-6060	WEAPON	icon/item/06060.tga	d:/ymir work/item/weapon/06060.gr2
-6061	WEAPON	icon/item/06060.tga	d:/ymir work/item/weapon/06060.gr2
-6062	WEAPON	icon/item/06060.tga	d:/ymir work/item/weapon/06060.gr2
-6063	WEAPON	icon/item/06060.tga	d:/ymir work/item/weapon/06060.gr2
-6064	WEAPON	icon/item/06060.tga	d:/ymir work/item/weapon/06060.gr2
-6065	WEAPON	icon/item/06060.tga	d:/ymir work/item/weapon/06060.gr2
-6066	WEAPON	icon/item/06060.tga	d:/ymir work/item/weapon/06060.gr2
-6067	WEAPON	icon/item/06060.tga	d:/ymir work/item/weapon/06060.gr2
-6068	WEAPON	icon/item/06060.tga	d:/ymir work/item/weapon/06060.gr2
-6069	WEAPON	icon/item/06060.tga	d:/ymir work/item/weapon/06060.gr2
-6070	WEAPON	icon/item/06070.tga	d:/ymir work/item/weapon/06070.gr2
-6071	WEAPON	icon/item/06070.tga	d:/ymir work/item/weapon/06070.gr2
-6072	WEAPON	icon/item/06070.tga	d:/ymir work/item/weapon/06070.gr2
-6073	WEAPON	icon/item/06070.tga	d:/ymir work/item/weapon/06070.gr2
-6074	WEAPON	icon/item/06070.tga	d:/ymir work/item/weapon/06070.gr2
-6075	WEAPON	icon/item/06070.tga	d:/ymir work/item/weapon/06070.gr2
-6076	WEAPON	icon/item/06070.tga	d:/ymir work/item/weapon/06070.gr2
-6077	WEAPON	icon/item/06070.tga	d:/ymir work/item/weapon/06070.gr2
-6078	WEAPON	icon/item/06070.tga	d:/ymir work/item/weapon/06070.gr2
-6079	WEAPON	icon/item/06070.tga	d:/ymir work/item/weapon/06070.gr2
-6080	WEAPON	icon/item/06080.tga	d:/ymir work/item/weapon/06080.gr2
-6081	WEAPON	icon/item/06080.tga	d:/ymir work/item/weapon/06080.gr2
-6082	WEAPON	icon/item/06080.tga	d:/ymir work/item/weapon/06080.gr2
-6083	WEAPON	icon/item/06080.tga	d:/ymir work/item/weapon/06080.gr2
-6084	WEAPON	icon/item/06080.tga	d:/ymir work/item/weapon/06080.gr2
-6085	WEAPON	icon/item/06080.tga	d:/ymir work/item/weapon/06080.gr2
-6086	WEAPON	icon/item/06080.tga	d:/ymir work/item/weapon/06080.gr2
-6087	WEAPON	icon/item/06080.tga	d:/ymir work/item/weapon/06080.gr2
-6088	WEAPON	icon/item/06080.tga	d:/ymir work/item/weapon/06080.gr2
-6089	WEAPON	icon/item/06080.tga	d:/ymir work/item/weapon/06080.gr2
-6090	WEAPON	icon/item/06090.tga	d:/ymir work/item/weapon/06090.gr2
-6091	WEAPON	icon/item/06090.tga	d:/ymir work/item/weapon/06090.gr2
-6092	WEAPON	icon/item/06090.tga	d:/ymir work/item/weapon/06090.gr2
-6093	WEAPON	icon/item/06090.tga	d:/ymir work/item/weapon/06090.gr2
-6094	WEAPON	icon/item/06090.tga	d:/ymir work/item/weapon/06090.gr2
-6095	WEAPON	icon/item/06090.tga	d:/ymir work/item/weapon/06090.gr2
-6096	WEAPON	icon/item/06090.tga	d:/ymir work/item/weapon/06090.gr2
-6097	WEAPON	icon/item/06090.tga	d:/ymir work/item/weapon/06090.gr2
-6098	WEAPON	icon/item/06090.tga	d:/ymir work/item/weapon/06090.gr2
-6099	WEAPON	icon/item/06090.tga	d:/ymir work/item/weapon/06090.gr2
 7000	WEAPON	icon/item/07000.tga	d:/ymir work/item/weapon/07000.gr2
 7001	WEAPON	icon/item/07000.tga	d:/ymir work/item/weapon/07000.gr2
 7002	WEAPON	icon/item/07000.tga	d:/ymir work/item/weapon/07000.gr2
@@ -1499,16 +1349,6 @@
 7207	WEAPON	icon/item/03010.tga	d:/ymir work/item/weapon/07200.gr2
 7208	WEAPON	icon/item/03010.tga	d:/ymir work/item/weapon/07200.gr2
 7209	WEAPON	icon/item/03010.tga	d:/ymir work/item/weapon/07200.gr2
-7370	WEAPON	icon/item/07370.tga	d:/ymir work/item/weapon/07370.gr2
-7371	WEAPON	icon/item/07370.tga	d:/ymir work/item/weapon/07370.gr2
-7372	WEAPON	icon/item/07370.tga	d:/ymir work/item/weapon/07370.gr2
-7373	WEAPON	icon/item/07370.tga	d:/ymir work/item/weapon/07370.gr2
-7374	WEAPON	icon/item/07370.tga	d:/ymir work/item/weapon/07370.gr2
-7375	WEAPON	icon/item/07370.tga	d:/ymir work/item/weapon/07370.gr2
-7376	WEAPON	icon/item/07370.tga	d:/ymir work/item/weapon/07370.gr2
-7377	WEAPON	icon/item/07370.tga	d:/ymir work/item/weapon/07370.gr2
-7378	WEAPON	icon/item/07370.tga	d:/ymir work/item/weapon/07370.gr2
-7379	WEAPON	icon/item/07370.tga	d:/ymir work/item/weapon/07370.gr2
 8000	WEAPON	icon/item/08000.tga
 8001	WEAPON	icon/item/08001.tga
 8002	WEAPON	icon/item/08001.tga
@@ -1523,15 +1363,6 @@
 9002	WEAPON	icon/item/11400.tga
 9003	WEAPON	icon/item/11600.tga
 9004	WEAPON	icon/item/11800.tga
-9501	WEAPON	icon/item/00010.tga	d:/ymir work/item/weapon/00010.gr2
-9502	WEAPON	icon/item/01000.tga	d:/ymir work/item/weapon/01000.gr2
-9503	WEAPON	icon/item/02000.tga	d:/ymir work/item/weapon/02000.gr2
-9504	WEAPON	icon/item/03000.tga	d:/ymir work/item/weapon/03000.gr2
-9505	WEAPON	icon/item/07000.tga	d:/ymir work/item/weapon/07000.gr2
-9506	WEAPON	icon/item/00010.tga	d:/ymir work/item/weapon/00010.gr2
-9507	WEAPON	icon/item/01000.tga	d:/ymir work/item/weapon/01000.gr2	
-9508	WEAPON	icon/item/07000.tga	d:/ymir work/item/weapon/07000.gr2	
-9509	WEAPON	icon/item/06000.tga	d:/ymir work/item/weapon/06000.gr2	
 11000	ARMOR	D:\ymir work\ui\game\quest\questicon\level_05.tga
 11010	ARMOR	D:\ymir work\ui\game\quest\questicon\level_07.tga
 11020	ARMOR	D:\ymir work\ui\game\quest\questicon\level_08.tga
@@ -1636,16 +1467,16 @@
 11297	ARMOR	icon/item/11290.tga
 11298	ARMOR	icon/item/11290.tga
 11299	ARMOR	icon/item/11290.tga
-11300	ARMOR	season1/icon/weapon/warrior/11300.tga
-11301	ARMOR	season1/icon/weapon/warrior/11301.tga
-11302	ARMOR	season1/icon/weapon/warrior/11302.tga
-11303	ARMOR	season1/icon/weapon/warrior/11303.tga
-11304	ARMOR	season1/icon/weapon/warrior/11304.tga
-11305	ARMOR	season1/icon/weapon/warrior/11305.tga
-11306	ARMOR	season1/icon/weapon/warrior/11306.tga
-11307	ARMOR	season1/icon/weapon/warrior/11307.tga
-11308	ARMOR	season1/icon/weapon/warrior/11307.tga
-11309	ARMOR	season1/icon/weapon/warrior/11307.tga
+11300	ARMOR	icon/weapon/warrior/11300.tga
+11301	ARMOR	icon/weapon/warrior/11301.tga
+11302	ARMOR	icon/weapon/warrior/11302.tga
+11303	ARMOR	icon/weapon/warrior/11303.tga
+11304	ARMOR	icon/weapon/warrior/11304.tga
+11305	ARMOR	icon/weapon/warrior/11305.tga
+11306	ARMOR	icon/weapon/warrior/11306.tga
+11307	ARMOR	icon/weapon/warrior/11307.tga
+11308	ARMOR	icon/weapon/warrior/11307.tga
+11309	ARMOR	icon/weapon/warrior/11307.tga
 11400	ARMOR	icon/item/11400.tga
 11401	ARMOR	icon/item/11400.tga
 11402	ARMOR	icon/item/11400.tga
@@ -1746,16 +1577,16 @@
 11497	ARMOR	icon/item/11490.tga
 11498	ARMOR	icon/item/11490.tga
 11499	ARMOR	icon/item/11490.tga
-11500	ARMOR	season1/icon/weapon/assassin/11500.tga
-11501	ARMOR	season1/icon/weapon/assassin/11501.tga
-11502	ARMOR	season1/icon/weapon/assassin/11502.tga
-11503	ARMOR	season1/icon/weapon/assassin/11503.tga
-11504	ARMOR	season1/icon/weapon/assassin/11504.tga
-11505	ARMOR	season1/icon/weapon/assassin/11505.tga
-11506	ARMOR	season1/icon/weapon/assassin/11506.tga
-11507	ARMOR	season1/icon/weapon/assassin/11507.tga
-11508	ARMOR	season1/icon/weapon/assassin/11507.tga
-11509	ARMOR	season1/icon/weapon/assassin/11507.tga
+11500	ARMOR	icon/weapon/assassin/11500.tga
+11501	ARMOR	icon/weapon/assassin/11501.tga
+11502	ARMOR	icon/weapon/assassin/11502.tga
+11503	ARMOR	icon/weapon/assassin/11503.tga
+11504	ARMOR	icon/weapon/assassin/11504.tga
+11505	ARMOR	icon/weapon/assassin/11505.tga
+11506	ARMOR	icon/weapon/assassin/11506.tga
+11507	ARMOR	icon/weapon/assassin/11507.tga
+11508	ARMOR	icon/weapon/assassin/11507.tga
+11509	ARMOR	icon/weapon/assassin/11507.tga
 11600	ARMOR	icon/item/11600.tga
 11601	ARMOR	icon/item/11600.tga
 11602	ARMOR	icon/item/11600.tga
@@ -1856,16 +1687,16 @@
 11697	ARMOR	icon/item/11690.tga
 11698	ARMOR	icon/item/11690.tga
 11699	ARMOR	icon/item/11690.tga
-11700	ARMOR	season1/icon/weapon/sura/11700.tga
-11701	ARMOR	season1/icon/weapon/sura/11701.tga
-11702	ARMOR	season1/icon/weapon/sura/11702.tga
-11703	ARMOR	season1/icon/weapon/sura/11703.tga
-11704	ARMOR	season1/icon/weapon/sura/11704.tga
-11705	ARMOR	season1/icon/weapon/sura/11705.tga
-11706	ARMOR	season1/icon/weapon/sura/11706.tga
-11707	ARMOR	season1/icon/weapon/sura/11707.tga
-11708	ARMOR	season1/icon/weapon/sura/11708.tga
-11709	ARMOR	season1/icon/weapon/sura/11707.tga
+11700	ARMOR	icon/weapon/sura/11700.tga
+11701	ARMOR	icon/weapon/sura/11701.tga
+11702	ARMOR	icon/weapon/sura/11702.tga
+11703	ARMOR	icon/weapon/sura/11703.tga
+11704	ARMOR	icon/weapon/sura/11704.tga
+11705	ARMOR	icon/weapon/sura/11705.tga
+11706	ARMOR	icon/weapon/sura/11706.tga
+11707	ARMOR	icon/weapon/sura/11707.tga
+11708	ARMOR	icon/weapon/sura/11708.tga
+11709	ARMOR	icon/weapon/sura/11707.tga
 11800	ARMOR	icon/item/11800.tga
 11801	ARMOR	icon/item/11800.tga
 11802	ARMOR	icon/item/11800.tga
@@ -1974,20 +1805,20 @@
 11952	ARMOR	icon/item/11400.tga
 11953	ARMOR	icon/item/11600.tga
 11954	ARMOR	icon/item/11800.tga
-11971	ARMOR	season1/icon/item/11971.tga
-11972	ARMOR	season1/icon/item/11972.tga
+11971	ARMOR	icon/item/11971.tga
+11972	ARMOR	icon/item/11972.tga
 11973	ARMOR	icon/item/11973.tga
 11974	ARMOR	icon/item/11974.tga
-12000	ARMOR	season1/icon/weapon/shaman/12000.tga
-12001	ARMOR	season1/icon/weapon/shaman/12001.tga
-12002	ARMOR	season1/icon/weapon/shaman/12002.tga
-12003	ARMOR	season1/icon/weapon/shaman/12003.tga
-12004	ARMOR	season1/icon/weapon/shaman/12004.tga
-12005	ARMOR	season1/icon/weapon/shaman/12005.tga
-12006	ARMOR	season1/icon/weapon/shaman/12006.tga
-12007	ARMOR	season1/icon/weapon/shaman/12007.tga
-12008	ARMOR	season1/icon/weapon/shaman/12007.tga
-12009	ARMOR	season1/icon/weapon/shaman/12007.tga
+12000	ARMOR	icon/weapon/shaman/12000.tga
+12001	ARMOR	icon/weapon/shaman/12001.tga
+12002	ARMOR	icon/weapon/shaman/12002.tga
+12003	ARMOR	icon/weapon/shaman/12003.tga
+12004	ARMOR	icon/weapon/shaman/12004.tga
+12005	ARMOR	icon/weapon/shaman/12005.tga
+12006	ARMOR	icon/weapon/shaman/12006.tga
+12007	ARMOR	icon/weapon/shaman/12007.tga
+12008	ARMOR	icon/weapon/shaman/12007.tga
+12009	ARMOR	icon/weapon/shaman/12007.tga
 12010	ARMOR	icon/item/12020.tga
 12011	ARMOR	icon/item/12020.tga
 12012	ARMOR	icon/item/12020.tga
@@ -2408,46 +2239,46 @@
 13057	ARMOR	icon/item/13040.tga
 13058	ARMOR	icon/item/13040.tga
 13059	ARMOR	icon/item/13040.tga
-13060	ARMOR	season1/icon/item/13060.tga
-13061	ARMOR	season1/icon/item/13060.tga
-13062	ARMOR	season1/icon/item/13060.tga
-13063	ARMOR	season1/icon/item/13060.tga
-13064	ARMOR	season1/icon/item/13060.tga
-13065	ARMOR	season1/icon/item/13060.tga
-13066	ARMOR	season1/icon/item/13060.tga
-13067	ARMOR	season1/icon/item/13060.tga
-13068	ARMOR	season1/icon/item/13060.tga
-13069	ARMOR	season1/icon/item/13060.tga
-13080	ARMOR	season1/icon/item/13080.tga
-13081	ARMOR	season1/icon/item/13080.tga
-13082	ARMOR	season1/icon/item/13080.tga
-13083	ARMOR	season1/icon/item/13080.tga
-13084	ARMOR	season1/icon/item/13080.tga
-13085	ARMOR	season1/icon/item/13080.tga
-13086	ARMOR	season1/icon/item/13080.tga
-13087	ARMOR	season1/icon/item/13080.tga
-13088	ARMOR	season1/icon/item/13080.tga
-13089	ARMOR	season1/icon/item/13080.tga
-13100	ARMOR	season1/icon/item/13100.tga
-13101	ARMOR	season1/icon/item/13100.tga
-13102	ARMOR	season1/icon/item/13100.tga
-13103	ARMOR	season1/icon/item/13100.tga
-13104	ARMOR	season1/icon/item/13100.tga
-13105	ARMOR	season1/icon/item/13100.tga
-13106	ARMOR	season1/icon/item/13100.tga
-13107	ARMOR	season1/icon/item/13100.tga
-13108	ARMOR	season1/icon/item/13100.tga
-13109	ARMOR	season1/icon/item/13100.tga
-13120	ARMOR	season1/icon/item/13120.tga
-13121	ARMOR	season1/icon/item/13120.tga
-13122	ARMOR	season1/icon/item/13120.tga
-13123	ARMOR	season1/icon/item/13120.tga
-13124	ARMOR	season1/icon/item/13120.tga
-13125	ARMOR	season1/icon/item/13120.tga
-13126	ARMOR	season1/icon/item/13120.tga
-13127	ARMOR	season1/icon/item/13120.tga
-13128	ARMOR	season1/icon/item/13120.tga
-13129	ARMOR	season1/icon/item/13120.tga
+13060	ARMOR	icon/item/13060.tga
+13061	ARMOR	icon/item/13060.tga
+13062	ARMOR	icon/item/13060.tga
+13063	ARMOR	icon/item/13060.tga
+13064	ARMOR	icon/item/13060.tga
+13065	ARMOR	icon/item/13060.tga
+13066	ARMOR	icon/item/13060.tga
+13067	ARMOR	icon/item/13060.tga
+13068	ARMOR	icon/item/13060.tga
+13069	ARMOR	icon/item/13060.tga
+13080	ARMOR	icon/item/13080.tga
+13081	ARMOR	icon/item/13080.tga
+13082	ARMOR	icon/item/13080.tga
+13083	ARMOR	icon/item/13080.tga
+13084	ARMOR	icon/item/13080.tga
+13085	ARMOR	icon/item/13080.tga
+13086	ARMOR	icon/item/13080.tga
+13087	ARMOR	icon/item/13080.tga
+13088	ARMOR	icon/item/13080.tga
+13089	ARMOR	icon/item/13080.tga
+13100	ARMOR	icon/item/13100.tga
+13101	ARMOR	icon/item/13100.tga
+13102	ARMOR	icon/item/13100.tga
+13103	ARMOR	icon/item/13100.tga
+13104	ARMOR	icon/item/13100.tga
+13105	ARMOR	icon/item/13100.tga
+13106	ARMOR	icon/item/13100.tga
+13107	ARMOR	icon/item/13100.tga
+13108	ARMOR	icon/item/13100.tga
+13109	ARMOR	icon/item/13100.tga
+13120	ARMOR	icon/item/13120.tga
+13121	ARMOR	icon/item/13120.tga
+13122	ARMOR	icon/item/13120.tga
+13123	ARMOR	icon/item/13120.tga
+13124	ARMOR	icon/item/13120.tga
+13125	ARMOR	icon/item/13120.tga
+13126	ARMOR	icon/item/13120.tga
+13127	ARMOR	icon/item/13120.tga
+13128	ARMOR	icon/item/13120.tga
+13129	ARMOR	icon/item/13120.tga
 13140	ARMOR	icon/item/13140.tga
 13141	ARMOR	icon/item/13140.tga
 13142	ARMOR	icon/item/13140.tga
@@ -4375,46 +4206,46 @@
 13057	ARMOR	icon/item/13040.tga
 13058	ARMOR	icon/item/13040.tga
 13059	ARMOR	icon/item/13040.tga
-13060	ARMOR	season1/icon/item/13060.tga
-13061	ARMOR	season1/icon/item/13060.tga
-13062	ARMOR	season1/icon/item/13060.tga
-13063	ARMOR	season1/icon/item/13060.tga
-13064	ARMOR	season1/icon/item/13060.tga
-13065	ARMOR	season1/icon/item/13060.tga
-13066	ARMOR	season1/icon/item/13060.tga
-13067	ARMOR	season1/icon/item/13060.tga
-13068	ARMOR	season1/icon/item/13060.tga
-13069	ARMOR	season1/icon/item/13060.tga
-13080	ARMOR	season1/icon/item/13080.tga
-13081	ARMOR	season1/icon/item/13080.tga
-13082	ARMOR	season1/icon/item/13080.tga
-13083	ARMOR	season1/icon/item/13080.tga
-13084	ARMOR	season1/icon/item/13080.tga
-13085	ARMOR	season1/icon/item/13080.tga
-13086	ARMOR	season1/icon/item/13080.tga
-13087	ARMOR	season1/icon/item/13080.tga
-13088	ARMOR	season1/icon/item/13080.tga
-13089	ARMOR	season1/icon/item/13080.tga
-13100	ARMOR	season1/icon/item/13100.tga
-13101	ARMOR	season1/icon/item/13100.tga
-13102	ARMOR	season1/icon/item/13100.tga
-13103	ARMOR	season1/icon/item/13100.tga
-13104	ARMOR	season1/icon/item/13100.tga
-13105	ARMOR	season1/icon/item/13100.tga
-13106	ARMOR	season1/icon/item/13100.tga
-13107	ARMOR	season1/icon/item/13100.tga
-13108	ARMOR	season1/icon/item/13100.tga
-13109	ARMOR	season1/icon/item/13100.tga
-13120	ARMOR	season1/icon/item/13120.tga
-13121	ARMOR	season1/icon/item/13120.tga
-13122	ARMOR	season1/icon/item/13120.tga
-13123	ARMOR	season1/icon/item/13120.tga
-13124	ARMOR	season1/icon/item/13120.tga
-13125	ARMOR	season1/icon/item/13120.tga
-13126	ARMOR	season1/icon/item/13120.tga
-13127	ARMOR	season1/icon/item/13120.tga
-13128	ARMOR	season1/icon/item/13120.tga
-13129	ARMOR	season1/icon/item/13120.tga
+13060	ARMOR	icon/item/13060.tga
+13061	ARMOR	icon/item/13060.tga
+13062	ARMOR	icon/item/13060.tga
+13063	ARMOR	icon/item/13060.tga
+13064	ARMOR	icon/item/13060.tga
+13065	ARMOR	icon/item/13060.tga
+13066	ARMOR	icon/item/13060.tga
+13067	ARMOR	icon/item/13060.tga
+13068	ARMOR	icon/item/13060.tga
+13069	ARMOR	icon/item/13060.tga
+13080	ARMOR	icon/item/13080.tga
+13081	ARMOR	icon/item/13080.tga
+13082	ARMOR	icon/item/13080.tga
+13083	ARMOR	icon/item/13080.tga
+13084	ARMOR	icon/item/13080.tga
+13085	ARMOR	icon/item/13080.tga
+13086	ARMOR	icon/item/13080.tga
+13087	ARMOR	icon/item/13080.tga
+13088	ARMOR	icon/item/13080.tga
+13089	ARMOR	icon/item/13080.tga
+13100	ARMOR	icon/item/13100.tga
+13101	ARMOR	icon/item/13100.tga
+13102	ARMOR	icon/item/13100.tga
+13103	ARMOR	icon/item/13100.tga
+13104	ARMOR	icon/item/13100.tga
+13105	ARMOR	icon/item/13100.tga
+13106	ARMOR	icon/item/13100.tga
+13107	ARMOR	icon/item/13100.tga
+13108	ARMOR	icon/item/13100.tga
+13109	ARMOR	icon/item/13100.tga
+13120	ARMOR	icon/item/13120.tga
+13121	ARMOR	icon/item/13120.tga
+13122	ARMOR	icon/item/13120.tga
+13123	ARMOR	icon/item/13120.tga
+13124	ARMOR	icon/item/13120.tga
+13125	ARMOR	icon/item/13120.tga
+13126	ARMOR	icon/item/13120.tga
+13127	ARMOR	icon/item/13120.tga
+13128	ARMOR	icon/item/13120.tga
+13129	ARMOR	icon/item/13120.tga
 13140	ARMOR	icon/item/13140.tga
 13141	ARMOR	icon/item/13140.tga
 13142	ARMOR	icon/item/13140.tga
@@ -6243,10 +6074,10 @@
 30095	ETC	icon/item/30095.tga
 30096	ETC	icon/item/30096.tga
 30097	ETC	icon/item/30096.tga
-30101	ETC	season1/icon/item/30101.tga
-30102	ETC	season1/icon/item/30102.tga
-30114	ETC	season1/icon/item/30152.tga
-30116	ETC	season1/icon/item/30116.tga
+30101	ETC	icon/item/30101.tga
+30102	ETC	icon/item/30102.tga
+30114	ETC	icon/item/30152.tga
+30116	ETC	icon/item/30116.tga
 30129	ETC	icon/item/30129.tga
 30130	ETC	icon/item/30130.tga
 30131	ETC	icon/item/30131.tga
@@ -6254,39 +6085,39 @@
 30133	ETC	icon/item/30133.tga
 30134	ETC	icon/item/30134.tga
 30135	ETC	icon/item/30135.tga
-30136	ETC	season1/icon/item/30136.tga
-30137	ETC	season1/icon/item/30137.tga
-30138	ETC	season1/icon/item/30138.tga
-30139	ETC	season1/icon/item/30139.tga
-30140	ETC	season1/icon/item/30140.tga
-30141	ETC	season1/icon/item/30141.tga
-30142	ETC	season1/icon/item/30142.tga
-30143	ETC	season1/icon/item/30143.tga
-30144	ETC	season1/icon/item/30144.tga
-30145	ETC	season1/icon/item/30145.tga
-30146	ETC	season1/icon/item/30146.tga
-30147	ETC	season1/icon/item/30147.tga
-30148	ETC	season1/icon/item/30148.tga
-30149	ETC	season1/icon/item/30149.tga
-30150	ETC	season1/icon/item/30150.tga
-30151	ETC	season1/icon/item/30151.tga
-30152	ETC	season1/icon/item/30152.tga
-30153	ETC	season1/icon/item/30153.tga
-30154	ETC	season1/icon/item/30154.tga
-30155	ETC	season1/icon/item/30155.tga
-30156	ETC	season1/icon/item/30156.tga
-30157	ETC	season1/icon/item/30157.tga
-30158	ETC	season1/icon/item/30158.tga
-30159	ETC	season1/icon/item/30159.tga
-30160	ETC	season1/icon/item/30160.tga
+30136	ETC	icon/item/30136.tga
+30137	ETC	icon/item/30137.tga
+30138	ETC	icon/item/30138.tga
+30139	ETC	icon/item/30139.tga
+30140	ETC	icon/item/30140.tga
+30141	ETC	icon/item/30141.tga
+30142	ETC	icon/item/30142.tga
+30143	ETC	icon/item/30143.tga
+30144	ETC	icon/item/30144.tga
+30145	ETC	icon/item/30145.tga
+30146	ETC	icon/item/30146.tga
+30147	ETC	icon/item/30147.tga
+30148	ETC	icon/item/30148.tga
+30149	ETC	icon/item/30149.tga
+30150	ETC	icon/item/30150.tga
+30151	ETC	icon/item/30151.tga
+30152	ETC	icon/item/30152.tga
+30153	ETC	icon/item/30153.tga
+30154	ETC	icon/item/30154.tga
+30155	ETC	icon/item/30155.tga
+30156	ETC	icon/item/30156.tga
+30157	ETC	icon/item/30157.tga
+30158	ETC	icon/item/30158.tga
+30159	ETC	icon/item/30159.tga
+30160	ETC	icon/item/30160.tga
 30161	ETC	icon/item/30041.tga
 30162	ETC	icon/item/30057.tga
 30163	ETC	icon/item/30056.tga
 30164	ETC	icon/item/30047.tga
-30165	ETC	season1/icon/item/30165.tga
-30166	ETC	season1/icon/item/30166.tga
-30167	ETC	season1/icon/item/30167.tga
-30168	ETC	season1/icon/item/30168.tga
+30165	ETC	icon/item/30165.tga
+30166	ETC	icon/item/30166.tga
+30167	ETC	icon/item/30167.tga
+30168	ETC	icon/item/30168.tga
 30169	ETC	icon/item/30169.tga
 30170	ETC	icon/item/30170.tga
 30171	ETC	icon/item/30171.tga
@@ -6319,40 +6150,40 @@
 30198	ETC	icon/item/30198.tga
 30199	ETC	icon/item/30199.tga
 30202	ETC	icon/item/30202.tga
-30210	ETC	season1/icon/item/30210.tga
-30210	ETC	season1/icon/item/30210.tga
-30211	ETC	season1/icon/item/30211.tga
-30211	ETC	season1/icon/item/30211.tga
-30212	ETC	season1/icon/item/30212.tga
-30212	ETC	season1/icon/item/30212.tga
-30213	ETC	season1/icon/item/30213.tga
-30213	ETC	season1/icon/item/30213.tga
-30214	ETC	season1/icon/item/30214.tga
-30214	ETC	season1/icon/item/30214.tga
-30215	ETC	season1/icon/item/30215.tga
-30215	ETC	season1/icon/item/30215.tga
-30216	ETC	season1/icon/item/30216.tga
-30216	ETC	season1/icon/item/30216.tga
-30217	ETC	season1/icon/item/30217.tga
-30217	ETC	season1/icon/item/30217.tga
-30218	ETC	season1/icon/item/30218.tga
-30218	ETC	season1/icon/item/30218.tga
-30219	ETC	season1/icon/item/30219.tga
-30219	ETC	season1/icon/item/30219.tga
-30220	ETC	season1/icon/item/30220.tga
-30220	ETC	season1/icon/item/30220.tga
-30221	ETC	season1/icon/item/30221.tga
-30221	ETC	season1/icon/item/30221.tga
-30222	ETC	season1/icon/item/30222.tga
-30222	ETC	season1/icon/item/30222.tga
-30223	ETC	season1/icon/item/30223.tga
-30223	ETC	season1/icon/item/30223.tga
-30224	ETC	season1/icon/item/30224.tga
-30224	ETC	season1/icon/item/30224.tga
-30225	ETC	season1/icon/item/30225.tga
-30225	ETC	season1/icon/item/30225.tga
-30226	ETC	season1/icon/item/30226.tga
-30227	ETC	season1/icon/item/30227.tga
+30210	ETC	icon/item/30210.tga
+30210	ETC	icon/item/30210.tga
+30211	ETC	icon/item/30211.tga
+30211	ETC	icon/item/30211.tga
+30212	ETC	icon/item/30212.tga
+30212	ETC	icon/item/30212.tga
+30213	ETC	icon/item/30213.tga
+30213	ETC	icon/item/30213.tga
+30214	ETC	icon/item/30214.tga
+30214	ETC	icon/item/30214.tga
+30215	ETC	icon/item/30215.tga
+30215	ETC	icon/item/30215.tga
+30216	ETC	icon/item/30216.tga
+30216	ETC	icon/item/30216.tga
+30217	ETC	icon/item/30217.tga
+30217	ETC	icon/item/30217.tga
+30218	ETC	icon/item/30218.tga
+30218	ETC	icon/item/30218.tga
+30219	ETC	icon/item/30219.tga
+30219	ETC	icon/item/30219.tga
+30220	ETC	icon/item/30220.tga
+30220	ETC	icon/item/30220.tga
+30221	ETC	icon/item/30221.tga
+30221	ETC	icon/item/30221.tga
+30222	ETC	icon/item/30222.tga
+30222	ETC	icon/item/30222.tga
+30223	ETC	icon/item/30223.tga
+30223	ETC	icon/item/30223.tga
+30224	ETC	icon/item/30224.tga
+30224	ETC	icon/item/30224.tga
+30225	ETC	icon/item/30225.tga
+30225	ETC	icon/item/30225.tga
+30226	ETC	icon/item/30226.tga
+30227	ETC	icon/item/30227.tga
 30228	ETC	icon/item/30228.tga
 30229	ETC	icon/item/30229.tga
 30265	ETC	icon/item/30265.tga
@@ -6361,11 +6192,11 @@
 30268	ETC	icon/item/30268.tga
 30269	ETC	icon/item/30269.tga
 30270	ETC	icon/item/30270.tga
-30300	ETC	season1/icon/item/30300.tga
-30301	ETC	season1/icon/item/30301.tga
-30302	ETC	season1/icon/item/30302.tga
-30303	ETC	season1/icon/item/30303.tga
-30304	ETC	season1/icon/item/30304.tga
+30300	ETC	icon/item/30300.tga
+30301	ETC	icon/item/30301.tga
+30302	ETC	icon/item/30302.tga
+30303	ETC	icon/item/30303.tga
+30304	ETC	icon/item/30304.tga
 30311	ETC	icon/item/30311.tga
 30312	ETC	icon/item/30312.tga
 30315	ETC	icon/item/30315.tga
@@ -6520,8 +6351,8 @@
 31098	ETC	icon/item/31098.tga
 31099	ETC	icon/item/31099.tga	
 31100	ETC	icon/item/31100.tga
-35000	ETC	season1/icon/item/30143.tga
-35001	ETC	season1/icon/item/30144.tga
+35000	ETC	icon/item/30143.tga
+35001	ETC	icon/item/30144.tga
 35002	ETC	icon/item/50031.tga
 38010	ETC	icon/item/money.tga	d:/ymir work/item/etc/money.gr2
 38011	ETC	icon/item/money.tga	d:/ymir work/item/etc/money.gr2
@@ -6534,9 +6365,9 @@
 38055	ETC	icon/item/50132.tga	d:/ymir work/item/etc/item_box1.GR2
 38056	ETC	icon/item/50133.tga	d:/ymir work/item/etc/item_box1.GR2
 38057	ETC	icon/item/50128.tga
-38100	ETC	season1/icon/item/50709.tga
-38101	ETC	season1/icon/item/50709.tga
-38102	ETC	season1/icon/item/50709.tga
+38100	ETC	icon/item/50709.tga
+38101	ETC	icon/item/50709.tga
+38102	ETC	icon/item/50709.tga
 38200	ETC	icon/item/53001.tga
 38201	ETC	icon/item/53001.tga
 39001	ETC	icon/item/30064.tga
@@ -6561,7 +6392,7 @@
 39020	ETC	icon/item/71030.tga
 39021	ETC	icon/item/71030.tga
 39022	ETC	icon/item/71032.tga
-39023	ETC	season1/icon/item/71035.tga
+39023	ETC	icon/item/71035.tga
 39024	ETC	icon/item/71044.tga
 39025	ETC	icon/item/71045.tga
 39026	ETC	icon/item/27103.tga
@@ -6574,7 +6405,7 @@
 39033	ETC	icon/item/71109.tga
 39034	ETC	icon/item/71110.tga
 39035	ETC	icon/item/71113.tga
-39036	ETC	season1/icon/item/72701.tga
+39036	ETC	icon/item/72701.tga
 39037	ETC	icon/item/72723.tga
 39038	ETC	icon/item/72724.tga
 39039	ETC	icon/item/72725.tga
@@ -6604,35 +6435,7 @@
 40001	ETC	icon/item/40001.tga
 40002	ETC	icon/item/40002.tga
 40003	ETC	icon/item/40003.tga
-40004	ETC	icon/item/40004.tga
-40101	WEAPON	icon/item/40101.tga	d:/ymir work/item/weapon/costume/40101.gr2
-40102	WEAPON	icon/item/40102.tga	d:/ymir work/item/weapon/costume/40102.gr2
-40103	WEAPON	icon/item/40103.tga	d:/ymir work/item/weapon/costume/40103.gr2
-40104	WEAPON	icon/item/40104.tga	d:/ymir work/item/weapon/costume/40104.gr2
-40105	WEAPON	icon/item/40105.tga	d:/ymir work/item/weapon/costume/40105.gr2
-40106	WEAPON	icon/item/40106.tga	d:/ymir work/item/weapon/costume/40106.gr2
-40107	WEAPON	icon/item/40107.tga	d:/ymir work/item/weapon/costume/40107.gr2
-40108	WEAPON	icon/item/40101.tga	d:/ymir work/item/weapon/costume/40101.gr2
-40109	WEAPON	icon/item/40102.tga	d:/ymir work/item/weapon/costume/40102.gr2
-40110	WEAPON	icon/item/40103.tga	d:/ymir work/item/weapon/costume/40103.gr2
-40111	WEAPON	icon/item/40104.tga	d:/ymir work/item/weapon/costume/40104.gr2
-40112	WEAPON	icon/item/40105.tga	d:/ymir work/item/weapon/costume/40105.gr2
-40113	WEAPON	icon/item/40106.tga	d:/ymir work/item/weapon/costume/40106.gr2
-40114	WEAPON	icon/item/40107.tga	d:/ymir work/item/weapon/costume/40107.gr2
-40115	WEAPON	icon/item/40115.tga	d:/ymir work/item/weapon/costume/40115.gr2	
-40116	WEAPON	icon/item/40116.tga	d:/ymir work/item/weapon/costume/40116.gr2	
-40117	WEAPON	icon/item/40117.tga	d:/ymir work/item/weapon/costume/40117.gr2	
-40118	WEAPON	icon/item/40118.tga	d:/ymir work/item/weapon/costume/40118.gr2	
-40119	WEAPON	icon/item/40119.tga	d:/ymir work/item/weapon/costume/40119.gr2	
-40120	WEAPON	icon/item/40120.tga	d:/ymir work/item/weapon/costume/40120.gr2	
-40121	WEAPON	icon/item/40121.tga	d:/ymir work/item/weapon/costume/40121.gr2
-40122	WEAPON	icon/item/40115.tga	d:/ymir work/item/weapon/costume/40115.gr2
-40123	WEAPON	icon/item/40116.tga	d:/ymir work/item/weapon/costume/40116.gr2
-40124	WEAPON	icon/item/40117.tga	d:/ymir work/item/weapon/costume/40117.gr2
-40125	WEAPON	icon/item/40118.tga	d:/ymir work/item/weapon/costume/40118.gr2
-40126	WEAPON	icon/item/40119.tga	d:/ymir work/item/weapon/costume/40119.gr2
-40127	WEAPON	icon/item/40120.tga	d:/ymir work/item/weapon/costume/40120.gr2
-40128	WEAPON	icon/item/40121.tga	d:/ymir work/item/weapon/costume/40121.gr2	
+40004	ETC	icon/item/40004.tga	
 41001	ARMOR	icon/item/41002.tga
 41002	ARMOR	icon/item/41001.tga
 41003	ARMOR	icon/item/41003.tga
@@ -7559,9 +7362,9 @@
 50035	ETC	icon/item/50035.tga	d:/ymir work/item/etc/boss_box.gr2
 50036	ETC	icon/item/50036.tga	d:/ymir work/item/etc/boss_box.gr2
 50037	ETC	icon/item/50037.tga
-50038	ETC	season1/icon/item/50038.tga
-50039	ETC	season1/icon/item/50039.tga
-50040	ETC	season1/icon/item/50040.tga
+50038	ETC	icon/item/50038.tga
+50039	ETC	icon/item/50039.tga
+50040	ETC	icon/item/50040.tga
 50042	ETC	icon/item/50042.tga
 50050	ETC	icon/item/50050.tga
 50051	ETC	icon/item/50051.tga
@@ -7574,7 +7377,7 @@
 50058	ETC	icon/item/50058.tga
 50059	ETC	icon/item/50059.tga
 50060	ETC	icon/item/book_44.tga
-50061	ETC	season1/icon/item/50061.tga
+50061	ETC	icon/item/50061.tga
 50067	ETC	icon/item/50067.tga
 50068	ETC	icon/item/50068.tga
 50070	ETC	icon/item/boss_box.tga	d:/ymir work/item/etc/boss_box.gr2
@@ -7597,10 +7400,10 @@
 50087	ETC	icon/item/50087.tga
 50088	ETC	icon/item/50088.tga
 50090	ETC	icon/item/boss_box.tga	d:/ymir work/item/etc/boss_box.gr2
-50091	ETC	season1/icon/item/50091.tga
-50092	ETC	season1/icon/item/50092.tga
-50093	ETC	season1/icon/item/50093.tga
-50094	ETC	season1/icon/item/50094.tga
+50091	ETC	icon/item/50091.tga
+50092	ETC	icon/item/50092.tga
+50093	ETC	icon/item/50093.tga
+50094	ETC	icon/item/50094.tga
 50096	ETC	icon/item/50096.tga	d:/ymir work/item/etc/football1.gr2
 50100	ETC	icon/item/50100.tga
 50101	ETC	icon/item/50101.tga
@@ -7611,18 +7414,18 @@
 50106	ETC	icon/item/50106.tga
 50107	ETC	icon/item/50107.tga
 50108	ETC	icon/item/50108.tga
-50109	ETC	season1/icon/item/50109.tga
-50110	ETC	season1/icon/item/50110.tga
-50111	ETC	season1/icon/item/50111.tga
-50112	ETC	season1/icon/item/50112.tga
-50113	ETC	season1/icon/item/50113.tga
-50114	ETC	season1/icon/item/50114.tga
-50115	ETC	season1/icon/item/50115.tga
-50116	ETC	season1/icon/item/50116.tga
+50109	ETC	icon/item/50109.tga
+50110	ETC	icon/item/50110.tga
+50111	ETC	icon/item/50111.tga
+50112	ETC	icon/item/50112.tga
+50113	ETC	icon/item/50113.tga
+50114	ETC	icon/item/50114.tga
+50115	ETC	icon/item/50115.tga
+50116	ETC	icon/item/50116.tga
 50117	ETC	icon/item/boss_box.tga	d:/ymir work/item/etc/boss_box.gr2
-50120	ETC	season1/icon/item/30300.tga
-50121	ETC	season1/icon/item/30300.tga
-50122	ETC	season1/icon/item/30300.tga
+50120	ETC	icon/item/30300.tga
+50121	ETC	icon/item/30300.tga
+50122	ETC	icon/item/30300.tga
 50123	ETC	icon/item/50123.tga
 50124	ETC	icon/item/50124.tga
 50125	ETC	icon/item/50125.tga
@@ -7746,7 +7549,7 @@
 50319	ETC	icon/item/50308.tga
 50320	ETC	icon/item/50309.tga
 50321	ETC	icon/item/50310.tga
-50322	ETC	season1/icon/item/50322.tga
+50322	ETC	icon/item/50322.tga
 50401	ETC	icon/item/book_11.tga
 50323	ETC	icon/item/50324.tga	
 50324	ETC	icon/item/50323.tga	
@@ -7857,45 +7660,45 @@
 50631	ETC	icon/item/50631.tga
 50632	ETC	icon/item/50632.tga
 50633	ETC	icon/item/50633.tga
-50701	ETC	season1/icon/item/50701.tga
-50702	ETC	season1/icon/item/50702.tga
-50703	ETC	season1/icon/item/50703.tga
-50704	ETC	season1/icon/item/50704.tga
-50705	ETC	season1/icon/item/50705.tga
-50706	ETC	season1/icon/item/50706.tga
-50707	ETC	season1/icon/item/50707.tga
-50708	ETC	season1/icon/item/50708.tga
-50709	ETC	season1/icon/item/50709.tga
-50710	ETC	season1/icon/item/50710.tga
-50711	ETC	season1/icon/item/50711.tga
-50712	ETC	season1/icon/item/50712.tga
-50721	ETC	season1/icon/item/50701.tga
-50722	ETC	season1/icon/item/50702.tga
-50723	ETC	season1/icon/item/50703.tga
-50724	ETC	season1/icon/item/50704.tga
-50725	ETC	season1/icon/item/50705.tga
-50726	ETC	season1/icon/item/50706.tga
-50727	ETC	season1/icon/item/50707.tga
-50728	ETC	season1/icon/item/50708.tga
-50729	ETC	season1/icon/item/50709.tga
-50730	ETC	season1/icon/item/50710.tga
-50731	ETC	season1/icon/item/50711.tga
-50732	ETC	season1/icon/item/50712.tga
-50801	ETC	season1/icon/item/50801.tga
-50802	ETC	season1/icon/item/50802.tga
-50803	ETC	season1/icon/item/50803.tga
-50804	ETC	season1/icon/item/50804.tga
-50813	ETC	season1/icon/item/50813.tga
-50814	ETC	season1/icon/item/50814.tga
-50815	ETC	season1/icon/item/50815.tga
-50816	ETC	season1/icon/item/50816.tga
-50817	ETC	season1/icon/item/50817.tga
-50818	ETC	season1/icon/item/50818.tga
-50819	ETC	season1/icon/item/50819.tga
-50820	ETC	season1/icon/item/50820.tga
-50902	ETC	season1/icon/item/50902.tga
-50903	ETC	season1/icon/item/50903.tga
-50904	ETC	season1/icon/item/50904.tga
+50701	ETC	icon/item/50701.tga
+50702	ETC	icon/item/50702.tga
+50703	ETC	icon/item/50703.tga
+50704	ETC	icon/item/50704.tga
+50705	ETC	icon/item/50705.tga
+50706	ETC	icon/item/50706.tga
+50707	ETC	icon/item/50707.tga
+50708	ETC	icon/item/50708.tga
+50709	ETC	icon/item/50709.tga
+50710	ETC	icon/item/50710.tga
+50711	ETC	icon/item/50711.tga
+50712	ETC	icon/item/50712.tga
+50721	ETC	icon/item/50701.tga
+50722	ETC	icon/item/50702.tga
+50723	ETC	icon/item/50703.tga
+50724	ETC	icon/item/50704.tga
+50725	ETC	icon/item/50705.tga
+50726	ETC	icon/item/50706.tga
+50727	ETC	icon/item/50707.tga
+50728	ETC	icon/item/50708.tga
+50729	ETC	icon/item/50709.tga
+50730	ETC	icon/item/50710.tga
+50731	ETC	icon/item/50711.tga
+50732	ETC	icon/item/50712.tga
+50801	ETC	icon/item/50801.tga
+50802	ETC	icon/item/50802.tga
+50803	ETC	icon/item/50803.tga
+50804	ETC	icon/item/50804.tga
+50813	ETC	icon/item/50813.tga
+50814	ETC	icon/item/50814.tga
+50815	ETC	icon/item/50815.tga
+50816	ETC	icon/item/50816.tga
+50817	ETC	icon/item/50817.tga
+50818	ETC	icon/item/50818.tga
+50819	ETC	icon/item/50819.tga
+50820	ETC	icon/item/50820.tga
+50902	ETC	icon/item/50902.tga
+50903	ETC	icon/item/50903.tga
+50904	ETC	icon/item/50904.tga
 51001	ETC	icon/item/51001.tga
 51002	ETC	icon/item/51002.tga
 51501	ETC	icon/item/51501.tga
@@ -8738,7 +8541,7 @@
 71031	ETC	icon/item/71030.tga
 71032	ETC	icon/item/71032.tga
 71034	ETC	icon/item/27102.tga
-71035	ETC	season1/icon/item/71035.tga
+71035	ETC	icon/item/71035.tga
 71036	ETC	icon/item/71036.tga
 71037	ETC	icon/item/71036.tga
 71038	ETC	icon/item/71036.tga
@@ -8790,8 +8593,8 @@
 71092	ETC	icon/item/book_07.tga
 71093	ETC	icon/item/70104.tga
 71094	ETC	icon/item/71094.tga
-71095	ETC	season1/icon/item/71095.tga
-71096	ETC	season1/icon/item/71096.tga
+71095	ETC	icon/item/71095.tga
+71096	ETC	icon/item/71096.tga
 71099	ETC	icon/item/80009.tga
 71100	ETC	icon/item/71100.tga
 71101	ETC	icon/item/71101.tga
@@ -8823,7 +8626,7 @@
 71128	ETC	icon/item/71128.tga
 71129	ETC	icon/item/71129.tga
 71129	ETC	icon/item/71129.tga
-71130	ETC	season1/icon/item/71095.tga
+71130	ETC	icon/item/71095.tga
 71131	ETC	icon/item/71131.tga
 71132	ETC	icon/item/71131.tga
 71133	ETC	icon/item/71131.tga
@@ -8889,7 +8692,7 @@
 71197	ETC	icon/item/71197.tga
 71198	ETC	icon/item/71198.tga
 71199	ETC	icon/item/71199.tga
-71201	ETC	season1/icon/item/71095.tga
+71201	ETC	icon/item/71095.tga
 71203	ETC	icon/item/71203.tga
 71204	ETC	icon/item/71204.tga
 71205	ETC	icon/item/71205.tga
@@ -8956,8 +8759,8 @@
 72046	ETC	icon/item/71044.tga
 72047	ETC	icon/item/71044.tga
 72048	ETC	icon/item/71044.tga
-72049	ETC	season1/icon/item/72049.tga
-72050	ETC	season1/icon/item/72049.tga
+72049	ETC	icon/item/72049.tga
+72050	ETC	icon/item/72049.tga
 72319	ETC	icon/item/72319.tga
 72320	ETC	icon/item/72320.tga
 72321	ETC	icon/item/72321.tga
@@ -8966,15 +8769,15 @@
 72323	ETC	icon/item/72323.tga
 72501	ETC	icon/item/72501.tga
 72502	ETC	icon/item/72502.tga
-72701	ETC	season1/icon/item/72701.tga
-72702	ETC	season1/icon/item/72701.tga
+72701	ETC	icon/item/72701.tga
+72702	ETC	icon/item/72701.tga
 72703	ETC	icon/item/72703.tga
 72704	ETC	icon/item/72704.tga
 72705	ETC	icon/item/72705.tga
 72706	ETC	icon/item/72706.tga
 72707	ETC	icon/item/72707.tga
 72708	ETC	icon/item/72708.tga
-72709	ETC	season1/icon/item/72701.tga
+72709	ETC	icon/item/72701.tga
 72710	ETC	icon/item/72703.tga
 72711	ETC	icon/item/72704.tga
 72712	ETC	icon/item/72705.tga
@@ -9265,7 +9068,7 @@
 76022	ETC	icon/item/76022.tga
 76023	ETC	icon/item/76023.tga
 76024	ETC	icon/item/76024.tga
-76025	ETC	season1/icon/item/72701.tga
+76025	ETC	icon/item/72701.tga
 78001	ETC	icon/item/78001.tga
 78002	ETC	icon/item/78001.tga
 78003	ETC	icon/item/78001.tga
@@ -9445,27 +9248,7 @@
 80017	ETC	icon/item/80017.tga
 80018	ETC	icon/item/76009.tga
 80019	ETC	icon/item/80019.tga
-80021	ETC	season1/icon/item/30300.tga	
-85001	WING	icon/item/85001.tga	d:/ymir work/item/wing/Acce_01_85_001.gr2
-85002	WING	icon/item/85002.tga	d:/ymir work/item/wing/Acce_01_85_002.gr2
-85003	WING	icon/item/85003.tga	d:/ymir work/item/wing/Acce_01_85_003.gr2
-85004	WING	icon/item/85004.tga	d:/ymir work/item/wing/Acce_01_85_004.gr2
-85005	WING	icon/item/85005.tga	d:/ymir work/item/wing/Acce_02_85_005.gr2
-85006	WING	icon/item/85006.tga	d:/ymir work/item/wing/Acce_02_85_006.gr2
-85007	WING	icon/item/85007.tga	d:/ymir work/item/wing/Acce_02_85_007.gr2
-85008	WING	icon/item/85008.tga	d:/ymir work/item/wing/Acce_02_85_008.gr2
-85011	WING	icon/item/85011.tga	d:/ymir work/item/wing/Acce_03_85_011.gr2
-85012	WING	icon/item/85012.tga	d:/ymir work/item/wing/Acce_03_85_012.gr2
-85013	WING	icon/item/85013.tga	d:/ymir work/item/wing/Acce_03_85_013.gr2
-85014	WING	icon/item/85014.tga	d:/ymir work/item/wing/Acce_03_85_014.gr2
-85015	WING	icon/item/85015.tga	d:/ymir work/item/wing/Acce_04_85_015.gr2
-85016	WING	icon/item/85016.tga	d:/ymir work/item/wing/Acce_04_85_016.gr2
-85017	WING	icon/item/85017.tga	d:/ymir work/item/wing/Acce_04_85_017.gr2
-85018	WING	icon/item/85018.tga	d:/ymir work/item/wing/Acce_04_85_018.gr2
-85021	WING	icon/item/85021.tga	d:/ymir work/item/wing/Acce_05_85_021.gr2
-85022	WING	icon/item/85022.tga	d:/ymir work/item/wing/Acce_05_85_022.gr2
-85023	WING	icon/item/85023.tga	d:/ymir work/item/wing/Acce_05_85_023.gr2
-85024	WING	icon/item/85024.tga	d:/ymir work/item/wing/Acce_05_85_024.gr2
+80021	ETC	icon/item/30300.tga
 90000	ETC	icon/item/90000.tga
 90008	ETC	icon/item/70010.tga
 90009	ETC	icon/item/90009.tga
@@ -9512,62 +9295,6 @@
 71202	ETC	icon/item/71202.tga
 71226	ETC	icon/item/71226.tga
 71227	ETC	icon/item/71227.tga
-21900	WEAPON	icon/item/21900.tga	d:/ymir work/item/weapon/21900.gr2
-21901	WEAPON	icon/item/21901.tga	d:/ymir work/item/weapon/21901.gr2
-21902	WEAPON	icon/item/21902.tga	d:/ymir work/item/weapon/21902.gr2
-21903	WEAPON	icon/item/21903.tga	d:/ymir work/item/weapon/21903.gr2
-21904	WEAPON	icon/item/21904.tga	d:/ymir work/item/weapon/21904.gr2
-21905	WEAPON	icon/item/21905.tga	d:/ymir work/item/weapon/21905.gr2
-21906	WEAPON	icon/item/21906.tga	d:/ymir work/item/weapon/21906.gr2
-21910	WEAPON	icon/item/21900.tga	d:/ymir work/item/weapon/21900.gr2
-21911	WEAPON	icon/item/21901.tga	d:/ymir work/item/weapon/21901.gr2
-21912	WEAPON	icon/item/21902.tga	d:/ymir work/item/weapon/21902.gr2
-21913	WEAPON	icon/item/21903.tga	d:/ymir work/item/weapon/21903.gr2
-21914	WEAPON	icon/item/21904.tga	d:/ymir work/item/weapon/21904.gr2
-21915	WEAPON	icon/item/21905.tga	d:/ymir work/item/weapon/21905.gr2
-21916	WEAPON	icon/item/21906.tga	d:/ymir work/item/weapon/21906.gr2
-21920	WEAPON	icon/item/21900.tga	d:/ymir work/item/weapon/21900.gr2
-21921	WEAPON	icon/item/21901.tga	d:/ymir work/item/weapon/21901.gr2
-21922	WEAPON	icon/item/21902.tga	d:/ymir work/item/weapon/21902.gr2
-21923	WEAPON	icon/item/21903.tga	d:/ymir work/item/weapon/21903.gr2
-21924	WEAPON	icon/item/21904.tga	d:/ymir work/item/weapon/21904.gr2
-21925	WEAPON	icon/item/21905.tga	d:/ymir work/item/weapon/21905.gr2
-21926	WEAPON	icon/item/21906.tga	d:/ymir work/item/weapon/21906.gr2
-21930	WEAPON	icon/item/21900.tga	d:/ymir work/item/weapon/21900.gr2
-21931	WEAPON	icon/item/21901.tga	d:/ymir work/item/weapon/21901.gr2
-21932	WEAPON	icon/item/21902.tga	d:/ymir work/item/weapon/21902.gr2
-21933	WEAPON	icon/item/21903.tga	d:/ymir work/item/weapon/21903.gr2
-21934	WEAPON	icon/item/21904.tga	d:/ymir work/item/weapon/21904.gr2
-21935	WEAPON	icon/item/21905.tga	d:/ymir work/item/weapon/21905.gr2
-21936	WEAPON	icon/item/21906.tga	d:/ymir work/item/weapon/21906.gr2
-21940	WEAPON	icon/item/21900.tga	d:/ymir work/item/weapon/21900.gr2
-21941	WEAPON	icon/item/21901.tga	d:/ymir work/item/weapon/21901.gr2
-21942	WEAPON	icon/item/21902.tga	d:/ymir work/item/weapon/21902.gr2
-21943	WEAPON	icon/item/21903.tga	d:/ymir work/item/weapon/21903.gr2
-21944	WEAPON	icon/item/21904.tga	d:/ymir work/item/weapon/21904.gr2
-21945	WEAPON	icon/item/21905.tga	d:/ymir work/item/weapon/21905.gr2
-21946	WEAPON	icon/item/21906.tga	d:/ymir work/item/weapon/21906.gr2
-21950	WEAPON	icon/item/21900.tga	d:/ymir work/item/weapon/21900.gr2
-21951	WEAPON	icon/item/21901.tga	d:/ymir work/item/weapon/21901.gr2
-21952	WEAPON	icon/item/21902.tga	d:/ymir work/item/weapon/21902.gr2
-21953	WEAPON	icon/item/21903.tga	d:/ymir work/item/weapon/21903.gr2
-21954	WEAPON	icon/item/21904.tga	d:/ymir work/item/weapon/21904.gr2
-21955	WEAPON	icon/item/21905.tga	d:/ymir work/item/weapon/21905.gr2
-21956	WEAPON	icon/item/21906.tga	d:/ymir work/item/weapon/21906.gr2
-21960	WEAPON	icon/item/21900.tga	d:/ymir work/item/weapon/21900.gr2
-21961	WEAPON	icon/item/21901.tga	d:/ymir work/item/weapon/21901.gr2
-21962	WEAPON	icon/item/21902.tga	d:/ymir work/item/weapon/21902.gr2
-21963	WEAPON	icon/item/21903.tga	d:/ymir work/item/weapon/21903.gr2
-21964	WEAPON	icon/item/21904.tga	d:/ymir work/item/weapon/21904.gr2
-21965	WEAPON	icon/item/21905.tga	d:/ymir work/item/weapon/21905.gr2
-21966	WEAPON	icon/item/21906.tga	d:/ymir work/item/weapon/21906.gr2
-21970	WEAPON	icon/item/21900.tga	d:/ymir work/item/weapon/21900.gr2
-21971	WEAPON	icon/item/21901.tga	d:/ymir work/item/weapon/21901.gr2
-21972	WEAPON	icon/item/21902.tga	d:/ymir work/item/weapon/21902.gr2
-21973	WEAPON	icon/item/21903.tga	d:/ymir work/item/weapon/21903.gr2
-21974	WEAPON	icon/item/21904.tga	d:/ymir work/item/weapon/21904.gr2
-21975	WEAPON	icon/item/21905.tga	d:/ymir work/item/weapon/21905.gr2
-21976	WEAPON	icon/item/21906.tga	d:/ymir work/item/weapon/21906.gr2
 72750	ETC	icon/item/72750.tga
 39090	ETC	icon/item/39090.tga
 39091	ETC	icon/item/39091.tga

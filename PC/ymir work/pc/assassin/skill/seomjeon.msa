@@ -14,7 +14,7 @@ Group MotionEventData
         
         IndependentFlag      0
         AttachingEnable      0
-        AttachingBoneName    "Bip01 HeadNub"
+        AttachingBoneName    "Bip01 Head"
         FollowingEnable      0
         EffectFileName       "d:/ymir work/pc/assassin/effect/seomjeom_start.mse"
         EffectPosition       0.000000 0.000000 0.000000
@@ -26,7 +26,7 @@ Group MotionEventData
         
         IndependentFlag      0
         AttachingEnable      0
-        AttachingBoneName    "Bip01 HeadNub"
+        AttachingBoneName    "Bip01 Head"
         FollowingEnable      0
         EffectFileName       "d:/ymir work/pc/assassin/effect/seomjeom_end.mse"
         EffectPosition       0.000000 0.000000 0.000000
@@ -67,7 +67,7 @@ Group MotionEventData
         StiffenTime          0.000000
         InvisibleTime        0.500000
         ExternalForce        0.000000
-        HitLimitCount        10
+        HitLimitCount        6
         CollisionType        4
         
         SphereDataCount      1

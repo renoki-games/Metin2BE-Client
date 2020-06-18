@@ -6,10 +6,10 @@ Accumulation             0.00	-115.82	0.00
 
 Group ComboInputData
 {
-    PreInputTime             1.266667
-    DirectInputTime          1.266667
-    InputLimitTime           1.266667
-    LinkTime                 0.060171
+    PreInputTime             1.166667
+    DirectInputTime          1.166667
+    InputLimitTime           1.166667
+    LinkTime                 0.000000
 }
 
 Group AttackingData

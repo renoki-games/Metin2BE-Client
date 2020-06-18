@@ -3,5 +3,5 @@ version 1.0
 image "map_a2_atlas.dds"
 left 0
 top 0
-right 256
-bottom 256
+right 252
+bottom 252

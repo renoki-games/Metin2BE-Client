@@ -48,8 +48,8 @@ Group MotionEventData
         MotionEventType      2
         StartingTime         0.618005
         
-        DuringTime           0.500000
-        Power                500
-        AffectingRange       300
+        DuringTime           0.200000
+        Power                300
+        AffectingRange       200
     }
 }
