@@ -13,6 +13,7 @@ metin2_map_seungryong	256000	665600	6	6
 metin2_map_sohan	358400	153600	6	6
 metin2_map_hwang_temple	537600	51200	4	4
 metin2_map_yongbi	204800	486400	6	6
+metin2_map_doyyumhwan	588800	614400	6	6
 metin2_map_land_of_giants	819200	716800	4	4
 metin2_map_lungsam	281600	0	2	2
 metin2_map_red_wood	1049600	0	4	4
