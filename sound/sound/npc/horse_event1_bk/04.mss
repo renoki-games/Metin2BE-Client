@@ -1,4 +1,4 @@
 ScriptType        CharacterSoundInformation
 
 SoundDataCount    1
-SoundData00       0.000000 "sound/npc/horse/horse_special.wav"
+SoundData00       0.000000 "sound/npc/pony/pony_stop.wav"

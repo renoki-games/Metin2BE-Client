@@ -8,6 +8,7 @@
 0	horse2_normal 	horse2
 0	horse2_member 	horse2
 0	horse2_master 	horse2
+0	horse_pepsi 	horse2
 0	boar	boar
 0	dog_god	dog_god
 0	fire_tiger	fire_tiger
@@ -1374,16 +1375,15 @@
 20107	horse2_normal
 20108	horse2_member
 20109	horse2_master
-20110	boar
-20111	dog_god
-20112	fire_tiger
+20110	horse_halloween1
+20111	horse_pepsi
+20112	horse_event1
 20113	lion
 20114	lion_white
 20115	boar_2
 20116	dog_god_2
 20117	fire_tiger_2
 20118	lion_2
-20119	horse_event1
 20120	fire_tiger_blue
 20121	fire_tiger_darkred
 20122	fire_tiger_gold
