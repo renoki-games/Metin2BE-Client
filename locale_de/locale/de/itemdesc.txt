@@ -486,7 +486,7 @@
 27124	Verband	Stoppt sofort die Blutung.
 27125	Gefechtstrank	Ein mächtiger Trank, der deine Angriffs- und Verteidigungspunkte erhöht und dir +50000 Trefferpunkte beschert (nur in der Kampfzone).
 27600	Lagerfeuer	Holzstücke, die für ein Lagerfeuer zusammengetragen wurden.
-27610	Fischkugel	Diese magische Kugel verrät dir, welcher Fisch an deinem Angelhaken hängt.
+27610	Fischkugel	Diese magische Kugel verrät dir, welcher Fisch an deinem Angelhaken hängt. Dauer 20 Minuten.
 27620	Fischereibuch	Ein Buch, mit dem du 3 Tage lang die doppelte Anzahl seltener Fische fängst.
 27799	Gräten	Die Gräten eines Fischs.
 27800	Paste	Ein leichter und günstiger Köder.
@@ -1947,9 +1947,10 @@
 50058	Kraut d. normalen Affen	Ein legendäres Kraut, mit dem fortgeschrittene Reiter ihr Kampfpferd wiederbeleben können. Um an die Pflanzen zu gelangen, muss man an den Affen im mittleren Dungeon vorbeikommen.
 50059	Kraut d. schweren Affen	Ein legendäres Kraut, mit dem Reit-Profis ihr Militärpferd wiederbeleben können. Um an die Pflanzen zu gelangen, muss man an den Affen im Expertendungeon vorbeikommen.
 50060	Buch der Reitkunst	Das erfolgreiche Lesen dieses Buches ermöglicht die Steigerung deiner Reitfähigkeiten. Nach dem Lesen verschwindet das Buch.
+50065	Reichspferd-Siegel	Reichspferd der Elite. Nur die stärksten Kämpfer des Reiches dürfen dieses Pferd besitzen. Ab Pferdelevel 30 nutzbar.
 50067	Rolle der Evolution	Machtvolle, uralte Schriftolle aus Pergament. Dient der Verbesserung eines Jungtiers zum Wilden Reittier.
 50068	Rolle der Mutation	Machtvolle, uralte Schriftolle aus Pergament. Dient der Verbesserung des Wilden Reittiers zum Tapferen Reittier.
-50069	Schlachtross-Pferdebuch	Sobald du die Qualifikationsprüfung der Elite beim Stallburschen bestanden hast, ermöglicht dir diese Lizenz, dein Pferd zu rufen.
+50069	Schlachtross-Siegel	Sobald du die Qualifikationsprüfung der Elite beim Stallburschen bestanden hast, ermöglicht dir diese Lizenz, dein Pferd zu rufen.
 50070	Oberork-Truhe	Die Truhe des Orkhäuptlings. Das schwere Schloss weist darauf hin, dass sie etwas Wertvolles enthalten muss.
 50071	Truhe dunkler Anführer	Die Truhe des dunklen Anführers. Das schwere Schloss weist darauf hin, dass sie etwas Wertvolles enthalten muss.
 50072	Truhe Geist-Anführer	Die Truhe des Geist-Anführers. Das schwere Schloss weist darauf hin, dass sie etwas Wertvolles enthalten muss.
@@ -1993,14 +1994,14 @@
 50122	Eisentruhe	Das stabile Behältnis stammt aus der Grotte der Verbannung.
 50123	Eiscreme	Energieschub! Diese Eiscreme erhöht deine Bewegungsgeschwindigkeit für 30 Minuten um 60. Achtung: Erneutes Aktivieren, während der Energieschub noch anhält, überschreibt die Laufzeit.
 50124	Morsche Holzkiste	Aus dem Inneren scheinen leise Tierlaute zu dringen.
-50125	Fertigkeitsbuch-Truhe	Diese rote Truhe beinhaltet ein wertvolles Fertigkeitsbuch. Der Inhalt kann beim Händler für viel Yang verkauft werden.
-50126	Geisstein-Truhe	Diese blaue Truhe beinhaltet einen wertvollen Geiststein. Der Inhalt kann beim Händler für viel Yang verkauft werden.
-50127	Mysteriöse Smaragdtruhe	Offene Smaragdtruhe
-50128	Mysteriöse Saphirtruhe	Eine Saphirtruhe ohne Schloss. Kann direkt geöffnet werden. Das Innere birgt ein wertvolles Geheimnis...
-50129	Mysteriöse Amethysttruhe	Offene Amethysttruhe
-50130	Wettkampf-Truhe	Diese Truhe verbirgt ein olympisches Geheimnis.
-50131	Mysteriöse Citrintruhe	Eine Citrintruhe ohne Schloss. Kann direkt geöffnet werden. Das Innere birgt ein wertvolles Geheimnis...
-50132	Mysteriöse Rubintruhe	Eine verschlossene Rubintruhe, die nur mit einem bestimmten Schlüssel geöffnet werden kann. Man sagt, das Innere einer solchen Truhe stehe dem glanzvollen Äußeren in nichts nach.
+50125	Geisstein-Truhe	Diese blaue Truhe beinhaltet einen wertvollen Geiststein. Der Inhalt kann beim Händler für viel Yang verkauft werden.
+50126	Zutaten-Truhe	Diese grüne Truhe beinhaltet eine wertvolle Zutat. Der Inhalt kann bei Spielern für viel Yang verkauft werden.
+50127	Itemshop-Truhe	Diese gelbe Truhe beinhaltet ein wertvolles Item. Falls der Inhalt handelbar ist, kann man diesen bei Spielern für viel Yang verkaufen.
+50128	Fischerei-Truhe	Diese beige Truhe beinhaltet einen wertvollen Fisch. Der Inhalt kann bei Spielern für viel Yang verkauft werden.
+50129	Fertigkeitsbuch-Truhe	Diese rote Truhe beinhaltet ein wertvolles Fertigkeitsbuch. Der Inhalt kann beim Händler für viel Yang verkauft werden.
+50130	Edelstein-Truhe	Diese lila Truhe beinhaltet etwas Wertvolles veredeltes. Der Inhalt kann bei Spielern für viel Yang verkauft werden.
+50131	Spezial-Truhe	Diese spezielle Truhe beinhaltet einen wertvollen Gegenstand. Falls der Inhalt handelbar ist, kann man diesen bei Spielern für viel Yang verkaufen.
+50132	Premium-Truhe	Diese schwarze Truhe beinhaltet alles was ein guter Spieler braucht! Der Inhalt läuft sofort nach dem Öffnen innerhalb 30 Tage ab.
 50133	Mysteriöse Smaragdtruhe	Eine verschlossene Smaragdtruhe, die nur mit einem bestimmten Schlüssel geöffnet werden kann. Man sagt, das Innere einer solchen Truhe stehe dem glanzvollen Äußeren in nichts nach.
 50134	Mysteriöse Saphirtruhe	Eine verschlossene Saphirtruhe, die nur mit einem bestimmten Schlüssel geöffnet werden kann. Man sagt, das Innere einer solchen Truhe stehe dem glanzvollen Äußeren in nichts nach.
 50135	Mysteriöse Amethysttruhe	Eine verschlossene Amethysttruhe, die nur mit einem bestimmten Schlüssel geöffnet werden kann. Man sagt, das Innere einer solchen Truhe stehe dem glanzvollen Äußeren in nichts nach.
@@ -2733,7 +2734,7 @@
 70002	Dritte Hand	Eine Hand, die Yang automatisch aufnimmt.
 70003	Buch des Anführers	Solange der Anführer einer Gruppe mit diesem Buch ausgerüstet ist, sammeln alle Gruppenmitglieder 30% mehr Erfahrungspunkte.
 70004	Fleißmedaille	Belohnung für deine Mühen am Tag der Arbeit. Gewährt 20% mehr Erfahrungspunkte im Kampf.
-70005	Erfahrungsring	Du sammelst im Kampf 50% mehr Erfahrungspunkte.
+70005	Erfahrungsring	Du sammelst im Kampf 1 Stunde lang 50% mehr Erfahrungspunkte.
 70006	Sprachenring	Dieser Ring wurde in vergangenen Zeiten für die Kreise der Diplomaten hergestellt. Er ermöglicht es, die Sprachen anderer Reiche zu sprechen.
 70008	Weiße Flagge	Eine Flagge, die dem Gegner Kapitulation signalisiert.
 70009	Schatztruhe	Eine reichhaltig mit Ornamenten geschmückte Truhe, die mit einem speziellen Schlüssel geöffnet werden kann.
@@ -2751,7 +2752,7 @@
 70038	Super Tapferkeitsumhang	Ein farbiger Umhang, der sämtliche Monster anlockte. Mit diesem bewiesen Krieger einst ihre Tapferkeit.
 70039	Schmiede-Handbuch	Das Buch ist mit der Seele eines alten Schmieds verbunden. Bei Nutzung vermag es die Chance der Gegenstandsverbesserung zu erhöhen.
 70040	Orkhartnäckigkeit	Reduziert den Verbrauch der Ausdauer um die Hälfte.
-70043	Diebeshandschuh	Verdoppelt deine Chance, Gegenstände zu erbeuten.
+70043	Diebeshandschuh	Erhöht 1 Stunde lang deine Chance Gegenstände zu erbeuten um 50%.
 70047	Sprachenring (Beispiel)	Dieser Ring wurde in vergangenen Zeiten für die Kreise der Diplomaten hergestellt. Er ermöglicht es, die Sprachen anderer Reiche zu sprechen.
 70048	Flüchtlingsumhang	Ein Umhang, der zu Unauffälligkeit verhilft und daher von vielen Flüchtlingen getragen wird.
 70049	Lucys Ring	Die Gravur besagt: "Der Drachengott segne dich". Der Ring verringert die Chance auf Gegenstandsverlust im Kampf.
@@ -2788,16 +2789,16 @@
 71005	Sprachenring	Du kannst 7 Tage lang alle Reichssprachen verstehen.
 71006	Sprachenring	Du kannst 15 Tage lang alle Reichssprachen verstehen.
 71007	Sprachenring	Du kannst 30 Tage lang alle Reichssprachen verstehen.
-71008	Fischereibuch	Verdoppelt deine Chance, einen seltenen Fisch zu fangen
+71008	Fischereibuch	Verdoppelt deine Chance, einen seltenen Fisch zu fangen. Dauer 30 Tage.
 71009	Lagertruhe	Dein Lager erhält zwei zusätzliche Lagerräume.
-71010	Dritte Hand	Eine Hand, die Yang automatisch aufnimmt.
+71010	Dritte Hand	Eine Hand, die Yang automatisch aufnimmt. Dauer 30 Tage.
 71011	Emotionsmaske	Mit dieser Maske kannst du deinen Gefühlen freien Lauf lassen. Dauer 30 Tage.
 71012	Buch des Anführers	Solange der Anführer einer Gruppe mit diesem Buch ausgerüstet ist, sammeln alle Gruppenmitglieder drei Stunden lang 30% mehr Erfahrungspunkte.
 71013	Feuerwerk	Rakete, die für alle sichtbar den Himmel erleuchtet.
 71014	Trank des Angriffs +10	Erhöht deine Angriffsgeschwindigkeit für 30 Minuten um 10%.
-71015	Erfahrungsring	Du sammelst im Kampf 50% mehr Erfahrungspunkte.
-71016	Handschuhe des Diebes	Verdoppelt 30 Minuten lang deine Chance, Gegenstände zu erbeuten.
-71017	Medaille des Glücks	Verdoppelt deine Chance, Yang zu erbeuten.
+71015	Erfahrungsring	Du sammelst im Kampf 50% mehr Erfahrungspunkte. Dauer 30 Tage.
+71016	Handschuhe des Diebes	Erhöht 30 Tage lang deine Chance Gegenstände zu erbeuten um 50%.
+71017	Medaille des Glücks	Erhöht 30 Tage lang deine Chance Yang zu erbeuten um 50%.
 71018	Segen des Lebens	Ein Segen, der deine TP augenblicklich vollständig regeneriert.
 71019	Segen der Magie	Ein Segen, der deine MP augenblicklich vollständig regeneriert.
 71020	Segen des Drachen	Ein Segen, der deine TP und MP augenblicklich vollständig regeneriert.
@@ -2846,7 +2847,7 @@
 71065	Stein der Kristallader	Lässt eine Kristallader neben deinem Charakter erscheinen.
 71066	Stein der Quarzader	Lässt eine Quarzader neben deinem Charakter erscheinen.
 71067	Stein der Himmelsader	Lässt eine Himmelstränenader neben deinem Charakter erscheinen.
-71068	Feder der Liebenden	Ist sie ausgerüstet, erhöhen sich die Liebespunkte eines Paares doppelt so schnell.
+71068	Feder der Liebenden	Ist sie ausgerüstet, erhöhen sich die Liebespunkte eines Paares doppelt so schnell. Dauer 30 Tage.
 71069	Ohrringe der Harmonie	Erhöhen die Chance auf durchbohrende Treffer im Kampf 3 Stunden lang für beide Ehepartner um maximal 8%, wenn einer von ihnen sie trägt. Die Wirkung des Items ist abhängig von der Prozentzahl an Liebespunkten. Hat ein Paar z.B. 50% Liebespunkte, reduziert sich die Maximalwirkung um die Hälfte.
 71070	Armband der Liebe	Erhöht das Sammeln von Erfahrungspunkten im Kampf 3 Stunden lang für beide Ehepartner um maximal 20%, wenn einer von ihnen es trägt. Die Wirkung des Items ist abhängig von der Prozentzahl an Liebespunkten. Hat ein Paar z.B. 50% Liebespunkte, reduziert sich die Maximalwirkung um die Hälfte.
 71071	Ohrringe der Liebe	Erhöhen die Chance auf kritische Treffer im Kampf 3 Stunden lang für beide Ehepartner um maximal 8%, wenn einer von beiden sie trägt. Die Wirkung des Items ist abhängig von der Prozentzahl an Liebespunkten. Hat ein Paar z.B. 50% Liebespunkte, reduziert sich die Maximalwirkung um die Hälfte.
@@ -3087,11 +3088,11 @@
 72723	Elixier der Sonne (K)	Füllt deine TP automatisch auf. Enthält 1.000.000 TP.
 72724	Elixier der Sonne (M)	Füllt deine TP automatisch auf. Enthält 3.000.000 TP.
 72725	Elixier der Sonne (G)	Füllt deine TP automatisch auf. Enthält 7.000.000 TP.
-72726	Elixier der Sonne (IS)	Füllt deine TP automatisch auf. Enthält 70.000.000 TP.
+72726	Elixier der Sonne (S)	Füllt deine TP automatisch auf. Enthält 70.000.000 TP.
 72727	Elixier des Mondes (K)	Füllt deine MP automatisch auf. Enthält 100.000 MP.
 72728	Elixier des Mondes (M)	Füllt deine MP automatisch auf. Enthält 300.000 MP.
 72729	Elixier des Mondes (G)	Füllt deine MP automatisch auf. Enthält 700.000 MP.
-72730	Elixier des Mondes (IS)	Füllt deine MP automatisch auf. Enthält 7.000.000 MP.
+72730	Elixier des Mondes (S)	Füllt deine MP automatisch auf. Enthält 7.000.000 MP.
 73001	Modische Frisur (rot)	Eine modische Frisur, die ein charakteristisches Äußeres schafft.
 73002	Modische Frisur (hell)	Eine modische Frisur, die ein charakteristisches Äußeres schafft.
 73003	Modische Frisur (blau)	Eine modische Frisur, die ein charakteristisches Äußeres schafft.
@@ -3315,7 +3316,7 @@
 76005	Elixier des Mondes (M)	Füllt deine MP automatisch auf. Enthält 300.000 MP.
 76006	Kompass des Metinsteins	Der Kompass zeigt dir Richtung und Entfernung des nächsten Metin-Steins an. Je heller er leuchtet, desto näher bist du. Er kann 6 Mal aktiviert werden.
 76007	Tapferkeitsumhang	Ein farbiger Umhang, der sämtliche Monster anlockte. Mit diesem bewiesen Krieger einst ihre Tapferkeit.
-76008	Medaille des Drachen	Bewahrt dich bei deiner nächsten Wiederbelebung davor, Erfahrungspunkte zu verlieren.
+76008	Medaille des Drachen	Bewahrt dich bei deiner Wiederbelebung davor, Erfahrungspunkte zu verlieren. Dauer 30 Tage.
 76009	Schriftrolle des Drachen	Beseitigt das Risiko, einen Gegenstand zu zerstören, wenn seine Verbesserung fehlschlägt. Es wird nur die Qualität um eine Stufe verringert. Zudem erhöht sich die Wahrscheinlichkeit einer erfolgreichen Verbesserung um 10%.
 76010	Blutstein	Dieser Stein aus dem Blut Bahar-Tarajis wird den Eintritt in die Grotte der Verbannung gewährleisten.
 76011	Buch des Anführers	Solange der Anführer einer Gruppe mit diesem Buch ausgerüstet ist, sammeln alle Gruppenmitglieder 30% mehr Erfahrungspunkte.

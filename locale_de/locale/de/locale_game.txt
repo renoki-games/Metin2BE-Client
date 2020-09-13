@@ -1239,7 +1239,7 @@ SHOP_LIMIT_TODAY	Tageslimit: %d / %d
 SHOP_MY_BATTLE_POINT	Kampfpunkte: %d
 SHOP_NOT_ENOUGH_10TH_COIN	Du besitzt nicht genügend Jubiläumsmünzen.
 SHOP_NOT_ENOUGH_BATTLE_POINT	Du hast nicht genug Kampfpunkte.
-SHOP_NOT_ENOUGH_MONEY	Nicht genug Won oder Yang
+SHOP_NOT_ENOUGH_MONEY	Nicht genug Yang
 SHOP_NOT_ENOUGH_MONEY_EX	Du hast nicht genügend Yang.
 SHOP_SELL_INFO	Wähle in deinem Inventarfenster den Gegenstand aus, den du verkaufen möchtest.
 SHOP_SOLDOUT	Ausverkauft

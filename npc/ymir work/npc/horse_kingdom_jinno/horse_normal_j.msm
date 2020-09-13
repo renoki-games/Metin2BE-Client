@@ -1,0 +1,78 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\Ymir Work\npc\horse_kingdom_jinno\horse_jinno.GR2"
+
+Group ShapeData
+{
+	PathName     "D:/YMIR WORK/npc/horse_kingdom_jinno/"
+	
+	ShapeDataCount    3
+
+	Group ShapeData00
+	{
+		ShapeIndex   0
+
+		Model		"horse_jinno.GR2"
+		SourceSkin	"horse_kingdom_j_1.dds"
+		TargetSkin	"horse_kingdom_j_1.dds"
+	}
+	
+	Group ShapeData01
+	{
+		ShapeIndex   0
+
+		Model		"horse_jinno.GR2"
+		SourceSkin	"horse_kingdom_j_1_1.dds"
+		TargetSkin	"horse_kingdom_j_1_1.dds"
+	}
+	
+	Group ShapeData02
+	{
+		ShapeIndex   0
+
+		Model		"horse_jinno.GR2"
+		SourceSkin	"horse_kingdom_j_1_2.dds"
+		TargetSkin	"horse_kingdom_j_1_2.dds"
+	}
+}
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "horse_bip01"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           100.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "horse_bip01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           110.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+}
+

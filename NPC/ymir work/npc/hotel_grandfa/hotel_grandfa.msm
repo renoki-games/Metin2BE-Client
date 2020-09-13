@@ -1,7 +1,20 @@
 ScriptType            RaceDataScript
 
 BaseModelFileName     "d:/ymir work/npc/hotel_grandfa/hotel_grandfa.gr2"
+Group ShapeData
+{
+	PathName    "d:/ymir work/npc/hotel_grandfa/"
+	ShapeDataCount    1
 
+	Group ShapeData00
+	{
+		ShapeIndex   0
+
+		Model		"hotel_grandfa.GR2"
+		SourceSkin	"hotel_grandfa.dds"
+		TargetSkin	"hotel_grandfa.dds"
+	}
+}
 DefaultHitSoundFileName     ""
 List DefaultHitEffectFileName
 {

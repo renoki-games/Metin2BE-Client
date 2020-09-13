@@ -8431,9 +8431,9 @@
 69150	ETC	icon/item/book_44.tga
 70001	ETC	icon/item/70001.tga
 70002	ETC	icon/item/70002.tga
-70003	ETC	icon/item/70003.tga
+70003	ETC	icon/item/70046.tga
 70004	ETC	icon/item/70004.tga
-70005	ETC	icon/item/70005.tga
+70005	ETC	icon/item/72050.tga
 70006	ETC	icon/item/70006.tga
 70007	ETC	icon/item/70007.tga
 70008	ETC	icon/item/70008.tga
@@ -8466,12 +8466,12 @@
 70035	ETC	icon/item/70035.tga
 70036	ETC	icon/item/70036.tga
 70037	ETC	icon/item/70037.tga
-70038	ETC	icon/item/70038.tga
+70038	ETC	icon/item/70047.tga
 70039	ETC	icon/item/70039.tga
 70040	ETC	icon/item/70040.tga
 70041	ETC	icon/item/70041.tga
 70042	ETC	icon/item/70042.tga
-70043	ETC	icon/item/70043.tga
+70043	ETC	icon/item/72503.tga
 70044	ETC	icon/item/70044.tga
 70045	ETC	icon/item/70045.tga
 70047	ETC	icon/item/70006.tga
@@ -8527,7 +8527,7 @@
 71013	ETC	icon/item/50100.tga
 71014	ETC	icon/item/27101.tga
 71015	ETC	icon/item/70005.tga
-71016	ETC	icon/item/70043.tga
+71016	ETC	icon/item/72502.tga
 71017	ETC	icon/item/71017.tga
 71018	ETC	icon/item/71018.tga
 71019	ETC	icon/item/71019.tga
@@ -8571,7 +8571,7 @@
 71065	ETC	icon/item/71057.tga
 71066	ETC	icon/item/71057.tga
 71067	ETC	icon/item/71057.tga
-71068	ETC	icon/item/70029.tga
+71068	ETC	icon/item/71068.tga
 71069	ETC	icon/item/71069.tga
 71070	ETC	icon/item/71070.tga
 71071	ETC	icon/item/71071.tga
@@ -9051,7 +9051,7 @@
 76005	ETC	icon/item/76005.tga
 76006	ETC	icon/item/76006.tga
 76007	ETC	icon/item/76007.tga
-76008	ETC	icon/item/76008.tga
+76008	ETC	icon/item/76026.tga
 76009	ETC	icon/item/76009.tga
 76010	ETC	icon/item/76010.tga
 76011	ETC	icon/item/76011.tga
@@ -9300,4 +9300,5 @@
 39091	ETC	icon/item/39091.tga
 25043	ETC	icon/item/25043.tga
 50069	ETC	icon/item/50069.tga
+50065	ETC	icon/item/50065.tga
 71055	ETC	icon/item/71055.tga

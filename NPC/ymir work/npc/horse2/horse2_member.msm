@@ -4,16 +4,35 @@ BaseModelFileName     "D:/YMIR WORK/npc/horse2/horse2_normal.GR2"
 
 Group ShapeData
 {
-    PathName 		 "d:/ymir work/npc/horse2/"
-    ShapeDataCount 		 1
+	PathName     "D:/YMIR WORK/npc/horse2/"
+	
+	ShapeDataCount    3
 
 	Group ShapeData00
 	{
-		ShapeIndex			0
+		ShapeIndex   0
 
-		Model				"horse2_normal.GR2"
-		SourceSkin			"horse_normal01.dds"
-		TargetSkin			"horse_member01.dds"
+		Model		"horse2_mormal.GR2"
+		SourceSkin	"horse_normal01.dds"
+		TargetSkin	"horse_member01.dds"
+	}
+	
+	Group ShapeData01
+	{
+		ShapeIndex   0
+
+		Model		"horse2_normal.GR2"
+		SourceSkin	"horse_normal_armor01.dds"
+		TargetSkin	"horse_normal_armor01.dds"
+	}
+	
+	Group ShapeData02
+	{
+		ShapeIndex   0
+
+		Model		"horse2_normal.GR2"
+		SourceSkin	"horse_normal_armor02.dds"
+		TargetSkin	"horse_normal_armor02.dds"
 	}
 }
 

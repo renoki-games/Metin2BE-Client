@@ -1,6 +1,20 @@
 ScriptType            RaceDataScript
 
 BaseModelFileName     "d:/ymir work/npc/guard_leader/guard_leader.gr2"
+Group ShapeData
+{
+	PathName    "d:/ymir work/npc/guard_leader/"
+	ShapeDataCount    1
+
+	Group ShapeData00
+	{
+		ShapeIndex   0
+
+		Model		"guard_leader.GR2"
+		SourceSkin	"guard_leader.dds"
+		TargetSkin	"guard_leader.dds"
+	}
+}
 
 Group AttachingData
 {

@@ -4,9 +4,19 @@ BaseModelFileName     "D:/YMIR WORK/npc/pony/pony.GR2"
 
 Group ShapeData
 {
-    PathName 		 ""
-    ShapeDataCount 		 0
+    PathName 		 "d:/ymir work/npc/pony/"
+    ShapeDataCount 		 1
+
+	Group ShapeData00
+	{
+		ShapeIndex			0
+
+		Model				"pony.GR2"
+		SourceSkin			"horse_normal01.dds"
+		TargetSkin			"horse_normal01.dds"
+	}
 }
+
 Group AttachingData
 {
     AttachingDataCount       2

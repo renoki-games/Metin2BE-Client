@@ -1,7 +1,20 @@
 ScriptType            RaceDataScript
 
 BaseModelFileName     "d:/ymir work/npc/oldster/oldster.gr2"
+Group ShapeData
+{
+	PathName    "d:/ymir work/npc/oldster/"
+	ShapeDataCount    1
 
+	Group ShapeData00
+	{
+		ShapeIndex   0
+
+		Model		"oldster.GR2"
+		SourceSkin	"oldster.dds"
+		TargetSkin	"oldster.dds"
+	}
+}
 Group AttachingData
 {
     AttachingDataCount       2

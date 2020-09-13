@@ -2,6 +2,28 @@ ScriptType            RaceDataScript
 
 PartCount             1
 BaseModelFileName     "d:/ymir work/npc/sinsu_patrol_spear/sinsu_patrol_spear.gr2"
+Group ShapeData
+{
+	PathName    "d:/ymir work/npc/sinsu_patrol_spear/"
+	ShapeDataCount    2
+
+	Group ShapeData00
+	{
+		ShapeIndex   0
+
+		Model		"sinsu_patrol_spear.GR2"
+		SourceSkin	"sinsu_patrol_spear.dds"
+		TargetSkin	"sinsu_patrol_spear_alpha.dds"
+	}
+	Group ShapeData01
+	{
+		ShapeIndex   0
+
+		Model		"sinsu_patrol_spear.GR2"
+		SourceSkin	"sinsu_patrol_weapon.dds"
+		TargetSkin	"sinsu_patrol_weapon.dds"
+	}
+}
 
 Group AttachingData
 {

@@ -2,6 +2,20 @@ ScriptType            RaceDataScript
 
 PartCount             1
 BaseModelFileName     "d:/ymir work/npc/gangyo_patrol_spear/gangyo_patrol_spear.gr2"
+Group ShapeData
+{
+	PathName    "d:/ymir work/npc/gangyo_patrol_spear/"
+	ShapeDataCount    1
+
+	Group ShapeData00
+	{
+		ShapeIndex   0
+
+		Model		"gangyo_patrol_spear.GR2"
+		SourceSkin	"gangyo_patrol_spear.dds"
+		TargetSkin	"gangyo_patrol_spear.dds"
+	}
+}
 
 Group AttachingData
 {

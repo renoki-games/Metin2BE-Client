@@ -1,6 +1,20 @@
 ScriptType            RaceDataScript
 
 BaseModelFileName     "d:/ymir work/npc/goods/goods.gr2"
+Group ShapeData
+{
+	PathName    "d:/ymir work/npc/goods/"
+	ShapeDataCount    1
+
+	Group ShapeData00
+	{
+		ShapeIndex   0
+
+		Model		"goods.GR2"
+		SourceSkin	"goods.dds"
+		TargetSkin	"goods.dds"
+	}
+}
 
 DefaultHitSoundFileName     ""
 List DefaultHitEffectFileName

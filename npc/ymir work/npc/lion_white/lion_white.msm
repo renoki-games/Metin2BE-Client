@@ -4,8 +4,17 @@ BaseModelFileName     "D:\Ymir Work\npc\lion_white\lion_white.GR2"
 
 Group ShapeData
 {
-    PathName 		 ""
-    ShapeDataCount 		 0
+	PathName    "d:/ymir work/npc/lion_white/"
+	ShapeDataCount    1
+
+	Group ShapeData00
+	{
+		ShapeIndex   0
+
+		Model		"lion_white.GR2"
+		SourceSkin	"lion_white.dds"
+		TargetSkin	"lion_white.dds"
+	}
 }
 Group AttachingData
 {

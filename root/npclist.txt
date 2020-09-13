@@ -9,6 +9,15 @@
 0	horse2_member 	horse2
 0	horse2_master 	horse2
 0	horse_pepsi 	horse2
+0	horse_normal_s 	horse_kingdom_shinsoo
+0	horse_member_s 	horse_kingdom_shinsoo
+0	horse_master_s 	horse_kingdom_shinsoo
+0	horse_normal_c 	horse_kingdom_chunjo
+0	horse_member_c 	horse_kingdom_chunjo
+0	horse_master_c 	horse_kingdom_chunjo
+0	horse_normal_j 	horse_kingdom_jinno
+0	horse_member_j 	horse_kingdom_jinno
+0	horse_master_j 	horse_kingdom_jinno
 0	boar	boar
 0	dog_god	dog_god
 0	fire_tiger	fire_tiger
@@ -1378,19 +1387,26 @@
 20110	horse_halloween1
 20111	horse_pepsi
 20112	horse_event1
-20113	lion
-20114	lion_white
-20115	boar_2
-20116	dog_god_2
-20117	fire_tiger_2
-20118	lion_2
-20120	fire_tiger_blue
-20121	fire_tiger_darkred
+20113	horse_normal_s
+20114	horse_member_s
+20115	horse_master_s
+20116	horse_normal_c
+20117	horse_member_c
+20118	horse_master_c
+20119	horse_normal_j
+20120	horse_member_j
+20121	horse_master_j
 20122	fire_tiger_gold
 20123	fire_tiger_green
 20124	fire_tiger_pied
 20125	fire_tiger_white
 20126	santa
+20150	pony_normal
+20151	pony_member
+20152	pony_master
+20153	horse_normal02
+20154	horse_pepsi
+20155	horse_event1
 20201	boar_0
 20202	dog_god_0
 20203	fire_tiger_0

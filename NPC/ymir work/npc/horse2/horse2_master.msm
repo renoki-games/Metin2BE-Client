@@ -1,6 +1,40 @@
 ScriptType            RaceDataScript
 
-BaseModelFileName     "D:/YMIR WORK/npc/horse2/horse2_master.GR2"
+BaseModelFileName     "D:/YMIR WORK/npc/horse2/horse2_normal.GR2"
+
+Group ShapeData
+{
+	PathName     "D:/YMIR WORK/npc/horse2/"
+	
+	ShapeDataCount    3
+
+	Group ShapeData00
+	{
+		ShapeIndex   0
+
+		Model		"horse2_mormal.GR2"
+		SourceSkin	"horse_normal01.dds"
+		TargetSkin	"horse_master01.dds"
+	}
+	
+	Group ShapeData01
+	{
+		ShapeIndex   0
+
+		Model		"horse2_normal.GR2"
+		SourceSkin	"horse_normal_armor01.dds"
+		TargetSkin	"horse_master_armor01.dds"
+	}
+	
+	Group ShapeData02
+	{
+		ShapeIndex   0
+
+		Model		"horse2_normal.GR2"
+		SourceSkin	"horse_normal_armor02.dds"
+		TargetSkin	"horse_master_armor02.dds"
+	}
+}
 
 Group AttachingData
 {

@@ -1,6 +1,20 @@
 ScriptType            RaceDataScript
 
 BaseModelFileName     "d:/ymir work/npc/defence/defence.gr2"
+Group ShapeData
+{
+	PathName    "d:/ymir work/npc/defence/"
+	ShapeDataCount    1
+
+	Group ShapeData00
+	{
+		ShapeIndex   0
+
+		Model		"defence.GR2"
+		SourceSkin	"defence.dds"
+		TargetSkin	"defence.dds"
+	}
+}
 
 DefaultHitSoundFileName     ""
 List DefaultHitEffectFileName
