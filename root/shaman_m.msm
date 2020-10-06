@@ -814,8 +814,8 @@ Group ShapeData
 	{
 		ShapeIndex			24	
 		Model				"shaman_lord.GR2"	
-		SourceSkin			"shaman_queen01.dds"
 		TargetSkin			"shaman_queen01.dds"	
+		SourceSkin			"shaman_queen01.dds"
 	}
 	Group ShapeData26
 	{

@@ -17,6 +17,7 @@ import ui
 import uiPhaseCurtain
 
 import localeInfo
+import constInfo
 
 class PopupDialog(ui.ScriptWindow):
 

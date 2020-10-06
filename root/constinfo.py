@@ -1,3 +1,8 @@
+import app
+
+if app.ENABLE_SEND_TARGET_INFO:
+	MONSTER_INFO_DATA = {}
+
 # EXTRA BEGIN
 # loads 5 (B,M,G,P,F) skills .mse
 ENABLE_NEW_LEVELSKILL_SYSTEM = 0
@@ -43,6 +48,14 @@ CAMERA_MAX_DISTANCE = CAMERA_MAX_DISTANCE_SHORT
 CHRNAME_COLOR_INDEX = 0
 
 ENVIRONMENT_NIGHT="d:/ymir work/environment/moonlight04.msenv"
+
+if app.ENABLE_REFINE_RENEWAL:
+	IS_AUTO_REFINE = False
+	AUTO_REFINE_TYPE = 0
+	AUTO_REFINE_DATA = {
+		"ITEM" : [-1, -1],
+		"NPC" : [0, -1, -1, 0]
+	}
 
 # constant
 HIGH_PRICE = 500000

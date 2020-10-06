@@ -8,7 +8,7 @@
 0	horse2_normal 	horse2
 0	horse2_member 	horse2
 0	horse2_master 	horse2
-0	horse_pepsi 	horse2
+0	horse_pepsi 	horse_event1
 0	horse_normal_s 	horse_kingdom_shinsoo
 0	horse_member_s 	horse_kingdom_shinsoo
 0	horse_master_s 	horse_kingdom_shinsoo

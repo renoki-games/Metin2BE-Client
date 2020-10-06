@@ -1329,16 +1329,16 @@
 7187	WEAPON	icon/item/07180.tga	d:/ymir work/item/weapon/07180.gr2
 7188	WEAPON	icon/item/07180.tga	d:/ymir work/item/weapon/07180.gr2
 7189	WEAPON	icon/item/07180.tga	d:/ymir work/item/weapon/07180.gr2
-7190	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/07190.gr2
-7191	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/07190.gr2
-7192	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/07190.gr2
-7193	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/07190.gr2
-7194	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/07190.gr2
-7195	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/07190.gr2
-7196	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/07190.gr2
-7197	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/07190.gr2
-7198	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/07190.gr2
-7199	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/07190.gr2
+7190	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/plechito/magic_bird_set/mb_fan.gr2
+7191	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/plechito/magic_bird_set/mb_fan.gr2
+7192	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/plechito/magic_bird_set/mb_fan.gr2
+7193	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/plechito/magic_bird_set/mb_fan.gr2
+7194	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/plechito/magic_bird_set/mb_fan.gr2
+7195	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/plechito/magic_bird_set/mb_fan.gr2
+7196	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/plechito/magic_bird_set/mb_fan.gr2
+7197	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/plechito/magic_bird_set/mb_fan.gr2
+7198	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/plechito/magic_bird_set/mb_fan.gr2
+7199	WEAPON	icon/item/07190.tga	d:/ymir work/item/weapon/plechito/magic_bird_set/mb_fan.gr2
 7200	WEAPON	icon/item/03010.tga	d:/ymir work/item/weapon/07200.gr2
 7201	WEAPON	icon/item/03010.tga	d:/ymir work/item/weapon/07200.gr2
 7202	WEAPON	icon/item/03010.tga	d:/ymir work/item/weapon/07200.gr2
@@ -6140,7 +6140,7 @@
 30188	ETC	icon/item/30188.tga
 30189	ETC	icon/item/30189.tga
 30190	ETC	icon/item/30190.tga
-30191	ETC	icon/item/30190.tga
+30191	ETC	icon/item/30191.tga
 30192	ETC	icon/item/30192.tga
 30193	ETC	icon/item/30193.tga
 30194	ETC	icon/item/30194.tga
@@ -8506,9 +8506,7 @@
 70302	ETC	icon/item/70302.tga
 71000	ETC	icon/item/71000.tga	
 71001	ETC	icon/item/71001.tga
-71002	ETC	icon/item/70003.tga
 71002	ETC	icon/item/71002.tga
-71003	ETC	icon/item/70003.tga
 71003	ETC	icon/item/71003.tga
 71004	ETC	icon/item/71004.tga
 71005	ETC	icon/item/70006.tga
@@ -8518,10 +8516,7 @@
 71008	ETC	icon/item/71008.tga
 71009	ETC	icon/item/27620.tga
 71009	ETC	icon/item/71009.tga
-71010	ETC	icon/item/27620.tga
 71010	ETC	icon/item/70002.tga
-71011	ETC	icon/item/70002.tga
-71011	ETC	icon/item/70002.tga
 71011	ETC	icon/item/71011.tga
 71012	ETC	icon/item/70003.tga
 71013	ETC	icon/item/50100.tga
@@ -8533,6 +8528,7 @@
 71019	ETC	icon/item/71019.tga
 71020	ETC	icon/item/71020.tga
 71021	ETC	icon/item/71003.tga
+71025	ETC	icon/item/71025.tga
 71026	ETC	icon/item/30064.tga
 71027	ETC	icon/item/71027.tga
 71028	ETC	icon/item/71028.tga
@@ -8553,13 +8549,13 @@
 71044	ETC	icon/item/71044.tga
 71045	ETC	icon/item/71045.tga
 71046	ETC	icon/item/25000.tga
-71048	ETC	icon/item/22000.tga
 71048	ETC	icon/item/71048.tga
 71049	ETC	icon/item/71049.tga
 71050	ETC	icon/item/27103.tga
 71051	ETC	icon/item/71051.tga
 71052	ETC	icon/item/71052.tga
 71053	ETC	icon/item/70050.tga
+71054	ETC	icon/item/71054.tga
 71057	ETC	icon/item/71057.tga
 71058	ETC	icon/item/71057.tga
 71059	ETC	icon/item/71057.tga
@@ -8595,7 +8591,7 @@
 71094	ETC	icon/item/71094.tga
 71095	ETC	icon/item/71095.tga
 71096	ETC	icon/item/71096.tga
-71099	ETC	icon/item/80009.tga
+71099	ETC	icon/item/71099.tga
 71100	ETC	icon/item/71100.tga
 71101	ETC	icon/item/71101.tga
 71102	ETC	icon/item/71102.tga
@@ -8626,7 +8622,7 @@
 71128	ETC	icon/item/71128.tga
 71129	ETC	icon/item/71129.tga
 71129	ETC	icon/item/71129.tga
-71130	ETC	icon/item/71095.tga
+71130	ETC	icon/item/71097.tga
 71131	ETC	icon/item/71131.tga
 71132	ETC	icon/item/71131.tga
 71133	ETC	icon/item/71131.tga
@@ -8717,9 +8713,9 @@
 72001	ETC	icon/item/70005.tga
 72002	ETC	icon/item/70005.tga
 72003	ETC	icon/item/70005.tga
-72004	ETC	icon/item/70043.tga
-72005	ETC	icon/item/70043.tga
-72006	ETC	icon/item/70043.tga
+72004	ETC	icon/item/72502.tga
+72005	ETC	icon/item/72502.tga
+72006	ETC	icon/item/72502.tga
 72007	ETC	icon/item/71049.tga
 72008	ETC	icon/item/71049.tga
 72009	ETC	icon/item/71049.tga
@@ -9241,7 +9237,6 @@
 80006	ETC	icon/item/80006.tga	d:/ymir work/item/etc/gold_nugget_2.gr2
 80007	ETC	icon/item/80007.tga	d:/ymir work/item/etc/gold_nugget_3.gr2
 80008	ETC	icon/item/80008.tga
-80009	ETC	icon/item/80009.tga
 80014	ETC	icon/item/80015.tga
 80015	ETC	icon/item/80014.tga
 80016	ETC	icon/item/80016.tga

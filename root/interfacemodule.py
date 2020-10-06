@@ -773,6 +773,10 @@ class Interface(object):
 	## Refine
 	def OpenRefineDialog(self, targetItemPos, nextGradeItemVnum, cost, prob, type):
 		self.dlgRefineNew.Open(targetItemPos, nextGradeItemVnum, cost, prob, type)
+	
+	if app.ENABLE_REFINE_RENEWAL:
+		def CheckRefineDialog(self, isFail):
+			self.dlgRefineNew.CheckRefine(isFail)
 
 	def AppendMaterialToRefineDialog(self, vnum, count):
 		self.dlgRefineNew.AppendMaterial(vnum, count)
@@ -838,10 +842,14 @@ class Interface(object):
 	def SetChatFocus(self):
 		self.wndChat.SetChatFocus()
 
-	def OpenRestartDialog(self):
-		self.dlgRestart.OpenDialog()
-		self.dlgRestart.SetTop()
-
+	if app.RENEWAL_DEAD_PACKET:
+		def OpenRestartDialog(self, d_time):
+			self.dlgRestart.OpenDialog(d_time)
+			self.dlgRestart.SetTop()
+	else:
+		def OpenRestartDialog(self):
+			self.dlgRestart.OpenDialog()
+			self.dlgRestart.SetTop()
 	def CloseRestartDialog(self):
 		self.dlgRestart.Close()
 

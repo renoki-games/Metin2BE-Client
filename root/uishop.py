@@ -161,6 +161,9 @@ class ShopDialog(ui.ScriptWindow):
 		isPrivateShop = False
 		isMainPlayerPrivateShop = False
 
+		if not isPrivateShop:
+			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.QUICK_SELL_MESSAGE)
+
 		import chr
 		if chr.IsNPC(vid):
 			isPrivateShop = False

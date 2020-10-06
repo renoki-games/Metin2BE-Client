@@ -2,6 +2,11 @@ import uiScriptLocale
 
 ROOT = "d:/ymir work/ui/public/"
 
+STEP_1 = 17
+STEP_2 = 57
+STEP_3 = 247
+BUTTON_STEP_X = 30
+
 window = {
 	"name" : "SystemDialog",
 	"style" : ("float",),
@@ -10,7 +15,7 @@ window = {
 	"y" : (SCREEN_HEIGHT - 288) /2,
 
 	"width" : 200,
-	"height" : 288,
+	"height" : 288 + 30,
 
 	"children" :
 	(
@@ -22,7 +27,7 @@ window = {
 			"y" : 0,
 
 			"width" : 200,
-			"height" : 288,
+			"height" : 288 + 30,
 
 			"children" :
 			(
@@ -31,7 +36,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 17,
+					"y" : STEP_1 + BUTTON_STEP_X*0,
 
 					"text" : uiScriptLocale.SYSTEM_HELP,
 
@@ -44,7 +49,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 57,
+					"y" : STEP_2 + BUTTON_STEP_X*0,
 
 					"text" : uiScriptLocale.SYSTEM_MALL,
 					"text_color" : 0xffF8BF24,
@@ -59,7 +64,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 87,
+					"y" : STEP_2 + BUTTON_STEP_X*1,
 
 					"text" : uiScriptLocale.SYSTEMOPTION_TITLE,
 
@@ -72,9 +77,22 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 117,
+					"y" : STEP_2 + BUTTON_STEP_X*2,
 
 					"text" : uiScriptLocale.GAMEOPTION_TITLE,
+
+					"default_image" : ROOT + "XLarge_Button_01.sub",
+					"over_image" : ROOT + "XLarge_Button_02.sub",
+					"down_image" : ROOT + "XLarge_Button_03.sub",
+				},
+				{
+					"name" : "movechannel_button",
+					"type" : "button",
+
+					"x" : 10,
+					"y" : STEP_2 + BUTTON_STEP_X*3,
+
+					"text" : uiScriptLocale.SYSTEM_MOVE_CHANNEL,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -85,7 +103,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 147,
+					"y" : STEP_2 + BUTTON_STEP_X*4,
 
 					"text" : uiScriptLocale.SYSTEM_CHANGE,
 
@@ -98,7 +116,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 177,
+					"y" : STEP_2 + BUTTON_STEP_X*5,
 
 					"text" : uiScriptLocale.SYSTEM_LOGOUT,
 
@@ -111,7 +129,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 217,
+					"y" : STEP_3 + BUTTON_STEP_X*0,
 
 					"text" : uiScriptLocale.SYSTEM_EXIT,
 
@@ -124,7 +142,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 247,
+					"y" : STEP_3 + BUTTON_STEP_X*1,
 
 					"text" : uiScriptLocale.CANCEL,
 

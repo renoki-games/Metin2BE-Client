@@ -78,13 +78,26 @@ window = {
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
 					"down_image" : ROOT + "XLarge_Button_03.sub",
+				},		
+				{
+					"name" : "movechannel_button",
+					"type" : "button",
+
+					"x" : 10,
+					"y" : 147,
+
+					"text" : uiScriptLocale.SYSTEM_MOVE_CHANNEL,
+
+					"default_image" : ROOT + "XLarge_Button_01.sub",
+					"over_image" : ROOT + "XLarge_Button_02.sub",
+					"down_image" : ROOT + "XLarge_Button_03.sub",
 				},
 				{
 					"name" : "logout_button",
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 147,
+					"y" : 177,
 
 					"text" : uiScriptLocale.SYSTEM_LOGOUT,
 
@@ -97,7 +110,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 177,
+					"y" : 207,
 
 					"text" : uiScriptLocale.SYSTEM_EXIT,
 
@@ -110,7 +123,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 217,
+					"y" : 247,
 
 					"text" : uiScriptLocale.CANCEL,
 

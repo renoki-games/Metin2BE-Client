@@ -79,6 +79,12 @@ window = {
 
 					"image" : LOCALE_PATH + "/effect/ymirred.tga",
 				},
+				{
+					"name" : "typing",
+					"type" : "text",        
+					"x" : 91,
+					"y" : 13,                 
+				},
 
 				## Button
 				{

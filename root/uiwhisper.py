@@ -4,9 +4,15 @@ import chat
 import player
 import app
 import localeInfo
+import constInfo
 import ime
 import chr
-
+import time
+import uimessenger
+if app.ENABLE_WHISPER_TIPPING:
+	import whisper
+	b_name = localeInfo.TIPPING_TEXT
+	
 class WhisperButton(ui.Button):
 	def __init__(self):
 		ui.Button.__init__(self, "TOP_MOST")
@@ -14,11 +20,11 @@ class WhisperButton(ui.Button):
 	def __del__(self):
 		ui.Button.__del__(self)
 
-	def SetToolTipText(self, text, x=0, y = 32):
+	def SetToolTipText(self, text, x=0, y = 35):
 		ui.Button.SetToolTipText(self, text, x, y)
 		self.ToolTipText.Show()
 
-	def SetToolTipTextWithColor(self, text, color, x=0, y = 32):
+	def SetToolTipTextWithColor(self, text, color, x=0, y = 35):
 		ui.Button.SetToolTipText(self, text, x, y)
 		self.ToolTipText.SetPackedFontColor(color)
 		self.ToolTipText.Show()
@@ -62,9 +68,10 @@ class WhisperDialog(ui.ScriptWindow):
 		self.eventMinimize = eventMinimize
 		self.eventClose = eventClose
 		self.eventAcceptTarget = None
+		
 	def __del__(self):
 		print "---------------------------------------------------------------------------- DELETE WHISPER DIALOG"
-		ui.ScriptWindow.__del__(self)
+		ui.ScriptWindow.__del__(self)		
 
 	def LoadDialog(self):
 		try:
@@ -89,10 +96,13 @@ class WhisperDialog(ui.ScriptWindow):
 			self.board = GetObject("board")
 			self.editBar = GetObject("editbar")
 			self.gamemasterMark = GetObject("gamemastermark")
+			if app.ENABLE_WHISPER_TIPPING:
+				self.typing = GetObject("typing")
 		except:
 			import exception
 			exception.Abort("DialogWindow.LoadDialog.BindObject")
-
+			
+		self.onRunMouseWheelEvent = None
 		self.gamemasterMark.Hide()
 		self.titleName.SetText("")
 		self.titleNameEdit.SetText("")
@@ -148,6 +158,7 @@ class WhisperDialog(ui.ScriptWindow):
 		self.board = None
 		self.editBar = None
 		self.resizeButton = None
+		self.onRunMouseWheelEvent = None
 
 	def ResizeWhisperDialog(self):
 		(xPos, yPos) = self.resizeButton.GetLocalPosition()
@@ -174,15 +185,15 @@ class WhisperDialog(ui.ScriptWindow):
 			self.SetSize(width, height)
 
 			if 0 != self.targetName:
-				chat.SetWhisperBoxSize(self.targetName, width - 50, height - 90)
-
+				chat.SetWhisperBoxSize(self.targetName, width - 50, height - 90)			
+			
 			if localeInfo.IsARABIC():
 				self.textRenderer.SetPosition(width-20, 28)
 				self.scrollBar.SetPosition(width-25+self.scrollBar.GetWidth(), 35)
 				self.editBar.SetPosition(10 + self.editBar.GetWidth(), height-60)
 				self.sendButton.SetPosition(width - 80 + self.sendButton.GetWidth(), 10)
 				self.minimizeButton.SetPosition(width-42 + self.minimizeButton.GetWidth(), 12)
-				self.closeButton.SetPosition(width-24+self.closeButton.GetWidth(), 12)
+				self.closeButton.SetPosition(width-24+self.closeButton.GetWidth(), 12)				
 				self.chatLine.SetPosition(5 + self.chatLine.GetWidth(), 5)
 				self.board.SetPosition(self.board.GetWidth(), 0)
 			else:
@@ -216,6 +227,9 @@ class WhisperDialog(ui.ScriptWindow):
 		self.targetName = targetName
 		self.textRenderer.SetTargetName(targetName)
 		self.titleNameEdit.Hide()
+		if app.ENABLE_WHISPER_TIPPING:
+			self.SetTimer()
+			self.typing.SetText(b_name)
 		self.ignoreButton.Hide()
 		if app.IsDevStage():
 			self.reportViolentWhisperButton.Show()
@@ -223,6 +237,8 @@ class WhisperDialog(ui.ScriptWindow):
 			self.reportViolentWhisperButton.Hide()
 		self.acceptButton.Hide()
 		self.gamemasterMark.Hide()
+		if app.ENABLE_WHISPER_TIPPING:
+			self.typing.Hide()
 		self.minimizeButton.Show()
 
 	def OpenWithoutTarget(self, event):
@@ -246,12 +262,18 @@ class WhisperDialog(ui.ScriptWindow):
 		self.titleNameEdit.KillFocus()
 		self.chatLine.KillFocus()
 		self.Hide()
+		if app.ENABLE_WHISPER_TIPPING:
+			if whisper.IsSended(self.targetName) and 0 != self.targetName:
+				whisper.Remove(self.targetName)
 
 		if None != self.eventMinimize:
 			self.eventMinimize(self.targetName)
 
 	def Close(self):
 		chat.ClearWhisper(self.targetName)
+		if app.ENABLE_WHISPER_TIPPING:
+			if whisper.IsSended(self.targetName) and 0 != self.targetName:
+				whisper.Remove(self.targetName)
 		self.titleNameEdit.KillFocus()
 		self.chatLine.KillFocus()
 		self.Hide()
@@ -277,9 +299,31 @@ class WhisperDialog(ui.ScriptWindow):
 
 	def OnScroll(self):
 		chat.SetWhisperPosition(self.targetName, self.scrollBar.GetPos())
+	
+	if app.ENABLE_WHISPER_TIPPING:
+		def SetTimer(self):
+			self.endTime = time.clock() + 0.4
+		def OnUpdate(self):
+			#if 0 != self.targetName:
+			if self.targetName and self.chatLine:
+				if len(self.chatLine.GetText()) > 0 and not whisper.IsSended(self.targetName):
+					whisper.Add(self.targetName)
+				elif not len(self.chatLine.GetText()) > 0 and whisper.IsSended(self.targetName):
+					whisper.Remove(self.targetName)
+				if whisper.CheckName(self.targetName):
+					self.typing.Show()
+					lastTime = max(0, self.endTime - time.clock())
+					if 0 == lastTime:
+						if len(self.typing.GetText()) - len(b_name) < 3:
+							self.typing.SetText(self.typing.GetText() + ".")
+						else:
+							self.typing.SetText(b_name)	
+						self.SetTimer()
+				else:
+					self.typing.Hide()
 
 	def SendWhisper(self):
-
+		
 		text = self.chatLine.GetText()
 		textLength = len(text)
 
@@ -295,10 +339,10 @@ class WhisperDialog(ui.ScriptWindow):
 
 	def OnTop(self):
 		self.chatLine.SetFocus()
-
+		
 	def BindInterface(self, interface):
 		self.interface = interface
-
+		
 	def OnMouseLeftButtonDown(self):
 		hyperlink = ui.GetHyperlink()
 		if hyperlink:
@@ -307,6 +351,15 @@ class WhisperDialog(ui.ScriptWindow):
 				ime.PasteString(link)
 			else:
 				self.interface.MakeHyperlinkTooltip(hyperlink)
+
+	def OnRunMouseWheel(self, nLen):
+		if nLen > 0:
+			self.scrollBar.OnUp()
+		else:
+			self.scrollBar.OnDown()
+
+	def SetOnRunMouseWheelEvent(self, event):
+		self.onRunMouseWheelEvent = __mem_func__(event)
 
 if "__main__" == __name__:
 	import uiTest

@@ -213,12 +213,6 @@ class ChatLine(ui.EditLine):
 
 
 	def __SendChatPacket(self, text, type):
-#		if text[0] == '/':
-#			if ENABLE_CHAT_COMMAND or constInfo.CONSOLE_ENABLE:
-#				pass
-#			else:
-#				return
-
 		if net.IsChatInsultIn(text):
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.CHAT_INSULT_STRING)
 		else:
@@ -226,7 +220,7 @@ class ChatLine(ui.EditLine):
 			if self.GetLinks(text, links):
 				for k, v in links.iteritems():
 					text = text.replace(k, v)
-
+					
 			net.SendChatPacket(text, type)
 
 	def GetLinks(self, string, ret):
@@ -236,7 +230,7 @@ class ChatLine(ui.EditLine):
 			return False
 
 		ret.clear()
-		map(lambda link: (ret.update({link:"|cFF00C0FC|Hweb:%s|h[%s]|h|r"%(re.sub("://", "w<?", link), link)})) if link else None, links)
+		map(lambda link: (ret.update({link:"|cFFFFD74C|Hweb:%s|h[%s]|h|r"%(re.sub("://", "w<?", link), link)})) if link else None, links)
 		return len(links) > 0
 
 	def __SendPartyChatPacket(self, text):

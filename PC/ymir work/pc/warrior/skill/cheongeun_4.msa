@@ -19,7 +19,7 @@ Group MotionEventData
         EffectFileName       "d:/ymir work/pc/warrior/effect/cheongeun_4.mse"
         EffectPosition       0.000000 0.000000 0.000000
     }
-	Group Event01
+    Group Event01
     {
         MotionEventType      2
         StartingTime         1.318005

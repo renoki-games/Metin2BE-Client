@@ -7,11 +7,12 @@ import snd
 import item
 import player
 import chat
+import shop
 import grp
 import uiScriptLocale
 import uiRefine
 import uiAttachMetin
-import uiPickMoney
+import uiPickItem
 import uiCommon
 import uiPrivateShopBuilder # 개인상점 열동안 ItemMove 방지
 import localeInfo
@@ -206,7 +207,10 @@ class InventoryWindow(ui.ScriptWindow):
 		wndEquip.SetOverOutItemEvent(ui.__mem_func__(self.OverOutItem))
 
 		## PickMoneyDialog
-		dlgPickMoney = uiPickMoney.PickMoneyDialog()
+		if app.ENABLE_UNSTACK_ADDON:
+			dlgPickMoney = uiPickItem.PickItemDialog()
+		else:
+			dlgPickMoney = uiPickMoney.PickMoneyDialog()
 		dlgPickMoney.LoadDialog()
 		dlgPickMoney.Hide()
 
@@ -545,6 +549,14 @@ class InventoryWindow(ui.ScriptWindow):
 				snd.PlaySound("sound/ui/money.wav")
 		self.OnCloseQuestionDialog()
 
+	def QuickSellItem(self, itemSlotIndex):
+		itemIndex = player.GetItemIndex(itemSlotIndex)
+		itemCount = player.GetItemCount(itemSlotIndex)
+		if itemIndex == player.GetItemIndex(itemSlotIndex):
+			if itemCount == player.GetItemCount(itemSlotIndex):
+				net.SendShopSellPacketNew(itemSlotIndex, itemCount, player.INVENTORY)
+		snd.PlaySound("sound/ui/money.wav")
+
 	def OnDetachMetinFromItem(self):
 		if None == self.questionDialog:
 			return
@@ -578,7 +590,15 @@ class InventoryWindow(ui.ScriptWindow):
 			if player.SLOT_TYPE_INVENTORY == attachedSlotType:
 				itemCount = player.GetItemCount(attachedSlotPos)
 				attachedCount = mouseModule.mouseController.GetAttachedItemCount()
-				self.__SendMoveItemPacket(attachedSlotPos, selectedSlotPos, attachedCount)
+				
+				if app.RENEWAL_DEAD_PACKET:
+					if self.dlgPickMoney and self.dlgPickMoney.IsSplitAll():
+						net.SendChatPacket("/split_items %d %d %d" % (attachedSlotPos, attachedCount, selectedSlotPos))
+						self.dlgPickMoney.SplitClear()
+					else:
+						self.__SendMoveItemPacket(attachedSlotPos, selectedSlotPos, attachedCount)
+				else:
+					self.__SendMoveItemPacket(attachedSlotPos, selectedSlotPos, attachedCount)
 
 				if item.IsRefineScroll(attachedItemIndex):
 					self.wndItem.SetUseMode(False)
@@ -755,6 +775,11 @@ class InventoryWindow(ui.ScriptWindow):
 
 		if player.REFINE_OK != player.CanRefine(scrollIndex, targetSlotPos):
 			return
+
+		if app.ENABLE_REFINE_RENEWAL:
+			constInfo.AUTO_REFINE_TYPE = 1
+			constInfo.AUTO_REFINE_DATA["ITEM"][0] = scrollSlotPos
+			constInfo.AUTO_REFINE_DATA["ITEM"][1] = targetSlotPos
 
 		###########################################################
 		self.__SendUseItemToItemPacket(scrollSlotPos, targetSlotPos)
@@ -1089,6 +1114,12 @@ class InventoryWindow(ui.ScriptWindow):
 			return
 
 		slotIndex = self.__InventoryLocalSlotPosToGlobalSlotPos(slotIndex)
+
+		if app.IsPressed(app.DIK_LSHIFT) or app.IsPressed(app.DIK_RSHIFT):
+			if shop.IsOpen():
+				if not shop.IsPrivateShop():
+					self.QuickSellItem(slotIndex)
+					return
 
 		self.__UseItem(slotIndex)
 		mouseModule.mouseController.DeattachObject()

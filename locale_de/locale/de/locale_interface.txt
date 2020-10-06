@@ -614,3 +614,5 @@ WHISPER_REPORT	report
 WHISPER_SEND	Senden
 YES	Ja
 ZONE_MAP	Übersichtskarte
+SYSTEM_MOVE_CHANNEL	Channel wechseln
+SYSTEM_CHANGE_CHANNEL	Channel

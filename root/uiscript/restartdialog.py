@@ -1,3 +1,5 @@
+import app
+import localeInfo
 import uiScriptLocale
 
 ROOT = "d:/ymir work/ui/public/"
@@ -43,6 +45,7 @@ window = {
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
 					"down_image" : ROOT + "XLarge_Button_03.sub",
+					"disable_image" : ROOT + "XLarge_Button_03.sub",
 				},
 				{
 					"name" : "restart_town_button",
@@ -56,8 +59,36 @@ window = {
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
 					"down_image" : ROOT + "XLarge_Button_03.sub",
+					"disable_image" : ROOT + "XLarge_Button_03.sub",
 				},
 			),
 		},
 	),
 }
+
+if app.RENEWAL_DEAD_PACKET:
+	window["height"] = window["height"] + 15
+	window["children"][0]["height"] = window["children"][0]["height"] + 15
+	window["children"][0]["children"] = window["children"][0]["children"] + (
+				{
+					"name" : "T00",
+					"type" : "text",
+					"x" : 170,
+					"y" : 23,
+					"text" : "",
+				},
+				{
+					"name" : "T01",
+					"type" : "text",
+					"x" : 170,
+					"y" : 53,
+					"text" : "",
+				},
+				{
+					"name" : "T02",
+					"type" : "text",
+					"x" : 26,
+					"y" : 78,
+					"text" : localeInfo.REVIVE_AUTO_TOWN_MESSAGE,
+				},
+	)

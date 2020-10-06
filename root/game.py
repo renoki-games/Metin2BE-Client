@@ -46,6 +46,7 @@ import localeInfo
 import playerSettingModule
 import interfaceModule
 
+import serverInfo
 import musicInfo
 import debugInfo
 import stringCommander
@@ -774,12 +775,21 @@ class GameWindow(ui.ScriptWindow):
 		if self.interface:
 			self.interface.RefreshCharacter()
 
-	def OnGameOver(self):
-		self.CloseTargetBoard()
-		self.OpenRestartDialog()
+	if app.RENEWAL_DEAD_PACKET:
+		def OnGameOver(self, d_time):
+			self.CloseTargetBoard()
+			self.OpenRestartDialog(d_time)
+	else:
+		def OnGameOver(self):
+			self.CloseTargetBoard()
+			self.OpenRestartDialog()
 
-	def OpenRestartDialog(self):
-		self.interface.OpenRestartDialog()
+	if app.RENEWAL_DEAD_PACKET:
+		def OpenRestartDialog(self, d_time):
+			self.interface.OpenRestartDialog(d_time)
+	else:
+		def OpenRestartDialog(self):
+			self.interface.OpenRestartDialog()
 
 	def ChangeCurrentSkill(self, skillSlotNumber):
 		self.interface.OnChangeCurrentSkill(skillSlotNumber)
@@ -810,13 +820,32 @@ class GameWindow(ui.ScriptWindow):
 	def __RefreshTargetBoard(self):
 		self.targetBoard.Refresh()
 
-	def SetHPTargetBoard(self, vid, hpPercentage):
-		if vid != self.targetBoard.GetTargetVID():
-			self.targetBoard.ResetTargetBoard()
-			self.targetBoard.SetEnemyVID(vid)
+	if app.ENABLE_TARGET_AFFECT:
+		def ClearTargetAffects(self):
+			self.targetBoard.ClearAffects()
+			
+		def AddTargetBoardAffect(self, affect, duration):
+			self.targetBoard.AddAffect(affect, duration)
 
-		self.targetBoard.SetHP(hpPercentage)
-		self.targetBoard.Show()
+		def RemoveTargetBoardAffect(self, affect):
+			self.targetBoard.RemoveAffect(affect)
+			
+	if app.ENABLE_VIEW_TARGET_DECIMAL_HP:
+		def SetHPTargetBoard(self, vid, hpPercentage, iMinHP, iMaxHP):
+			if vid != self.targetBoard.GetTargetVID():
+				self.targetBoard.ResetTargetBoard()
+				self.targetBoard.SetEnemyVID(vid)
+			
+			self.targetBoard.SetHP(hpPercentage, iMinHP, iMaxHP)
+			self.targetBoard.Show()
+	else:
+		def SetHPTargetBoard(self, vid, hpPercentage):
+			if vid != self.targetBoard.GetTargetVID():
+				self.targetBoard.ResetTargetBoard()
+				self.targetBoard.SetEnemyVID(vid)
+			
+			self.targetBoard.SetHP(hpPercentage)
+			self.targetBoard.Show()
 
 	def CloseTargetBoardIfDifferent(self, vid):
 		if vid != self.targetBoard.GetTargetVID():
@@ -1279,6 +1308,12 @@ class GameWindow(ui.ScriptWindow):
 					self.stream.popupWindow.Open(localeInfo.EXCHANGE_FAILURE_EQUIP_ITEM, 0, localeInfo.UI_OK)
 				else:
 					if chr.IsNPC(dstChrID):
+						if app.ENABLE_REFINE_RENEWAL:
+							constInfo.AUTO_REFINE_TYPE = 2
+							constInfo.AUTO_REFINE_DATA["NPC"][0] = dstChrID
+							constInfo.AUTO_REFINE_DATA["NPC"][1] = attachedInvenType
+							constInfo.AUTO_REFINE_DATA["NPC"][2] = attachedItemSlotPos
+							constInfo.AUTO_REFINE_DATA["NPC"][3] = attachedItemCount
 						net.SendGiveItemPacket(dstChrID, attachedInvenType, attachedItemSlotPos, attachedItemCount)
 					else:
 						net.SendExchangeStartPacket(dstChrID)
@@ -1542,6 +1577,46 @@ class GameWindow(ui.ScriptWindow):
 		if self.affectShower:
 			self.affectShower.OnUpdateLovePoint(lovePoint)
 	# END_OF_WEDDING
+
+	if app.ENABLE_SEND_TARGET_INFO:
+		def BINARY_AddTargetMonsterDropInfo(self, raceNum, itemVnum, itemCount):
+			if not raceNum in constInfo.MONSTER_INFO_DATA:
+				constInfo.MONSTER_INFO_DATA.update({raceNum : {}})
+				constInfo.MONSTER_INFO_DATA[raceNum].update({"items" : []})
+			curList = constInfo.MONSTER_INFO_DATA[raceNum]["items"]
+
+			isUpgradeable = False
+			isMetin = False
+			item.SelectItem(itemVnum)
+			if item.GetItemType() == item.ITEM_TYPE_WEAPON or item.GetItemType() == item.ITEM_TYPE_ARMOR:
+				isUpgradeable = True
+			elif item.GetItemType() == item.ITEM_TYPE_METIN:
+				isMetin = True
+
+			for curItem in curList:
+				if isUpgradeable:
+					if curItem.has_key("vnum_list") and curItem["vnum_list"][0] / 10 * 10 == itemVnum / 10 * 10:
+						if not (itemVnum in curItem["vnum_list"]):
+							curItem["vnum_list"].append(itemVnum)
+						return
+				elif isMetin:
+					if curItem.has_key("vnum_list"):
+						baseVnum = curItem["vnum_list"][0]
+					if curItem.has_key("vnum_list") and (baseVnum - baseVnum%1000) == (itemVnum - itemVnum%1000):
+						if not (itemVnum in curItem["vnum_list"]):
+							curItem["vnum_list"].append(itemVnum)
+						return
+				else:
+					if curItem.has_key("vnum") and curItem["vnum"] == itemVnum and curItem["count"] == itemCount:
+						return
+
+			if isUpgradeable or isMetin:
+				curList.append({"vnum_list":[itemVnum], "count":itemCount})
+			else:
+				curList.append({"vnum":itemVnum, "count":itemCount})
+
+		def BINARY_RefreshTargetMonsterDropInfo(self, raceNum):
+			self.targetBoard.RefreshMonsterInfoBoard()
 
 	# QUEST_CONFIRM
 	def BINARY_OnQuestConfirm(self, msg, timeout, pid):
@@ -1848,6 +1923,10 @@ class GameWindow(ui.ScriptWindow):
 			# END_OF_PRIVATE_SHOP_PRICE_LIST
 		}
 
+		if app.ENABLE_TARGET_AFFECT:
+			serverCommandList["AddTargetBoardAffect"] 			= self.AddTargetBoardAffect
+			serverCommandList["RemoveTargetBoardAffect"] 			= self.RemoveTargetBoardAffect
+
 		self.serverCommander=stringCommander.Analyzer()
 		for serverCommandItem in serverCommandList.items():
 			self.serverCommander.SAFE_RegisterCallBack(
@@ -1894,10 +1973,14 @@ class GameWindow(ui.ScriptWindow):
 	def RefineSuceededMessage(self):
 		snd.PlaySound("sound/ui/make_soket.wav")
 		self.PopupMessage(localeInfo.REFINE_SUCCESS)
+		if app.ENABLE_REFINE_RENEWAL:
+			self.interface.CheckRefineDialog(False)
 
 	def RefineFailedMessage(self):
 		snd.PlaySound("sound/ui/jaeryun_fail.wav")
 		self.PopupMessage(localeInfo.REFINE_FAILURE)
+		if app.ENABLE_REFINE_RENEWAL:
+			self.interface.CheckRefineDialog(True)
 
 	def CommandCloseSafebox(self):
 		self.interface.CommandCloseSafebox()
@@ -2116,6 +2199,32 @@ class GameWindow(ui.ScriptWindow):
 			self.interface.wndMessenger.ClearLoverInfo()
 		if self.affectShower:
 			self.affectShower.ClearLoverState()
+
+	if app.ENABLE_MOVE_CHANNEL:
+		def __GetServerID(self):
+			serverID = 1
+			for i in serverInfo.REGION_DICT[0].keys():
+				if serverInfo.REGION_DICT[0][i]["name"] == net.GetServerInfo().split(",")[0]:
+					serverID = int(i)
+					break
+	
+			return serverID
+		
+		def RefreshChannel(self, channel):
+			channelName = ""
+			serverName = serverInfo.REGION_DICT[0][self.__GetServerID()]["name"]
+			if channel in serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"]:
+				channelName = serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"][int(channel)]["name"]
+			elif channel == 99:
+				channelName = "Special CH"
+			else:
+				channelName = "Unknow CH"
+				
+			net.SetServerInfo("%s, %s" % (serverName,channelName))
+			if self.interface:
+				self.interface.wndMiniMap.serverInfo.SetText(net.GetServerInfo())
+				
+			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.MOVE_CHANNEL_NOTICE % (channel))
 
 	def __PlayMusic(self, flag, filename):
 		flag = int(flag)

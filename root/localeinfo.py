@@ -9,7 +9,7 @@ MAP_TREE2 = "MAP_TREE2"
 BLEND_POTION_NO_TIME = "BLEND_POTION_NO_TIME"
 BLEND_POTION_NO_INFO = "BLEND_POTION_NO_INFO"
 
-APP_TITLE = "METIN2"
+APP_TITLE = "Metin2 - Black Edition"
 
 GUILD_HEADQUARTER = "Main Building"
 GUILD_FACILITY = "Facility"
@@ -289,6 +289,25 @@ def CutMoneyString(sourceText, startIndex, endIndex, insertingText, backText):
 		backText = " " + backText
 
 	return text + insertingText + backText
+
+def SecondToMS(time):
+	if time < 60:
+		return "%d%s" % (time, SECOND)
+
+	second = int(time % 60)
+	minute = int((time / 60) % 60)
+
+	text = ""
+
+	if minute > 0:
+		text += str(minute) + MINUTE
+		if minute > 0:
+			text += " "
+
+	if second > 0:
+		text += str(second) + SECOND
+
+	return text
 
 def SecondToDHM(time):
 	if time < 60:
@@ -977,6 +996,9 @@ elif IsEUROPE() and not IsWE_KOREA() and not IsYMIR():
 			return "0 %s" % (MONETARY_UNIT_JUN)
 
 		return "%s %s" % ('.'.join([ i-3<0 and str(n)[:i] or str(n)[i-3:i] for i in range(len(str(n))%3, len(str(n))+1, 3) if i ]), MONETARY_UNIT_JUN)
+
+def DottedNumber(n) :
+	return "%s" % ('.'.join([ i-3<0 and str(n)[:i] or str(n)[i-3:i] for i in range(len(str(n))%3, len(str(n))+1, 3) if i ])) 
 
 def NumberWithDots(n) :
     if n <= 0 :

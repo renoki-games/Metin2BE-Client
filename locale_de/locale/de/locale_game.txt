@@ -1626,3 +1626,54 @@ USE_ITEM_FAILURE_PRIVATE_SHOP	Du kannst keine Gegenstände verwenden, solange du 
 USE_SKILL_ERROR_UNKNOWN	Unbekannter Fertigkeitsfehler: %s
 TOOLTIP_ANTI_EXP	Exp erhalten deaktiviert	SNA
 MESSENGER_TEAM_GROUP_NAME	Team
+TARGET_INFO_RESISTS	Widerstände:
+TARGET_INFO_RESISTS_LINE0	Schwert: %d%% | Zweihand: %d%% | Glocke: %d%%
+TARGET_INFO_RESISTS_LINE1	Dolche:  %d%% | Fächer:   %d%% | Bogen:  %d%%
+TARGET_INFO_REGEN_INFO	TP reg. %d%% alle %d sek.
+TARGET_INFO_GOLD_MIN_MAX	Yang: %s ~ %s
+TARGET_INFO_DAMAGE	Schlagschaden : %s - %s
+TARGET_INFO_DEFENSE	Verteidigung : %s
+TARGET_INFO_EXP	Erfahrung : %s
+TARGET_INFO_MAINRACE	Rasse : %s
+TARGET_INFO_MAX_HP	Max. Trefferpunkte : %s
+TARGET_INFO_NO_ITEM_TEXT	Keine verfügbaren Items
+TARGET_INFO_NO_RACE	Keine Rasse
+TARGET_INFO_NEWRACE_INSECT	Insekt
+TARGET_INFO_NEWRACE_FIRE	Feuermonster
+TARGET_INFO_NEWRACE_ICE	Eismonster
+TARGET_INFO_NEWRACE_DESERT	Wüste
+TARGET_INFO_NEWRACE_TREE	Baum
+TARGET_INFO_RACE_ANIMAL	Tiere
+TARGET_INFO_RACE_DARK	Widerstand gegen Dunkelheit
+TARGET_INFO_RACE_DEVIL	Teufel
+TARGET_INFO_RACE_EARTH	Erdwiderstand
+TARGET_INFO_RACE_ELEC	Blitzwiderstand 
+TARGET_INFO_RACE_FIRE	Feuerwiderstand
+TARGET_INFO_RACE_HUMAN	Halbmenschen
+TARGET_INFO_RACE_ICE	Eiswiderstand
+TARGET_INFO_RACE_METIN	Metin-Stein
+TARGET_INFO_RACE_MILGYO	Esoterische 
+TARGET_INFO_RACE_ORC	Orks
+TARGET_INFO_RACE_UNDEAD	Untote
+TARGET_INFO_RACE_WIND	Windwiderstand
+TARGET_INFO_STONE_NAME	Geiststein
+TARGET_INFO_SUBRACE	Untergattung : %s
+QUICK_SELL_MESSAGE	Für Schnellverkauf: SHIFT + Rechtsclick
+CHANNEL	Channel.
+CHANNELING_CANNOT_LOGOUT	Du kannst nicht zum Login-Bildschirm zurückkehren.
+CHANNEL_EMPTY_SERVER	Kein Server.
+CHANNEL_NORMAL	Channel %d
+CHANNEL_NOTIFY_FULL	Dieser CH ist voll! Bitte wähle einen anderen.
+CHANNEL_NOT_FIND_INFO	Keine Informationen über den CH gefunden.
+CHANNEL_PVP	Du bist gerade in einem Duell. Du kannst den Channel jetzt nicht wechseln.
+CHANNEL_SELECT_CHANNEL	Wähle einen Channel aus.
+CHANNEL_SELECT_REGION	Wähle die Region aus.
+CHANNEL_SELECT_SERVER	Wähle den Server.
+CHANNEL_TEST_SERVER	Teste den Server.
+CHANNEL_TEST_SERVER_ADDR	Test %s:%d
+POLYMORPH_AFFECT_TOOLTIP	Verwandlungskugel	SNA
+POLYMORPH_AFFECT_REMOVE_QUESTION	Möchtest du die Verwandlung beenden?
+REVIVE_AUTO_TOWN_MESSAGE	Neustart in der Stadt: {}
+COMPARE_EQUIPPED	[Ausgerüstet]]
+REALLY_WANNA_DELETE_ACCOUNT_DATA	Möchtest du wirklich die Accountdaten löschen?
+TIPPING_TEXT	Schreibt.

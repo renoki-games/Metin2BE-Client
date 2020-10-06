@@ -735,8 +735,8 @@
 30187	Blutstropfen	Ein Tropfen Blut der ermordeten Göttin Bahar-Taraji, Schöpferin der Welt.
 30188	Vulkanglas	Ehemals flüssiges, schlagartig abgekühltes Vulkangestein.
 30189	Tränen Baljit-Elvedins	Das kunstvoll geformte Gefäß enthält die Tränen des Gottes Baljit-Elvedin.
-30190	Blutstein	Dieser Stein aus dem Blut Bahar-Tarajis wird den Eintritt in die Grotte der Verbannung gewährleisten. Eintritt ab Lv 75.
-30191	Blutstein	Blutsteine ermöglichen den Eintritt in die Grotte der Verbannung.
+30190	Blutstein	Dieser Stein wird den Eintritt in die Grotte der Verbannung gewährleisten. Eintritt ab Lv 75.
+30191	Blutstein	Dieser Stein wird den Eintritt in die Grotte der Verbannung gewährleisten. Eintritt ab Lv 75.
 30192	Milchsaft	Hochwertiges Pflanzensekret
 30193	Fingerknochen	Das letzte Überbleibsel eines gefallenen Helden.
 30194	Ork-Keule	Eine hässliche Waffe mit stabilen Dornen.
@@ -780,8 +780,8 @@
 30316	Spendenteller	Ein Teller mit einer reichen Verzierung.
 30317	Essensspende	Eine Essensspende für das Fastenbrechen.
 30318	Frucht des Segens	Eine außergewöhnliche Frucht, sammle genügend und du erhältst eine Belohnung.
-30319	Schrumpfkopf	Dieser Dämonenschrumpfkopf öffnet das Siegel zur 3. Ebene der Devil's Catacomb.
-30320	Schrumpfkopf	Dieser Dämonenschrumpfkopf öffnet das Siegel zur 3. Ebene der Devil's Catacomb.
+30319	Schrumpfkopf	Dieser Dämonenschrumpfkopf öffnet das Siegel zur 3. Ebene der Devil's Catacomb. Eintritt ab Lv 75.
+30320	Schrumpfkopf	Dieser Dämonenschrumpfkopf öffnet das Siegel zur 3. Ebene der Devil's Catacomb. Eintritt ab Lv 75.
 30321	Halloween-Kürbis	Der Kürbis füllt TP oder MP auf. Berührt man ihn mit einem Zauberstab, verwandelt er sich in die Halloween-Truhe.
 30322	Zauberstab	Ein kunstvoll geschnitzter Zauberstab aus Erlenholz mit einer Sternenspitze aus magischem Feuer, der jeden Halloween-Kürbis in die Halloween-Truhe verwandeln kann.
 30323	Kürbismasken-Karte	Die Kürbismasken-Karte lässt sich bei Jack Pumpkin gegen eine Kürbismaske eintauschen. Die Kürbismaske ersetzt die schon vorhandene Frisur.
@@ -1946,7 +1946,8 @@
 50057	Kraut der leichten Affen	Ein legendäres Kraut, mit dem Reitanfänger ihr Pferd wiederbeleben können. Um an die Pflanzen zu gelangen, muss man an den Affen im Anfängerdungeon vorbeikommen.
 50058	Kraut d. normalen Affen	Ein legendäres Kraut, mit dem fortgeschrittene Reiter ihr Kampfpferd wiederbeleben können. Um an die Pflanzen zu gelangen, muss man an den Affen im mittleren Dungeon vorbeikommen.
 50059	Kraut d. schweren Affen	Ein legendäres Kraut, mit dem Reit-Profis ihr Militärpferd wiederbeleben können. Um an die Pflanzen zu gelangen, muss man an den Affen im Expertendungeon vorbeikommen.
-50060	Buch der Reitkunst	Das erfolgreiche Lesen dieses Buches ermöglicht die Steigerung deiner Reitfähigkeiten. Nach dem Lesen verschwindet das Buch.
+50060	Buch der Reitkunst	Das erfolgreiche Lesen dieses Buches ermöglicht die Steigerung deiner Reitfähigkeiten.
+50061	Handbuch Pferdezähmen	Das erfolgreiche Lesen dieses Buches ermöglicht die Steigerung deiner Fähigkeit dein Pferd zu rufen.
 50065	Reichspferd-Siegel	Reichspferd der Elite. Nur die stärksten Kämpfer des Reiches dürfen dieses Pferd besitzen. Ab Pferdelevel 30 nutzbar.
 50067	Rolle der Evolution	Machtvolle, uralte Schriftolle aus Pergament. Dient der Verbesserung eines Jungtiers zum Wilden Reittier.
 50068	Rolle der Mutation	Machtvolle, uralte Schriftolle aus Pergament. Dient der Verbesserung des Wilden Reittiers zum Tapferen Reittier.
@@ -2295,144 +2296,6 @@
 50910	Rezept Hwal-Wasser	Es beschreibt die genaue Herstellung des Wassers aus Gango-Wurzelsaft, Tue-Pilzen und Maulbeeren.
 51001	Energiesplitter	Splitter eines Energiekristalls. 30 Stück lassen sich zu einem Kristall schmelzen.
 51002	Energiekristall	Dieser Kristall erhöht für zwei Stunden deine Boni.
-51501	Cor Draconis (Roh)	Das kristallene Drachenherz beinhaltet einen zufälligen Drachenstein der Klasse Roh.
-51502	Cor Draconis (Roh)	Das kristallene Drachenherz beinhaltet einen zufälligen Drachenstein der Klasse Roh.
-51503	Cor Draconis (normal)	Kristallenes Drachenherz. Rang: normal. Beinhaltet einen matten Drachenstein der Klasse Roh bis Schliff.
-51504	Cor Draconis (edel)	Kristallenes Drachenherz. Rang: edel. Beinhaltet einen matten Drachenstein der Klasse Roh bis Rar.
-51505	Cor Draconis (kostbar)	Kristallenes Drachenherz. Rang: kostbar. Beinhaltet einen matten Drachenstein der Klasse Roh bis Antik.
-51506	Cor Draconis (mythisch)	Kristallenes Drachenherz. Rang: mythisch. Beinhaltet einen matten Drachenstein der Klasse Schliff bis Legendär.
-51507	Cor Draconis (Schliff)	Das kristallene Drachenherz beinhaltet einen zufälligen Drachenstein der Klasse Schliff.
-51508	Cor Draconis (Rar)	Das kristallene Drachenherz beinhaltet einen zufälligen Drachenstein der Klasse Rar.
-51509	Cor Draconis (Antik)	Das kristallene Drachenherz beinhaltet einen zufälligen Drachenstein der Klasse Antik.
-51510	Cor Draconis (Legendär)	Das kristallene Drachenherz beinhaltet einen zufälligen Drachenstein der Klasse Legendär.
-51511	Cor Diamas	Weißer Cor Draconis. Beinhaltet einen zufälligen Drachendiamant.
-51512	Cor Rubinum	Roter Cor Draconis. Beinhaltet einen zufälligen Drachenrubin.
-51513	Cor Jadeit	Grüner Cor Draconis. Beinhaltet einen zufälligen Drachenjade.
-51514	Cor Saphirum	Blauer Cor Draconis. Beinhaltet einen zufälligen Drachensaphir.
-51515	Cor Granatum	Orangefarbener Cor Draconis. Beinhaltet einen zufälligen Drachengranat.
-51516	Cor Atrum	Schwarzer Cor Draconis. Beinhaltet einen zufälligen Drachenonyx.
-51517	Cor Diamas (normal)	Weißer Cor Draconis. Rang: normal. Beinhaltet einen matten Drachendiamant der Klasse Roh bis Schliff.
-51518	Cor Rubinum (normal)	Roter Cor Draconis. Rang: normal. Beinhaltet einen matten Drachenrubin der Klasse Roh bis Schliff.
-51519	Cor Jadeit (normal)	Grüner Cor Draconis. Rang: normal. Beinhaltet einen matten Drachenjade der Klasse Roh bis Schliff.
-51520	Cor Saphirum (normal)	Blauer Cor Draconis. Rang: normal. Beinhaltet einen matten Drachensaphir der Klasse Roh bis Schliff.
-51521	Cor Granatum (normal)	Orangefarbener Cor Draconis. Rang: normal. Beinhaltet einen matten Drachengranat der Klasse Roh bis Schliff.
-51522	Cor Atrum (normal)	Schwarzer Cor Draconis. Rang: normal. Beinhaltet einen matten Drachenonyx der Klasse Roh bis Schliff.
-51523	Cor Diamas (edel)	Weißer Cor Draconis. Rang: edel. Beinhaltet einen matten Drachendiamant der Klasse Roh bis Rar.
-51524	Cor Rubinum (edel)	Roter Cor Draconis. Rang: edel. Beinhaltet einen matten Drachenrubin der Klasse Roh bis Rar.
-51525	Cor Jadeit (edel)	Grüner Cor Draconis. Rang: edel. Beinhaltet einen matten Drachenjade der Klasse Roh bis Rar.
-51526	Cor Saphirum (edel)	Blauer Cor Draconis. Rang: edel. Beinhaltet einen matten Drachensaphir der Klasse Roh bis Rar.
-51527	Cor Granatum (edel)	Orangefarbener Cor Draconis. Rang: edel. Beinhaltet einen matten Drachengranat der Klasse Roh bis Rar.
-51528	Cor Atrum (edel)	Schwarzer Cor Draconis. Rang: edel. Beinhaltet einen matten Drachenonyx der Klasse Roh bis Rar.
-51529	Cor Diamas (kostbar)	Weißer Cor Draconis. Rang: kostbar. Beinhaltet einen matten Drachendiamant der Klasse Roh bis Antik.
-51530	Cor Rubinum (kostbar)	Roter Cor Draconis. Rang: kostbar. Beinhaltet einen matten Drachenrubin der Klasse Roh bis Antik.
-51531	Cor Jadeit (kostbar)	Grüner Cor Draconis. Rang: kostbar. Beinhaltet einen matten Drachenjade der Klasse Roh bis Antik.
-51532	Cor Saphirum (kostbar)	Blauer Cor Draconis. Rang: kostbar. Beinhaltet einen matten Drachensaphir der Klasse Roh bis Antik.
-51533	Cor Granatum (kostbar)	Orangefarbener Cor Draconis. Rang: kostbar. Beinhaltet einen matten Drachengranat der Klasse Roh bis Antik.
-51534	Cor Atrum (kostbar)	Schwarzer Cor Draconis. Rang: kostbar. Beinhaltet einen matten Drachenonyx der Klasse Roh bis Antik.
-51535	Cor Diamas (makellos)	Weißer Cor Draconis. Rang: makellos. Beinhaltet einen matten Drachendiamant der Klasse Roh bis Legendär.
-51536	Cor Rubinum (makellos)	Roter Cor Draconis. Rang: makellos. Beinhaltet einen matten Drachenrubin der Klasse Roh bis Legendär.
-51537	Cor Jadeit (makellos)	Grüner Cor Draconis. Rang: makellos. Beinhaltet einen matten Drachenjade der Klasse Roh bis Legendär.
-51538	Cor Saphirum (makellos)	Blauer Cor Draconis. Rang: makellos. Beinhaltet einen matten Drachensaphir der Klasse Roh bis Legendär.
-51539	Cor Granatum (makellos)	Orangefarbener Cor Draconis. Rang: makellos. Beinhaltet einen matten Drachengranat der Klasse Roh bis Legendär.
-51540	Cor Atrum (makellos)	Schwarzer Cor Draconis. Rang: makellos. Beinhaltet einen matten Drachenonyx der Klasse Roh bis Legendär.
-51541	Cor Draconis (glühend)	Kristallenes Drachenherz. Rang: glühend. Beinhaltet einen matten Drachenstein der Klasse Schliff bis Rar.
-51542	Cor Diamas (glühend)	Weißer Cor Draconis. Rang: glühend. Beinhaltet einen matten Drachendiamant der Klasse Schliff bis Rar.
-51543	Cor Rubinum (glühend)	Roter Cor Draconis. Rang: glühend. Beinhaltet einen matten Drachenrubin der Klasse Schliff bis Rar.
-51544	Cor Jadeit (glühend)	Grüner Cor Draconis. Rang: glühend. Beinhaltet einen matten Drachenjade der Klasse Schliff bis Rar.
-51545	Cor Saphirum (glühend)	Blauer Cor Draconis. Rang: glühend. Beinhaltet einen matten Drachensaphir der Klasse Schliff bis Rar.
-51546	Cor Granatum (glühend)	Orangefarbener Cor Draconis. Rang: glühend. Beinhaltet einen matten Drachengranat der Klasse Schliff bis Rar.
-51547	Cor Atrum (glühend)	Schwarzer Cor Draconis. Rang: glühend. Beinhaltet einen matten Drachenonyx der Klasse Schliff bis Rar.
-51548	Cor Draconis (makellos)	Kristallenes Drachenherz. Rang: makellos. Beinhaltet einen matten Drachenstein der Klasse Roh bis Legendär.
-51549	Cor Draconis (ewig)	Kristallenes Drachenherz. Rang: ewig. Beinhaltet einen matten Drachenstein der Klasse Schliff bis Antik.
-51550	Cor Diamas (ewig)	Weißer Cor Draconis. Rang: ewig. Beinhaltet einen matten Drachendiamant der Klasse Schliff bis Antik.
-51551	Cor Rubinum (ewig)	Roter Cor Draconis. Rang: ewig. Beinhaltet einen matten Drachenrubin der Klasse Schliff bis Antik.
-51552	Cor Jadeit (ewig)	Grüner Cor Draconis. Rang: ewig. Beinhaltet einen matten Drachenjade der Klasse Schliff bis Antik.
-51553	Cor Saphirum (ewig)	Blauer Cor Draconis. Rang: ewig. Beinhaltet einen matten Drachensaphir der Klasse Schliff bis Antik.
-51554	Cor Granatum (ewig)	Orangefarbener Cor Draconis. Rang: ewig. Beinhaltet einen matten Drachengranat der Klasse Schliff bis Antik.
-51555	Cor Atrum (ewig)	Schwarzer Cor Draconis. Rang: ewig. Beinhaltet einen matten Drachenonyx der Klasse Schliff bis Antik.
-51556	Cor Diamas (mythisch)	Weißer Cor Draconis. Rang: mythisch. Beinhaltet einen matten Drachendiamant der Klasse Schliff bis Legendär.
-51557	Cor Rubinum (mythisch)	Roter Cor Draconis. Rang: mythisch. Beinhaltet einen matten Drachenrubin der Klasse Schliff bis Legendär.
-51558	Cor Jadeit (mythisch)	Grüner Cor Draconis. Rang: mythisch. Beinhaltet einen matten Drachenjade der Klasse Schliff bis Legendär.
-51559	Cor Saphirum (mythisch)	Blauer Cor Draconis. Rang: mythisch. Beinhaltet einen matten Drachensaphir der Klasse Schliff bis Legendär.
-51560	Cor Granatum (mythisch)	Orangefarbener Cor Draconis. Rang: mythisch. Beinhaltet einen matten Drachengranat der Klasse Schliff bis Legendär.
-51561	Cor Atrum (mythisch)	Schwarzer Cor Draconis. Rang: mythisch. Beinhaltet einen matten Drachenonyx der Klasse Schliff bis Legendär.
-51562	Cor Draconis (episch)	Kristallenes Drachenherz. Rang: episch. Beinhaltet einen matten Drachenstein der Klasse Rar bis Antik.
-51563	Cor Diamas (episch)	Weißer Cor Draconis. Rang: episch. Beinhaltet einen matten Drachendiamant der Klasse Rar bis Antik.
-51564	Cor Rubinum (episch)	Roter Cor Draconis. Rang: episch. Beinhaltet einen matten Drachenrubin der Klasse Rar bis Antik.
-51565	Cor Jadeit (episch)	Grüner Cor Draconis. Rang: episch. Beinhaltet einen matten Drachenjade der Klasse Rar bis Antik.
-51566	Cor Saphirum (episch)	Blauer Cor Draconis. Rang: episch. Beinhaltet einen matten Drachensaphir der Klasse Rar bis Antik.
-51567	Cor Granatum (episch)	Orangefarbener Cor Draconis. Rang: episch. Beinhaltet einen matten Drachengranat der Klasse Rar bis Antik.
-51568	Cor Atrum (episch)	Schwarzer Cor Draconis. Rang: episch. Beinhaltet einen matten Drachenonyx der Klasse Rar bis Antik.
-51569	Cor Draconis (göttlich)	Kristallenes Drachenherz. Rang: göttlich. Beinhaltet einen matten Drachenstein der Klasse Rar bis Legendär.
-51570	Cor Diamas (göttlich)	Weißer Cor Draconis. Rang: göttlich. Beinhaltet einen matten Drachendiamant der Klasse Rar bis Legendär.
-51571	Cor Rubinum (göttlich)	Roter Cor Draconis. Rang: göttlich. Beinhaltet einen matten Drachenrubin der Klasse Rar bis Legendär.
-51572	Cor Jadeit (göttlich)	Grüner Cor Draconis. Rang: göttlich. Beinhaltet einen matten Drachenjade der Klasse Rar bis Legendär.
-51573	Cor Saphirum (göttlich)	Blauer Cor Draconis. Rang: göttlich. Beinhaltet einen matten Drachensaphir der Klasse Rar bis Legendär.
-51574	Cor Granatum (göttlich)	Orangefarbener Cor Draconis. Rang: göttlich. Beinhaltet einen matten Drachengranat der Klasse Rar bis Legendär.
-51575	Cor Atrum (göttlich)	Schwarzer Cor Draconis. Rang: göttlich. Beinhaltet einen matten Drachenonyx der Klasse Rar bis Legendär.
-51576	Cor Draconis+ (normal)	Mächtiger Cor Draconis. Rang: normal. Beinhaltet einen Drachenstein der Klasse Roh bis Schliff mit zufälligem Reinheitsgrad.
-51577	Cor Diamas+ (normal)	Mächtiger Cor Draconis. Rang: normal. Beinhaltet einen Drachendiamant der Klasse Roh bis Schliff mit zufälligem Reinheitsgrad.
-51578	Cor Rubinum+ (normal)	Mächtiger Cor Draconis. Rang: normal. Beinhaltet einen Drachenrubin der Klasse Roh bis Schliff mit zufälligem Reinheitsgrad.
-51579	Cor Jadeit+ (normal)	Mächtiger Cor Draconis. Rang: normal. Beinhaltet einen Drachenjade der Klasse Roh bis Schliff mit zufälligem Reinheitsgrad.
-51580	Cor Saphirum+ (normal)	Mächtiger Cor Draconis. Rang: normal. Beinhaltet einen Drachensaphir der Klasse Roh bis Schliff mit zufälligem Reinheitsgrad.
-51581	Cor Granatum+ (normal)	Mächtiger Cor Draconis. Rang: normal. Beinhaltet einen Drachengranat der Klasse Roh bis Schliff mit zufälligem Reinheitsgrad.
-51582	Cor Atrum+ (normal)	Mächtiger Cor Draconis. Rang: normal. Beinhaltet einen Drachenonyx der Klasse Roh bis Schliff mit zufälligem Reinheitsgrad.
-51583	Cor Draconis+ (edel)	Mächtiger Cor Draconis. Rang: edel. Beinhaltet einen Drachenstein der Klasse Roh bis Rar mit zufälligem Reinheitsgrad.
-51584	Cor Diamas+ (edel)	Mächtiger Cor Draconis. Rang: edel. Beinhaltet einen Drachendiamant der Klasse Roh bis Rar mit zufälligem Reinheitsgrad.
-51585	Cor Rubinum+ (edel)	Mächtiger Cor Draconis. Rang: edel. Beinhaltet einen Drachenrubin der Klasse Roh bis Rar mit zufälligem Reinheitsgrad.
-51586	Cor Jadeit+ (edel)	Mächtiger Cor Draconis. Rang: edel. Beinhaltet einen Drachenjade der Klasse Roh bis Rar mit zufälligem Reinheitsgrad.
-51587	Cor Saphirum+ (edel)	Mächtiger Cor Draconis. Rang: edel. Beinhaltet einen Drachensaphir der Klasse Roh bis Rar mit zufälligem Reinheitsgrad.
-51588	Cor Granatum+ (edel)	Mächtiger Cor Draconis. Rang: edel. Beinhaltet einen Drachengranat der Klasse Roh bis Rar mit zufälligem Reinheitsgrad.
-51589	Cor Atrum+ (edel)	Mächtiger Cor Draconis. Rang: edel. Beinhaltet einen Drachenonyx der Klasse Roh bis Rar mit zufälligem Reinheitsgrad.
-51590	Cor Draconis+ (kostbar)	Mächtiger Cor Draconis. Rang: kostbar. Beinhaltet einen Drachenstein der Klasse Roh bis Antik mit zufälligem Reinheitsgrad.
-51591	Cor Diamas+ (kostbar)	Mächtiger Cor Draconis. Rang: kostbar. Beinhaltet einen Drachendiamant der Klasse Roh bis Antik mit zufälligem Reinheitsgrad.
-51592	Cor Rubinum+ (kostbar)	Mächtiger Cor Draconis. Rang: kostbar. Beinhaltet einen Drachenrubin der Klasse Roh bis Antik mit zufälligem Reinheitsgrad.
-51593	Cor Jadeit+ (kostbar)	Mächtiger Cor Draconis. Rang: kostbar. Beinhaltet einen Drachenjade der Klasse Roh bis Antik mit zufälligem Reinheitsgrad.
-51594	Cor Saphirum+ (kostbar)	Mächtiger Cor Draconis. Rang: kostbar. Beinhaltet einen Drachensaphir der Klasse Roh bis Antik mit zufälligem Reinheitsgrad.
-51595	Cor Granatum+ (kostbar)	Mächtiger Cor Draconis. Rang: kostbar. Beinhaltet einen Drachengranat der Klasse Roh bis Antik mit zufälligem Reinheitsgrad.
-51596	Cor Atrum+ (kostbar)	Mächtiger Cor Draconis. Rang: kostbar. Beinhaltet einen Drachenonyx der Klasse Roh bis Antik mit zufälligem Reinheitsgrad.
-51597	Cor Draconis+ (makellos)	Mächtiger Cor Draconis. Rang: makellos. Beinhaltet einen Drachenstein der Klasse Roh bis Legendär mit zufälligem Reinheitsgrad.
-51598	Cor Diamas+ (makellos)	Mächtiger Cor Draconis. Rang: makellos. Beinhaltet einen Drachendiamant der Klasse Roh bis Legendär mit zufälligem Reinheitsgrad.
-51599	Cor Rubinum+ (makellos)	Mächtiger Cor Draconis. Rang: makellos. Beinhaltet einen Drachenrubin der Klasse Roh bis Legendär mit zufälligem Reinheitsgrad.
-51600	Cor Jadeit+ (makellos)	Mächtiger Cor Draconis. Rang: makellos. Beinhaltet einen Drachenjade der Klasse Roh bis Legendär mit zufälligem Reinheitsgrad.
-51601	Cor Saphirum+ (makellos)	Mächtiger Cor Draconis. Rang: makellos. Beinhaltet einen Drachensaphir der Klasse Roh bis Legendär mit zufälligem Reinheitsgrad.
-51602	Cor Granatum+ (makellos)	Mächtiger Cor Draconis. Rang: makellos. Beinhaltet einen Drachengranat der Klasse Roh bis Legendär mit zufälligem Reinheitsgrad.
-51603	Cor Atrum+ (makellos)	Mächtiger Cor Draconis. Rang: makellos. Beinhaltet einen Drachenonyx der Klasse Roh bis Legendär mit zufälligem Reinheitsgrad.
-51604	Cor Draconis+ (glühend)	Mächtiger Cor Draconis. Rang: glühend. Beinhaltet einen Drachenstein der Klasse Schliff bis Rar mit zufälligem Reinheitsgrad.
-51605	Cor Diamas+ (glühend)	Mächtiger Cor Draconis. Rang: glühend. Beinhaltet einen Drachendiamant der Klasse Schliff bis Rar mit zufälligem Reinheitsgrad.
-51606	Cor Rubinum+ (glühend)	Mächtiger Cor Draconis. Rang: glühend. Beinhaltet einen Drachenrubin der Klasse Schliff bis Rar mit zufälligem Reinheitsgrad.
-51607	Cor Jadeit+ (glühend)	Mächtiger Cor Draconis. Rang: glühend. Beinhaltet einen Drachenjade der Klasse Schliff bis Rar mit zufälligem Reinheitsgrad.
-51608	Cor Saphirum+ (glühend)	Mächtiger Cor Draconis. Rang: glühend. Beinhaltet einen Drachensaphir der Klasse Schliff bis Rar mit zufälligem Reinheitsgrad.
-51609	Cor Granatum+ (glühend)	Mächtiger Cor Draconis. Rang: glühend. Beinhaltet einen Drachengranat der Klasse Schliff bis Rar mit zufälligem Reinheitsgrad.
-51610	Cor Atrum+ (glühend)	Mächtiger Cor Draconis. Rang: glühend. Beinhaltet einen Drachenonyx der Klasse Schliff bis Rar mit zufälligem Reinheitsgrad.
-51611	Cor Draconis+ (ewig)	Mächtiger Cor Draconis. Rang: ewig. Beinhaltet einen Drachenstein der Klasse Schliff bis Antik mit zufälligem Reinheitsgrad.
-51612	Cor Diamas+ (ewig)	Mächtiger Cor Draconis. Rang: ewig. Beinhaltet einen Drachendiamant der Klasse Schliff bis Antik mit zufälligem Reinheitsgrad.
-51613	Cor Rubinum+ (ewig)	Mächtiger Cor Draconis. Rang: ewig. Beinhaltet einen Drachenrubin der Klasse Schliff bis Antik mit zufälligem Reinheitsgrad.
-51614	Cor Jadeit+ (ewig)	Mächtiger Cor Draconis. Rang: ewig. Beinhaltet einen Drachenjade der Klasse Schliff bis Antik mit zufälligem Reinheitsgrad.
-51615	Cor Saphirum+ (ewig)	Mächtiger Cor Draconis. Rang: ewig. Beinhaltet einen Drachensaphir der Klasse Schliff bis Antik mit zufälligem Reinheitsgrad.
-51616	Cor Granatum+ (ewig)	Mächtiger Cor Draconis. Rang: ewig. Beinhaltet einen Drachengranat der Klasse Schliff bis Antik mit zufälligem Reinheitsgrad.
-51617	Cor Atrum+ (ewig)	Mächtiger Cor Draconis. Rang: ewig. Beinhaltet einen Drachenonyx der Klasse Schliff bis Antik mit zufälligem Reinheitsgrad.
-51618	Cor Draconis+ (mythisch)	Mächtiger Cor Draconis. Rang: mythisch. Beinhaltet einen Drachenstein der Klasse Schliff bis Legendär mit zufälligem Reinheitsgrad.
-51619	Cor Diamas+ (mythisch)	Mächtiger Cor Draconis. Rang: mythisch. Beinhaltet einen Drachendiamant der Klasse Schliff bis Legendär mit zufälligem Reinheitsgrad.
-51620	Cor Rubinum+ (mythisch)	Mächtiger Cor Draconis. Rang: mythisch. Beinhaltet einen Drachenrubin der Klasse Schliff bis Legendär mit zufälligem Reinheitsgrad.
-51621	Cor Jadeit+ (mythisch)	Mächtiger Cor Draconis. Rang: mythisch. Beinhaltet einen Drachenjade der Klasse Schliff bis Legendär mit zufälligem Reinheitsgrad.
-51622	Cor Saphirum+ (mythisch)	Mächtiger Cor Draconis. Rang: mythisch. Beinhaltet einen Drachensaphir der Klasse Schliff bis Legendär mit zufälligem Reinheitsgrad.
-51623	Cor Granatum+ (mythisch)	Mächtiger Cor Draconis. Rang: mythisch. Beinhaltet einen Drachengranat der Klasse Schliff bis Legendär mit zufälligem Reinheitsgrad.
-51624	Cor Atrum+ (mythisch)	Mächtiger Cor Draconis. Rang: mythisch. Beinhaltet einen Drachenonyx der Klasse Schliff bis Legendär mit zufälligem Reinheitsgrad.
-51625	Cor Draconis+ (episch)	Mächtiger Cor Draconis. Rang: episch. Beinhaltet einen Drachenstein der Klasse Rar bis Antik mit zufälligem Reinheitsgrad.
-51626	Cor Diamas+ (episch)	Mächtiger Cor Draconis. Rang: episch. Beinhaltet einen Drachendiamant der Klasse Rar bis Antik mit zufälligem Reinheitsgrad.
-51627	Cor Rubinum+ (episch)	Mächtiger Cor Draconis. Rang: episch. Beinhaltet einen Drachenrubin der Klasse Rar bis Antik mit zufälligem Reinheitsgrad.
-51628	Cor Jadeit+ (episch)	Mächtiger Cor Draconis. Rang: episch. Beinhaltet einen Drachenjade der Klasse Rar bis Antik mit zufälligem Reinheitsgrad.
-51629	Cor Saphirum+ (episch)	Mächtiger Cor Draconis. Rang: episch. Beinhaltet einen Drachensaphir der Klasse Rar bis Antik mit zufälligem Reinheitsgrad.
-51630	Cor Granatum+ (episch)	Mächtiger Cor Draconis. Rang: episch. Beinhaltet einen Drachengranat der Klasse Rar bis Antik mit zufälligem Reinheitsgrad.
-51631	Cor Atrum+ (episch)	Mächtiger Cor Draconis. Rang: episch. Beinhaltet einen Drachenonyx der Klasse Rar bis Antik mit zufälligem Reinheitsgrad.
-51632	Cor Draconis+ (göttlich)	Mächtiger Cor Draconis. Rang: göttlich. Beinhaltet einen Drachenstein der Klasse Rar bis Legendär mit zufälligem Reinheitsgrad.
-51633	Cor Diamas+ (göttlich)	Mächtiger Cor Draconis. Rang: göttlich. Beinhaltet einen Drachendiamant der Klasse Rar bis Legendär mit zufälligem Reinheitsgrad.
-51634	Cor Rubinum+ (göttlich)	Mächtiger Cor Draconis. Rang: göttlich. Beinhaltet einen Drachenrubin der Klasse Rar bis Legendär mit zufälligem Reinheitsgrad.
-51635	Cor Jadeit+ (göttlich)	Mächtiger Cor Draconis. Rang: göttlich. Beinhaltet einen Drachenjade der Klasse Rar bis Legendär mit zufälligem Reinheitsgrad.
-51636	Cor Saphirum+ (göttlich)	Mächtiger Cor Draconis. Rang: göttlich. Beinhaltet einen Drachensaphir der Klasse Rar bis Legendär mit zufälligem Reinheitsgrad.
-51637	Cor Granatum+ (göttlich)	Mächtiger Cor Draconis. Rang: göttlich. Beinhaltet einen Drachengranat der Klasse Rar bis Legendär mit zufälligem Reinheitsgrad.
-51638	Cor Atrum+ (göttlich)	Mächtiger Cor Draconis. Rang: göttlich. Beinhaltet einen Drachenonyx der Klasse Rar bis Legendär mit zufälligem Reinheitsgrad.
 51639	Drachentruhe	Die azurblaue Truhe enthält elf normale Cor Draconis.
 51640	Drachentruhe+	Die azurblaue Truhe enthält elf mächtige Cor Draconis des Rangs "normal" sowie eine grüne Drachenbohne.
 51641	Drachentruhe+ (bunt)	Die azurblaue Truhe enthält jeweils einen mächtigen Cor Draconis jeder Farbe des Rangs "normal" sowie eine grüne Drachenbohne.
@@ -3010,30 +2873,30 @@
 71225	Manu (Siegel)	Das Siegel ruft ein mächtiges Mammut herbei. Es verleiht seinem Reiter +15% Stärke gegen Monster und +1500 TP.
 71226	Bra. Kampf-Tulu (Siegel)	Mit diesem Siegel rufst du dein braunes Kampfkamel herbei. Es verleiht seinem Reiter +20 Bewegungsgeschwindigkeit und +1500 TP.
 71227	Sw. Kampf-Tulu (Siegel)	Mit diesem Siegel rufst du dein schwarzes Kampfkamel herbei. Es verleiht seinem Reiter +20 Bewegungsgeschwindigkeit und +1500 TP.
-72001	Erfahrungsring	Erhöht das Sammeln von Erfahrung um 50%.
-72002	Erfahrungsring	Erhöht das Sammeln von Erfahrung 30 Minuten lang um 50%.
-72003	Erfahrungsring	Erhöht das Sammeln von Erfahrung 3 Stunden lang um 50%.
-72004	Handschuhe des Diebes	Verdoppelt 10 Stunden lang deine Chance, Gegenstände zu erbeuten.
-72005	Handschuhe des Diebes	Verdoppelt 30 Minuten lang deine Chance, Gegenstände zu erbeuten.
-72006	Handschuhe des Diebes	Verdoppelt 3 Stunden lang deine Chance, Gegenstände zu erbeuten.
-72007	Seidenbündel	Du kannst 10 Stunden lang einen privaten Laden eröffnen.
-72008	Seidenbündel	Du kannst 30 Minuten lang einen privaten Laden eröffnen.
-72009	Seidenbündel	Du kannst 3 Stunden lang einen privaten Laden eröffnen.
-72010	Feder der Liebenden	Ist sie ausgerüstet, erhöhen sich die Liebespunkte eines Paares 15 Minuten lang doppelt so schnell.
-72011	Feder der Liebenden	Ist sie ausgerüstet, erhöhen sich die Liebespunkte eines Paares 30 Minuten lang doppelt so schnell.
-72012	Feder der Liebenden	Ist sie ausgerüstet, erhöhen sich die Liebespunkte eines Paares 3 Stunden lang doppelt so schnell.
-72013	Fischereibuch	Verdoppelt 15 Minuten lang deine Chance, einen seltenen Fisch zu fangen.
-72014	Fischereibuch	Verdoppelt 30 Minuten lang deine Chance, einen seltenen Fisch zu fangen.
-72015	Fischereibuch	Verdoppelt 3 Stunden lang deine Chance, einen seltenen Fisch zu fangen.
-72016	Dritte Hand	Eine Hand, die eine gewisse Zeit lang automatisch Yang aufnimmt.
-72017	Dritte Hand	Eine Hand, die 30 Minuten lang Yang automatisch aufnimmt.
-72018	Dritte Hand	Eine Hand, die 3 Stunden lang Yang automatisch aufnimmt.
+72001	Erfahrungsring	Du sammelst im Kampf 50% mehr Erfahrungspunkte. Dauer 7 Tage.
+72002	Erfahrungsring	Du sammelst im Kampf 50% mehr Erfahrungspunkte. Dauer 15 Tage.
+72003	Erfahrungsring	Du sammelst im Kampf 50% mehr Erfahrungspunkte. Dauer 30 Tage.
+72004	Handschuhe des Diebes	Erhöht 7 Tage lang deine Chance Gegenstände zu erbeuten um 50%.
+72005	Handschuhe des Diebes	Erhöht 15 Tage lang deine Chance Gegenstände zu erbeuten um 50%.
+72006	Handschuhe des Diebes	Erhöht 30 Tage lang deine Chance Gegenstände zu erbeuten um 50%.
+72007	Seidenbündel	Mit diesem Bündel kannst du 7 Tage lang kostenlos private Läden eröffnen.
+72008	Seidenbündel	Mit diesem Bündel kannst du 15 Tage lang kostenlos private Läden eröffnen.
+72009	Seidenbündel	Mit diesem Bündel kannst du 30 Tage lang kostenlos private Läden eröffnen.
+72010	Feder der Liebenden	Ist sie ausgerüstet, erhöhen sich die Liebespunkte eines Paares doppelt so schnell. Dauer 7 Tage.
+72011	Feder der Liebenden	Ist sie ausgerüstet, erhöhen sich die Liebespunkte eines Paares doppelt so schnell. Dauer 15 Tage.
+72012	Feder der Liebenden	Ist sie ausgerüstet, erhöhen sich die Liebespunkte eines Paares doppelt so schnell. Dauer 30 Tage.
+72013	Fischereibuch	Verdoppelt deine Chance, einen seltenen Fisch zu fangen. Dauer 7 Tage.
+72014	Fischereibuch	Verdoppelt deine Chance, einen seltenen Fisch zu fangen. Dauer 15 Tage.
+72015	Fischereibuch	Verdoppelt deine Chance, einen seltenen Fisch zu fangen. Dauer 30 Tage.
+72016	Dritte Hand	Eine Hand, die Yang automatisch aufnimmt. Dauer 7 Tage.
+72017	Dritte Hand	Eine Hand, die Yang automatisch aufnimmt. Dauer 15 Tage.
+72018	Dritte Hand	Eine Hand, die Yang automatisch aufnimmt. Dauer 30 Tage.
 72019	Lagertruhe	Dein Lager erhält 15 Minuten lang zwei zusätzliche Lagerräume.
 72020	Lagertruhe	Dein Lager erhält 30 Minuten lang zwei zusätzliche Lagerräume.
 72021	Lagertruhe	Dein Lager erhält 3 Stunden lang zwei zusätzliche Lagerräume.
-72022	Medaille des Glücks	Verdoppelt 10 Stunden lang deine Chance, Yang zu erbeuten.
-72023	Medaille des Glücks	Verdoppelt 30 Minuten lang deine Chance, Yang zu erbeuten.
-72024	Medaille des Glücks	Verdoppelt 3 Stunden lang deine Chance, Yang zu erbeuten.
+72022	Medaille des Glücks	Erhöht 7 Tage lang deine Chance Yang zu erbeuten um 50%.
+72023	Medaille des Glücks	Erhöht 15 Tage lang deine Chance Yang zu erbeuten um 50%.
+72024	Medaille des Glücks	Erhöht 30 Tage lang deine Chance Yang zu erbeuten um 50%.
 72025	Kritischer Kampf	Erhöht deine Chance, im Kampf einen kritischen Treffer zu landen, 10 Minuten lang um 20%.
 72026	Kritischer Kampf	Erhöht deine Chance, im Kampf einen kritischen Treffer zu landen, 10 Minuten lang um 20%.
 72027	Kritischer Kampf	Erhöht deine Chance, im Kampf einen kritischen Treffer zu landen, 10 Minuten lang um 20%.
@@ -3348,27 +3211,6 @@
 80016	DR-Gutschein (1000)	Gutschein im Wert von 1000 Drachenmünzen.
 80017	DR-Gutschein (50)	Gutschein im Wert von 50 Drachenmünzen.
 80019	Feines Tuch	Aus diesem Material wird dein Schulterband hergestellt.
-80021	Ymir CashPack	Only for Ymir (may only be distributed by QA).
-85001	Herrscherband (einfach)	Dieses Band nimmt 1% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85002	Herrscherband (fein)	Dieses Band nimmt 5% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85003	Herrscherband (edel)	Dieses Band nimmt 10% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85004	Herrscherband (maßgef.)	Dieses Band nimmt 11~25% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85005	Meisterband (einfach)	Dieses Band nimmt 1% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85006	Meisterband (fein)	Dieses Band nimmt 5% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85007	Meisterband (edel)	Dieses Band nimmt 10% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85008	Meisterband (maßgef.)	Dieses Band nimmt 11~25% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85011	Fürstenband (einfach)	Dieses Band nimmt 1% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85012	Fürstenband (fein)	Dieses Band nimmt 5% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85013	Fürstenband (edel)	Dieses Band nimmt 10% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85014	Fürstenband (maßgef.)	Dieses Band nimmt 11~25% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85015	Königsband (einfach)	Dieses Band nimmt 1% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85016	Königsband (fein)	Dieses Band nimmt 5% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85017	Königsband (edel)	Dieses Band nimmt 10% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85018	Königsband (maßgef.)	Dieses Band nimmt 11~25% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85021	Jubiläumsband (einfach)	Dieses Band nimmt 1% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85022	Jubiläumsband (fein)	Dieses Band nimmt 5% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85023	Jubiläumsband (edel)	Dieses Band nimmt 10% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
-85024	Jubiläumsband (maßgef.)	Dieses Band nimmt 11~25% der Boni von der Waffe oder Rüstung auf, die du dafür einsetzt.
 90000	Urkunde der Umkehr	Benutze die Urkunde der Umkehr, um Boni wieder vom Schulterband zu entfernen.
 90001	Leere Wasserflasche	Ein stabiler Reisebehälter für den Wassertransport - derzeit leider leer.
 90002	Wasserflasche	Ein stabiler Reisebehälter für den Wassertransport.
@@ -3380,8 +3222,3 @@
 90010	Fundamentstein	Baumaterial für Gildengebäude
 90011	Stamm	Baumaterial für Gildengebäude
 90012	Sperrholz	Baumaterial für Gildengebäude
-90013	Button-Abbild	
-9506	Schwert+3	
-9507	Dolch+3	
-9508	Fächer+3	
-9509	Stahlfackel+3	

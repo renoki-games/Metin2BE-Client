@@ -106,11 +106,17 @@ class ToolTip(ui.ThinBoard):
 		self.xPos = -1
 		self.yPos = -1
 
+		if app.__COMPARE_TOOLTIP__:
+			self.CompareTooltip = None
+			self.IsCompare = False
+
 		self.defFontName = localeInfo.UI_DEF_FONT
 		self.ClearToolTip()
 
 	def __del__(self):
 		ui.ThinBoard.__del__(self)
+		if app.__COMPARE_TOOLTIP__ and self.CompareTooltip:
+			del self.CompareTooltip
 
 	def ClearToolTip(self):
 		self.toolTipHeight = 12
@@ -271,6 +277,8 @@ class ToolTip(ui.ThinBoard):
 
 	def HideToolTip(self):
 		self.Hide()
+		if app.__COMPARE_TOOLTIP__ and self.CompareTooltip:
+			self.CompareTooltip.Hide()
 
 	def OnUpdate(self):
 
@@ -309,9 +317,53 @@ class ToolTip(ui.ThinBoard):
 			x -= gx
 			y -= gy
 
+		if app.IsPressed(app.DIK_LALT):
+			if self.IsCompare:
+				return
+			if not self.CompareTooltip:
+				self.SetCompareItem(self.itemVnum)
+		else:
+			if self.CompareTooltip:
+				self.CompareTooltip.Hide()
+				self.IsCompare = False
+				self.CompareTooltip = None
+
+		if app.__COMPARE_TOOLTIP__:
+			if self.IsCompare:
+				return
+			if self.CompareTooltip:
+				val = [0] * 2
+				if x < self.CompareTooltip.GetWidth():
+					val[0] = self.GetWidth()
+				else:
+					val[0] = -self.CompareTooltip.GetWidth()
+				CompareHeight = wndMgr.GetScreenHeight() - self.CompareTooltip.GetHeight()
+				if y > CompareHeight:
+					val[1] = CompareHeight - y
+				elif y < 0:
+					val[1] = 0 - y
+				self.CompareTooltip.SetPosition(x + val[0], y + val[1])
+
 		self.SetPosition(x, y)
 
+	if app.__COMPARE_TOOLTIP__:
+		def SetCompareItem(self, itemVnum):
+			slotIndex = item.GetCompareIndex(itemVnum)
+			if slotIndex:
+				if not self.CompareTooltip:
+					self.CompareTooltip = ItemToolTip()
+					self.CompareTooltip.IsCompare = True
+
+				self.CompareTooltip.SetInventoryItem(slotIndex, player.INVENTORY, False)
+				self.CompareTooltip.AutoAppendTextLine(localeInfo.COMPARE_EQUIPPED, 0xffFFA100)
+				self.CompareTooltip.ResizeToolTip()
+
 class ItemToolTip(ToolTip):
+
+	if app.ENABLE_SEND_TARGET_INFO:
+		isStone = False
+		isBook = False
+		isBook2 = False
 
 	CHARACTER_NAMES = (
 		localeInfo.TOOLTIP_WARRIOR,
@@ -548,7 +600,7 @@ class ItemToolTip(ToolTip):
 		self.toolTipWidth = self.TOOL_TIP_WIDTH
 		ToolTip.ClearToolTip(self)
 
-	def SetInventoryItem(self, slotIndex, window_type = player.INVENTORY):
+	def SetInventoryItem(self, slotIndex, window_type = player.INVENTORY, CompareItem = True):
 		itemVnum = player.GetItemIndex(window_type, slotIndex)
 		if 0 == itemVnum:
 			return
@@ -563,6 +615,41 @@ class ItemToolTip(ToolTip):
 		attrSlot = [player.GetItemAttribute(window_type, slotIndex, i) for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM)]
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot, 0, 0, window_type, slotIndex)
+		if app.__COMPARE_TOOLTIP__ and app.IsPressed(app.DIK_LALT) and not slotIndex >= player.EQUIPMENT_SLOT_START and CompareItem:
+			self.SetCompareItem(itemVnum)
+
+	if app.ENABLE_SEND_TARGET_INFO:
+		def SetItemToolTipStone(self, itemVnum):
+			self.itemVnum = itemVnum
+			item.SelectItem(itemVnum)
+			itemType = item.GetItemType()
+
+			itemDesc = item.GetItemDescription()
+			itemSummary = item.GetItemSummary()
+			attrSlot = 0
+			self.__AdjustMaxWidth(attrSlot, itemDesc)
+			itemName = item.GetItemName()
+			realName = itemName[:itemName.find("+")]
+			self.SetTitle(realName + " +0 - +4")
+
+			## Description ###
+			self.AppendDescription(itemDesc, 26)
+			self.AppendDescription(itemSummary, 26, self.CONDITION_COLOR)
+
+			if item.ITEM_TYPE_METIN == itemType:
+				self.AppendMetinInformation()
+				self.AppendMetinWearInformation()
+
+			for i in xrange(item.LIMIT_MAX_NUM):
+				(limitType, limitValue) = item.GetLimit(i)
+
+				if item.LIMIT_REAL_TIME_START_FIRST_USE == limitType:
+					self.AppendRealTimeStartFirstUseLastTime(item, metinSlot, i)
+
+				elif item.LIMIT_TIMER_BASED_ON_WEAR == limitType:
+					self.AppendTimerBasedOnWearLastTime(metinSlot)
+
+			self.ShowToolTip()
 
 	def SetShopItem(self, slotIndex):
 		itemVnum = shop.GetItemID(slotIndex)
@@ -582,6 +669,8 @@ class ItemToolTip(ToolTip):
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
 		self.AppendPrice(price)
+		if app.__COMPARE_TOOLTIP__ and app.IsPressed(app.DIK_LALT) and shop.IsOpen() and not shop.IsMainPlayerPrivateShop() and CompareItem:
+			self.SetCompareItem(itemVnum)
 
 	def SetShopItemBySecondaryCoin(self, slotIndex):
 		itemVnum = shop.GetItemID(slotIndex)
@@ -631,6 +720,8 @@ class ItemToolTip(ToolTip):
 		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append(exchange.GetItemAttributeFromTarget(slotIndex, i))
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
+		if app.__COMPARE_TOOLTIP__ and app.IsPressed(app.DIK_LALT) and CompareItem:
+			self.SetCompareItem(itemVnum)
 
 	def SetPrivateShopBuilderItem(self, invenType, invenPos, privateShopSlotIndex):
 		itemVnum = player.GetItemIndex(invenType, invenPos)
@@ -664,6 +755,8 @@ class ItemToolTip(ToolTip):
 			attrSlot.append(safebox.GetItemAttribute(slotIndex, i))
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot, safebox.GetItemFlags(slotIndex))
+		if app.__COMPARE_TOOLTIP__ and app.IsPressed(app.DIK_LALT) and CompareItem:
+			self.SetCompareItem(itemVnum)
 
 	def SetMallItem(self, slotIndex):
 		itemVnum = safebox.GetMallItemID(slotIndex)
@@ -679,6 +772,8 @@ class ItemToolTip(ToolTip):
 			attrSlot.append(safebox.GetMallItemAttribute(slotIndex, i))
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
+		if app.__COMPARE_TOOLTIP__ and app.IsPressed(app.DIK_LALT) and CompareItem:
+			self.SetCompareItem(itemVnum)
 
 	def SetItemToolTip(self, itemVnum):
 		self.ClearToolTip()
@@ -780,7 +875,15 @@ class ItemToolTip(ToolTip):
 		self.SetTitle(itemName)
 
 	def __SetNormalItemTitle(self):
-		self.SetTitle(item.GetItemName())
+		if app.ENABLE_SEND_TARGET_INFO:
+			if self.isStone:
+				itemName = item.GetItemName()
+				realName = itemName[:itemName.find("+")]
+				self.SetTitle(realName + " +0 - +4")
+			else:
+				self.SetTitle(item.GetItemName())
+		else:
+			self.SetTitle(item.GetItemName())
 
 	def __SetSpecialItemTitle(self):
 		self.AppendTextLine(item.GetItemName(), self.SPECIAL_TITLE_COLOR)
@@ -848,28 +951,57 @@ class ItemToolTip(ToolTip):
 			return
 
 		### Skill Book ###
-		elif 50300 == itemVnum:
-			if 0 != metinSlot:
-				self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILLBOOK_NAME, 1)
-				self.__AppendSealInformation(window_type, slotIndex) ## cyh itemseal 2013 11 11
-				self.ShowToolTip()
-			return
-		elif 70037 == itemVnum:
-			if 0 != metinSlot:
-				self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILL_FORGET_BOOK_NAME, 0)
-				self.AppendDescription(item.GetItemDescription(), 26)
-				self.AppendDescription(item.GetItemSummary(), 26, self.CONDITION_COLOR)
-				self.__AppendSealInformation(window_type, slotIndex) ## cyh itemseal 2013 11 11
-				self.ShowToolTip()
-			return
-		elif 70055 == itemVnum:
-			if 0 != metinSlot:
-				self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILL_FORGET_BOOK_NAME, 0)
-				self.AppendDescription(item.GetItemDescription(), 26)
-				self.AppendDescription(item.GetItemSummary(), 26, self.CONDITION_COLOR)
-				self.__AppendSealInformation(window_type, slotIndex) ## cyh itemseal 2013 11 11
-				self.ShowToolTip()
-			return
+		if app.ENABLE_SEND_TARGET_INFO:
+			if 50300 == itemVnum and not self.isBook:
+				if 0 != metinSlot and not self.isBook:
+					self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILLBOOK_NAME, 1)
+					self.ShowToolTip()
+				elif self.isBook:
+					self.SetTitle(item.GetItemName())
+					self.AppendDescription(item.GetItemDescription(), 26)
+					self.AppendDescription(item.GetItemSummary(), 26, self.CONDITION_COLOR)
+					self.ShowToolTip()					
+				return
+			elif 70037 == itemVnum :
+				if 0 != metinSlot and not self.isBook2:
+					self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILL_FORGET_BOOK_NAME, 0)
+					self.AppendDescription(item.GetItemDescription(), 26)
+					self.AppendDescription(item.GetItemSummary(), 26, self.CONDITION_COLOR)
+					self.ShowToolTip()
+				elif self.isBook2:
+					self.SetTitle(item.GetItemName())
+					self.AppendDescription(item.GetItemDescription(), 26)
+					self.AppendDescription(item.GetItemSummary(), 26, self.CONDITION_COLOR)
+					self.ShowToolTip()					
+				return
+			elif 70055 == itemVnum:
+				if 0 != metinSlot:
+					self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILL_FORGET_BOOK_NAME, 0)
+					self.AppendDescription(item.GetItemDescription(), 26)
+					self.AppendDescription(item.GetItemSummary(), 26, self.CONDITION_COLOR)
+					self.ShowToolTip()
+				return
+		else:
+			if 50300 == itemVnum:
+				if 0 != metinSlot:
+					self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILLBOOK_NAME, 1)
+					self.ShowToolTip()
+				return
+			elif 70037 == itemVnum:
+				if 0 != metinSlot:
+					self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILL_FORGET_BOOK_NAME, 0)
+					self.AppendDescription(item.GetItemDescription(), 26)
+					self.AppendDescription(item.GetItemSummary(), 26, self.CONDITION_COLOR)
+					self.ShowToolTip()
+				return
+			elif 70055 == itemVnum:
+				if 0 != metinSlot:
+					self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILL_FORGET_BOOK_NAME, 0)
+					self.AppendDescription(item.GetItemDescription(), 26)
+					self.AppendDescription(item.GetItemSummary(), 26, self.CONDITION_COLOR)
+					self.ShowToolTip()
+				return
+
 		###########################################################################################
 
 

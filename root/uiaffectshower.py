@@ -264,6 +264,8 @@ class AffectImage(ui.ExpandedImageBox):
 		self.endTime = 0
 		self.affect = None
 		self.isClocked = True
+		if (app.ENABLE_AFFECT_POLYMORPH_REMOVE):
+			self.polymorphQuestionDialog = None
 
 	def SetAffect(self, affect):
 		self.affect = affect
@@ -327,7 +329,15 @@ class AffectImage(ui.ExpandedImageBox):
 
 		toolTip = self.description
 		if self.endTime > 0:
-			leftTime = localeInfo.SecondToDHM(self.endTime - app.GetGlobalTimeStamp())
+			leftTime = ""
+			if app.ENABLE_TARGET_AFFECT:
+				restTime = self.endTime - app.GetGlobalTimeStamp()
+				if restTime < 60:
+					leftTime = str(restTime) + " " + localeInfo.SECOND
+				else:
+					leftTime = localeInfo.SecondToDHM(restTime)
+			else:
+				leftTime = localeInfo.SecondToDHM(self.endTime - app.GetGlobalTimeStamp())
 			toolTip += " (%s : %s)" % (localeInfo.LEFT_TIME, leftTime)
 		self.SetToolTipText(toolTip, 0, 40)
 
@@ -345,9 +355,37 @@ class AffectImage(ui.ExpandedImageBox):
 	def IsSkillAffect(self):
 		return self.isSkillAffect
 
+	if (app.ENABLE_AFFECT_POLYMORPH_REMOVE):
+		def OnPolymorphQuestionDialog(self):
+			import uiCommon
+			self.polymorphQuestionDialog = uiCommon.QuestionDialog()
+			self.polymorphQuestionDialog.SetText(localeInfo.POLYMORPH_AFFECT_REMOVE_QUESTION)
+			self.polymorphQuestionDialog.SetWidth(350)
+			self.polymorphQuestionDialog.SetAcceptEvent(lambda arg = TRUE: self.OnClosePolymorphQuestionDialog(arg))
+			self.polymorphQuestionDialog.SetCancelEvent(lambda arg = FALSE: self.OnClosePolymorphQuestionDialog(arg))
+			self.polymorphQuestionDialog.Open()
+			
+		def OnClosePolymorphQuestionDialog(self, answer):
+			import net
+
+			if not self.polymorphQuestionDialog:
+				return
+
+			self.polymorphQuestionDialog.Close()
+			self.polymorphQuestionDialog = None
+					
+			if not answer:
+				return
+
+			net.SendChatPacket("/remove_polymorph")
+			return TRUE
+
 	def OnMouseOverIn(self):
 		if self.toolTipText:
 			self.toolTipText.Show()
+		if (app.ENABLE_AFFECT_POLYMORPH_REMOVE):	
+			if self.affect == chr.NEW_AFFECT_POLYMORPH:
+				self.OnPolymorphQuestionDialog()
 
 	def OnMouseOverOut(self):
 		if self.toolTipText:
@@ -425,7 +463,10 @@ class AffectShower(ui.Window):
 
 			chr.AFFECT_ANTI_EXP : (localeInfo.TOOLTIP_ANTI_EXP, "icon/item/72501.tga"),
 	}
-
+	
+	if (app.ENABLE_AFFECT_POLYMORPH_REMOVE):
+		AFFECT_DATA_DICT[chr.NEW_AFFECT_POLYMORPH] = (localeInfo.POLYMORPH_AFFECT_TOOLTIP, "d:/ymir work/ui/polymorph_marble_icon.tga")
+		
 	if app.ENABLE_WOLFMAN_CHARACTER:
 		AFFECT_DATA_DICT[chr.AFFECT_BLEEDING] = (localeInfo.SKILL_BLEEDING, "d:/ymir work/ui/skill/common/affect/poison.sub")
 		AFFECT_DATA_DICT[chr.AFFECT_RED_POSSESSION] = (localeInfo.SKILL_GWIGEOM, "d:/ymir work/ui/skill/wolfman/red_possession_03.sub")
@@ -436,6 +477,9 @@ class AffectShower(ui.Window):
 
 		self.serverPlayTime=0
 		self.clientPlayTime=0
+
+		if app.ENABLE_TARGET_AFFECT:
+			self.ignoreCheck = False
 
 		self.lastUpdateTime=0
 		self.affectImageDict={}
@@ -449,6 +493,9 @@ class AffectShower(ui.Window):
 	def ClearAllAffects(self):
 		self.horseImage=None
 		self.lovePointImage=None
+		if app.ENABLE_TARGET_AFFECT:
+			for aff in self.affectImageDict:
+				self.affectImageDict[aff].Hide()
 		self.affectImageDict={}
 		self.__ArrangeImageList()
 
@@ -464,7 +511,12 @@ class AffectShower(ui.Window):
 
 		print "BINARY_NEW_AddAffect", type, pointIdx, value, duration
 
-		if type < 500 and type not in [chr.AFFECT_ANTI_EXP]:
+		self.NEW_AFFECT_LIST = []
+		self.NEW_AFFECT_LIST.append(chr.AFFECT_ANTI_EXP)
+		if (app.ENABLE_AFFECT_POLYMORPH_REMOVE):
+			self.NEW_AFFECT_LIST.append(chr.NEW_AFFECT_POLYMORPH) # += chr.NEW_AFFECT_POLYMORPH if is enabled.
+	
+		if type < 500 and not type in self.NEW_AFFECT_LIST and not self.ignoreCheck:
 			return
 
 		if type == chr.NEW_AFFECT_MALL:
@@ -524,7 +576,11 @@ class AffectShower(ui.Window):
 
 		else:
 			if affect != chr.NEW_AFFECT_AUTO_SP_RECOVERY and affect != chr.NEW_AFFECT_AUTO_HP_RECOVERY:
-				description = description(float(value))
+				if app.ENABLE_TARGET_AFFECT:
+					if callable(description):
+						description = description(float(value))
+				else:
+					description = description(float(value))
 
 			try:
 				print "Add affect %s" % affect

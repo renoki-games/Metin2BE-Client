@@ -67,24 +67,25 @@ window = {
 							"name" : "EquipmentSlot",
 							"type" : "slot",
 
-							"x" : 3,
-							"y" : 3,
+							"x" : 0,
+							"y" : 0,
 
-							"width" : 150,
-							"height" : 182,
+							"width" : 155,
+							"height" : 187,
 
 							"slot" : (
-										{"index":EQUIPMENT_START_INDEX+0, "x":39, "y":37, "width":32, "height":64},
-										{"index":EQUIPMENT_START_INDEX+1, "x":39, "y":2, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+2, "x":39, "y":145, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+3, "x":75, "y":67, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+4, "x":3, "y":3, "width":32, "height":96},
-										{"index":EQUIPMENT_START_INDEX+5, "x":114, "y":67, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+6, "x":114, "y":35, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+7, "x":2, "y":145, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+8, "x":75, "y":145, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+9, "x":114, "y":2, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+10, "x":75, "y":35, "width":32, "height":32},
+										{"index":EQUIPMENT_START_INDEX+0, "x":41, "y":36, "width":32, "height":64},	#Rüstung
+										{"index":EQUIPMENT_START_INDEX+1, "x":41, "y":4, "width":32, "height":32},	#Helm
+										{"index":EQUIPMENT_START_INDEX+2, "x":41, "y":147, "width":32, "height":32},#Schuhe
+										{"index":EQUIPMENT_START_INDEX+3, "x":77, "y":68, "width":32, "height":32},	#Armband
+										{"index":EQUIPMENT_START_INDEX+4, "x":5, "y":4, "width":32, "height":96},	#Waffe
+										{"index":EQUIPMENT_START_INDEX+5, "x":117, "y":68, "width":32, "height":32},#Halskette
+										{"index":EQUIPMENT_START_INDEX+6, "x":117, "y":36, "width":32, "height":32},#Ohrringe
+										{"index":EQUIPMENT_START_INDEX+7, "x":5, "y":147, "width":32, "height":32},	#IS-Slot1
+										{"index":EQUIPMENT_START_INDEX+8, "x":77, "y":147, "width":32, "height":32},#IS-Slot2
+										{"index":EQUIPMENT_START_INDEX+9, "x":117, "y":4, "width":32, "height":32},	#Pfeile
+										{"index":EQUIPMENT_START_INDEX+10, "x":77, "y":36, "width":32, "height":32},#Schild
+										
 									),
 						},
 						## MallButton
@@ -92,8 +93,8 @@ window = {
 							"name" : "SafeboxButton",
 							"type" : "button",
 
-							"x" : 118,
-							"y" : 110,
+							"x" : 117,
+							"y" : 108,
 
 							"tooltip_text" : uiScriptLocale.SAFEBOX_TITLE,
 
@@ -106,8 +107,8 @@ window = {
 							"name" : "MallButton",
 							"type" : "button",
 
-							"x" : 118,
-							"y" : 148,
+							"x" : 117,
+							"y" : 147,
 
 							"tooltip_text" : uiScriptLocale.MALL_TITLE,
 
@@ -120,8 +121,8 @@ window = {
 							"name" : "CostumeButton",
 							"type" : "button",
 
-							"x" : 78,
-							"y" : 5,
+							"x" : 77,
+							"y" : 4,
 
 							"tooltip_text" : uiScriptLocale.COSTUME_TITLE,
 
