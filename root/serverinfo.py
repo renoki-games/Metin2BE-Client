@@ -3,14 +3,17 @@ import localeInfo
 app.ServerName = None
 
 SRV1 = {
-	"name":"Alpha",
+	"name":"Mosha",
 	"host":"45.85.218.22",
-	"auth1":30001,
-	"ch1":30003,
-	"ch2":30007,
+	"auth1":11000,
+	"ch1":13100,
+	"ch2":13200,
+	"ch3":13300,
+	"ch4":13400,
 }
 
-STATE_NONE = "..."
+STATE_LOAD = "Load.."
+STATE_NONE = "OFF"
 
 STATE_DICT = {
 	0 : "....",
@@ -19,34 +22,18 @@ STATE_DICT = {
 	3 : "FULL"
 }
 
-SERVER1_CHANNEL_DICT = {
+SRV1_LIST = {
 	1:{"key":11,"name":"CH1","ip":SRV1["host"],"tcp_port":SRV1["ch1"],"udp_port":SRV1["ch1"],"state":STATE_NONE,},
 	2:{"key":12,"name":"CH2","ip":SRV1["host"],"tcp_port":SRV1["ch2"],"udp_port":SRV1["ch2"],"state":STATE_NONE,},
-}
-
-REGION_NAME_DICT = {
-	0 : SRV1["name"],
-}
-
-REGION_AUTH_SERVER_DICT = {
-	0 : {
-		1 : { "ip":SRV1["host"], "port":SRV1["auth1"], },
-		2 : { "ip":SRV1["host"], "port":SRV1["auth1"], },
-	}
+	3:{"key":11,"name":"CH3","ip":SRV1["host"],"tcp_port":SRV1["ch3"],"udp_port":SRV1["ch3"],"state":STATE_NONE,},
+	4:{"key":12,"name":"CH4","ip":SRV1["host"],"tcp_port":SRV1["ch4"],"udp_port":SRV1["ch4"],"state":STATE_NONE,},
 }
 
 REGION_DICT = {
 	0 : {
-		1 : { "name" :SRV1["name"], "channel" : SERVER1_CHANNEL_DICT, },
+		1 : { "name" :SRV1["name"], "channel" : SRV1_LIST, },
 	},
 }
 
-MARKADDR_DICT = {
-	10 : { "ip" : SRV1["host"], "tcp_port" : SRV1["ch1"], "mark" : "10.tga", "symbol_path" : "10", },
-}
-
-TESTADDR = { "ip" : SRV1["host"], "tcp_port" : SRV1["ch1"], "udp_port" : SRV1["ch1"], }
-
-#DONE
 
 

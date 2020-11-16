@@ -1,0 +1,50 @@
+1	Gebe deine Anmeldedaten niemals an andere Spieler weiter! Du wirst es bitter bereuen!
+2	Die besten Spieler schlafen mindestens 6 - 8 Stunden, um am nächsten Tag mit voller Energie durchzustarten!
+3	Beklaue keine Spieler, es wird sonst der Tag kommen, an dem du auch beklaut wirst!
+4	Ziehe virtuelle Spielwelten niemals dem echten Leben vor, deine Zeit ist das wichtigste, was du hast!
+5	Behandele alle Spieler immer mit Respekt, du wirst sehen, dir werden sich damit viele neue Wege eröffnen.
+6	Leihe deine Items erst dann, nach dem du dich über den Spieler erkundigt hast.
+7	Melde bitte alle Spielfehler den GM's.
+8	Bewege dich viel und trinke genug Wasser, deine Lebensqualität wird sich enorm steigern!
+9	Der Rufchat ist mit Level 5 verfügbar.
+10	Mit der Premium-Truhe bekommst du alles, was du für dein Abenteuer benötigst!
+11	Melde bitte alle Cheater und Bots den GM's.
+12	Teile deine Ideen im Forum, um das Spiel besser zu machen.
+13	Wenn du dich für den Posten als [GM] interessierst, melde dich bitte beim Metin2 - Black Edition Team.
+14	Mit der Segensschriftrolle kannst du einen Gegenstand vor Zerstörung schützen, falls seine Verbesserung fehlschlägt.
+15	Du bist bereit für die Ehe? Dann wende dich an die alte Frau. Heiraten kannst du ab Level 1.
+16	Der Teleporter bringt dich direkt in andere Gebiete.
+17	Informationen über die Gilden erhältst du von den Wächtern des Dorfplatzes.
+18	Stürze dich ab Level 1 in packende PvP-Duelle!
+19	Hey, du. Ja, du! Das Metin2 - Black Edition Team <3 dich.
+20	Petri Heil! Der Fischer erklärt dir, wie du angelst und hat auch die passende Startausrüstung für dich bereit.
+21	Du kannst maximal 10.000.000.000 Yang mit dir tragen.
+22	Solange du verwandelt bist, kannst du keine Fertigkeiten nutzen.
+23	Boni, die du als Belohnung bei Chaegirabs Biologenquest erhältst, sind permanent.
+24	Charaktere bis einschließlich Level 30 können ihre Skills von der alten Frau zurücksetzen lassen.
+25	Bei einer Hochzeit darf der Level unterschied zwischen den Partnern nicht größer als 15 sein.
+26	Je höher die Veredelung eines Gegenstandes, desto mehr funkelt der visuelle Effekt.
+27	Wenn du einen Metinstein schlägst, mach dich auf einen harten Kampf gefasst!
+28	Mit dem Bonus "Stark gegen Tiere" richtest du gegen die Affen im Affendungeon mehr Schaden an.
+29	Sei auf der Hut, denn die Monster in den Affendungeons spawnen sehr schnell nach.
+30	Hier war ich doch schon einmal? Im Affendungeon wird dich das Gefühl eines Déjà-vus beschleichen.
+31	In den Affendungeons musst du ohne Minimap auskommen.
+32	Sei auf der Hut vor der Königinnenspinne. Ihr Gift ist äußerst gefährlich!
+33	Um in den Spinnendungeon 2 einzutreten, benötigst du einen Passierschein.
+34	Nur wenige Abenteurer kehrten lebend aus dem Dämonenturm zurück!
+35	Im Dämonenturm kannst du besonders viel EXP und Items als Belohnung abstauben.
+36	Lass im 6. Stock deine Klinge vom legendären Dämonenturm-Schmied schärfen!
+37	In der Devil's Catacomb musst du ohne Minimap auskommen.
+38	Passt in der Devil's Catacomb als Gruppe aufeinander auf.
+39	Dämonenfürst Azrael hält sich bissige Höllenhunde als Haustiere.
+40	Um auf die 2. Ebene der Devil's Catacomb zu kommen, müssen alle Gruppenmitglieder einen Schrumpfkopf besitzen.
+41	In der Grotte der Verbannung wimmelt es nur so vor schrecklichen Kreaturen.
+42	Du brauchst einen Blutstein, um die Grotte der Verbannung zu betreten.
+43	Angst und Schrecken, aber auch wertvolle Schätze erwarten dich in der Grotte der Verbannung.
+44	Auf der 3. Ebene der Grotte wartet der grausame Gott Beran-Setaou im Drachenraum auf dich.
+45	Beran-Setaou zieht seine Kraft aus den Metinsteinen. Zerstöre sie, um den gefallenen Gott zu besiegen.
+46	Den Drachenraum in der Grotte der Verbannung kannst du nur in einer Gruppe betreten.
+47	Ihr habt 1 Stunde Zeit, um Beran-Setaou zu besiegen.
+48	Bitte vergiss nicht, regelmäßig dein Lagerpasswort zu ändern. Sicher ist sicher!
+49	Hüa! Ab Level 1 kannst du vom Stallburschen die Pferdequest für ein Anfängerpferd starten.
+50	Bist du bereit, eine abenteuerliche Reise anzutreten?

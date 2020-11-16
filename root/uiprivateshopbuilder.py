@@ -91,8 +91,10 @@ class PrivateShopAdvertisementBoard(ui.ThinBoard):
 
 		if vid in shopAdvertismentBoardSeen:
 			self.textLine.SetFontColor(0.78, 0.78, 0.78)
+			self.textLine.SetOutline(1)
 		else:
-			self.textLine.SetFontColor(1.0, 0.5, 0.1)
+			self.textLine.SetFontColor(0.9, 0.4745, 0.4627)
+			self.textLine.SetOutline(1)
 
 		self.textLine.SetText(text)
 		self.textLine.UpdateRect()

@@ -293,7 +293,7 @@ class MoveChannelWindow(ui.ScriptWindow):
 			ServerStateChecker.AddChannel(key, ip, udp_port)
 		ServerStateChecker.Request()
 
-	def NotifyChannelState(self, addrKey, state):
+	def NotifyChannelState(self, addrKey, state, player_count):
 		try:
 			stateName = serverInfo.STATE_DICT[state]
 		except:
@@ -308,14 +308,15 @@ class MoveChannelWindow(ui.ScriptWindow):
 		except:
 			pass
 
-	def AddChannels(self):				
+	def AddChannels(self):
 		self.SetSize(190,80+30*self.__GetChannelNumber())
 		self.board.SetSize(190,80+30*self.__GetChannelNumber())
 		self.blackBoard.SetSize(163,7+30*self.__GetChannelNumber())
-		
+
 		for i in xrange(self.__GetChannelNumber()):
-			self.channelButtonList.append(ui.MakeRadioButton(self.blackBoard, 7, 7+30*i, "", "d:/ymir work/ui/game/myshop_deco/", "select_btn_01.sub", "select_btn_02.sub", "select_btn_03.sub"))
-			self.channelButtonList[i].SetText(str(serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"][i+1]["name"]))
+			channelID = self.currentChannel+1
+			self.channelButtonList.append(ui.MakeRadioButton(self.blackBoard, 7, 7+30*i, "","d:/ymir work/ui/game/myshop_deco/", "select_btn_01.sub", "select_btn_02.sub", "select_btn_03.sub"))
+			self.channelButtonList[i].SetText(str(serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"][i+1]["name"]) + " - |cff585858%s" % serverInfo.STATE_LOAD)
 			self.channelButtonList[i].SetEvent(lambda arg=i: self.SelectChannel(arg))
 			self.channelButtonList[i].Show()	
 			
@@ -335,16 +336,25 @@ class MoveChannelWindow(ui.ScriptWindow):
 		ServerStateChecker.Update()
 		channelID = self.currentChannel+1
 		channelState = serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"][channelID]["state"]
+
+		serverName = serverInfo.REGION_DICT[0][self.__GetServerID()]["name"]
+		channelName = serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"][channelID]["name"]
+
 		if not channelID:
 			return
 		
 		if channelState == serverInfo.STATE_NONE or channelState == serverInfo.STATE_DICT[0]:
-			chat.AppendChat(chat.CHAT_TYPE_INFO , "Dieser Channel ist offline!")
+			chat.AppendChat(chat.CHAT_TYPE_INFO , localeInfo.CHANNEL_OFFLINE)
 			return
 			
 		self.Close()
 		net.SendChatPacket("/change_channel " + str(channelID))
-				
+		self.__SetServerInfo("%s, CH%s " % (serverName, channelID))
+
+	def __SetServerInfo(self, name):
+		net.SetServerInfo(name.strip())
+		#self.serverInfo.SetText(name)
+
 	def Destroy(self):
 		self.ClearDictionary()
 		self.Hide()
@@ -355,7 +365,13 @@ class MoveChannelWindow(ui.ScriptWindow):
 		
 	def OnUpdate(self):
 		ServerStateChecker.Update()
-		
+		for i in xrange(self.__GetChannelNumber()):
+			channelState = serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"][i+1]["state"]
+			if channelState == serverInfo.STATE_NONE:
+				self.channelButtonList[i].SetText(str(serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"][i+1]["name"]) + "   -  |cff585858%s" % serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"][i+1]["state"])
+			else:
+				self.channelButtonList[i].SetText(str(serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"][i+1]["name"]) + " - |cff8099CC%s" % serverInfo.REGION_DICT[0][self.__GetServerID()]["channel"][i+1]["state"])
+
 	def OnPressEscapeKey(self):
 		self.Close()
 		return True

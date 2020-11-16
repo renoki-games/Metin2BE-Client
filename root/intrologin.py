@@ -14,11 +14,6 @@ class LoginWindow(ui.ScriptWindow):
 	def __init__(self, stream):
 		ui.ScriptWindow.__init__(self)
 		
-		self.lang = [
-			["Deutsch", "uiScriptLocale.UI_CHANGER_BUTTON_YUMANO3"],
-			["English", "uiScriptLocale.UI_CHANGER_BUTTON_CLASSIC"],
-		]
-		
 		net.SetPhaseWindow(net.PHASE_WINDOW_LOGIN, self)
 		net.SetAccountConnectorHandler(self)
 
@@ -221,9 +216,9 @@ class LoginWindow(ui.ScriptWindow):
 			self.stateCH[3]			= self.GetChild("state_ch4")
 
 			self.channelCount[0]	= self.GetChild("player_ch1")
-			self.channelCount[1]	= self.GetChild("player_ch1")
-			self.channelCount[2]	= self.GetChild("player_ch1")
-			self.channelCount[3]	= self.GetChild("player_ch1")
+			self.channelCount[1]	= self.GetChild("player_ch2")
+			self.channelCount[2]	= self.GetChild("player_ch3")
+			self.channelCount[3]	= self.GetChild("player_ch4")
 
 			self.loginButton		= self.GetChild("login_button")
 			self.exitButton			= self.GetChild("exit_button")
@@ -248,6 +243,11 @@ class LoginWindow(ui.ScriptWindow):
 			self.AccountManager[3][0]	= self.GetChild("platzhalter_f4")
 			self.AccountManager[3][1]	= self.GetChild("delete_button_acc4")
 			
+			self.f1Button			= self.GetChild("f1_button")
+			self.f2Button			= self.GetChild("f2_button")
+			self.f3Button			= self.GetChild("f3_button")
+			self.f4Button			= self.GetChild("f4_button")
+
 			self.channelButton = {
 				0 : self.GetChild("ch1"),
 				1 :	self.GetChild("ch2"),
@@ -263,7 +263,7 @@ class LoginWindow(ui.ScriptWindow):
 		for (channelID, channelButtons) in self.channelButton.items():
 				channelButtons.SetEvent(ui.__mem_func__(self.SetChannel), channelID)
 		
-		self.serverName.SetText("%s" % (serverlogindata.SRV_LIST[0][0][0])) #count from serverlogindata
+		self.serverName.SetText("%s" % (serverlogindata.SRV_LIST[0][0][0]))
 		
 		self.loginButton.SetEvent(ui.__mem_func__(self.__OnClickLoginButton))
 		self.exitButton.SetEvent(ui.__mem_func__(self.OnPressExitKey))
@@ -272,9 +272,6 @@ class LoginWindow(ui.ScriptWindow):
 		self.registerButton.SetEvent(ui.__mem_func__(self.GoRegister))
 		self.forumButton.SetEvent(ui.__mem_func__(self.GoForum))
 		self.changelogButton.SetEvent(ui.__mem_func__(self.GoChangelog))
-
-		#self.language_de.SetEvent(ui.__mem_func__(self.__AskChangeLangDE))
-		#self.language_en.SetEvent(ui.__mem_func__(self.__AskChangeLangEN))
 
 		self.idEditLine.SetReturnEvent(ui.__mem_func__(self.pwdEditLine.SetFocus))
 		self.idEditLine.SetTabEvent(ui.__mem_func__(self.pwdEditLine.SetFocus))
@@ -286,6 +283,11 @@ class LoginWindow(ui.ScriptWindow):
 		self.editButton.SetToggleDownEvent(lambda arg=0: self.__OnClickEditButton(arg))
 		self.editButton.SetToggleUpEvent(lambda arg=1: self.__OnClickEditButton(arg))
 
+		self.f1Button.SetEvent(lambda:ui.__mem_func__(self.loginWithHotkey(1)))
+		self.f2Button.SetEvent(lambda:ui.__mem_func__(self.loginWithHotkey(2)))
+		self.f3Button.SetEvent(lambda:ui.__mem_func__(self.loginWithHotkey(3)))
+		self.f4Button.SetEvent(lambda:ui.__mem_func__(self.loginWithHotkey(4)))
+
 		self.AccountManager[0][1].SetEvent(lambda:ui.__mem_func__(self.__OnClickAccountErase)(0))
 		self.AccountManager[1][1].SetEvent(lambda:ui.__mem_func__(self.__OnClickAccountErase)(1))
 		self.AccountManager[2][1].SetEvent(lambda:ui.__mem_func__(self.__OnClickAccountErase)(2))
@@ -293,9 +295,6 @@ class LoginWindow(ui.ScriptWindow):
 
 		for i in range(len(self.AccountManager)):
 			self.AccountManager[i][1].Hide()
-
-		for i in range(len(self.channelCount)):
-			self.channelCount[i].SetText("%d Player" % (serverlogindata.SRV_LIST[0][0][3][0][4])) #count from serverlogindata
 
 		
 	def OnUpdate(self):
@@ -386,24 +385,20 @@ class LoginWindow(ui.ScriptWindow):
 
 			channelIndex = key % 10
 			channelName = serverlogindata.SRV_LIST[0][serverIndex][3][channelIndex][0]
-			print "LoginWindow::NotifyChannelState(key=%d, state=%d): serverIndex=%d, channelIndex=%d, channelName=%s, stateName=%s" % (key, state, serverIndex, channelIndex, channelName, stateName)
 
 			self.stateCH[channelIndex].SetText(str(stateNameText))
-			
 
-			if state > 0:
+			if state == 1:
 				if player_count > 0:
-					self.channelCount[channelIndex].SetText("%d Player" % player_count) #count from serverlogindata
-					self.channelCount[channelIndex].SetFontColor(0.8549, 0.8549, 0.8549)
+					self.channelCount[channelIndex].SetText("%d Players" % player_count)
 				else:
-					self.channelCount[channelIndex].SetText("%d Player" % (serverlogindata.SRV_LIST[0][0][3][0][4])) #count from serverlogindata
-					self.channelCount[channelIndex].SetFontColor(0.8549, 0.8549, 0.8549)
+					self.channelCount[channelIndex].SetText("%d Players" % (serverlogindata.SRV_LIST[0][0][3][0][4]))
 
-				self.stateCH[channelIndex].SetFontColor(201.0, 104.0, 32.0)
+				self.stateCH[channelIndex].SetFontColor(128.0 / 255.0, 153.0 / 255.0, 204.0 / 255.0)
+				self.channelCount[channelIndex].SetFontColor(128.0 / 255.0, 153.0 / 255.0, 204.0 / 255.0)
 			else:
-				self.stateCH[channelIndex].SetFontColor(0xff494949)
-				self.channelCount[channelIndex].SetText("-------")
-				self.channelCount[channelIndex].SetFontColor(0xff494949)
+				self.stateCH[channelIndex].SetFontColor(101.0 / 255.0, 101.0 / 255.0, 101.0 / 255.0)
+				self.channelCount[channelIndex].SetFontColor(101.0 / 255.0, 101.0 / 255.0, 101.0 / 255.0)
 			
 	def __RequestServerStateList(self):
 		serverIndex = self.__GetServerID()
@@ -511,38 +506,6 @@ class LoginWindow(ui.ScriptWindow):
 		import os
 		os.system('@echo off && explorer "http://board.yumano3.net/forum/index.php?thread/4-patchnotes-yumano3/"')
 		return TRUE
-
-	"""def __AskChangeLangDE(self):
-		self.question = uicommon.QuestionDialog()
-		self.question.SetText("Möchtest du die Sprache auf Deutsch umstellen?")
-		self.question.SetAcceptEvent(lambda flag=TRUE: self.AnswerChangeLangDE(flag))
-		self.question.SetCancelEvent(lambda flag=FALSE: self.AnswerChangeLangDE(flag))
-		self.question.Open()
-
-	def AnswerChangeLangDE(self, flag):
-		if flag:
-			self.popup = uicommon.PopupDialog()
-			self.popup.SetText(uiScriptLocale.LANG_CHANGER_GAME_CLOSED_DE)
-			self.popup.SetAcceptEvent(self.__make_language_de)
-			self.popup.Open()
-
-		self.question.Close()
-
-	def __AskChangeLangEN(self):
-		self.question = uicommon.QuestionDialog()
-		self.question.SetText("Do you want to change the language to English?")
-		self.question.SetAcceptEvent(lambda flag=TRUE: self.AnswerChangeLangEN(flag))
-		self.question.SetCancelEvent(lambda flag=FALSE: self.AnswerChangeLangEN(flag))
-		self.question.Open()
-
-	def AnswerChangeLangEN(self, flag):
-		if flag:
-			self.popup = uicommon.PopupDialog()
-			self.popup.SetText(uiScriptLocale.LANG_CHANGER_GAME_CLOSED_EN)
-			self.popup.SetAcceptEvent(self.__make_language_en)
-			self.popup.Open()
-
-		self.question.Close()"""
 
 ############################
 
