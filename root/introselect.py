@@ -150,7 +150,8 @@ class SelectCharacterWindow(ui.Window):
 
 		if not self.__LoadQuestionDialog("uiscript/questiondialog.py"):
 			return
-
+		
+		self.SetFocus()
 		playerSettingModule.LoadGameData("INIT")
 
 		self.InitCharacterBoard()

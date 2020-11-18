@@ -4,20 +4,26 @@ LOCAL_PATH = uiScriptLocale.LOGIN_PATH
 ETC_PATH = "d:/ymir work/ui/public/"
 #LOCAL_PATH = "d:/de/ui/login/"
 
+BOX_POSITION_Y = 200
+	
 CH_START_X = 4
 CH_STEP_X = 45
 
 CH_TEXT_1_Y = 30
 CH_TEXT_2_Y = 50
 
-BUTTON_START_X = 20
+BUTTON_START_X = 17
 BUTTON_START_Y = 208
-BUTTON_STEP_X = 200
+BUTTON_STEP_X = 207
 BUTTON_STEP_Y = 28
 
-SAFE_INPUT_X = 225
+SAFE_INPUT_X = 229
 SAFE_INPUT_START_Y = 40
 SAFE_INPUT_STEP_Y = 30
+
+if SCREEN_HEIGHT < 800:
+	BOX_POSITION_Y = 120
+
 
 window = {
 		"sytle" : ("movable",),
@@ -38,7 +44,7 @@ window = {
 					{
 						"name" : "board_main",
 						"type" : "window",
-						"x" : 0, "y" : 40,
+						"x" : 0, "y" : BOX_POSITION_Y,
 						"width" : 420, "height" : 270,
 						"vertical_align" : "center",
 						"horizontal_align" : "center",
@@ -82,7 +88,7 @@ window = {
 										"name" : "ServerName",
 										"type" : "text",
 
-										"x" : 110, "y" : 8,
+										"x" : 107, "y" : 7,
 										
 										"text_horizontal_align" : "center",
 										"fontsize":"LARGE",
@@ -92,7 +98,7 @@ window = {
 									{
 										"name" : "input_user",
 										"type" : "image",
-										"x" : 43, "y" : 28,
+										"x" : 42, "y" : 29,
 										"image" : ETC_PATH + "parameter_slot_05.sub",
 										"children" : 
 										(
@@ -116,7 +122,7 @@ window = {
 									{
 										"name" : "input_password",
 										"type" : "image",
-										"x" : 43, "y" : 55,
+										"x" : 42, "y" : 57,
 										"image" : ETC_PATH + "parameter_slot_05.sub",
 										"children" : 
 										(
@@ -282,7 +288,7 @@ window = {
 										"name" : "AccM",
 										"type" : "text",
 
-										"x" : SAFE_INPUT_X+30, "y" : 17,
+										"x" : SAFE_INPUT_X+25, "y" : 12,
 										
 										"fontsize":"LARGE",
 										"outline" : 1,
@@ -403,7 +409,7 @@ window = {
 									{
 										"name" : "save_button",
 										"type" : "button",
-										"x" : 220 , "y" : 167,
+										"x" : 225 , "y" : 170,
 										"default_image" : ETC_PATH + "large_button_01.sub",
 										"over_image" : ETC_PATH + "large_button_02.sub",
 										"down_image" : ETC_PATH + "large_button_03.sub",
@@ -412,7 +418,7 @@ window = {
 									{
 										"name" : "edit_button",
 										"type" : "toggle_button",
-										"x" : 220+90 , "y" : 167,
+										"x" : 225+90 , "y" : 170,
 										"default_image" : ETC_PATH + "large_button_01.sub",
 										"over_image" : ETC_PATH + "large_button_02.sub",
 										"down_image" : ETC_PATH + "large_button_03.sub",

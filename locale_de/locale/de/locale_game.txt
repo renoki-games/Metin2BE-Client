@@ -1660,6 +1660,7 @@ TARGET_INFO_STONE_NAME	Geiststein
 TARGET_INFO_SUBRACE	Untergattung : %s
 QUICK_SELL_MESSAGE	Für Schnellverkauf: SHIFT + Rechtsclick
 CHANNEL	Channel.
+CHANNEL_OFFLINE	Dieser Channel ist offline.
 CHANNELING_CANNOT_LOGOUT	Du kannst nicht zum Login-Bildschirm zurückkehren.
 CHANNEL_EMPTY_SERVER	Kein Server.
 CHANNEL_NORMAL	Channel %d
@@ -1674,6 +1675,6 @@ CHANNEL_TEST_SERVER_ADDR	Test %s:%d
 POLYMORPH_AFFECT_TOOLTIP	Verwandlungskugel	SNA
 POLYMORPH_AFFECT_REMOVE_QUESTION	Möchtest du die Verwandlung beenden?
 REVIVE_AUTO_TOWN_MESSAGE	Neustart in der Stadt: {}
-COMPARE_EQUIPPED	[Ausgerüstet]]
+COMPARE_EQUIPPED	[Ausgerüstet]
 REALLY_WANNA_DELETE_ACCOUNT_DATA	Möchtest du wirklich die Accountdaten löschen?
 TIPPING_TEXT	Schreibt.
