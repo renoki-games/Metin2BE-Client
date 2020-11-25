@@ -216,11 +216,6 @@ class ChatLine(ui.EditLine):
 		if net.IsChatInsultIn(text):
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.CHAT_INSULT_STRING)
 		else:
-			links={}
-			if self.GetLinks(text, links):
-				for k, v in links.iteritems():
-					text = text.replace(k, v)
-					
 			net.SendChatPacket(text, type)
 
 	def GetLinks(self, string, ret):
