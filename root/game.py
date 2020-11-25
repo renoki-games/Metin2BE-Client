@@ -332,6 +332,9 @@ class GameWindow(ui.ScriptWindow):
 		onPressKeyDict[app.DIK_F3]	= lambda : self.__PressQuickSlot(6)
 		onPressKeyDict[app.DIK_F4]	= lambda : self.__PressQuickSlot(7)
 
+		if hasattr(app, "GMS_CAN_WALK_REALLY_FAST"):
+			onPressKeyDict[app.DIK_F12]	= lambda : self.ToggleGMSpeed()
+
 		onPressKeyDict[app.DIK_LALT]		= lambda : self.ShowName()
 		onPressKeyDict[app.DIK_LCONTROL]	= lambda : self.ShowMouseImage()
 		onPressKeyDict[app.DIK_SYSRQ]		= lambda : self.SaveScreen()
@@ -2258,3 +2261,10 @@ class GameWindow(ui.ScriptWindow):
 				self.interface.wndMessenger.OnLogin(uiMessenger.TEAM, name, None, languages)
 			else:
 				self.interface.wndMessenger.OnLogout(uiMessenger.TEAM, name, None, languages)
+
+	if hasattr(app, "GMS_CAN_WALK_REALLY_FAST"):
+		def ToggleGMSpeed(self):
+			if not chr.IsGameMaster(player.GetMainCharacterIndex()):
+				return
+
+			net.SendChatPacket("/toggle_gm_speed")
