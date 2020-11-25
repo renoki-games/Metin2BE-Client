@@ -218,16 +218,6 @@ class ChatLine(ui.EditLine):
 		else:
 			net.SendChatPacket(text, type)
 
-	def GetLinks(self, string, ret):
-		links = re.findall("(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#/%=~_|$?!:,.]*\)|[A-Z0-9+&@#/%=~_|$])", string, re.I)
-
-		if not (hasattr(ret, "clear") and hasattr(ret, "update")):
-			return False
-
-		ret.clear()
-		map(lambda link: (ret.update({link:"|cFFFFD74C|Hweb:%s|h[%s]|h|r"%(re.sub("://", "w<?", link), link)})) if link else None, links)
-		return len(links) > 0
-
 	def __SendPartyChatPacket(self, text):
 
 		if 1 == len(text):
