@@ -531,8 +531,7 @@ class AffectShower(ui.Window):
 			return
 
 		## 용신의 가호, 선인의 교훈은 Duration 을 0 으로 설정한다.
-		if affect == chr.NEW_AFFECT_NO_DEATH_PENALTY or\
-		   affect == chr.NEW_AFFECT_SKILL_BOOK_BONUS or\
+		if affect == chr.NEW_AFFECT_SKILL_BOOK_BONUS or\
 		   affect == chr.NEW_AFFECT_AUTO_SP_RECOVERY or\
 		   affect == chr.NEW_AFFECT_AUTO_HP_RECOVERY or\
 		   affect == chr.NEW_AFFECT_SKILL_BOOK_NO_DELAY:
