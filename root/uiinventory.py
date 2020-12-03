@@ -512,13 +512,17 @@ class InventoryWindow(ui.ScriptWindow):
 		getItemVNum=player.GetItemIndex
 		getItemCount=player.GetItemCount
 		setItemVNum=self.wndEquip.SetItemSlot
+
 		for i in xrange(player.EQUIPMENT_PAGE_COUNT):
 			slotNumber = player.EQUIPMENT_SLOT_START + i
 			itemCount = getItemCount(slotNumber)
+
 			if itemCount <= 1:
 				itemCount = 0
+
 			setItemVNum(slotNumber, getItemVNum(slotNumber), itemCount)
 
+		self.wndEquip.SetItemSlot(item.EQUIPMENT_SPECIAL, getItemVNum(item.EQUIPMENT_SPECIAL), 0)
 		self.wndEquip.RefreshSlot()
 
 		if self.wndCostume:
