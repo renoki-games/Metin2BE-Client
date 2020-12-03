@@ -701,6 +701,7 @@ class GameWindow(ui.ScriptWindow):
 	def AskGuildName(self):
 
 		guildNameBoard = uiCommon.InputDialog()
+		guildNameBoard.SetMaxLength(player.GUILD_NAME_MAX_LEN)
 		guildNameBoard.SetTitle(localeInfo.GUILD_NAME)
 		guildNameBoard.SetAcceptEvent(ui.__mem_func__(self.ConfirmGuildName))
 		guildNameBoard.SetCancelEvent(ui.__mem_func__(self.CancelGuildName))
