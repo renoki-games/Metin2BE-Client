@@ -54,7 +54,7 @@ window = {
 						"vertical_align" : "center",
 						"horizontal_align" : "center",
 
-						"color": 0xff00ffff,
+						"color": 0x0000ffff,
 
 						"children": (
 							{
