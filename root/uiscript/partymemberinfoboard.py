@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT = "d:/ymir work/ui/public/"
 
@@ -46,7 +47,7 @@ window = {
 					"x" : 3,
 					"y" : 2,
 
-					"text" : uiScriptLocale.PARTY_MEMBER_INFO_NAME,
+					"text" : localeInfo.PARTY_MEMBER_INFO_NAME,
 				},
 			),
 		},

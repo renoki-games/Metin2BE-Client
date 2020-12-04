@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "RefineDialog",
@@ -41,7 +42,7 @@ window = {
 						{
 							"name" : "TitleName",
 							"type" : "text",
-							"text" : uiScriptLocale.REFINE_TTILE,
+							"text" : localeInfo.REFINE_TTILE,
 							"horizontal_align" : "center",
 							"text_horizontal_align" : "center",
 							"x" : 0,
@@ -52,7 +53,7 @@ window = {
 				{
 					"name" : "SuccessPercentage",
 					"type" : "text",
-					"text" : uiScriptLocale.REFINE_INFO,
+					"text" : localeInfo.REFINE_INFO,
 					"horizontal_align" : "center",
 					"vertical_align" : "bottom",
 					"text_horizontal_align" : "center",
@@ -62,7 +63,7 @@ window = {
 				{
 					"name" : "Cost",
 					"type" : "text",
-					"text" : uiScriptLocale.REFINE_COST,
+					"text" : localeInfo.REFINE_COST,
 					"horizontal_align" : "center",
 					"vertical_align" : "bottom",
 					"text_horizontal_align" : "center",
@@ -76,7 +77,7 @@ window = {
 					"x" : -35,
 					"y" : 35,
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 					"horizontal_align" : "center",
 					"vertical_align" : "bottom",
 
@@ -91,7 +92,7 @@ window = {
 					"x" : 35,
 					"y" : 35,
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 					"horizontal_align" : "center",
 					"vertical_align" : "bottom",
 

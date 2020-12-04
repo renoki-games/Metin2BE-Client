@@ -1,7 +1,8 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT_PATH = "d:/ymir work/ui/public/"
-LOCALE_PATH = uiScriptLocale.SELECT_PATH
+LOCALE_PATH = localeInfo.SELECT_PATH
 
 BOARD_X = SCREEN_WIDTH * (65) / 800
 BOARD_Y = SCREEN_HEIGHT * (215) / 600
@@ -181,7 +182,7 @@ window = {
 							"x" : 95,
 							"y" : 95,
 
-							"text" : uiScriptLocale.CREATE_PREV,
+							"text" : localeInfo.CREATE_PREV,
 
 							"default_image" : ROOT_PATH + "Small_Button_01.sub",
 							"over_image" : ROOT_PATH + "Small_Button_02.sub",
@@ -194,7 +195,7 @@ window = {
 							"x" : 140,
 							"y" : 95,
 
-							"text" : uiScriptLocale.CREATE_NEXT,
+							"text" : localeInfo.CREATE_NEXT,
 
 							"default_image" : ROOT_PATH + "Small_Button_01.sub",
 							"over_image" : ROOT_PATH + "Small_Button_02.sub",
@@ -257,7 +258,7 @@ window = {
 					"x" : 15,
 					"y" : 138,
 
-					"text" : uiScriptLocale.CREATE_HP,
+					"text" : localeInfo.CREATE_HP,
 
 					"children" :
 					(
@@ -303,7 +304,7 @@ window = {
 					"x" : 15,
 					"y" : 157,
 
-					"text" : uiScriptLocale.CREATE_SP,
+					"text" : localeInfo.CREATE_SP,
 
 					"children" :
 					(
@@ -349,7 +350,7 @@ window = {
 					"x" : 15,
 					"y" : 176,
 
-					"text" : uiScriptLocale.CREATE_ATT_GRADE,
+					"text" : localeInfo.CREATE_ATT_GRADE,
 
 					"children" :
 					(
@@ -395,7 +396,7 @@ window = {
 					"x" : 15,
 					"y" : 195,
 
-					"text" : uiScriptLocale.CREATE_DEX_GRADE,
+					"text" : localeInfo.CREATE_DEX_GRADE,
 
 					"children" :
 					(
@@ -487,7 +488,7 @@ window = {
 					"x" : 43,
 					"y" : 217 + TEMPORARY_HEIGHT,
 
-					"text" : uiScriptLocale.CREATE_NAME,
+					"text" : localeInfo.CREATE_NAME,
 
 					"text_horizontal_align" : "center",
 
@@ -524,7 +525,7 @@ window = {
 					"x" : 43,
 					"y" : 241 + TEMPORARY_HEIGHT,
 
-					"text" : uiScriptLocale.CREATE_SHAPE,
+					"text" : localeInfo.CREATE_SHAPE,
 
 					"text_horizontal_align" : "center",
 				},
@@ -561,7 +562,7 @@ window = {
 					"x" : 11,
 					"y" : 265 + TEMPORARY_HEIGHT,
 
-					"text" : uiScriptLocale.CREATE_CREATE,
+					"text" : localeInfo.CREATE_CREATE,
 
 					"default_image" : ROOT_PATH + "Large_Button_01.sub",
 					"over_image" : ROOT_PATH + "Large_Button_02.sub",
@@ -574,7 +575,7 @@ window = {
 					"x" : 109,
 					"y" : 265 + TEMPORARY_HEIGHT,
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : ROOT_PATH + "Large_Button_01.sub",
 					"over_image" : ROOT_PATH + "Large_Button_02.sub",

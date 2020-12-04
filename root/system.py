@@ -314,7 +314,9 @@ def RunMainScript(name):
 	except RuntimeError, msg:
 		msg = str(msg)
 
-		import localeInfo
+		import localeInfo as _localeInfo
+		localeInfo = _localeInfo.localeInfo()
+
 		if localeInfo.error:
 			msg = localeInfo.error.get(msg, msg)
 

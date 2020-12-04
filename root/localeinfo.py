@@ -1,5 +1,8 @@
 import app
+import chr
+import dbg
 import constInfo
+import systemSetting
 
 MAP_TRENT02 = "MAP_TRENT02" # 임시
 MAP_WL = "MAP_WL" # 임시
@@ -8,6 +11,44 @@ MAP_TREE2 = "MAP_TREE2"
 
 BLEND_POTION_NO_TIME = "BLEND_POTION_NO_TIME"
 BLEND_POTION_NO_INFO = "BLEND_POTION_NO_INFO"
+
+AUTOBAN_QUIZ_ANSWER = "ANSWER"
+AUTOBAN_QUIZ_REFRESH = "REFRESH"
+AUTOBAN_QUIZ_REST_TIME = "REST_TIME"
+
+OPTION_SHADOW = "SHADOW"
+
+CODEPAGE = str(app.GetDefaultCodePage())
+
+FN_GM_MARK = "%s/effect/gm.mse"	% app.GetLocalePath()
+
+constInfo.IN_GAME_SHOP_ENABLE = 1
+
+# General Paths
+path = app.GetLocalePath()
+
+ASSET_PATH = r"D:/ymir work/ui/assets/"
+LOCALE_UISCRIPT_PATH = "%s/ui/" % (path)
+LOGIN_PATH = "%s/ui/login/" % (path)
+EMPIRE_PATH = "%s/ui/empire/" % (path)
+GUILD_PATH = "%s/ui/guild/" % (path)
+SELECT_PATH = "%s/ui/select/" % (path)
+
+WINDOWS_PATH = "%s/ui/windows/" % (path)
+MAPNAME_PATH = "%s/ui/mapname/" % (path)
+
+# Language Paths
+tag = systemSetting.GetLanguageShortString()
+language_path = path + "/language/%s" % (tag)
+
+LOCALE_FILE_NAME = "%s/locale.txt"	% (language_path)
+EMPIREDESC_A = "%s/empiredesc_a.txt" % (language_path)
+EMPIREDESC_B = "%s/empiredesc_b.txt" % (language_path)
+EMPIREDESC_C = "%s/empiredesc_c.txt" % (language_path)
+JOBDESC_WARRIOR_PATH = "%s/jobdesc_warrior.txt" % (language_path)
+JOBDESC_ASSASSIN_PATH = "%s/jobdesc_assassin.txt" % (language_path)
+JOBDESC_SURA_PATH = "%s/jobdesc_sura.txt" % (language_path)
+JOBDESC_SHAMAN_PATH = "%s/jobdesc_shaman.txt" % (language_path)
 
 APP_TITLE = "Metin2 - Black Edition"
 
@@ -158,7 +199,6 @@ def LoadLocaleFile(srcFileName, localeDict):
 	try:
 		lines = open(srcFileName, "r").readlines()
 	except IOError:
-		import dbg
 		dbg.LogBox("LoadLocaleError(%(srcFileName)s)" % locals())
 		app.Abort()
 
@@ -178,7 +218,6 @@ def LoadLocaleFile(srcFileName, localeDict):
 
 			lineIndex += 1
 		except:
-			import dbg
 			dbg.LogBox("%s: line(%d): %s" % (srcFileName, lineIndex, line), "Error")
 			raise
 
@@ -186,34 +225,15 @@ def LoadLocaleFile(srcFileName, localeDict):
 
 all = ["locale","error"]
 
-if IsEUROPE()  and  IsBRAZIL()  :
-	FN_GM_MARK = "%s/effect/gm.mse"	% app.GetLocalePath()
-	LOCALE_FILE_NAME = "%s/locale_game.txt" % app.GetLocalePath()
-	constInfo.IN_GAME_SHOP_ENABLE = 0
-elif IsSINGAPORE() :
-	FN_GM_MARK = "%s/effect/gm.mse"	% app.GetLocalePath()
-	LOCALE_FILE_NAME = "%s/locale_game.txt" % app.GetLocalePath()
-	constInfo.IN_GAME_SHOP_ENABLE = 0
-elif IsNEWCIBN() :
-	##게임명이깨진다.
-	APP_TITLE = "劤祿莖2"
-	FN_GM_MARK = "%s/effect/gm.mse"	% app.GetLocalePath()
-	LOCALE_FILE_NAME = "%s/locale_game.txt" % app.GetLocalePath()
-	constInfo.IN_GAME_SHOP_ENABLE = 1
-elif IsTAIWAN():
-	APP_TITLE = "갓III곌"
-	FN_GM_MARK = "%s/effect/gm.mse"	% app.GetLocalePath()
-	LOCALE_FILE_NAME = "%s/locale_game.txt" % app.GetLocalePath()
+LoadLocaleFile(LOCALE_FILE_NAME, globals())
 
-	constInfo.IN_GAME_SHOP_ENABLE = 1
+class localeInfo(object):
+	def __getattribute__(self, name):
+		if not globals().has_key(name):
+			dbg.TraceError("Key: {} for language: {} not found.".format(name, tag))
+			return "Translate-Me"
 
-else:
-	FN_GM_MARK = "%s/effect/gm.mse"	% app.GetLocalePath()
-	LOCALE_FILE_NAME = "%s/locale_game.txt" % app.GetLocalePath()
-
-	constInfo.IN_GAME_SHOP_ENABLE = 1
-
-LoadLocaleFile(LOCALE_FILE_NAME, locals())
+		return globals()[name]
 
 ########################################################################################################
 ## NOTE : 아이템을 버릴때 "무엇을/를 버리시겠습니까?" 문자열의 조사 선택을 위한 코드
@@ -1021,3 +1041,33 @@ def int_to_roman(input):
 		result.append(nums[i] * count)
 		input -= ints[i] * count
 	return ''.join(result)
+
+if hasattr(app, "ENABLE_LANG_SYSTEM"):
+	def GetCodePage(language_index):
+		codepages = {
+			chr.LANGUAGE_GERMAN		:	10000,
+			chr.LANGUAGE_ENGLISH	:	10000,
+			# "tr"	:	10002,
+		}
+
+		return codepages.get(language_index, 10000)
+
+	def GetEncoding(language_index):
+		encodings = {
+			chr.LANGUAGE_GERMAN		:	1252,
+			chr.LANGUAGE_ENGLISH	:	1252,
+			# "tr"	:	1254,
+		}
+
+		return encodings.get(language_index, 1252)
+
+	def CreateLocaleConfig(language_index):
+		codepage = GetCodePage(language_index)
+		encoding = GetEncoding(language_index)
+
+		with old_open("locale.cfg", "w") as fw:
+			fw.write("%d %d de" % (codepage, encoding))
+
+	def SetDefaultCodePage(language_index):
+		codepage = GetCodePage(language_index)
+		app.SetDefaultCodePage(codepage)

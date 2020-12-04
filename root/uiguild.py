@@ -6,7 +6,8 @@ import wndMgr
 import grp
 import grpText
 import uiPickMoney
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import player
 import skill
 import mouseModule
@@ -18,7 +19,8 @@ import constInfo
 import background
 import miniMap
 import chr
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 from _weakref import proxy
 
 DISABLE_GUILD_SKILL = False
@@ -83,7 +85,7 @@ class DeclareGuildWarDialog(ui.ScriptWindow):
 			pyScrLoader = ui.PythonScriptLoader()
 
 			if localeInfo.IsVIETNAM() :
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "declareguildwardialog.py")
+				pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "declareguildwardialog.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "uiscript/declareguildwardialog.py")
 
@@ -814,7 +816,7 @@ class GuildWindow(ui.ScriptWindow):
 			pyScrLoader = ui.PythonScriptLoader()
 
 			if localeInfo.IsARABIC() :
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow.py")
+				pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "guildwindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "uiscript/guildwindow.py")
 
@@ -830,14 +832,14 @@ class GuildWindow(ui.ScriptWindow):
 					"BOARD"			: self.PageWindow(self, "uiscript/guildwindow_boardpage.py"),
 					"MEMBER"		: self.PageWindow(self, "uiscript/guildwindow_memberpage.py"),
 					"BASE_INFO"		: self.PageWindow(self, "uiscript/guildwindow_baseinfopage.py"),
-					"SKILL"			: self.PageWindow(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow_guildskillpage.py"),
+					"SKILL"			: self.PageWindow(self, localeInfo.LOCALE_UISCRIPT_PATH + "guildwindow_guildskillpage.py"),
 					"GRADE"			: self.PageWindow(self, "uiscript/guildwindow_gradepage.py"),
 				}
 			elif localeInfo.IsJAPAN() :
 				self.pageWindow = {
-					"GUILD_INFO"	: self.PageWindow(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow_guildinfopage.py"),
-					"BOARD"			: self.PageWindow(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow_boardpage.py"),
-					"MEMBER"		: self.PageWindow(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow_memberpage.py"),
+					"GUILD_INFO"	: self.PageWindow(self, localeInfo.LOCALE_UISCRIPT_PATH + "guildwindow_guildinfopage.py"),
+					"BOARD"			: self.PageWindow(self, localeInfo.LOCALE_UISCRIPT_PATH + "guildwindow_boardpage.py"),
+					"MEMBER"		: self.PageWindow(self, localeInfo.LOCALE_UISCRIPT_PATH + "guildwindow_memberpage.py"),
 					"BASE_INFO"		: self.PageWindow(self, "uiscript/guildwindow_baseinfopage.py"),
 					"SKILL"			: self.PageWindow(self, "uiscript/guildwindow_guildskillpage.py"),
 					"GRADE"			: self.PageWindow(self, "uiscript/guildwindow_gradepage.py"),
@@ -848,7 +850,7 @@ class GuildWindow(ui.ScriptWindow):
 					"BOARD"			: self.PageWindow(self, "uiscript/guildwindow_boardpage.py"),
 					"MEMBER"		: self.PageWindow(self, "uiscript/guildwindow_memberpage.py"),
 					"BASE_INFO"		: self.PageWindow(self, "uiscript/guildwindow_baseinfopage.py"),
-					"SKILL"			: self.PageWindow(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow_guildskillpage.py"),
+					"SKILL"			: self.PageWindow(self, localeInfo.LOCALE_UISCRIPT_PATH + "guildwindow_guildskillpage.py"),
 					"GRADE"			: self.PageWindow(self, "uiscript/guildwindow_gradepage.py"),
 				}
 			elif localeInfo.IsEUROPE() and not app.GetLocalePath() == "locale/ca" :
@@ -2064,9 +2066,9 @@ class BuildGuildBuildingWindow(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			if localeInfo.IsARABIC():
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "buildguildbuildingwindow.py")
+				pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "buildguildbuildingwindow.py")
 			elif localeInfo.IsVIETNAM():
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "buildguildbuildingwindow.py")
+				pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "buildguildbuildingwindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "uiscript/buildguildbuildingwindow.py")
 		except:
@@ -2605,326 +2607,3 @@ class BuildGuildBuildingWindow(ui.ScriptWindow):
 	def OnPressEscapeKey(self):
 		self.Close()
 		return True
-
-"""
-- 프로토콜
-
-게임돌입시:
-	RecvLandPacket:
-		CPythonMiniMap::RegisterGuildArea
-
-게임이동중:
-	PythonPlayer::Update()
-		CPythonPlayer::__Update_NotifyGuildAreaEvent()
-			game.py.BINARY_Guild_EnterGuildArea
-				uigameButton.GameButtonWindow.ShowBuildButton()
-			game.py.BINARY_Guild_ExitGuildArea
-				uigameButton.GameButtonWindow.HideBuildButton()
-
-BuildButton:
-!길드장인지 처리 없음
-!건물이 있어도 짓기 버튼은 있음
-
-!건물이 임시로 사용하는 VID 는 서버가 보내주는 것과 혼동될 염려가 있음
-!건물 VNUM 은 BuildGuildBuildingWindow.BUILDING_VNUM_LIST 를 이용해 변환
-
-!건물 지을때는 /build c(reate)
-!건물 부술때는 /build d(estroy)
-!rotation 의 단위는 degree
-
-	interfaceModule.interface.__OnClickBuildButton:
-		interfaceModule.interface.BUILD_OpenWindow:
-
-AcceptButton:
-	BuildGuildBuildingWindow.Build:
-		net.SendChatPacket("/build c vnum x y x_rot y_rot z_rot")
-
-PreviewButton:
-	__OnPreviewMode:
-	__RestoreViewMode:
-
-건물 부수기:
-	uiTarget.TargetBoard.__OnDestroyBuilding
-		net.SendChatPacket("/build d vid")
-"""
-
-if __name__ == "__main__":
-
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import grp
-	import ui
-
-	#wndMgr.SetOutlineFlag(True)
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create("METIN2 CLOSED BETA", systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-	import chrmgr
-	chrmgr.CreateRace(0)
-	chrmgr.SelectRace(0)
-	chrmgr.SetPathName("d:/ymir Work/pc/warrior/")
-	chrmgr.LoadRaceData("warrior.msm")
-	chrmgr.SetPathName("d:/ymir work/pc/warrior/general/")
-	chrmgr.RegisterMotionMode(chr.MOTION_MODE_GENERAL)
-	chrmgr.RegisterMotionData(chr.MOTION_MODE_GENERAL, chr.MOTION_WAIT, "wait.msa")
-	chrmgr.RegisterMotionData(chr.MOTION_MODE_GENERAL, chr.MOTION_RUN, "run.msa")
-
-	def LoadGuildBuildingList(filename):
-		handle = app.OpenTextFile(filename)
-		count = app.GetTextFileLineCount(handle)
-		for i in xrange(count):
-			line = app.GetTextFileLine(handle, i)
-			tokens = line.split("\t")
-
-			TOKEN_VNUM = 0
-			TOKEN_TYPE = 1
-			TOKEN_NAME = 2
-			TOKEN_LOCAL_NAME = 3
-			NO_USE_TOKEN_SIZE_1 = 4
-			NO_USE_TOKEN_SIZE_2 = 5
-			NO_USE_TOKEN_SIZE_3 = 6
-			NO_USE_TOKEN_SIZE_4 = 7
-			TOKEN_X_ROT_LIMIT = 8
-			TOKEN_Y_ROT_LIMIT = 9
-			TOKEN_Z_ROT_LIMIT = 10
-			TOKEN_PRICE = 11
-			TOKEN_MATERIAL = 12
-			TOKEN_NPC = 13
-			TOKEN_GROUP = 14
-			TOKEN_DEPEND_GROUP = 15
-			TOKEN_ENABLE_FLAG = 16
-			LIMIT_TOKEN_COUNT = 17
-
-			if not tokens[TOKEN_VNUM].isdigit():
-				continue
-
-			if not int(tokens[TOKEN_ENABLE_FLAG]):
-				continue
-
-			if len(tokens) < LIMIT_TOKEN_COUNT:
-				import dbg
-				dbg.TraceError("Strange token count [%d/%d] [%s]" % (len(tokens), LIMIT_TOKEN_COUNT, line))
-				continue
-
-			ENABLE_FLAG_TYPE_NOT_USE = False
-			ENABLE_FLAG_TYPE_USE = True
-			ENABLE_FLAG_TYPE_USE_BUT_HIDE = 2
-
-			if ENABLE_FLAG_TYPE_NOT_USE == int(tokens[TOKEN_ENABLE_FLAG]):
-				continue
-
-			vnum = int(tokens[TOKEN_VNUM])
-			type = tokens[TOKEN_TYPE]
-			name = tokens[TOKEN_NAME]
-			localName = tokens[TOKEN_LOCAL_NAME]
-			xRotLimit = int(tokens[TOKEN_X_ROT_LIMIT])
-			yRotLimit = int(tokens[TOKEN_Y_ROT_LIMIT])
-			zRotLimit = int(tokens[TOKEN_Z_ROT_LIMIT])
-			price = tokens[TOKEN_PRICE]
-			material = tokens[TOKEN_MATERIAL]
-
-			folderName = ""
-			if "HEADQUARTER" == type:
-				folderName = "headquarter"
-			elif "FACILITY" == type:
-				folderName = "facility"
-			elif "OBJECT" == type:
-				folderName = "object"
-			##"BuildIn" Is made by exist instance.
-
-			materialList = ["0", "0", "0"]
-			if material[0] == "\"":
-				material = material[1:]
-			if material[-1] == "\"":
-				material = material[:-1]
-			for one in material.split("/"):
-				data = one.split(",")
-				if 2 != len(data):
-					continue
-				itemID = int(data[0])
-				count = data[1]
-
-				if itemID == MATERIAL_STONE_ID:
-					materialList[MATERIAL_STONE_INDEX] = count
-				elif itemID == MATERIAL_LOG_ID:
-					materialList[MATERIAL_LOG_INDEX] = count
-				elif itemID == MATERIAL_PLYWOOD_ID:
-					materialList[MATERIAL_PLYWOOD_INDEX] = count
-
-			import chrmgr
-			chrmgr.RegisterRaceSrcName(name, folderName)
-			chrmgr.RegisterRaceName(vnum, name)
-
-			appendingData = { "VNUM":vnum,
-							  "TYPE":type,
-							  "NAME":name,
-							  "LOCAL_NAME":localName,
-							  "X_ROT_LIMIT":xRotLimit,
-							  "Y_ROT_LIMIT":yRotLimit,
-							  "Z_ROT_LIMIT":zRotLimit,
-							  "PRICE":price,
-							  "MATERIAL":materialList,
-							  "SHOW" : True }
-
-			if ENABLE_FLAG_TYPE_USE_BUT_HIDE == int(tokens[TOKEN_ENABLE_FLAG]):
-				appendingData["SHOW"] = False
-
-			BUILDING_DATA_LIST.append(appendingData)
-
-		app.CloseTextFile(handle)
-
-	LoadGuildBuildingList(app.GetLocalePath()+"/GuildBuildingList.txt")
-
-	class TestGame(ui.Window):
-		def __init__(self):
-			ui.Window.__init__(self)
-
-			x = 30000
-			y = 40000
-
-			self.wndGuildBuilding = None
-			self.onClickKeyDict = {}
-			self.onClickKeyDict[app.DIK_SPACE] = lambda: self.OpenBuildGuildBuildingWindow()
-
-			background.Initialize()
-			background.LoadMap("metin2_map_a1", x, y, 0)
-			background.SetShadowLevel(background.SHADOW_ALL)
-
-			self.MakeCharacter(1, 0, x, y)
-			player.SetMainCharacterIndex(1)
-			chr.SelectInstance(1)
-
-		def __del__(self):
-			ui.Window.__del__(self)
-
-		def MakeCharacter(self, index, race, x, y):
-			chr.CreateInstance(index)
-			chr.SelectInstance(index)
-			chr.SetVirtualID(index)
-			chr.SetInstanceType(chr.INSTANCE_TYPE_PLAYER)
-
-			chr.SetRace(race)
-			chr.SetArmor(0)
-			chr.SetHair(0)
-			chr.Refresh()
-			chr.SetMotionMode(chr.MOTION_MODE_GENERAL)
-			chr.SetLoopMotion(chr.MOTION_WAIT)
-
-			chr.SetPixelPosition(x, y)
-			chr.SetDirection(chr.DIR_NORTH)
-
-		def OpenBuildGuildBuildingWindow(self):
-			self.wndGuildBuilding = BuildGuildBuildingWindow()
-			self.wndGuildBuilding.Open()
-			self.wndGuildBuilding.SetParent(self)
-			self.wndGuildBuilding.SetTop()
-
-		def OnKeyUp(self, key):
-			if key in self.onClickKeyDict:
-				self.onClickKeyDict[key]()
-			return True
-
-		def OnMouseLeftButtonDown(self):
-			if self.wndGuildBuilding:
-				if self.wndGuildBuilding.IsPositioningMode():
-					self.wndGuildBuilding.SettleCurrentPosition()
-					return
-
-			player.SetMouseState(player.MBT_LEFT, player.MBS_PRESS);
-			return True
-
-		def OnMouseLeftButtonUp(self):
-			if self.wndGuildBuilding:
-				return
-
-			player.SetMouseState(player.MBT_LEFT, player.MBS_CLICK)
-			return True
-
-		def OnMouseRightButtonDown(self):
-			player.SetMouseState(player.MBT_RIGHT, player.MBS_PRESS);
-			return True
-
-		def OnMouseRightButtonUp(self):
-			player.SetMouseState(player.MBT_RIGHT, player.MBS_CLICK);
-			return True
-
-		def OnMouseMiddleButtonDown(self):
-			player.SetMouseMiddleButtonState(player.MBS_PRESS)
-
-		def OnMouseMiddleButtonUp(self):
-			player.SetMouseMiddleButtonState(player.MBS_CLICK)
-
-		def OnUpdate(self):
-			app.UpdateGame()
-
-			if self.wndGuildBuilding:
-				if self.wndGuildBuilding.IsPositioningMode():
-					x, y, z = background.GetPickingPoint()
-					self.wndGuildBuilding.SetBuildingPosition(x, y, z)
-
-		def OnRender(self):
-			app.RenderGame()
-			grp.PopState()
-			grp.SetInterfaceRenderState()
-
-	game = TestGame()
-	game.SetSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	game.Show()
-
-	wndGuildBuilding = BuildGuildBuildingWindow()
-	wndGuildBuilding.Open()
-	wndGuildBuilding.SetTop()
-
-	app.Loop()
-
-	"""
-	- 프로토콜
-
-게임돌입시:
-	RecvLandPacket:
-		CPythonMiniMap::RegisterGuildArea
-
-게임이동중:
-	PythonPlayer::Update()
-		CPythonPlayer::__Update_NotifyGuildAreaEvent()
-			game.py.BINARY_Guild_EnterGuildArea
-				uigameButton.GameButtonWindow.ShowBuildButton()
-			game.py.BINARY_Guild_ExitGuildArea
-				uigameButton.GameButtonWindow.HideBuildButton()
-
-BuildButton:
-!길드장인지 처리 없음
-!건물이 있어도 짓기 버튼은 있음
-
-!건물이 임시로 사용하는 VID 는 서버가 보내주는 것과 혼동될 염려가 있음
-!건물 VNUM 은 BuildGuildBuildingWindow.BUILDING_VNUM_LIST 를 이용해 변환
-
-!건물 지을때는 /build c(reate)
-!건물 부술때는 /build d(estroy)
-!rotation 의 단위는 degree
-
-	interfaceModule.interface.__OnClickBuildButton:
-		interfaceModule.interface.BUILD_OpenWindow:
-
-AcceptButton:
-	BuildGuildBuildingWindow.Build:
-		net.SendChatPacket("/build c vnum x y x_rot y_rot z_rot")
-
-	x_rot, y_rot 는 AffectContainer에 저장
-
-PreviewButton:
-	__OnPreviewMode:
-	__RestoreViewMode:
-
-건물 부수기:
-	uiTarget.TargetBoard.__OnDestroyBuilding
-		net.SendChatPacket("/build d vid")
-	"""
-

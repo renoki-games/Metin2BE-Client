@@ -4,9 +4,11 @@ import net
 import mouseModule
 import player
 import snd
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import ui
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 class AutoBanQuizWindow(ui.ScriptWindow):
 	def __init__(self):
@@ -20,7 +22,7 @@ class AutoBanQuizWindow(ui.ScriptWindow):
 	def LoadWindow(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "AutoBanQuiz.py")
+			pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "AutoBanQuiz.py")
 		except:
 			import exception
 			exception.Abort("AutoBanQuiz.LoadDialog.LoadScript")
@@ -74,7 +76,7 @@ class AutoBanQuizWindow(ui.ScriptWindow):
 			for selButton, selLine in zip(self.selButtons, selLines):
 				selButton.SetText(selLine)
 
-		self.statusText.SetText("%s: %s" % (uiScriptLocale.AUTOBAN_QUIZ_REST_TIME, localeInfo.SecondToDHM(duration)))
+		self.statusText.SetText("%s: %s" % (localeInfo.AUTOBAN_QUIZ_REST_TIME, localeInfo.SecondToDHM(duration)))
 
 		self.answer = 0
 		self.endTime = app.GetTime() + duration
@@ -133,49 +135,4 @@ class AutoBanQuizWindow(ui.ScriptWindow):
 		if restTime < 0:
 			restTime = 0
 
-		self.statusText.SetText("%s: %s" % (uiScriptLocale.AUTOBAN_QUIZ_REST_TIME, localeInfo.SecondToDHM(restTime)))
-
-if __name__ == "__main__":
-
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import grp
-	import ui
-	import uiToolTip
-	import localeInfo
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create("METIN2", systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-	class TestGame(ui.Window):
-		def __init__(self):
-			ui.Window.__init__(self)
-
-			localeInfo.LoadLocaleData()
-
-			self.cubeWindow = AutoBanQuizWindow()
-			self.cubeWindow.LoadWindow()
-			self.cubeWindow.Open()
-
-		def __del__(self):
-			ui.Window.__del__(self)
-
-		def OnUpdate(self):
-			app.UpdateGame()
-
-		def OnRender(self):
-			app.RenderGame()
-			grp.PopState()
-			grp.SetInterfaceRenderState()
-
-	game = TestGame()
-	game.SetSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	game.Show()
-
-	app.Loop()
+		self.statusText.SetText("%s: %s" % (localeInfo.AUTOBAN_QUIZ_REST_TIME, localeInfo.SecondToDHM(restTime)))

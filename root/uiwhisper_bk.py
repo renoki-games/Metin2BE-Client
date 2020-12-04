@@ -3,7 +3,8 @@ import net
 import chat
 import player
 import app
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import ime
 import chr
 if app.ENABLE_WHISPER_TIPPING:
@@ -345,27 +346,3 @@ class WhisperDialog(ui.ScriptWindow):
 				ime.PasteString(link)
 			else:
 				self.interface.MakeHyperlinkTooltip(hyperlink)
-
-if "__main__" == __name__:
-	import uiTest
-
-	class TestApp(uiTest.App):
-		def OnInit(self):
-			wnd = WhisperDialog(self.OnMax, self.OnMin)
-			wnd.LoadDialog()
-			wnd.OpenWithoutTarget(self.OnNew)
-			wnd.SetPosition(0, 0)
-			wnd.Show()
-
-			self.wnd = wnd
-
-		def OnMax(self):
-			pass
-
-		def OnMin(self):
-			pass
-
-		def OnNew(self):
-			pass
-
-	TestApp().MainLoop()

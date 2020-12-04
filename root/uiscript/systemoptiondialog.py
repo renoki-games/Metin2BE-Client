@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 
 ROOT_PATH = "d:/ymir work/ui/public/"
@@ -50,7 +51,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 							{ 
 							"name":"titlename", "type":"text", "x":0, "y":3, 
 							"horizontal_align":"center", "text_horizontal_align":"center",
-							"text": uiScriptLocale.SYSTEMOPTION_TITLE, 
+							"text": localeInfo.SYSTEMOPTION_TITLE, 
 							 },
 						),
 					},
@@ -64,7 +65,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 30,
 						"y" : 75,
 
-						"text" : uiScriptLocale.OPTION_MUSIC,
+						"text" : localeInfo.OPTION_MUSIC,
 					},
 					
 					{
@@ -82,7 +83,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 20,
 						"y" : 100,
 
-						"text" : uiScriptLocale.OPTION_MUSIC_CHANGE,
+						"text" : localeInfo.OPTION_MUSIC_CHANGE,
 
 						"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 						"over_image" : ROOT_PATH + "Middle_Button_02.sub",
@@ -96,7 +97,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 100,
 						"y" : 102,
 
-						"text" : uiScriptLocale.OPTION_MUSIC_DEFAULT_THEMA,
+						"text" : localeInfo.OPTION_MUSIC_DEFAULT_THEMA,
 					},
 					
 					## Sound
@@ -107,7 +108,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 30,
 						"y" : 50,
 
-						"text" : uiScriptLocale.OPTION_SOUND,
+						"text" : localeInfo.OPTION_SOUND,
 					},
 					
 					{
@@ -126,7 +127,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 40 + TEXT_TEMPORARY_X,
 						"y" : 135+2,
 
-						"text" : uiScriptLocale.OPTION_CAMERA_DISTANCE,
+						"text" : localeInfo.OPTION_CAMERA_DISTANCE,
 					},
 					
 					{
@@ -136,7 +137,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110,
 						"y" : 135,
 
-						"text" : uiScriptLocale.OPTION_CAMERA_DISTANCE_SHORT,
+						"text" : localeInfo.OPTION_CAMERA_DISTANCE_SHORT,
 
 						"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 						"over_image" : ROOT_PATH + "Middle_Button_02.sub",
@@ -150,7 +151,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110+70,
 						"y" : 135,
 
-						"text" : uiScriptLocale.OPTION_CAMERA_DISTANCE_LONG,
+						"text" : localeInfo.OPTION_CAMERA_DISTANCE_LONG,
 
 						"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 						"over_image" : ROOT_PATH + "Middle_Button_02.sub",
@@ -165,7 +166,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 30,
 						"y" : 160+2,
 
-						"text" : uiScriptLocale.OPTION_FOG,
+						"text" : localeInfo.OPTION_FOG,
 					},
 					
 					{
@@ -175,7 +176,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110,
 						"y" : 160,
 
-						"text" : uiScriptLocale.OPTION_FOG_DENSE,
+						"text" : localeInfo.OPTION_FOG_DENSE,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -189,7 +190,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110+50,
 						"y" : 160,
 
-						"text" : uiScriptLocale.OPTION_FOG_MIDDLE,
+						"text" : localeInfo.OPTION_FOG_MIDDLE,
 						
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -203,7 +204,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110 + 100,
 						"y" : 160,
 
-						"text" : uiScriptLocale.OPTION_FOG_LIGHT,
+						"text" : localeInfo.OPTION_FOG_LIGHT,
 						
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -218,7 +219,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 40 + TEXT_TEMPORARY_X,
 						"y" : 185+2,
 
-						"text" : uiScriptLocale.OPTION_TILING,
+						"text" : localeInfo.OPTION_TILING,
 					},
 					
 					{
@@ -228,7 +229,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110,
 						"y" : 185,
 
-						"text" : uiScriptLocale.OPTION_TILING_CPU,
+						"text" : localeInfo.OPTION_TILING_CPU,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -242,7 +243,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110+50,
 						"y" : 185,
 
-						"text" : uiScriptLocale.OPTION_TILING_GPU,
+						"text" : localeInfo.OPTION_TILING_GPU,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -256,7 +257,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110+100,
 						"y" : 185,
 
-						"text" : uiScriptLocale.OPTION_TILING_APPLY,
+						"text" : localeInfo.OPTION_TILING_APPLY,
 
 						"default_image" : ROOT_PATH + "middle_Button_01.sub",
 						"over_image" : ROOT_PATH + "middle_Button_02.sub",
@@ -272,7 +273,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 40 + TEXT_TEMPORARY_X,
 						"y" : 210,
 
-						"text" : uiScriptLocale.OPTION_NIGHT_MODE,
+						"text" : localeInfo.OPTION_NIGHT_MODE,
 					},
 					
 					{
@@ -282,7 +283,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110,
 						"y" : 210,
 
-						"text" : uiScriptLocale.OPTION_NIGHT_MODE_ON,
+						"text" : localeInfo.OPTION_NIGHT_MODE_ON,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -296,7 +297,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110+50,
 						"y" : 210,
 
-						"text" : uiScriptLocale.OPTION_NIGHT_MODE_OFF,
+						"text" : localeInfo.OPTION_NIGHT_MODE_OFF,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -311,7 +312,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 40 + TEXT_TEMPORARY_X,
 						"y" : 235,
 
-						"text" : uiScriptLocale.OPTION_SNOW_MODE,
+						"text" : localeInfo.OPTION_SNOW_MODE,
 					},
 					
 					{
@@ -321,7 +322,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110,
 						"y" : 235,
 
-						"text" : uiScriptLocale.OPTION_SNOW_MODE_ON,
+						"text" : localeInfo.OPTION_SNOW_MODE_ON,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -335,7 +336,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110+50,
 						"y" : 235,
 
-						"text" : uiScriptLocale.OPTION_SNOW_MODE_OFF,
+						"text" : localeInfo.OPTION_SNOW_MODE_OFF,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -350,7 +351,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 40 + TEXT_TEMPORARY_X,
 						"y" : 260,
 
-						"text" : uiScriptLocale.OPTION_SNOW_TEXTURE_MODE,
+						"text" : localeInfo.OPTION_SNOW_TEXTURE_MODE,
 					},
 					
 					{
@@ -360,7 +361,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110,
 						"y" : 260,
 
-						"text" : uiScriptLocale.OPTION_SNOW_TEXTURE_MODE_ON,
+						"text" : localeInfo.OPTION_SNOW_TEXTURE_MODE_ON,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -374,7 +375,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 						"x" : 110+50,
 						"y" : 260,
 
-						"text" : uiScriptLocale.OPTION_SNOW_TEXTURE_MODE_OFF,
+						"text" : localeInfo.OPTION_SNOW_TEXTURE_MODE_OFF,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -389,7 +390,7 @@ if app.ENABLE_ENVIRONMENT_EFFECT_OPTION:
 	#					"x" : 30,
 	#					"y" : 210,
 
-	#					"text" : uiScriptLocale.OPTION_SHADOW,
+	#					"text" : localeInfo.OPTION_SHADOW,
 	#				},
 					
 	#				{
@@ -445,7 +446,7 @@ else:
 							{ 
 							"name":"titlename", "type":"text", "x":0, "y":3, 
 							"horizontal_align":"center", "text_horizontal_align":"center",
-							"text": uiScriptLocale.SYSTEMOPTION_TITLE, 
+							"text": localeInfo.SYSTEMOPTION_TITLE, 
 							 },
 						),
 					},
@@ -459,7 +460,7 @@ else:
 						"x" : 30,
 						"y" : 75,
 
-						"text" : uiScriptLocale.OPTION_MUSIC,
+						"text" : localeInfo.OPTION_MUSIC,
 					},
 					
 					{
@@ -477,7 +478,7 @@ else:
 						"x" : 20,
 						"y" : 100,
 
-						"text" : uiScriptLocale.OPTION_MUSIC_CHANGE,
+						"text" : localeInfo.OPTION_MUSIC_CHANGE,
 
 						"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 						"over_image" : ROOT_PATH + "Middle_Button_02.sub",
@@ -491,7 +492,7 @@ else:
 						"x" : 100,
 						"y" : 102,
 
-						"text" : uiScriptLocale.OPTION_MUSIC_DEFAULT_THEMA,
+						"text" : localeInfo.OPTION_MUSIC_DEFAULT_THEMA,
 					},
 					
 					## Sound
@@ -502,7 +503,7 @@ else:
 						"x" : 30,
 						"y" : 50,
 
-						"text" : uiScriptLocale.OPTION_SOUND,
+						"text" : localeInfo.OPTION_SOUND,
 					},
 					
 					{
@@ -521,7 +522,7 @@ else:
 						"x" : 40 + TEXT_TEMPORARY_X,
 						"y" : 135+2,
 
-						"text" : uiScriptLocale.OPTION_CAMERA_DISTANCE,
+						"text" : localeInfo.OPTION_CAMERA_DISTANCE,
 					},
 					
 					{
@@ -531,7 +532,7 @@ else:
 						"x" : 110,
 						"y" : 135,
 
-						"text" : uiScriptLocale.OPTION_CAMERA_DISTANCE_SHORT,
+						"text" : localeInfo.OPTION_CAMERA_DISTANCE_SHORT,
 
 						"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 						"over_image" : ROOT_PATH + "Middle_Button_02.sub",
@@ -545,7 +546,7 @@ else:
 						"x" : 110+70,
 						"y" : 135,
 
-						"text" : uiScriptLocale.OPTION_CAMERA_DISTANCE_LONG,
+						"text" : localeInfo.OPTION_CAMERA_DISTANCE_LONG,
 
 						"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 						"over_image" : ROOT_PATH + "Middle_Button_02.sub",
@@ -560,7 +561,7 @@ else:
 						"x" : 30,
 						"y" : 160+2,
 
-						"text" : uiScriptLocale.OPTION_FOG,
+						"text" : localeInfo.OPTION_FOG,
 					},
 					
 					{
@@ -570,7 +571,7 @@ else:
 						"x" : 110,
 						"y" : 160,
 
-						"text" : uiScriptLocale.OPTION_FOG_DENSE,
+						"text" : localeInfo.OPTION_FOG_DENSE,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -584,7 +585,7 @@ else:
 						"x" : 110+50,
 						"y" : 160,
 
-						"text" : uiScriptLocale.OPTION_FOG_MIDDLE,
+						"text" : localeInfo.OPTION_FOG_MIDDLE,
 						
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -598,7 +599,7 @@ else:
 						"x" : 110 + 100,
 						"y" : 160,
 
-						"text" : uiScriptLocale.OPTION_FOG_LIGHT,
+						"text" : localeInfo.OPTION_FOG_LIGHT,
 						
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -613,7 +614,7 @@ else:
 						"x" : 40 + TEXT_TEMPORARY_X,
 						"y" : 185+2,
 
-						"text" : uiScriptLocale.OPTION_TILING,
+						"text" : localeInfo.OPTION_TILING,
 					},
 					
 					{
@@ -623,7 +624,7 @@ else:
 						"x" : 110,
 						"y" : 185,
 
-						"text" : uiScriptLocale.OPTION_TILING_CPU,
+						"text" : localeInfo.OPTION_TILING_CPU,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -637,7 +638,7 @@ else:
 						"x" : 110+50,
 						"y" : 185,
 
-						"text" : uiScriptLocale.OPTION_TILING_GPU,
+						"text" : localeInfo.OPTION_TILING_GPU,
 
 						"default_image" : ROOT_PATH + "small_Button_01.sub",
 						"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -651,7 +652,7 @@ else:
 						"x" : 110+100,
 						"y" : 185,
 
-						"text" : uiScriptLocale.OPTION_TILING_APPLY,
+						"text" : localeInfo.OPTION_TILING_APPLY,
 
 						"default_image" : ROOT_PATH + "middle_Button_01.sub",
 						"over_image" : ROOT_PATH + "middle_Button_02.sub",
@@ -667,7 +668,7 @@ else:
 	#					"x" : 30,
 	#					"y" : 210,
 
-	#					"text" : uiScriptLocale.OPTION_SHADOW,
+	#					"text" : localeInfo.OPTION_SHADOW,
 	#				},
 					
 	#				{

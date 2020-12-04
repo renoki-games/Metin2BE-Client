@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT = "d:/ymir work/ui/public/"
 
@@ -33,7 +34,7 @@ window = {
 					"x" : 10,
 					"y" : 17,
 
-					"text" : uiScriptLocale.SYSTEM_HELP,
+					"text" : localeInfo.SYSTEM_HELP,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -47,7 +48,7 @@ window = {
 					"x" : 10,
 					"y" : 57,
 
-					"text" : uiScriptLocale.SYSTEMOPTION_TITLE,
+					"text" : localeInfo.SYSTEMOPTION_TITLE,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -60,7 +61,7 @@ window = {
 					"x" : 10,
 					"y" : 87,
 
-					"text" : uiScriptLocale.GAMEOPTION_TITLE,
+					"text" : localeInfo.GAMEOPTION_TITLE,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -73,7 +74,7 @@ window = {
 					"x" : 10,
 					"y" : 117,
 
-					"text" : uiScriptLocale.SYSTEM_CHANGE,
+					"text" : localeInfo.SYSTEM_CHANGE,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -86,7 +87,7 @@ window = {
 					"x" : 10,
 					"y" : 147,
 
-					"text" : uiScriptLocale.SYSTEM_EXIT,
+					"text" : localeInfo.SYSTEM_EXIT,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -99,7 +100,7 @@ window = {
 					"x" : 10,
 					"y" : 177,
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",

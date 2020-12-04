@@ -9,6 +9,8 @@ import time
 import wndMgr
 import net
 import sys
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 QUEST_BOARD_IMAGE_DIR = 'd:/ymir work/ui/game/questboard/'
 
@@ -440,7 +442,6 @@ class QuestDialog(ui.ScriptWindow):
 
 		self.nextButtonType = button_type;
 
-		import localeInfo
 		if event.BUTTON_TYPE_CANCEL == button_type:
 			b.SetEvent(lambda s=self:event.SelectAnswer(s.descIndex, 254) or s.OnCancel())
 			b.SetText(localeInfo.UI_CANCEL)

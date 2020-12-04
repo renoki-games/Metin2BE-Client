@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 if SCREEN_WIDTH >= 1036 and SCREEN_HEIGHT >= 695:
     WEB_WIDTH = 1016
@@ -47,7 +48,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":50, "y":3, "text":uiScriptLocale.SYSTEM_MALL, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":50, "y":3, "text":localeInfo.SYSTEM_MALL, "text_horizontal_align":"center" },
 					),
 				},
 			),

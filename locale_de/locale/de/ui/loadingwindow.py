@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 
@@ -26,7 +27,7 @@ window = {
 		{ 
 			"name":"ErrorMessage", 
 			"type":"text", "x":10, "y":10, 
-			"text": uiScriptLocale.LOAD_ERROR, 
+			"text": localeInfo.LOAD_ERROR, 
 		},
 		
 		{
@@ -48,7 +49,7 @@ window = {
 					"x" : 40,
 					"y" : 25,
 
-					"image" : uiScriptLocale.LOCALE_UISCRIPT_PATH + "loading/gauge_empty.dds",
+					"image" : localeInfo.LOCALE_UISCRIPT_PATH + "loading/gauge_empty.dds",
 				},
 				{
 					"name" : "FullGage",
@@ -57,7 +58,7 @@ window = {
 					"x" : 40,
 					"y" : 25,
 
-					"image" : uiScriptLocale.LOCALE_UISCRIPT_PATH + "loading/gauge_full.dds",
+					"image" : localeInfo.LOCALE_UISCRIPT_PATH + "loading/gauge_full.dds",
 				},
 			),
 		},

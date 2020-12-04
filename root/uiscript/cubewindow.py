@@ -1,7 +1,9 @@
-import localeInfo
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
-LOCALE_PATH = uiScriptLocale.WINDOWS_PATH
+LOCALE_PATH = localeInfo.WINDOWS_PATH
 ICON_SLOT_FILE = "d:/ymir work/ui/public/Slot_Base.sub"
 
 window = {
@@ -31,7 +33,7 @@ window = {
 			"width"		: 285,
 			"height"	: 521,
 
-			"image"		: uiScriptLocale.LOCALE_UISCRIPT_PATH + "new_cube_bg.tga",
+			"image"		: localeInfo.LOCALE_UISCRIPT_PATH + "new_cube_bg.tga",
 
 			"children" :
 			(
@@ -49,7 +51,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":77, "y":3, "text":uiScriptLocale.CUBE_TITLE, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":77, "y":3, "text":localeInfo.CUBE_TITLE, "text_horizontal_align":"center" },
 					),
 				},
 
@@ -384,7 +386,7 @@ window = {
 					"y" : 32,
 					"vertical_align" : "bottom",
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -398,7 +400,7 @@ window = {
 					"y" : 32,
 					"vertical_align" : "bottom",
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

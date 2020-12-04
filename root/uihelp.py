@@ -1,7 +1,9 @@
 import app
 import ui
-import localeInfo
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ENABLE_HELP_MULTIPAGE = 0
 
@@ -23,7 +25,7 @@ class HelpWindow(ui.ScriptWindow):
 			pyScrLoader = ui.PythonScriptLoader()
 
 			if localeInfo.IsARABIC():
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "HelpWindow.py")
+				pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "HelpWindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/HelpWindow.py")
 		except:
@@ -115,26 +117,3 @@ class HelpWindow(ui.ScriptWindow):
 
 		self.pages[pageIndex].Show()
 		self.btnPages[pageIndex].Down()
-
-if __name__ == "__main__":
-
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import grp
-	import ui
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create(localeInfo.APP_TITLE, systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-	wnd = HelpWindow()
-	wnd.LoadDialog()
-	wnd.Open()
-	app.Loop()
-	wnd = None
-

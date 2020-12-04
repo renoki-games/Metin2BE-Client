@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 
 ROOT = "d:/ymir work/ui/game/"
@@ -313,7 +314,7 @@ window = {
 			"x" : SCREEN_WIDTH - 178,
 			"y" : 3 + Y_ADD_POSITION,
 
-			"tooltip_text" : uiScriptLocale.TASKBAR_TELEPORT,
+			"tooltip_text" : localeInfo.TASKBAR_TELEPORT,
 
 			"default_image" : "D:/ymir work/ui/teleport_normal.tga",
 			"over_image" : "D:/ymir work/ui/teleport_hover.tga",
@@ -326,7 +327,7 @@ window = {
 			"x" : SCREEN_WIDTH - 144,
 			"y" : 3 + Y_ADD_POSITION,
 
-			"tooltip_text" : uiScriptLocale.TASKBAR_CHARACTER,
+			"tooltip_text" : localeInfo.TASKBAR_CHARACTER,
 
 			"default_image" : ROOT + "TaskBar/Character_Button_01.sub",
 			"over_image" : ROOT + "TaskBar/Character_Button_02.sub",
@@ -339,7 +340,7 @@ window = {
 			"x" : SCREEN_WIDTH - 110,
 			"y" : 3 + Y_ADD_POSITION,
 
-			"tooltip_text" : uiScriptLocale.TASKBAR_INVENTORY,
+			"tooltip_text" : localeInfo.TASKBAR_INVENTORY,
 
 			"default_image" : ROOT + "TaskBar/Inventory_Button_01.sub",
 			"over_image" : ROOT + "TaskBar/Inventory_Button_02.sub",
@@ -352,7 +353,7 @@ window = {
 			"x" : SCREEN_WIDTH - 76,
 			"y" : 3 + Y_ADD_POSITION,
 
-			"tooltip_text" : uiScriptLocale.TASKBAR_MESSENGER,
+			"tooltip_text" : localeInfo.TASKBAR_MESSENGER,
 
 			"default_image" : ROOT + "TaskBar/Community_Button_01.sub",
 			"over_image" : ROOT + "TaskBar/Community_Button_02.sub",
@@ -365,7 +366,7 @@ window = {
 			"x" : SCREEN_WIDTH - 42,
 			"y" : 3 + Y_ADD_POSITION,
 
-			"tooltip_text" : uiScriptLocale.TASKBAR_SYSTEM,
+			"tooltip_text" : localeInfo.TASKBAR_SYSTEM,
 
 			"default_image" : ROOT + "TaskBar/System_Button_01.sub",
 			"over_image" : ROOT + "TaskBar/System_Button_02.sub",
@@ -391,7 +392,7 @@ window = {
 
 					"x" : 128,
 					"y" : 1,
-					"tooltip_text" : uiScriptLocale.TASKBAR_EXPAND,
+					"tooltip_text" : localeInfo.TASKBAR_EXPAND,
 
 					"default_image" : ROOT + "TaskBar/Chat_Button_01.sub",
 					"over_image" : ROOT + "TaskBar/Chat_Button_02.sub",
@@ -473,7 +474,7 @@ window = {
 						{
 							"name" : "QuickPageUpButton",
 							"type" : "button",
-							"tooltip_text" : uiScriptLocale.TASKBAR_PREV_QUICKSLOT,
+							"tooltip_text" : localeInfo.TASKBAR_PREV_QUICKSLOT,
 							"x" : 1,
 							"y" : 9,
 							"default_image" : ROOT + "TaskBar/QuickSlot_UpButton_01.sub",
@@ -489,7 +490,7 @@ window = {
 						{
 							"name" : "QuickPageDownButton",
 							"type" : "button",
-							"tooltip_text" : uiScriptLocale.TASKBAR_NEXT_QUICKSLOT,
+							"tooltip_text" : localeInfo.TASKBAR_NEXT_QUICKSLOT,
 
 							"x" : 1,
 							"y" : 24,

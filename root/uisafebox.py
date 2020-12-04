@@ -6,8 +6,10 @@ import snd
 import safebox
 import chat
 import app
-import localeInfo
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 class PasswordDialog(ui.ScriptWindow):
 	def __init__(self):
@@ -23,7 +25,7 @@ class PasswordDialog(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 #			if localeInfo.IsEUROPE()and app.GetLocalePath() != "locale/ca"and app.GetLocalePath() != "locale/sg" :
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "passworddialog.py")
+			pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "passworddialog.py")
 #			else:
 #				pyScrLoader.LoadScriptFile(self, "uiscript/passworddialog.py")
 		except:
@@ -678,31 +680,3 @@ class MallWindow(ui.ScriptWindow):
 		(x, y, z) = player.GetMainCharacterPosition()
 		if abs(x - self.xSafeBoxStart) > USE_SAFEBOX_LIMIT_RANGE or abs(y - self.ySafeBoxStart) > USE_SAFEBOX_LIMIT_RANGE:
 			self.Close()
-
-
-if __name__ == "__main__":
-
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import grp
-	import ui
-	import chr
-	import background
-	import player
-
-	#wndMgr.SetOutlineFlag(True)
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create("METIN2 CLOSED BETA", systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-
-	wnd = SafeboxWindow()
-	wnd.ShowWindow(1)
-
-	app.Loop()

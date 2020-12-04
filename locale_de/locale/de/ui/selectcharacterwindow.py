@@ -1,8 +1,9 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 
 ROOT_PATH = "d:/ymir work/ui/public/"
-LOCALE_PATH = uiScriptLocale.SELECT_PATH
+LOCALE_PATH = localeInfo.SELECT_PATH
 
 BOARD_X = SCREEN_WIDTH * (65) / 800
 BOARD_Y = SCREEN_HEIGHT * (220) / 600
@@ -143,7 +144,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 								"x" : 0,
 								"y" : 0,
 
-								"text" : uiScriptLocale.SELECT_EMPIRE_NAME,
+								"text" : localeInfo.SELECT_EMPIRE_NAME,
 
 								"all_align" : "center",
 							},
@@ -168,7 +169,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 								"x" : 0,
 								"y" : 0,
 
-								"text" : uiScriptLocale.SELECT_NO_GUILD,
+								"text" : localeInfo.SELECT_NO_GUILD,
 
 								"all_align" : "center",
 							},
@@ -182,7 +183,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 17,
 						"y" : 124 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_NAME,
+						"text" : localeInfo.SELECT_NAME,
 
 						"children" :
 						(
@@ -215,7 +216,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 17,
 						"y" : 50 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_LEVEL,
+						"text" : localeInfo.SELECT_LEVEL,
 
 						"children" :
 						(
@@ -248,7 +249,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 17,
 						"y" : 76 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_PLAYTIME,
+						"text" : localeInfo.SELECT_PLAYTIME,
 
 						"children" :
 						(
@@ -281,7 +282,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 17,
 						"y" : 102 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_HP,
+						"text" : localeInfo.SELECT_HP,
 
 						"children" :
 						(
@@ -324,7 +325,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 17,
 						"y" : 128 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_SP,
+						"text" : localeInfo.SELECT_SP,
 
 						"children" :
 						(
@@ -367,7 +368,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 17,
 						"y" : 154 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_ATT_GRADE,
+						"text" : localeInfo.SELECT_ATT_GRADE,
 
 						"children" :
 						(
@@ -410,7 +411,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 17,
 						"y" : 180 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_DEX_GRADE,
+						"text" : localeInfo.SELECT_DEX_GRADE,
 
 						"children" :
 						(
@@ -455,7 +456,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 14,
 						"y" : 210 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_SELECT,
+						"text" : localeInfo.SELECT_SELECT,
 						"text_height" : 6,
 
 						"default_image" : ROOT_PATH + "XLarge_Button_01.sub",
@@ -469,7 +470,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 14,
 						"y" : 210 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_CREATE,
+						"text" : localeInfo.SELECT_CREATE,
 						"text_height" : 6,
 
 						"default_image" : ROOT_PATH + "XLarge_Button_01.sub",
@@ -483,7 +484,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 105,
 						"y" : 245 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_EXIT,
+						"text" : localeInfo.SELECT_EXIT,
 
 						"default_image" : ROOT_PATH + "Large_Button_01.sub",
 						"over_image" : ROOT_PATH + "Large_Button_02.sub",
@@ -496,7 +497,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 14,
 						"y" : 245 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_DELETE,
+						"text" : localeInfo.SELECT_DELETE,
 
 						"default_image" : ROOT_PATH + "Large_Button_01.sub",
 						"over_image" : ROOT_PATH + "Large_Button_02.sub",
@@ -656,7 +657,7 @@ else:
 								"x" : 0,
 								"y" : 0,
 
-								"text" : uiScriptLocale.SELECT_EMPIRE_NAME,
+								"text" : localeInfo.SELECT_EMPIRE_NAME,
 
 								"all_align" : "center",
 							},
@@ -681,7 +682,7 @@ else:
 								"x" : 0,
 								"y" : 0,
 
-								"text" : uiScriptLocale.SELECT_NO_GUILD,
+								"text" : localeInfo.SELECT_NO_GUILD,
 
 								"all_align" : "center",
 							},
@@ -695,7 +696,7 @@ else:
 						"x" : 17,
 						"y" : 124 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_NAME,
+						"text" : localeInfo.SELECT_NAME,
 
 						"children" :
 						(
@@ -728,7 +729,7 @@ else:
 						"x" : 17,
 						"y" : 50 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_LEVEL,
+						"text" : localeInfo.SELECT_LEVEL,
 
 						"children" :
 						(
@@ -761,7 +762,7 @@ else:
 						"x" : 17,
 						"y" : 76 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_PLAYTIME,
+						"text" : localeInfo.SELECT_PLAYTIME,
 
 						"children" :
 						(
@@ -794,7 +795,7 @@ else:
 						"x" : 17,
 						"y" : 102 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_HP,
+						"text" : localeInfo.SELECT_HP,
 
 						"children" :
 						(
@@ -837,7 +838,7 @@ else:
 						"x" : 17,
 						"y" : 128 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_SP,
+						"text" : localeInfo.SELECT_SP,
 
 						"children" :
 						(
@@ -880,7 +881,7 @@ else:
 						"x" : 17,
 						"y" : 154 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_ATT_GRADE,
+						"text" : localeInfo.SELECT_ATT_GRADE,
 
 						"children" :
 						(
@@ -923,7 +924,7 @@ else:
 						"x" : 17,
 						"y" : 180 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_DEX_GRADE,
+						"text" : localeInfo.SELECT_DEX_GRADE,
 
 						"children" :
 						(
@@ -968,7 +969,7 @@ else:
 						"x" : 14,
 						"y" : 210 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_SELECT,
+						"text" : localeInfo.SELECT_SELECT,
 						"text_height" : 6,
 
 						"default_image" : ROOT_PATH + "XLarge_Button_01.sub",
@@ -982,7 +983,7 @@ else:
 						"x" : 14,
 						"y" : 210 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_CREATE,
+						"text" : localeInfo.SELECT_CREATE,
 						"text_height" : 6,
 
 						"default_image" : ROOT_PATH + "XLarge_Button_01.sub",
@@ -996,7 +997,7 @@ else:
 						"x" : 105,
 						"y" : 245 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_EXIT,
+						"text" : localeInfo.SELECT_EXIT,
 
 						"default_image" : ROOT_PATH + "Large_Button_01.sub",
 						"over_image" : ROOT_PATH + "Large_Button_02.sub",
@@ -1009,7 +1010,7 @@ else:
 						"x" : 14,
 						"y" : 245 + 100 - 21 + BOARD_ITEM_ADD_POSITION,
 
-						"text" : uiScriptLocale.SELECT_DELETE,
+						"text" : localeInfo.SELECT_DELETE,
 
 						"default_image" : ROOT_PATH + "Large_Button_01.sub",
 						"over_image" : ROOT_PATH + "Large_Button_02.sub",

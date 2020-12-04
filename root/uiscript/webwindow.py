@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 WEB_WIDTH = 640
 WEB_HEIGHT = 480
@@ -43,7 +44,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":50, "y":3, "text":uiScriptLocale.SYSTEM_MALL, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":50, "y":3, "text":localeInfo.SYSTEM_MALL, "text_horizontal_align":"center" },
 					),
 				},
 			),

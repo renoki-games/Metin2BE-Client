@@ -5,7 +5,8 @@ import snd
 import wndMgr
 import item
 import skill
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import dbg
 # MARK_BUG_FIX
 import guild
@@ -3328,7 +3329,7 @@ class PythonScriptLoader(object):
 		#ui 코드는 sandbox 내에서 실행되어야한다.(봇이 껴있을 여지가 있기 때문에)
 		import sys
 		from utils import Sandbox
-		sandbox = Sandbox(True, ["uiScriptLocale", "localeInfo", "sys", "item", "app", "player"])
+		sandbox = Sandbox(True, ["localeInfo", "localeInfo", "sys", "item", "app", "player"])
 
 		# chr, player 등은 sandbox 내에서 import가 허용되지 않기 때문에,(봇이 악용할 여지가 매우 큼.)
 		#  미리 script dictionary에 필요한 상수를 넣어놓는다.

@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import item
 import app
 
@@ -44,7 +45,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":95, "y":3, "text":uiScriptLocale.ACCE_COMBINE, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":95, "y":3, "text":localeInfo.ACCE_COMBINE, "text_horizontal_align":"center" },
 					),
 				},
 				
@@ -56,7 +57,7 @@ window = {
 					"x" : 9,
 					"y" : 35,
 					
-					"image" : uiScriptLocale.LOCALE_UISCRIPT_PATH + "acce/acce_combine.tga",
+					"image" : localeInfo.LOCALE_UISCRIPT_PATH + "acce/acce_combine.tga",
 					
 					"children" :
 					(
@@ -78,13 +79,13 @@ window = {
 						},
 						## Help Text
 						{
-							"name" : "Main", "type" : "text", "text" : uiScriptLocale.ACCE_MAIN, "text_horizontal_align":"center", "x" : 85+12, "y" : 7+36,
+							"name" : "Main", "type" : "text", "text" : localeInfo.ACCE_MAIN, "text_horizontal_align":"center", "x" : 85+12, "y" : 7+36,
 						},
 						{
-							"name" : "serve", "type" : "text", "text" : uiScriptLocale.ACCE_SERVE, "text_horizontal_align":"center", "x" : 85+12, "y" : 60+38,
+							"name" : "serve", "type" : "text", "text" : localeInfo.ACCE_SERVE, "text_horizontal_align":"center", "x" : 85+12, "y" : 60+38,
 						},
 						{
-							"name" : "Result", "type" : "text", "text" : uiScriptLocale.ACCE_RESULT, "text_horizontal_align":"center", "x" : 85+12, "y" : 115+40
+							"name" : "Result", "type" : "text", "text" : localeInfo.ACCE_RESULT, "text_horizontal_align":"center", "x" : 85+12, "y" : 115+40
 						},
 
 					),
@@ -106,7 +107,7 @@ window = {
 					"x" : 40,
 					"y" : 235,
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -119,7 +120,7 @@ window = {
 					"x" : 114,
 					"y" : 235,
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

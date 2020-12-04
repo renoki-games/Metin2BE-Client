@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "InputDialog_WithDescription",
@@ -76,7 +77,7 @@ window = {
 					"y" : 74,
 					"horizontal_align" : "center",
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -90,7 +91,7 @@ window = {
 					"y" : 74,
 					"horizontal_align" : "center",
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

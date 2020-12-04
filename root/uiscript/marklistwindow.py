@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "MarkListWindow",
@@ -23,7 +24,7 @@ window = {
 
 			"width" : 170,
 			"height" : 300,
-			"title" : uiScriptLocale.MARKLIST_TITLE,
+			"title" : localeInfo.MARKLIST_TITLE,
 		},
 
 		{
@@ -46,7 +47,7 @@ window = {
 			"width" : 61,
 			"height" : 21,
 
-			"text" : uiScriptLocale.OK,
+			"text" : localeInfo.OK,
 
 			"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
@@ -62,7 +63,7 @@ window = {
 			"width" : 41,
 			"height" : 21,
 
-			"text" : uiScriptLocale.CANCEL,
+			"text" : localeInfo.CANCEL,
 
 			"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
@@ -79,7 +80,7 @@ window = {
 			"width" : 41,
 			"height" : 21,
 
-			"text" : uiScriptLocale.MARKLIST_REFRESH,
+			"text" : localeInfo.MARKLIST_REFRESH,
 
 			"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/small_button_02.sub",

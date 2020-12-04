@@ -1,9 +1,11 @@
 import dbg
 import app
 import net
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+
 if app.RENEWAL_DEAD_PACKET:
 	import player
-	import localeInfo
 
 import ui
 

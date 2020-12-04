@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "InputDialog",
@@ -23,7 +24,7 @@ window = {
 			"width" : 230,
 			"height" : 130,
 
-			"title" : uiScriptLocale.GUILD_WAR_ACCEPT,
+			"title" : localeInfo.GUILD_WAR_ACCEPT,
 
 			"children" :
 			(
@@ -35,7 +36,7 @@ window = {
 					"x" : 15,
 					"y" : 40,
 
-					"text" : uiScriptLocale.GUILD_WAR_ENEMY,
+					"text" : localeInfo.GUILD_WAR_ENEMY,
 				},
 				{
 					"name" : "InputSlot",
@@ -67,7 +68,7 @@ window = {
 					
 					"children" :
 					(
-						{"name" : "GameTypeLabel", "type" : "text", "x" : 0, "y" : 3, "text" : uiScriptLocale.GUILD_WAR_BATTLE_TYPE,},
+						{"name" : "GameTypeLabel", "type" : "text", "x" : 0, "y" : 3, "text" : localeInfo.GUILD_WAR_BATTLE_TYPE,},
 						{
 							"name" : "NormalButton",
 							"type" : "radio_button",
@@ -75,7 +76,7 @@ window = {
 							"x" : 65,
 							"y" : 0,
 
-							"text" : uiScriptLocale.GUILD_WAR_NORMAL,							
+							"text" : localeInfo.GUILD_WAR_NORMAL,							
 
 							"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 							"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
@@ -88,7 +89,7 @@ window = {
 							"x" : 65+45*1,
 							"y" : 0,
 
-							"text" : uiScriptLocale.GUILD_WAR_WARP,
+							"text" : localeInfo.GUILD_WAR_WARP,
 							
 							"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 							"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
@@ -101,7 +102,7 @@ window = {
 							"x" : 65+45*2,
 							"y" : 0,
 
-							"text" : uiScriptLocale.GUILD_WAR_CTF,
+							"text" : localeInfo.GUILD_WAR_CTF,
 							
 							"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 							"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
@@ -118,7 +119,7 @@ window = {
 					"y" : 95,
 					"horizontal_align" : "center",
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -132,7 +133,7 @@ window = {
 					"y" : 95,
 					"horizontal_align" : "center",
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

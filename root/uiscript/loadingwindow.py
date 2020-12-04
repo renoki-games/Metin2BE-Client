@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "LoginWindow",
@@ -28,7 +29,7 @@ window = {
 		{ 
 			"name":"ErrorMessage", 
 			"type":"text", "x":10, "y":10, 
-			"text": uiScriptLocale.LOAD_ERROR, 
+			"text": localeInfo.LOAD_ERROR, 
 		},
 		{
 			"name" : "GageBoard",

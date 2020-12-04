@@ -3,8 +3,10 @@ import net
 import ui
 import snd
 import wndMgr
-import uiScriptLocale
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 # 대부분의 실제 구현은 PythonApplicationLogo.cpp에 있다.
 

@@ -1,5 +1,6 @@
 import ui
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 import net
 import dbg
@@ -10,7 +11,8 @@ import wndMgr
 import skill
 import playerSettingModule
 import quest
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import uiToolTip
 import constInfo
 import emotion
@@ -399,7 +401,7 @@ class CharacterWindow(ui.ScriptWindow):
 
 		try:
 			if localeInfo.IsARABIC() or localeInfo.IsVIETNAM() or localeInfo.IsJAPAN():
-				self.__LoadScript(uiScriptLocale.LOCALE_UISCRIPT_PATH + "CharacterWindow.py")
+				self.__LoadScript(localeInfo.LOCALE_UISCRIPT_PATH + "CharacterWindow.py")
 			else:
 				self.__LoadScript("UIScript/CharacterWindow.py")
 

@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "ShopDialog",
@@ -40,7 +41,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":84, "y":4, "text":uiScriptLocale.SHOP_TITLE, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":84, "y":4, "text":localeInfo.SHOP_TITLE, "text_horizontal_align":"center" },
 					),
 				},
 
@@ -72,7 +73,7 @@ window = {
 					"width" : 61,
 					"height" : 21,
 
-					"text" : uiScriptLocale.SHOP_BUY,
+					"text" : localeInfo.SHOP_BUY,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -90,7 +91,7 @@ window = {
 					"width" : 61,
 					"height" : 21,
 
-					"text" : uiScriptLocale.SHOP_SELL,
+					"text" : localeInfo.SHOP_SELL,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -107,7 +108,7 @@ window = {
 
 					"horizontal_align" : "center",
 
-					"text" : uiScriptLocale.PRIVATE_SHOP_CLOSE_BUTTON,
+					"text" : localeInfo.PRIVATE_SHOP_CLOSE_BUTTON,
 
 					"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/large_button_02.sub",

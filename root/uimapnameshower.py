@@ -1,9 +1,11 @@
 import app
 import ui
-import uiScriptLocale
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
-LOCALE_PATH = uiScriptLocale.MAPNAME_PATH
+LOCALE_PATH = localeInfo.MAPNAME_PATH
 
 class MapNameShower(ui.ExpandedImageBox):
 

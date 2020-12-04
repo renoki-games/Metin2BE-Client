@@ -1,7 +1,8 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ADD_HEIGHT = 17
-LOCALE_PATH = uiScriptLocale.WINDOWS_PATH
+LOCALE_PATH = localeInfo.WINDOWS_PATH
 
 window = {
 	"name" : "GuildWindow_GuildSkillPage",
@@ -33,7 +34,7 @@ window = {
 					"y" : 2,
 					"vertical_align" : "center",
 					"text_vertical_align" : "center",
-					"text" : uiScriptLocale.GUILD_SKILL_PASSIVE,
+					"text" : localeInfo.GUILD_SKILL_PASSIVE,
 				},
 				{ 
 					"name":"Passive_Skill_Plus_Label",
@@ -91,7 +92,7 @@ window = {
 					"y" : 2,
 					"vertical_align" : "center",
 					"text_vertical_align" : "center",
-					"text" : uiScriptLocale.GUILD_SKILL_ACTIVE,
+					"text" : localeInfo.GUILD_SKILL_ACTIVE,
 				},
 
 			),
@@ -130,7 +131,7 @@ window = {
 					"x" : 0,
 					"y" : 0,
 					"all_align" : "center",
-					"text" : uiScriptLocale.GUILD_SKILL_STATE,
+					"text" : localeInfo.GUILD_SKILL_STATE,
 				},
 
 			),
@@ -159,7 +160,7 @@ window = {
 			"type":"text",
 			"x" : 20,
 			"y" : 243 + ADD_HEIGHT + 5,
-			"text" : uiScriptLocale.GUILD_SKILL_POWER,
+			"text" : localeInfo.GUILD_SKILL_POWER,
 		},
 		{
 			"name":"Dragon_God_Power_Gauge_Slot",
@@ -214,7 +215,7 @@ window = {
 			"type" : "button",
 			"x" : 257,
 			"y" : 241 + ADD_HEIGHT + 17,
-			"text" : uiScriptLocale.GUILD_SKIlL_HEAL_GSP,
+			"text" : localeInfo.GUILD_SKIlL_HEAL_GSP,
 			"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/large_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/large_button_03.sub",

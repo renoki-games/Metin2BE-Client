@@ -1,7 +1,8 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT_PATH = "d:/ymir work/ui/public/"
-LOCALE_PATH = uiScriptLocale.EMPIRE_PATH
+LOCALE_PATH = localeInfo.EMPIRE_PATH
 
 ATALS_X = SCREEN_WIDTH * (282) / 800
 ATALS_Y = SCREEN_HEIGHT * (170) / 600
@@ -258,7 +259,7 @@ window = {
 							"x" : 95,
 							"y" : 95,
 
-							"text" : uiScriptLocale.EMPIRE_PREV,
+							"text" : localeInfo.EMPIRE_PREV,
 
 							"default_image" : ROOT_PATH + "Small_Button_01.sub",
 							"over_image" : ROOT_PATH + "Small_Button_02.sub",
@@ -271,7 +272,7 @@ window = {
 							"x" : 140,
 							"y" : 95,
 
-							"text" : uiScriptLocale.EMPIRE_NEXT,
+							"text" : localeInfo.EMPIRE_NEXT,
 
 							"default_image" : ROOT_PATH + "Small_Button_01.sub",
 							"over_image" : ROOT_PATH + "Small_Button_02.sub",
@@ -336,7 +337,7 @@ window = {
 					"x" : 14,
 					"y" : 277,
 
-					"text" : uiScriptLocale.EMPIRE_SELECT,
+					"text" : localeInfo.EMPIRE_SELECT,
 
 					"default_image" : ROOT_PATH + "Large_Button_01.sub",
 					"over_image" : ROOT_PATH + "Large_Button_02.sub",
@@ -349,7 +350,7 @@ window = {
 					"x" : 105,
 					"y" : 277,
 
-					"text" : uiScriptLocale.EMPIRE_EXIT,
+					"text" : localeInfo.EMPIRE_EXIT,
 
 					"default_image" : ROOT_PATH + "Large_Button_01.sub",
 					"over_image" : ROOT_PATH + "Large_Button_02.sub",

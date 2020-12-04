@@ -1,5 +1,6 @@
 import ui
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import net
 import app
 import dbg
@@ -7,7 +8,8 @@ import player
 import background
 import wndMgr
 
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import chrmgr
 import colorInfo
 import constInfo
@@ -64,7 +66,7 @@ class LoadingWindow(ui.ScriptWindow):
 			pyScrLoader = ui.PythonScriptLoader()
 
 			if localeInfo.IsYMIR() or localeInfo.IsWE_KOREA() or localeInfo.IsCANADA() or localeInfo.IsBRAZIL() or localeInfo.IsEUROPE() or localeInfo.IsJAPAN():
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "LoadingWindow.py")
+				pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "LoadingWindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/LoadingWindow.py")
 		except:
@@ -86,12 +88,12 @@ class LoadingWindow(ui.ScriptWindow):
 			self.loadingTip.SetText(net.GetTipInfo())
 
 		imgFileNameDict = {
-			0 : uiScriptLocale.LOCALE_UISCRIPT_PATH + "loading/loading0.sub",
-			1 : uiScriptLocale.LOCALE_UISCRIPT_PATH + "loading/loading1.sub",
-			2 : uiScriptLocale.LOCALE_UISCRIPT_PATH + "loading/loading2.sub",
-			3 : uiScriptLocale.LOCALE_UISCRIPT_PATH + "loading/loading3.sub",
-			4 : uiScriptLocale.LOCALE_UISCRIPT_PATH + "loading/loading4.sub",
-			5 : uiScriptLocale.LOCALE_UISCRIPT_PATH + "loading/loading5.sub",
+			0 : localeInfo.LOCALE_UISCRIPT_PATH + "loading/loading0.sub",
+			1 : localeInfo.LOCALE_UISCRIPT_PATH + "loading/loading1.sub",
+			2 : localeInfo.LOCALE_UISCRIPT_PATH + "loading/loading2.sub",
+			3 : localeInfo.LOCALE_UISCRIPT_PATH + "loading/loading3.sub",
+			4 : localeInfo.LOCALE_UISCRIPT_PATH + "loading/loading4.sub",
+			5 : localeInfo.LOCALE_UISCRIPT_PATH + "loading/loading5.sub",
 		}
 
 		try:

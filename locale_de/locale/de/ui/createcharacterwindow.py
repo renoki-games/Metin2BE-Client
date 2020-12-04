@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 
 ROOT_PATH = "d:/ymir work/ui/public/"
@@ -106,7 +107,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 								"x" : 95,
 								"y" : 95,
 
-								"text" : uiScriptLocale.CREATE_PREV,
+								"text" : localeInfo.CREATE_PREV,
 
 								"default_image" : ROOT_PATH + "Small_Button_01.sub",
 								"over_image" : ROOT_PATH + "Small_Button_02.sub",
@@ -119,7 +120,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 								"x" : 140,
 								"y" : 95,
 
-								"text" : uiScriptLocale.CREATE_NEXT,
+								"text" : localeInfo.CREATE_NEXT,
 
 								"default_image" : ROOT_PATH + "Small_Button_01.sub",
 								"over_image" : ROOT_PATH + "Small_Button_02.sub",
@@ -182,7 +183,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 15,
 						"y" : 138,
 
-						"text" : uiScriptLocale.CREATE_HP,
+						"text" : localeInfo.CREATE_HP,
 
 						"children" :
 						(
@@ -228,7 +229,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 15,
 						"y" : 157,
 
-						"text" : uiScriptLocale.CREATE_SP,
+						"text" : localeInfo.CREATE_SP,
 
 						"children" :
 						(
@@ -274,7 +275,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 15,
 						"y" : 176,
 
-						"text" : uiScriptLocale.CREATE_ATT_GRADE,
+						"text" : localeInfo.CREATE_ATT_GRADE,
 
 						"children" :
 						(
@@ -320,7 +321,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 15,
 						"y" : 195,
 
-						"text" : uiScriptLocale.CREATE_DEX_GRADE,
+						"text" : localeInfo.CREATE_DEX_GRADE,
 
 						"children" :
 						(
@@ -413,7 +414,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 43,
 						"y" : 218,
 
-						"text" : uiScriptLocale.CREATE_NAME,
+						"text" : localeInfo.CREATE_NAME,
 
 						"text_horizontal_align" : "center",
 
@@ -450,7 +451,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 43,
 						"y" : 247,
 
-						"text" : uiScriptLocale.CREATE_SEX,
+						"text" : localeInfo.CREATE_SEX,
 
 						"text_horizontal_align" : "center",
 					},
@@ -461,7 +462,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 79,
 						"y" : 247,
 
-						"text" : uiScriptLocale.CREATE_MAN,
+						"text" : localeInfo.CREATE_MAN,
 
 						"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 						"over_image"	: ROOT_PATH + "Middle_Button_02.sub",
@@ -474,7 +475,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 139,
 						"y" : 247,
 
-						"text" : uiScriptLocale.CREATE_WOMAN,
+						"text" : localeInfo.CREATE_WOMAN,
 
 						"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 						"over_image"	: ROOT_PATH + "Middle_Button_02.sub",
@@ -488,7 +489,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 43,
 						"y" : 270,
 
-						"text" : uiScriptLocale.CREATE_SHAPE,
+						"text" : localeInfo.CREATE_SHAPE,
 
 						"text_horizontal_align" : "center",
 					},
@@ -526,7 +527,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 11,
 						"y" : 265 + TEMPORARY_HEIGHT,
 
-						"text" : uiScriptLocale.CREATE_CREATE,
+						"text" : localeInfo.CREATE_CREATE,
 
 						"default_image" : ROOT_PATH + "Large_Button_01.sub",
 						"over_image" : ROOT_PATH + "Large_Button_02.sub",
@@ -539,7 +540,7 @@ if app.ENABLE_WOLFMAN_CHARACTER:
 						"x" : 109,
 						"y" : 265 + TEMPORARY_HEIGHT,
 
-						"text" : uiScriptLocale.CANCEL,
+						"text" : localeInfo.CANCEL,
 
 						"default_image" : ROOT_PATH + "Large_Button_01.sub",
 						"over_image" : ROOT_PATH + "Large_Button_02.sub",
@@ -663,7 +664,7 @@ else:
 								"x" : 95,
 								"y" : 95,
 
-								"text" : uiScriptLocale.CREATE_PREV,
+								"text" : localeInfo.CREATE_PREV,
 
 								"default_image" : ROOT_PATH + "Small_Button_01.sub",
 								"over_image" : ROOT_PATH + "Small_Button_02.sub",
@@ -676,7 +677,7 @@ else:
 								"x" : 140,
 								"y" : 95,
 
-								"text" : uiScriptLocale.CREATE_NEXT,
+								"text" : localeInfo.CREATE_NEXT,
 
 								"default_image" : ROOT_PATH + "Small_Button_01.sub",
 								"over_image" : ROOT_PATH + "Small_Button_02.sub",
@@ -739,7 +740,7 @@ else:
 						"x" : 15,
 						"y" : 138,
 
-						"text" : uiScriptLocale.CREATE_HP,
+						"text" : localeInfo.CREATE_HP,
 
 						"children" :
 						(
@@ -785,7 +786,7 @@ else:
 						"x" : 15,
 						"y" : 157,
 
-						"text" : uiScriptLocale.CREATE_SP,
+						"text" : localeInfo.CREATE_SP,
 
 						"children" :
 						(
@@ -831,7 +832,7 @@ else:
 						"x" : 15,
 						"y" : 176,
 
-						"text" : uiScriptLocale.CREATE_ATT_GRADE,
+						"text" : localeInfo.CREATE_ATT_GRADE,
 
 						"children" :
 						(
@@ -877,7 +878,7 @@ else:
 						"x" : 15,
 						"y" : 195,
 
-						"text" : uiScriptLocale.CREATE_DEX_GRADE,
+						"text" : localeInfo.CREATE_DEX_GRADE,
 
 						"children" :
 						(
@@ -970,7 +971,7 @@ else:
 						"x" : 43,
 						"y" : 218,
 
-						"text" : uiScriptLocale.CREATE_NAME,
+						"text" : localeInfo.CREATE_NAME,
 
 						"text_horizontal_align" : "center",
 
@@ -1007,7 +1008,7 @@ else:
 						"x" : 43,
 						"y" : 247,
 
-						"text" : uiScriptLocale.CREATE_SEX,
+						"text" : localeInfo.CREATE_SEX,
 
 						"text_horizontal_align" : "center",
 					},
@@ -1018,7 +1019,7 @@ else:
 						"x" : 79,
 						"y" : 247,
 
-						"text" : uiScriptLocale.CREATE_MAN,
+						"text" : localeInfo.CREATE_MAN,
 
 						"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 						"over_image"	: ROOT_PATH + "Middle_Button_02.sub",
@@ -1031,7 +1032,7 @@ else:
 						"x" : 139,
 						"y" : 247,
 
-						"text" : uiScriptLocale.CREATE_WOMAN,
+						"text" : localeInfo.CREATE_WOMAN,
 
 						"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 						"over_image"	: ROOT_PATH + "Middle_Button_02.sub",
@@ -1045,7 +1046,7 @@ else:
 						"x" : 43,
 						"y" : 270,
 
-						"text" : uiScriptLocale.CREATE_SHAPE,
+						"text" : localeInfo.CREATE_SHAPE,
 
 						"text_horizontal_align" : "center",
 					},
@@ -1083,7 +1084,7 @@ else:
 						"x" : 11,
 						"y" : 265 + TEMPORARY_HEIGHT,
 
-						"text" : uiScriptLocale.CREATE_CREATE,
+						"text" : localeInfo.CREATE_CREATE,
 
 						"default_image" : ROOT_PATH + "Large_Button_01.sub",
 						"over_image" : ROOT_PATH + "Large_Button_02.sub",
@@ -1096,7 +1097,7 @@ else:
 						"x" : 109,
 						"y" : 265 + TEMPORARY_HEIGHT,
 
-						"text" : uiScriptLocale.CANCEL,
+						"text" : localeInfo.CANCEL,
 
 						"default_image" : ROOT_PATH + "Large_Button_01.sub",
 						"over_image" : ROOT_PATH + "Large_Button_02.sub",

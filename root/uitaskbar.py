@@ -2,12 +2,14 @@ import ui
 import net
 import item
 import skill
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import wndMgr
 import player
 import constInfo
 import mouseModule
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 
 MOUSE_SETTINGS = [0, 0]
@@ -78,7 +80,7 @@ class GiftBox(ui.ScriptWindow):
 	def LoadWindow(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "giftbox.py")
+			pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "giftbox.py")
 		except:
 			import exception
 			exception.Abort("GiftBox.LoadWindow.LoadObject")

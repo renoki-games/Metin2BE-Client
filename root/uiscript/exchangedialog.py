@@ -1,5 +1,7 @@
-import localeInfo
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT = "d:/ymir work/ui/game/"
 
@@ -143,7 +145,7 @@ window = {
 							"x" : 152,
 							"y" : 134,
 
-							"text" : uiScriptLocale.EXCHANGE_ACCEPT,
+							"text" : localeInfo.EXCHANGE_ACCEPT,
 
 							"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 							"over_image" : "d:/ymir work/ui/public/small_button_02.sub",

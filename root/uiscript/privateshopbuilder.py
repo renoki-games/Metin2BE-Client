@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "PrivateShopBuilder",
@@ -40,13 +41,13 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":84, "y":4, "text":uiScriptLocale.PRIVATE_SHOP_TITLE, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":84, "y":4, "text":localeInfo.PRIVATE_SHOP_TITLE, "text_horizontal_align":"center" },
 					),
 				},
 
 				## Name_Static
 				#{
-				#	"name" : "Name_Static", "type" : "text", "x" : 15, "y" : 35 + 3, "text" : uiScriptLocale.PRIVATE_SHOP_NAME,
+				#	"name" : "Name_Static", "type" : "text", "x" : 15, "y" : 35 + 3, "text" : localeInfo.PRIVATE_SHOP_NAME,
 				#},
 				## Name
 				{
@@ -100,7 +101,7 @@ window = {
 					"width" : 61,
 					"height" : 21,
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -118,7 +119,7 @@ window = {
 					"width" : 61,
 					"height" : 21,
 
-					"text" : uiScriptLocale.CLOSE,
+					"text" : localeInfo.CLOSE,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

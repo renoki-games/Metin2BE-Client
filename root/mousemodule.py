@@ -13,7 +13,8 @@ import ui
 
 import systemSetting
 
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ## Mouse Controler
 ## 마우스 커서를 제어하며 마우스 커서에 Attach되어 움직이는 Object들까지 제어할 수 있다.

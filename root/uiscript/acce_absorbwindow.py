@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import item
 import app
 
@@ -42,7 +43,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":95, "y":3, "text":uiScriptLocale.ACCE_ABSORB, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":95, "y":3, "text":localeInfo.ACCE_ABSORB, "text_horizontal_align":"center" },
 					),
 				},
 				
@@ -54,7 +55,7 @@ window = {
 					"x" : 9,
 					"y" : 35,
 					
-					"image" : uiScriptLocale.LOCALE_UISCRIPT_PATH + "Acce/Acce_absorb.tga",
+					"image" : localeInfo.LOCALE_UISCRIPT_PATH + "Acce/Acce_absorb.tga",
 					
 					"children" :
 					(
@@ -84,7 +85,7 @@ window = {
 					"x" : 40,
 					"y" : 235,
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -97,7 +98,7 @@ window = {
 					"x" : 114,
 					"y" : 235,
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

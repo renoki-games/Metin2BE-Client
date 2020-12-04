@@ -5,7 +5,8 @@ import item
 import ui
 import uiToolTip
 import mouseModule
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import uiCommon
 import constInfo
 import app

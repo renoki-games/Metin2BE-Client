@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "AttachStoneDialog",
@@ -40,7 +41,7 @@ window = {
 						{
 							"name" : "TitleName",
 							"type" : "text",
-							"text" : uiScriptLocale.ATTACH_METIN_TITLE,
+							"text" : localeInfo.ATTACH_METIN_TITLE,
 							"horizontal_align" : "center",
 							"text_horizontal_align" : "center",
 							"x" : 0,
@@ -81,7 +82,7 @@ window = {
 				{
 					"name" : "Question",
 					"type" : "text",
-					"text" : uiScriptLocale.ATTACH_METIN_INFO,
+					"text" : localeInfo.ATTACH_METIN_INFO,
 					"horizontal_align" : "center",
 					"vertical_align" : "bottom",
 					"text_horizontal_align" : "center",
@@ -95,7 +96,7 @@ window = {
 					"x" : -35,
 					"y" : 35,
 
-					"text" : uiScriptLocale.YES,
+					"text" : localeInfo.YES,
 					"horizontal_align" : "center",
 					"vertical_align" : "bottom",
 
@@ -110,7 +111,7 @@ window = {
 					"x" : 35,
 					"y" : 35,
 
-					"text" : uiScriptLocale.NO,
+					"text" : localeInfo.NO,
 					"horizontal_align" : "center",
 					"vertical_align" : "bottom",
 

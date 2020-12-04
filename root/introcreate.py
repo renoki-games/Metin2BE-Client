@@ -6,7 +6,8 @@ import snd
 import wndMgr
 import event
 import systemSetting
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 import ui
 import networkModule
@@ -14,10 +15,11 @@ import math
 import snd
 import musicInfo
 import playerSettingModule
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import uiToolTip
 
-LOCALE_PATH = "uiscript/"+uiScriptLocale.CODEPAGE+"_"
+LOCALE_PATH = "uiscript/"+localeInfo.CODEPAGE+"_"
 
 MAN			= 0
 WOMAN		= 1
@@ -87,13 +89,13 @@ class CreateCharacterWindow(ui.Window):
 		START_STAT = tuple(tmpStartStat)
 
 	DESCRIPTION_FILE_NAME =	(
-		uiScriptLocale.JOBDESC_WARRIOR_PATH,
-		uiScriptLocale.JOBDESC_ASSASSIN_PATH,
-		uiScriptLocale.JOBDESC_SURA_PATH,
-		uiScriptLocale.JOBDESC_SHAMAN_PATH,
+		localeInfo.JOBDESC_WARRIOR_PATH,
+		localeInfo.JOBDESC_ASSASSIN_PATH,
+		localeInfo.JOBDESC_SURA_PATH,
+		localeInfo.JOBDESC_SHAMAN_PATH,
 	)
 	if app.ENABLE_WOLFMAN_CHARACTER:
-		DESCRIPTION_FILE_NAME += (uiScriptLocale.JOBDESC_WOLFMAN_PATH,)
+		DESCRIPTION_FILE_NAME += (localeInfo.JOBDESC_WOLFMAN_PATH,)
 
 
 	class DescriptionBox(ui.Window):
@@ -176,7 +178,7 @@ class CreateCharacterWindow(ui.Window):
 		try:
 			dlgBoard = ui.ScriptWindow()
 			pythonScriptLoader = ui.PythonScriptLoader()
-			pythonScriptLoader.LoadScriptFile(dlgBoard, uiScriptLocale.LOCALE_UISCRIPT_PATH + "createcharacterwindow.py")
+			pythonScriptLoader.LoadScriptFile(dlgBoard, localeInfo.LOCALE_UISCRIPT_PATH + "createcharacterwindow.py")
 
 		except:
 			import exception
@@ -691,26 +693,3 @@ class CreateCharacterWindow(ui.Window):
 
 	def OverOutStatButton(self):
 		self.toolTip.Hide()
-
-if __name__ == "__main__":
-
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import networkModule
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create(localeInfo.APP_TITLE, systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-	mainStream = networkModule.MainStream()
-	mainStream.Create()
-
-	test = CreateCharacterWindow(mainStream)
-	test.Open()
-
-	app.Loop()

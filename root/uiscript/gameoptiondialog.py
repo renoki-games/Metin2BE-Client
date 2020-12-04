@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 
 ROOT_PATH = "d:/ymir work/ui/public/"
@@ -53,7 +54,7 @@ window = {
 					"children" :
 					[
 						{ "name":"titlename", "type":"text", "x":0, "y":3,
-						"text" : uiScriptLocale.GAMEOPTION_TITLE,
+						"text" : localeInfo.GAMEOPTION_TITLE,
 						"horizontal_align":"center", "text_horizontal_align":"center" },
 					],
 				},
@@ -66,7 +67,7 @@ window = {
 					"x" : LINE_LABEL_X,
 					"y" : 40+2,
 
-					"text" : uiScriptLocale.OPTION_NAME_COLOR,
+					"text" : localeInfo.OPTION_NAME_COLOR,
 				},
 				{
 					"name" : "name_color_normal",
@@ -75,7 +76,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*0,
 					"y" : 40,
 
-					"text" : uiScriptLocale.OPTION_NAME_COLOR_NORMAL,
+					"text" : localeInfo.OPTION_NAME_COLOR_NORMAL,
 
 					"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 					"over_image" : ROOT_PATH + "Middle_Button_02.sub",
@@ -88,7 +89,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*1,
 					"y" : 40,
 
-					"text" : uiScriptLocale.OPTION_NAME_COLOR_EMPIRE,
+					"text" : localeInfo.OPTION_NAME_COLOR_EMPIRE,
 
 					"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 					"over_image" : ROOT_PATH + "Middle_Button_02.sub",
@@ -103,7 +104,7 @@ window = {
 					"x" : LINE_LABEL_X,
 					"y" : 65+2,
 
-					"text" : uiScriptLocale.OPTION_TARGET_BOARD,
+					"text" : localeInfo.OPTION_TARGET_BOARD,
 				},
 				{
 					"name" : "target_board_no_view",
@@ -112,7 +113,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*0,
 					"y" : 65,
 
-					"text" : uiScriptLocale.OPTION_TARGET_BOARD_NO_VIEW,
+					"text" : localeInfo.OPTION_TARGET_BOARD_NO_VIEW,
 
 					"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 					"over_image" : ROOT_PATH + "Middle_Button_02.sub",
@@ -125,7 +126,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*1,
 					"y" : 65,
 
-					"text" : uiScriptLocale.OPTION_TARGET_BOARD_VIEW,
+					"text" : localeInfo.OPTION_TARGET_BOARD_VIEW,
 
 					"default_image" : ROOT_PATH + "Middle_Button_01.sub",
 					"over_image" : ROOT_PATH + "Middle_Button_02.sub",
@@ -141,7 +142,7 @@ window = {
 					"x" : LINE_LABEL_X,
 					"y" : 90+2,
 
-					"text" : uiScriptLocale.OPTION_PVPMODE,
+					"text" : localeInfo.OPTION_PVPMODE,
 				},
 				{
 					"name" : "pvp_peace",
@@ -150,8 +151,8 @@ window = {
 					"x" : LINE_DATA_X+SMALL_BUTTON_WIDTH*0,
 					"y" : 90,
 
-					"text" : uiScriptLocale.OPTION_PVPMODE_PEACE,
-					"tooltip_text" : uiScriptLocale.OPTION_PVPMODE_PEACE_TOOLTIP,
+					"text" : localeInfo.OPTION_PVPMODE_PEACE,
+					"tooltip_text" : localeInfo.OPTION_PVPMODE_PEACE_TOOLTIP,
 
 					"default_image" : ROOT_PATH + "small_Button_01.sub",
 					"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -164,8 +165,8 @@ window = {
 					"x" : LINE_DATA_X+SMALL_BUTTON_WIDTH*1,
 					"y" : 90,
 
-					"text" : uiScriptLocale.OPTION_PVPMODE_REVENGE,
-					"tooltip_text" : uiScriptLocale.OPTION_PVPMODE_REVENGE_TOOLTIP,
+					"text" : localeInfo.OPTION_PVPMODE_REVENGE,
+					"tooltip_text" : localeInfo.OPTION_PVPMODE_REVENGE_TOOLTIP,
 
 					"default_image" : ROOT_PATH + "small_Button_01.sub",
 					"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -178,8 +179,8 @@ window = {
 					"x" : LINE_DATA_X+SMALL_BUTTON_WIDTH*2,
 					"y" : 90,
 
-					"text" : uiScriptLocale.OPTION_PVPMODE_GUILD,
-					"tooltip_text" : uiScriptLocale.OPTION_PVPMODE_GUILD_TOOLTIP,
+					"text" : localeInfo.OPTION_PVPMODE_GUILD,
+					"tooltip_text" : localeInfo.OPTION_PVPMODE_GUILD_TOOLTIP,
 
 					"default_image" : ROOT_PATH + "small_Button_01.sub",
 					"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -192,8 +193,8 @@ window = {
 					"x" : LINE_DATA_X+SMALL_BUTTON_WIDTH*3,
 					"y" : 90,
 
-					"text" : uiScriptLocale.OPTION_PVPMODE_FREE,
-					"tooltip_text" : uiScriptLocale.OPTION_PVPMODE_FREE_TOOLTIP,
+					"text" : localeInfo.OPTION_PVPMODE_FREE,
+					"tooltip_text" : localeInfo.OPTION_PVPMODE_FREE_TOOLTIP,
 
 					"default_image" : ROOT_PATH + "small_Button_01.sub",
 					"over_image" : ROOT_PATH + "small_Button_02.sub",
@@ -208,7 +209,7 @@ window = {
 					"x" : LINE_LABEL_X,
 					"y" : 115+2,
 
-					"text" : uiScriptLocale.OPTION_BLOCK,
+					"text" : localeInfo.OPTION_BLOCK,
 				},
 				{
 					"name" : "block_exchange_button",
@@ -217,7 +218,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*0,
 					"y" : 115,
 
-					"text" : uiScriptLocale.OPTION_BLOCK_EXCHANGE,
+					"text" : localeInfo.OPTION_BLOCK_EXCHANGE,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -230,7 +231,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*1,
 					"y" : 115,
 
-					"text" : uiScriptLocale.OPTION_BLOCK_PARTY,
+					"text" : localeInfo.OPTION_BLOCK_PARTY,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -243,7 +244,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*2,
 					"y" : 115,
 
-					"text" : uiScriptLocale.OPTION_BLOCK_GUILD,
+					"text" : localeInfo.OPTION_BLOCK_GUILD,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -256,7 +257,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*0,
 					"y" : 140,
 
-					"text" : uiScriptLocale.OPTION_BLOCK_WHISPER,
+					"text" : localeInfo.OPTION_BLOCK_WHISPER,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -269,7 +270,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*1,
 					"y" : 140,
 
-					"text" : uiScriptLocale.OPTION_BLOCK_FRIEND,
+					"text" : localeInfo.OPTION_BLOCK_FRIEND,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -282,7 +283,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*2,
 					"y" : 140,
 
-					"text" : uiScriptLocale.OPTION_BLOCK_PARTY_REQUEST,
+					"text" : localeInfo.OPTION_BLOCK_PARTY_REQUEST,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -297,7 +298,7 @@ window = {
 					"x" : LINE_LABEL_X,
 					"y" : 165+2,
 
-					"text" : uiScriptLocale.OPTION_VIEW_CHAT,
+					"text" : localeInfo.OPTION_VIEW_CHAT,
 				},
 				{
 					"name" : "view_chat_on_button",
@@ -306,7 +307,7 @@ window = {
 					"x" : LINE_DATA_X,
 					"y" : 165,
 
-					"text" : uiScriptLocale.OPTION_VIEW_CHAT_ON,
+					"text" : localeInfo.OPTION_VIEW_CHAT_ON,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -319,7 +320,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH,
 					"y" : 165,
 
-					"text" : uiScriptLocale.OPTION_VIEW_CHAT_OFF,
+					"text" : localeInfo.OPTION_VIEW_CHAT_OFF,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -334,7 +335,7 @@ window = {
 					"x" : LINE_LABEL_X,
 					"y" : 190+2,
 
-					"text" : uiScriptLocale.OPTION_ALWAYS_SHOW_NAME,
+					"text" : localeInfo.OPTION_ALWAYS_SHOW_NAME,
 				},
 				{
 					"name" : "always_show_name_on_button",
@@ -343,7 +344,7 @@ window = {
 					"x" : LINE_DATA_X,
 					"y" : 190,
 
-					"text" : uiScriptLocale.OPTION_ALWAYS_SHOW_NAME_ON,
+					"text" : localeInfo.OPTION_ALWAYS_SHOW_NAME_ON,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -356,7 +357,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH,
 					"y" : 190,
 
-					"text" : uiScriptLocale.OPTION_ALWAYS_SHOW_NAME_OFF,
+					"text" : localeInfo.OPTION_ALWAYS_SHOW_NAME_OFF,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -371,7 +372,7 @@ window = {
 					"x" : LINE_LABEL_X,
 					"y" : 215+2,
 
-					"text" : uiScriptLocale.OPTION_EFFECT,
+					"text" : localeInfo.OPTION_EFFECT,
 				},
 				{
 					"name" : "show_damage_on_button",
@@ -380,7 +381,7 @@ window = {
 					"x" : LINE_DATA_X,
 					"y" : 215,
 
-					"text" : uiScriptLocale.OPTION_VIEW_CHAT_ON,
+					"text" : localeInfo.OPTION_VIEW_CHAT_ON,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -393,7 +394,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH,
 					"y" : 215,
 
-					"text" : uiScriptLocale.OPTION_VIEW_CHAT_OFF,
+					"text" : localeInfo.OPTION_VIEW_CHAT_OFF,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -408,7 +409,7 @@ window = {
 					"x" : LINE_LABEL_X,
 					"y" : 240+2,
 
-					"text" : uiScriptLocale.OPTION_SALESTEXT,
+					"text" : localeInfo.OPTION_SALESTEXT,
 				},
 				{
 					"name" : "salestext_on_button",
@@ -417,7 +418,7 @@ window = {
 					"x" : LINE_DATA_X,
 					"y" : 240,
 
-					"text" : uiScriptLocale.OPTION_SALESTEXT_VIEW_ON,
+					"text" : localeInfo.OPTION_SALESTEXT_VIEW_ON,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -430,7 +431,7 @@ window = {
 					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH,
 					"y" : 240,
 
-					"text" : uiScriptLocale.OPTION_SALESTEXT_VIEW_OFF,
+					"text" : localeInfo.OPTION_SALESTEXT_VIEW_OFF,
 
 					"default_image" : ROOT_PATH + "middle_button_01.sub",
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -459,7 +460,7 @@ if app.WJ_SHOW_MOB_INFO:
 						"x" : LINE_LABEL_X,
 						"y" : CUR_LINE_Y+2,
 
-						"text" : uiScriptLocale.OPTION_MOB_INFO,
+						"text" : localeInfo.OPTION_MOB_INFO,
 					},
 					{
 						"name" : "show_mob_level_button",
@@ -468,7 +469,7 @@ if app.WJ_SHOW_MOB_INFO:
 						"x" : LINE_DATA_X,
 						"y" : CUR_LINE_Y,
 
-						"text" : uiScriptLocale.OPTION_MOB_INFO_LEVEL,
+						"text" : localeInfo.OPTION_MOB_INFO_LEVEL,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -481,7 +482,7 @@ if app.WJ_SHOW_MOB_INFO:
 						"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH,
 						"y" : CUR_LINE_Y,
 
-						"text" : uiScriptLocale.OPTION_MOB_INFO_AGGR,
+						"text" : localeInfo.OPTION_MOB_INFO_AGGR,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",

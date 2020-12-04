@@ -1,7 +1,8 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT_PATH = "d:/ymir work/ui/game/guild/"
-LOCALE_PATH = uiScriptLocale.GUILD_PATH
+LOCALE_PATH = localeInfo.GUILD_PATH
 
 window = {
 	"name" : "GuildWindow",
@@ -25,7 +26,7 @@ window = {
 			"width" : 376,
 			"height" : 356,
 
-			"title" : uiScriptLocale.GUILD_NAME,
+			"title" : localeInfo.GUILD_NAME,
 
 			"children" :
 			(

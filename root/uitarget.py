@@ -7,7 +7,8 @@ import messenger
 import guild
 import chr
 import nonplayer
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import constInfo
 import uiToolTip
 import item

@@ -1,6 +1,8 @@
 import app
-import localeInfo
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT = "d:/ymir work/ui/public/"
 
@@ -40,7 +42,7 @@ window = {
 					"x" : 10,
 					"y" : 17,
 
-					"text" : uiScriptLocale.RESTART_HERE,
+					"text" : localeInfo.RESTART_HERE,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -54,7 +56,7 @@ window = {
 					"x" : 10,
 					"y" : 47,
 
-					"text" : uiScriptLocale.RESTART_TOWN,
+					"text" : localeInfo.RESTART_TOWN,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",

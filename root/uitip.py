@@ -300,28 +300,3 @@ class BigBoard(ui.Bar):
 				self.dstPos = -self.STEP_HEIGHT
 
 				self.__CleanOldTip()
-
-if __name__ == "__main__":
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import grp
-	import ui
-
-	#wndMgr.SetOutlineFlag(True)
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create("METIN2 CLOSED BETA", systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-	wnd = BigBoard()
-	wnd.Show()
-	wnd.SetTip("안녕하세요")
-	wnd.SetTip("저는 빗자루 입니다")
-
-	app.Loop()
-

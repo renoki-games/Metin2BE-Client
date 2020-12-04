@@ -9,13 +9,15 @@ import player
 import chat
 import shop
 import grp
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import uiRefine
 import uiAttachMetin
 import uiPickItem
 import uiCommon
 import uiPrivateShopBuilder # 개인상점 열동안 ItemMove 방지
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import constInfo
 import ime
 import wndMgr
@@ -154,7 +156,7 @@ class InventoryWindow(ui.ScriptWindow):
 				pyScrLoader.LoadScriptFile(self, "UIScript/InventoryWindowEx.py")
  			else:
 				if ITEM_MALL_BUTTON_ENABLE:
-					pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "InventoryWindow.py")
+					pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "InventoryWindow.py")
 				else:
 					pyScrLoader.LoadScriptFile(self, "UIScript/InventoryWindow.py")
 		except:

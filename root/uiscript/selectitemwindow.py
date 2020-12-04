@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "SelectItemWindow",
@@ -38,7 +39,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":77, "y":3, "text":uiScriptLocale.SELECT_METIN_STONE_TITLE, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":77, "y":3, "text":localeInfo.SELECT_METIN_STONE_TITLE, "text_horizontal_align":"center" },
 					),
 				},
 
@@ -67,7 +68,7 @@ window = {
 					"x" : 0,
 					"y" : 34,
 
-					"text" : uiScriptLocale.CLOSE,
+					"text" : localeInfo.CLOSE,
 					"horizontal_align" : "center",
 					"vertical_align" : "bottom",
 

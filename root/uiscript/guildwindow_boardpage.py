@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 BOARD_VALUE_FILE = "d:/ymir work/ui/public/Parameter_Slot_06.sub"
 
@@ -16,11 +17,11 @@ window = {
 
 		## ID
 		{
-			"name" : "IndexID", "type" : "text", "x" : 42, "y" : 8, "text" : uiScriptLocale.GUILD_BOARD_ID,
+			"name" : "IndexID", "type" : "text", "x" : 42, "y" : 8, "text" : localeInfo.GUILD_BOARD_ID,
 		},
 		## Messages
 		{
-			"name" : "IndexMessages", "type" : "text", "x" : 212, "y" : 8, "text" : uiScriptLocale.GUILD_BOARD_TEXT,
+			"name" : "IndexMessages", "type" : "text", "x" : 212, "y" : 8, "text" : localeInfo.GUILD_BOARD_TEXT,
 		},
 
 		## Refresh Button
@@ -32,7 +33,7 @@ window = {
 			"default_image" : "d:/ymir work/ui/game/guild/Refresh_Button_01.sub",
 			"over_image" : "d:/ymir work/ui/game/guild/Refresh_Button_02.sub",
 			"down_image" : "d:/ymir work/ui/game/guild/Refresh_Button_03.sub",
-			"tooltip_text" : uiScriptLocale.GUILD_BOARD_REFRESH,
+			"tooltip_text" : localeInfo.GUILD_BOARD_REFRESH,
 		},
 
 		## Post Comment Button
@@ -44,7 +45,7 @@ window = {
 			"default_image" : "d:/ymir work/ui/game/taskbar/Send_Chat_Button_01.sub",
 			"over_image" : "d:/ymir work/ui/game/taskbar/Send_Chat_Button_02.sub",
 			"down_image" : "d:/ymir work/ui/game/taskbar/Send_Chat_Button_03.sub",
-			"tooltip_text" : uiScriptLocale.GUILD_GRADE_WRITE,
+			"tooltip_text" : localeInfo.GUILD_GRADE_WRITE,
 		},
 
 		## EditLine

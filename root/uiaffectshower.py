@@ -1,5 +1,6 @@
 import ui
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import chr
 import item
 import app

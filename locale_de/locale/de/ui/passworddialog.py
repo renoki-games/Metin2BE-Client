@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 window = {
 	"name" : "PasswordDialog",
 
@@ -33,7 +34,7 @@ window = {
 					"x" : 250/2,
 					"y" : 30,
 
-					"text" : uiScriptLocale.PASSWORD_DESC_1,
+					"text" : localeInfo.PASSWORD_DESC_1,
 					"text_horizontal_align":"center"
 				},
 				#³»¿ë2
@@ -44,7 +45,7 @@ window = {
 					"x" : 250/2,
 					"y" : 42,
 
-					"text" : uiScriptLocale.PASSWORD_DESC_2,
+					"text" : localeInfo.PASSWORD_DESC_2,
 					"text_horizontal_align":"center"
 				},
 				## Title
@@ -68,7 +69,7 @@ window = {
 							"x" : 234/2,
 							"y" : 3,
 
-							"text" : uiScriptLocale.PASSWORD_TITLE,
+							"text" : localeInfo.PASSWORD_TITLE,
 							"text_horizontal_align":"center"
 						},
 					),
@@ -109,7 +110,7 @@ window = {
 					"x" : 250/2,
 					"y" : 80,
 
-					"text" : uiScriptLocale.PASSWORD_DESC_3,
+					"text" : localeInfo.PASSWORD_DESC_3,
 					"text_horizontal_align":"center"
 				},
 				{
@@ -119,7 +120,7 @@ window = {
 					"x" : 250/2,
 					"y" : 92,
 
-					"text" : uiScriptLocale.PASSWORD_DESC_4,
+					"text" : localeInfo.PASSWORD_DESC_4,
 					"text_horizontal_align":"center"
 				},
 				{
@@ -129,7 +130,7 @@ window = {
 					"x" : 250/2,
 					"y" : 104,
 
-					"text" : uiScriptLocale.PASSWORD_DESC_5,
+					"text" : localeInfo.PASSWORD_DESC_5,
 					"text_horizontal_align":"center"
 				},
 				## Button
@@ -140,7 +141,7 @@ window = {
 					"x" : 250/2 - 61 - 5,
 					"y" : 120,
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -153,7 +154,7 @@ window = {
 					"x" : 250/2 + 5,
 					"y" : 120,
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

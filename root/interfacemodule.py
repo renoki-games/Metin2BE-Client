@@ -39,10 +39,12 @@ import miniMap
 # ACCESSORY_REFINE_ADD_METIN_STONE
 import uiselectitem
 # END_OF_ACCESSORY_REFINE_ADD_METIN_STONE
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 import event
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 IsQBHide = 0
 class Interface(object):
@@ -1568,51 +1570,3 @@ class Interface(object):
 
 		def RefreshMarkInventoryBag(self):
 			self.wndInventory.RefreshMarkSlots()
-
-if __name__ == "__main__":
-
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import grp
-	import ui
-	import localeInfo
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create(localeInfo.APP_TITLE, systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-	class TestGame(ui.Window):
-		def __init__(self):
-			ui.Window.__init__(self)
-
-			localeInfo.LoadLocaleData()
-			player.SetItemData(0, 27001, 10)
-			player.SetItemData(1, 27004, 10)
-
-			self.interface = Interface()
-			self.interface.MakeInterface()
-			self.interface.ShowDefaultWindows()
-			self.interface.RefreshInventory()
-			#self.interface.OpenCubeWindow()
-
-		def __del__(self):
-			ui.Window.__del__(self)
-
-		def OnUpdate(self):
-			app.UpdateGame()
-
-		def OnRender(self):
-			app.RenderGame()
-			grp.PopState()
-			grp.SetInterfaceRenderState()
-
-	game = TestGame()
-	game.SetSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	game.Show()
-
-	app.Loop()

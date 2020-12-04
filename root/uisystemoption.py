@@ -5,7 +5,8 @@ import systemSetting
 import net
 import chat
 import app
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import constInfo
 import chrmgr
 import player

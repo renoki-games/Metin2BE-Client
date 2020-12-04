@@ -5,7 +5,8 @@ import wndMgr
 import net
 import app
 import ime
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import colorInfo
 import constInfo
 import systemSetting

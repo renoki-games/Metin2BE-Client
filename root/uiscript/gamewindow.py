@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "GameWindow",
@@ -28,7 +29,7 @@ window = {
 					"type":"text", 
 					"x": 16, 
 					"y": 40, 
-					"text":uiScriptLocale.GAME_HELP, 
+					"text":localeInfo.GAME_HELP, 
 					"r":1.0, "g":1.0, "b":1.0, "a":1.0, 
 					"text_horizontal_align":"center" 
 				},
@@ -50,7 +51,7 @@ window = {
 					"type":"text", 
 					"x": 16, 
 					"y": 40, 
-					"text":uiScriptLocale.GAME_QUEST, 
+					"text":localeInfo.GAME_QUEST, 
 					"r":1.0, "g":1.0, "b":1.0, "a":1.0, 
 					"text_horizontal_align":"center" 
 				},
@@ -72,7 +73,7 @@ window = {
 					"type":"text", 
 					"x": 16, 
 					"y": 40, 
-					"text":uiScriptLocale.GAME_STAT_UP, 
+					"text":localeInfo.GAME_STAT_UP, 
 					"r":1.0, "g":1.0, "b":1.0, "a":1.0, 
 					"text_horizontal_align":"center" 
 				},		
@@ -94,7 +95,7 @@ window = {
 					"type":"text", 
 					"x": 16, 
 					"y": 40, 
-					"text":uiScriptLocale.GAME_SKILL_UP, 
+					"text":localeInfo.GAME_SKILL_UP, 
 					"r":1.0, "g":1.0, "b":1.0, "a":1.0, 
 					"text_horizontal_align":"center" 
 				},	
@@ -116,7 +117,7 @@ window = {
 					"type":"text", 
 					"x": 16, 
 					"y": 40, 
-					"text": uiScriptLocale.GAME_EXIT_OBSERVER, 
+					"text": localeInfo.GAME_EXIT_OBSERVER, 
 					"r":1.0, "g":1.0, "b":1.0, "a":1.0, 
 					"text_horizontal_align":"center" 
 				},	
@@ -138,7 +139,7 @@ window = {
 					"type":"text",
 					"x": 16,
 					"y": 40,
-					"text": uiScriptLocale.GUILD_BUILDING_TITLE,
+					"text": localeInfo.GUILD_BUILDING_TITLE,
 					"r":1.0, "g":1.0, "b":1.0, "a":1.0,
 					"text_horizontal_align":"center"
 				},	

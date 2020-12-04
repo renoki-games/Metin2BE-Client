@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT = "d:/ymir work/ui/game/taskbar/"
 
@@ -20,7 +21,7 @@ window = {
 			"x" : 0,
 			"y" : 0,
 
-			"tooltip_text" : uiScriptLocale.MOUSEBUTTON_ATTACK,
+			"tooltip_text" : localeInfo.MOUSEBUTTON_ATTACK,
 			"tooltip_x" : -40,
 			"tooltip_y" : 9,
 
@@ -35,7 +36,7 @@ window = {
 			"x" : 32,
 			"y" : 0,
 
-			"tooltip_text" : uiScriptLocale.MOUSEBUTTON_CAMERA,
+			"tooltip_text" : localeInfo.MOUSEBUTTON_CAMERA,
 			"tooltip_x" : -40,
 			"tooltip_y" : 9,
 
@@ -50,7 +51,7 @@ window = {
 			"x" : 64,
 			"y" : 0,
 
-			"tooltip_text" : uiScriptLocale.MOUSEBUTTON_SKILL,
+			"tooltip_text" : localeInfo.MOUSEBUTTON_SKILL,
 			"tooltip_x" : -40,
 			"tooltip_y" : 9,
 

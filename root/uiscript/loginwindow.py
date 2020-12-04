@@ -1,6 +1,7 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
-LOCAL_PATH = uiScriptLocale.LOGIN_PATH
+LOCAL_PATH = localeInfo.LOGIN_PATH
 ETC_PATH = "d:/ymir work/ui/public/"
 #LOCAL_PATH = "d:/de/ui/login/"
 
@@ -41,6 +42,59 @@ window = {
 				"image" : "locale/de/ui/login_bg.jpg",
 				"children" : 
 				(
+					{
+						"name": "flags_bg",
+						"type": "bar",
+
+						"width": 100,
+						"height": 15,
+
+						"x" : 0, "y" : BOX_POSITION_Y - 150,
+
+						"vertical_align" : "center",
+						"horizontal_align" : "center",
+
+						"color": 0xff00ffff,
+
+						"children": (
+							{
+								"name": "flag_de",
+								"type": "radio_button",
+
+								"x": 35*0,
+								"y": 0,
+
+								"default_image" : "locale/de/ui/flags/de_default.png",
+								"down_image" : "locale/de/ui/flags/de_hover.png",
+								"over_image" : "locale/de/ui/flags/de_hover.png",
+							},
+
+							{
+								"name": "flag_en",
+								"type": "radio_button",
+
+								"x": 35*1,
+								"y": 0,
+
+								"default_image" : "locale/de/ui/flags/en_default.png",
+								"down_image" : "locale/de/ui/flags/en_hover.png",
+								"over_image" : "locale/de/ui/flags/en_hover.png",
+							},
+
+							{
+								"name": "flag_tr",
+								"type": "radio_button",
+
+								"x": 35*2,
+								"y": 0,
+
+								"default_image" : "locale/de/ui/flags/de_default.png",
+								"down_image" : "locale/de/ui/flags/de_hover.png",
+								"over_image" : "locale/de/ui/flags/de_hover.png",
+							},
+						),
+					},
+
 					{
 						"name" : "board_main",
 						"type" : "window",

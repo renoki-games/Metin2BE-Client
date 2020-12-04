@@ -1,6 +1,7 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
-LOCAL_PATH = uiScriptLocale.LOGIN_PATH
+LOCAL_PATH = localeInfo.LOGIN_PATH
 ETC_PATH = "d:/ymir work/ui/public/"
 #LOCAL_PATH = "d:/de/ui/login/"
 

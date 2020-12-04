@@ -20,7 +20,8 @@ import quest
 import guild
 import skill
 import messenger
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import constInfo
 import exchange
 import ime
@@ -41,7 +42,6 @@ import uiPrivateShopBuilder
 
 import mouseModule
 import consoleModule
-import localeInfo
 
 import playerSettingModule
 import interfaceModule
@@ -2254,9 +2254,6 @@ class GameWindow(ui.ScriptWindow):
 			name = gmDict["name"]
 			state = gmDict["state"]
 			languages = gmDict["languages"]
-
-			import chat
-			chat.AppendChat("%d" % (languages))
 
 			if state:
 				self.interface.wndMessenger.OnLogin(uiMessenger.TEAM, name, None, languages)

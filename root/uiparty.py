@@ -3,8 +3,10 @@ import grp
 import player
 import uiToolTip
 import net
-import localeInfo
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import constInfo
 import mouseModule
 
@@ -90,7 +92,7 @@ class PartyMemberInfoBoard(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			if localeInfo.IsJAPAN():
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "PartyMemberInfoBoard.py")
+				pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "PartyMemberInfoBoard.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/PartyMemberInfoBoard.py")
 		except:

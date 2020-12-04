@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 BUTTON_START_X_POS = -60
 BUTTON_X_STEP = 30
@@ -26,7 +27,7 @@ window = {
 
 			"width" : 180,
 			"height" : 300,
-			"title" : uiScriptLocale.MESSENGER_TITLE,
+			"title" : localeInfo.MESSENGER_TITLE,
 		},
 
 		{
@@ -47,7 +48,7 @@ window = {
 			"y" : 30,
 			"horizontal_align" : "center",
 			"vertical_align" : "bottom",
-			"tooltip_text" : uiScriptLocale.MESSENGER_ADD_FRIEND,
+			"tooltip_text" : localeInfo.MESSENGER_ADD_FRIEND,
 			"tooltip_x" : 0,
 			"tooltip_y" : 35,
 
@@ -64,7 +65,7 @@ window = {
 			"y" : 30,
 			"horizontal_align" : "center",
 			"vertical_align" : "bottom",
-			"tooltip_text" : uiScriptLocale.MESSENGER_WHISPER,
+			"tooltip_text" : localeInfo.MESSENGER_WHISPER,
 			"tooltip_x" : 0,
 			"tooltip_y" : 35,
 
@@ -81,7 +82,7 @@ window = {
 			"y" : 30,
 			"horizontal_align" : "center",
 			"vertical_align" : "bottom",
-			"tooltip_text" : uiScriptLocale.MESSENGER_MOBILE,
+			"tooltip_text" : localeInfo.MESSENGER_MOBILE,
 			"tooltip_x" : 0,
 			"tooltip_y" : 35,
 
@@ -98,7 +99,7 @@ window = {
 			"y" : 30,
 			"horizontal_align" : "center",
 			"vertical_align" : "bottom",
-			"tooltip_text" : uiScriptLocale.MESSENGER_DELETE_FRIEND,
+			"tooltip_text" : localeInfo.MESSENGER_DELETE_FRIEND,
 			"tooltip_x" : 0,
 			"tooltip_y" : 35,
 
@@ -115,7 +116,7 @@ window = {
 			"y" : 30,
 			"horizontal_align" : "center",
 			"vertical_align" : "bottom",
-			"tooltip_text" : uiScriptLocale.MESSENGER_OPEN_GUILD,
+			"tooltip_text" : localeInfo.MESSENGER_OPEN_GUILD,
 			"tooltip_x" : 0,
 			"tooltip_y" : 35,
 

@@ -1,6 +1,7 @@
 import dbg
 import app
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import wndMgr
 import systemSetting
 import mouseModule

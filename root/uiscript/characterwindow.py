@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 QUEST_ICON_BACKGROUND = 'd:/ymir work/ui/game/quest/slot_base.sub'
 
@@ -9,7 +10,7 @@ ICON_SLOT_FILE = "d:/ymir work/ui/public/Slot_Base.sub"
 FACE_SLOT_FILE = "d:/ymir work/ui/game/windows/box_face.sub"
 ROOT_PATH = "d:/ymir work/ui/game/windows/"
 
-LOCALE_PATH = uiScriptLocale.WINDOWS_PATH
+LOCALE_PATH = localeInfo.WINDOWS_PATH
 
 window = {
 	"name" : "CharacterWindow",
@@ -49,7 +50,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":0, "y":-1, "text":uiScriptLocale.CHARACTER_SKILL, "all_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":0, "y":-1, "text":localeInfo.CHARACTER_SKILL, "all_align":"center" },
 						#{ "name":"TitleName", "type":"image", "style" : ("attach",), "x":101, "y" : 1, "image" : LOCALE_PATH+"title_skill.sub", },
 					),
 				},
@@ -66,7 +67,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":0, "y":-1, "text":uiScriptLocale.CHARACTER_ACTION, "all_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":0, "y":-1, "text":localeInfo.CHARACTER_ACTION, "all_align":"center" },
 					),
 				},
 				{
@@ -82,7 +83,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":0, "y":-1, "text":uiScriptLocale.CHARACTER_QUEST, "all_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":0, "y":-1, "text":localeInfo.CHARACTER_QUEST, "all_align":"center" },
 					),
 				},
 
@@ -213,7 +214,7 @@ window = {
 							"children" :
 							(
 								#{ "name" : "TitleName", "type" : "image", "style" : ("attach",), "x" : 70, "y" : 1, "image" : LOCALE_PATH+"title_status.sub", },
-								{ "name" : "TitleName", "type":"text", "x":0, "y":-1, "text":uiScriptLocale.CHARACTER_MAIN, "all_align":"center" },
+								{ "name" : "TitleName", "type":"text", "x":0, "y":-1, "text":localeInfo.CHARACTER_MAIN, "all_align":"center" },
 							),
 						},
 
@@ -583,7 +584,7 @@ window = {
 
 									"x" : 7,
 									"y" : 1,
-									"text" : uiScriptLocale.SKILL_SUPPORT_TITLE,
+									"text" : localeInfo.SKILL_SUPPORT_TITLE,
 
 									"vertical_align" : "center",
 									"text_vertical_align" : "center",
@@ -683,7 +684,7 @@ window = {
 					(
 						## 扁夯 咀记 力格
 						{ "name":"Action_Bar", "type":"horizontalbar", "x":12, "y":11, "width":223, },
-						{ "name":"Action_Bar_Text", "type":"text", "x":15, "y":13, "text":uiScriptLocale.CHARACTER_NORMAL_ACTION },
+						{ "name":"Action_Bar_Text", "type":"text", "x":15, "y":13, "text":localeInfo.CHARACTER_NORMAL_ACTION },
 
 						## Basis Action Slot
 						{
@@ -704,7 +705,7 @@ window = {
 
 						## 惑龋 咀记 力格
 						{ "name":"Reaction_Bar", "type":"horizontalbar", "x":12, "y":8+150, "width":223, },
-						{ "name":"Reaction_Bar_Text", "type":"text", "x":15, "y":10+150, "text":uiScriptLocale.CHARACTER_MUTUAL_ACTION },
+						{ "name":"Reaction_Bar_Text", "type":"text", "x":15, "y":10+150, "text":localeInfo.CHARACTER_MUTUAL_ACTION },
 
 						## Reaction Slot
 						{

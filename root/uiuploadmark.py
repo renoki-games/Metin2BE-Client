@@ -1,7 +1,9 @@
 import app
 import ui
-import localeInfo
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 class MarkItem(ui.ListBoxEx.Item):
 	def __init__(self, fileName):
@@ -161,7 +163,7 @@ class MarkSelectDialog(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			if localeInfo.IsVIETNAM():
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "MarkListWindow.py")
+				pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "MarkListWindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/MarkListWindow.py")
 		except:

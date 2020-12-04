@@ -8,7 +8,8 @@ import shop
 import exchange
 import grpText
 import safebox
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 import background
 import nonplayer
@@ -2496,32 +2497,3 @@ class SkillToolTip(ToolTip):
 			self.AppendTextLine(localeInfo.SKILL_SUMMON_DESCRIPTION % (15), color)
 		elif 0 == skillLevel:
 			self.AppendTextLine(localeInfo.SKILL_SUMMON_DESCRIPTION % (10), color)
-
-
-if __name__ == "__main__":
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import grp
-	import ui
-
-	#wndMgr.SetOutlineFlag(True)
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create("METIN2 CLOSED BETA", systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-	toolTip = ItemToolTip()
-	toolTip.ClearToolTip()
-	#toolTip.AppendTextLine("Test")
-	desc = "Item descriptions:|increase of width of display to 35 digits per row AND installation of function that the displayed words are not broken up in two parts, but instead if one word is too long to be displayed in this row, this word will start in the next row."
-	summ = ""
-
-	toolTip.AddItemData_Offline(10, desc, summ, 0, 0)
-	toolTip.Show()
-
-	app.Loop()

@@ -5,17 +5,19 @@ import dbg
 import app
 import event
 import _weakref
-import localeInfo
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
-LOCALE_PATH = "uiscript/"+uiScriptLocale.CODEPAGE+"_"
+LOCALE_PATH = "uiscript/"+localeInfo.CODEPAGE+"_"
 
 class SelectEmpireWindow(ui.ScriptWindow):
 
 	EMPIRE_DESCRIPTION_TEXT_FILE_NAME = {
-		net.EMPIRE_A : uiScriptLocale.EMPIREDESC_A,
-		net.EMPIRE_B : uiScriptLocale.EMPIREDESC_B,
-		net.EMPIRE_C : uiScriptLocale.EMPIREDESC_C, }
+		net.EMPIRE_A : localeInfo.EMPIREDESC_A,
+		net.EMPIRE_B : localeInfo.EMPIREDESC_B,
+		net.EMPIRE_C : localeInfo.EMPIREDESC_C, }
 
 	class EmpireButton(ui.Window):
 		def __init__(self, owner, arg):
@@ -91,7 +93,7 @@ class SelectEmpireWindow(ui.ScriptWindow):
 		self.SetWindowName("SelectEmpireWindow")
 		self.Show()
 
-		if not self.__LoadScript(uiScriptLocale.LOCALE_UISCRIPT_PATH + "SelectEmpireWindow.py"):
+		if not self.__LoadScript(localeInfo.LOCALE_UISCRIPT_PATH + "SelectEmpireWindow.py"):
 			dbg.TraceError("SelectEmpireWindow.Open - __LoadScript Error")
 			return
 

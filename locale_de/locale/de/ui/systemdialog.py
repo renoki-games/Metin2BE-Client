@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT = "d:/ymir work/ui/public/"
 
@@ -38,7 +39,7 @@ window = {
 					"x" : 10,
 					"y" : STEP_1 + BUTTON_STEP_X*0,
 
-					"text" : uiScriptLocale.SYSTEM_HELP,
+					"text" : localeInfo.SYSTEM_HELP,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -51,7 +52,7 @@ window = {
 					"x" : 10,
 					"y" : STEP_2 + BUTTON_STEP_X*0,
 
-					"text" : uiScriptLocale.SYSTEM_MALL,
+					"text" : localeInfo.SYSTEM_MALL,
 					"text_color" : 0xffF8BF24,
 
 					"default_image" : ROOT + "XLarge_Button_02.sub",
@@ -66,7 +67,7 @@ window = {
 					"x" : 10,
 					"y" : STEP_2 + BUTTON_STEP_X*1,
 
-					"text" : uiScriptLocale.SYSTEMOPTION_TITLE,
+					"text" : localeInfo.SYSTEMOPTION_TITLE,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -79,7 +80,7 @@ window = {
 					"x" : 10,
 					"y" : STEP_2 + BUTTON_STEP_X*2,
 
-					"text" : uiScriptLocale.GAMEOPTION_TITLE,
+					"text" : localeInfo.GAMEOPTION_TITLE,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -92,7 +93,7 @@ window = {
 					"x" : 10,
 					"y" : STEP_2 + BUTTON_STEP_X*3,
 
-					"text" : uiScriptLocale.SYSTEM_MOVE_CHANNEL,
+					"text" : localeInfo.SYSTEM_MOVE_CHANNEL,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -105,7 +106,7 @@ window = {
 					"x" : 10,
 					"y" : STEP_2 + BUTTON_STEP_X*4,
 
-					"text" : uiScriptLocale.SYSTEM_CHANGE,
+					"text" : localeInfo.SYSTEM_CHANGE,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -118,7 +119,7 @@ window = {
 					"x" : 10,
 					"y" : STEP_2 + BUTTON_STEP_X*5,
 
-					"text" : uiScriptLocale.SYSTEM_LOGOUT,
+					"text" : localeInfo.SYSTEM_LOGOUT,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -131,7 +132,7 @@ window = {
 					"x" : 10,
 					"y" : STEP_3 + BUTTON_STEP_X*0,
 
-					"text" : uiScriptLocale.SYSTEM_EXIT,
+					"text" : localeInfo.SYSTEM_EXIT,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",
@@ -144,7 +145,7 @@ window = {
 					"x" : 10,
 					"y" : STEP_3 + BUTTON_STEP_X*1,
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : ROOT + "XLarge_Button_01.sub",
 					"over_image" : ROOT + "XLarge_Button_02.sub",

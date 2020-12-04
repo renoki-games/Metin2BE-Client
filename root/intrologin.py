@@ -1,7 +1,9 @@
 ######################################## AICI INCEPE TREABA ######################################## ORA: 21:36
 import app, net, ui, snd, wndMgr, dbg, os
 import musicInfo, systemSetting
-import localeInfo, constInfo, uiScriptLocale, uicommon
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import constInfo, localeInfo, uicommon
 import ime
 import serverInfo
 import serverCommandParser
@@ -11,6 +13,8 @@ import serverlogindata
 import uiCommon
 
 class LoginWindow(ui.ScriptWindow):
+	languages = [ "de", "en", "tr" ]
+
 	def __init__(self, stream):
 		ui.ScriptWindow.__init__(self)
 		
@@ -34,6 +38,9 @@ class LoginWindow(ui.ScriptWindow):
 		self.channelCount	= [None, None, None, None]
 		self.stream = stream
 		self.isDown = False
+
+		if hasattr(app, "ENABLE_LANG_SYSTEM"):
+			self.language_buttons = {}
 		
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
@@ -104,7 +111,7 @@ class LoginWindow(ui.ScriptWindow):
 		self.__BuildKeyDict()
 
 		self.__LoadScript("UIScript/loginwindow.py")
-		# if not self.__LoadScript(uiScriptLocale.LOCALE_UISCRIPT_PATH + "LoginWindow.py"):
+		# if not self.__LoadScript(localeInfo.LOCALE_UISCRIPT_PATH + "LoginWindow.py"):
 			# dbg.TraceError("LoginWindow.Open - __LoadScript Error")
 			# return
 		
@@ -130,6 +137,9 @@ class LoginWindow(ui.ScriptWindow):
 		self.serverList					= None
 		self.channelList				= None
 		self.onPressKeyDict 			= None
+
+		if hasattr(app, "ENABLE_LANG_SYSTEM"):
+			self.language_buttons = {}
 
 		self.AccountManager = [
 									[None, None],
@@ -253,7 +263,10 @@ class LoginWindow(ui.ScriptWindow):
 				1 :	self.GetChild("ch2"),
 				2 : self.GetChild("ch3"),
 				3 : self.GetChild("ch4")}
-			
+
+			if hasattr(app, "ENABLE_LANG_SYSTEM"):
+				for	index, name in enumerate(self.languages):
+					self.language_buttons[name] = self.GetChild("flag_{}".format(name))
 
 		except:
 			import exception
@@ -283,20 +296,51 @@ class LoginWindow(ui.ScriptWindow):
 		self.editButton.SetToggleDownEvent(lambda arg=0: self.__OnClickEditButton(arg))
 		self.editButton.SetToggleUpEvent(lambda arg=1: self.__OnClickEditButton(arg))
 
-		self.f1Button.SetEvent(lambda:ui.__mem_func__(self.loginWithHotkey(1)))
-		self.f2Button.SetEvent(lambda:ui.__mem_func__(self.loginWithHotkey(2)))
-		self.f3Button.SetEvent(lambda:ui.__mem_func__(self.loginWithHotkey(3)))
-		self.f4Button.SetEvent(lambda:ui.__mem_func__(self.loginWithHotkey(4)))
+		self.f1Button.SAFE_SetEvent(self.loginWithHotkey, 1)
+		self.f2Button.SAFE_SetEvent(self.loginWithHotkey, 2)
+		self.f3Button.SAFE_SetEvent(self.loginWithHotkey, 3)
+		self.f4Button.SAFE_SetEvent(self.loginWithHotkey, 4)
 
-		self.AccountManager[0][1].SetEvent(lambda:ui.__mem_func__(self.__OnClickAccountErase)(0))
-		self.AccountManager[1][1].SetEvent(lambda:ui.__mem_func__(self.__OnClickAccountErase)(1))
-		self.AccountManager[2][1].SetEvent(lambda:ui.__mem_func__(self.__OnClickAccountErase)(2))
-		self.AccountManager[3][1].SetEvent(lambda:ui.__mem_func__(self.__OnClickAccountErase)(3))
+		self.AccountManager[0][1].SAFE_SetEvent(self.__OnClickAccountErase, 0)
+		self.AccountManager[1][1].SAFE_SetEvent(self.__OnClickAccountErase, 1)
+		self.AccountManager[2][1].SAFE_SetEvent(self.__OnClickAccountErase, 2)
+		self.AccountManager[3][1].SAFE_SetEvent(self.__OnClickAccountErase, 3)
 
 		for i in range(len(self.AccountManager)):
 			self.AccountManager[i][1].Hide()
 
-		
+		if hasattr(app, "ENABLE_LANG_SYSTEM"):
+			for	index, name in enumerate(self.languages):
+				self.language_buttons[name].SAFE_SetEvent(self.SetLanguage, index)
+
+		self.RefreshLanguageButtons()
+
+	if hasattr(app, "ENABLE_LANG_SYSTEM"):
+		def RefreshLanguageButtons(self):
+			for language_button_name, language_button in self.language_buttons.iteritems():
+				language_name = systemSetting.GetLanguageShortString()
+
+				if language_name == language_button_name:
+					language_button.Down()
+				else:
+					language_button.SetUp()
+
+		def SetLanguage(self, language_index):
+			if systemSetting.GetLanguage() == language_index:
+				return
+
+			systemSetting.SetLanguage(language_index)
+
+			localeInfo.CreateLocaleConfig(language_index)
+			localeInfo.SetDefaultCodePage(language_index)
+
+			self.RefreshLanguageButtons()
+			self.RestartClient()
+
+		def RestartClient(self):
+			app.Exit()
+			os.system('start Metin2-BlackEdition.exe')
+
 	def OnUpdate(self):
 		ServerStateChecker.Update()
 		

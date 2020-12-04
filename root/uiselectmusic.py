@@ -1,7 +1,9 @@
 import app
 import ui
-import localeInfo
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 FILE_NAME_LEN = 20
 DEFAULT_THEMA = localeInfo.MUSIC_METIN2_DEFAULT_THEMA
@@ -131,7 +133,7 @@ class FileListDialog(ui.ScriptWindow):
 		self.popupDialog=PopupDialog(self)
 
 		if localeInfo.IsARABIC():
-			self.__Load_LoadScript(uiScriptLocale.LOCALE_UISCRIPT_PATH + "MusicListWindow.py")
+			self.__Load_LoadScript(localeInfo.LOCALE_UISCRIPT_PATH + "MusicListWindow.py")
 		else:
 			self.__Load_LoadScript("UIScript/MusicListWindow.py")
 

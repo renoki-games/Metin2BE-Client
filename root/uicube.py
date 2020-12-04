@@ -3,10 +3,12 @@ import net
 import mouseModule
 import player
 import snd
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import item
 import grp
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import uiToolTip
 
 class CubeResultWindow(ui.ScriptWindow):
@@ -350,7 +352,7 @@ class CubeWindow(ui.ScriptWindow):
 				self.tooltipItem.AppendTextLine("%s" % (item.GetItemName()), grp.GenerateColor(0.9, 0.4745, 0.4627, 1.0)).SetFeather()
 
 			if i < materialCount - 1:
-				self.tooltipItem.AppendTextLine(uiScriptLocale.CUBE_REQUIRE_MATERIAL_OR)
+				self.tooltipItem.AppendTextLine(localeInfo.CUBE_REQUIRE_MATERIAL_OR)
 
 			i = i + 1
 
@@ -543,58 +545,3 @@ class CubeWindow(ui.ScriptWindow):
 		(x, y, z) = player.GetMainCharacterPosition()
 		if abs(x - self.xShopStart) > USE_SHOP_LIMIT_RANGE or abs(y - self.yShopStart) > USE_SHOP_LIMIT_RANGE:
 			self.__OnCloseButtonClick()
-
-if __name__ == "__main__":
-
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import grp
-	import ui
-	import uiToolTip
-	import localeInfo
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create(localeInfo.APP_TITLE, systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-	class TestGame(ui.Window):
-		def __init__(self):
-			ui.Window.__init__(self)
-
-			localeInfo.LoadLocaleData()
-
-			self.tooltipItem = uiToolTip.ItemToolTip()
-			self.tooltipItem.Hide()
-
-			self.cubeWindow = CubeWindow()
-			self.cubeWindow.LoadWindow()
-			self.cubeWindow.SetItemToolTip(self.tooltipItem)
-			self.cubeWindow.Open()
-
-			self.cubeResultWindow = CubeResultWindow()
-			self.cubeResultWindow.LoadWindow()
-			self.cubeResultWindow.SetItemToolTip(self.tooltipItem)
-			self.cubeResultWindow.SetCubeResultItem(27001, 1)
-			self.cubeResultWindow.Open()
-
-		def __del__(self):
-			ui.Window.__del__(self)
-
-		def OnUpdate(self):
-			app.UpdateGame()
-
-		def OnRender(self):
-			app.RenderGame()
-			grp.PopState()
-			grp.SetInterfaceRenderState()
-
-	game = TestGame()
-	game.SetSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	game.Show()
-
-	app.Loop()

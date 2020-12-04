@@ -1,9 +1,11 @@
-import uiScriptLocale
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 
 ROOT_PATH = "d:/ymir work/ui/public/"
-LOCALE_PATH = uiScriptLocale.EMPIRE_PATH
+LOCALE_PATH = localeInfo.EMPIRE_PATH
 
 if app.NEW_SELECT_CHARACTER :
 	FLAG_SCALE_X = 0.5
@@ -495,7 +497,7 @@ else :
 								"x" : 95,
 								"y" : 95,
 
-								"text" : uiScriptLocale.EMPIRE_PREV,
+								"text" : localeInfo.EMPIRE_PREV,
 
 								"default_image" : ROOT_PATH + "Small_Button_01.sub",
 								"over_image" : ROOT_PATH + "Small_Button_02.sub",
@@ -508,7 +510,7 @@ else :
 								"x" : 140,
 								"y" : 95,
 
-								"text" : uiScriptLocale.EMPIRE_NEXT,
+								"text" : localeInfo.EMPIRE_NEXT,
 
 								"default_image" : ROOT_PATH + "Small_Button_01.sub",
 								"over_image" : ROOT_PATH + "Small_Button_02.sub",
@@ -573,7 +575,7 @@ else :
 						"x" : 14,
 						"y" : 277,
 
-						"text" : uiScriptLocale.EMPIRE_SELECT,
+						"text" : localeInfo.EMPIRE_SELECT,
 
 						"default_image" : ROOT_PATH + "Large_Button_01.sub",
 						"over_image" : ROOT_PATH + "Large_Button_02.sub",
@@ -586,7 +588,7 @@ else :
 						"x" : 105,
 						"y" : 277,
 
-						"text" : uiScriptLocale.EMPIRE_EXIT,
+						"text" : localeInfo.EMPIRE_EXIT,
 
 						"default_image" : ROOT_PATH + "Large_Button_01.sub",
 						"over_image" : ROOT_PATH + "Large_Button_02.sub",

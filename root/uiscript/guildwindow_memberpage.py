@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "GuildWindow_MemberPage",
@@ -24,22 +25,22 @@ window = {
 
 		## Grade
 		{
-			"name" : "IndexName", "type" : "text", "x" : 43, "y" : 8, "text" : uiScriptLocale.GUILD_MEMBER_NAME,
+			"name" : "IndexName", "type" : "text", "x" : 43, "y" : 8, "text" : localeInfo.GUILD_MEMBER_NAME,
 		},
 		{
-			"name" : "IndexGrade", "type" : "text", "x" : 119, "y" : 8, "text" : uiScriptLocale.GUILD_MEMBER_RANK,
+			"name" : "IndexGrade", "type" : "text", "x" : 119, "y" : 8, "text" : localeInfo.GUILD_MEMBER_RANK,
 		},
 		{
-			"name" : "IndexJob", "type" : "text", "x" : 177, "y" : 8, "text" : uiScriptLocale.GUILD_MEMBER_JOB,
+			"name" : "IndexJob", "type" : "text", "x" : 177, "y" : 8, "text" : localeInfo.GUILD_MEMBER_JOB,
 		},
 		{
-			"name" : "IndexLevel", "type" : "text", "x" : 217, "y" : 8, "text" : uiScriptLocale.GUILD_MEMBER_LEVEL,
+			"name" : "IndexLevel", "type" : "text", "x" : 217, "y" : 8, "text" : localeInfo.GUILD_MEMBER_LEVEL,
 		},
 		{
-			"name" : "IndexOffer", "type" : "text", "x" : 251, "y" : 8, "text" : uiScriptLocale.GUILD_MEMBER_SPECIFIC_GRAVITY,
+			"name" : "IndexOffer", "type" : "text", "x" : 251, "y" : 8, "text" : localeInfo.GUILD_MEMBER_SPECIFIC_GRAVITY,
 		},
 		{
-			"name" : "IndexGeneral", "type" : "text", "x" : 304, "y" : 8, "text" : uiScriptLocale.GUILD_MEMBER_KNIGHT,
+			"name" : "IndexGeneral", "type" : "text", "x" : 304, "y" : 8, "text" : localeInfo.GUILD_MEMBER_KNIGHT,
 		},
 
 	),

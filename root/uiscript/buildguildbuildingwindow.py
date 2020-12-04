@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT_PATH = "d:/ymir work/ui/public/"
 SMALL_VALUE_FILE = "d:/ymir work/ui/public/Parameter_Slot_02.sub"
@@ -29,7 +30,7 @@ window = {
 			"width" : 355+TEMP_X,
 			"height" : 240,
 
-			"title" : uiScriptLocale.GUILD_BUILDING_TITLE,
+			"title" : localeInfo.GUILD_BUILDING_TITLE,
 
 			"children" :
 			(
@@ -42,7 +43,7 @@ window = {
 					"y" : 33,
 					"text_horizontal_align" : "center",
 
-					"text" : uiScriptLocale.GUILD_BUILDING_CATEGORY_TITLE,
+					"text" : localeInfo.GUILD_BUILDING_CATEGORY_TITLE,
 				},
 				{
 					"name" : "BuildingCategoryBar",
@@ -71,7 +72,7 @@ window = {
 
 				{
 					"name" : "BuildingPriceTitle",
-					"type" : "text", "x" : 30, "y" : 143, "text" : uiScriptLocale.GUILD_BUILDING_PRICE,
+					"type" : "text", "x" : 30, "y" : 143, "text" : localeInfo.GUILD_BUILDING_PRICE,
 					"text_horizontal_align" : "center",
 					"children" :
 					(
@@ -88,7 +89,7 @@ window = {
 
 				{
 					"name" : "BuildingMaterialStoneTitle",
-					"type" : "text", "x" : 30, "y" : 163, "text" : uiScriptLocale.GUILD_BUILDING_STONE,
+					"type" : "text", "x" : 30, "y" : 163, "text" : localeInfo.GUILD_BUILDING_STONE,
 					"text_horizontal_align" : "center",
 					"children" :
 					(
@@ -105,7 +106,7 @@ window = {
 
 				{
 					"name" : "BuildingMaterialLogTitle",
-					"type" : "text", "x" : 30, "y" : 183, "text" : uiScriptLocale.GUILD_BUILDING_LOG,
+					"type" : "text", "x" : 30, "y" : 183, "text" : localeInfo.GUILD_BUILDING_LOG,
 					"text_horizontal_align" : "center",
 					"children" :
 					(
@@ -122,7 +123,7 @@ window = {
 
 				{
 					"name" : "BuildingMaterialPlywoodTitle",
-					"type" : "text", "x" : 30, "y" : 203, "text" : uiScriptLocale.GUILD_BUILDING_PLY,
+					"type" : "text", "x" : 30, "y" : 203, "text" : localeInfo.GUILD_BUILDING_PLY,
 					"text_horizontal_align" : "center",
 					"children" :
 					(
@@ -159,7 +160,7 @@ window = {
 							"y" : 33,
 							"text_horizontal_align" : "center",
 
-							"text" : uiScriptLocale.GUILD_BUILDING_LIST_TITLE,
+							"text" : localeInfo.GUILD_BUILDING_LIST_TITLE,
 						},
 
 						{
@@ -204,11 +205,11 @@ window = {
 							"y" : 33,
 							"text_horizontal_align" : "center",
 
-							"text" : uiScriptLocale.GUILD_BUILDING_POSITION,
+							"text" : localeInfo.GUILD_BUILDING_POSITION,
 						},
 						{
 							"name" : "PositionButton",
-							"type" : "radio_button", "x" : 280, "y" : 50, "text" : uiScriptLocale.GUILD_BUILDING_CHANGE,
+							"type" : "radio_button", "x" : 280, "y" : 50, "text" : localeInfo.GUILD_BUILDING_CHANGE,
 							"default_image" : ROOT_PATH + "Big_Button_01.sub",
 							"over_image" : ROOT_PATH + "Big_Button_02.sub",
 							"down_image" : ROOT_PATH + "Big_Button_03.sub",
@@ -254,7 +255,7 @@ window = {
 							"y" : 95,
 							"text_horizontal_align" : "center",
 
-							"text" : uiScriptLocale.GUILD_BUILDING_DIRECTION,
+							"text" : localeInfo.GUILD_BUILDING_DIRECTION,
 						},
 						{
 							"name" : "BuildingRotationXTitle",
@@ -295,7 +296,7 @@ window = {
 							"y" : 60,
 							"vertical_align" : "bottom",
 
-							"text" : uiScriptLocale.GUILD_BUILDING_PREVIEW,
+							"text" : localeInfo.GUILD_BUILDING_PREVIEW,
 
 							"default_image" : ROOT_PATH + "Large_Button_01.sub",
 							"over_image" : ROOT_PATH + "Large_Button_02.sub",
@@ -309,7 +310,7 @@ window = {
 							"x" : 200,
 							"y" : 35,
 
-							"text" : uiScriptLocale.ACCEPT,
+							"text" : localeInfo.ACCEPT,
 							"vertical_align" : "bottom",
 
 							"default_image" : ROOT_PATH + "Small_Button_01.sub",
@@ -323,7 +324,7 @@ window = {
 							"x" : 245,
 							"y" : 35,
 
-							"text" : uiScriptLocale.CANCEL,
+							"text" : localeInfo.CANCEL,
 							"vertical_align" : "bottom",
 
 							"default_image" : ROOT_PATH + "Small_Button_01.sub",

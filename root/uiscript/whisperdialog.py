@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT = "d:/ymir work/ui/public/"
 
@@ -47,7 +48,7 @@ window = {
 							"x" : 3,
 							"y" : 3,
 
-							"text" : uiScriptLocale.WHISPER_NAME,
+							"text" : localeInfo.WHISPER_NAME,
 						},
 						{
 							"name" : "titlename_edit",
@@ -61,7 +62,7 @@ window = {
 
 							"input_limit" : PLAYER_NAME_MAX_LEN,
 
-							"text" : uiScriptLocale.WHISPER_NAME,
+							"text" : localeInfo.WHISPER_NAME,
 						},
 					),
 				},
@@ -94,7 +95,7 @@ window = {
 					"x" : 145,
 					"y" : 10,
 
-					"text" : uiScriptLocale.WHISPER_BAN,
+					"text" : localeInfo.WHISPER_BAN,
 
 					"default_image" : "d:/ymir work/ui/public/small_thin_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/small_thin_button_02.sub",
@@ -107,7 +108,7 @@ window = {
 					"x" : 145,
 					"y" : 10,
 
-					"text" : uiScriptLocale.WHISPER_REPORT,
+					"text" : localeInfo.WHISPER_REPORT,
 
 					"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/large_button_02.sub",
@@ -120,7 +121,7 @@ window = {
 					"x" : 145,
 					"y" : 10,
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 
 					"default_image" : "d:/ymir work/ui/public/small_thin_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/small_thin_button_02.sub",
@@ -133,7 +134,7 @@ window = {
 					"x" : 280 - 41,
 					"y" : 12,
 
-					"tooltip_text" : uiScriptLocale.MINIMIZE,
+					"tooltip_text" : localeInfo.MINIMIZE,
 
 					"default_image" : "d:/ymir work/ui/public/minimize_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/minimize_button_02.sub",
@@ -146,7 +147,7 @@ window = {
 					"x" : 280 - 24,
 					"y" : 12,
 
-					"tooltip_text" : uiScriptLocale.CLOSE,
+					"tooltip_text" : localeInfo.CLOSE,
 
 					"default_image" : "d:/ymir work/ui/public/close_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/close_button_02.sub",
@@ -201,7 +202,7 @@ window = {
 							"x" : 280 - 80,
 							"y" : 10,
 
-							"text" : uiScriptLocale.WHISPER_SEND,
+							"text" : localeInfo.WHISPER_SEND,
 
 							"default_image" : "d:/ymir work/ui/public/xlarge_thin_button_01.sub",
 							"over_image" : "d:/ymir work/ui/public/xlarge_thin_button_02.sub",

@@ -1,7 +1,9 @@
-import uiScriptLocale
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 ROOT_PATH = "d:/ymir work/ui/public/"
-LOCALE_PATH = uiScriptLocale.SELECT_PATH
+LOCALE_PATH = localeInfo.SELECT_PATH
 
 BOARD_X = SCREEN_WIDTH * (25) / 800
 BOARD_Y = SCREEN_HEIGHT * (156) / 600
@@ -137,7 +139,7 @@ window = {
 						{
 							"name" : "EmpireName", "type" : "text",
 							"x" : 29, "y" : 0,
-							"text" : uiScriptLocale.SELECT_EMPIRE_NAME,
+							"text" : localeInfo.SELECT_EMPIRE_NAME,
 							"fontsize" : "LARGE",
 							"all_align" : "center",
 						},
@@ -295,7 +297,7 @@ window = {
 					"name" : "hth",	"type" : "text",
 					"x" : STAT_GAUGE_X, "y" : STAT_GAUGE_Y,
 
-					"text" : uiScriptLocale.CREATE_HP,
+					"text" : localeInfo.CREATE_HP,
 
 					"children" :
 					(
@@ -324,7 +326,7 @@ window = {
 					"name" : "int",	"type" : "text",
 					"x" : STAT_GAUGE_X, "y" : STAT_GAUGE_Y + STAT_GAUGE_GAP,
 
-					"text" : uiScriptLocale.CREATE_SP,
+					"text" : localeInfo.CREATE_SP,
 
 					"children" :
 					(
@@ -353,7 +355,7 @@ window = {
 					"name" : "str",	"type" : "text",
 					"x" : STAT_GAUGE_X, "y" : STAT_GAUGE_Y + STAT_GAUGE_GAP*2,
 
-					"text" : uiScriptLocale.CREATE_ATT_GRADE,
+					"text" : localeInfo.CREATE_ATT_GRADE,
 
 					"children" :
 					(
@@ -382,7 +384,7 @@ window = {
 					"name" : "dex",	"type" : "text",
 					"x" : STAT_GAUGE_X, "y" : STAT_GAUGE_Y + STAT_GAUGE_GAP*3,
 
-					"text" : uiScriptLocale.CREATE_DEX_GRADE,
+					"text" : localeInfo.CREATE_DEX_GRADE,
 
 					"children" :
 					(

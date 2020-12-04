@@ -12,8 +12,10 @@ import background
 import snd
 import net
 import player
-import localeInfo
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 class Console(object):
 	def __init__(self, output):
@@ -56,7 +58,7 @@ class Console(object):
 	def ReloadLocale(self):
 		"Reload Locale"
 		reload(localeInfo)
-		reload(uiScriptLocale)
+		reload(localeInfo)
 		self.Print("RELOAD LOCALE")
 
 	def ReloadDevel(self):

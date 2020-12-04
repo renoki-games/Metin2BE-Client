@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "ChangePasswordDialog",
@@ -48,7 +49,7 @@ window = {
 							"y" : 3,
 							"horizontal_align" : "center",
 
-							"text" : uiScriptLocale.CHANGE_PASSWORD_TITLE,
+							"text" : localeInfo.CHANGE_PASSWORD_TITLE,
 							"text_horizontal_align":"center"
 						},
 					),
@@ -72,7 +73,7 @@ window = {
 
 							"x" : -110,
 							"y" : 3,
-							"text" : uiScriptLocale.CHANGE_PASSWORD_OLD,
+							"text" : localeInfo.CHANGE_PASSWORD_OLD,
 						},
 						{
 							"name" : "old_password_value",
@@ -106,7 +107,7 @@ window = {
 
 							"x" : -110,
 							"y" : 3,
-							"text" : uiScriptLocale.CHANGE_PASSWORD_NEW,
+							"text" : localeInfo.CHANGE_PASSWORD_NEW,
 						},
 						{
 							"name" : "new_password_value",
@@ -140,7 +141,7 @@ window = {
 
 							"x" : -110,
 							"y" : 3,
-							"text" : uiScriptLocale.CHANGE_PASSWORD_CONFIRM,
+							"text" : localeInfo.CHANGE_PASSWORD_CONFIRM,
 						},
 						{
 							"name" : "new_password_check_value",
@@ -166,7 +167,7 @@ window = {
 					"x" : -35,
 					"y" : 103,
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 					"horizontal_align" : "center",
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
@@ -181,7 +182,7 @@ window = {
 					"y" : 103,
 					"horizontal_align" : "center",
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

@@ -1,7 +1,8 @@
 import player
 import exchange
 import net
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import chat
 import item
 

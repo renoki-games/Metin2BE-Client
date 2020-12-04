@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "PickMoneyDialog",
@@ -22,7 +23,7 @@ window = {
 
 			"width" : 170,
 			"height" : 90,
-			"title" : uiScriptLocale.PICK_MONEY_TITLE,
+			"title" : localeInfo.PICK_MONEY_TITLE,
 
 			"children" :
 			(
@@ -73,7 +74,7 @@ window = {
 					"x" : 170/2 - 61 - 5,
 					"y" : 58,
 
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -86,7 +87,7 @@ window = {
 					"x" : 170/2 + 5,
 					"y" : 58,
 
-					"text" : uiScriptLocale.CANCEL,
+					"text" : localeInfo.CANCEL,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "QuestionDialog",
@@ -30,7 +31,7 @@ window = {
 					"x" : 0,
 					"y" : 25,
 
-					"text" : uiScriptLocale.LOGIN_CONNECTING,
+					"text" : localeInfo.LOGIN_CONNECTING,
 
 					"horizontal_align" : "center",
 					"text_horizontal_align" : "center",
@@ -43,7 +44,7 @@ window = {
 					"x" : 0,
 					"y" : 50,
 
-					"text" : uiScriptLocale.MESSAGE,
+					"text" : localeInfo.MESSAGE,
 
 					"horizontal_align" : "center",
 					"text_horizontal_align" : "center",

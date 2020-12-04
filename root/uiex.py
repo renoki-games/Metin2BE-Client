@@ -57,19 +57,3 @@ class App:
 
 	def OnInit(self):
 		pass
-
-
-if __name__ == "__main__":
-	class TestWindow(Window):
-		def __init__(self, skinFileName):
-			Window.__init__(self, skinFileName)
-
-		def __del__(self):
-			Window.__del__(self)
-
-	class TestApp(App):
-		def OnInit(self):
-			self.test = TestWindow("locale/ymir_ui/matrixwindow.py")
-			pass
-
-	TestApp().MainLoop()

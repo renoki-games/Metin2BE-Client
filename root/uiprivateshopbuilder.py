@@ -6,7 +6,8 @@ import player
 import chr
 import net
 import uiCommon
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import chat
 import item
 import systemSetting #±Ë¡ÿ»£

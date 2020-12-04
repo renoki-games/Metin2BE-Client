@@ -1,9 +1,11 @@
-import uiScriptLocale
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 
 ROOT_PATH = "d:/ymir work/ui/public/"
-LOCALE_PATH = uiScriptLocale.EMPIRE_PATH
+LOCALE_PATH = localeInfo.EMPIRE_PATH
 
 FLAG_SCALE_X = 0.5
 FLAG_SCALE_Y = 0.5

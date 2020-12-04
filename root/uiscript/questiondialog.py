@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "QuestionDialog",
@@ -32,7 +33,7 @@ window = {
 					"y" : 38,
 
 					"horizontal_align" : "center",
-					"text" : uiScriptLocale.MESSAGE,
+					"text" : localeInfo.MESSAGE,
 
 					"text_horizontal_align" : "center",
 					"text_vertical_align" : "center",
@@ -48,7 +49,7 @@ window = {
 					"height" : 21,
 
 					"horizontal_align" : "center",
-					"text" : uiScriptLocale.YES,
+					"text" : localeInfo.YES,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -65,7 +66,7 @@ window = {
 					"height" : 21,
 
 					"horizontal_align" : "center",
-					"text" : uiScriptLocale.NO,
+					"text" : localeInfo.NO,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

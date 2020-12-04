@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 window = {
 	"name" : "PopupDialog",
@@ -31,7 +32,7 @@ window = {
 					"x" : 0,
 					"y" : 38,
 
-					"text" : uiScriptLocale.MESSAGE,
+					"text" : localeInfo.MESSAGE,
 
 					"horizontal_align" : "center",
 					"text_horizontal_align" : "center",
@@ -48,7 +49,7 @@ window = {
 					"height" : 21,
 
 					"horizontal_align" : "center",
-					"text" : uiScriptLocale.OK,
+					"text" : localeInfo.OK,
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

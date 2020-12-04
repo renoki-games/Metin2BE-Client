@@ -6,11 +6,13 @@ import wndMgr
 import snd
 import net
 import systemSetting
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import chr
 
 import ui
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import networkModule
 import musicInfo
 import playerSettingModule
@@ -143,7 +145,7 @@ class SelectCharacterWindow(ui.Window):
 		net.SetPhaseWindow(net.PHASE_WINDOW_SELECT, 0)
 
 	def Open(self):
-		if not self.__LoadBoardDialog(uiScriptLocale.LOCALE_UISCRIPT_PATH + "selectcharacterwindow.py"):
+		if not self.__LoadBoardDialog(localeInfo.LOCALE_UISCRIPT_PATH + "selectcharacterwindow.py"):
 			import dbg
 			dbg.TraceError("SelectCharacterWindow.Open - __LoadScript Error")
 			return

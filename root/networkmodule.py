@@ -16,7 +16,8 @@ import playerSettingModule
 import ui
 import uiPhaseCurtain
 
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import constInfo
 
 class PopupDialog(ui.ScriptWindow):

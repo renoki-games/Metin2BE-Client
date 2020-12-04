@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 ROOT = "d:/ymir work/ui/minimap/"
 
@@ -25,7 +26,7 @@ window = {
 			"width" : 256 + 15,
 			"height" : 256 + 38,
 
-			"title" : uiScriptLocale.ZONE_MAP,
+			"title" : localeInfo.ZONE_MAP,
 		},
 	),
 }

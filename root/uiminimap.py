@@ -1,9 +1,11 @@
 import ui
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import wndMgr
 import player
 import miniMap
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import net
 import app
 import colorInfo
@@ -298,7 +300,7 @@ class MiniMap(ui.ScriptWindow):
 		imprisonmentEndTimeText = localeInfo.SecondToDHM(restTime)
 		if imprisonmentEndTimeText != self.imprisonmentEndTimeText:
 			self.imprisonmentEndTimeText = imprisonmentEndTimeText
-			self.serverInfo.SetText("%s: %s" % (uiScriptLocale.AUTOBAN_QUIZ_REST_TIME, self.imprisonmentEndTimeText))
+			self.serverInfo.SetText("%s: %s" % (localeInfo.AUTOBAN_QUIZ_REST_TIME, self.imprisonmentEndTimeText))
 	# END_OF_AUTOBAN
 
 	def Show(self):
@@ -315,7 +317,7 @@ class MiniMap(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			if localeInfo.IsARABIC():
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "Minimap.py")
+				pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "Minimap.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/MiniMap.py")
 		except:

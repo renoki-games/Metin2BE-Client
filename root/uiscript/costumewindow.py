@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import item
 
 window = {
@@ -41,7 +42,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":60, "y":3, "text":uiScriptLocale.COSTUME_WINDOW_TITLE, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":60, "y":3, "text":localeInfo.COSTUME_WINDOW_TITLE, "text_horizontal_align":"center" },
 					),
 				},
 
@@ -53,7 +54,7 @@ window = {
 					"x" : 13,
 					"y" : 38,
 				
-					"image" : uiScriptLocale.LOCALE_UISCRIPT_PATH + "costume/new_costume_bg.jpg",					
+					"image" : localeInfo.LOCALE_UISCRIPT_PATH + "costume/new_costume_bg.jpg",					
 
 					"children" :
 					(

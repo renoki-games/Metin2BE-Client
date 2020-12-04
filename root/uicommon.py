@@ -1,8 +1,10 @@
 import ui
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import app
 import ime
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 class PopupDialog(ui.ScriptWindow):
 
@@ -159,7 +161,7 @@ class InputDialogWithDescription(InputDialog):
 
 		pyScrLoader = ui.PythonScriptLoader()
 		if localeInfo.IsARABIC() :
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "inputdialogwithdescription.py")
+			pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "inputdialogwithdescription.py")
 		else:
 			pyScrLoader.LoadScriptFile(self, "uiscript/inputdialogwithdescription.py")
 

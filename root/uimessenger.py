@@ -4,7 +4,8 @@ import grp
 import net
 import guild
 import messenger
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import constInfo
 import uiToolTip
 import uiGameOption

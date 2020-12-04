@@ -6,7 +6,8 @@ import item
 import player
 import effect
 import constInfo
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import emotion
 
 import app

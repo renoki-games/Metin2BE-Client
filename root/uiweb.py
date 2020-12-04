@@ -1,5 +1,6 @@
 import ui
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import net
 import snd
 import app
@@ -19,7 +20,7 @@ class WebWindow(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			if constInfo.IN_GAME_SHOP_ENABLE:
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "WebWindow.py")
+				pyScrLoader.LoadScriptFile(self, localeInfo.LOCALE_UISCRIPT_PATH + "WebWindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/WebWindow.py")
 		except:
@@ -83,48 +84,3 @@ class WebWindow(ui.ScriptWindow):
 		sx, sy = x + 10, y + 30
 		ex, ey = sx + self.GetWidth() - 20, sy + self.GetHeight() - 40
 		app.MoveWebPage((sx, sy, ex, ey))
-
-if __name__ == "__main__":
-
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import grp
-	import ui
-	import uiToolTip
-	import localeInfo
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create("METIN2", systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-	class TestGame(ui.Window):
-		def __init__(self):
-			ui.Window.__init__(self)
-
-			localeInfo.LoadLocaleData()
-
-			self.mallWindow = WebWindow()
-			self.mallWindow.LoadWindow()
-			self.mallWindow.Open()
-
-		def __del__(self):
-			ui.Window.__del__(self)
-
-		def OnUpdate(self):
-			app.UpdateGame()
-
-		def OnRender(self):
-			app.RenderGame()
-			grp.PopState()
-			grp.SetInterfaceRenderState()
-
-	game = TestGame()
-	game.SetSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	game.Show()
-
-	app.Loop()

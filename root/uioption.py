@@ -4,7 +4,8 @@ import systemSetting
 import net
 import chat
 import app
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import constInfo
 import chrmgr
 import player
@@ -394,30 +395,3 @@ class OptionDialog(ui.ScriptWindow):
 
 	def Close(self):
 		self.Hide()
-
-if __name__ == "__main__":
-
-	import app
-	import wndMgr
-	import systemSetting
-	import mouseModule
-	import grp
-	import ui
-	import chr
-	import background
-	import player
-
-	#wndMgr.SetOutlineFlag(True)
-
-	app.SetMouseHandler(mouseModule.mouseController)
-	app.SetHairColorEnable(True)
-	wndMgr.SetMouseHandler(mouseModule.mouseController)
-	wndMgr.SetScreenSize(systemSetting.GetWidth(), systemSetting.GetHeight())
-	app.Create("METIN2 CLOSED BETA", systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	mouseModule.mouseController.Create()
-
-
-	wnd = OptionDialog()
-	wnd.Show()
-
-	app.Loop()

@@ -11,7 +11,8 @@ import chat
 import ui
 import uiCommon
 import mouseModule
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import constInfo
 
 ###################################################################################################

@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 SMALL_VALUE_FILE = "d:/ymir work/ui/public/Parameter_Slot_01.sub"
 LARGE_VALUE_FILE = "d:/ymir work/ui/public/Parameter_Slot_03.sub"
@@ -21,11 +22,11 @@ window = {
 			"name":"Guild_Info_Title_Bar", "type":"horizontalbar", "x":5, "y":10, "width":167,
 			"children" :
 			(
-				{ "name":"Guild_Info_Point_Value", "type":"text", "x":8, "y":3, "text":uiScriptLocale.GUILD_INFO, },
+				{ "name":"Guild_Info_Point_Value", "type":"text", "x":8, "y":3, "text":localeInfo.GUILD_INFO, },
 
 				## GuildName
 				{
-					"name" : "GuildName", "type" : "text", "x" : 3, "y" : 31, "text" : uiScriptLocale.GUILD_INFO_NAME,
+					"name" : "GuildName", "type" : "text", "x" : 3, "y" : 31, "text" : localeInfo.GUILD_INFO_NAME,
 					"children" :
 					(
 						{
@@ -36,7 +37,7 @@ window = {
 							"image" : LARGE_VALUE_FILE,
 							"children" :
 							(
-								{"name" : "GuildNameValue", "type":"text", "text":uiScriptLocale.GUILD_INFO_NAME_VALUE, "x":0, "y":0, "all_align":"center"},
+								{"name" : "GuildNameValue", "type":"text", "text":localeInfo.GUILD_INFO_NAME_VALUE, "x":0, "y":0, "all_align":"center"},
 							),
 						},
 					),
@@ -44,7 +45,7 @@ window = {
 
 				## GuildMaster
 				{
-					"name" : "GuildMaster", "type" : "text", "x" : 3, "y" : 57, "text" : uiScriptLocale.GUILD_INFO_MASTER,
+					"name" : "GuildMaster", "type" : "text", "x" : 3, "y" : 57, "text" : localeInfo.GUILD_INFO_MASTER,
 					"children" :
 					(
 						{
@@ -55,7 +56,7 @@ window = {
 							"image" : LARGE_VALUE_FILE,
 							"children" :
 							(
-								{"name" : "GuildMasterNameValue", "type":"text", "text":uiScriptLocale.GUILD_INFO_MASTER_VALUE, "x":0, "y":0, "all_align":"center"},
+								{"name" : "GuildMasterNameValue", "type":"text", "text":localeInfo.GUILD_INFO_MASTER_VALUE, "x":0, "y":0, "all_align":"center"},
 							),
 						},
 					),
@@ -63,7 +64,7 @@ window = {
 
 				## GuildLevel
 				{
-					"name" : "GuildLevel", "type" : "text", "x" : 3, "y" : 93, "text" : uiScriptLocale.GUILD_INFO_LEVEL,
+					"name" : "GuildLevel", "type" : "text", "x" : 3, "y" : 93, "text" : localeInfo.GUILD_INFO_LEVEL,
 					"children" :
 					(
 						{
@@ -83,7 +84,7 @@ window = {
 
 				## CurrentExperience
 				{
-					"name" : "CurrentExperience", "type" : "text", "x" : 3, "y" : 119, "text" : uiScriptLocale.GUILD_INFO_CUR_EXP,
+					"name" : "CurrentExperience", "type" : "text", "x" : 3, "y" : 119, "text" : localeInfo.GUILD_INFO_CUR_EXP,
 					"children" :
 					(
 						{
@@ -102,7 +103,7 @@ window = {
 
 				## LastExperience
 				{
-					"name" : "LastExperience", "type" : "text", "x" : 3, "y" : 145, "text" : uiScriptLocale.GUILD_INFO_REST_EXP,
+					"name" : "LastExperience", "type" : "text", "x" : 3, "y" : 145, "text" : localeInfo.GUILD_INFO_REST_EXP,
 					"children" :
 					(
 						{
@@ -121,7 +122,7 @@ window = {
 
 				## GuildMemberCount
 				{
-					"name" : "GuildMemberCount", "type" : "text", "x" : 3, "y" : 171, "text" : uiScriptLocale.GUILD_INFO_MEMBER_NUM,
+					"name" : "GuildMemberCount", "type" : "text", "x" : 3, "y" : 171, "text" : localeInfo.GUILD_INFO_MEMBER_NUM,
 					"children" :
 					(
 						{
@@ -140,7 +141,7 @@ window = {
 
 				## GuildMemberLevelAverage
 				{
-					"name" : "GuildMemberLevelAverage", "type" : "text", "x" : 3, "y" : 197, "text" : uiScriptLocale.GUILD_INFO_MEMBER_AVG_LEVEL,
+					"name" : "GuildMemberLevelAverage", "type" : "text", "x" : 3, "y" : 197, "text" : localeInfo.GUILD_INFO_MEMBER_AVG_LEVEL,
 					"children" :
 					(
 						{
@@ -159,7 +160,7 @@ window = {
 
 				## GuildMoney
 				{
-					"name" : "GuildMoney", "type" : "text", "x" : 3, "y" : 233, "text" : uiScriptLocale.GUILD_MONEY,
+					"name" : "GuildMoney", "type" : "text", "x" : 3, "y" : 233, "text" : localeInfo.GUILD_MONEY,
 					"children" :
 					(
 						{
@@ -184,7 +185,7 @@ window = {
 			"type" : "button",
 			"x" : 127,
 			"y" : 100,
-			"text" : uiScriptLocale.GUILD_INFO_OFFER_EXP,
+			"text" : localeInfo.GUILD_INFO_OFFER_EXP,
 			"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
@@ -198,7 +199,7 @@ window = {
 			"children" :
 			(
 
-				{ "name":"Guild_Mark_Title", "type":"text", "x":8, "y":3, "text":uiScriptLocale.GUILD_MARK, },
+				{ "name":"Guild_Mark_Title", "type":"text", "x":8, "y":3, "text":localeInfo.GUILD_MARK, },
 
 				## LargeGuildMark
 				{
@@ -228,7 +229,7 @@ window = {
 			"type" : "button",
 			"x" : 260,
 			"y" : 33,
-			"text" : uiScriptLocale.GUILD_INFO_UPLOAD_MARK,
+			"text" : localeInfo.GUILD_INFO_UPLOAD_MARK,
 			"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/large_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/large_button_03.sub",
@@ -238,7 +239,7 @@ window = {
 			"type" : "button",
 			"x" : 260,
 			"y" : 33 + 23,
-			"text" : uiScriptLocale.GUILD_INFO_UPLOAD_SYMBOL,
+			"text" : localeInfo.GUILD_INFO_UPLOAD_SYMBOL,
 			"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/large_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/large_button_03.sub",
@@ -250,7 +251,7 @@ window = {
 			"children" :
 			(
 
-				{ "name":"Guild_Mark_Title", "type":"text", "x":8, "y":3, "text":uiScriptLocale.GUILD_INFO_ENEMY_GUILD, },
+				{ "name":"Guild_Mark_Title", "type":"text", "x":8, "y":3, "text":localeInfo.GUILD_INFO_ENEMY_GUILD, },
 
 				{
 					"name" : "EnemyGuildSlot1",
@@ -260,7 +261,7 @@ window = {
 					"image" : XLARGE_VALUE_FILE,
 					"children" :
 					(
-						{"name" : "EnemyGuildName1", "type":"text", "text":uiScriptLocale.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
+						{"name" : "EnemyGuildName1", "type":"text", "text":localeInfo.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
 					),
 				},
 				{
@@ -271,7 +272,7 @@ window = {
 					"image" : XLARGE_VALUE_FILE,
 					"children" :
 					(
-						{"name" : "EnemyGuildName2", "type":"text", "text":uiScriptLocale.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
+						{"name" : "EnemyGuildName2", "type":"text", "text":localeInfo.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
 					),
 				},
 				{
@@ -282,7 +283,7 @@ window = {
 					"image" : XLARGE_VALUE_FILE,
 					"children" :
 					(
-						{"name" : "EnemyGuildName3", "type":"text", "text":uiScriptLocale.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
+						{"name" : "EnemyGuildName3", "type":"text", "text":localeInfo.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
 					),
 				},
 				{
@@ -293,7 +294,7 @@ window = {
 					"image" : XLARGE_VALUE_FILE,
 					"children" :
 					(
-						{"name" : "EnemyGuildName4", "type":"text", "text":uiScriptLocale.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
+						{"name" : "EnemyGuildName4", "type":"text", "text":localeInfo.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
 					),
 				},
 				{
@@ -304,7 +305,7 @@ window = {
 					"image" : XLARGE_VALUE_FILE,
 					"children" :
 					(
-						{"name" : "EnemyGuildName5", "type":"text", "text":uiScriptLocale.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
+						{"name" : "EnemyGuildName5", "type":"text", "text":localeInfo.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
 					),
 				},
 				{
@@ -315,7 +316,7 @@ window = {
 					"image" : XLARGE_VALUE_FILE,
 					"children" :
 					(
-						{"name" : "EnemyGuildName6", "type":"text", "text":uiScriptLocale.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
+						{"name" : "EnemyGuildName6", "type":"text", "text":localeInfo.GUILD_INFO_ENEMY_GUILD_EMPTY, "x":0, "y":0, "all_align":"center"},
 					),
 				},
 
@@ -328,7 +329,7 @@ window = {
 			"type" : "button",
 			"x" : 310,
 			"y" : 111 + 26*0,
-			"text" : uiScriptLocale.CANCEL,
+			"text" : localeInfo.CANCEL,
 			"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
@@ -338,7 +339,7 @@ window = {
 			"type" : "button",
 			"x" : 310,
 			"y" : 111 + 26*1,
-			"text" : uiScriptLocale.CANCEL,
+			"text" : localeInfo.CANCEL,
 			"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
@@ -348,7 +349,7 @@ window = {
 			"type" : "button",
 			"x" : 310,
 			"y" : 111 + 26*2,
-			"text" : uiScriptLocale.CANCEL,
+			"text" : localeInfo.CANCEL,
 			"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
@@ -358,7 +359,7 @@ window = {
 			"type" : "button",
 			"x" : 310,
 			"y" : 111 + 26*3,
-			"text" : uiScriptLocale.CANCEL,
+			"text" : localeInfo.CANCEL,
 			"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
@@ -368,7 +369,7 @@ window = {
 			"type" : "button",
 			"x" : 310,
 			"y" : 111 + 26*4,
-			"text" : uiScriptLocale.CANCEL,
+			"text" : localeInfo.CANCEL,
 			"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
@@ -378,7 +379,7 @@ window = {
 			"type" : "button",
 			"x" : 310,
 			"y" : 111 + 26*5,
-			"text" : uiScriptLocale.CANCEL,
+			"text" : localeInfo.CANCEL,
 			"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
@@ -390,7 +391,7 @@ window = {
 			"type" : "button",
 			"x" : 250 + 15,
 			"y" : 264,
-			"text" : uiScriptLocale.GUILD_INFO_DECALRE_WAR,
+			"text" : localeInfo.GUILD_INFO_DECALRE_WAR,
 			"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
 			"over_image" : "d:/ymir work/ui/public/large_button_02.sub",
 			"down_image" : "d:/ymir work/ui/public/large_button_03.sub",

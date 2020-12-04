@@ -1,4 +1,5 @@
-import uiScriptLocale
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 import item
 import app
 
@@ -46,7 +47,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":77, "y":3, "text":uiScriptLocale.INVENTORY_TITLE, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":77, "y":3, "text":localeInfo.INVENTORY_TITLE, "text_horizontal_align":"center" },
 					),
 				},
 
@@ -97,7 +98,7 @@ window = {
 							"x" : 117,
 							"y" : 108,
 
-							"tooltip_text" : uiScriptLocale.SAFEBOX_TITLE,
+							"tooltip_text" : localeInfo.SAFEBOX_TITLE,
 
 							"default_image" : "d:/ymir work/ui/safebox_normal.tga",
 							"over_image" : "d:/ymir work/ui/safebox_hover.tga",
@@ -111,7 +112,7 @@ window = {
 							"x" : 117,
 							"y" : 147,
 
-							"tooltip_text" : uiScriptLocale.MALL_TITLE,
+							"tooltip_text" : localeInfo.MALL_TITLE,
 
 							"default_image" : "d:/ymir work/ui/game/TaskBar/Mall_Button_01.tga",
 							"over_image" : "d:/ymir work/ui/game/TaskBar/Mall_Button_02.tga",
@@ -125,7 +126,7 @@ window = {
 							"x" : 77,
 							"y" : 4,
 
-							"tooltip_text" : uiScriptLocale.COSTUME_TITLE,
+							"tooltip_text" : localeInfo.COSTUME_TITLE,
 
 							"default_image" : "d:/ymir work/ui/game/taskbar/costume_Button_01.tga",
 							"over_image" : "d:/ymir work/ui/game/taskbar/costume_Button_02.tga",
@@ -197,7 +198,7 @@ window = {
 					"default_image" : "d:/ymir work/ui/game/windows/tab_button_small_01.sub",
 					"over_image" : "d:/ymir work/ui/game/windows/tab_button_small_02.sub",
 					"down_image" : "d:/ymir work/ui/game/windows/tab_button_small_03.sub",
-					"tooltip_text" : uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_1,
+					"tooltip_text" : localeInfo.INVENTORY_PAGE_BUTTON_TOOLTIP_1,
 
 					"children" :
 					(
@@ -224,7 +225,7 @@ window = {
 					"default_image" : "d:/ymir work/ui/game/windows/tab_button_small_01.sub",
 					"over_image" : "d:/ymir work/ui/game/windows/tab_button_small_02.sub",
 					"down_image" : "d:/ymir work/ui/game/windows/tab_button_small_03.sub",
-					"tooltip_text" : uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_2,
+					"tooltip_text" : localeInfo.INVENTORY_PAGE_BUTTON_TOOLTIP_2,
 
 					"children" :
 					(
@@ -252,7 +253,7 @@ window = {
 					"default_image" : "d:/ymir work/ui/game/windows/tab_button_small_01.sub",
 					"over_image" : "d:/ymir work/ui/game/windows/tab_button_small_02.sub",
 					"down_image" : "d:/ymir work/ui/game/windows/tab_button_small_03.sub",
-					"tooltip_text" : uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_3,
+					"tooltip_text" : localeInfo.INVENTORY_PAGE_BUTTON_TOOLTIP_3,
 
 					"children" :
 					(
@@ -280,7 +281,7 @@ window = {
 					"default_image" : "d:/ymir work/ui/game/windows/tab_button_small_01.sub",
 					"over_image" : "d:/ymir work/ui/game/windows/tab_button_small_02.sub",
 					"down_image" : "d:/ymir work/ui/game/windows/tab_button_small_03.sub",
-					"tooltip_text" : uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_4,
+					"tooltip_text" : localeInfo.INVENTORY_PAGE_BUTTON_TOOLTIP_4,
 
 					"children" :
 					(
@@ -308,7 +309,7 @@ window = {
 					"default_image" : "d:/ymir work/ui/game/windows/tab_button_small_01.sub",
 					"over_image" : "d:/ymir work/ui/game/windows/tab_button_small_02.sub",
 					"down_image" : "d:/ymir work/ui/game/windows/tab_button_small_03.sub",
-					"tooltip_text" : uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_5,
+					"tooltip_text" : localeInfo.INVENTORY_PAGE_BUTTON_TOOLTIP_5,
 
 					"children" :
 					(

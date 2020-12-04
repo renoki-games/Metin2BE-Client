@@ -6,7 +6,8 @@ import snd
 import ui
 import app
 import uiToolTip
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 
 class AttachMetinDialog(ui.ScriptWindow):
 	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):  

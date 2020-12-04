@@ -1,5 +1,6 @@
 ﻿import os
-import localeInfo
+import localeInfo as _localeInfo
+localeInfo = _localeInfo.localeInfo()
 #import os.path
 
 STATE_NONE = "red"
