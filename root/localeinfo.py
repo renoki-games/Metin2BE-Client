@@ -1,6 +1,7 @@
 import app
 import chr
 import dbg
+import net
 import constInfo
 import systemSetting
 
@@ -49,6 +50,12 @@ JOBDESC_WARRIOR_PATH = "%s/jobdesc_warrior.txt" % (language_path)
 JOBDESC_ASSASSIN_PATH = "%s/jobdesc_assassin.txt" % (language_path)
 JOBDESC_SURA_PATH = "%s/jobdesc_sura.txt" % (language_path)
 JOBDESC_SHAMAN_PATH = "%s/jobdesc_shaman.txt" % (language_path)
+
+EMPIRE_FLAGS = {
+	net.EMPIRE_A: ASSET_PATH + "select/empire_1.png",
+	net.EMPIRE_B: ASSET_PATH + "select/empire_2.png",
+	net.EMPIRE_C: ASSET_PATH + "select/empire_3.png",
+}
 
 APP_TITLE = "Metin2 - Black Edition"
 

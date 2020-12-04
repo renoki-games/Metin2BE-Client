@@ -2266,3 +2266,12 @@ class GameWindow(ui.ScriptWindow):
 				return
 
 			net.SendChatPacket("/toggle_gm_speed")
+
+	def BINARY_GetWhisperDetails(self, name, language, empire):
+		if not self.interface.whisperDialogDict.has_key(name):
+			return None
+
+		btn = self.interface.whisperDialogDict[name]
+		btn.language = language
+		btn.empire = empire
+		btn.RefreshWhisperDetails()

@@ -97,6 +97,8 @@ class WhisperDialog(ui.ScriptWindow):
 			self.board = GetObject("board")
 			self.editBar = GetObject("editbar")
 			self.gamemasterMark = GetObject("gamemastermark")
+			self.languageFlag = GetObject("languageflag")
+			self.empireFlag = GetObject("empireflag")
 			if app.ENABLE_WHISPER_TIPPING:
 				self.typing = GetObject("typing")
 		except:
@@ -159,6 +161,8 @@ class WhisperDialog(ui.ScriptWindow):
 		self.board = None
 		self.editBar = None
 		self.resizeButton = None
+		self.languageFlag = None
+		self.empireFlag = None
 		self.onRunMouseWheelEvent = None
 
 	def ResizeWhisperDialog(self):
@@ -238,9 +242,13 @@ class WhisperDialog(ui.ScriptWindow):
 			self.reportViolentWhisperButton.Hide()
 		self.acceptButton.Hide()
 		self.gamemasterMark.Hide()
+		self.languageFlag.Hide()
+		self.empireFlag.Hide()
 		if app.ENABLE_WHISPER_TIPPING:
 			self.typing.Hide()
 		self.minimizeButton.Show()
+
+		net.SendGetWhisperDetails(targetName)
 
 	def OpenWithoutTarget(self, event):
 		self.eventAcceptTarget = event
@@ -253,7 +261,30 @@ class WhisperDialog(ui.ScriptWindow):
 		self.reportViolentWhisperButton.Hide()
 		self.acceptButton.Show()
 		self.minimizeButton.Hide()
+		self.languageFlag.Hide()
+		self.empireFlag.Hide()
 		self.gamemasterMark.Hide()
+
+	def RefreshWhisperDetails(self):
+		languageFlagDct = {
+			0: "locale/de/ui/flags/de_down.png",
+			1: "locale/de/ui/flags/en_down.png",
+		}
+
+		if hasattr(self, "language"):
+			self.languageFlag.LoadImage(languageFlagDct[self.language])
+			self.languageFlag.SetScale(0.70, 0.70)
+			self.languageFlag.Show()
+		else:
+			self.languageFlag.Hide()
+
+		if hasattr(self, "empire"):
+			image = localeInfo.EMPIRE_FLAGS[self.empire]
+			self.empireFlag.LoadImage(image)
+			self.empireFlag.SetScale(0.25, 0.25)
+			self.empireFlag.Show()
+		else:
+			self.empireFlag.Hide()
 
 	def SetGameMasterLook(self):
 		self.gamemasterMark.Show()

@@ -68,6 +68,26 @@ window = {
 				},
 
 				{
+					"name" : "languageflag",
+					"type" : "expanded_image",
+
+					"x" : 148,
+					"y" : 14,
+
+					"image": "locale/de/ui/flags/de_down.png",
+				},
+
+				{
+					"name" : "empireflag",
+					"type" : "expanded_image",
+
+					"x" : 177,
+					"y" : 15,
+
+					"image": "d:/ymir work/ui/assets/select/empire_1.png",
+				},
+
+				{
 					"name" : "gamemastermark",
 					"type" : "expanded_image",
 					"style" : ("attach",),
