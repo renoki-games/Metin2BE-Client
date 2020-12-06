@@ -2227,7 +2227,6 @@ PRIVATESHOPSEARCH_SELLER	Verkäufer
 PRIVATE_SHOP_CLOSE_BUTTON	Laden schließen
 PRIVATE_SHOP_NAME	Name des Ladens
 PRIVATE_SHOP_TITLE	Privaten Laden einrichten
-REFINE_COST	Verbesserungskosten: 0 Yang
 REFINE_INFO	Wahrscheinlichkeit auf erfolgreiche Verbesserung: 100%
 REFINE_MONEY	Veredelungsgebühr
 REFINE_SELECT	Veredelung
