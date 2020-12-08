@@ -1760,7 +1760,6 @@ EMPIRE_PREV	Zurück
 EMPIRE_SELECT	Wählen
 ENTER_BATTLE_FIELD	Beitreten
 EXCHANGE_ACCEPT	OK
-EXCHANGE_TITLE	Handeln
 EXIT_BATTLE_FIELD	Möchtest du die Kampfzone wirklich verlassen?
 EXIT_BATTLE_FIELD_ON_DEAD	Möchtest du die Kampfzone mit %d Punkt(en) verlassen?
 GAMEOPTION_TITLE	Spieloptionen
