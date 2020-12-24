@@ -1091,12 +1091,6 @@ class ItemToolTip(ToolTip):
 			else:
 				self.__AppendMetinSlotInfo(metinSlot)
 
-		### Ring Slot Item (Not UNIQUE) ###
-		elif item.ITEM_TYPE_RING == itemType:
-			self.__AppendLimitInformation()
-			self.__AppendAffectInformation()
-			self.__AppendAttributeInformation(attrSlot)
-
 		## 코스츔 아이템 ##
 		elif 0 != isCostumeItem:
 			self.__AppendLimitInformation()

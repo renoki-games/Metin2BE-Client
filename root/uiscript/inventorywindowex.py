@@ -82,10 +82,12 @@ window = {
 										{"index":EQUIPMENT_START_INDEX+4, "x":5, "y":4, "width":32, "height":96},	#Waffe
 										{"index":EQUIPMENT_START_INDEX+5, "x":117, "y":68, "width":32, "height":32},#Halskette
 										{"index":EQUIPMENT_START_INDEX+6, "x":117, "y":36, "width":32, "height":32},#Ohrringe
-										{"index":EQUIPMENT_START_INDEX+7, "x":5, "y":147, "width":32, "height":32},	#IS-Slot1
-										{"index":EQUIPMENT_START_INDEX+8, "x":77, "y":147, "width":32, "height":32},#IS-Slot2
-										{"index":EQUIPMENT_START_INDEX+9, "x":117, "y":4, "width":32, "height":32},	#Pfeile
-										{"index":EQUIPMENT_START_INDEX+10, "x":77, "y":36, "width":32, "height":32},#Schild
+										{"index":EQUIPMENT_START_INDEX+7, "x":5, "y":107, "width":32, "height":32},	#IS-Slot1
+										{"index":EQUIPMENT_START_INDEX+8, "x":77, "y":107, "width":32, "height":32},#IS-Slot2
+										{"index":EQUIPMENT_START_INDEX+9, "x":5, "y":147, "width":32, "height":32},	#IS-Slot3
+										{"index":EQUIPMENT_START_INDEX+10, "x":77, "y":147, "width":32, "height":32},#IS-Slot4
+										{"index":EQUIPMENT_START_INDEX+11, "x":117, "y":4, "width":32, "height":32},	#Pfeile
+										{"index":EQUIPMENT_START_INDEX+12, "x":77, "y":36, "width":32, "height":32},#Schild
 										{"index":item.EQUIPMENT_SPECIAL, "x":42, "y":106, "width":32, "height":32},#Spezialbücher
 										
 									),
