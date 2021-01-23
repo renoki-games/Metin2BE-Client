@@ -4274,7 +4274,7 @@
 30223	Aurtumryus Seelenstein	Translate-Me
 30224	Gyimoks Seelenstein	Translate-Me
 30225	Tugyis Seelenstein	Translate-Me
-30226	Waldgeist-Seelenstein	Translate-Me
+30226	Waldgeist Seelenstein	Translate-Me
 30227	Seelenstein der Anführer	Translate-Me
 30228	Beran-Setaou Seelenstein	Translate-Me
 30251	Juwel der Magie	Translate-Me
@@ -5562,11 +5562,11 @@
 50123	Eiscreme	Translate-Me
 50124	Morsche Holzkiste	Translate-Me
 50125	Geiststein-Truhe	Translate-Me
-50126	Zutaten-Truhe	Translate-Me
+50126	Uppitem-Truhe	Translate-Me
 50127	Item-Shop-Truhe	Translate-Me
 50128	Fischerei-Truhe	Translate-Me
 50129	Fertigkeitsbuch-Truhe	Translate-Me
-50130	Edelstein-Truhe	Translate-Me
+50130	Veredelte-Truhe	Translate-Me
 50131	Spezial-Truhe	Translate-Me
 50132	Premium-Truhe	Translate-Me
 50133	Mysteriöse Smaragdtruhe	Translate-Me

@@ -2338,4 +2338,4 @@ GIFT_GET_ALL	Get all
 GIFT_GET_QUEST	Are you sure want get "%s"?
 GIFT_GET_QUEST_ALL	Are you sure want get all items?
 GIFT_MONEY_DESC	Your earned money from offline shop.
-SHOP_SELECT_TIME    Select
+SHOP_SELECT_TIME	Select
