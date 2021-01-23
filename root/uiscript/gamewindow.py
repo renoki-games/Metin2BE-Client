@@ -57,6 +57,16 @@ window = {
 				},
 			),
 		},
+		{
+			"name" : "GiftIcon",
+			"type" : "button",
+
+			"x" : 5, 
+			"y" : SCREEN_HEIGHT-135, 
+			"default_image" : "D:/Ymir Work/UI/Pattern/GiftBox/present_for_fruends_icon.tga",
+			"over_image" : "D:/Ymir Work/UI/Pattern/GiftBox/present_for_fruends_icon.tga",
+			"down_image" : "D:/Ymir Work/UI/Pattern/GiftBox/present_for_fruends_icon.tga",
+		},
 		{ 
 			"name":"StatusPlusButton", 
 			"type" : "button", 

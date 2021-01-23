@@ -7,6 +7,7 @@ import net
 import wndMgr
 import app
 import chat
+import chr
 
 import ui
 import uiCommon
@@ -24,6 +25,7 @@ class ShopDialog(ui.ScriptWindow):
 		self.tooltipItem = 0
 		self.xShopStart = 0
 		self.yShopStart = 0
+		self.vid = 0
 		self.questionDialog = None
 		self.popup = None
 		self.itemBuyQuestionDialog = None
@@ -154,25 +156,26 @@ class ShopDialog(ui.ScriptWindow):
 		self.btnSell = 0
 		self.btnClose = 0
 		self.titleBar = 0
+		self.vid = 0
 		self.questionDialog = None
 		self.popup = None
 
-	def Open(self, vid):
-
+	def Open(self, vid, type=0):
+		self.vid=int(vid)
 		isPrivateShop = False
 		isMainPlayerPrivateShop = False
-
-		if not isPrivateShop:
-			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.QUICK_SELL_MESSAGE)
-
-		import chr
-		if chr.IsNPC(vid):
-			isPrivateShop = False
-		else:
+		myshop=False
+		for i in xrange(len(constInfo.MyShops)):
+			if int(constInfo.MyShops[i]["vid"]) == int(self.vid):
+				myshop=True
+				self.vid=int(constInfo.MyShops[i]["id"])
+		chr.SelectInstance(self.vid)
+		if chr.GetRace() == 30000 or not chr.IsNPC(self.vid):
 			isPrivateShop = True
-
-		if player.IsMainCharacterIndex(vid):
-
+		if player.IsMainCharacterIndex(self.vid):
+			myshop=True
+			self.vid=""
+		if myshop == True:
 			isMainPlayerPrivateShop = True
 
 			self.btnBuy.Hide()
@@ -182,10 +185,10 @@ class ShopDialog(ui.ScriptWindow):
 		else:
 
 			isMainPlayerPrivateShop = False
+
 			self.btnBuy.Show()
 			self.btnSell.Show()
 			self.btnClose.Hide()
-
 		shop.Open(isPrivateShop, isMainPlayerPrivateShop)
 
 		self.tabIdx = 0
@@ -274,7 +277,7 @@ class ShopDialog(ui.ScriptWindow):
 		return True
 
 	def OnClosePrivateShop(self):
-		net.SendChatPacket("/close_shop")
+		net.SendChatPacket("/close_shop "+str(self.vid))
 		self.OnCloseQuestionDialog()
 		return True
 

@@ -29,6 +29,7 @@ class GameButtonWindow(ui.ScriptWindow):
 				"HELP" : self.GetChild("HelpButton"),
 				"BUILD" : self.GetChild("BuildGuildBuilding"),
 				"EXIT_OBSERVER" : self.GetChild("ExitObserver"),
+				"GIFT" : self.GetChild("GiftIcon"),
 			}
 
 			self.gameButtonDict["EXIT_OBSERVER"].SetEvent(ui.__mem_func__(self.__OnClickExitObserver))
@@ -105,3 +106,9 @@ class GameButtonWindow(ui.ScriptWindow):
 			self.gameButtonDict["EXIT_OBSERVER"].Show()
 		else:
 			self.gameButtonDict["EXIT_OBSERVER"].Hide()
+
+	def ShowGiftButton(self):
+		self.gameButtonDict["GIFT"].Show()
+
+	def HideGiftButton(self):
+		self.gameButtonDict["GIFT"].Hide()

@@ -258,6 +258,7 @@ class LoadingWindow(ui.ScriptWindow):
 		NAME_COLOR_DICT = {
 			chrmgr.NAMECOLOR_PC : colorInfo.CHR_NAME_RGB_PC,
 			chrmgr.NAMECOLOR_NPC : colorInfo.CHR_NAME_RGB_NPC,
+			chrmgr.NAMECOLOR_SHOP : colorInfo.CHR_NAME_RGB_SHOP,
 			chrmgr.NAMECOLOR_MOB : colorInfo.CHR_NAME_RGB_MOB,
 			chrmgr.NAMECOLOR_PVP : colorInfo.CHR_NAME_RGB_PVP,
 			chrmgr.NAMECOLOR_PK : colorInfo.CHR_NAME_RGB_PK,

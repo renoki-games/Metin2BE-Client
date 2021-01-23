@@ -49,6 +49,12 @@ CHRNAME_COLOR_INDEX = 0
 
 ENVIRONMENT_NIGHT="d:/ymir work/environment/moonlight04.msenv"
 
+# OFFLINE_SHOPS
+shop_cost=[]
+gift_items={}
+MyShops=[]
+SHOPNAMES_RANGE = 5000
+
 if app.ENABLE_REFINE_RENEWAL:
 	IS_AUTO_REFINE = False
 	AUTO_REFINE_TYPE = 0

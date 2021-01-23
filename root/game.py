@@ -83,6 +83,9 @@ class GameWindow(ui.ScriptWindow):
 		net.SetPhaseWindow(net.PHASE_WINDOW_GAME, self)
 		player.SetGameWindow(self)
 
+		self.uiNewShopCreate = None
+		self.uiNewShop = None
+
 		self.quickSlotPageIndex = 0
 		self.lastPKModeSendedTime = 0
 		self.pressNumber = None
@@ -199,6 +202,12 @@ class GameWindow(ui.ScriptWindow):
 		# END_OF_UNKNOWN_UPDATE
 
 
+		import uiNewShop
+		self.uiNewShop = uiNewShop.ShopDialog(self.interface)
+		self.uiNewShop.Close()
+		self.uiNewShopCreate = uiNewShop.ShopDialogCreate(self.interface)
+		self.uiNewShopCreate.Hide()
+
 		## Sound
 		snd.SetMusicVolume(systemSetting.GetMusicVolume()*net.GetFieldMusicVolume())
 		snd.SetSoundVolume(systemSetting.GetSoundVolume())
@@ -217,6 +226,7 @@ class GameWindow(ui.ScriptWindow):
 		app.ShowCursor()
 
 		net.SendEnterGamePacket()
+
 
 		# START_GAME_ERROR_EXIT
 		try:
@@ -302,6 +312,10 @@ class GameWindow(ui.ScriptWindow):
 			self.interface.HideAllWindows()
 			self.interface.Close()
 			self.interface=None
+
+		self.uiNewShop.Hide()
+		self.uiNewShopCreate.Hide()
+		uiPrivateShopBuilder.Clear()
 
 		player.ClearSkillDict()
 		player.ResetCameraRotation()
@@ -1530,6 +1544,9 @@ class GameWindow(ui.ScriptWindow):
 			textTail.ShowAllTextTail()
 			self.PickingItemIndex = textTail.Pick(x, y)
 		# END_OF_ADD_ALWAYS_SHOW_NAME
+		
+		if systemSetting.IsShowSalesText():
+			uiPrivateShopBuilder.UpdateADBoard()
 
 		textTail.UpdateShowingTextTail()
 		textTail.ArrangeTextTail()
@@ -1925,6 +1942,22 @@ class GameWindow(ui.ScriptWindow):
 			# PRIVATE_SHOP_PRICE_LIST
 			"MyShopPriceList"		: self.__PrivateShop_PriceList,
 			# END_OF_PRIVATE_SHOP_PRICE_LIST
+			
+			##NEW SHOP
+			"shop"		:self.NewShop,
+			"shop_clear"		:self.ShopClear,
+			"shop_add"		:self.ShopAdd,
+			"shop_item"		:self.ShopItem,
+			"shop_cost"		:self.ShopCost,
+			"shop_cost_clear"		:self.ShopCostClear,
+			"shop_item_clear"	:self.ShopItemClear,
+			
+			#####GIFT SYSTEM
+			"gift_clear"		:self.gift_clear,
+			"gift_item"		:self.gift_item,
+			"gift_info"		:self.gift_show,
+			"gift_load"		:self.gift_load,
+			###
 		}
 
 		if app.ENABLE_TARGET_AFFECT:
@@ -2080,10 +2113,12 @@ class GameWindow(ui.ScriptWindow):
 
 	## PrivateShop
 	def __PrivateShop_Open(self):
-		self.interface.OpenPrivateShopInputNameDialog()
+		##self.interface.OpenPrivateShopInputNameDialog()
+		self.uiNewShop.Show()
 
 	def BINARY_PrivateShop_Appear(self, vid, text):
-		self.interface.AppearPrivateShop(vid, text)
+		if chr.GetInstanceType(vid) in [chr.INSTANCE_TYPE_PLAYER, chr.INSTANCE_TYPE_NPC]:
+			self.interface.AppearPrivateShop(vid, text)
 
 	def BINARY_PrivateShop_Disappear(self, vid):
 		self.interface.DisappearPrivateShop(vid)
@@ -2275,3 +2310,75 @@ class GameWindow(ui.ScriptWindow):
 		btn.language = language
 		btn.empire = empire
 		btn.RefreshWhisperDetails()
+
+	####SHOP SYSTEM#####
+	def NewShop(self):
+		if self.uiNewShop.IsShow():
+			self.uiNewShop.Hide()
+		else:
+			self.uiNewShop.Show()
+	
+	def ShopClear(self):
+		if self.uiNewShop:
+			self.uiNewShop.HideAll()
+		constInfo.MyShops=[]
+	def ShopCostClear(self):
+		constInfo.shop_cost=[]
+	def ShopCost(self,id,time,time_val,price):
+		constInfo.shop_cost.append({"id":int(id),"time":int(time),"time_val":int(time_val),"price":int(price)})
+	def ShopAdd(self,shop_id,shop_vid,szSign,gold,count,sold,days,date_close):
+		if self.uiNewShop:
+			shop={
+				"id":shop_id,
+				"vid":shop_vid,
+				"name":szSign.replace("\\"," ").replace("_","#"),
+				"gold":gold,
+				"sold":sold,
+				"items":int(count)-int(sold),
+				"days":days,
+				"time":date_close
+			}
+			self.uiNewShop.Load(shop)
+			constInfo.MyShops.append(shop)
+	def ShopItemClear(self):
+		if self.uiNewShop:
+			self.uiNewShop.ClearItems()
+	def ShopItem(self,data):
+		d=data.split("#")
+		id=d[0]
+		vnum=d[1]
+		count=d[2]
+		slot=d[3]
+		price=d[4]
+		s=d[5]
+		a=d[6]
+		sockets=[]
+		for key in s.split("|"):
+			sockets.append(int(key))
+	
+		attrs=[]
+		for key in a.split("|"):
+			a=key.split(",")
+			attrs.append([int(a[0]),int(a[1])])
+		if self.uiNewShop:
+			self.uiNewShop.AddItem(slot,{"id":id,"vnum":vnum,"count":count,"price":price,"sockets":sockets,"attrs":attrs})
+		
+	####GIFT SYSTEM#####
+	def gift_clear(self):
+		constInfo.gift_items={}
+		self.interface.ClearGift()
+	def gift_item(self, id, vnum, count, pos, date_add, give, reason, szSockets, szAttrs):
+		sockets=[]
+		for key in szSockets.split("|"):
+			sockets.append(int(key))
+	 
+		attrs=[]
+		for key in szAttrs.split("|"):
+			a=key.split(",")
+			attrs.append([int(a[0]),int(a[1])])
+		constInfo.gift_items[int(pos)]={"id":int(id),"vnum":int(vnum),"count":int(count),"pos":int(pos),"date_add":int(date_add),"reason":reason.replace("_"," "),"give":give.replace("_"," "),"sockets":sockets,"attrs":attrs}
+	def gift_load(self):
+		self.interface.wndGiftBox.Refresh()
+	def gift_show(self,pages):
+		self.interface.wndGiftBox.pageNum=int(pages)
+		self.interface.OpenGift()	

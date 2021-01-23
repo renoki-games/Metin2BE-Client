@@ -437,6 +437,21 @@ window = {
 					"over_image" : ROOT_PATH + "middle_button_02.sub",
 					"down_image" : ROOT_PATH + "middle_button_03.sub",
 				},
+				## Range
+				
+				{
+					"name" : "salestext_range",
+					"type" : "text",
+					"x" : LINE_LABEL_X,
+					"y" : 269,
+					"text" : uiScriptLocale.OPTION_SALESTEXT_RANGE,
+				},
+				{
+					"name" : "salestext_range_controller",
+					"type" : "sliderbar",
+					"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH - 37,
+					"y" : 271,
+				},	
 			],
 		},
 	],

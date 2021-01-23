@@ -91,6 +91,7 @@ class OptionDialog(ui.ScriptWindow):
 			self.showDamageButtonList.append(GetObject("show_damage_off_button"))
 			self.showsalesTextButtonList.append(GetObject("salestext_on_button"))
 			self.showsalesTextButtonList.append(GetObject("salestext_off_button"))
+			self.ctrlShopNamesRange = GetObject("salestext_range_controller")
 			if app.WJ_SHOW_MOB_INFO:
 				self.showMobInfoButtonList.append(GetObject("show_mob_level_button"))
 				self.showMobInfoButtonList.append(GetObject("show_mob_AI_flag_button"))
@@ -170,6 +171,14 @@ class OptionDialog(ui.ScriptWindow):
 			self.inputMobileButton.SetEvent(ui.__mem_func__(self.__OnChangeMobilePhoneNumber))
 			self.deleteMobileButton.SetEvent(ui.__mem_func__(self.__OnDeleteMobilePhoneNumber))
 
+		self.ctrlShopNamesRange.SetSliderPos(float(uiPrivateShopBuilder.GetShopNamesRange()))
+		self.ctrlShopNamesRange.SetEvent(ui.__mem_func__(self.OnChangeShopNamesRange))
+	
+	def OnChangeShopNamesRange(self):
+		pos = self.ctrlShopNamesRange.GetSliderPos()
+		uiPrivateShopBuilder.SetShopNamesRange(pos)
+		if systemSetting.IsShowSalesText():
+			uiPrivateShopBuilder.UpdateADBoard()
 	def __ClickRadioButton(self, buttonList, buttonIndex):
 		try:
 			selButton=buttonList[buttonIndex]

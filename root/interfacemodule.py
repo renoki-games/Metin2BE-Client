@@ -61,6 +61,7 @@ class Interface(object):
 		self.tipBoard = None
 		self.bigBoard = None
 
+		self.wndGiftBox = None
 		# ITEM_MALL
 		self.mallPageDlg = None
 		# END_OF_ITEM_MALL
@@ -89,6 +90,26 @@ class Interface(object):
 
 	################################
 	## Make Windows & Dialogs
+
+	def __OnClickGiftButton(self):
+		if self.wndGameButton:
+			if not self.wndGiftBox.IsShow():
+				self.wndGiftBox.Open()
+			else:
+				self.wndGiftBox.Close()
+
+	def ClearGift(self):
+		if self.wndGameButton:
+			self.wndGameButton.HideGiftButton()
+		if self.wndGiftBox:
+			self.wndGiftBox.Clear()
+			self.wndGiftBox.Refresh()
+
+	# show GIFT
+	def OpenGift(self):
+		if self.wndGameButton:
+			self.wndGameButton.ShowGiftButton()
+
 	def __MakeUICurtain(self):
 		wndUICurtain = ui.Bar("TOP_MOST")
 		wndUICurtain.SetSize(wndMgr.GetScreenWidth(), wndMgr.GetScreenHeight())
@@ -122,6 +143,10 @@ class Interface(object):
 		self.wndChat.SetOpenChatLogEvent(ui.__mem_func__(self.ToggleChatLogWindow))
 
 	def __MakeTaskBar(self):
+		import uiGift
+		wndGiftBox=uiGift.GiftDialog()
+		wndGiftBox.Hide()
+		self.wndGiftBox=wndGiftBox
 		wndTaskBar = uiTaskBar.TaskBar()
 		wndTaskBar.LoadWindow()
 		self.wndTaskBar = wndTaskBar
@@ -146,6 +171,7 @@ class Interface(object):
 		wndGameButton.SetButtonEvent("QUEST", ui.__mem_func__(self.__OnClickQuestButton))
 		wndGameButton.SetButtonEvent("HELP", ui.__mem_func__(self.__OnClickHelpButton))
 		wndGameButton.SetButtonEvent("BUILD", ui.__mem_func__(self.__OnClickBuildButton))
+		wndGameButton.SetButtonEvent("GIFT", ui.__mem_func__(self.__OnClickGiftButton))
 
 		self.wndGameButton = wndGameButton
 
@@ -219,10 +245,10 @@ class Interface(object):
 		self.tooltipSkill.Hide()
 
 		self.privateShopBuilder = uiPrivateShopBuilder.PrivateShopBuilder()
-		if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
-			self.privateShopBuilder.BindInterface(self)
-			self.privateShopBuilder.SetInven(self.wndInventory)
-			self.wndInventory.BindWindow(self.privateShopBuilder)
+		# if app.WJ_ENABLE_TRADABLE_ICON:
+			# self.privateShopBuilder.BindInterface(self)
+			# self.privateShopBuilder.SetInven(self.wndInventory)
+			# self.wndInventory.BindWindow(self.privateShopBuilder)
 		self.privateShopBuilder.Hide()
 
 		self.dlgRefineNew = uiRefine.RefineDialogNew()
@@ -347,6 +373,12 @@ class Interface(object):
 				eachQuestWindow.CloseSelf()
 				eachQuestWindow = None
 		self.wndQuestWindow = {}
+
+		if self.wndGiftBox:
+			self.wndGiftBox.Clear()
+			self.wndGiftBox.Hide()
+			self.wndGiftBox.Destroy()
+		del self.wndGiftBox
 
 		if self.wndChat:
 			self.wndChat.Destroy()
@@ -1060,6 +1092,16 @@ class Interface(object):
 	#####################################################################################
 	### Private Shop ###
 
+	if app.WJ_ENABLE_TRADABLE_ICON:
+		def SetOnTopWindow(self, onTopWnd):
+			self.onTopWindow = onTopWnd
+
+		def GetOnTopWindow(self):
+			return self.onTopWindow
+
+		def RefreshMarkInventoryBag(self):
+			self.wndInventory.RefreshMarkSlots()
+
 	def OpenPrivateShopInputNameDialog(self):
 		#if player.IsInSafeArea():
 		#	chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA)
@@ -1561,12 +1603,3 @@ class Interface(object):
 		else:
 			return -1
 
-	if hasattr(app, "WJ_ENABLE_TRADABLE_ICON"):
-		def SetOnTopWindow(self, onTopWnd):
-			self.onTopWindow = onTopWnd
-
-		def GetOnTopWindow(self):
-			return self.onTopWindow
-
-		def RefreshMarkInventoryBag(self):
-			self.wndInventory.RefreshMarkSlots()
