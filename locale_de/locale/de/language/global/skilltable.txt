@@ -37,15 +37,15 @@
 91	Noname	4	1	1	0	HP	-(70 + 4*lv + (20*iq+5*mwep+50)*ar*k)	30+160*k			7	-(70 + 4*lv + (20*iq+5*mwep+50)*ar*k)		ATTACK,COMPUTE_MAGIC_DAMAGE,SPLASH		NONE				0	0	MAGIC	5	0.5	1800	201
 92	Noname	4	1	1	0	HP	-(60 + 5*lv + (18*iq + 6*mwep + 120)*ar*k)	50+160*k			8	-(60 + 5*lv + (18*iq + 6*mwep + 120)*ar*k)		ATTACK,ATTACK_FIRE_CONT		NONE	lv+5*iq *k	iq*0.2*k		0	0	MAGIC	10	0.8	0	0
 93	Noname	4	1	1	0	HP	-(80 + 6*lv + (20*iq+14*mwep+120)*ar*k)	50+160*k			20	-(80 + 6*lv + (20*iq+14*mwep+120)*ar*k)		ATTACK,ATTACK_FIRE_CONT,SPLASH,SELFONLY		NONE	lv+5*iq *k	iq*0.2*k		0	0	MAGIC	15	0.8	0	500
-94	Noname	4	1	1	0	RESIST_NORMAL	(iq*0.3+5)*(2*k+0.5)/(k+1.5)	40+160*k	60+200*k			(iq*0.3+5)*(2*k+0.5)/(k+1.5)		TOGGLE	HOSIN	NONE				0	0	NORMAL	1	1	800	0
-95	Noname	4	1	1	0	REFLECT_MELEE	5+(iq*0.3 + 5)*k	40+160*k	60+200*k			5+(iq*0.3 + 5)*k		TOGGLE	BOHO	NONE				0	0	NORMAL	1	1	1000	0
-96	Noname	4	1	1	0	CRITICAL	(iq*0.3+5)*(2*k+0.5)/(k+1.5)	40+160*k	60+200*k			(iq*0.3+5)*(2*k+0.5)/(k+1.5)		TOGGLE	GICHEON	NONE				0	0	NORMAL	1	1	1000	0
+94	Noname	4	1	1	0	RESIST_NORMAL	(iq*0.3+5)*(2*k+0.5)/(k+1.5)	40+160*k	60+200*k		10	(iq*0.3+5)*(2*k+0.5)/(k+1.5)			HOSIN	NONE				0	0	NORMAL	1	1	800	0
+95	Noname	4	1	1	0	REFLECT_MELEE	5+(iq*0.3 + 5)*k	40+160*k	60+200*k		10	5+(iq*0.3 + 5)*k			BOHO	NONE				0	0	NORMAL	1	1	1000	0
+96	Noname	4	1	1	0	CRITICAL	(iq*0.3+5)*(2*k+0.5)/(k+1.5)	40+160*k	60+200*k		10	(iq*0.3+5)*(2*k+0.5)/(k+1.5)			GICHEON	NONE				0	0	NORMAL	1	1	1000	0
 106	Noname	4	1	1	0	HP	-(60 + 4*lv + (7*iq+8*mwep+number(iq*5,iq*15))*ar*k)	30+150*k			7	-(60 + 4*lv + (7*iq+8*mwep+number(iq*5,iq*15))*ar*k)		ATTACK,SPLASH		NONE				0	0	MAGIC	5	0.6	1800	200
 107	Noname	4	1	1	0	HP	-(40 + 4*lv + (13*iq+7*mwep+number(iq*5,iq*16))*ar*k)	50+150*k			15	-(40 + 4*lv + (13*iq+7*mwep+number(iq*5,iq*16))*ar*k)		ATTACK,SPLASH,ATTACK_STUN		NONE	50+1000*k/6	5		0	0	MAGIC	15	0.8	1500	400
 108	Noname	4	1	1	0	HP	-(50 + 5*lv + (6*iq+6*mwep+number(1,800))*ar*k) * (1-chain*0.13)	40+180*k			10	-(50 + 5*lv + (6*iq+6*mwep+number(1,800))*ar*k) * (1-chain*0.13)		ATTACK		NONE				0	0	MAGIC	7	0.8	2500	0
 109	Noname	4	1	1	0	HP	200+7*lv+(30*iq+6*mwep+600)*k	40+200*k			10	200+7*lv+(30*iq+6*mwep+600)*k		REMOVE_BAD_AFFECT		NONE	20+80*k	0		0	0	NORMAL	1	1	1000	0
-110	Noname	4	1	1	0	MOV_SPEED	5 + 35*k	60+120*k	60+100*k			5 + 35*k		TOGGLE	KWAESOK	CASTING_SPEED	3+33*k	60+100*k		0	0	NORMAL	1	1	1000	0
-111	Noname	4	1	1	0	ATT_GRADE	10+(iq*0.4 +20)*k	60+120*k	60+100*k			10+(iq*0.4 +30)*k		TOGGLE	JEUNGRYEOK	NONE				0	0	NORMAL	1	1	1000	0
+110	Noname	4	1	1	0	MOV_SPEED	5 + 35*k	60+120*k	60+100*k		10	5 + 35*k			KWAESOK	CASTING_SPEED	3+33*k	60+100*k		0	0	NORMAL	1	1	1000	0
+111	Noname	4	1	1	0	ATT_GRADE	10+(iq*0.4 +20)*k	60+120*k	60+100*k		10	10+(iq*0.4 +30)*k			JEUNGRYEOK	NONE				0	0	NORMAL	1	1	1000	0
 112	Noname	0	1	40	0	NONE	20*k							None		NONE				0	0	NORMAL	0	1	0	0
 113	Noname	0	1	40	0	NONE	20*k							None		NONE				0	0	NORMAL	0	1	0	0
 114	Noname	0	1	40	0	NONE	20*k							None		NONE				0	0	NORMAL	0	1	0	0
