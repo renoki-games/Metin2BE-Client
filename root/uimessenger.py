@@ -23,7 +23,9 @@ TEAM = 2
 class MessengerItem(ui.Window):
 	langs = {
 		"de" : (1 << 0),
-		"en" : (1 << 1)
+		"en" : (1 << 1),
+		"tr" : (1 << 2),
+		"ru" : (1 << 3)
 	}
 
 	def __init__(self, getParentEvent):

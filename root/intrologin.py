@@ -13,7 +13,7 @@ import serverlogindata
 import uiCommon
 
 class LoginWindow(ui.ScriptWindow):
-	languages = [ "de", "en", "tr" ]
+	languages = [ "de", "en", "tr", "ru" ]
 
 	def __init__(self, stream):
 		ui.ScriptWindow.__init__(self)

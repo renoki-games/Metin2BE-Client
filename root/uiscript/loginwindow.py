@@ -82,10 +82,22 @@ window = {
 							},
 
 							{
-								"name": "flag_tr",
+								"name": "flag_tr", 
 								"type": "radio_button",
 
 								"x": 35*2,
+								"y": 0,
+
+								"default_image" : "locale/de/ui/flags/de_default.png",
+								"down_image" : "locale/de/ui/flags/de_hover.png",
+								"over_image" : "locale/de/ui/flags/de_hover.png",
+							},
+
+							{
+								"name": "flag_ru", 
+								"type": "radio_button",
+
+								"x": 35*3,
 								"y": 0,
 
 								"default_image" : "locale/de/ui/flags/de_default.png",
