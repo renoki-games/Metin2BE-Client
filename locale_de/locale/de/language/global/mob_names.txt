@@ -1,1560 +1,1560 @@
-2431	Setaou-Kämpfer	Translate-Me
-2432	Setaou-Jäger	Translate-Me
-2433	Setaou-Seherin	Translate-Me
-2434	Setaou-Anführer	Translate-Me
-2451	Setaou-Soldat	Translate-Me
-2452	Setaou-Bogenschütze	Translate-Me
-2453	Setaou-Magistra	Translate-Me
-2454	Setaou-Kommandant	Translate-Me
-2491	Hauptmann Yonghan	Translate-Me
-2492	General Yonghan	Translate-Me
-2493	Beran-Setaou	Translate-Me
-2494	Hauptmann Huashin	Translate-Me
-2495	General Huashin	Translate-Me
-2501	Höllenqualle	Translate-Me
-2502	Höllenhund	Translate-Me
-2503	Zombie	Translate-Me
-2504	Höllenoffizier	Translate-Me
-2505	Höllenwächter	Translate-Me
-2506	Zweikopf-Höllenschütze	Translate-Me
-2507	Höllengreifer	Translate-Me
-2508	Höllenkrieger	Translate-Me
-2509	Höllenschütze	Translate-Me
-2510	Höllenspeerkämpfer	Translate-Me
-2511	Höllenpriester	Translate-Me
-2512	Höllenmajor	Translate-Me
-2513	Höllenmetzler	Translate-Me
-2514	Höllengeneral	Translate-Me
-2541	Böser Höllenkrieger	Translate-Me
-2542	Böser Höllenschütze	Translate-Me
-2543	Böser Höllenspeerkämpfer	Translate-Me
-2544	Böser Höllenpriester	Translate-Me
-2545	Böser Höllenmajor	Translate-Me
-2546	Böser Höllenmetzler	Translate-Me
-2547	Böser Höllengeneral	Translate-Me
-2591	Tartaros	Translate-Me
-2592	Höllenbastard	Translate-Me
-2593	Höllenbastard	Translate-Me
-2594	Höllenbastard	Translate-Me
-2595	Erebos	Translate-Me
-2596	Azraels Brut	Translate-Me
-2597	Charon	Translate-Me
-2598	Azrael	Translate-Me
-3001	Gnoll-Kämpfer	Translate-Me
-3002	Gnoll-Bogenschütze	Translate-Me
-3003	Gnoll-Verteidiger	Translate-Me
-3004	Gnoll-Magier	Translate-Me
-3005	Gnoll-General	Translate-Me
-3090	Lord Gnoll	Translate-Me
-3091	Oberste Gnoll-Wache	Translate-Me
-3101	Einäugiger Schläger	Translate-Me
-3102	Zyklopen-Soldat	Translate-Me
-3103	Zyklopen-Magier	Translate-Me
-3104	Zyklopen-Henker	Translate-Me
-3105	General Outis	Translate-Me
-3190	Arges	Translate-Me
-3191	Polyphemos	Translate-Me
-3201	Mantikor-Kämpfer	Translate-Me
-3202	Mantikor-Soldat	Translate-Me
-3203	Mantikor Magus	Translate-Me
-3204	Mantikor-Henker	Translate-Me
-3205	General Kor	Translate-Me
-3290	Rakshasa	Translate-Me
-3291	Martyaxwar	Translate-Me
-3301	Lemuren-Kämpfer	Translate-Me
-3302	Lemuren-Soldat	Translate-Me
-3303	Lemuren-Magier	Translate-Me
-3304	Lemuren-Henker	Translate-Me
-3305	Lemuren-General	Translate-Me
-3390	Lemuren-Fürst	Translate-Me
-3391	Lemurische Leibgarde	Translate-Me
-3401	Tritonische Muräne	Translate-Me
-3402	Riffhai-Soldat	Translate-Me
-3403	Tritonischer Magier	Translate-Me
-3404	Tritonischer Jäger	Translate-Me
-3405	Tritonischer Schlitzer	Translate-Me
-3490	General Kappa	Translate-Me
-3491	Triton	Translate-Me
-3501	Rotdieb-Amazone	Translate-Me
-3502	Rotdieb-Assassine	Translate-Me
-3503	Rotdieb-Magier	Translate-Me
-3504	Rotdieb-Henker	Translate-Me
-3505	Schwarzer General	Translate-Me
-3551	Brutale Rotdieb-Amazone	Translate-Me
-3552	Brut. Rotdieb-Assassine	Translate-Me
-3553	Brutaler Rotdieb-Magier	Translate-Me
-3554	Brutaler Rotdieb-Henker	Translate-Me
-3555	Weißer General	Translate-Me
-3590	Knochengesicht	Translate-Me
-3591	Roter Häuptling	Translate-Me
-3595	Brutales Knochengesicht	Translate-Me
-3596	Brutaler Roter Häuptling	Translate-Me
-3601	Krabben-Kämpfer	Translate-Me
-3602	Skorpischer Schütze	Translate-Me
-3603	Shrimps-Soldat	Translate-Me
-3604	Diabolischer Einsiedler	Translate-Me
-3605	Panzerkrabbe	Translate-Me
-3690	General Lobster	Translate-Me
-3691	König Krabbs	Translate-Me
-3701	Gigantischer Beißer	Translate-Me
-3702	Giganten-Schlächter	Translate-Me
-3703	Gigantus Magus	Translate-Me
-3704	Zwigant	Translate-Me
-3705	Kapitän Huk	Translate-Me
-3790	Gargoyle	Translate-Me
-3791	König Wobba	Translate-Me
-3801	Henkog	Translate-Me
-3802	Archie Oger	Translate-Me
-3803	Streitoger	Translate-Me
-3804	Oger Magus	Translate-Me
-3805	General Ogg	Translate-Me
-3890	Kapitän Shrack	Translate-Me
-3891	Der Große Oger	Translate-Me
-3901	Weidenmann	Translate-Me
-3902	Eoten	Translate-Me
-3903	Skouman	Translate-Me
-3904	Kapitän Huk	Translate-Me
-3905	Mu-Shu	Translate-Me
-3906	Yah-Ki	Translate-Me
-3907	Moghu	Translate-Me
-3908	Carnifex	Translate-Me
-3909	General Albus	Translate-Me
-3910	Skeletos	Translate-Me
-3911	Aku-Boku	Translate-Me
-3912	Arboretum	Translate-Me
-3913	Sycomor	Translate-Me
-5001	Pirat Tanaka	Translate-Me
-5002	Hae-Tae	Translate-Me
-5003	Affe	Translate-Me
-5004	Pirat Tanaka	Translate-Me
-5101	Schwacher Affensoldat	Translate-Me
-5102	Schwacher Affenwerfer	Translate-Me
-5103	Schwacher Affenkämpfer	Translate-Me
-5104	Schwacher Affengeneral	Translate-Me
-5111	Affensoldat	Translate-Me
-5112	Affenwerfer	Translate-Me
-5113	Affenkämpfer	Translate-Me
-5114	Affengeneral	Translate-Me
-5115	Steinaffe	Translate-Me
-5116	Affenanführer	Translate-Me
-5121	Starker Affensoldat	Translate-Me
-5122	Starker Affenwerfer	Translate-Me
-5123	Starker Affenkämpfer	Translate-Me
-5124	Starker Affengeneral	Translate-Me
-5125	Starker Steinaffe	Translate-Me
-5126	Starker Goldaffe	Translate-Me
-5127	Starker Affenanführer	Translate-Me
-5131	Kluger kl. Affensoldat	Translate-Me
-5132	Kluger kl. Affenwerfer	Translate-Me
-5133	Kluger kl. Affenkämpfer	Translate-Me
-5134	Kluger kl. Affengeneral	Translate-Me
-5141	Schlauer Affensoldat	Translate-Me
-5142	Schlauer Affenwerfer	Translate-Me
-5143	Schlauer Affenkämpfer	Translate-Me
-5144	Schlauer Affengeneral	Translate-Me
-5145	Schlauer Steinaffe	Translate-Me
-5146	Schlauer Affenanführer	Translate-Me
-5151	Böser Affensoldat	Translate-Me
-5152	Böser Affenwerfer	Translate-Me
-5153	Böser Affenkämpfer	Translate-Me
-5154	Böser Affengeneral	Translate-Me
-5155	Böser Steinaffe	Translate-Me
-5156	Böser Goldaffe	Translate-Me
-5157	Böser Affenanführer	Translate-Me
-5161	Felsenaffe	Translate-Me
-5162	Gehender Affe	Translate-Me
-5163	Affen-Lord	Translate-Me
-5201	Wildhund	Translate-Me
-5202	Keiler	Translate-Me
-5203	Roter Keiler	Translate-Me
-5204	Bär	Translate-Me
-5205	Braunbär	Translate-Me
-5206	Schwarzbär	Translate-Me
-5207	Hungriger Braunbär	Translate-Me
-5208	Tiger	Translate-Me
-5209	Weißer Tiger	Translate-Me
-6001	Glut-Flammengeist	Translate-Me
-6002	Glut-Flammentiger	Translate-Me
-6003	Glut-Flamme	Translate-Me
-6004	Glut-Flammenkrieger	Translate-Me
-6005	Glut-Flammenkönig	Translate-Me
-6006	Glut-Flammentroll	Translate-Me
-6007	Glut-Flammenbart	Translate-Me
-6008	Glut-Flammengeneral	Translate-Me
-6009	Glut-Flammenfürst	Translate-Me
-6051	Ignator	Translate-Me
-6091	Razador	Translate-Me
-6101	Frostkristall	Translate-Me
-6102	Frostinsekt	Translate-Me
-6103	Frostmann	Translate-Me
-6104	Frostyeti	Translate-Me
-6105	Frostgolem	Translate-Me
-6106	Frosttroll	Translate-Me
-6107	Frostbart	Translate-Me
-6108	Frostgeneral	Translate-Me
-6109	Frostfürst	Translate-Me
-6110	Magmayeti	Translate-Me
-6111	Magmagolem	Translate-Me
-6112	Magmainsekt	Translate-Me
-6113	Magmamann	Translate-Me
-6114	Magmakristall	Translate-Me
-6115	Magmawyvern	Translate-Me
-6116	Drachenwächter Idall	Translate-Me
-6117	Idalls Scherge	Translate-Me
-6118	Drachenstatue	Translate-Me
-6151	Szel	Translate-Me
-6191	Nemere	Translate-Me
-6192	Jotun Thrym	Translate-Me
-6193	Drachenkönigin Meley	Translate-Me
-6301	Ochao-Kämpfer	Translate-Me
-6302	Ochao-Soldat	Translate-Me
-6303	Ochao-Magier	Translate-Me
-6304	Ochao-Henker	Translate-Me
-6305	Ochao-General	Translate-Me
-6306	Starker Ochao-Kämpfer	Translate-Me
-6307	Starker Ochao-Soldat	Translate-Me
-6308	Starker Ochao-Magier	Translate-Me
-6309	Starker Ochao-Henker	Translate-Me
-6310	Starker Ochao-General	Translate-Me
-6391	Ochao-Fürst	Translate-Me
-6392	Leibgarde der Ochao	Translate-Me
-6393	Starker Ochao-Fürst	Translate-Me
-6394	St. Leibgarde der Ochao	Translate-Me
-6401	En-Tai-Kämpfer	Translate-Me
-6402	En-Tai-Krieger	Translate-Me
-6403	En-Tai-Druide	Translate-Me
-6404	En-Tai-Heiler	Translate-Me
-6405	En-Tai-Wächter	Translate-Me
-6406	En-Tai-Vernichter	Translate-Me
-6407	En-Tai-Herrscher	Translate-Me
-6408	Bagjanamu	Translate-Me
-6409	Ochao-Heiler	Translate-Me
-6410	Starker En-Tai-Kämpfer	Translate-Me
-6411	Starker En-Tai-Krieger	Translate-Me
-6412	Starker En-Tai-Druide	Translate-Me
-6413	Starker En-Tai-Heiler	Translate-Me
-6414	St. En-Tai-Vernichter	Translate-Me
-6415	Event Beran-Setaou	Translate-Me
-6416	Event Nemere	Translate-Me
-6417	Event Razador	Translate-Me
-6418	Event Jotun Thrym	Translate-Me
-6419	Event Roter Drache	Translate-Me
-6420	Schattenkrieger	Translate-Me
-7001	Affensoldat	Translate-Me
-7002	Affenreiter	Translate-Me
-7003	Gimu Affensoldat	Translate-Me
-7004	Affenkommander	Translate-Me
-7005	Stein Affe	Translate-Me
-7006	Goldaffe	Translate-Me
-7007	Affengeneral	Translate-Me
-7008	Tu-Gui Arbeiter	Translate-Me
-7009	Tu-Gui Soldatenprüfer	Translate-Me
-7010	Tu-Gui weißer Kommander	Translate-Me
-7012	Bi-Ma-Gui-An	Translate-Me
-7013	König Skorpion	Translate-Me
-7014	Listiger Skorpionmann	Translate-Me
-7015	Skorpionbogenschütze	Translate-Me
-7016	Schlangenschwertkämpfer	Translate-Me
-7017	Schlangenbogenschütze	Translate-Me
-7018	Wüstenbandit	Translate-Me
-7019	Tu-ji Soldat	Translate-Me
-7020	Hwa-ryung	Translate-Me
-7021	Tu-Ji Rumtreiber	Translate-Me
-7022	Cham-Ma	Translate-Me
-7023	Teawha-Mu	Translate-Me
-7024	Juk-gui	Translate-Me
-7025	Dung-Juk	Translate-Me
-7026	Juk-Mok	Translate-Me
-7027	Hwaryu Juk	Translate-Me
-7028	Schwarzer Juk-Guimok	Translate-Me
-7029	Eisteufel	Translate-Me
-7030	Eishorn Killerwal	Translate-Me
-7031	Eisinsekt	Translate-Me
-7032	Seol-Gu	Translate-Me
-7033	Eismann	Translate-Me
-7034	Eisgigant	Translate-Me
-7035	Eisgolem	Translate-Me
-7036	Eisteufel	Translate-Me
-7037	Eishorn Killerwal	Translate-Me
-7038	Eisinsekt	Translate-Me
-7039	Seol-Gu	Translate-Me
-7040	Eismann	Translate-Me
-7041	Eisgigant	Translate-Me
-7042	Eisgolem	Translate-Me
-7043	Eisteufel	Translate-Me
-7044	Eishorn Killerwal	Translate-Me
-7045	Eisinsekt	Translate-Me
-7046	Seol-Gu	Translate-Me
-7047	Eismann	Translate-Me
-7048	Eisgigant	Translate-Me
-7049	Eisgolem	Translate-Me
-7050	Wüstenflugauge	Translate-Me
-7051	Königsskorpion	Translate-Me
-7052	Junger Skorpionmann	Translate-Me
-7053	Skorpionbogenschütze	Translate-Me
-7054	Schlangenschwertkämpfer	Translate-Me
-7055	Schlangenbogenschütze	Translate-Me
-7056	Wüstenbandit	Translate-Me
-7057	Wüstenflugauge	Translate-Me
-7058	Königsskorpion	Translate-Me
-7059	Junger Skorpionmann	Translate-Me
-7060	Skorpionbogenschütze	Translate-Me
-7061	Schlangenschwertkämpfer	Translate-Me
-7062	Schlangenbogenschütze	Translate-Me
-7063	Wüstenbandit	Translate-Me
-7064	Wüstenflugauge	Translate-Me
-7065	Königsskorpion	Translate-Me
-7066	Junger Skorpionmann	Translate-Me
-7067	Skorpionbogenschütze	Translate-Me
-7068	Schlangenschwertkämpfer	Translate-Me
-7069	Schlangenbogenschütze	Translate-Me
-7070	Wüstenbandit	Translate-Me
-7071	Kampftigersklave	Translate-Me
-7072	Flammengeist	Translate-Me
-7073	Kampftiger	Translate-Me
-7074	Flamme	Translate-Me
-7075	Flammenkrieger	Translate-Me
-7076	Kampftigersklave	Translate-Me
-7077	Flammengeist	Translate-Me
-7078	Kampftiger	Translate-Me
-7079	Flamme	Translate-Me
-7080	Flammenkrieger	Translate-Me
-7081	Kampftigersklave	Translate-Me
-7082	Flammengeist	Translate-Me
-7083	Kampftiger	Translate-Me
-7084	Flamme	Translate-Me
-7085	Flammenkrieger	Translate-Me
-7086	Geisterbaumstumpf	Translate-Me
-7087	Dryade	Translate-Me
-7088	Geisterweide	Translate-Me
-7089	Böser Baum	Translate-Me
-7090	Geisterbaumstumpf	Translate-Me
-7091	Dryade	Translate-Me
-7092	Geisterweide	Translate-Me
-7093	Böser Baum	Translate-Me
-7094	Geisterbaumstumpf	Translate-Me
-7095	Dryade	Translate-Me
-7096	Geisterweide	Translate-Me
-7101	Kanone	Translate-Me
-7102	Kanone	Translate-Me
-7103	Pfeilhagelballiste	Translate-Me
-7104	Pfeilhagelballiste	Translate-Me
-7105	Turm	Translate-Me
-7106	Feuerstelle	Translate-Me
-7107	Feuerstelle	Translate-Me
-7108	Feuerstelle	Translate-Me
-7109	Feuerstelle	Translate-Me
-7110	Feuerstelle	Translate-Me
-7111	Feuerstelle	Translate-Me
-7112	Feuerstelle	Translate-Me
-7113	Cheeta	Translate-Me
-7114	Kraton	Translate-Me
-7115	Charly	Translate-Me
-7116	Nini	Translate-Me
-7117	Zulu	Translate-Me
-7118	Affenkrieger Deka	Translate-Me
-7119	Affenkrieger Oba	Translate-Me
-7120	König Keung	Translate-Me
-7121	Kiros	Translate-Me
-7122	Manchu	Translate-Me
-7123	Sgok	Translate-Me
-7124	Indrik	Translate-Me
-8001	Metin des Kummers	Translate-Me
-8002	Metin des Kampfs	Translate-Me
-8003	Metin der Schlacht	Translate-Me
-8004	Metin der Gier	Translate-Me
-8005	Metin der Schwärze	Translate-Me
-8006	Metin der Dunkelheit	Translate-Me
-8007	Metin der Eifersucht	Translate-Me
-8008	Metin der Seele	Translate-Me
-8009	Metin des Schattens	Translate-Me
-8010	Metin der Härte	Translate-Me
-8011	Metin des Teufels	Translate-Me
-8012	Metin des Sturzes	Translate-Me
-8013	Metin des Todes	Translate-Me
-8014	Metin des Mordes	Translate-Me
-8015	Metin der Härte	Translate-Me
-8016	Metin des Teufels	Translate-Me
-8017	Metin des Sturzes	Translate-Me
-8018	Metin des Todes	Translate-Me
-8019	Metin des Mordes	Translate-Me
-8020	Shinsoo-Felsen	Translate-Me
-8021	Jinno-Felsen	Translate-Me
-8022	Chunjo-Felsen	Translate-Me
-8023	Kaiserfelsen	Translate-Me
-8024	Metin Pung-Ma	Translate-Me
-8025	Metin Ma-An	Translate-Me
-8026	Metin Tu-Young	Translate-Me
-8027	Metin Jeon-Un	Translate-Me
-8031	Metin des Berges	Translate-Me
-8032	Metin der Rache	Translate-Me
-8033	Metin der Einsamkeit	Translate-Me
-8034	Metin des Hochmuts	Translate-Me
-8035	Metin der Erlösung	Translate-Me
-8036	Metin des Verrats	Translate-Me
-8037	Metin der Verbitterung	Translate-Me
-8038	Metin der Vergeltung	Translate-Me
-8039	Metin des Hochmutes	Translate-Me
-8040	Metin der Missgunst	Translate-Me
-8041	Oster-Metin	Translate-Me
-8042	Oster-Metin	Translate-Me
-8043	Oster-Metin	Translate-Me
-8044	Oster-Metin	Translate-Me
-8045	Oster-Metin	Translate-Me
-8046	Oster-Metin	Translate-Me
-8047	Oster-Metin	Translate-Me
-8048	Oster-Metin	Translate-Me
-8049	Oster-Metin	Translate-Me
-8050	Oster-Metin	Translate-Me
-8051	Metin der Finsternis	Translate-Me
-8052	Metin der Glut	Translate-Me
-8053	Metin der Eitelkeit	Translate-Me
-8054	Metin des Zorns	Translate-Me
-8055	Metin des Unheils	Translate-Me
-8056	Metin der Niedertracht	Translate-Me
-8057	Metin des Fegefeuers	Translate-Me
-8058	Metin der Kälte	Translate-Me
-8059	Metin der Baumwesen	Translate-Me
-8060	Kürbis-Metin	Translate-Me
-8061	Metin des Waldes	Translate-Me
-8101	Metin des Kummers	Translate-Me
-8102	Metin des Kampfs	Translate-Me
-8103	Metin der Schlacht	Translate-Me
-8104	Metin der Gier	Translate-Me
-8105	Metin der Schwärze	Translate-Me
-8106	Metin der Dunkelheit	Translate-Me
-8107	Metin der Eifersucht	Translate-Me
-8108	Metin der Seele	Translate-Me
-8109	Metin des Schattens	Translate-Me
-8110	Metin der Härte	Translate-Me
-8111	Metin des Teufels	Translate-Me
-8112	Metin des Sturzes	Translate-Me
-8113	Metin des Todes	Translate-Me
-8114	Metin des Mordes	Translate-Me
-8115	Metin des Mondes	Translate-Me
-8200	Schokoladen-Metinstein	Translate-Me
-8201	Schokoladen-Metinstein	Translate-Me
-8203	Metin der Erleuchtung	Translate-Me
-8501	Wildhund	Translate-Me
-8502	Keiler	Translate-Me
-8503	Bär	Translate-Me
-8504	Weißer Tiger	Translate-Me
-8505	Schwarzer Ork-Riese	Translate-Me
-8506	Baumfrosch-Anführer	Translate-Me
-8507	Wüstenbandit	Translate-Me
-8508	Esoterischer Peiniger	Translate-Me
-8509	Esoterischer Beschwörer	Translate-Me
-8510	Flammenkrieger	Translate-Me
-8511	Eisgolem	Translate-Me
-8600	?????	Translate-Me
-8601	?????	Translate-Me
-8602	?????	Translate-Me
-8603	?????	Translate-Me
-8604	????	Translate-Me
-8605	????	Translate-Me
-8606	??	Translate-Me
-8607	??	Translate-Me
-8608	±¸¹ÌÈ£	Translate-Me
-8609	±¸¹ÌÈ£	Translate-Me
-8610	´©··Åõ¹ü±Í	Translate-Me
-8611	´©··Åõ¹ü±Í	Translate-Me
-8612	????	Translate-Me
-8613	????	Translate-Me
-8614	??????	Translate-Me
-8615	??????	Translate-Me
-8616	Billy Loomis	Translate-Me
-8617	Jack Torrance	Translate-Me
-8618	Chucky	Translate-Me
-8619	Zep Hindle	Translate-Me
-8620	Jason	Translate-Me
-8621	Michael Myers	Translate-Me
-8622	Freddy Krüger	Translate-Me
-8623	Ledergesicht	Translate-Me
-9001	Waffenhändler	Translate-Me
-9002	Rüstungshändler	Translate-Me
-9003	Gemischtwarenhändlerin	Translate-Me
-9004	Ereignishelfer	Translate-Me
-9005	Lagerverwalter	Translate-Me
-9006	Alte Frau	Translate-Me
-9007	Waffenhändler	Translate-Me
-9008	Rüstungshändler	Translate-Me
-9009	Fischer	Translate-Me
-9010	Spezialhändlerin	Translate-Me
-9011	Hochzeitsplanerin	Translate-Me
-9012	Teleporter	Translate-Me
-10001	Gebiet_Jayang 4002 8995	Translate-Me
-10002	Gebiet_Yongan 4503 9050	Translate-Me
-10003	Gebiet_Bokjung 1118 2161	Translate-Me
-10004	Gebiet_Joan 876 2131	Translate-Me
-10005	Gebiet_Bakra 9064 2214	Translate-Me
-10006	Gebiet_Pyungmo 9372 2188	Translate-Me
-10007	Gebiet_Yongan 4188 9560	Translate-Me
-10008	Gebiet_Jayang 3179 8332	Translate-Me
-10009	Gebiet_Joan 897 1127	Translate-Me
-10010	Gebiet_Bokjung 1759 2210	Translate-Me
-10011	Gebiet_Pyungmo 9343 3143	Translate-Me
-10012	Gebiet_Bakra 8348 2926	Translate-Me
-10013	Hwang-Tempel 5536 1441	Translate-Me
-10014	Seungryong 3326 7468	Translate-Me
-10015	Yongbi-Wüste 3467 6329	Translate-Me
-10016	Kuahlo_Dong 600 4960	Translate-Me
-10017	Hwang-Tempel 5906 1102	Translate-Me
-10018	Gumsan-Turm 2165 7270	Translate-Me
-10019	Gebiet_Jayang 3211 9009	Translate-Me
-10020	Jungrang 1356 43	Translate-Me
-10021	Gebiet_Bokjung 1168 2920	Translate-Me
-10022	Waryong 2219 93	Translate-Me
-10023	Gebiet_Bakra 9098 2948	Translate-Me
-10024	Imha 2718 130	Translate-Me
-10025	Berg_Sohan 4993 2984	Translate-Me
-10026	Lungsam 2887 57	Translate-Me
-10027	Lungsam 2866 437	Translate-Me
-10028	Roter_Wald 11199 708	Translate-Me
-10029	Schlangenfeld 10590 7262	Translate-Me
-10030	Yongbi-Wüste 3519 6223	Translate-Me
-10031	Schlangenfeld 10590 7262	Translate-Me
-10032	Land_d._Riesen 8283 7635	Translate-Me
-10033	Zin-Grotte 10594 7525	Translate-Me
-10034	2_Zin-Grotte 10594 7525	Translate-Me
-10035	Deon-Zeon 917 5253	Translate-Me
-10036	2_Deon-Zeon 7041 4642	Translate-Me
-10037	??? 3809 8233	Translate-Me
-10038	??? 9752 1330	Translate-Me
-10039	??? 1917 2900	Translate-Me
-10040	??? 9239 1836	Translate-Me
-10041	??? 8316 2154	Translate-Me
-10042	??? 9772 1850	Translate-Me
-10043	??? 3819 2969	Translate-Me
-10044	??? 10189 1484	Translate-Me
-10045	??? 3819 2969	Translate-Me
-10046	??? 9774 1501	Translate-Me
-10047	??? 2699 6752	Translate-Me
-10048	??? 9679 1994	Translate-Me
-10049	??? 2699 6752	Translate-Me
-10050	??? 9256 2012	Translate-Me
-10051	???? 3478 6189	Translate-Me
-10052	??? 9780 1995	Translate-Me
-10053	???? 3478 6189	Translate-Me
-10054	??? 10190 2002	Translate-Me
-10055	???? 6011 6874	Translate-Me
-10056	??? 4368 2158	Translate-Me
-10057	??? 3355 7558	Translate-Me
-10058	???? 5943 1337	Translate-Me
-10059	???1 0 10496	Translate-Me
-10060	????1 1536 10496	Translate-Me
-10061	????1 4608 10496	Translate-Me
-10062	???1 6144 10496	Translate-Me
-10063	??? 3031 266	Translate-Me
-10064	???? 11133 534	Translate-Me
-10065	???? 7754 10553	Translate-Me
-10066	????? 9915 11195	Translate-Me
-10067	Affendungeon 7752 4477	Translate-Me
-10068	Gebiet_Jayang 4062 8756	Translate-Me
-10069	Affendungeon 8520 4477	Translate-Me
-10070	Gebiet_Bokjung 1611 2130	Translate-Me
-10071	Affendungeon 9288 4477	Translate-Me
-10072	Gebiet_Bakra 8727 2100	Translate-Me
-10073	Yongbi-Wüste 3061 6202	Translate-Me
-10074	Affendungeon 1352 6532	Translate-Me
-10075	Yongbi-Wüste 2879 5407	Translate-Me
-10076	Affendungeon 1352 7300	Translate-Me
-10077	????1? 9 12078	Translate-Me
-10078	??? 2842 8106	Translate-Me
-10079	Grotte1 1459 13236	Translate-Me
-10080	????2? 2413 12755	Translate-Me
-10081	????1? 99 13618	Translate-Me
-10082	???? 5028 9998	Translate-Me
-10083	????1? 1360 14972	Translate-Me
-10084	????2? 2414 14289	Translate-Me
-10085	????1? 99 15154	Translate-Me
-10086	???? 616 1148	Translate-Me
-10087	????1? 1360 16508	Translate-Me
-10088	????2? 2414 15825	Translate-Me
-10089	????1? 99 16690	Translate-Me
-10090	???? 9609 3188	Translate-Me
-10091	????1? 1360 18044	Translate-Me
-10092	????2? 2414 17361	Translate-Me
-10093	Drachenpforte 1731 12205	Translate-Me
-10094	Drachenpforte 1733 13743	Translate-Me
-10095	Drachenpforte 1728 15277	Translate-Me
-10096	Drachenpforte 1724 16824	Translate-Me
-10097	SD2 7040 5235	Translate-Me
-10098	SD3 984 5711	Translate-Me
-10099	Kap 11043 17885	Translate-Me
-10100	Kap 10963 16744	Translate-Me
-10101	Nephritbucht 10869 16558	Translate-Me
-10102	Kap 11664 16779	Translate-Me
-10103	Donnerberge 11345 16546	Translate-Me
-10104	Donnerberge 11921 16550	Translate-Me
-10105	Gautamakliff 12263 16811	Translate-Me
-10501	. 345 361	Translate-Me
-10502	. 106 547	Translate-Me
-10503	. 75 368	Translate-Me
-10504	. 89 746	Translate-Me
-10505	. 520 352	Translate-Me
-10506	. 541 45	Translate-Me
-10507	. 211 109	Translate-Me
-10508	. 615 49	Translate-Me
-10509	. 284 705	Translate-Me
-10510	. 145 310	Translate-Me
-10511	. 553 285	Translate-Me
-10512	. 487 274	Translate-Me
-10513	. 626 291	Translate-Me
-10514	. 285 569	Translate-Me
-10515	. 80 303	Translate-Me
-10516	. 315 238	Translate-Me
-10517	. 416 272	Translate-Me
-10518	. 72 498	Translate-Me
-10519	. 215 495	Translate-Me
-10520	. 523 415	Translate-Me
-10521	. 72 498	Translate-Me
-10522	. 518 480	Translate-Me
-10523	. 583 379	Translate-Me
-10524	. 459 558	Translate-Me
-10601	. 345 361	Translate-Me
-10602	. 520 352	Translate-Me
-10603	. 487 274	Translate-Me
-10604	. 75 368	Translate-Me
-10605	. 211 109	Translate-Me
-10606	. 215 495	Translate-Me
-10607	. 315 238	Translate-Me
-10608	. 520 352	Translate-Me
-10609	. 284 705	Translate-Me
-10610	. 145 310	Translate-Me
-10611	. 416 272	Translate-Me
-10612	. 80 303	Translate-Me
-10613	. 72 498	Translate-Me
-10614	. 106 547	Translate-Me
-10615	. 523 415	Translate-Me
-10616	. 541 45	Translate-Me
-10617	. 72 121	Translate-Me
-10618	. 518 480	Translate-Me
-10619	. 89 746	Translate-Me
-10620	. 285 569	Translate-Me
-10621	. 615 49	Translate-Me
-10622	. 72 498	Translate-Me
-10623	. 583 379	Translate-Me
-10624	. 459 558	Translate-Me
-10625	. 609 553	Translate-Me
-10626	. 594 338	Translate-Me
-10701	. 75 368	Translate-Me
-10702	. 541 45	Translate-Me
-10703	. 615 49	Translate-Me
-10704	. 284 705	Translate-Me
-10705	. 520 352	Translate-Me
-10706	. 553 285	Translate-Me
-10707	. 145 310	Translate-Me
-10708	. 345 361	Translate-Me
-10709	. 523 415	Translate-Me
-10710	. 72 498	Translate-Me
-10711	. 626 291	Translate-Me
-10712	. 487 274	Translate-Me
-10713	. 72 498	Translate-Me
-10714	. 106 547	Translate-Me
-10715	. 518 480	Translate-Me
-10716	. 285 569	Translate-Me
-10717	. 80 303	Translate-Me
-10718	. 211 109	Translate-Me
-10719	. 416 272	Translate-Me
-10720	. 215 495	Translate-Me
-10721	. 315 238	Translate-Me
-10722	. 89 746	Translate-Me
-10723	. 583 379	Translate-Me
-10724	. 459 558	Translate-Me
-10725	. 609 553	Translate-Me
-10726	. 594 338	Translate-Me
-10801	. 70 581	Translate-Me
-10802	. 69 664	Translate-Me
-10803	. 132 660	Translate-Me
-10804	. 184 566	Translate-Me
-10805	. 285 567	Translate-Me
-10806	. 272 636	Translate-Me
-10807	. 191 667	Translate-Me
-10808	. 345 563	Translate-Me
-10809	. 400 570	Translate-Me
-10810	. 68 806	Translate-Me
-10811	. 140 811	Translate-Me
-10812	. 189 722	Translate-Me
-10813	. 274 722	Translate-Me
-10814	.233 780	Translate-Me
-10815	. 318 780	Translate-Me
-10816	. 273 833	Translate-Me
-10817	.356 717	Translate-Me
-10818	.412 712	Translate-Me
-10819	. 372 776	Translate-Me
-10820	. 354 840	Translate-Me
-10821	. 366 817	Translate-Me
-10822	. 420 841	Translate-Me
-10823	. 94 846	Translate-Me
-10824	. 63 864	Translate-Me
-10825	. 131 866	Translate-Me
-10826	. 59 920	Translate-Me
-10827	. 91 940	Translate-Me
-10828	. 135 919	Translate-Me
-10829	. 194 870	Translate-Me
-10830	. 243 862	Translate-Me
-10831	. 312 861	Translate-Me
-10832	. 373 893	Translate-Me
-10833	. 406 880	Translate-Me
-10834	. 422 935	Translate-Me
-10835	. 500 807	Translate-Me
-11000	Wächter des Dorfplatzes	Translate-Me
-11001	Schlachtenverwalter	Translate-Me
-11002	Wächter des Dorfplatzes	Translate-Me
-11003	Schlachtenverwalter	Translate-Me
-11004	Wächter des Dorfplatzes	Translate-Me
-11005	Schlachtenverwalter	Translate-Me
-11100	Wächter des Dorfplatzes	Translate-Me
-11101	Schlachtenverwalter	Translate-Me
-11102	Wächter des Dorfplatzes	Translate-Me
-11103	Schlachtenverwalter	Translate-Me
-11104	Wächter des Dorfplatzes	Translate-Me
-11105	Schlachtenverwalter	Translate-Me
-11106	???	Translate-Me
-11107	???	Translate-Me
-11108	???	Translate-Me
-11109	???	Translate-Me
-11110	???	Translate-Me
-11111	???	Translate-Me
-11112	???	Translate-Me
-11113	???	Translate-Me
-11114	???	Translate-Me
-11115	???	Translate-Me
-11116	???	Translate-Me
-11117	???	Translate-Me
-11505	Goldener Frosch	Translate-Me
-11506	??	Translate-Me
-11507	??	Translate-Me
-11508	??	Translate-Me
-11509	??	Translate-Me
-11510	??	Translate-Me
-12000	Lagerfeuer	Translate-Me
-13000	Holztor	Translate-Me
-13001	Steintor	Translate-Me
-14000	Werkstatt	Translate-Me
-14001	Werkstatt	Translate-Me
-14002	Werkstatt	Translate-Me
-14003	Werkstatt	Translate-Me
-14004	Werkstatt	Translate-Me
-14005	Werkstatt	Translate-Me
-14006	Werkstatt	Translate-Me
-14007	Werkstatt	Translate-Me
-14008	Werkstatt	Translate-Me
-14009	Werkstatt	Translate-Me
-14010	Altar	Translate-Me
-14011	Altar	Translate-Me
-14012	Altar	Translate-Me
-14013	Altar	Translate-Me
-14014	Altar	Translate-Me
-14015	Altar	Translate-Me
-14016	Altar	Translate-Me
-14017	Altar	Translate-Me
-14018	Altar	Translate-Me
-14019	Altar	Translate-Me
-14020	Hauptquartier	Translate-Me
-14021	Hauptquartier	Translate-Me
-14022	Hauptquartier	Translate-Me
-14023	Hauptquartier	Translate-Me
-14024	Hauptquartier	Translate-Me
-14025	Hauptquartier	Translate-Me
-14026	Hauptquartier	Translate-Me
-14027	Hauptquartier	Translate-Me
-14028	Hauptquartier	Translate-Me
-14029	Hauptquartier	Translate-Me
-14030	Trainingscamp	Translate-Me
-14031	Trainingscamp	Translate-Me
-14032	Trainingscamp	Translate-Me
-14033	Trainingscamp	Translate-Me
-14034	Trainingscamp	Translate-Me
-14035	Trainingscamp	Translate-Me
-14036	Trainingscamp	Translate-Me
-14037	Trainingscamp	Translate-Me
-14038	Trainingscamp	Translate-Me
-14039	Trainingscamp	Translate-Me
-14040	Ofen	Translate-Me
-14041	Ofen	Translate-Me
-14042	Ofen	Translate-Me
-14043	Ofen	Translate-Me
-14044	Ofen	Translate-Me
-14045	Ofen	Translate-Me
-14046	Ofen	Translate-Me
-14047	Ofen	Translate-Me
-14048	Ofen	Translate-Me
-14049	Ofen	Translate-Me
-20001	Alchemist	Translate-Me
-20002	Aranyo	Translate-Me
-20003	Ah-Yu	Translate-Me
-20004	Bettler	Translate-Me
-20005	Yonah	Translate-Me
-20006	Mirine	Translate-Me
-20007	Lagerverwalter	Translate-Me
-20008	Octavio	Translate-Me
-20009	Alter Mann	Translate-Me
-20010	Fahrender Händler	Translate-Me
-20011	Uriel	Translate-Me
-20012	Yu-Rang	Translate-Me
-20013	Fischer	Translate-Me
-20014	Taurean	Translate-Me
-20015	Deokbae	Translate-Me
-20016	Schmied	Translate-Me
-20017	Yu-Hwan	Translate-Me
-20018	Baek-Go	Translate-Me
-20019	Yang-Shin	Translate-Me
-20020	Verräter Balso	Translate-Me
-20021	Ariyoung	Translate-Me
-20022	Huahn-So	Translate-Me
-20023	Soon	Translate-Me
-20024	Harang	Translate-Me
-20025	.	Translate-Me
-20026	Ji-Ryu	Translate-Me
-20027	Gillian	Translate-Me
-20028	Mirines Bruder	Translate-Me
-20029	Pony	Translate-Me
-20030	Pferd	Translate-Me
-20031	Weihnachtsmann	Translate-Me
-20032	Weihnachtsbaum	Translate-Me
-20033	Weihnachtsbaum	Translate-Me
-20034	Weihnachtsbaum	Translate-Me
-20035	Flagge	Translate-Me
-20036	Flagge	Translate-Me
-20037	Flagge	Translate-Me
-20038	..	Translate-Me
-20039	.	Translate-Me
-20040	Grundstücksverwalter	Translate-Me
-20041	Betrunkener Bürger	Translate-Me
-20042	Fahrender Händler	Translate-Me
-20043	.	Translate-Me
-20044	Waffenschmied	Translate-Me
-20045	Rüstungsschmied	Translate-Me
-20046	Juwelier	Translate-Me
-20047	Diamantader	Translate-Me
-20048	Bernsteinader	Translate-Me
-20049	Fossilholzader	Translate-Me
-20050	Kupferader	Translate-Me
-20051	Silberader	Translate-Me
-20052	Goldader	Translate-Me
-20053	Jadeader	Translate-Me
-20054	Ebenholzader	Translate-Me
-20055	Muschelstapel	Translate-Me
-20056	Weißgoldader	Translate-Me
-20057	Kristallader	Translate-Me
-20058	Quarzader	Translate-Me
-20059	Himmelstränenader	Translate-Me
-20060	Diamantalchemist	Translate-Me
-20061	Bernsteinalchemist	Translate-Me
-20062	Fossilholzalchemist	Translate-Me
-20063	Kupferalchemist	Translate-Me
-20064	Silberalchemist	Translate-Me
-20065	Goldalchemist	Translate-Me
-20066	Jadealchemist	Translate-Me
-20067	Ebenholzalchemist	Translate-Me
-20068	Perlenalchemist	Translate-Me
-20069	Weißgoldalchemist	Translate-Me
-20070	Kristallalchemist	Translate-Me
-20071	Quarzalchemist	Translate-Me
-20072	Himmelstränenalchemist	Translate-Me
-20073	Altes Siegel	Translate-Me
-20074	Turm-Waffenschmied	Translate-Me
-20075	Turm-Rüstungsschmied	Translate-Me
-20076	Turm-Juwelier	Translate-Me
-20077	Wächter des Altars	Translate-Me
-20078	Wächter des Altars	Translate-Me
-20079	Wächter des Altars	Translate-Me
-20080	Trainingsleiter	Translate-Me
-20081	Gestohlenes Gangsiegel	Translate-Me
-20082	Meister	Translate-Me
-20083	Jegal-Tunseok	Translate-Me
-20084	Biologe Chaegirab	Translate-Me
-20085	Jimjunja	Translate-Me
-20086	Handu-Up	Translate-Me
-20087	Wonda-Rim	Translate-Me
-20088	Chuk-Sal	Translate-Me
-20089	Pung-Ho	Translate-Me
-20090	Heuk-Young	Translate-Me
-20091	Seon-Pyeong	Translate-Me
-20092	Pfeilhändlerin	Translate-Me
-20093	Koe-Pung	Translate-Me
-20094	Friseurin	Translate-Me
-20095	Rhobar der III	Translate-Me
-20096	??? ???	Translate-Me
-20097	Burgtor	Translate-Me
-20098	Burgtor	Translate-Me
-20099	Burgtor	Translate-Me
-20101	Weißes Pferd	Translate-Me
-20102	Braunes Pferd	Translate-Me
-20103	Schwarzes Pferd	Translate-Me
-20104	Weißes Pferd	Translate-Me
-20105	Braunes Pferd	Translate-Me
-20106	Schwarzes Pferd	Translate-Me
-20107	Weißes Pferd	Translate-Me
-20108	Braunes Pferd	Translate-Me
-20109	Schwarzes Pferd	Translate-Me
-20110	Weißes Pferd	Translate-Me
-20111	Braunes Pferd	Translate-Me
-20112	Schwarzes Pferd	Translate-Me
-20122	?????	Translate-Me
-20123	?????	Translate-Me
-20124	?????	Translate-Me
-20125	?????	Translate-Me
-20126	Weihnachtsmann	Translate-Me
-20127	Jubiläumsbanner 1	Translate-Me
-20128	Jubiläumsbanner 2	Translate-Me
-20129	Jubiläumsbanner 3	Translate-Me
-20130	Jubiläumsbanner 4	Translate-Me
-20131	Jubiläumsbanner 5	Translate-Me
-20132	Jubiläumsbanner 6	Translate-Me
-20133	Jubiläumsbanner 7	Translate-Me
-20134	Sonnenbanner	Translate-Me
-20139	Gildenbanner (lila)	Translate-Me
-20140	Gildenbanner (blau/grün)	Translate-Me
-20141	Gildenbanner (rot/gold)	Translate-Me
-20138	Ramadanbanner	Translate-Me
-20201	??????	Translate-Me
-20202	??????	Translate-Me
-20203	?????	Translate-Me
-20204	???????	Translate-Me
-20205	?????? ??????	Translate-Me
-20206	?????? ??????	Translate-Me
-20207	?????? ?????	Translate-Me
-20208	?????? ???????	Translate-Me
-20209	?????? ??????	Translate-Me
-20210	?????? ??????	Translate-Me
-20211	?????? ?????	Translate-Me
-20212	?????? ???????	Translate-Me
-20213	?????????	Translate-Me
-20214	?????? ?????????	Translate-Me
-20215	?????? ?????????	Translate-Me
-20216	????????	Translate-Me
-20217	?????? ????????	Translate-Me
-20218	?????? ????????	Translate-Me
-20219	blackpony	Translate-Me
-20220	Å©¸®½º¸¶½º ¼ø·Ï	Translate-Me
-20221	Àü°©¹é¿õ	Translate-Me
-20222	Àü°©ÆÒ´õ	Translate-Me
-20223	Àü°©¼®·æÀÚ	Translate-Me
-20224	³­ÆøÇÑ Àü°©¼®·æÀÚ	Translate-Me
-20225	¿ë¸ÍÇÑ Àü°©¼®·æÀÚ	Translate-Me
-20226	ÈæÀ¯´ÏÄÜ	Translate-Me
-20227	¹éÀ¯´ÏÄÜ	Translate-Me
-20228	Àü°©¸ÍÁ¶	Translate-Me
-20229	³­ÆøÇÑ Àü°©¸ÍÁ¶	Translate-Me
-20230	¿ë¸ÍÇÑ Àü°©¸ÍÁ¶	Translate-Me
-20231	Àü°©Èæ¹ü	Translate-Me
-20232	Àü°©Ç¥¹ü	Translate-Me
-20233	Muffin (Zubehör braun)	Translate-Me
-20234	Nugget (Zubehör braun)	Translate-Me
-20235	Muffin (Zubehör blau)	Translate-Me
-20236	Nugget (Zubehör blau)	Translate-Me
-20237	Muffin (Zubehör grün)	Translate-Me
-20238	Nugget (Zubehör grün)	Translate-Me
-20239	Blitzen	Translate-Me
-20240	Donner	Translate-Me
-20241	Nugget (marine)	Translate-Me
-20242	Muffin (rosa)	Translate-Me
-20243	Kyzaghans Pferd	Translate-Me
-20244	Nirwana-Drache	Translate-Me
-20245	Samsara-Drache	Translate-Me
-20246	Manni	Translate-Me
-20247	Manu	Translate-Me
-20248	Braunes Kampf-Tulu	Translate-Me
-20249	Schwarzes Kampf-Tulu	Translate-Me
-20300	Körper-Kampf Lehrer	Translate-Me
-20301	Mental-Kampf Lehrer	Translate-Me
-20302	Nahkampf Lehrer	Translate-Me
-20303	Fernkampf Lehrer	Translate-Me
-20304	Magische-Waffen Lehrer	Translate-Me
-20305	Schwarze-Magie Lehrer	Translate-Me
-20306	Lehrer der Drachenmacht	Translate-Me
-20307	Lehrer der Heilung	Translate-Me
-20320	Körper-Kampf Lehrer	Translate-Me
-20321	Mental-Kampf Lehrer	Translate-Me
-20322	Nahkampf Lehrer	Translate-Me
-20323	Fernkampf Lehrer	Translate-Me
-20324	Magische-Waffen Lehrer	Translate-Me
-20325	Schwarze-Magie Lehrer	Translate-Me
-20326	Lehrer der Drachenmacht	Translate-Me
-20327	Lehrer der Heilung	Translate-Me
-20340	Körper-Kampf Lehrer	Translate-Me
-20341	Mental-Kampf Lehrer	Translate-Me
-20342	Nahkampf Lehrer	Translate-Me
-20343	Fernkampf Lehrer	Translate-Me
-20344	Magische-Waffen Lehrer	Translate-Me
-20345	Schwarze-Magie Lehrer	Translate-Me
-20346	Lehrer der Drachenmacht	Translate-Me
-20347	Lehrer der Heilung	Translate-Me
-20348	Wächter des Dämonenturms	Translate-Me
-20349	Stallbursche	Translate-Me
-20350	Dungeonwärter	Translate-Me
-20351	Hallenwächter	Translate-Me
-20352	Hasun Steindenkmal	Translate-Me
-20353	Seul Rong Steindenkmal	Translate-Me
-20354	Stadtwächter	Translate-Me
-20355	Hauptmann	Translate-Me
-20356	Ginsengsammler	Translate-Me
-20357	Weol Denkmal	Translate-Me
-20358	Namenlose Blumen	Translate-Me
-20359	Alte Box mit Papieren	Translate-Me
-20360	Wha Denkmal	Translate-Me
-20361	Su Denkmal	Translate-Me
-20362	Mok Denkmal	Translate-Me
-20363	Gum-Denkmal	Translate-Me
-20364	Nakajima	Translate-Me
-20365	To Denkmal	Translate-Me
-20366	Sa-Soe	Translate-Me
-20367	Wächter der Katakombe	Translate-Me
-20368	Fahrender Händler	Translate-Me
-20369	Lee Chung	Translate-Me
-20370	Vergifteter Soldat	Translate-Me
-20371	Alter Grabstein	Translate-Me
-20372	Verwitterte Steintafel	Translate-Me
-20373	Schutzgarde	Translate-Me
-20374	Wächter	Translate-Me
-20375	Holzbarrikade	Translate-Me
-20376	Kim Rim	Translate-Me
-20377	Yak-Hwan	Translate-Me
-20378	Admiral Angmur	Translate-Me
-20379	Verletzter Soldat	Translate-Me
-20380	Yon-I-Walker	Translate-Me
-20381	Konfuzius	Translate-Me
-20382	Felsenblume	Translate-Me
-20383	Jae-Seon Kim	Translate-Me
-20384	Weihnachtsbaum	Translate-Me
-20385	Schlund des Am-heh	Translate-Me
-20386	Stele der Isfet	Translate-Me
-20387	Schicksalsschloss	Translate-Me
-20388	Drachentor	Translate-Me
-20389	Mexican Bull	Translate-Me
-20390	Grabstein des Taramor	Translate-Me
-20391	Sonnenkraut	Translate-Me
-20392	Toter Soldat	Translate-Me
-20393	Verwundeter Soldat	Translate-Me
-20394	Feuerland-Wächter	Translate-Me
-20395	Eisland-Wächter	Translate-Me
-20396	Àû¼ö»ó´Ü ÆÇ¸Å¿ø	Translate-Me
-20397	Eisiger Löwe	Translate-Me
-20398	Würfel des Arktos	Translate-Me
-20399	Säule des Norddrachen	Translate-Me
-20400	Myonghorang der Weise	Translate-Me
-20401	Wächter der Kolonie	Translate-Me
-20402	Portalwächter	Translate-Me
-20403	Amarok	Translate-Me
-20404	Nagual	Translate-Me
-20405	Waheela	Translate-Me
-20406	Siehe Kommentar	Translate-Me
-20407	Fenrir	Translate-Me
-20408	Wächter des Tempels	Translate-Me
-20409	Wächter des Waldes	Translate-Me
-20410	Späher des Waldes	Translate-Me
-20411	Kundschafter des Waldes	Translate-Me
-20412	Anführer der Waldwächter	Translate-Me
-20413	Kawuco	Translate-Me
-20414	Budokan manager	Translate-Me
-20415	Portal	Translate-Me
-20416	Sam Pumpkin	Translate-Me
-20417	Okey-Spieltisch	Translate-Me
-20419	Drachenwächter Dolnarr	Translate-Me
-20420	Goldene Drachentruhe	Translate-Me
-20421	Drachenwächter Jaharr	Translate-Me
-20422	Drachenei	Translate-Me
-20423	Seelenkristallalchemist	Translate-Me
-20424	Rubinalchemist	Translate-Me
-20425	Granatalchemist	Translate-Me
-20426	Smaragdalchemist	Translate-Me
-20427	Saphiralchemist	Translate-Me
-20428	Turmalinalchemist	Translate-Me
-20429	Kampfzonen-Meister	Translate-Me
-20430	Törtchen	Translate-Me
-20431	Jubiläumshändler	Translate-Me
-30000	°³ÀÎ»óÁ¡	Translate-Me
-30001	°³ÀÎ»óÁ¡	Translate-Me
-30002	Tausendundeine Nacht	Translate-Me
-30003	Grillmeister	Translate-Me
-30004	Schatzjäger	Translate-Me
-30005	Sparflamme	Translate-Me
-30006	Waffenhändler	Translate-Me
-30007	Rüstungsgeschäft	Translate-Me
-30008	Alchemist	Translate-Me
-30101	Statue des Kud	Translate-Me
-30102	Basalt-Obelisk	Translate-Me
-30103	Schildkrötenfels	Translate-Me
-30104	Runenpfahl	Translate-Me
-30111	1. Tor der Verdammnis	Translate-Me
-30112	2. Tor der Verdammnis	Translate-Me
-30113	3. Tor der Verdammnis	Translate-Me
-30114	4. Tor der Verdammnis	Translate-Me
-30115	5. Tor der Verdammnis	Translate-Me
-30116	6. Tor der Verdammnis	Translate-Me
-30117	7. Tor der Verdammnis	Translate-Me
-30118	8. Tor der Verdammnis	Translate-Me
-30119	9. Tor der Verdammnis	Translate-Me
-30120	Kräutertasche	Translate-Me
-30121	Geist eines Sura	Translate-Me
-30122	Geist eines Kriegers	Translate-Me
-30123	Dunkler Schrein	Translate-Me
-30124	Sura-Skelett 1	Translate-Me
-30125	Sura-Skelett 2	Translate-Me
-30126	Sura-Skelett 3	Translate-Me
-30127	Sura-Skelett 4	Translate-Me
-30128	Sura-Skelett 5	Translate-Me
-30129	Osterhase	Translate-Me
-30130	Grabstein	Translate-Me
-30131	Herr B.	Translate-Me
-30132	Herr B.	Translate-Me
-30301	Seelenkristallader	Translate-Me
-30302	Rubinader	Translate-Me
-30303	Granatader	Translate-Me
-30304	Smaragdader	Translate-Me
-30305	Saphirader	Translate-Me
-30306	Turmalinerzader	Translate-Me
-30307	Summer	Translate-Me
-33001	?????? ???	Translate-Me
-33002	Historiker	Translate-Me
-33003	Fastender Bürger	Translate-Me
-33004	Fastender Bürger	Translate-Me
-33005	Fastender Bürger	Translate-Me
-33006	Fastender Bürger	Translate-Me
-33007	Fastender Bürger	Translate-Me
-33008	Jack Pumpkin	Translate-Me
-34001	phoenix1	Translate-Me
-34002	??? ???	Translate-Me
-34003	?????????	Translate-Me
-34004	ÆÄÈ²	Translate-Me
-34005	Porkie	Translate-Me
-34006	Rufus	Translate-Me
-34007	Khan	Translate-Me
-34008	Leonidas	Translate-Me
-34009	ÆÄÈ²	Translate-Me
-34010	Bambi	Translate-Me
-34011	¾Æ±â ¹é°õ	Translate-Me
-34012	¾Æ±â ÆÒ´õ	Translate-Me
-34013	ºÓÀºµµÀû´Ü¾Ö±âÀå¼ö	Translate-Me
-34014	ºÓÀºµµÀû´ÜÈ²±İ¾Ö±âÀå¼ö	Translate-Me
-34015	ÇÒ·ÎÀ©»À°­¾ÆÁö	Translate-Me
-34016	³ì¿°ºÒ»çÁ¶	Translate-Me
-34017	¾Æ±â Àü°©¹é¿ø	Translate-Me
-34018	¾Æ±â Àü°©¹é¶û	Translate-Me
-34019	¾Æ±â Àü°©¹éÈ£	Translate-Me
-34020	¾Æ±â Àü°©¹é»çÀÚ	Translate-Me
-34021	¾Æ±â ¸ÍÁ¶	Translate-Me
-34022	ºÎÈ°ÀıÅä³¢	Translate-Me
-34023	¾Æ±â Àü°©Èæ¹ü	Translate-Me
-34024	¾Æ±â Àü°©Ç¥¹ü	Translate-Me
-34026	Kürbisköpfchen	Translate-Me
-34027	Kleiner Feger	Translate-Me
-34028	Flöckchen	Translate-Me
-34029	Glöckchen	Translate-Me
-34030	Å¥ÇÇÆ®	Translate-Me
-34031	ÇÏÆ®	Translate-Me
-34032	Blaues Mondsichelchen	Translate-Me
-34033	Rotes Mondsichelchen	Translate-Me
-34034	Weiße Schnucke	Translate-Me
-34035	Blauer Widder	Translate-Me
-34036	Kleiner Drache	Translate-Me
-34037	Kleiner Drache (Held)	Translate-Me
-34039	ÁøÃµÀÇ Àå±º	Translate-Me
-34041	Kleiner Affe	Translate-Me
-34042	Kleiner Affe (Held)	Translate-Me
-34045	Kleine Spinne	Translate-Me
-34046	Kleine Spinne (Held)	Translate-Me
-34049	Kleiner Razador	Translate-Me
-34050	Kleiner Razador (Held)	Translate-Me
-34053	Kleiner Nemere	Translate-Me
-34054	Kleiner Nemere (Held)	Translate-Me
-34055	Bruce	Translate-Me
-34056	Wayne	Translate-Me
-34057	Robin	Translate-Me
-34058	Valentino	Translate-Me
-34059	Valentinia	Translate-Me
-34060	Valentino	Translate-Me
-34061	Valentinia	Translate-Me
-34062	Mondlaterne (orange)	Translate-Me
-34063	Mondlaterne (blau)	Translate-Me
-34064	Kleine Meley	Translate-Me
-34065	Kleine Meley	Translate-Me
-34066	Bonsai	Translate-Me
-34067	Frau Jiangshi+	Translate-Me
-34068	Herr Jiangshi+	Translate-Me
-34069	Jiangshi-Junior	Translate-Me
-34070	°íºí¸°1	Translate-Me
-34071	°íºí¸°2	Translate-Me
-34072	°íºí¸°(¹«¼Ó¼º)	Translate-Me
-34084	Donnie	Translate-Me
-34085	Frank	Translate-Me
-60000	Gildenverwalter	Translate-Me
-60001	Gildenverwalter	Translate-Me
-60002	Gildenverwalter	Translate-Me
-60003	Theowahdan	Translate-Me
-50500	Halbmensch	Translate-Me
-50501	Tier	Translate-Me
-50502	Ork	Translate-Me
-50503	Esoterischer	Translate-Me
-50504	Untoter	Translate-Me
-50505	Teufel	Translate-Me
-50506	Appaloosa	Translate-Me
-102	Wolf	Translate-Me
-103	Alpha-Wolf	Translate-Me
-104	Blauwolf	Translate-Me
-105	Alpha-Blauwolf	Translate-Me
-106	Grauwolf	Translate-Me
-107	Alpha-Grauwolf	Translate-Me
-108	Keiler	Translate-Me
-109	Roter Keiler	Translate-Me
-110	Bär	Translate-Me
-111	Grizzlybär	Translate-Me
-112	Schwarzbär	Translate-Me
-113	Braunbär	Translate-Me
-114	Tiger	Translate-Me
-115	Weißer Tiger	Translate-Me
-131	Verfl. Wolf	Translate-Me
-132	Verfl. Alpha-Wolf	Translate-Me
-133	Verfl. Blauwolf	Translate-Me
-134	Verfl. Alpha-Blauwolf	Translate-Me
-135	Verfl. Grauwolf	Translate-Me
-136	Verfl. Alpha-Grauwolf	Translate-Me
-137	Verfl. Keiler	Translate-Me
-138	Verfl. roter Keiler	Translate-Me
-139	Verfl. Bär	Translate-Me
-140	Verfl. Grizzlybär	Translate-Me
-141	Verfl. Schwarzbär	Translate-Me
-142	Verfl. Braunbär	Translate-Me
-143	Verfl. Tiger	Translate-Me
-144	Verfl. weißer Tiger	Translate-Me
-151	Cung-Mok	Translate-Me
-152	Mu-Rang	Translate-Me
-153	Jug-Hyul	Translate-Me
-154	Young-Ji	Translate-Me
-155	Li-An	Translate-Me
-171	Hungriger Wildhund	Translate-Me
-172	Hungriger Wolf	Translate-Me
-173	Hungriger Alpha-Wolf	Translate-Me
-174	Hungriger Blauwolf	Translate-Me
-175	Hungriger Alpha-Blauwolf	Translate-Me
-176	Hungriger Grauwolf	Translate-Me
-177	Hungriger Alpha-Grauwolf	Translate-Me
-178	Hungriger Keiler	Translate-Me
-179	Hungriger Roter Keiler	Translate-Me
-180	Hungriger Bär	Translate-Me
-181	Hungriger Grizzlybär	Translate-Me
-182	Hungriger Schwarzbär	Translate-Me
-183	Hungriger Braunbär	Translate-Me
-184	Hungriger Tiger	Translate-Me
-185	Hungriger Weißer Tiger	Translate-Me
-191	Lykos	Translate-Me
-192	Scrofa	Translate-Me
-193	Bera	Translate-Me
-194	Tigris	Translate-Me
-301	Weißer-Eid Soldatin	Translate-Me
-302	Weißer-Eid Bogenschützin	Translate-Me
-303	Weißer-Eid Generalin	Translate-Me
-304	Weißer-Eid Kommandantin	Translate-Me
-331	Weißer-Eid Soldatin	Translate-Me
-332	Weißer-Eid Bogenschützin	Translate-Me
-333	Weißer-Eid Generalin	Translate-Me
-334	Weißer-Eid Kommandantin	Translate-Me
-351	Feiger Weißer-Eid-Soldat	Translate-Me
-352	Feiger W.-Eid Schütze	Translate-Me
-353	Feiger W.-Eid-General	Translate-Me
-354	Feiger W.-Eid-Kommandant	Translate-Me
-391	Mi-Jung	Translate-Me
-392	Eun-Jung	Translate-Me
-393	Se-Rang	Translate-Me
-394	Jin-Hee	Translate-Me
-395	Mutlose Mi-Jung	Translate-Me
-396	Mutlose Eun-Jung	Translate-Me
-397	Mutlose Se-Rang	Translate-Me
-398	Mutlose Jin-Hee	Translate-Me
-401	Schwarzwindsoldat	Translate-Me
-402	Schwarzwindbesessener	Translate-Me
-403	Schwarzwindbogenschütze	Translate-Me
-404	Schwarzwind-Jak-To	Translate-Me
-405	Schwarzwind-To-Su	Translate-Me
-406	Schwarzwind-Gu-Ryung	Translate-Me
-431	Schwarzer Sturmsoldat	Translate-Me
-432	Schw. Sturmbesessener	Translate-Me
-433	Schwarzer Bogenschütze	Translate-Me
-434	Schwarzer Sturm-Joh-Hwan	Translate-Me
-435	Schwarzer Sturm-Kyuk-Jan	Translate-Me
-436	Schwarzer Sturm-Pho-Hwan	Translate-Me
-451	Böser Schw. Sturmsoldat	Translate-Me
-452	Böser Sturmbesessener	Translate-Me
-453	Böser Sturmbogenschütze	Translate-Me
-454	Böser Sturm-Joh-Hwan	Translate-Me
-455	Böser Sturm-Kyuk-Jang	Translate-Me
-456	Böser Sturm-Pho-Hwan	Translate-Me
-491	Mahon	Translate-Me
-492	Bo	Translate-Me
-493	Goo-Pae	Translate-Me
-494	Chuong	Translate-Me
-501	Wilder Infanterist	Translate-Me
-502	Wilder Ergebener	Translate-Me
-503	Wilder Bogenschütze	Translate-Me
-504	Wilder General	Translate-Me
-531	Brutaler Soldat	Translate-Me
-532	Brutaler Besessener	Translate-Me
-533	Brutaler Bogenschütze	Translate-Me
-534	Brutaler Spezialist	Translate-Me
-551	St. Wilder Infanterist	Translate-Me
-552	St. Wilder Ergebener	Translate-Me
-553	St. Wilder Bogenschütze	Translate-Me
-554	St. Wilder General	Translate-Me
-591	Brutaler Hauptmann	Translate-Me
-595	Brutaler Geum-Chul	Translate-Me
-601	Ork	Translate-Me
-602	Ork-Späher	Translate-Me
-603	Ork-Kämpfer	Translate-Me
-604	Ork-Zauberer	Translate-Me
-631	Stolzer Ork	Translate-Me
-632	Stolzer Ork-Späher	Translate-Me
-633	Stolzer Ork-Kämpfer	Translate-Me
-634	Stolzer Ork-Zauberer	Translate-Me
-635	Stolzer Ork-General	Translate-Me
-636	Schwarzer Ork	Translate-Me
-637	Schwarzer Ork-Riese	Translate-Me
-651	Mutiger gr. Ork	Translate-Me
-652	Mutiger gr. Orkspäher	Translate-Me
-653	Mutiger gr. Orkkämpfer	Translate-Me
-654	Mutiger gr. Orkzauberer	Translate-Me
-655	Mutiger gr. Orkgeneral	Translate-Me
-656	Mutiger Schw. Ork	Translate-Me
-657	Mutiger Schw. Orkriese	Translate-Me
-691	Oberork	Translate-Me
-692	Dunkler Oberork	Translate-Me
-693	Geister Orkführer	Translate-Me
-701	Dunkler Fanatiker	Translate-Me
-702	Dunkler Arahan	Translate-Me
-703	Dunkler Kämpfer	Translate-Me
-704	Oberer dunkler Arahan	Translate-Me
-705	Dunkler Scharfrichter	Translate-Me
-706	Dunkler Peiniger	Translate-Me
-707	Dunkler Beschwörer	Translate-Me
-731	Stolzer dunkl. Fanatiker	Translate-Me
-732	Stolzer dunkl. Arahan	Translate-Me
-733	Stolzer dunkl. Kämpfer	Translate-Me
-734	Stolzer dunkl. Oberst	Translate-Me
-735	Stolzer dunkl. Schütze	Translate-Me
-736	Stolzer dunkl. Peiniger	Translate-Me
-737	Stolzer dunkl. Zauberer	Translate-Me
-751	Hoher Fanatiker	Translate-Me
-752	Hoher Arahan	Translate-Me
-753	Hoher Arahan-Kämpfer	Translate-Me
-754	Hoher Ober-Arahan	Translate-Me
-755	Hoher Scharfrichter	Translate-Me
-756	Hoher Peiniger	Translate-Me
-757	Hoher  Beschwörer	Translate-Me
-771	Brutaler Fanatiker	Translate-Me
-772	Brutaler Arahan	Translate-Me
-773	Brutaler  Arahan-Kämpfer	Translate-Me
-774	Brutaler Ober-Arahan	Translate-Me
-775	Brutaler Scharfrichter	Translate-Me
-776	Brutaler Peiniger	Translate-Me
-777	Brutaler Beschwörer	Translate-Me
-791	Dunkler Anführer	Translate-Me
-792	Dunkler Geist-Anführer	Translate-Me
-793	Elite Dunkler Anführer	Translate-Me
-794	Elite Geist-Anführer	Translate-Me
-795	Elite Kämpfer	Translate-Me
-796	Elite dunkler Kämpfer	Translate-Me
-901	Leichengeist	Translate-Me
-902	Plagenhund	Translate-Me
-903	Plagenmann	Translate-Me
-904	Plagenschwertkämpfer	Translate-Me
-905	Plagenspeerkämpfer	Translate-Me
-906	Plagenbogenschütze	Translate-Me
-907	Plagenanführer	Translate-Me
-931	W. Leichengeist	Translate-Me
-932	W. Plagenhund	Translate-Me
-933	W. Plagenmann	Translate-Me
-934	W. Plagenkämpfer	Translate-Me
-935	W. Plagenspeerkämpfer	Translate-Me
-936	W. Plagenbogenschütze	Translate-Me
-937	Zorniger Plagenanführer	Translate-Me
-991	Plagenei	Translate-Me
-992	Plagenträger	Translate-Me
-993	Riesiger Plagenträger	Translate-Me
-1001	Dämonensoldat	Translate-Me
-1002	Dämonenbogenschütze	Translate-Me
-1003	Dämonenspeerkämpfer	Translate-Me
-1004	Dämonenschamane	Translate-Me
-1031	Gemeiner Soldat	Translate-Me
-1032	Gemeiner Bogenschütze	Translate-Me
-1033	Gemeiner Speerkämpfer	Translate-Me
-1034	Gemeiner Schamane	Translate-Me
-1035	Geist des Grolls	Translate-Me
-1036	Geist des Chaos	Translate-Me
-1037	Gemeiner Dämonenanführer	Translate-Me
-1038	Totenkopfschwertmeister	Translate-Me
-1039	Fliegender Totenkopf	Translate-Me
-1040	Unsterblicher Geist	Translate-Me
-1041	Dämonisches Tier	Translate-Me
-1061	Gemeiner Geist Soldat	Translate-Me
-1062	Gemeiner Geist Schütze	Translate-Me
-1063	Gemeiner Geist Kämpfer	Translate-Me
-1064	Gemeiner Geist Schamane	Translate-Me
-1065	Gemeiner Geist des Groll	Translate-Me
-1066	Gemeiner Geist des Chaos	Translate-Me
-1067	Gemeiner Geist Anführer	Translate-Me
-1068	Geist Schwertmeister	Translate-Me
-1069	Gemeiner Flug-Totenkopf	Translate-Me
-1070	Unsterblicher Geist	Translate-Me
-1071	Dämonisches Tier	Translate-Me
-1091	Dämonenkönig	Translate-Me
-1092	Stolzer Dämonenkönig	Translate-Me
-1093	Sensenmann	Translate-Me
-1094	Blauer Beserker	Translate-Me
-1095	Blauer Tod	Translate-Me
-1101	Verzaubertes Eis	Translate-Me
-1102	Eiskillerwal	Translate-Me
-1103	Eisinsekt	Translate-Me
-1104	Eislöwe	Translate-Me
-1105	Frostiger Eismann	Translate-Me
-1106	Yeti	Translate-Me
-1107	Eisgolem	Translate-Me
-1131	Unterwelt-Eissplitter	Translate-Me
-1132	Unterwelt-Eiskillerwal	Translate-Me
-1133	Unterwelt-Eisinsekt	Translate-Me
-1134	Unterwelt-Eislöwe	Translate-Me
-1135	Unterwelt-Eismann	Translate-Me
-1136	Unterwelt-Yeti	Translate-Me
-1137	Unterwelt-Eisgolem	Translate-Me
-1151	Eisteufel	Translate-Me
-1152	Eishorn Killerwal	Translate-Me
-1153	Eisinsekt	Translate-Me
-1154	Seol-Gu	Translate-Me
-1155	Eismann	Translate-Me
-1156	Eisgigant	Translate-Me
-1157	Eisgolem	Translate-Me
-1171	Böses verzaubertes Eis	Translate-Me
-1172	Böser Eiskillerwal	Translate-Me
-1173	Böses Eisinsekt	Translate-Me
-1174	Böser Eislöwe	Translate-Me
-1175	Böser Eismann	Translate-Me
-1176	Böser Yeti	Translate-Me
-1177	Böser Eisgolem	Translate-Me
-1191	Eishexe	Translate-Me
-1192	Große Eishexe	Translate-Me
-1301	Baumfrosch-Soldat	Translate-Me
-1302	Baumfrosch-Anführer	Translate-Me
-1303	Buhmann	Translate-Me
-1304	Gelber Tigergeist	Translate-Me
-1305	Ochsenfrosch-General	Translate-Me
-1306	Böser gelber Tigergeist	Translate-Me
-1307	Böser gelber Tigergeist	Translate-Me
-1331	Gr. Baumfrosch-Soldat	Translate-Me
-1332	Gr. Baumfrosch-Anführer	Translate-Me
-1333	Gr. Buhmann	Translate-Me
-1334	Gr. gelber Tigergeist	Translate-Me
-1335	Gr. Ochsenfrosch-General	Translate-Me
-1401	Zerstörer	Translate-Me
-1402	Axtkämpfer	Translate-Me
-1403	Tausendkämpfer	Translate-Me
-1501	Steingolem	Translate-Me
-1502	Steinbeißer	Translate-Me
-1503	Riesiger Felsengolem	Translate-Me
-1601	Oger Krieger	Translate-Me
-1602	Oger Schlächter	Translate-Me
-1603	Oger Berserker	Translate-Me
-1901	Neunschwanz	Translate-Me
-1902	Elitärer Neunschwanz	Translate-Me
-1903	Elitärer Neunschwanz	Translate-Me
-2001	Babyspinne	Translate-Me
-2002	Giftspinne	Translate-Me
-2003	Rote Giftspinne	Translate-Me
-2004	Klauenspinne	Translate-Me
-2005	Soldatenspinne	Translate-Me
-2031	Babygiftspinne	Translate-Me
-2032	Tödliche Giftspinne	Translate-Me
-2033	Rote wütende Giftspinne	Translate-Me
-2034	Klauengiftspinne	Translate-Me
-2035	Soldatengiftspinne	Translate-Me
-2036	Stolze Soldat-Giftspinne	Translate-Me
-2051	Böse Babygiftspinne	Translate-Me
-2052	Böse tödl. Giftspinne	Translate-Me
-2053	Böse rote Giftspinne	Translate-Me
-2054	Böse Klauengiftspinne	Translate-Me
-2055	Böse Soldatengiftspinne	Translate-Me
-2061	Kleine Giftspinne	Translate-Me
-2062	Tödliche Giftspinne	Translate-Me
-2063	Rote tödliche Giftspinne	Translate-Me
-2064	Klauengiftspinne	Translate-Me
-2065	Soldatengiftspinne	Translate-Me
-2071	Brutale Babygiftspinne	Translate-Me
-2072	Brutale tödl. Giftspinne	Translate-Me
-2073	Brutale rote Giftspinne	Translate-Me
-2074	Brutale Klauengiftspinne	Translate-Me
-2075	Brutale Soldatenspinne	Translate-Me
-2076	Brutale st. Giftspinne	Translate-Me
-2091	Königinnenspinne	Translate-Me
-2092	Spinnenbaroness	Translate-Me
-2093	Dunkl. Königinnenspinne	Translate-Me
-2101	Wüstenfuchs	Translate-Me
-2102	Wüstenflugauge	Translate-Me
-2103	Königsskorpion	Translate-Me
-2104	Junger Skorpionmann	Translate-Me
-2105	Skorpionbogenschütze	Translate-Me
-2106	Schlangenschwertkämpfer	Translate-Me
-2107	Schlangenbogenschütze	Translate-Me
-2108	Wüstenbandit	Translate-Me
-2131	Brutaler Skorpionmann	Translate-Me
-2132	Skorpionbogenschütze	Translate-Me
-2133	Schlangenschwertkämpfer	Translate-Me
-2134	Schlangenbogenschütze	Translate-Me
-2135	Wüstenbandit	Translate-Me
-2151	Starker Wüstenfuchs	Translate-Me
-2152	Starker Derwisch	Translate-Me
-2153	Starker Königsskorpion	Translate-Me
-2154	Starker Skorpionmann	Translate-Me
-2155	St. Skorpionbogenschütze	Translate-Me
-2156	Starker Schlangenkämpfer	Translate-Me
-2157	Starker Schlangenschütze	Translate-Me
-2158	Starker Wüstenbandit	Translate-Me
-2191	Große Wüstenschildkröte	Translate-Me
-2192	Dunkle Wüstenschildkröte	Translate-Me
-2201	Kampftigersklave	Translate-Me
-2202	Flammengeist	Translate-Me
-2203	Kampftiger	Translate-Me
-2204	Flamme	Translate-Me
-2205	Flammenkrieger	Translate-Me
-2206	Flammenkönig	Translate-Me
-2207	Dunkl. Flammenkönig	Translate-Me
-2231	Starker Kampftigersklave	Translate-Me
-2232	Starker Flammengeist	Translate-Me
-2233	Starker Kampftiger	Translate-Me
-2234	Starke Flamme	Translate-Me
-2235	Starker Flammenkrieger	Translate-Me
-2291	Roter Drache	Translate-Me
-2301	Geisterbaum	Translate-Me
-2302	Geisterbaumstumpf	Translate-Me
-2303	Dryade	Translate-Me
-2304	Geisterweide	Translate-Me
-2305	Böser Baum	Translate-Me
-2306	Riesiger Geisterbaum	Translate-Me
-2307	Geisterbaum-Lord	Translate-Me
-2311	Roter Geisterbaum	Translate-Me
-2312	Roter Geisterbaumstumpf	Translate-Me
-2313	Rote Dryade	Translate-Me
-2314	Rote Geisterweide	Translate-Me
-2315	Roter böser Baum	Translate-Me
-2401	Setaou-Kämpfer	Translate-Me
-2402	Setaou-Jäger	Translate-Me
-2403	Setaou-Seherin	Translate-Me
-2404	Setaou-Anführer	Translate-Me
-2411	Setaou-Soldat	Translate-Me
-2412	Setaou-Bogenschütze	Translate-Me
-2413	Setaou-Magistra	Translate-Me
-2414	Setaou-Kommandant	Translate-Me
-101	Wildhund	Translate-Me
-20113	Weißes Shinsoo Pferd	Translate-Me
-20114	Braunes Shinsoo Pferd	Translate-Me
-20115	Schwarzes Shinsoo Pferd	Translate-Me
-20116	Weißes Chunjo Pferd	Translate-Me
-20117	Braunes Chunjo Pferd	Translate-Me
-20118	Schwarzes Chunjo Pferd	Translate-Me
-20119	Weißes Jinno Pferd	Translate-Me
-20120	Braunes Jinno Pferd	Translate-Me
-20121	Schwarzes Jinno Pferd	Translate-Me
-20150	Pony	Translate-Me
-20151	Pony	Translate-Me
-20152	Pony	Translate-Me
-20153	Pony	Translate-Me
-20154	SR Braun	Translate-Me
-20155	SR Schwarz	Translate-Me
+2431	Setaou-Kämpfer	Translate-Me		
+2432	Setaou-Jäger	Translate-Me		
+2433	Setaou-Seherin	Translate-Me		
+2434	Setaou-Anführer	Translate-Me		
+2451	Setaou-Soldat	Translate-Me		
+2452	Setaou-Bogenschütze	Translate-Me		
+2453	Setaou-Magistra	Translate-Me		
+2454	Setaou-Kommandant	Translate-Me		
+2491	Hauptmann Yonghan	Translate-Me		
+2492	General Yonghan	Translate-Me		
+2493	Beran-Setaou	Translate-Me		
+2494	Hauptmann Huashin	Translate-Me		
+2495	General Huashin	Translate-Me		
+2501	Höllenqualle	Translate-Me		
+2502	Höllenhund	Translate-Me		
+2503	Zombie	Translate-Me		
+2504	Höllenoffizier	Translate-Me		
+2505	Höllenwächter	Translate-Me		
+2506	Zweikopf-Höllenschütze	Translate-Me		
+2507	Höllengreifer	Translate-Me		
+2508	Höllenkrieger	Translate-Me		
+2509	Höllenschütze	Translate-Me		
+2510	Höllenspeerkämpfer	Translate-Me		
+2511	Höllenpriester	Translate-Me		
+2512	Höllenmajor	Translate-Me		
+2513	Höllenmetzler	Translate-Me		
+2514	Höllengeneral	Translate-Me		
+2541	Böser Höllenkrieger	Translate-Me		
+2542	Böser Höllenschütze	Translate-Me		
+2543	Böser Höllenspeerkämpfer	Translate-Me		
+2544	Böser Höllenpriester	Translate-Me		
+2545	Böser Höllenmajor	Translate-Me		
+2546	Böser Höllenmetzler	Translate-Me		
+2547	Böser Höllengeneral	Translate-Me		
+2591	Tartaros	Translate-Me		
+2592	Höllenbastard	Translate-Me		
+2593	Höllenbastard	Translate-Me		
+2594	Höllenbastard	Translate-Me		
+2595	Erebos	Translate-Me		
+2596	Azraels Brut	Translate-Me		
+2597	Charon	Translate-Me		
+2598	Azrael	Translate-Me		
+3001	Gnoll-Kämpfer	Translate-Me		
+3002	Gnoll-Bogenschütze	Translate-Me		
+3003	Gnoll-Verteidiger	Translate-Me		
+3004	Gnoll-Magier	Translate-Me		
+3005	Gnoll-General	Translate-Me		
+3090	Lord Gnoll	Translate-Me		
+3091	Oberste Gnoll-Wache	Translate-Me		
+3101	Einäugiger Schläger	Translate-Me		
+3102	Zyklopen-Soldat	Translate-Me		
+3103	Zyklopen-Magier	Translate-Me		
+3104	Zyklopen-Henker	Translate-Me		
+3105	General Outis	Translate-Me		
+3190	Arges	Translate-Me		
+3191	Polyphemos	Translate-Me		
+3201	Mantikor-Kämpfer	Translate-Me		
+3202	Mantikor-Soldat	Translate-Me		
+3203	Mantikor Magus	Translate-Me		
+3204	Mantikor-Henker	Translate-Me		
+3205	General Kor	Translate-Me		
+3290	Rakshasa	Translate-Me		
+3291	Martyaxwar	Translate-Me		
+3301	Lemuren-Kämpfer	Translate-Me		
+3302	Lemuren-Soldat	Translate-Me		
+3303	Lemuren-Magier	Translate-Me		
+3304	Lemuren-Henker	Translate-Me		
+3305	Lemuren-General	Translate-Me		
+3390	Lemuren-Fürst	Translate-Me		
+3391	Lemurische Leibgarde	Translate-Me		
+3401	Tritonische Muräne	Translate-Me		
+3402	Riffhai-Soldat	Translate-Me		
+3403	Tritonischer Magier	Translate-Me		
+3404	Tritonischer Jäger	Translate-Me		
+3405	Tritonischer Schlitzer	Translate-Me		
+3490	General Kappa	Translate-Me		
+3491	Triton	Translate-Me		
+3501	Rotdieb-Amazone	Translate-Me		
+3502	Rotdieb-Assassine	Translate-Me		
+3503	Rotdieb-Magier	Translate-Me		
+3504	Rotdieb-Henker	Translate-Me		
+3505	Schwarzer General	Translate-Me		
+3551	Brutale Rotdieb-Amazone	Translate-Me		
+3552	Brut. Rotdieb-Assassine	Translate-Me		
+3553	Brutaler Rotdieb-Magier	Translate-Me		
+3554	Brutaler Rotdieb-Henker	Translate-Me		
+3555	Weißer General	Translate-Me		
+3590	Knochengesicht	Translate-Me		
+3591	Roter Häuptling	Translate-Me		
+3595	Brutales Knochengesicht	Translate-Me		
+3596	Brutaler Roter Häuptling	Translate-Me		
+3601	Krabben-Kämpfer	Translate-Me		
+3602	Skorpischer Schütze	Translate-Me		
+3603	Shrimps-Soldat	Translate-Me		
+3604	Diabolischer Einsiedler	Translate-Me		
+3605	Panzerkrabbe	Translate-Me		
+3690	General Lobster	Translate-Me		
+3691	König Krabbs	Translate-Me		
+3701	Gigantischer Beißer	Translate-Me		
+3702	Giganten-Schlächter	Translate-Me		
+3703	Gigantus Magus	Translate-Me		
+3704	Zwigant	Translate-Me		
+3705	Kapitän Huk	Translate-Me		
+3790	Gargoyle	Translate-Me		
+3791	König Wobba	Translate-Me		
+3801	Henkog	Translate-Me		
+3802	Archie Oger	Translate-Me		
+3803	Streitoger	Translate-Me		
+3804	Oger Magus	Translate-Me		
+3805	General Ogg	Translate-Me		
+3890	Kapitän Shrack	Translate-Me		
+3891	Der Große Oger	Translate-Me		
+3901	Weidenmann	Translate-Me		
+3902	Eoten	Translate-Me		
+3903	Skouman	Translate-Me		
+3904	Kapitän Huk	Translate-Me		
+3905	Mu-Shu	Translate-Me		
+3906	Yah-Ki	Translate-Me		
+3907	Moghu	Translate-Me		
+3908	Carnifex	Translate-Me		
+3909	General Albus	Translate-Me		
+3910	Skeletos	Translate-Me		
+3911	Aku-Boku	Translate-Me		
+3912	Arboretum	Translate-Me		
+3913	Sycomor	Translate-Me		
+5001	Pirat Tanaka	Translate-Me		
+5002	Hae-Tae	Translate-Me		
+5003	Affe	Translate-Me		
+5004	Pirat Tanaka	Translate-Me		
+5101	Schwacher Affensoldat	Translate-Me		
+5102	Schwacher Affenwerfer	Translate-Me		
+5103	Schwacher Affenkämpfer	Translate-Me		
+5104	Schwacher Affengeneral	Translate-Me		
+5111	Affensoldat	Translate-Me		
+5112	Affenwerfer	Translate-Me		
+5113	Affenkämpfer	Translate-Me		
+5114	Affengeneral	Translate-Me		
+5115	Steinaffe	Translate-Me		
+5116	Affenanführer	Translate-Me		
+5121	Starker Affensoldat	Translate-Me		
+5122	Starker Affenwerfer	Translate-Me		
+5123	Starker Affenkämpfer	Translate-Me		
+5124	Starker Affengeneral	Translate-Me		
+5125	Starker Steinaffe	Translate-Me		
+5126	Starker Goldaffe	Translate-Me		
+5127	Starker Affenanführer	Translate-Me		
+5131	Kluger kl. Affensoldat	Translate-Me		
+5132	Kluger kl. Affenwerfer	Translate-Me		
+5133	Kluger kl. Affenkämpfer	Translate-Me		
+5134	Kluger kl. Affengeneral	Translate-Me		
+5141	Schlauer Affensoldat	Translate-Me		
+5142	Schlauer Affenwerfer	Translate-Me		
+5143	Schlauer Affenkämpfer	Translate-Me		
+5144	Schlauer Affengeneral	Translate-Me		
+5145	Schlauer Steinaffe	Translate-Me		
+5146	Schlauer Affenanführer	Translate-Me		
+5151	Böser Affensoldat	Translate-Me		
+5152	Böser Affenwerfer	Translate-Me		
+5153	Böser Affenkämpfer	Translate-Me		
+5154	Böser Affengeneral	Translate-Me		
+5155	Böser Steinaffe	Translate-Me		
+5156	Böser Goldaffe	Translate-Me		
+5157	Böser Affenanführer	Translate-Me		
+5161	Felsenaffe	Translate-Me		
+5162	Gehender Affe	Translate-Me		
+5163	Affen-Lord	Translate-Me		
+5201	Wildhund	Translate-Me		
+5202	Keiler	Translate-Me		
+5203	Roter Keiler	Translate-Me		
+5204	Bär	Translate-Me		
+5205	Braunbär	Translate-Me		
+5206	Schwarzbär	Translate-Me		
+5207	Hungriger Braunbär	Translate-Me		
+5208	Tiger	Translate-Me		
+5209	Weißer Tiger	Translate-Me		
+6001	Glut-Flammengeist	Translate-Me		
+6002	Glut-Flammentiger	Translate-Me		
+6003	Glut-Flamme	Translate-Me		
+6004	Glut-Flammenkrieger	Translate-Me		
+6005	Glut-Flammenkönig	Translate-Me		
+6006	Glut-Flammentroll	Translate-Me		
+6007	Glut-Flammenbart	Translate-Me		
+6008	Glut-Flammengeneral	Translate-Me		
+6009	Glut-Flammenfürst	Translate-Me		
+6051	Ignator	Translate-Me		
+6091	Razador	Translate-Me		
+6101	Frostkristall	Translate-Me		
+6102	Frostinsekt	Translate-Me		
+6103	Frostmann	Translate-Me		
+6104	Frostyeti	Translate-Me		
+6105	Frostgolem	Translate-Me		
+6106	Frosttroll	Translate-Me		
+6107	Frostbart	Translate-Me		
+6108	Frostgeneral	Translate-Me		
+6109	Frostfürst	Translate-Me		
+6110	Magmayeti	Translate-Me		
+6111	Magmagolem	Translate-Me		
+6112	Magmainsekt	Translate-Me		
+6113	Magmamann	Translate-Me		
+6114	Magmakristall	Translate-Me		
+6115	Magmawyvern	Translate-Me		
+6116	Drachenwächter Idall	Translate-Me		
+6117	Idalls Scherge	Translate-Me		
+6118	Drachenstatue	Translate-Me		
+6151	Szel	Translate-Me		
+6191	Nemere	Translate-Me		
+6192	Jotun Thrym	Translate-Me		
+6193	Drachenkönigin Meley	Translate-Me		
+6301	Ochao-Kämpfer	Translate-Me		
+6302	Ochao-Soldat	Translate-Me		
+6303	Ochao-Magier	Translate-Me		
+6304	Ochao-Henker	Translate-Me		
+6305	Ochao-General	Translate-Me		
+6306	Starker Ochao-Kämpfer	Translate-Me		
+6307	Starker Ochao-Soldat	Translate-Me		
+6308	Starker Ochao-Magier	Translate-Me		
+6309	Starker Ochao-Henker	Translate-Me		
+6310	Starker Ochao-General	Translate-Me		
+6391	Ochao-Fürst	Translate-Me		
+6392	Leibgarde der Ochao	Translate-Me		
+6393	Starker Ochao-Fürst	Translate-Me		
+6394	St. Leibgarde der Ochao	Translate-Me		
+6401	En-Tai-Kämpfer	Translate-Me		
+6402	En-Tai-Krieger	Translate-Me		
+6403	En-Tai-Druide	Translate-Me		
+6404	En-Tai-Heiler	Translate-Me		
+6405	En-Tai-Wächter	Translate-Me		
+6406	En-Tai-Vernichter	Translate-Me		
+6407	En-Tai-Herrscher	Translate-Me		
+6408	Bagjanamu	Translate-Me		
+6409	Ochao-Heiler	Translate-Me		
+6410	Starker En-Tai-Kämpfer	Translate-Me		
+6411	Starker En-Tai-Krieger	Translate-Me		
+6412	Starker En-Tai-Druide	Translate-Me		
+6413	Starker En-Tai-Heiler	Translate-Me		
+6414	St. En-Tai-Vernichter	Translate-Me		
+6415	Event Beran-Setaou	Translate-Me		
+6416	Event Nemere	Translate-Me		
+6417	Event Razador	Translate-Me		
+6418	Event Jotun Thrym	Translate-Me		
+6419	Event Roter Drache	Translate-Me		
+6420	Schattenkrieger	Translate-Me		
+7001	Affensoldat	Translate-Me		
+7002	Affenreiter	Translate-Me		
+7003	Gimu Affensoldat	Translate-Me		
+7004	Affenkommander	Translate-Me		
+7005	Stein Affe	Translate-Me		
+7006	Goldaffe	Translate-Me		
+7007	Affengeneral	Translate-Me		
+7008	Tu-Gui Arbeiter	Translate-Me		
+7009	Tu-Gui Soldatenprüfer	Translate-Me		
+7010	Tu-Gui weißer Kommander	Translate-Me		
+7012	Bi-Ma-Gui-An	Translate-Me		
+7013	König Skorpion	Translate-Me		
+7014	Listiger Skorpionmann	Translate-Me		
+7015	Skorpionbogenschütze	Translate-Me		
+7016	Schlangenschwertkämpfer	Translate-Me		
+7017	Schlangenbogenschütze	Translate-Me		
+7018	Wüstenbandit	Translate-Me		
+7019	Tu-ji Soldat	Translate-Me		
+7020	Hwa-ryung	Translate-Me		
+7021	Tu-Ji Rumtreiber	Translate-Me		
+7022	Cham-Ma	Translate-Me		
+7023	Teawha-Mu	Translate-Me		
+7024	Juk-gui	Translate-Me		
+7025	Dung-Juk	Translate-Me		
+7026	Juk-Mok	Translate-Me		
+7027	Hwaryu Juk	Translate-Me		
+7028	Schwarzer Juk-Guimok	Translate-Me		
+7029	Eisteufel	Translate-Me		
+7030	Eishorn Killerwal	Translate-Me		
+7031	Eisinsekt	Translate-Me		
+7032	Seol-Gu	Translate-Me		
+7033	Eismann	Translate-Me		
+7034	Eisgigant	Translate-Me		
+7035	Eisgolem	Translate-Me		
+7036	Eisteufel	Translate-Me		
+7037	Eishorn Killerwal	Translate-Me		
+7038	Eisinsekt	Translate-Me		
+7039	Seol-Gu	Translate-Me		
+7040	Eismann	Translate-Me		
+7041	Eisgigant	Translate-Me		
+7042	Eisgolem	Translate-Me		
+7043	Eisteufel	Translate-Me		
+7044	Eishorn Killerwal	Translate-Me		
+7045	Eisinsekt	Translate-Me		
+7046	Seol-Gu	Translate-Me		
+7047	Eismann	Translate-Me		
+7048	Eisgigant	Translate-Me		
+7049	Eisgolem	Translate-Me		
+7050	Wüstenflugauge	Translate-Me		
+7051	Königsskorpion	Translate-Me		
+7052	Junger Skorpionmann	Translate-Me		
+7053	Skorpionbogenschütze	Translate-Me		
+7054	Schlangenschwertkämpfer	Translate-Me		
+7055	Schlangenbogenschütze	Translate-Me		
+7056	Wüstenbandit	Translate-Me		
+7057	Wüstenflugauge	Translate-Me		
+7058	Königsskorpion	Translate-Me		
+7059	Junger Skorpionmann	Translate-Me		
+7060	Skorpionbogenschütze	Translate-Me		
+7061	Schlangenschwertkämpfer	Translate-Me		
+7062	Schlangenbogenschütze	Translate-Me		
+7063	Wüstenbandit	Translate-Me		
+7064	Wüstenflugauge	Translate-Me		
+7065	Königsskorpion	Translate-Me		
+7066	Junger Skorpionmann	Translate-Me		
+7067	Skorpionbogenschütze	Translate-Me		
+7068	Schlangenschwertkämpfer	Translate-Me		
+7069	Schlangenbogenschütze	Translate-Me		
+7070	Wüstenbandit	Translate-Me		
+7071	Kampftigersklave	Translate-Me		
+7072	Flammengeist	Translate-Me		
+7073	Kampftiger	Translate-Me		
+7074	Flamme	Translate-Me		
+7075	Flammenkrieger	Translate-Me		
+7076	Kampftigersklave	Translate-Me		
+7077	Flammengeist	Translate-Me		
+7078	Kampftiger	Translate-Me		
+7079	Flamme	Translate-Me		
+7080	Flammenkrieger	Translate-Me		
+7081	Kampftigersklave	Translate-Me		
+7082	Flammengeist	Translate-Me		
+7083	Kampftiger	Translate-Me		
+7084	Flamme	Translate-Me		
+7085	Flammenkrieger	Translate-Me		
+7086	Geisterbaumstumpf	Translate-Me		
+7087	Dryade	Translate-Me		
+7088	Geisterweide	Translate-Me		
+7089	Böser Baum	Translate-Me		
+7090	Geisterbaumstumpf	Translate-Me		
+7091	Dryade	Translate-Me		
+7092	Geisterweide	Translate-Me		
+7093	Böser Baum	Translate-Me		
+7094	Geisterbaumstumpf	Translate-Me		
+7095	Dryade	Translate-Me		
+7096	Geisterweide	Translate-Me		
+7101	Kanone	Translate-Me		
+7102	Kanone	Translate-Me		
+7103	Pfeilhagelballiste	Translate-Me		
+7104	Pfeilhagelballiste	Translate-Me		
+7105	Turm	Translate-Me		
+7106	Feuerstelle	Translate-Me		
+7107	Feuerstelle	Translate-Me		
+7108	Feuerstelle	Translate-Me		
+7109	Feuerstelle	Translate-Me		
+7110	Feuerstelle	Translate-Me		
+7111	Feuerstelle	Translate-Me		
+7112	Feuerstelle	Translate-Me		
+7113	Cheeta	Translate-Me		
+7114	Kraton	Translate-Me		
+7115	Charly	Translate-Me		
+7116	Nini	Translate-Me		
+7117	Zulu	Translate-Me		
+7118	Affenkrieger Deka	Translate-Me		
+7119	Affenkrieger Oba	Translate-Me		
+7120	König Keung	Translate-Me		
+7121	Kiros	Translate-Me		
+7122	Manchu	Translate-Me		
+7123	Sgok	Translate-Me		
+7124	Indrik	Translate-Me		
+8001	Metin des Kummers	Translate-Me		
+8002	Metin des Kampfs	Translate-Me		
+8003	Metin der Schlacht	Translate-Me		
+8004	Metin der Gier	Translate-Me		
+8005	Metin der Schwärze	Translate-Me		
+8006	Metin der Dunkelheit	Translate-Me		
+8007	Metin der Eifersucht	Translate-Me		
+8008	Metin der Seele	Translate-Me		
+8009	Metin des Schattens	Translate-Me		
+8010	Metin der Härte	Translate-Me		
+8011	Metin des Teufels	Translate-Me		
+8012	Metin des Sturzes	Translate-Me		
+8013	Metin des Todes	Translate-Me		
+8014	Metin des Mordes	Translate-Me		
+8015	Metin der Härte	Translate-Me		
+8016	Metin des Teufels	Translate-Me		
+8017	Metin des Sturzes	Translate-Me		
+8018	Metin des Todes	Translate-Me		
+8019	Metin des Mordes	Translate-Me		
+8020	Shinsoo-Felsen	Translate-Me		
+8021	Jinno-Felsen	Translate-Me		
+8022	Chunjo-Felsen	Translate-Me		
+8023	Kaiserfelsen	Translate-Me		
+8024	Metin Pung-Ma	Translate-Me		
+8025	Metin Ma-An	Translate-Me		
+8026	Metin Tu-Young	Translate-Me		
+8027	Metin Jeon-Un	Translate-Me		
+8031	Metin des Berges	Translate-Me		
+8032	Metin der Rache	Translate-Me		
+8033	Metin der Einsamkeit	Translate-Me		
+8034	Metin des Hochmuts	Translate-Me		
+8035	Metin der Erlösung	Translate-Me		
+8036	Metin des Verrats	Translate-Me		
+8037	Metin der Verbitterung	Translate-Me		
+8038	Metin der Vergeltung	Translate-Me		
+8039	Metin des Hochmutes	Translate-Me		
+8040	Metin der Missgunst	Translate-Me		
+8041	Oster-Metin	Translate-Me		
+8042	Oster-Metin	Translate-Me		
+8043	Oster-Metin	Translate-Me		
+8044	Oster-Metin	Translate-Me		
+8045	Oster-Metin	Translate-Me		
+8046	Oster-Metin	Translate-Me		
+8047	Oster-Metin	Translate-Me		
+8048	Oster-Metin	Translate-Me		
+8049	Oster-Metin	Translate-Me		
+8050	Oster-Metin	Translate-Me		
+8051	Metin der Finsternis	Translate-Me		
+8052	Metin der Glut	Translate-Me		
+8053	Metin der Eitelkeit	Translate-Me		
+8054	Metin des Zorns	Translate-Me		
+8055	Metin des Unheils	Translate-Me		
+8056	Metin der Niedertracht	Translate-Me		
+8057	Metin des Fegefeuers	Translate-Me		
+8058	Metin der Kälte	Translate-Me		
+8059	Metin der Baumwesen	Translate-Me		
+8060	Kürbis-Metin	Translate-Me		
+8061	Metin des Waldes	Translate-Me		
+8101	Metin des Kummers	Translate-Me		
+8102	Metin des Kampfs	Translate-Me		
+8103	Metin der Schlacht	Translate-Me		
+8104	Metin der Gier	Translate-Me		
+8105	Metin der Schwärze	Translate-Me		
+8106	Metin der Dunkelheit	Translate-Me		
+8107	Metin der Eifersucht	Translate-Me		
+8108	Metin der Seele	Translate-Me		
+8109	Metin des Schattens	Translate-Me		
+8110	Metin der Härte	Translate-Me		
+8111	Metin des Teufels	Translate-Me		
+8112	Metin des Sturzes	Translate-Me		
+8113	Metin des Todes	Translate-Me		
+8114	Metin des Mordes	Translate-Me		
+8115	Metin des Mondes	Translate-Me		
+8200	Schokoladen-Metinstein	Translate-Me		
+8201	Schokoladen-Metinstein	Translate-Me		
+8203	Metin der Erleuchtung	Translate-Me		
+8501	Wildhund	Translate-Me		
+8502	Keiler	Translate-Me		
+8503	Bär	Translate-Me		
+8504	Weißer Tiger	Translate-Me		
+8505	Schwarzer Ork-Riese	Translate-Me		
+8506	Baumfrosch-Anführer	Translate-Me		
+8507	Wüstenbandit	Translate-Me		
+8508	Esoterischer Peiniger	Translate-Me		
+8509	Esoterischer Beschwörer	Translate-Me		
+8510	Flammenkrieger	Translate-Me		
+8511	Eisgolem	Translate-Me		
+8600	?????	Translate-Me		
+8601	?????	Translate-Me		
+8602	?????	Translate-Me		
+8603	?????	Translate-Me		
+8604	????	Translate-Me		
+8605	????	Translate-Me		
+8606	??	Translate-Me		
+8607	??	Translate-Me		
+8608	±¸¹ÌÈ£	Translate-Me		
+8609	±¸¹ÌÈ£	Translate-Me		
+8610	´©··Åõ¹ü±Í	Translate-Me		
+8611	´©··Åõ¹ü±Í	Translate-Me		
+8612	????	Translate-Me		
+8613	????	Translate-Me		
+8614	??????	Translate-Me		
+8615	??????	Translate-Me		
+8616	Billy Loomis	Translate-Me		
+8617	Jack Torrance	Translate-Me		
+8618	Chucky	Translate-Me		
+8619	Zep Hindle	Translate-Me		
+8620	Jason	Translate-Me		
+8621	Michael Myers	Translate-Me		
+8622	Freddy Krüger	Translate-Me		
+8623	Ledergesicht	Translate-Me		
+9001	Waffenhändler	Translate-Me		
+9002	Rüstungshändler	Translate-Me		
+9003	Gemischtwarenhändlerin	Translate-Me		
+9004	Ereignishelfer	Translate-Me		
+9005	Lagerverwalter	Translate-Me		
+9006	Alte Frau	Translate-Me		
+9007	Waffenhändler	Translate-Me		
+9008	Rüstungshändler	Translate-Me		
+9009	Fischer	Translate-Me		
+9010	Spezialhändlerin	Translate-Me		
+9011	Hochzeitsplanerin	Translate-Me		
+9012	Teleporter	Translate-Me		
+10001	Gebiet_Jayang 4002 8995	Translate-Me		
+10002	Gebiet_Yongan 4503 9050	Translate-Me		
+10003	Gebiet_Bokjung 1118 2161	Translate-Me		
+10004	Gebiet_Joan 876 2131	Translate-Me		
+10005	Gebiet_Bakra 9064 2214	Translate-Me		
+10006	Gebiet_Pyungmo 9372 2188	Translate-Me		
+10007	Gebiet_Yongan 4188 9560	Translate-Me		
+10008	Gebiet_Jayang 3179 8332	Translate-Me		
+10009	Gebiet_Joan 897 1127	Translate-Me		
+10010	Gebiet_Bokjung 1759 2210	Translate-Me		
+10011	Gebiet_Pyungmo 9343 3143	Translate-Me		
+10012	Gebiet_Bakra 8348 2926	Translate-Me		
+10013	Hwang-Tempel 5536 1441	Translate-Me		
+10014	Seungryong 3326 7468	Translate-Me		
+10015	Yongbi-Wüste 3467 6329	Translate-Me		
+10016	Kuahlo_Dong 600 4960	Translate-Me		
+10017	Hwang-Tempel 5906 1102	Translate-Me		
+10018	Gumsan-Turm 2165 7270	Translate-Me		
+10019	Gebiet_Jayang 3211 9009	Translate-Me		
+10020	Jungrang 1356 43	Translate-Me		
+10021	Gebiet_Bokjung 1168 2920	Translate-Me		
+10022	Waryong 2219 93	Translate-Me		
+10023	Gebiet_Bakra 9098 2948	Translate-Me		
+10024	Imha 2718 130	Translate-Me		
+10025	Berg_Sohan 4993 2984	Translate-Me		
+10026	Lungsam 2887 57	Translate-Me		
+10027	Lungsam 2866 437	Translate-Me		
+10028	Roter_Wald 11199 708	Translate-Me		
+10029	Schlangenfeld 10590 7262	Translate-Me		
+10030	Yongbi-Wüste 3519 6223	Translate-Me		
+10031	Schlangenfeld 10590 7262	Translate-Me		
+10032	Land_d._Riesen 8283 7635	Translate-Me		
+10033	Zin-Grotte 10594 7525	Translate-Me		
+10034	2_Zin-Grotte 10594 7525	Translate-Me		
+10035	Deon-Zeon 917 5253	Translate-Me		
+10036	2_Deon-Zeon 7041 4642	Translate-Me		
+10037	??? 3809 8233	Translate-Me		
+10038	??? 9752 1330	Translate-Me		
+10039	??? 1917 2900	Translate-Me		
+10040	??? 9239 1836	Translate-Me		
+10041	??? 8316 2154	Translate-Me		
+10042	??? 9772 1850	Translate-Me		
+10043	??? 3819 2969	Translate-Me		
+10044	??? 10189 1484	Translate-Me		
+10045	??? 3819 2969	Translate-Me		
+10046	??? 9774 1501	Translate-Me		
+10047	??? 2699 6752	Translate-Me		
+10048	??? 9679 1994	Translate-Me		
+10049	??? 2699 6752	Translate-Me		
+10050	??? 9256 2012	Translate-Me		
+10051	???? 3478 6189	Translate-Me		
+10052	??? 9780 1995	Translate-Me		
+10053	???? 3478 6189	Translate-Me		
+10054	??? 10190 2002	Translate-Me		
+10055	???? 6011 6874	Translate-Me		
+10056	??? 4368 2158	Translate-Me		
+10057	??? 3355 7558	Translate-Me		
+10058	???? 5943 1337	Translate-Me		
+10059	???1 0 10496	Translate-Me		
+10060	????1 1536 10496	Translate-Me		
+10061	????1 4608 10496	Translate-Me		
+10062	???1 6144 10496	Translate-Me		
+10063	??? 3031 266	Translate-Me		
+10064	???? 11133 534	Translate-Me		
+10065	???? 7754 10553	Translate-Me		
+10066	????? 9915 11195	Translate-Me		
+10067	Affendungeon 7752 4477	Translate-Me		
+10068	Gebiet_Jayang 4062 8756	Translate-Me		
+10069	Affendungeon 8520 4477	Translate-Me		
+10070	Gebiet_Bokjung 1611 2130	Translate-Me		
+10071	Affendungeon 9288 4477	Translate-Me		
+10072	Gebiet_Bakra 8727 2100	Translate-Me		
+10073	Yongbi-Wüste 3061 6202	Translate-Me		
+10074	Affendungeon 1352 6532	Translate-Me		
+10075	Yongbi-Wüste 2879 5407	Translate-Me		
+10076	Affendungeon 1352 7300	Translate-Me		
+10077	????1? 9 12078	Translate-Me		
+10078	??? 2842 8106	Translate-Me		
+10079	Grotte1 1459 13236	Translate-Me		
+10080	????2? 2413 12755	Translate-Me		
+10081	????1? 99 13618	Translate-Me		
+10082	???? 5028 9998	Translate-Me		
+10083	????1? 1360 14972	Translate-Me		
+10084	????2? 2414 14289	Translate-Me		
+10085	????1? 99 15154	Translate-Me		
+10086	???? 616 1148	Translate-Me		
+10087	????1? 1360 16508	Translate-Me		
+10088	????2? 2414 15825	Translate-Me		
+10089	????1? 99 16690	Translate-Me		
+10090	???? 9609 3188	Translate-Me		
+10091	????1? 1360 18044	Translate-Me		
+10092	????2? 2414 17361	Translate-Me		
+10093	Drachenpforte 1731 12205	Translate-Me		
+10094	Drachenpforte 1733 13743	Translate-Me		
+10095	Drachenpforte 1728 15277	Translate-Me		
+10096	Drachenpforte 1724 16824	Translate-Me		
+10097	SD2 7040 5235	Translate-Me		
+10098	SD3 984 5711	Translate-Me		
+10099	Kap 11043 17885	Translate-Me		
+10100	Kap 10963 16744	Translate-Me		
+10101	Nephritbucht 10869 16558	Translate-Me		
+10102	Kap 11664 16779	Translate-Me		
+10103	Donnerberge 11345 16546	Translate-Me		
+10104	Donnerberge 11921 16550	Translate-Me		
+10105	Gautamakliff 12263 16811	Translate-Me		
+10501	. 345 361	Translate-Me		
+10502	. 106 547	Translate-Me		
+10503	. 75 368	Translate-Me		
+10504	. 89 746	Translate-Me		
+10505	. 520 352	Translate-Me		
+10506	. 541 45	Translate-Me		
+10507	. 211 109	Translate-Me		
+10508	. 615 49	Translate-Me		
+10509	. 284 705	Translate-Me		
+10510	. 145 310	Translate-Me		
+10511	. 553 285	Translate-Me		
+10512	. 487 274	Translate-Me		
+10513	. 626 291	Translate-Me		
+10514	. 285 569	Translate-Me		
+10515	. 80 303	Translate-Me		
+10516	. 315 238	Translate-Me		
+10517	. 416 272	Translate-Me		
+10518	. 72 498	Translate-Me		
+10519	. 215 495	Translate-Me		
+10520	. 523 415	Translate-Me		
+10521	. 72 498	Translate-Me		
+10522	. 518 480	Translate-Me		
+10523	. 583 379	Translate-Me		
+10524	. 459 558	Translate-Me		
+10601	. 345 361	Translate-Me		
+10602	. 520 352	Translate-Me		
+10603	. 487 274	Translate-Me		
+10604	. 75 368	Translate-Me		
+10605	. 211 109	Translate-Me		
+10606	. 215 495	Translate-Me		
+10607	. 315 238	Translate-Me		
+10608	. 520 352	Translate-Me		
+10609	. 284 705	Translate-Me		
+10610	. 145 310	Translate-Me		
+10611	. 416 272	Translate-Me		
+10612	. 80 303	Translate-Me		
+10613	. 72 498	Translate-Me		
+10614	. 106 547	Translate-Me		
+10615	. 523 415	Translate-Me		
+10616	. 541 45	Translate-Me		
+10617	. 72 121	Translate-Me		
+10618	. 518 480	Translate-Me		
+10619	. 89 746	Translate-Me		
+10620	. 285 569	Translate-Me		
+10621	. 615 49	Translate-Me		
+10622	. 72 498	Translate-Me		
+10623	. 583 379	Translate-Me		
+10624	. 459 558	Translate-Me		
+10625	. 609 553	Translate-Me		
+10626	. 594 338	Translate-Me		
+10701	. 75 368	Translate-Me		
+10702	. 541 45	Translate-Me		
+10703	. 615 49	Translate-Me		
+10704	. 284 705	Translate-Me		
+10705	. 520 352	Translate-Me		
+10706	. 553 285	Translate-Me		
+10707	. 145 310	Translate-Me		
+10708	. 345 361	Translate-Me		
+10709	. 523 415	Translate-Me		
+10710	. 72 498	Translate-Me		
+10711	. 626 291	Translate-Me		
+10712	. 487 274	Translate-Me		
+10713	. 72 498	Translate-Me		
+10714	. 106 547	Translate-Me		
+10715	. 518 480	Translate-Me		
+10716	. 285 569	Translate-Me		
+10717	. 80 303	Translate-Me		
+10718	. 211 109	Translate-Me		
+10719	. 416 272	Translate-Me		
+10720	. 215 495	Translate-Me		
+10721	. 315 238	Translate-Me		
+10722	. 89 746	Translate-Me		
+10723	. 583 379	Translate-Me		
+10724	. 459 558	Translate-Me		
+10725	. 609 553	Translate-Me		
+10726	. 594 338	Translate-Me		
+10801	. 70 581	Translate-Me		
+10802	. 69 664	Translate-Me		
+10803	. 132 660	Translate-Me		
+10804	. 184 566	Translate-Me		
+10805	. 285 567	Translate-Me		
+10806	. 272 636	Translate-Me		
+10807	. 191 667	Translate-Me		
+10808	. 345 563	Translate-Me		
+10809	. 400 570	Translate-Me		
+10810	. 68 806	Translate-Me		
+10811	. 140 811	Translate-Me		
+10812	. 189 722	Translate-Me		
+10813	. 274 722	Translate-Me		
+10814	.233 780	Translate-Me		
+10815	. 318 780	Translate-Me		
+10816	. 273 833	Translate-Me		
+10817	.356 717	Translate-Me		
+10818	.412 712	Translate-Me		
+10819	. 372 776	Translate-Me		
+10820	. 354 840	Translate-Me		
+10821	. 366 817	Translate-Me		
+10822	. 420 841	Translate-Me		
+10823	. 94 846	Translate-Me		
+10824	. 63 864	Translate-Me		
+10825	. 131 866	Translate-Me		
+10826	. 59 920	Translate-Me		
+10827	. 91 940	Translate-Me		
+10828	. 135 919	Translate-Me		
+10829	. 194 870	Translate-Me		
+10830	. 243 862	Translate-Me		
+10831	. 312 861	Translate-Me		
+10832	. 373 893	Translate-Me		
+10833	. 406 880	Translate-Me		
+10834	. 422 935	Translate-Me		
+10835	. 500 807	Translate-Me		
+11000	Wächter des Dorfplatzes	Translate-Me		
+11001	Schlachtenverwalter	Translate-Me		
+11002	Wächter des Dorfplatzes	Translate-Me		
+11003	Schlachtenverwalter	Translate-Me		
+11004	Wächter des Dorfplatzes	Translate-Me		
+11005	Schlachtenverwalter	Translate-Me		
+11100	Wächter des Dorfplatzes	Translate-Me		
+11101	Schlachtenverwalter	Translate-Me		
+11102	Wächter des Dorfplatzes	Translate-Me		
+11103	Schlachtenverwalter	Translate-Me		
+11104	Wächter des Dorfplatzes	Translate-Me		
+11105	Schlachtenverwalter	Translate-Me		
+11106	???	Translate-Me		
+11107	???	Translate-Me		
+11108	???	Translate-Me		
+11109	???	Translate-Me		
+11110	???	Translate-Me		
+11111	???	Translate-Me		
+11112	???	Translate-Me		
+11113	???	Translate-Me		
+11114	???	Translate-Me		
+11115	???	Translate-Me		
+11116	???	Translate-Me		
+11117	???	Translate-Me		
+11505	Goldener Frosch	Translate-Me		
+11506	??	Translate-Me		
+11507	??	Translate-Me		
+11508	??	Translate-Me		
+11509	??	Translate-Me		
+11510	??	Translate-Me		
+12000	Lagerfeuer	Translate-Me		
+13000	Holztor	Translate-Me		
+13001	Steintor	Translate-Me		
+14000	Werkstatt	Translate-Me		
+14001	Werkstatt	Translate-Me		
+14002	Werkstatt	Translate-Me		
+14003	Werkstatt	Translate-Me		
+14004	Werkstatt	Translate-Me		
+14005	Werkstatt	Translate-Me		
+14006	Werkstatt	Translate-Me		
+14007	Werkstatt	Translate-Me		
+14008	Werkstatt	Translate-Me		
+14009	Werkstatt	Translate-Me		
+14010	Altar	Translate-Me		
+14011	Altar	Translate-Me		
+14012	Altar	Translate-Me		
+14013	Altar	Translate-Me		
+14014	Altar	Translate-Me		
+14015	Altar	Translate-Me		
+14016	Altar	Translate-Me		
+14017	Altar	Translate-Me		
+14018	Altar	Translate-Me		
+14019	Altar	Translate-Me		
+14020	Hauptquartier	Translate-Me		
+14021	Hauptquartier	Translate-Me		
+14022	Hauptquartier	Translate-Me		
+14023	Hauptquartier	Translate-Me		
+14024	Hauptquartier	Translate-Me		
+14025	Hauptquartier	Translate-Me		
+14026	Hauptquartier	Translate-Me		
+14027	Hauptquartier	Translate-Me		
+14028	Hauptquartier	Translate-Me		
+14029	Hauptquartier	Translate-Me		
+14030	Trainingscamp	Translate-Me		
+14031	Trainingscamp	Translate-Me		
+14032	Trainingscamp	Translate-Me		
+14033	Trainingscamp	Translate-Me		
+14034	Trainingscamp	Translate-Me		
+14035	Trainingscamp	Translate-Me		
+14036	Trainingscamp	Translate-Me		
+14037	Trainingscamp	Translate-Me		
+14038	Trainingscamp	Translate-Me		
+14039	Trainingscamp	Translate-Me		
+14040	Ofen	Translate-Me		
+14041	Ofen	Translate-Me		
+14042	Ofen	Translate-Me		
+14043	Ofen	Translate-Me		
+14044	Ofen	Translate-Me		
+14045	Ofen	Translate-Me		
+14046	Ofen	Translate-Me		
+14047	Ofen	Translate-Me		
+14048	Ofen	Translate-Me		
+14049	Ofen	Translate-Me		
+20001	Alchemist	Translate-Me		
+20002	Aranyo	Translate-Me		
+20003	Ah-Yu	Translate-Me		
+20004	Bettler	Translate-Me		
+20005	Yonah	Translate-Me		
+20006	Mirine	Translate-Me		
+20007	Lagerverwalter	Translate-Me		
+20008	Octavio	Translate-Me		
+20009	Alter Mann	Translate-Me		
+20010	Fahrender Händler	Translate-Me		
+20011	Uriel	Translate-Me		
+20012	Yu-Rang	Translate-Me		
+20013	Fischer	Translate-Me		
+20014	Taurean	Translate-Me		
+20015	Deokbae	Translate-Me		
+20016	Schmied	Translate-Me		
+20017	Yu-Hwan	Translate-Me		
+20018	Baek-Go	Translate-Me		
+20019	Yang-Shin	Translate-Me		
+20020	Verräter Balso	Translate-Me		
+20021	Ariyoung	Translate-Me		
+20022	Huahn-So	Translate-Me		
+20023	Soon	Translate-Me		
+20024	Harang	Translate-Me		
+20025	.	Translate-Me		
+20026	Ji-Ryu	Translate-Me		
+20027	Gillian	Translate-Me		
+20028	Mirines Bruder	Translate-Me		
+20029	Pony	Translate-Me		
+20030	Pferd	Translate-Me		
+20031	Weihnachtsmann	Translate-Me		
+20032	Weihnachtsbaum	Translate-Me		
+20033	Weihnachtsbaum	Translate-Me		
+20034	Weihnachtsbaum	Translate-Me		
+20035	Flagge	Translate-Me		
+20036	Flagge	Translate-Me		
+20037	Flagge	Translate-Me		
+20038	..	Translate-Me		
+20039	.	Translate-Me		
+20040	Grundstücksverwalter	Translate-Me		
+20041	Betrunkener Bürger	Translate-Me		
+20042	Fahrender Händler	Translate-Me		
+20043	.	Translate-Me		
+20044	Waffenschmied	Translate-Me		
+20045	Rüstungsschmied	Translate-Me		
+20046	Juwelier	Translate-Me		
+20047	Diamantader	Translate-Me		
+20048	Bernsteinader	Translate-Me		
+20049	Fossilholzader	Translate-Me		
+20050	Kupferader	Translate-Me		
+20051	Silberader	Translate-Me		
+20052	Goldader	Translate-Me		
+20053	Jadeader	Translate-Me		
+20054	Ebenholzader	Translate-Me		
+20055	Muschelstapel	Translate-Me		
+20056	Weißgoldader	Translate-Me		
+20057	Kristallader	Translate-Me		
+20058	Quarzader	Translate-Me		
+20059	Himmelstränenader	Translate-Me		
+20060	Diamantalchemist	Translate-Me		
+20061	Bernsteinalchemist	Translate-Me		
+20062	Fossilholzalchemist	Translate-Me		
+20063	Kupferalchemist	Translate-Me		
+20064	Silberalchemist	Translate-Me		
+20065	Goldalchemist	Translate-Me		
+20066	Jadealchemist	Translate-Me		
+20067	Ebenholzalchemist	Translate-Me		
+20068	Perlenalchemist	Translate-Me		
+20069	Weißgoldalchemist	Translate-Me		
+20070	Kristallalchemist	Translate-Me		
+20071	Quarzalchemist	Translate-Me		
+20072	Himmelstränenalchemist	Translate-Me		
+20073	Altes Siegel	Translate-Me		
+20074	Turm-Waffenschmied	Translate-Me		
+20075	Turm-Rüstungsschmied	Translate-Me		
+20076	Turm-Juwelier	Translate-Me		
+20077	Wächter des Altars	Translate-Me		
+20078	Wächter des Altars	Translate-Me		
+20079	Wächter des Altars	Translate-Me		
+20080	Trainingsleiter	Translate-Me		
+20081	Gestohlenes Gangsiegel	Translate-Me		
+20082	Meister	Translate-Me		
+20083	Jegal-Tunseok	Translate-Me		
+20084	Biologe Chaegirab	Translate-Me		
+20085	Jimjunja	Translate-Me		
+20086	Handu-Up	Translate-Me		
+20087	Wonda-Rim	Translate-Me		
+20088	Chuk-Sal	Translate-Me		
+20089	Pung-Ho	Translate-Me		
+20090	Heuk-Young	Translate-Me		
+20091	Seon-Pyeong	Translate-Me		
+20092	Pfeilhändlerin	Translate-Me		
+20093	Koe-Pung	Translate-Me		
+20094	Friseurin	Translate-Me		
+20095	Rhobar der III	Translate-Me		
+20096	??? ???	Translate-Me		
+20097	Burgtor	Translate-Me		
+20098	Burgtor	Translate-Me		
+20099	Burgtor	Translate-Me		
+20101	Weißes Pferd	Translate-Me		
+20102	Braunes Pferd	Translate-Me		
+20103	Schwarzes Pferd	Translate-Me		
+20104	Weißes Pferd	Translate-Me		
+20105	Braunes Pferd	Translate-Me		
+20106	Schwarzes Pferd	Translate-Me		
+20107	Weißes Pferd	Translate-Me		
+20108	Braunes Pferd	Translate-Me		
+20109	Schwarzes Pferd	Translate-Me		
+20110	Weißes Pferd	Translate-Me		
+20111	Braunes Pferd	Translate-Me		
+20112	Schwarzes Pferd	Translate-Me		
+20122	?????	Translate-Me		
+20123	?????	Translate-Me		
+20124	?????	Translate-Me		
+20125	?????	Translate-Me		
+20126	Weihnachtsmann	Translate-Me		
+20127	Jubiläumsbanner 1	Translate-Me		
+20128	Jubiläumsbanner 2	Translate-Me		
+20129	Jubiläumsbanner 3	Translate-Me		
+20130	Jubiläumsbanner 4	Translate-Me		
+20131	Jubiläumsbanner 5	Translate-Me		
+20132	Jubiläumsbanner 6	Translate-Me		
+20133	Jubiläumsbanner 7	Translate-Me		
+20134	Sonnenbanner	Translate-Me		
+20139	Gildenbanner (lila)	Translate-Me		
+20140	Gildenbanner (blau/grün)	Translate-Me		
+20141	Gildenbanner (rot/gold)	Translate-Me		
+20138	Ramadanbanner	Translate-Me		
+20201	??????	Translate-Me		
+20202	??????	Translate-Me		
+20203	?????	Translate-Me		
+20204	???????	Translate-Me		
+20205	?????? ??????	Translate-Me		
+20206	?????? ??????	Translate-Me		
+20207	?????? ?????	Translate-Me		
+20208	?????? ???????	Translate-Me		
+20209	?????? ??????	Translate-Me		
+20210	?????? ??????	Translate-Me		
+20211	?????? ?????	Translate-Me		
+20212	?????? ???????	Translate-Me		
+20213	?????????	Translate-Me		
+20214	?????? ?????????	Translate-Me		
+20215	?????? ?????????	Translate-Me		
+20216	????????	Translate-Me		
+20217	?????? ????????	Translate-Me		
+20218	?????? ????????	Translate-Me		
+20219	blackpony	Translate-Me		
+20220	Å©¸®½º¸¶½º ¼ø·Ï	Translate-Me		
+20221	Àü°©¹é¿õ	Translate-Me		
+20222	Àü°©ÆÒ´õ	Translate-Me		
+20223	Àü°©¼®·æÀÚ	Translate-Me		
+20224	³­ÆøÇÑ Àü°©¼®·æÀÚ	Translate-Me		
+20225	¿ë¸ÍÇÑ Àü°©¼®·æÀÚ	Translate-Me		
+20226	ÈæÀ¯´ÏÄÜ	Translate-Me		
+20227	¹éÀ¯´ÏÄÜ	Translate-Me		
+20228	Àü°©¸ÍÁ¶	Translate-Me		
+20229	³­ÆøÇÑ Àü°©¸ÍÁ¶	Translate-Me		
+20230	¿ë¸ÍÇÑ Àü°©¸ÍÁ¶	Translate-Me		
+20231	Àü°©Èæ¹ü	Translate-Me		
+20232	Àü°©Ç¥¹ü	Translate-Me		
+20233	Muffin (Zubehör braun)	Translate-Me		
+20234	Nugget (Zubehör braun)	Translate-Me		
+20235	Muffin (Zubehör blau)	Translate-Me		
+20236	Nugget (Zubehör blau)	Translate-Me		
+20237	Muffin (Zubehör grün)	Translate-Me		
+20238	Nugget (Zubehör grün)	Translate-Me		
+20239	Blitzen	Translate-Me		
+20240	Donner	Translate-Me		
+20241	Nugget (marine)	Translate-Me		
+20242	Muffin (rosa)	Translate-Me		
+20243	Kyzaghans Pferd	Translate-Me		
+20244	Nirwana-Drache	Translate-Me		
+20245	Samsara-Drache	Translate-Me		
+20246	Manni	Translate-Me		
+20247	Manu	Translate-Me		
+20248	Braunes Kampf-Tulu	Translate-Me		
+20249	Schwarzes Kampf-Tulu	Translate-Me		
+20300	Körper-Kampf Lehrer	Translate-Me		
+20301	Mental-Kampf Lehrer	Translate-Me		
+20302	Nahkampf Lehrer	Translate-Me		
+20303	Fernkampf Lehrer	Translate-Me		
+20304	Magische-Waffen Lehrer	Translate-Me		
+20305	Schwarze-Magie Lehrer	Translate-Me		
+20306	Lehrer der Drachenmacht	Translate-Me		
+20307	Lehrer der Heilung	Translate-Me		
+20320	Körper-Kampf Lehrer	Translate-Me		
+20321	Mental-Kampf Lehrer	Translate-Me		
+20322	Nahkampf Lehrer	Translate-Me		
+20323	Fernkampf Lehrer	Translate-Me		
+20324	Magische-Waffen Lehrer	Translate-Me		
+20325	Schwarze-Magie Lehrer	Translate-Me		
+20326	Lehrer der Drachenmacht	Translate-Me		
+20327	Lehrer der Heilung	Translate-Me		
+20340	Körper-Kampf Lehrer	Translate-Me		
+20341	Mental-Kampf Lehrer	Translate-Me		
+20342	Nahkampf Lehrer	Translate-Me		
+20343	Fernkampf Lehrer	Translate-Me		
+20344	Magische-Waffen Lehrer	Translate-Me		
+20345	Schwarze-Magie Lehrer	Translate-Me		
+20346	Lehrer der Drachenmacht	Translate-Me		
+20347	Lehrer der Heilung	Translate-Me		
+20348	Wächter des Dämonenturms	Translate-Me		
+20349	Stallbursche	Translate-Me		
+20350	Dungeonwärter	Translate-Me		
+20351	Hallenwächter	Translate-Me		
+20352	Hasun Steindenkmal	Translate-Me		
+20353	Seul Rong Steindenkmal	Translate-Me		
+20354	Stadtwächter	Translate-Me		
+20355	Hauptmann	Translate-Me		
+20356	Ginsengsammler	Translate-Me		
+20357	Weol Denkmal	Translate-Me		
+20358	Namenlose Blumen	Translate-Me		
+20359	Alte Box mit Papieren	Translate-Me		
+20360	Wha Denkmal	Translate-Me		
+20361	Su Denkmal	Translate-Me		
+20362	Mok Denkmal	Translate-Me		
+20363	Gum-Denkmal	Translate-Me		
+20364	Nakajima	Translate-Me		
+20365	To Denkmal	Translate-Me		
+20366	Sa-Soe	Translate-Me		
+20367	Wächter der Katakombe	Translate-Me		
+20368	Fahrender Händler	Translate-Me		
+20369	Lee Chung	Translate-Me		
+20370	Vergifteter Soldat	Translate-Me		
+20371	Alter Grabstein	Translate-Me		
+20372	Verwitterte Steintafel	Translate-Me		
+20373	Schutzgarde	Translate-Me		
+20374	Wächter	Translate-Me		
+20375	Holzbarrikade	Translate-Me		
+20376	Kim Rim	Translate-Me		
+20377	Yak-Hwan	Translate-Me		
+20378	Admiral Angmur	Translate-Me		
+20379	Verletzter Soldat	Translate-Me		
+20380	Yon-I-Walker	Translate-Me		
+20381	Konfuzius	Translate-Me		
+20382	Felsenblume	Translate-Me		
+20383	Jae-Seon Kim	Translate-Me		
+20384	Weihnachtsbaum	Translate-Me		
+20385	Schlund des Am-heh	Translate-Me		
+20386	Stele der Isfet	Translate-Me		
+20387	Schicksalsschloss	Translate-Me		
+20388	Drachentor	Translate-Me		
+20389	Mexican Bull	Translate-Me		
+20390	Grabstein des Taramor	Translate-Me		
+20391	Sonnenkraut	Translate-Me		
+20392	Toter Soldat	Translate-Me		
+20393	Verwundeter Soldat	Translate-Me		
+20394	Feuerland-Wächter	Translate-Me		
+20395	Eisland-Wächter	Translate-Me		
+20396	Àû¼ö»ó´Ü ÆÇ¸Å¿ø	Translate-Me		
+20397	Eisiger Löwe	Translate-Me		
+20398	Würfel des Arktos	Translate-Me		
+20399	Säule des Norddrachen	Translate-Me		
+20400	Myonghorang der Weise	Translate-Me		
+20401	Wächter der Kolonie	Translate-Me		
+20402	Portalwächter	Translate-Me		
+20403	Amarok	Translate-Me		
+20404	Nagual	Translate-Me		
+20405	Waheela	Translate-Me		
+20406	Siehe Kommentar	Translate-Me		
+20407	Fenrir	Translate-Me		
+20408	Wächter des Tempels	Translate-Me		
+20409	Wächter des Waldes	Translate-Me		
+20410	Späher des Waldes	Translate-Me		
+20411	Kundschafter des Waldes	Translate-Me		
+20412	Anführer der Waldwächter	Translate-Me		
+20413	Kawuco	Translate-Me		
+20414	Budokan manager	Translate-Me		
+20415	Portal	Translate-Me		
+20416	Sam Pumpkin	Translate-Me		
+20417	Okey-Spieltisch	Translate-Me		
+20419	Drachenwächter Dolnarr	Translate-Me		
+20420	Goldene Drachentruhe	Translate-Me		
+20421	Drachenwächter Jaharr	Translate-Me		
+20422	Drachenei	Translate-Me		
+20423	Seelenkristallalchemist	Translate-Me		
+20424	Rubinalchemist	Translate-Me		
+20425	Granatalchemist	Translate-Me		
+20426	Smaragdalchemist	Translate-Me		
+20427	Saphiralchemist	Translate-Me		
+20428	Turmalinalchemist	Translate-Me		
+20429	Kampfzonen-Meister	Translate-Me		
+20430	Törtchen	Translate-Me		
+20431	Jubiläumshändler	Translate-Me		
+30000	°³ÀÎ»óÁ¡	Translate-Me		
+30001	°³ÀÎ»óÁ¡	Translate-Me		
+30002	Tausendundeine Nacht	Translate-Me		
+30003	Grillmeister	Translate-Me		
+30004	Schatzjäger	Translate-Me		
+30005	Sparflamme	Translate-Me		
+30006	Waffenhändler	Translate-Me		
+30007	Rüstungsgeschäft	Translate-Me		
+30008	Alchemist	Translate-Me		
+30101	Statue des Kud	Translate-Me		
+30102	Basalt-Obelisk	Translate-Me		
+30103	Schildkrötenfels	Translate-Me		
+30104	Runenpfahl	Translate-Me		
+30111	1. Tor der Verdammnis	Translate-Me		
+30112	2. Tor der Verdammnis	Translate-Me		
+30113	3. Tor der Verdammnis	Translate-Me		
+30114	4. Tor der Verdammnis	Translate-Me		
+30115	5. Tor der Verdammnis	Translate-Me		
+30116	6. Tor der Verdammnis	Translate-Me		
+30117	7. Tor der Verdammnis	Translate-Me		
+30118	8. Tor der Verdammnis	Translate-Me		
+30119	9. Tor der Verdammnis	Translate-Me		
+30120	Kräutertasche	Translate-Me		
+30121	Geist eines Sura	Translate-Me		
+30122	Geist eines Kriegers	Translate-Me		
+30123	Dunkler Schrein	Translate-Me		
+30124	Sura-Skelett 1	Translate-Me		
+30125	Sura-Skelett 2	Translate-Me		
+30126	Sura-Skelett 3	Translate-Me		
+30127	Sura-Skelett 4	Translate-Me		
+30128	Sura-Skelett 5	Translate-Me		
+30129	Osterhase	Translate-Me		
+30130	Grabstein	Translate-Me		
+30131	Herr B.	Translate-Me		
+30132	Herr B.	Translate-Me		
+30301	Seelenkristallader	Translate-Me		
+30302	Rubinader	Translate-Me		
+30303	Granatader	Translate-Me		
+30304	Smaragdader	Translate-Me		
+30305	Saphirader	Translate-Me		
+30306	Turmalinerzader	Translate-Me		
+30307	Summer	Translate-Me		
+33001	?????? ???	Translate-Me		
+33002	Historiker	Translate-Me		
+33003	Fastender Bürger	Translate-Me		
+33004	Fastender Bürger	Translate-Me		
+33005	Fastender Bürger	Translate-Me		
+33006	Fastender Bürger	Translate-Me		
+33007	Fastender Bürger	Translate-Me		
+33008	Jack Pumpkin	Translate-Me		
+34001	phoenix1	Translate-Me		
+34002	??? ???	Translate-Me		
+34003	?????????	Translate-Me		
+34004	ÆÄÈ²	Translate-Me		
+34005	Porkie	Translate-Me		
+34006	Rufus	Translate-Me		
+34007	Khan	Translate-Me		
+34008	Leonidas	Translate-Me		
+34009	ÆÄÈ²	Translate-Me		
+34010	Bambi	Translate-Me		
+34011	¾Æ±â ¹é°õ	Translate-Me		
+34012	¾Æ±â ÆÒ´õ	Translate-Me		
+34013	ºÓÀºµµÀû´Ü¾Ö±âÀå¼ö	Translate-Me		
+34014	ºÓÀºµµÀû´ÜÈ²±İ¾Ö±âÀå¼ö	Translate-Me		
+34015	ÇÒ·ÎÀ©»À°­¾ÆÁö	Translate-Me		
+34016	³ì¿°ºÒ»çÁ¶	Translate-Me		
+34017	¾Æ±â Àü°©¹é¿ø	Translate-Me		
+34018	¾Æ±â Àü°©¹é¶û	Translate-Me		
+34019	¾Æ±â Àü°©¹éÈ£	Translate-Me		
+34020	¾Æ±â Àü°©¹é»çÀÚ	Translate-Me		
+34021	¾Æ±â ¸ÍÁ¶	Translate-Me		
+34022	ºÎÈ°ÀıÅä³¢	Translate-Me		
+34023	¾Æ±â Àü°©Èæ¹ü	Translate-Me		
+34024	¾Æ±â Àü°©Ç¥¹ü	Translate-Me		
+34026	Kürbisköpfchen	Translate-Me		
+34027	Kleiner Feger	Translate-Me		
+34028	Flöckchen	Translate-Me		
+34029	Glöckchen	Translate-Me		
+34030	Å¥ÇÇÆ®	Translate-Me		
+34031	ÇÏÆ®	Translate-Me		
+34032	Blaues Mondsichelchen	Translate-Me		
+34033	Rotes Mondsichelchen	Translate-Me		
+34034	Weiße Schnucke	Translate-Me		
+34035	Blauer Widder	Translate-Me		
+34036	Kleiner Drache	Translate-Me		
+34037	Kleiner Drache (Held)	Translate-Me		
+34039	ÁøÃµÀÇ Àå±º	Translate-Me		
+34041	Kleiner Affe	Translate-Me		
+34042	Kleiner Affe (Held)	Translate-Me		
+34045	Kleine Spinne	Translate-Me		
+34046	Kleine Spinne (Held)	Translate-Me		
+34049	Kleiner Razador	Translate-Me		
+34050	Kleiner Razador (Held)	Translate-Me		
+34053	Kleiner Nemere	Translate-Me		
+34054	Kleiner Nemere (Held)	Translate-Me		
+34055	Bruce	Translate-Me		
+34056	Wayne	Translate-Me		
+34057	Robin	Translate-Me		
+34058	Valentino	Translate-Me		
+34059	Valentinia	Translate-Me		
+34060	Valentino	Translate-Me		
+34061	Valentinia	Translate-Me		
+34062	Mondlaterne (orange)	Translate-Me		
+34063	Mondlaterne (blau)	Translate-Me		
+34064	Kleine Meley	Translate-Me		
+34065	Kleine Meley	Translate-Me		
+34066	Bonsai	Translate-Me		
+34067	Frau Jiangshi+	Translate-Me		
+34068	Herr Jiangshi+	Translate-Me		
+34069	Jiangshi-Junior	Translate-Me		
+34070	°íºí¸°1	Translate-Me		
+34071	°íºí¸°2	Translate-Me		
+34072	°íºí¸°(¹«¼Ó¼º)	Translate-Me		
+34084	Donnie	Translate-Me		
+34085	Frank	Translate-Me		
+60000	Gildenverwalter	Translate-Me		
+60001	Gildenverwalter	Translate-Me		
+60002	Gildenverwalter	Translate-Me		
+60003	Theowahdan	Translate-Me		
+50500	Halbmensch	Translate-Me		
+50501	Tier	Translate-Me		
+50502	Ork	Translate-Me		
+50503	Esoterischer	Translate-Me		
+50504	Untoter	Translate-Me		
+50505	Teufel	Translate-Me		
+50506	Appaloosa	Translate-Me		
+102	Wolf	Translate-Me		
+103	Alpha-Wolf	Translate-Me		
+104	Blauwolf	Translate-Me		
+105	Alpha-Blauwolf	Translate-Me		
+106	Grauwolf	Translate-Me		
+107	Alpha-Grauwolf	Translate-Me		
+108	Keiler	Translate-Me		
+109	Roter Keiler	Translate-Me		
+110	Bär	Translate-Me		
+111	Grizzlybär	Translate-Me		
+112	Schwarzbär	Translate-Me		
+113	Braunbär	Translate-Me		
+114	Tiger	Translate-Me		
+115	Weißer Tiger	Translate-Me		
+131	Verfl. Wolf	Translate-Me		
+132	Verfl. Alpha-Wolf	Translate-Me		
+133	Verfl. Blauwolf	Translate-Me		
+134	Verfl. Alpha-Blauwolf	Translate-Me		
+135	Verfl. Grauwolf	Translate-Me		
+136	Verfl. Alpha-Grauwolf	Translate-Me		
+137	Verfl. Keiler	Translate-Me		
+138	Verfl. roter Keiler	Translate-Me		
+139	Verfl. Bär	Translate-Me		
+140	Verfl. Grizzlybär	Translate-Me		
+141	Verfl. Schwarzbär	Translate-Me		
+142	Verfl. Braunbär	Translate-Me		
+143	Verfl. Tiger	Translate-Me		
+144	Verfl. weißer Tiger	Translate-Me		
+151	Cung-Mok	Translate-Me		
+152	Mu-Rang	Translate-Me		
+153	Jug-Hyul	Translate-Me		
+154	Young-Ji	Translate-Me		
+155	Li-An	Translate-Me		
+171	Hungriger Wildhund	Translate-Me		
+172	Hungriger Wolf	Translate-Me		
+173	Hungriger Alpha-Wolf	Translate-Me		
+174	Hungriger Blauwolf	Translate-Me		
+175	Hungriger Alpha-Blauwolf	Translate-Me		
+176	Hungriger Grauwolf	Translate-Me		
+177	Hungriger Alpha-Grauwolf	Translate-Me		
+178	Hungriger Keiler	Translate-Me		
+179	Hungriger Roter Keiler	Translate-Me		
+180	Hungriger Bär	Translate-Me		
+181	Hungriger Grizzlybär	Translate-Me		
+182	Hungriger Schwarzbär	Translate-Me		
+183	Hungriger Braunbär	Translate-Me		
+184	Hungriger Tiger	Translate-Me		
+185	Hungriger Weißer Tiger	Translate-Me		
+191	Lykos	Translate-Me		
+192	Scrofa	Translate-Me		
+193	Bera	Translate-Me		
+194	Tigris	Translate-Me		
+301	Weißer-Eid Soldatin	Translate-Me		
+302	Weißer-Eid Bogenschützin	Translate-Me		
+303	Weißer-Eid Generalin	Translate-Me		
+304	Weißer-Eid Kommandantin	Translate-Me		
+331	Weißer-Eid Soldatin	Translate-Me		
+332	Weißer-Eid Bogenschützin	Translate-Me		
+333	Weißer-Eid Generalin	Translate-Me		
+334	Weißer-Eid Kommandantin	Translate-Me		
+351	Feiger Weißer-Eid-Soldat	Translate-Me		
+352	Feiger W.-Eid Schütze	Translate-Me		
+353	Feiger W.-Eid-General	Translate-Me		
+354	Feiger W.-Eid-Kommandant	Translate-Me		
+391	Mi-Jung	Translate-Me		
+392	Eun-Jung	Translate-Me		
+393	Se-Rang	Translate-Me		
+394	Jin-Hee	Translate-Me		
+395	Mutlose Mi-Jung	Translate-Me		
+396	Mutlose Eun-Jung	Translate-Me		
+397	Mutlose Se-Rang	Translate-Me		
+398	Mutlose Jin-Hee	Translate-Me		
+401	Schwarzwindsoldat	Translate-Me		
+402	Schwarzwindbesessener	Translate-Me		
+403	Schwarzwindbogenschütze	Translate-Me		
+404	Schwarzwind-Jak-To	Translate-Me		
+405	Schwarzwind-To-Su	Translate-Me		
+406	Schwarzwind-Gu-Ryung	Translate-Me		
+431	Schwarzer Sturmsoldat	Translate-Me		
+432	Schw. Sturmbesessener	Translate-Me		
+433	Schwarzer Bogenschütze	Translate-Me		
+434	Schwarzer Sturm-Joh-Hwan	Translate-Me		
+435	Schwarzer Sturm-Kyuk-Jan	Translate-Me		
+436	Schwarzer Sturm-Pho-Hwan	Translate-Me		
+451	Böser Schw. Sturmsoldat	Translate-Me		
+452	Böser Sturmbesessener	Translate-Me		
+453	Böser Sturmbogenschütze	Translate-Me		
+454	Böser Sturm-Joh-Hwan	Translate-Me		
+455	Böser Sturm-Kyuk-Jang	Translate-Me		
+456	Böser Sturm-Pho-Hwan	Translate-Me		
+491	Mahon	Translate-Me		
+492	Bo	Translate-Me		
+493	Goo-Pae	Translate-Me		
+494	Chuong	Translate-Me		
+501	Wilder Infanterist	Translate-Me		
+502	Wilder Ergebener	Translate-Me		
+503	Wilder Bogenschütze	Translate-Me		
+504	Wilder General	Translate-Me		
+531	Brutaler Soldat	Translate-Me		
+532	Brutaler Besessener	Translate-Me		
+533	Brutaler Bogenschütze	Translate-Me		
+534	Brutaler Spezialist	Translate-Me		
+551	St. Wilder Infanterist	Translate-Me		
+552	St. Wilder Ergebener	Translate-Me		
+553	St. Wilder Bogenschütze	Translate-Me		
+554	St. Wilder General	Translate-Me		
+591	Brutaler Hauptmann	Translate-Me		
+595	Brutaler Geum-Chul	Translate-Me		
+601	Ork	Translate-Me		
+602	Ork-Späher	Translate-Me		
+603	Ork-Kämpfer	Translate-Me		
+604	Ork-Zauberer	Translate-Me		
+631	Stolzer Ork	Translate-Me		
+632	Stolzer Ork-Späher	Translate-Me		
+633	Stolzer Ork-Kämpfer	Translate-Me		
+634	Stolzer Ork-Zauberer	Translate-Me		
+635	Stolzer Ork-General	Translate-Me		
+636	Schwarzer Ork	Translate-Me		
+637	Schwarzer Ork-Riese	Translate-Me		
+651	Mutiger gr. Ork	Translate-Me		
+652	Mutiger gr. Orkspäher	Translate-Me		
+653	Mutiger gr. Orkkämpfer	Translate-Me		
+654	Mutiger gr. Orkzauberer	Translate-Me		
+655	Mutiger gr. Orkgeneral	Translate-Me		
+656	Mutiger Schw. Ork	Translate-Me		
+657	Mutiger Schw. Orkriese	Translate-Me		
+691	Oberork	Translate-Me		
+692	Dunkler Oberork	Translate-Me		
+693	Geister Orkführer	Translate-Me		
+701	Dunkler Fanatiker	Translate-Me		
+702	Dunkler Arahan	Translate-Me		
+703	Dunkler Kämpfer	Translate-Me		
+704	Oberer dunkler Arahan	Translate-Me		
+705	Dunkler Scharfrichter	Translate-Me		
+706	Dunkler Peiniger	Translate-Me		
+707	Dunkler Beschwörer	Translate-Me		
+731	Stolzer dunkl. Fanatiker	Translate-Me		
+732	Stolzer dunkl. Arahan	Translate-Me		
+733	Stolzer dunkl. Kämpfer	Translate-Me		
+734	Stolzer dunkl. Oberst	Translate-Me		
+735	Stolzer dunkl. Schütze	Translate-Me		
+736	Stolzer dunkl. Peiniger	Translate-Me		
+737	Stolzer dunkl. Zauberer	Translate-Me		
+751	Hoher Fanatiker	Translate-Me		
+752	Hoher Arahan	Translate-Me		
+753	Hoher Arahan-Kämpfer	Translate-Me		
+754	Hoher Ober-Arahan	Translate-Me		
+755	Hoher Scharfrichter	Translate-Me		
+756	Hoher Peiniger	Translate-Me		
+757	Hoher  Beschwörer	Translate-Me		
+771	Brutaler Fanatiker	Translate-Me		
+772	Brutaler Arahan	Translate-Me		
+773	Brutaler  Arahan-Kämpfer	Translate-Me		
+774	Brutaler Ober-Arahan	Translate-Me		
+775	Brutaler Scharfrichter	Translate-Me		
+776	Brutaler Peiniger	Translate-Me		
+777	Brutaler Beschwörer	Translate-Me		
+791	Dunkler Anführer	Translate-Me		
+792	Dunkler Geist-Anführer	Translate-Me		
+793	Elite Dunkler Anführer	Translate-Me		
+794	Elite Geist-Anführer	Translate-Me		
+795	Elite Kämpfer	Translate-Me		
+796	Elite dunkler Kämpfer	Translate-Me		
+901	Leichengeist	Translate-Me		
+902	Plagenhund	Translate-Me		
+903	Plagenmann	Translate-Me		
+904	Plagenschwertkämpfer	Translate-Me		
+905	Plagenspeerkämpfer	Translate-Me		
+906	Plagenbogenschütze	Translate-Me		
+907	Plagenanführer	Translate-Me		
+931	W. Leichengeist	Translate-Me		
+932	W. Plagenhund	Translate-Me		
+933	W. Plagenmann	Translate-Me		
+934	W. Plagenkämpfer	Translate-Me		
+935	W. Plagenspeerkämpfer	Translate-Me		
+936	W. Plagenbogenschütze	Translate-Me		
+937	Zorniger Plagenanführer	Translate-Me		
+991	Plagenei	Translate-Me		
+992	Plagenträger	Translate-Me		
+993	Riesiger Plagenträger	Translate-Me		
+1001	Dämonensoldat	Translate-Me		
+1002	Dämonenbogenschütze	Translate-Me		
+1003	Dämonenspeerkämpfer	Translate-Me		
+1004	Dämonenschamane	Translate-Me		
+1031	Gemeiner Soldat	Translate-Me		
+1032	Gemeiner Bogenschütze	Translate-Me		
+1033	Gemeiner Speerkämpfer	Translate-Me		
+1034	Gemeiner Schamane	Translate-Me		
+1035	Geist des Grolls	Translate-Me		
+1036	Geist des Chaos	Translate-Me		
+1037	Gemeiner Dämonenanführer	Translate-Me		
+1038	Totenkopfschwertmeister	Translate-Me		
+1039	Fliegender Totenkopf	Translate-Me		
+1040	Unsterblicher Geist	Translate-Me		
+1041	Dämonisches Tier	Translate-Me		
+1061	Gemeiner Geist Soldat	Translate-Me		
+1062	Gemeiner Geist Schütze	Translate-Me		
+1063	Gemeiner Geist Kämpfer	Translate-Me		
+1064	Gemeiner Geist Schamane	Translate-Me		
+1065	Gemeiner Geist des Groll	Translate-Me		
+1066	Gemeiner Geist des Chaos	Translate-Me		
+1067	Gemeiner Geist Anführer	Translate-Me		
+1068	Geist Schwertmeister	Translate-Me		
+1069	Gemeiner Flug-Totenkopf	Translate-Me		
+1070	Unsterblicher Geist	Translate-Me		
+1071	Dämonisches Tier	Translate-Me		
+1091	Dämonenkönig	Translate-Me		
+1092	Stolzer Dämonenkönig	Translate-Me		
+1093	Sensenmann	Translate-Me		
+1094	Blauer Beserker	Translate-Me		
+1095	Blauer Tod	Translate-Me		
+1101	Verzaubertes Eis	Translate-Me		
+1102	Eiskillerwal	Translate-Me		
+1103	Eisinsekt	Translate-Me		
+1104	Eislöwe	Translate-Me		
+1105	Frostiger Eismann	Translate-Me		
+1106	Yeti	Translate-Me		
+1107	Eisgolem	Translate-Me		
+1131	Unterwelt-Eissplitter	Translate-Me		
+1132	Unterwelt-Eiskillerwal	Translate-Me		
+1133	Unterwelt-Eisinsekt	Translate-Me		
+1134	Unterwelt-Eislöwe	Translate-Me		
+1135	Unterwelt-Eismann	Translate-Me		
+1136	Unterwelt-Yeti	Translate-Me		
+1137	Unterwelt-Eisgolem	Translate-Me		
+1151	Eisteufel	Translate-Me		
+1152	Eishorn Killerwal	Translate-Me		
+1153	Eisinsekt	Translate-Me		
+1154	Seol-Gu	Translate-Me		
+1155	Eismann	Translate-Me		
+1156	Eisgigant	Translate-Me		
+1157	Eisgolem	Translate-Me		
+1171	Böses verzaubertes Eis	Translate-Me		
+1172	Böser Eiskillerwal	Translate-Me		
+1173	Böses Eisinsekt	Translate-Me		
+1174	Böser Eislöwe	Translate-Me		
+1175	Böser Eismann	Translate-Me		
+1176	Böser Yeti	Translate-Me		
+1177	Böser Eisgolem	Translate-Me		
+1191	Eishexe	Translate-Me		
+1192	Große Eishexe	Translate-Me		
+1301	Baumfrosch-Soldat	Translate-Me		
+1302	Baumfrosch-Anführer	Translate-Me		
+1303	Buhmann	Translate-Me		
+1304	Gelber Tigergeist	Translate-Me		
+1305	Ochsenfrosch-General	Translate-Me		
+1306	Böser gelber Tigergeist	Translate-Me		
+1307	Böser gelber Tigergeist	Translate-Me		
+1331	Gr. Baumfrosch-Soldat	Translate-Me		
+1332	Gr. Baumfrosch-Anführer	Translate-Me		
+1333	Gr. Buhmann	Translate-Me		
+1334	Gr. gelber Tigergeist	Translate-Me		
+1335	Gr. Ochsenfrosch-General	Translate-Me		
+1401	Zerstörer	Translate-Me		
+1402	Axtkämpfer	Translate-Me		
+1403	Tausendkämpfer	Translate-Me		
+1501	Steingolem	Translate-Me		
+1502	Steinbeißer	Translate-Me		
+1503	Riesiger Felsengolem	Translate-Me		
+1601	Oger Krieger	Translate-Me		
+1602	Oger Schlächter	Translate-Me		
+1603	Oger Berserker	Translate-Me		
+1901	Neunschwanz	Translate-Me		
+1902	Elitärer Neunschwanz	Translate-Me		
+1903	Elitärer Neunschwanz	Translate-Me		
+2001	Babyspinne	Translate-Me		
+2002	Giftspinne	Translate-Me		
+2003	Rote Giftspinne	Translate-Me		
+2004	Klauenspinne	Translate-Me		
+2005	Soldatenspinne	Translate-Me		
+2031	Babygiftspinne	Translate-Me		
+2032	Tödliche Giftspinne	Translate-Me		
+2033	Rote wütende Giftspinne	Translate-Me		
+2034	Klauengiftspinne	Translate-Me		
+2035	Soldatengiftspinne	Translate-Me		
+2036	Stolze Soldat-Giftspinne	Translate-Me		
+2051	Böse Babygiftspinne	Translate-Me		
+2052	Böse tödl. Giftspinne	Translate-Me		
+2053	Böse rote Giftspinne	Translate-Me		
+2054	Böse Klauengiftspinne	Translate-Me		
+2055	Böse Soldatengiftspinne	Translate-Me		
+2061	Kleine Giftspinne	Translate-Me		
+2062	Tödliche Giftspinne	Translate-Me		
+2063	Rote tödliche Giftspinne	Translate-Me		
+2064	Klauengiftspinne	Translate-Me		
+2065	Soldatengiftspinne	Translate-Me		
+2071	Brutale Babygiftspinne	Translate-Me		
+2072	Brutale tödl. Giftspinne	Translate-Me		
+2073	Brutale rote Giftspinne	Translate-Me		
+2074	Brutale Klauengiftspinne	Translate-Me		
+2075	Brutale Soldatenspinne	Translate-Me		
+2076	Brutale st. Giftspinne	Translate-Me		
+2091	Königinnenspinne	Translate-Me		
+2092	Spinnenbaroness	Translate-Me		
+2093	Dunkl. Königinnenspinne	Translate-Me		
+2101	Wüstenfuchs	Translate-Me		
+2102	Wüstenflugauge	Translate-Me		
+2103	Königsskorpion	Translate-Me		
+2104	Junger Skorpionmann	Translate-Me		
+2105	Skorpionbogenschütze	Translate-Me		
+2106	Schlangenschwertkämpfer	Translate-Me		
+2107	Schlangenbogenschütze	Translate-Me		
+2108	Wüstenbandit	Translate-Me		
+2131	Brutaler Skorpionmann	Translate-Me		
+2132	Skorpionbogenschütze	Translate-Me		
+2133	Schlangenschwertkämpfer	Translate-Me		
+2134	Schlangenbogenschütze	Translate-Me		
+2135	Wüstenbandit	Translate-Me		
+2151	Starker Wüstenfuchs	Translate-Me		
+2152	Starker Derwisch	Translate-Me		
+2153	Starker Königsskorpion	Translate-Me		
+2154	Starker Skorpionmann	Translate-Me		
+2155	St. Skorpionbogenschütze	Translate-Me		
+2156	Starker Schlangenkämpfer	Translate-Me		
+2157	Starker Schlangenschütze	Translate-Me		
+2158	Starker Wüstenbandit	Translate-Me		
+2191	Große Wüstenschildkröte	Translate-Me		
+2192	Dunkle Wüstenschildkröte	Translate-Me		
+2201	Kampftigersklave	Translate-Me		
+2202	Flammengeist	Translate-Me		
+2203	Kampftiger	Translate-Me		
+2204	Flamme	Translate-Me		
+2205	Flammenkrieger	Translate-Me		
+2206	Flammenkönig	Translate-Me		
+2207	Dunkl. Flammenkönig	Translate-Me		
+2231	Starker Kampftigersklave	Translate-Me		
+2232	Starker Flammengeist	Translate-Me		
+2233	Starker Kampftiger	Translate-Me		
+2234	Starke Flamme	Translate-Me		
+2235	Starker Flammenkrieger	Translate-Me		
+2291	Roter Drache	Translate-Me		
+2301	Geisterbaum	Translate-Me		
+2302	Geisterbaumstumpf	Translate-Me		
+2303	Dryade	Translate-Me		
+2304	Geisterweide	Translate-Me		
+2305	Böser Baum	Translate-Me		
+2306	Riesiger Geisterbaum	Translate-Me		
+2307	Geisterbaum-Lord	Translate-Me		
+2311	Roter Geisterbaum	Translate-Me		
+2312	Roter Geisterbaumstumpf	Translate-Me		
+2313	Rote Dryade	Translate-Me		
+2314	Rote Geisterweide	Translate-Me		
+2315	Roter böser Baum	Translate-Me		
+2401	Setaou-Kämpfer	Translate-Me		
+2402	Setaou-Jäger	Translate-Me		
+2403	Setaou-Seherin	Translate-Me		
+2404	Setaou-Anführer	Translate-Me		
+2411	Setaou-Soldat	Translate-Me		
+2412	Setaou-Bogenschütze	Translate-Me		
+2413	Setaou-Magistra	Translate-Me		
+2414	Setaou-Kommandant	Translate-Me		
+101	Wildhund	Translate-Me		
+20113	Weißes Shinsoo Pferd	Translate-Me		
+20114	Braunes Shinsoo Pferd	Translate-Me		
+20115	Schwarzes Shinsoo Pferd	Translate-Me		
+20116	Weißes Chunjo Pferd	Translate-Me		
+20117	Braunes Chunjo Pferd	Translate-Me		
+20118	Schwarzes Chunjo Pferd	Translate-Me		
+20119	Weißes Jinno Pferd	Translate-Me		
+20120	Braunes Jinno Pferd	Translate-Me		
+20121	Schwarzes Jinno Pferd	Translate-Me		
+20150	Pony	Translate-Me		
+20151	Pony	Translate-Me		
+20152	Pony	Translate-Me		
+20153	Pony	Translate-Me		
+20154	SR Braun	Translate-Me		
+20155	SR Schwarz	Translate-Me		
