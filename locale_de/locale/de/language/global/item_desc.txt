@@ -1996,7 +1996,7 @@
 50123	Energieschub! Diese Eiscreme erhöht deine Bewegungsgeschwindigkeit für 30 Minuten um 60. Achtung: Erneutes Aktivieren, während der Energieschub noch anhält, überschreibt die Laufzeit.	Translate-Me
 50124	Aus dem Inneren scheinen leise Tierlaute zu dringen.	Translate-Me
 50125	Diese blaue Truhe beinhaltet einen wertvollen Geiststein. Der Inhalt kann beim Händler für viel Yang verkauft werden.	Translate-Me
-50126	Diese grüne Truhe beinhaltet ein wertvolles Uppitem. Der Inhalt kann bei Spielern für viel Yang verkauft werden.	Translate-Me
+50126	Diese grüne Truhe beinhaltet eine wertvolle Zutat. Der Inhalt kann bei Spielern für viel Yang verkauft werden.	Translate-Me
 50127	Diese gelbe Truhe beinhaltet ein wertvolles Item. Falls der Inhalt handelbar ist, kann man diesen bei Spielern für viel Yang verkaufen.	Translate-Me
 50128	Diese beige Truhe beinhaltet einen wertvollen Fisch. Der Inhalt kann bei Spielern für viel Yang verkauft werden.	Translate-Me
 50129	Diese rote Truhe beinhaltet ein wertvolles Fertigkeitsbuch. Der Inhalt kann beim Händler für viel Yang verkauft werden.	Translate-Me
