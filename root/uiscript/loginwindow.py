@@ -46,7 +46,7 @@ window = {
 						"name": "flags_bg",
 						"type": "bar",
 
-						"width": 100,
+						"width": 135,
 						"height": 15,
 
 						"x" : 0, "y" : BOX_POSITION_Y - 150,
@@ -88,9 +88,9 @@ window = {
 								"x": 35*2,
 								"y": 0,
 
-								"default_image" : "locale/de/ui/flags/de_default.png",
-								"down_image" : "locale/de/ui/flags/de_hover.png",
-								"over_image" : "locale/de/ui/flags/de_hover.png",
+								"default_image" : "locale/de/ui/flags/tr_default.png",
+								"down_image" : "locale/de/ui/flags/tr_hover.png",
+								"over_image" : "locale/de/ui/flags/tr_hover.png",
 							},
 
 							{
@@ -100,9 +100,9 @@ window = {
 								"x": 35*3,
 								"y": 0,
 
-								"default_image" : "locale/de/ui/flags/de_default.png",
-								"down_image" : "locale/de/ui/flags/de_hover.png",
-								"over_image" : "locale/de/ui/flags/de_hover.png",
+								"default_image" : "locale/de/ui/flags/ru_default.png",
+								"down_image" : "locale/de/ui/flags/ru_hover.png",
+								"over_image" : "locale/de/ui/flags/ru_hover.png",
 							},
 						),
 					},

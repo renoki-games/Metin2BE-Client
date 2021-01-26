@@ -274,7 +274,7 @@ class LoginWindow(ui.ScriptWindow):
 			
 				
 		for (channelID, channelButtons) in self.channelButton.items():
-				channelButtons.SetEvent(ui.__mem_func__(self.SetChannel), channelID)
+			channelButtons.SetEvent(ui.__mem_func__(self.SetChannel), channelID)
 		
 		self.serverName.SetText("%s" % (serverlogindata.SRV_LIST[0][0][0]))
 		
