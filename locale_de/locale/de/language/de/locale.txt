@@ -1395,7 +1395,7 @@ TOOLTIP_APPLY_MAX_HP_PCT	Max. TP +%d%%	SA
 TOOLTIP_APPLY_MAX_SP_PCT	Max. MP +%d%%	SA
 TOOLTIP_APPLY_NOAFFECT	Keine Auswirkung
 TOOLTIP_APPLY_NO_DEATH_PENALTY	Bei Wiederbelebung des Charakters am Ort des Todes werden keine Erfahrungspunkte abgezogen.	SNA
-TOOLTIP_APPLY_NO_DEATH_PENALTY_PERM	Bei Wiederbelebung des Charakters am Ort des Todes werden keine Erfahrungspunkte abgezogen. Dieser Effekt gillt für 30 Tage.	SNA
+TOOLTIP_APPLY_NO_DEATH_PENALTY_PERM	Bei Wiederbelebung des Charakters am Ort des Todes werden keine Erfahrungspunkte abgezogen.	SNA
 TOOLTIP_APPLY_PENETRATE_PCT	%d%% Chance auf durchbohrenden Treffer	SA
 TOOLTIP_APPLY_POISON_PCT	Vergiftungschance %d%%	SA
 TOOLTIP_APPLY_POISON_REDUCE	Giftwiderstand %d%%	SA
@@ -1489,13 +1489,13 @@ TOOLTIP_MALL_DEFBONUS	Verteidigung +%d%%	SA
 TOOLTIP_MALL_DEFBONUS_STATIC	Verteidigung	SNA
 TOOLTIP_MALL_EXPBONUS	EXP +%d%%	SA
 TOOLTIP_MALL_EXPBONUS_P_STATIC	iCafe EXP-Bonus +%d%%	SA
-TOOLTIP_MALL_EXPBONUS_STATIC	50% mehr EXP	SNA
+TOOLTIP_MALL_EXPBONUS_STATIC	50% mehr EXP.	SNA
 TOOLTIP_MALL_FISH_MIND	Die Chance, einen Fisch zu fangen, ist erhöht.	SNA
 TOOLTIP_MALL_GOLDBONUS	Dropchance Yang um %.1f%% erhöht.	SA
-TOOLTIP_MALL_GOLDBONUS_STATIC	Doppelte Dropchance Yang	SNA
+TOOLTIP_MALL_GOLDBONUS_STATIC	Doppelte Dropchance Yang.	SNA
 TOOLTIP_MALL_ITEMBONUS	Dropchance von Gegenständen (%.1f)	SA
 TOOLTIP_MALL_ITEMBONUS_P_STATIC	iCafe Chance auf Erbeuten von Gegenständen plus %.1f%%	SA
-TOOLTIP_MALL_ITEMBONUS_STATIC	Doppelte Dropchance von Gegenständen	SNA
+TOOLTIP_MALL_ITEMBONUS_STATIC	Doppelte Dropchance von Gegenständen.	SNA
 TOOLTIP_MALL_MARRIAGE_FAST	Liebespunkte wachsen schneller an.	SNA
 TOOLTIP_MALL_SAFEBOX	Es steht mehr Lagerraum zur Verfügung.	SNA
 TOOLTIP_MAX_HP	Max. TP +%d	SA
