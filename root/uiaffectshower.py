@@ -440,6 +440,7 @@ class AffectShower(ui.Window):
 			chr.NEW_AFFECT_GOLD_BONUS : (localeInfo.TOOLTIP_MALL_GOLDBONUS_STATIC, "d:/ymir work/ui/skill/common/affect/gold_bonus.sub",),
 
 			chr.NEW_AFFECT_NO_DEATH_PENALTY : (localeInfo.TOOLTIP_APPLY_NO_DEATH_PENALTY, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),
+			chr.NEW_AFFECT_NO_DEATH_PENALTY_PERM : (localeInfo.TOOLTIP_APPLY_NO_DEATH_PENALTY_PERM, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),
 			chr.NEW_AFFECT_SKILL_BOOK_BONUS : (localeInfo.TOOLTIP_APPLY_SKILL_BOOK_BONUS, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),
 			chr.NEW_AFFECT_SKILL_BOOK_NO_DELAY : (localeInfo.TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),
 
@@ -514,6 +515,8 @@ class AffectShower(ui.Window):
 
 		self.NEW_AFFECT_LIST = []
 		self.NEW_AFFECT_LIST.append(chr.AFFECT_ANTI_EXP)
+		self.NEW_AFFECT_LIST.append(chr.NEW_AFFECT_NO_DEATH_PENALTY)
+
 		if (app.ENABLE_AFFECT_POLYMORPH_REMOVE):
 			self.NEW_AFFECT_LIST.append(chr.NEW_AFFECT_POLYMORPH) # += chr.NEW_AFFECT_POLYMORPH if is enabled.
 	

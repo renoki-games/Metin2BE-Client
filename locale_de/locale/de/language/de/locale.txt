@@ -1395,6 +1395,7 @@ TOOLTIP_APPLY_MAX_HP_PCT	Max. TP +%d%%	SA
 TOOLTIP_APPLY_MAX_SP_PCT	Max. MP +%d%%	SA
 TOOLTIP_APPLY_NOAFFECT	Keine Auswirkung
 TOOLTIP_APPLY_NO_DEATH_PENALTY	Bei Wiederbelebung des Charakters am Ort des Todes werden keine Erfahrungspunkte abgezogen.	SNA
+TOOLTIP_APPLY_NO_DEATH_PENALTY_PERM	Bei Wiederbelebung des Charakters am Ort des Todes werden keine Erfahrungspunkte abgezogen. Dieser Effekt gillt für 30 Tage.	SNA
 TOOLTIP_APPLY_PENETRATE_PCT	%d%% Chance auf durchbohrenden Treffer	SA
 TOOLTIP_APPLY_POISON_PCT	Vergiftungschance %d%%	SA
 TOOLTIP_APPLY_POISON_REDUCE	Giftwiderstand %d%%	SA
