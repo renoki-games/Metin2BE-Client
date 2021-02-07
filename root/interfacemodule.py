@@ -36,6 +36,7 @@ import uiGameButton
 import uiTip
 import uiCube
 import miniMap
+import uitransfersystem
 # ACCESSORY_REFINE_ADD_METIN_STONE
 import uiselectitem
 # END_OF_ACCESSORY_REFINE_ADD_METIN_STONE
@@ -75,6 +76,7 @@ class Interface(object):
 		self.wndMiniMap = None
 		self.wndGuild = None
 		self.wndGuildBuilding = None
+		self.wndTransferSystem = None
 
 		self.listGMName = {}
 		self.wndQuestWindow = {}
@@ -116,6 +118,17 @@ class Interface(object):
 		wndUICurtain.SetColor(0x77000000)
 		wndUICurtain.Hide()
 		self.wndUICurtain = wndUICurtain
+
+	def __MakeTransferSystemDialog(self):
+		self.wndTransferSystem = uitransfersystem.TransferSystemWindow()
+		self.wndTransferSystem.SetToolTipItem(self.tooltipItem)
+		self.wndTransferSystem.Hide()
+
+	def ToggleTransferSystemWindow(self):
+		if self.wndTransferSystem.IsShow():
+			self.wndTransferSystem.Close()
+		else:
+			self.wndTransferSystem.Open()
 
 	def __MakeMessengerWindow(self):
 		self.wndMessenger = uiMessenger.MessengerWindow()
@@ -309,6 +322,7 @@ class Interface(object):
 		self.__MakeWebWindow()
 		self.__MakeCubeWindow()
 		self.__MakeCubeResultWindow()
+		self.__MakeTransferSystemDialog()
 
 
 		# ACCESSORY_REFINE_ADD_METIN_STONE
@@ -450,6 +464,12 @@ class Interface(object):
 		if self.wndGuildBuilding:
 			self.wndGuildBuilding.Destroy()
 
+		if self.wndTransferSystem:
+			if self.wndTransferSystem.IsShow():
+				self.wndTransferSystem.Close()
+
+			self.wndTransferSystem.Destroy()
+
 		if self.wndGameButton:
 			self.wndGameButton.Destroy()
 
@@ -507,6 +527,7 @@ class Interface(object):
 		del self.wndChatLog
 		del self.dlgRefineNew
 		del self.wndGuildBuilding
+		del self.wndTransferSystem
 		del self.wndGameButton
 		del self.tipBoard
 		del self.bigBoard

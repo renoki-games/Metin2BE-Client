@@ -345,6 +345,7 @@ class GameWindow(ui.ScriptWindow):
 		onPressKeyDict[app.DIK_F2]	= lambda : self.__PressQuickSlot(5)
 		onPressKeyDict[app.DIK_F3]	= lambda : self.__PressQuickSlot(6)
 		onPressKeyDict[app.DIK_F4]	= lambda : self.__PressQuickSlot(7)
+		onPressKeyDict[app.DIK_F7]	= lambda : self.ToggleTransferSystemWindow()
 
 		if hasattr(app, "GMS_CAN_WALK_REALLY_FAST"):
 			onPressKeyDict[app.DIK_F12]	= lambda : self.ToggleGMSpeed()
@@ -2382,3 +2383,6 @@ class GameWindow(ui.ScriptWindow):
 	def gift_show(self,pages):
 		self.interface.wndGiftBox.pageNum=int(pages)
 		self.interface.OpenGift()	
+
+	def ToggleTransferSystemWindow(self):
+		self.interface.ToggleTransferSystemWindow()

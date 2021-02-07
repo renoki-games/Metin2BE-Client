@@ -1,7 +1,7 @@
 {
 	"eter_pack_index_ext": ".eix",
 	"eter_pack_data_ext": ".epk",
-	"force_filename_lowercase": false,
+	"force_filename_lowercase": true,
 	"default_pack_type": 2,
 	"pack_type_by_list": [],
 	"eter_pack_index_key": [

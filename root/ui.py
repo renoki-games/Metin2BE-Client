@@ -1256,8 +1256,8 @@ class CheckBox(Window):
 		self.backgroundImage = None
 		self.checkImage = None
 
-		self.eventFunc = { "ON_CHECK" : None, "ON_UNCKECK" : None, }
-		self.eventArgs = { "ON_CHECK" : None, "ON_UNCKECK" : None, }
+		self.eventFunc = { "ON_CHECK" : None, "ON_UNCHECK" : None, }
+		self.eventArgs = { "ON_CHECK" : None, "ON_UNCHECK" : None, }
 	
 		self.CreateElements()
 		
@@ -1267,8 +1267,8 @@ class CheckBox(Window):
 		self.backgroundImage = None
 		self.checkImage = None
 		
-		self.eventFunc = { "ON_CHECK" : None, "ON_UNCKECK" : None, }
-		self.eventArgs = { "ON_CHECK" : None, "ON_UNCKECK" : None, }
+		self.eventFunc = { "ON_CHECK" : None, "ON_UNCHECK" : None, }
+		self.eventArgs = { "ON_CHECK" : None, "ON_UNCHECK" : None, }
 		
 	def CreateElements(self):
 		self.backgroundImage = ImageBox()
@@ -1309,7 +1309,7 @@ class CheckBox(Window):
 		return False
 		
 	def SetEvent(self, func, *args) :
-		result = self.eventFunc.has_key(args[0])
+		result = self.eventFunc.has_key(args[0])		
 		if result :
 			self.eventFunc[args[0]] = func
 			self.eventArgs[args[0]] = args
@@ -1321,8 +1321,8 @@ class CheckBox(Window):
 			if self.checkImage.IsShow():
 				self.checkImage.Hide()
 
-				if self.eventFunc["ON_UNCKECK"]:
-					apply(self.eventFunc["ON_UNCKECK"], self.eventArgs["ON_UNCKECK"])
+				if self.eventFunc["ON_UNCHECK"]:
+					apply(self.eventFunc["ON_UNCHECK"], self.eventArgs["ON_UNCHECK"])
 			else:
 				self.checkImage.Show()
 
@@ -1868,6 +1868,9 @@ class SlotWindow(Window):
 
 	def AppendSlot(self, index, x, y, width, height):
 		wndMgr.AppendSlot(self.hWnd, index, x, y, width, height)
+
+	def GetSlotVnum(self, slotIndex):
+		return wndMgr.GetSlotVnum(self.hWnd, slotIndex)
 
 	def SetSlot(self, slotIndex, itemIndex, width, height, icon, diffuseColor = (1.0, 1.0, 1.0, 1.0)):
 		wndMgr.SetSlot(self.hWnd, slotIndex, itemIndex, width, height, icon, diffuseColor)
@@ -3363,7 +3366,7 @@ class PythonScriptLoader(object):
 		#ui 코드는 sandbox 내에서 실행되어야한다.(봇이 껴있을 여지가 있기 때문에)
 		import sys
 		from utils import Sandbox
-		sandbox = Sandbox(True, ["localeInfo", "localeInfo", "sys", "item", "app", "player"])
+		sandbox = Sandbox(True, ["localeInfo", "constInfo", "chr", "sys", "item", "app", "player"])
 
 		# chr, player 등은 sandbox 내에서 import가 허용되지 않기 때문에,(봇이 악용할 여지가 매우 큼.)
 		#  미리 script dictionary에 필요한 상수를 넣어놓는다.
@@ -3521,6 +3524,11 @@ class PythonScriptLoader(object):
 				parent.Children[Index] = AniImageBox()
 				parent.Children[Index].SetParent(parent)
 				self.LoadElementAniImage(parent.Children[Index], ElementValue, parent)
+
+			elif Type == "checkbox":
+				parent.Children[Index] = CheckBox()
+				parent.Children[Index].SetParent(parent)
+				self.LoadElementCheckbox(parent.Children[Index], ElementValue, parent)
 
 			elif Type == "slot":
 				parent.Children[Index] = SlotWindow()
@@ -3775,6 +3783,20 @@ class PythonScriptLoader(object):
 
 		self.LoadDefaultData(window, value, parentWindow)
 
+		return True
+
+	## CheckBox
+	def LoadElementCheckbox(self, window, value, parentWindow):
+		if False == self.CheckKeyList(value["name"], value, self.DEFAULT_KEY_LIST):
+			return False
+
+		if value.has_key("text"):
+			window.SetTextInfo(value["text"])
+
+		if value.has_key("check"):
+			window.SetCheckStatus(value["check"])
+
+		self.LoadDefaultData(window, value, parentWindow)
 		return True
 
 	## Expanded Image

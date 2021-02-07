@@ -57,11 +57,7 @@ class PickMoneyDialog(ui.ScriptWindow):
 	def SetMax(self, max):
 		self.pickValueEditLine.SetMax(max)
 
-	def Open(self, maxValue, unitValue=1):
-
-		if localeInfo.IsYMIR() or localeInfo.IsCHEONMA() or localeInfo.IsHONGKONG():
-			unitValue = ""
-
+	def Open(self, maxValue=0, unitValue=1):
 		width = self.GetWidth()
 		(mouseX, mouseY) = wndMgr.GetMousePosition()
 
@@ -74,31 +70,42 @@ class PickMoneyDialog(ui.ScriptWindow):
 
 		self.SetPosition(xPos, mouseY - self.GetHeight() - 20)
 
-		self.maxValueTextLine.SetText(" / " + localeInfo.NumberWithDots(maxValue))
+		if maxValue:
+			self.maxValueTextLine.SetText(" / " + str(maxValue))
+		else:
+			self.maxValueTextLine.SetText(" / Unendl. ")
+
+		self.maxValue = maxValue
+		self.unitValue = unitValue
+		self.Show()
+		self.SetTop()
 
 		self.pickValueEditLine.SetText(str(unitValue))
 		self.pickValueEditLine.SetFocus()
 
-		ime.SetCursorPosition(1)
-
-		self.unitValue = unitValue
-		self.maxValue = maxValue
-		self.Show()
-		self.SetTop()
+		ime.MoveEnd()
 
 	def Close(self):
-		self.pickValueEditLine.KillFocus()
 		self.Hide()
+
+	def OnPressEscapeKey(self):
+		if self.pickValueEditLine and self.pickValueEditLine.IsFocus():
+			self.pickValueEditLine.KillFocus()
+			return
+
+		self.Close()
+		return True
 
 	def OnAccept(self):
 
 		text = self.pickValueEditLine.GetText()
-		text = text.replace("k", "000")
 
 		if len(text) > 0 and text.isdigit():
 
 			money = long(text)
-			money = min(money, self.maxValue)
+
+			if self.maxValue:
+				money = min(money, self.maxValue)
 
 			if money > 0:
 				if self.eventAccept:
